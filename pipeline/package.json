@@ -1,0 +1,10 @@
+{
+  "name": "@ai-cards/pipeline",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/run.ts",
+    "typecheck": "tsc --noEmit"
+  }
+}

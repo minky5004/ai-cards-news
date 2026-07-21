@@ -1,0 +1,18 @@
+{
+  "name": "ai-cards-news",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "매일 자동 생성되는 AI 뉴스 카드 웹사이트",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "pipeline": "pnpm --filter @ai-cards/pipeline start",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}
