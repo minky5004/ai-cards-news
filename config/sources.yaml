@@ -1,0 +1,61 @@
+# 수집 소스 목록. 소스를 늘리려면 여기에 항목만 추가하면 된다.
+#
+# trust: 소스 신뢰 가중치 (0~1). 1차 출처(AI 랩 공식 블로그)를 테크 미디어보다 높게 둔다.
+#        스코어링에서 sourceTrust 항으로 쓰인다.
+#
+# 죽은 피드는 실행을 멈추지 않고 경고만 남기고 건너뛴다.
+
+rss:
+  # 1차 출처 — AI 랩 공식 블로그
+  - name: openai
+    url: https://openai.com/news/rss.xml
+    trust: 1.0
+  - name: google-deepmind
+    url: https://deepmind.google/blog/rss.xml
+    trust: 1.0
+  - name: huggingface
+    url: https://huggingface.co/blog/feed.xml
+    trust: 0.9
+
+  # 테크 미디어
+  - name: techcrunch-ai
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    trust: 0.6
+  - name: arstechnica-ai
+    url: https://arstechnica.com/ai/feed/
+    trust: 0.7
+  - name: theverge-ai
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    trust: 0.6
+  - name: venturebeat-ai
+    url: https://venturebeat.com/category/ai/feed/
+    trust: 0.5
+  - name: mit-tech-review-ai
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    trust: 0.7
+
+  # 개인 블로그 / 뉴스레터 — 화제 포착이 빠르다
+  - name: simonwillison
+    url: https://simonwillison.net/atom/everything/
+    trust: 0.7
+
+hackernews:
+  enabled: true
+  # Algolia 검색 쿼리. 각 쿼리를 개별 호출해 합친 뒤 중복을 제거한다.
+  queries:
+    - AI
+    - LLM
+    - OpenAI
+    - Anthropic
+    - Claude
+    - GPT
+    - Gemini
+    - open source model
+    - open weights
+    - model release
+    - AI agent
+    - machine learning
+  # 이 점수 미만은 아예 후보에서 뺀다. HN 노이즈 1차 차단선.
+  minPoints: 30
+  hitsPerQuery: 50
+  trust: 0.8
