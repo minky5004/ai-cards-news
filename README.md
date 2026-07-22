@@ -32,7 +32,7 @@ OR 로 묶는다. 임계값은 실제 수집분에 정답을 붙여 격자 탐�
 | `pipeline/` | 수집·스코어링·카피·렌더링을 수행하는 Node CLI |
 | `web/` | 카드를 보여주는 정적 사이트 (Astro) |
 | `config/` | 소스 목록, 스코어 가중치 등 튜닝 대상 설정 |
-| `prompts/` | LLM 프롬프트 템플릿 |
+| `prompts/` | LLM 프롬프트 템플릿 — 카피 톤은 코드가 아니라 여기서 튜닝한다 |
 | `content/` | 날짜별 산출물 — 카드 JSON 과 수집 원본 |
 
 ## 개발
@@ -47,8 +47,12 @@ pnpm typecheck
 # 각 단계는 앞 단계의 산출물을 읽는다. 이미 만든 산출물은 --force 없이는 덮어쓰지 않는다.
 node pipeline/src/run.ts ingest  --date 2026-07-22
 node pipeline/src/run.ts extract --date 2026-07-22
+node pipeline/src/run.ts copy    --date 2026-07-22
 ```
+
+카피라이팅에는 `GEMINI_API_KEY` 가 필요하다. `.env` 에 넣으면 로컬 실행에서 읽고,
+자동화에서는 같은 이름의 환경변수로 주입한다.
 
 ## 기술 스택
 
-TypeScript · pnpm workspace · Astro · Playwright · Claude API · GitHub Actions · GitHub Pages
+TypeScript · pnpm workspace · Astro · Playwright · Gemini API · GitHub Actions · GitHub Pages
