@@ -19,6 +19,10 @@ export function rawJsonPath(date: string): string {
   return join(dateDir(date), 'raw.json');
 }
 
+export function articlesJsonPath(date: string): string {
+  return join(dateDir(date), 'articles.json');
+}
+
 export function cardsJsonPath(date: string): string {
   return join(dateDir(date), 'cards.json');
 }

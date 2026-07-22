@@ -61,6 +61,37 @@ export const IngestResultSchema = z.object({
   selectedIds: z.array(z.string()),
 });
 
+/** content/<date>/articles.json — 선정된 클러스터의 대표 기사 본문. 카피라이팅의 입력이다. */
+export const ArticlesResultSchema = z.object({
+  date: z.string(),
+  generatedAt: z.iso.datetime(),
+  articles: z.array(
+    z.object({
+      /** 어느 클러스터의 대표 기사인가 */
+      clusterId: z.string(),
+      url: z.string(),
+      /** 수집 단계에서 얻은 제목. 추출이 실패해도 이건 남는다. */
+      sourceTitle: z.string(),
+      source: z.string(),
+      ok: z.boolean(),
+      /** 원문에서 읽은 제목 — 피드 제목이 잘려 있을 때 더 정확하다 */
+      title: z.string().optional(),
+      text: z.string().optional(),
+      /** 카드 썸네일 후보 */
+      imageUrl: z.string().optional(),
+      byline: z.string().optional(),
+      siteName: z.string().optional(),
+      error: z.string().optional(),
+      /**
+       * 이 기사에 닿기 전에 실패한 후보들. 대표 기사가 막혀 다른 매체로 넘어간 경우
+       * 여기 기록이 남는다. 어떤 매체가 스크래핑을 막는지 알아야 손볼 수 있다.
+       */
+      skipped: z.array(z.string()).optional(),
+    }),
+  ),
+});
+
 export type RawItem = z.infer<typeof RawItemSchema>;
 export type Cluster = z.infer<typeof ClusterSchema>;
 export type IngestResult = z.infer<typeof IngestResultSchema>;
+export type ArticlesResult = z.infer<typeof ArticlesResultSchema>;
