@@ -1,3 +1,9 @@
 packages:
   - 'pipeline'
   - 'web'
+# 의존성의 설치 스크립트 허용 여부. pnpm 은 공급망 보호를 위해 기본 차단하고,
+# 결정하지 않은 채로 두면 설치가 실패한다.
+# 둘 다 우리가 쓰는 JS API 에는 필요 없는 스크립트라 차단을 유지한다.
+allowBuilds:
+  '@google/genai': false
+  protobufjs: false

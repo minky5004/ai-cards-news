@@ -38,6 +38,12 @@ const PipelineConfigSchema = z.object({
     titleOverlap: z.number().min(0).max(1),
     titleSimilarity: z.number().min(0).max(1),
   }),
+  copy: z.object({
+    model: z.string(),
+    maxTokens: z.number().int().positive(),
+    /** 사고 토큰 예산. 비워 두면 모델 기본값을 쓰고, 0 이면 사고를 끈다. */
+    thinkingBudget: z.number().int().nonnegative().nullish(),
+  }),
   scoring: z.object({
     weights: z.object({
       hnPoints: z.number(),

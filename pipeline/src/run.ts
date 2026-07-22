@@ -7,14 +7,20 @@
 
 import { existsSync } from 'node:fs';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
-import { relative } from 'node:path';
+import { join, relative } from 'node:path';
 import { loadPipelineConfig, loadSources } from './config.ts';
+import { writeAllCopy } from './copy/index.ts';
 import { extractSelected } from './extract/index.ts';
 import { collectAll } from './ingest/index.ts';
 import { clusterByTitle, mergeByUrl } from './ingest/dedup.ts';
-import { articlesJsonPath, dateDir, rawJsonPath, repoRoot } from './paths.ts';
+import { articlesJsonPath, cardsJsonPath, dateDir, rawJsonPath, repoRoot } from './paths.ts';
 import { rank } from './score/rank.ts';
-import { ArticlesResultSchema, IngestResultSchema, type Cluster } from './schema.ts';
+import {
+  ArticlesResultSchema,
+  CardsResultSchema,
+  IngestResultSchema,
+  type Cluster,
+} from './schema.ts';
 
 const STAGES = ['ingest', 'extract', 'copy', 'render', 'run'] as const;
 type Stage = (typeof STAGES)[number];
@@ -198,7 +204,106 @@ async function runExtract(date: string, force: boolean): Promise<void> {
   console.log(`${relative(repoRoot, articlesJsonPath(date))} 에 기록했다.`);
 }
 
+async function runCopy(date: string, force: boolean): Promise<void> {
+  if (!force && existsSync(cardsJsonPath(date))) {
+    console.log(
+      `${relative(repoRoot, cardsJsonPath(date))} 가 이미 있다. 다시 만들려면 --force 를 붙여라.`,
+    );
+    return;
+  }
+
+  if (!existsSync(articlesJsonPath(date))) {
+    throw new Error(
+      `${relative(repoRoot, articlesJsonPath(date))} 가 없다. 먼저 extract 단계를 실행해라.`,
+    );
+  }
+
+  const config = await loadPipelineConfig();
+  const articlesResult = ArticlesResultSchema.parse(
+    JSON.parse(await readFile(articlesJsonPath(date), 'utf8')),
+  );
+  const raw = IngestResultSchema.parse(JSON.parse(await readFile(rawJsonPath(date), 'utf8')));
+
+  console.log(
+    `카피라이팅 시작 — ${date} (${articlesResult.articles.length}건, ${config.copy.model})\n`,
+  );
+
+  const results = await writeAllCopy(articlesResult.articles, raw.clusters, config.copy);
+  const byClusterId = new Map(articlesResult.articles.map((article) => [article.clusterId, article]));
+
+  const cards = [];
+  let inputTokens = 0;
+  let outputTokens = 0;
+
+  for (const result of results) {
+    const article = byClusterId.get(result.clusterId);
+    inputTokens += result.usage?.inputTokens ?? 0;
+    outputTokens += result.usage?.outputTokens ?? 0;
+
+    if (!result.ok || !article) {
+      console.log(`✗ ${article?.sourceTitle.slice(0, 58) ?? result.clusterId}`);
+      console.log(`     실패 — ${result.error}`);
+      continue;
+    }
+
+    const cluster = raw.clusters.find((candidate) => candidate.id === result.clusterId);
+    const representative =
+      cluster?.items.find((item) => item.id === cluster.representativeId) ?? cluster?.items[0];
+
+    console.log(`✓ ${result.headline}`);
+    console.log(`     ${result.body}`);
+    console.log(`     ${article.source} · ${article.url}`);
+    // 추출이 실패한 기사는 제목만 보고 쓴 카피다. 사실 왜곡 위험이 높으니 드러낸다.
+    if (!article.ok) console.log('     ⚠ 본문 없이 제목만으로 작성됨 — 사실 확인 필요');
+    console.log();
+
+    cards.push({
+      clusterId: result.clusterId,
+      headline: result.headline!,
+      body: result.body!,
+      sourceUrl: article.url,
+      sourceName: article.siteName ?? article.source,
+      imageUrl: article.imageUrl,
+      publishedAt: representative?.publishedAt ?? articlesResult.generatedAt,
+    });
+  }
+
+  // 무료 티어라 비용은 없지만 사용량은 남긴다. 한도에 얼마나 여유가 있는지 봐야 한다.
+  console.log(
+    `카드 ${cards.length}/${results.length}장 · 토큰 입력 ${inputTokens} 출력 ${outputTokens}`,
+  );
+
+  // 한 장도 못 만들었으면 파일을 쓰지 않는다. 빈 산출물을 남기면 이전 결과를 덮어쓰고,
+  // 뒤 단계가 그걸 정상으로 알고 빈 날짜를 발행한다. 실패는 실패로 드러나야 한다.
+  if (cards.length === 0) {
+    throw new Error(
+      `카피를 한 장도 만들지 못했다 (${results.length}건 시도). ${relative(repoRoot, cardsJsonPath(date))} 는 쓰지 않았다.`,
+    );
+  }
+
+  const result = CardsResultSchema.parse({
+    date,
+    generatedAt: new Date().toISOString(),
+    cards,
+  });
+
+  await mkdir(dateDir(date), { recursive: true });
+  await writeFile(cardsJsonPath(date), `${JSON.stringify(result, null, 2)}\n`, 'utf8');
+
+  console.log(`${relative(repoRoot, cardsJsonPath(date))} 에 기록했다.`);
+}
+
+/**
+ * 로컬 실행 편의를 위해 .env 를 읽는다.
+ * CI 에서는 파일 없이 환경변수로 주입되므로 없어도 그냥 넘어간다.
+ */
+function loadLocalEnv(): void {
+  const envPath = join(repoRoot, '.env');
+  if (existsSync(envPath)) process.loadEnvFile(envPath);
+}
+
 async function main() {
+  loadLocalEnv();
   const { stage, date, force } = parseArgs(process.argv.slice(2));
 
   if (stage === 'ingest') {
@@ -208,6 +313,11 @@ async function main() {
 
   if (stage === 'extract') {
     await runExtract(date, force);
+    return;
+  }
+
+  if (stage === 'copy') {
+    await runCopy(date, force);
     return;
   }
 
