@@ -6,16 +6,17 @@
  */
 
 import { existsSync } from 'node:fs';
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { relative } from 'node:path';
 import { loadPipelineConfig, loadSources } from './config.ts';
+import { extractSelected } from './extract/index.ts';
 import { collectAll } from './ingest/index.ts';
 import { clusterByTitle, mergeByUrl } from './ingest/dedup.ts';
-import { dateDir, rawJsonPath, repoRoot } from './paths.ts';
+import { articlesJsonPath, dateDir, rawJsonPath, repoRoot } from './paths.ts';
 import { rank } from './score/rank.ts';
-import { IngestResultSchema, type Cluster } from './schema.ts';
+import { ArticlesResultSchema, IngestResultSchema, type Cluster } from './schema.ts';
 
-const STAGES = ['ingest', 'copy', 'render', 'run'] as const;
+const STAGES = ['ingest', 'extract', 'copy', 'render', 'run'] as const;
 type Stage = (typeof STAGES)[number];
 
 /** 발행 기준 시각이 KST 이므로 날짜도 KST 기준으로 정한다. */
@@ -142,11 +143,71 @@ async function runIngest(date: string, force: boolean): Promise<void> {
   console.log(`\n${relative(repoRoot, rawJsonPath(date))} 에 기록했다.`);
 }
 
+async function runExtract(date: string, force: boolean): Promise<void> {
+  if (!force && existsSync(articlesJsonPath(date))) {
+    console.log(
+      `${relative(repoRoot, articlesJsonPath(date))} 가 이미 있다. 다시 만들려면 --force 를 붙여라.`,
+    );
+    return;
+  }
+
+  if (!existsSync(rawJsonPath(date))) {
+    throw new Error(
+      `${relative(repoRoot, rawJsonPath(date))} 가 없다. 먼저 ingest 단계를 실행해라.`,
+    );
+  }
+
+  // 단계 간 계약을 파일 읽는 시점에 검증한다. 깨진 산출물을 조용히 물고 가지 않는다.
+  const raw = IngestResultSchema.parse(JSON.parse(await readFile(rawJsonPath(date), 'utf8')));
+
+  console.log(`본문 추출 시작 — ${date} (선정 ${raw.selectedIds.length}건)\n`);
+
+  const articles = await extractSelected(raw.clusters, raw.selectedIds);
+
+  for (const article of articles) {
+    const mark = article.ok ? '✓' : '✗';
+    const detail = article.ok
+      ? `${(article.text ?? '').length}자${article.imageUrl ? ' · 썸네일 있음' : ' · 썸네일 없음'}`
+      : `실패 — ${article.error}`;
+
+    console.log(`${mark} ${article.sourceTitle.slice(0, 62)}`);
+    console.log(`     ${detail}`);
+    console.log(`     ${article.url}`);
+    // 대표 기사가 막혀 다른 매체로 넘어갔으면 드러낸다. 조용히 넘어가면 어떤 매체가
+    // 스크래핑을 막는지 알 수 없다.
+    for (const skipped of article.skipped ?? []) {
+      console.log(`     ⚠ 건너뜀 — ${skipped}`);
+    }
+  }
+
+  const succeeded = articles.filter((article) => article.ok).length;
+  const withImage = articles.filter((article) => article.imageUrl).length;
+  console.log(
+    `\n추출 성공 ${succeeded}/${articles.length}건 · 썸네일 확보 ${withImage}건`,
+  );
+
+  const result = ArticlesResultSchema.parse({
+    date,
+    generatedAt: new Date().toISOString(),
+    articles,
+  });
+
+  await mkdir(dateDir(date), { recursive: true });
+  await writeFile(articlesJsonPath(date), `${JSON.stringify(result, null, 2)}\n`, 'utf8');
+
+  console.log(`${relative(repoRoot, articlesJsonPath(date))} 에 기록했다.`);
+}
+
 async function main() {
   const { stage, date, force } = parseArgs(process.argv.slice(2));
 
   if (stage === 'ingest') {
     await runIngest(date, force);
+    return;
+  }
+
+  if (stage === 'extract') {
+    await runExtract(date, force);
     return;
   }
 
