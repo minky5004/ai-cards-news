@@ -51,6 +51,8 @@ export const IngestResultSchema = z.object({
       ok: z.boolean(),
       itemCount: z.number(),
       error: z.string().optional(),
+      /** 주제 관련성 필터에서 떨어진 건수 */
+      filtered: z.number().optional(),
     }),
   ),
   /** 점수 내림차순 전체 클러스터 — 탈락한 것까지 남긴다 */

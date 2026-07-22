@@ -5,6 +5,66 @@ ingest:
   # 실행 직전에 뜬 기사와 전날 저녁 기사를 같이 잡기 위해서다.
   lookbackHours: 36
 
+relevance:
+  # 제목·URL 에 이 중 하나라도 걸리면 AI 소재로 본다. 하나도 없으면 버린다.
+  # (sources.yaml 에서 aiOnly: true 인 피드는 이 검사를 건너뛴다.)
+  #
+  # 앞쪽에만 단어 경계를 적용한다 — "GPT5.6", "LLMs", "fine-tuning" 을 잡기 위해서다.
+  # 따라서 다른 단어의 앞부분이 되는 짧은 조각은 넣지 마라. ("ai" 를 넣으면 airport 가 통과한다.)
+  terms:
+    # 모델·기업 고유명사
+    - openai
+    - anthropic
+    - claude
+    - deepmind
+    - gemini
+    - chatgpt
+    - gpt
+    - llama
+    - mistral
+    - deepseek
+    - qwen
+    - kimi
+    - grok
+    - copilot
+    - midjourney
+    - sora
+    - fable
+    - hugging face
+    - huggingface
+    # 기술 용어
+    - llm
+    - machine learning
+    - deep learning
+    - neural net
+    - transformer
+    - diffusion model
+    - foundation model
+    - language model
+    - frontier model
+    - open model
+    - open-weight
+    - open weight
+    - fine-tun
+    - lora
+    - inference
+    - multimodal
+    - generative
+    - superintelligence
+    - hallucinat
+    - chatbot
+    - agentic
+    - robot
+
+  # 대문자 약어. 양쪽 단어 경계 + 대소문자 구분으로 엄격하게 본다.
+  # "AI" 를 느슨하게 잡으면 Airport·Airbus·AirPods 가 전부 통과한다.
+  acronyms:
+    - AI
+    - AGI
+    - ML
+    - RAG
+    - GPU
+
 dedup:
   # 제목 토큰 자카드 유사도가 이 값 이상이면 같은 사건으로 묶는다.
   # 높이면 클러스터가 잘게 쪼개지고, 낮추면 다른 사건이 뭉친다.
