@@ -95,12 +95,13 @@ async function runIngest(date: string, force: boolean): Promise<void> {
 
   console.log(`수집 시작 — ${date} (최근 ${config.ingest.lookbackHours}시간)\n`);
 
-  const { items, results } = await collectAll(sources, since);
+  const { items, results } = await collectAll(sources, config, since);
 
   console.log('소스별 결과');
   for (const result of results) {
     const status = result.ok ? '✓' : '✗';
-    const detail = result.ok ? `${result.items.length}건` : `실패 — ${result.error}`;
+    const filtered = result.filtered ? ` (주제 무관 ${result.filtered}건 제외)` : '';
+    const detail = result.ok ? `${result.items.length}건${filtered}` : `실패 — ${result.error}`;
     console.log(`  ${status} ${result.name.padEnd(20)} ${detail}`);
     // 성공했더라도 일부 실패가 있으면 드러낸다. 수집량이 조용히 줄어드는 걸 막는다.
     if (result.ok && result.error) console.log(`      ⚠ ${result.error}`);
@@ -124,11 +125,12 @@ async function runIngest(date: string, force: boolean): Promise<void> {
   const result = IngestResultSchema.parse({
     date,
     generatedAt: now.toISOString(),
-    sources: results.map(({ name, ok, items: sourceItems, error }) => ({
+    sources: results.map(({ name, ok, items: sourceItems, error, filtered }) => ({
       name,
       ok,
       itemCount: sourceItems.length,
       error,
+      filtered,
     })),
     clusters: scored,
     selectedIds,

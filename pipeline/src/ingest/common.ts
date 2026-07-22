@@ -13,6 +13,8 @@ export type SourceResult = {
   ok: boolean;
   items: RawItem[];
   error?: string;
+  /** 주제 관련성 필터에서 떨어진 건수. 필터가 과하게 먹는지 보려면 남겨야 한다. */
+  filtered?: number;
 };
 
 /** 차단당했을 때 상대가 누구인지 알 수 있도록 신원을 밝힌다. */

@@ -10,6 +10,8 @@ const RssSourceSchema = z.object({
   name: z.string(),
   url: z.string(),
   trust: z.number().min(0).max(1),
+  /** AI 만 다루는 피드는 제목에 AI 용어가 없어도 통과시킨다. */
+  aiOnly: z.boolean().default(false),
 });
 
 const SourcesSchema = z.object({
@@ -26,6 +28,10 @@ const SourcesSchema = z.object({
 const PipelineConfigSchema = z.object({
   ingest: z.object({
     lookbackHours: z.number().positive(),
+  }),
+  relevance: z.object({
+    terms: z.array(z.string()).min(1),
+    acronyms: z.array(z.string()).min(1),
   }),
   dedup: z.object({
     titleSimilarity: z.number().min(0).max(1),
