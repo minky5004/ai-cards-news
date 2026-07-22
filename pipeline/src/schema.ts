@@ -91,7 +91,29 @@ export const ArticlesResultSchema = z.object({
   ),
 });
 
+/** content/<date>/cards.json — 렌더링과 웹사이트가 읽는 최종 산출물 */
+export const CardsResultSchema = z.object({
+  date: z.string(),
+  generatedAt: z.iso.datetime(),
+  cards: z.array(
+    z.object({
+      clusterId: z.string(),
+      /** 카드에서 가장 큰 글씨 */
+      headline: z.string(),
+      /** 2~3문장 요약 */
+      body: z.string(),
+      /** 원문 링크 — 카드에서 출처로 표시하고 클릭 시 이동한다 */
+      sourceUrl: z.string(),
+      sourceName: z.string(),
+      /** 카드 상단 썸네일. 없으면 렌더링에서 그라데이션으로 폴백한다. */
+      imageUrl: z.string().optional(),
+      publishedAt: z.string(),
+    }),
+  ),
+});
+
 export type RawItem = z.infer<typeof RawItemSchema>;
 export type Cluster = z.infer<typeof ClusterSchema>;
 export type IngestResult = z.infer<typeof IngestResultSchema>;
 export type ArticlesResult = z.infer<typeof ArticlesResultSchema>;
+export type CardsResult = z.infer<typeof CardsResultSchema>;
