@@ -38,10 +38,35 @@ export function normalizeUrl(raw: string): string {
   }
 }
 
+/**
+ * 제목 비교에서 뺄 단어들.
+ *
+ * 기능어가 빠져 있으면 그것만 공유해도 같은 사건으로 오인한다. 실제로
+ * "The State of Simulation for Physical AI" 와 "Safety and alignment in an era of
+ * long-horizon models" 가 of·an 두 개로 묶인 적이 있다.
+ *
+ * 뒤쪽 묶음은 뉴스 제목의 상투어다. 같은 사건이라서가 아니라 기사 제목이라서 겹친다.
+ */
 const STOPWORDS = new Set([
-  'the', 'and', 'for', 'with', 'that', 'this', 'from', 'its', 'has', 'have',
-  'are', 'was', 'were', 'will', 'can', 'new', 'now', 'how', 'why', 'what',
-  'you', 'your', 'our', 'about', 'into', 'over', 'after', 'more', 'than',
+  // 관사·전치사·접속사
+  'the', 'and', 'for', 'with', 'that', 'this', 'from', 'its', 'of', 'an', 'in',
+  'on', 'at', 'by', 'to', 'as', 'or', 'but', 'if', 'so', 'via', 'per', 'vs', 'amid',
+  // be 동사·조동사
+  'is', 'it', 'be', 'are', 'was', 'were', 'has', 'have', 'had', 'been', 'being',
+  'will', 'can', 'would', 'could', 'should', 'may', 'might', 'must', 'does', 'did',
+  // 대명사
+  'you', 'your', 'our', 'we', 'us', 'they', 'them', 'their', 'he', 'she', 'his',
+  'her', 'my', 'me', 'who', 'one', 'two', 'all', 'any', 'some',
+  // 부사·한정사
+  'new', 'now', 'how', 'why', 'what', 'about', 'into', 'over', 'after', 'more',
+  'than', 'when', 'where', 'which', 'while', 'no', 'not', 'out', 'up', 'down',
+  'off', 'back', 'then', 'there', 'here', 'just', 'only', 'also', 'still', 'even',
+  'most', 'many', 'much', 'very', 'well', 'first', 'last', 'next', 'best', 'top',
+  'big', 'long', 'short', 'high', 'low',
+  // 뉴스 제목 상투어 — 같은 사건이 아니라 기사라서 겹친다
+  'says', 'said', 'say', 'launches', 'announces', 'releases', 'introducing',
+  'makes', 'make', 'made', 'use', 'used', 'using', 'takes', 'take', 'gets', 'get',
+  'build', 'built', 'looks', 'look', 'needs', 'need', 'wants', 'want',
 ]);
 
 /** 제목을 비교 가능한 토큰 집합으로 바꾼다. */
@@ -100,25 +125,81 @@ export function mergeByUrl(items: RawItem[]): RawItem[] {
   return [...byUrl.values()];
 }
 
+export type ClusterOptions = {
+  /** 같은 사건으로 보려면 공유해야 하는 최소 내용어 수 */
+  minSharedTokens: number;
+  /** 짧은 쪽 제목이 얼마나 상대에 포함되는가 (Szymkiewicz–Simpson) */
+  titleOverlap: number;
+  /** 토큰 자카드 유사도 */
+  titleSimilarity: number;
+};
+
+function sharedCount(a: Set<string>, b: Set<string>): number {
+  let count = 0;
+  for (const token of a) {
+    if (b.has(token)) count += 1;
+  }
+  return count;
+}
+
 /**
- * 제목 유사도로 같은 사건을 묶는다.
+ * 짧은 쪽 기준 포함 비율. 자카드와 달리 제목 길이 차이에 벌점을 주지 않는다.
+ *
+ * "Gemini 3.6 Flash" 처럼 토큰이 두 개뿐인 HN 제목은 자카드로는 어떤 기사와도
+ * 닿지 못한다. 상대 제목이 길수록 분모가 커지기 때문이다.
+ */
+function overlapCoefficient(a: Set<string>, b: Set<string>): number {
+  const smaller = Math.min(a.size, b.size);
+  return smaller === 0 ? 0 : sharedCount(a, b) / smaller;
+}
+
+/**
+ * 같은 사건을 보도한 것인지 판정한다.
+ *
+ * 두 신호를 OR 로 묶는다. 어느 하나만으로는 갈리지 않기 때문이다.
+ *  - overlap 은 짧은 제목을 잡는다. 자카드로는 "Gemini 3.6 Flash" 가 고립된다.
+ *  - 자카드는 긴 제목을 잡는다. overlap 은 제목이 길수록 불리해서, OpenAI·Hugging Face
+ *    보도 3건이 0.43 으로 아슬아슬하게 떨어졌다.
+ *
+ * 그리고 공유 내용어 수로 하한을 건다. 비율만 보면 짧은 제목이 과민해진다 —
+ * "Advertise in ChatGPT" 와 "ChatGPT for small business" 는 chatgpt 하나로 overlap 이
+ * 0.5 를 넘어버린다.
+ */
+function sameEvent(a: Set<string>, b: Set<string>, options: ClusterOptions): boolean {
+  if (sharedCount(a, b) < options.minSharedTokens) return false;
+
+  return (
+    overlapCoefficient(a, b) >= options.titleOverlap ||
+    jaccard(a, b) >= options.titleSimilarity
+  );
+}
+
+/**
+ * 제목으로 같은 사건을 묶는다.
  *
  * 신뢰도 높은 항목부터 처리해서, 1차 출처가 클러스터 대표가 되도록 한다.
  * 대표 기사가 곧 뒤 단계에서 본문을 추출하고 요약할 대상이다.
+ *
+ * 클러스터 대표하고만 비교하지 않고 이미 묶인 항목 전부와 비교한다(single linkage).
+ * 대표하고만 비교하면 사슬이 끊긴다 — Gemini 3.6 발표에서 "Introducing…"과
+ * "Google releases…"는 서로 안 닿지만 둘 다 "Google announces…"에는 닿았다.
  */
-export function clusterByTitle(items: RawItem[], threshold: number): ItemCluster[] {
+export function clusterByTitle(items: RawItem[], options: ClusterOptions): ItemCluster[] {
   const ordered = [...items].sort((a, b) => b.trust - a.trust);
-  const clusters: { seed: Set<string>; cluster: ItemCluster }[] = [];
+  const clusters: { members: Set<string>[]; cluster: ItemCluster }[] = [];
 
   for (const item of ordered) {
     const tokens = titleTokens(item.title);
-    const match = clusters.find(({ seed }) => jaccard(seed, tokens) >= threshold);
+    const match = clusters.find(({ members }) =>
+      members.some((member) => sameEvent(member, tokens, options)),
+    );
 
     if (match) {
+      match.members.push(tokens);
       match.cluster.items.push(item);
     } else {
       clusters.push({
-        seed: tokens,
+        members: [tokens],
         cluster: { id: item.id, representativeId: item.id, items: [item] },
       });
     }

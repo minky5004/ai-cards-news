@@ -34,6 +34,8 @@ const PipelineConfigSchema = z.object({
     acronyms: z.array(z.string()).min(1),
   }),
   dedup: z.object({
+    minSharedTokens: z.number().int().positive(),
+    titleOverlap: z.number().min(0).max(1),
     titleSimilarity: z.number().min(0).max(1),
   }),
   scoring: z.object({
