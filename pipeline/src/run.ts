@@ -108,7 +108,7 @@ async function runIngest(date: string, force: boolean): Promise<void> {
   }
 
   const merged = mergeByUrl(items);
-  const clusters = clusterByTitle(merged, config.dedup.titleSimilarity);
+  const clusters = clusterByTitle(merged, config.dedup);
   const { clusters: scored, selectedIds } = rank(clusters, config.scoring, now);
 
   console.log(
