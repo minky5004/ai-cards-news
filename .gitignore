@@ -2,6 +2,10 @@ node_modules/
 dist/
 .astro/
 
+# Gradle (wrapper 자체는 커밋한다 — CI 에서 Gradle 설치 없이 빌드하기 위해)
+.gradle/
+build/
+
 # 환경 변수
 .env
 .env.local
