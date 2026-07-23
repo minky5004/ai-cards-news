@@ -12,6 +12,14 @@ dependencies {
     // RSS/Atom 파싱. 피드 규격이 제각각이라 직접 파싱하지 않는다.
     implementation("com.rometools:rome:2.1.0")
 
+    // 본문 추출. Mozilla Readability(파이어폭스 리더 뷰)를 그대로 옮긴 구현이라
+    // TS 판이 쓰던 @mozilla/readability 와 같은 알고리즘을 탄다.
+    implementation("net.dankito.readability4j:readability4j:1.0.8")
+
+    // Readability4J 가 내부에서 jsoup 으로 DOM 을 다룬다. og:image 를 읽는 데도 필요해
+    // 전이 의존에 기대지 않고 직접 선언한다.
+    implementation("org.jsoup:jsoup:1.21.2")
+
     // Rome 이 SLF4J 를 쓴다. 바인딩이 없으면 실행할 때마다 경고가 찍히는데,
     // 파이프라인 로그는 사람이 눈으로 읽는 화면이라 노이즈를 남기지 않는다.
     runtimeOnly("org.slf4j:slf4j-nop:2.0.17")

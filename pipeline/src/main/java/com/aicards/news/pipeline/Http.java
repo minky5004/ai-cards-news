@@ -14,6 +14,8 @@ public final class Http {
 
     private static final Duration TIMEOUT = Duration.ofSeconds(15);
 
+    private static final Duration ARTICLE_TIMEOUT = Duration.ofSeconds(20);
+
     private static final HttpClient CLIENT =
             HttpClient.newBuilder()
                     .connectTimeout(TIMEOUT)
@@ -50,6 +52,38 @@ public final class Http {
         if (response.statusCode() >= 400) {
             throw new IOException("HTTP " + response.statusCode());
         }
+        return response.body();
+    }
+
+    /**
+     * 기사 페이지를 받아온다.
+     *
+     * <p>피드보다 오래 기다린다 — 기사 페이지는 광고·트래커까지 달고 오느라 무겁고, 여기서 놓치면
+     * 그 사건의 카드를 통째로 잃는다.
+     */
+    public static String getHtml(String url) throws IOException, InterruptedException {
+        HttpRequest request =
+                HttpRequest.newBuilder(URI.create(url))
+                        .header("User-Agent", SourceResult.USER_AGENT)
+                        .header("Accept", "text/html,application/xhtml+xml")
+                        .timeout(ARTICLE_TIMEOUT)
+                        .GET()
+                        .build();
+
+        HttpResponse<String> response =
+                CLIENT.send(request, HttpResponse.BodyHandlers.ofString());
+
+        if (response.statusCode() >= 400) {
+            throw new IOException("HTTP " + response.statusCode());
+        }
+
+        // PDF·이미지를 받아 파싱하려 들지 않는다.
+        String contentType = response.headers().firstValue("content-type").orElse("");
+        if (!contentType.contains("html")) {
+            String shown = contentType.split(";")[0];
+            throw new IOException("HTML 이 아니다 (%s)".formatted(shown.isBlank() ? "알 수 없음" : shown));
+        }
+
         return response.body();
     }
 }

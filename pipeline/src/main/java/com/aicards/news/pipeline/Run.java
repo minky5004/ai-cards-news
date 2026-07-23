@@ -5,7 +5,9 @@ import com.aicards.news.pipeline.config.PipelineConfig;
 import com.aicards.news.pipeline.config.Sources;
 import com.aicards.news.pipeline.ingest.Collector;
 import com.aicards.news.pipeline.ingest.Dedup;
+import com.aicards.news.pipeline.extract.Extractor;
 import com.aicards.news.pipeline.ingest.SourceResult;
+import com.aicards.news.pipeline.schema.ArticlesResult;
 import com.aicards.news.pipeline.schema.Cluster;
 import com.aicards.news.pipeline.schema.IngestResult;
 import com.aicards.news.pipeline.schema.ItemCluster;
@@ -80,6 +82,7 @@ public final class Run {
         switch (args.stage()) {
             case "config" -> reportConfig();
             case "ingest" -> runIngest(args.date(), args.force());
+            case "extract" -> runExtract(args.date(), args.force());
             default -> System.out.printf("[%s] 아직 구현되지 않았다.%n", args.stage());
         }
     }
@@ -223,6 +226,65 @@ public final class Run {
 
         Json.write(output, result);
         System.out.printf("%n%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    private static void runExtract(String date, boolean force) throws Exception {
+        Path output = Paths.articlesJson(date);
+
+        if (!force && Files.exists(output)) {
+            System.out.printf(
+                    "%s 가 이미 있다. 다시 만들려면 --force 를 붙여라.%n", Paths.relative(output));
+            return;
+        }
+
+        Path rawPath = Paths.rawJson(date);
+        if (!Files.exists(rawPath)) {
+            throw new IllegalStateException(
+                    "%s 가 없다. 먼저 ingest 단계를 실행해라.".formatted(Paths.relative(rawPath)));
+        }
+
+        // 단계 간 계약을 파일 읽는 시점에 검증한다. 깨진 산출물을 조용히 물고 가지 않는다.
+        IngestResult raw = Json.read(rawPath, IngestResult.class);
+
+        System.out.printf("본문 추출 시작 — %s (선정 %d건)%n%n", date, raw.selectedIds().size());
+
+        List<ArticlesResult.Article> articles =
+                Extractor.extractSelected(raw.clusters(), raw.selectedIds());
+
+        for (ArticlesResult.Article article : articles) {
+            String mark = article.ok() ? "✓" : "✗";
+            String detail =
+                    article.ok()
+                            ? "%d자 · 썸네일 %s"
+                                    .formatted(
+                                            article.text().length(),
+                                            article.imageUrl() == null ? "없음" : "있음")
+                            : "실패 — " + article.error();
+
+            System.out.printf("%s %s%n", mark, truncate(article.sourceTitle(), 62));
+            System.out.printf("     %s%n", detail);
+            System.out.printf("     %s%n", article.url());
+
+            // 대표 기사가 막혀 다른 매체로 넘어갔으면 드러낸다. 조용히 넘어가면 어떤 매체가
+            // 스크래핑을 막는지 알 수 없다.
+            if (article.skipped() != null) {
+                for (String skipped : article.skipped()) {
+                    System.out.printf("     ⚠ 건너뜀 — %s%n", skipped);
+                }
+            }
+        }
+
+        long succeeded = articles.stream().filter(ArticlesResult.Article::ok).count();
+        long withImage = articles.stream().filter(a -> a.imageUrl() != null).count();
+        System.out.printf(
+                "%n추출 성공 %d/%d건 · 썸네일 확보 %d건%n", succeeded, articles.size(), withImage);
+
+        Json.write(output, new ArticlesResult(date, Times.iso(Instant.now()), articles));
+        System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    private static String truncate(String text, int length) {
+        return text.length() <= length ? text : text.substring(0, length);
     }
 
     private static String formatAge(String publishedAt, Instant now) {
