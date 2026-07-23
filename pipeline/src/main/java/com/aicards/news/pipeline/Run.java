@@ -3,33 +3,53 @@ package com.aicards.news.pipeline;
 import com.aicards.news.pipeline.config.ConfigLoader;
 import com.aicards.news.pipeline.config.PipelineConfig;
 import com.aicards.news.pipeline.config.Sources;
+import com.aicards.news.pipeline.ingest.Collector;
+import com.aicards.news.pipeline.ingest.Dedup;
+import com.aicards.news.pipeline.ingest.SourceResult;
+import com.aicards.news.pipeline.schema.Cluster;
+import com.aicards.news.pipeline.schema.IngestResult;
+import com.aicards.news.pipeline.schema.ItemCluster;
+import com.aicards.news.pipeline.schema.RawItem;
+import com.aicards.news.pipeline.score.Rank;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.time.Duration;
+import java.time.Instant;
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.regex.Pattern;
 
 /**
  * 파이프라인 CLI 진입점.
  *
  * <p>각 단계는 content/&lt;date&gt;/ 의 중간 산출물을 읽고 쓰므로 독립적으로 실행할 수 있다.
  *
- * <pre>./gradlew run --args="config"</pre>
+ * <pre>./gradlew run --args="ingest --date 2026-07-23"</pre>
  */
 public final class Run {
 
     private static final List<String> STAGES =
             List.of("config", "ingest", "extract", "copy", "render", "run");
 
+    private static final Pattern DATE = Pattern.compile("\\d{4}-\\d{2}-\\d{2}");
+
     private Run() {}
+
+    private record Args(String stage, String date, boolean force) {}
 
     public static void main(String[] args) {
         try {
-            dispatch(args);
+            dispatch(parse(args));
         } catch (Exception e) {
             System.err.println(e.getMessage());
             System.exit(1);
         }
     }
 
-    private static void dispatch(String[] args) {
-        String stage = args.length > 0 ? args[0] : null;
+    private static Args parse(String[] argv) {
+        String stage = argv.length > 0 ? argv[0] : null;
 
         if (stage == null || !STAGES.contains(stage)) {
             throw new IllegalArgumentException(
@@ -37,12 +57,31 @@ public final class Run {
                             .formatted(stage == null ? "(없음)" : stage, String.join(", ", STAGES)));
         }
 
-        if (stage.equals("config")) {
-            reportConfig();
-            return;
+        String date = Times.todayInSeoul();
+        boolean force = false;
+
+        for (int i = 1; i < argv.length; i++) {
+            if (argv[i].equals("--force")) {
+                force = true;
+            } else if (argv[i].equals("--date")) {
+                if (i + 1 >= argv.length) throw new IllegalArgumentException("--date 뒤에 날짜가 없다");
+                date = argv[++i];
+            }
         }
 
-        System.out.printf("[%s] 아직 구현되지 않았다.%n", stage);
+        if (!DATE.matcher(date).matches()) {
+            throw new IllegalArgumentException("--date 는 YYYY-MM-DD 형식이어야 한다: " + date);
+        }
+
+        return new Args(stage, date, force);
+    }
+
+    private static void dispatch(Args args) throws Exception {
+        switch (args.stage()) {
+            case "config" -> reportConfig();
+            case "ingest" -> runIngest(args.date(), args.force());
+            default -> System.out.printf("[%s] 아직 구현되지 않았다.%n", args.stage());
+        }
     }
 
     /**
@@ -63,7 +102,10 @@ public final class Run {
         Sources.HackerNews hn = sources.hackernews();
         System.out.printf(
                 "Hacker News    %s · 질의 %d개 · %d점 이상 · 질의당 %d건%n",
-                hn.enabled() ? "활성" : "비활성", hn.queries().size(), hn.minPoints(), hn.hitsPerQuery());
+                hn.enabled() ? "활성" : "비활성",
+                hn.queries().size(),
+                hn.minPoints(),
+                hn.hitsPerQuery());
 
         System.out.printf(
                 "관련성 필터    용어 %d개 · 약어 %d개%n",
@@ -85,7 +127,10 @@ public final class Run {
         PipelineConfig.Scoring.Weights weights = scoring.weights();
         System.out.printf(
                 "스코어링       만점 %.1f · 임계값 %.1f · 최대 %d장 · 반감기 %.0f시간%n",
-                weights.total(), scoring.minScore(), scoring.maxCards(), scoring.recencyHalfLifeHours());
+                weights.total(),
+                scoring.minScore(),
+                scoring.maxCards(),
+                scoring.recencyHalfLifeHours());
         System.out.printf(
                 "  가중치       hnPoints %.1f · hnComments %.1f · mentions %.1f · recency %.1f · sourceTrust %.1f%n",
                 weights.hnPoints(),
@@ -100,5 +145,122 @@ public final class Run {
                 scoring.references().mentions());
 
         System.out.printf("%n설정 파일 2개 모두 올바르다.%n");
+    }
+
+    private static void runIngest(String date, boolean force) throws Exception {
+        Path output = Paths.rawJson(date);
+
+        // 하루에 여러 번 돌아도 이미 만든 산출물을 말없이 갈아엎지 않는다.
+        if (!force && Files.exists(output)) {
+            System.out.printf(
+                    "%s 가 이미 있다. 다시 만들려면 --force 를 붙여라.%n", Paths.relative(output));
+            return;
+        }
+
+        Sources sources = ConfigLoader.loadSources();
+        PipelineConfig config = ConfigLoader.loadPipelineConfig();
+
+        Instant now = Instant.now();
+        Instant since = now.minus(Duration.ofHours(config.ingest().lookbackHours()));
+
+        System.out.printf("수집 시작 — %s (최근 %d시간)%n%n", date, config.ingest().lookbackHours());
+
+        Collector.Outcome outcome = Collector.collectAll(sources, config, since);
+
+        System.out.println("소스별 결과");
+        for (SourceResult result : outcome.results()) {
+            String status = result.ok() ? "✓" : "✗";
+            String filtered =
+                    result.filtered() != null && result.filtered() > 0
+                            ? " (주제 무관 %d건 제외)".formatted(result.filtered())
+                            : "";
+            String detail =
+                    result.ok()
+                            ? "%d건%s".formatted(result.items().size(), filtered)
+                            : "실패 — " + result.error();
+
+            System.out.printf("  %s %-20s %s%n", status, result.name(), detail);
+            // 성공했더라도 일부 실패가 있으면 드러낸다. 수집량이 조용히 줄어드는 걸 막는다.
+            if (result.ok() && result.error() != null) {
+                System.out.printf("      ⚠ %s%n", result.error());
+            }
+        }
+
+        List<RawItem> merged = Dedup.mergeByUrl(outcome.items());
+        List<ItemCluster> clusters = Dedup.clusterByTitle(merged, config.dedup());
+        Rank.Result ranked = Rank.rank(clusters, config.scoring(), now);
+
+        System.out.printf(
+                "%n수집 %d건 → URL 병합 %d건 → 클러스터 %d개%n",
+                outcome.items().size(), merged.size(), clusters.size());
+        System.out.printf(
+                "선정 %d건 (임계값 %.1f, 최대 %d장)%n%n",
+                ranked.selectedIds().size(),
+                config.scoring().minScore(),
+                config.scoring().maxCards());
+
+        // 탈락한 것도 조금 보여줘야 임계값이 적절한지 판단할 수 있다.
+        List<Cluster> preview =
+                ranked.clusters().stream().limit(config.scoring().maxCards() + 10L).toList();
+        reportClusters(preview, Set.copyOf(ranked.selectedIds()), now);
+
+        IngestResult result =
+                new IngestResult(
+                        date,
+                        Times.iso(now),
+                        outcome.results().stream()
+                                .map(
+                                        source ->
+                                                new IngestResult.SourceReport(
+                                                        source.name(),
+                                                        source.ok(),
+                                                        source.items().size(),
+                                                        source.error(),
+                                                        source.filtered()))
+                                .toList(),
+                        ranked.clusters(),
+                        ranked.selectedIds());
+
+        Json.write(output, result);
+        System.out.printf("%n%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    private static String formatAge(String publishedAt, Instant now) {
+        double hours =
+                (now.toEpochMilli() - Instant.parse(publishedAt).toEpochMilli()) / 3_600_000d;
+        return hours < 1 ? "방금" : "%d시간 전".formatted(Math.round(hours));
+    }
+
+    /** 선별 품질을 눈으로 검증하기 위한 출력. 가중치 튜닝은 이 화면을 보고 한다. */
+    private static void reportClusters(List<Cluster> clusters, Set<String> selectedIds, Instant now) {
+        for (int index = 0; index < clusters.size(); index++) {
+            Cluster cluster = clusters.get(index);
+            RawItem representative = cluster.representative();
+
+            Set<String> sources = new LinkedHashSet<>(cluster.items().stream().map(RawItem::source).toList());
+            int points =
+                    cluster.items().stream()
+                            .mapToInt(item -> item.signals().pointsOrZero())
+                            .max()
+                            .orElse(0);
+
+            StringBuilder facts = new StringBuilder(String.join(", ", sources));
+            if (points > 0) facts.append(" · HN ").append(points).append("점");
+            facts.append(" · ").append(formatAge(representative.publishedAt(), now));
+
+            String contributions =
+                    cluster.breakdown().entrySet().stream()
+                            .filter(entry -> entry.getValue() > 0.01)
+                            .map(entry -> "%s %.2f".formatted(entry.getKey(), entry.getValue()))
+                            .reduce((a, b) -> a + " · " + b)
+                            .orElse("");
+
+            String mark = selectedIds.contains(cluster.id()) ? "●" : "○";
+            System.out.printf(
+                    "%s %2d. [%.2f] %s%n", mark, index + 1, cluster.score(), representative.title());
+            System.out.printf("        %s%n", facts);
+            System.out.printf("        %s%n", contributions);
+            System.out.printf("        %s%n", representative.url());
+        }
     }
 }

@@ -8,6 +8,13 @@ dependencies {
     implementation(platform("com.fasterxml.jackson:jackson-bom:2.19.0"))
     implementation("com.fasterxml.jackson.core:jackson-databind")
     implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-yaml")
+
+    // RSS/Atom 파싱. 피드 규격이 제각각이라 직접 파싱하지 않는다.
+    implementation("com.rometools:rome:2.1.0")
+
+    // Rome 이 SLF4J 를 쓴다. 바인딩이 없으면 실행할 때마다 경고가 찍히는데,
+    // 파이프라인 로그는 사람이 눈으로 읽는 화면이라 노이즈를 남기지 않는다.
+    runtimeOnly("org.slf4j:slf4j-nop:2.0.17")
 }
 
 application {
