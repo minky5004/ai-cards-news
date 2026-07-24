@@ -9,6 +9,8 @@ import com.aicards.news.pipeline.ingest.Collector;
 import com.aicards.news.pipeline.ingest.Dedup;
 import com.aicards.news.pipeline.extract.Extractor;
 import com.aicards.news.pipeline.ingest.SourceResult;
+import com.aicards.news.pipeline.render.CardRenderer;
+import com.aicards.news.pipeline.render.RenderResult;
 import com.aicards.news.pipeline.schema.ArticlesResult;
 import com.aicards.news.pipeline.schema.CardsResult;
 import com.aicards.news.pipeline.schema.Cluster;
@@ -89,6 +91,7 @@ public final class Run {
             case "ingest" -> runIngest(args.date(), args.force());
             case "extract" -> runExtract(args.date(), args.force());
             case "copy" -> runCopy(args.date(), args.force());
+            case "render" -> runRender(args.date(), args.force());
             default -> System.out.printf("[%s] 아직 구현되지 않았다.%n", args.stage());
         }
     }
@@ -382,6 +385,69 @@ public final class Run {
 
         Json.write(output, new CardsResult(date, Times.iso(Instant.now()), cards));
         System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    private static void runRender(String date, boolean force) throws Exception {
+        Path first = Paths.cardImage(date, 1);
+
+        if (!force && Files.exists(first)) {
+            System.out.printf(
+                    "%s 가 이미 있다. 다시 만들려면 --force 를 붙여라.%n", Paths.relative(first));
+            return;
+        }
+
+        Path cardsPath = Paths.cardsJson(date);
+        if (!Files.exists(cardsPath)) {
+            throw new IllegalStateException(
+                    "%s 가 없다. 먼저 copy 단계를 실행해라.".formatted(Paths.relative(cardsPath)));
+        }
+
+        CardsResult cards = Json.read(cardsPath, CardsResult.class);
+
+        System.out.printf(
+                "카드 렌더링 시작 — %s (%d장, 1080x1350)%n%n", date, cards.cards().size());
+
+        List<RenderResult> results;
+        try (CardRenderer renderer = new CardRenderer()) {
+            results = renderer.renderAll(cards);
+        }
+
+        int overflowed = 0;
+        long totalBytes = 0;
+
+        for (RenderResult result : results) {
+            if (!result.ok()) {
+                System.out.printf("✗ %02d  실패 — %s%n", result.index(), result.error());
+                continue;
+            }
+
+            totalBytes += result.bytes();
+            System.out.printf(
+                    "✓ %s  %d KB · 썸네일 %s%n",
+                    Paths.relative(result.path()),
+                    result.bytes() / 1024,
+                    result.imageOk() ? "원문" : "폴백");
+
+            // 넘친 만큼이 곧 카피에서 줄여야 할 분량이다. 조용히 잘린 카드를 내보내지 않는다.
+            if (result.overflowPx() > 0) {
+                overflowed++;
+                System.out.printf(
+                        "     ⚠ 텍스트가 %dpx 넘쳤다 — 카피가 카드 규격을 초과한다%n",
+                        result.overflowPx());
+            }
+        }
+
+        long succeeded = results.stream().filter(RenderResult::ok).count();
+        System.out.printf(
+                "%n렌더링 %d/%d장 · 합계 %d KB%n", succeeded, results.size(), totalBytes / 1024);
+        if (overflowed > 0) {
+            System.out.printf("텍스트가 넘친 카드 %d장 — 카피 길이 규격을 손봐야 한다.%n", overflowed);
+        }
+
+        if (succeeded == 0) {
+            throw new IllegalStateException(
+                    "카드를 한 장도 그리지 못했다 (%d장 시도).".formatted(results.size()));
+        }
     }
 
     private static String truncate(String text, int length) {
