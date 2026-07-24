@@ -29,7 +29,7 @@ OR 로 묶는다. 임계값은 실제 수집분에 정답을 붙여 격자 탐�
 
 | 경로 | 역할 |
 | --- | --- |
-| `pipeline/` | 수집·스코어링·카피·렌더링을 수행하는 Node CLI |
+| `pipeline/` | 수집·스코어링·카피·렌더링을 수행하는 Java CLI |
 | `web/` | 카드를 보여주는 정적 사이트 (Astro) |
 | `config/` | 소스 목록, 스코어 가중치 등 튜닝 대상 설정 |
 | `prompts/` | LLM 프롬프트 템플릿 — 카피 톤은 코드가 아니라 여기서 튜닝한다 |
@@ -37,17 +37,17 @@ OR 로 묶는다. 임계값은 실제 수집분에 정답을 붙여 격자 탐�
 
 ## 개발
 
-Node 24 이상, pnpm 이 필요하다. Node 의 네이티브 TypeScript 타입 스트리핑으로 실행하므로 빌드 단계가 없다.
+JDK 25 가 필요하다. Gradle 은 wrapper 를 커밋해뒀으니 따로 설치하지 않는다.
 
 ```bash
-pnpm install
-pnpm typecheck
+# 설정만 먼저 검증한다. 수집을 한참 하고 나서 오타로 죽으면 그만큼 네트워크가 낭비된다.
+./gradlew run --args="config"
 
 # 단계별 실행 (--date 생략 시 KST 기준 오늘)
 # 각 단계는 앞 단계의 산출물을 읽는다. 이미 만든 산출물은 --force 없이는 덮어쓰지 않는다.
-node pipeline/src/run.ts ingest  --date 2026-07-22
-node pipeline/src/run.ts extract --date 2026-07-22
-node pipeline/src/run.ts copy    --date 2026-07-22
+./gradlew run --args="ingest  --date 2026-07-22"
+./gradlew run --args="extract --date 2026-07-22"
+./gradlew run --args="copy    --date 2026-07-22"
 ```
 
 카피라이팅에는 `GEMINI_API_KEY` 가 필요하다. `.env` 에 넣으면 로컬 실행에서 읽고,
@@ -55,4 +55,7 @@ node pipeline/src/run.ts copy    --date 2026-07-22
 
 ## 기술 스택
 
-TypeScript · pnpm workspace · Astro · Playwright · Gemini API · GitHub Actions · GitHub Pages
+Java 25 · Gradle · Astro · Playwright · Gemini API · GitHub Actions · GitHub Pages
+
+파이프라인은 Java, 웹은 Astro 다. 둘은 `content/<date>/` 파일로만 소통하므로 언어가 달라도
+이음매가 없고, 정적 사이트 생성은 Java 생태계에서 얻을 게 없다.
