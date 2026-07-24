@@ -138,16 +138,20 @@ public final class CardRenderer implements AutoCloseable {
     }
 
     /**
-     * 텍스트 영역이 넘쳤는지 잰다.
+     * 카드 밖으로 밀려난 높이를 잰다.
      *
      * <p>카드가 잘려 나가도 이미지만 보고는 알아채기 어렵다. 숫자로 남겨야 카피 길이 상한을 실측으로
      * 정할 수 있다.
+     *
+     * <p>텍스트 영역({@code section})이 아니라 카드 경계({@code body})에서 잰다. {@code section} 은
+     * flex 아이템이라 {@code min-height: auto} 가 걸려 있어 내용이 많으면 스크롤되지 않고 자기 높이를
+     * 늘린다 — 40자/400자 카피에서 758px 이 1217px 로 늘었다. 그래서 {@code section} 기준으로는
+     * 넘침이 영원히 0 이고, 실제로 잘라내는 것은 {@code overflow: hidden} 인 {@code body} 다.
      */
     private int overflowPx() {
         Object measured =
                 page.evaluate(
-                        "() => { const s = document.querySelector('section');"
-                                + " return Math.max(0, s.scrollHeight - s.clientHeight); }");
+                        "() => Math.max(0, document.body.scrollHeight - document.body.clientHeight)");
         return measured instanceof Number number ? number.intValue() : 0;
     }
 
