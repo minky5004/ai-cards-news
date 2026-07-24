@@ -20,7 +20,10 @@ dependencies {
     // 전이 의존에 기대지 않고 직접 선언한다.
     implementation("org.jsoup:jsoup:1.21.2")
 
-    // Rome 이 SLF4J 를 쓴다. 바인딩이 없으면 실행할 때마다 경고가 찍히는데,
+    // Gemini 호출. responseSchema 로 출력 형태를 API 가 보장하게 한다.
+    implementation("com.google.genai:google-genai:1.57.0")
+
+    // Rome 과 google-genai 가 SLF4J 를 쓴다. 바인딩이 없으면 실행할 때마다 경고가 찍히는데,
     // 파이프라인 로그는 사람이 눈으로 읽는 화면이라 노이즈를 남기지 않는다.
     runtimeOnly("org.slf4j:slf4j-nop:2.0.17")
 }

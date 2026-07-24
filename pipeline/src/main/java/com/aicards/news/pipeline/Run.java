@@ -3,11 +3,14 @@ package com.aicards.news.pipeline;
 import com.aicards.news.pipeline.config.ConfigLoader;
 import com.aicards.news.pipeline.config.PipelineConfig;
 import com.aicards.news.pipeline.config.Sources;
+import com.aicards.news.pipeline.copy.CopyResult;
+import com.aicards.news.pipeline.copy.Copywriter;
 import com.aicards.news.pipeline.ingest.Collector;
 import com.aicards.news.pipeline.ingest.Dedup;
 import com.aicards.news.pipeline.extract.Extractor;
 import com.aicards.news.pipeline.ingest.SourceResult;
 import com.aicards.news.pipeline.schema.ArticlesResult;
+import com.aicards.news.pipeline.schema.CardsResult;
 import com.aicards.news.pipeline.schema.Cluster;
 import com.aicards.news.pipeline.schema.IngestResult;
 import com.aicards.news.pipeline.schema.ItemCluster;
@@ -17,11 +20,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 /**
  * 파이프라인 CLI 진입점.
@@ -83,6 +88,7 @@ public final class Run {
             case "config" -> reportConfig();
             case "ingest" -> runIngest(args.date(), args.force());
             case "extract" -> runExtract(args.date(), args.force());
+            case "copy" -> runCopy(args.date(), args.force());
             default -> System.out.printf("[%s] 아직 구현되지 않았다.%n", args.stage());
         }
     }
@@ -280,6 +286,101 @@ public final class Run {
                 "%n추출 성공 %d/%d건 · 썸네일 확보 %d건%n", succeeded, articles.size(), withImage);
 
         Json.write(output, new ArticlesResult(date, Times.iso(Instant.now()), articles));
+        System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    private static void runCopy(String date, boolean force) throws Exception {
+        Path output = Paths.cardsJson(date);
+
+        if (!force && Files.exists(output)) {
+            System.out.printf(
+                    "%s 가 이미 있다. 다시 만들려면 --force 를 붙여라.%n", Paths.relative(output));
+            return;
+        }
+
+        Path articlesPath = Paths.articlesJson(date);
+        if (!Files.exists(articlesPath)) {
+            throw new IllegalStateException(
+                    "%s 가 없다. 먼저 extract 단계를 실행해라.".formatted(Paths.relative(articlesPath)));
+        }
+
+        PipelineConfig config = ConfigLoader.loadPipelineConfig();
+        ArticlesResult articles = Json.read(articlesPath, ArticlesResult.class);
+        IngestResult raw = Json.read(Paths.rawJson(date), IngestResult.class);
+
+        System.out.printf(
+                "카피라이팅 시작 — %s (%d건, %s)%n%n",
+                date, articles.articles().size(), config.copy().model());
+
+        List<CopyResult> results =
+                Copywriter.writeAll(articles.articles(), raw.clusters(), config.copy());
+
+        Map<String, ArticlesResult.Article> byClusterId =
+                articles.articles().stream()
+                        .collect(
+                                Collectors.toMap(
+                                        ArticlesResult.Article::clusterId, article -> article));
+
+        List<CardsResult.Card> cards = new ArrayList<>();
+        int inputTokens = 0;
+        int outputTokens = 0;
+
+        for (CopyResult result : results) {
+            ArticlesResult.Article article = byClusterId.get(result.clusterId());
+            inputTokens += result.inputTokens();
+            outputTokens += result.outputTokens();
+
+            if (!result.ok() || article == null) {
+                System.out.printf(
+                        "✗ %s%n",
+                        article == null ? result.clusterId() : truncate(article.sourceTitle(), 58));
+                System.out.printf("     실패 — %s%n", result.error());
+                continue;
+            }
+
+            RawItem representative =
+                    raw.clusters().stream()
+                            .filter(cluster -> cluster.id().equals(result.clusterId()))
+                            .findFirst()
+                            .map(Cluster::representative)
+                            .orElse(null);
+
+            System.out.printf("✓ %s%n", result.headline());
+            System.out.printf("     %s%n", result.body());
+            System.out.printf("     %s · %s%n", article.source(), article.url());
+            // 추출이 실패한 기사는 제목만 보고 쓴 카피다. 사실 왜곡 위험이 높으니 드러낸다.
+            if (!article.ok()) {
+                System.out.println("     ⚠ 본문 없이 제목만으로 작성됨 — 사실 확인 필요");
+            }
+            System.out.println();
+
+            cards.add(
+                    new CardsResult.Card(
+                            result.clusterId(),
+                            result.headline(),
+                            result.body(),
+                            article.url(),
+                            article.siteName() == null ? article.source() : article.siteName(),
+                            article.imageUrl(),
+                            representative == null
+                                    ? articles.generatedAt()
+                                    : representative.publishedAt()));
+        }
+
+        // 무료 티어라 비용은 없지만 사용량은 남긴다. 한도에 얼마나 여유가 있는지 봐야 한다.
+        System.out.printf(
+                "카드 %d/%d장 · 토큰 입력 %d 출력 %d%n",
+                cards.size(), results.size(), inputTokens, outputTokens);
+
+        // 한 장도 못 만들었으면 파일을 쓰지 않는다. 빈 산출물을 남기면 이전 결과를 덮어쓰고,
+        // 뒤 단계가 그걸 정상으로 알고 빈 날짜를 발행한다. 실패는 실패로 드러나야 한다.
+        if (cards.isEmpty()) {
+            throw new IllegalStateException(
+                    "카피를 한 장도 만들지 못했다 (%d건 시도). %s 는 쓰지 않았다."
+                            .formatted(results.size(), Paths.relative(output)));
+        }
+
+        Json.write(output, new CardsResult(date, Times.iso(Instant.now()), cards));
         System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
     }
 
