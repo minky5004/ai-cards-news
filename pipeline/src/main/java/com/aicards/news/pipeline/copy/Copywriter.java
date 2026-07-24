@@ -2,6 +2,8 @@ package com.aicards.news.pipeline.copy;
 
 import com.aicards.news.pipeline.Env;
 import com.aicards.news.pipeline.Json;
+import com.aicards.news.pipeline.Paths;
+import com.aicards.news.pipeline.Templates;
 import com.aicards.news.pipeline.config.PipelineConfig;
 import com.aicards.news.pipeline.schema.ArticlesResult;
 import com.aicards.news.pipeline.schema.Cluster;
@@ -107,8 +109,8 @@ public final class Copywriter {
 
         try {
             String prompt =
-                    PromptTemplate.render(
-                            PROMPT_FILE,
+                    Templates.render(
+                            Paths.promptsDir().resolve(PROMPT_FILE),
                             Map.of(
                                     "title",
                                     article.title() == null

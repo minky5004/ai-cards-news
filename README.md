@@ -33,6 +33,8 @@ OR 로 묶는다. 임계값은 실제 수집분에 정답을 붙여 격자 탐�
 | `web/` | 카드를 보여주는 정적 사이트 (Astro) |
 | `config/` | 소스 목록, 스코어 가중치 등 튜닝 대상 설정 |
 | `prompts/` | LLM 프롬프트 템플릿 — 카피 톤은 코드가 아니라 여기서 튜닝한다 |
+| `templates/` | 카드 HTML/CSS — 카드 생김새는 코드가 아니라 여기서 바꾼다 |
+| `assets/` | 카드에 심어 보내는 폰트 |
 | `content/` | 날짜별 산출물 — 카드 JSON 과 수집 원본 |
 
 ## 개발
@@ -48,7 +50,12 @@ JDK 25 가 필요하다. Gradle 은 wrapper 를 커밋해뒀으니 따로 설치
 ./gradlew run --args="ingest  --date 2026-07-22"
 ./gradlew run --args="extract --date 2026-07-22"
 ./gradlew run --args="copy    --date 2026-07-22"
+./gradlew run --args="render  --date 2026-07-22"
 ```
+
+카드 이미지는 `content/<date>/cards/01.webp` 부터 순서대로 쌓인다. 렌더링은 HTML/CSS 템플릿
+(`templates/card.html`)을 헤드리스 Chromium 으로 찍는 방식이라 생김새는 템플릿만 고치면 바뀐다.
+한글 폰트는 러너에 없으므로 `assets/fonts/` 의 파일을 카드에 심어 보낸다.
 
 카피라이팅에는 `GEMINI_API_KEY` 가 필요하다. `.env` 에 넣으면 로컬 실행에서 읽고,
 자동화에서는 같은 이름의 환경변수로 주입한다.

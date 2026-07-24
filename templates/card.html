@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      /*
+        폰트는 base64 로 심어 넣는다. Actions 러너에 한글 폰트가 없고, file:// 참조는
+        헤드리스 브라우저의 로컬 파일 정책에 걸린다. 심어 두면 네트워크도 정책도 타지 않는다.
+      */
+      @font-face {
+        font-family: "Noto Sans KR";
+        font-weight: 400;
+        src: url({{fontRegular}}) format("woff2");
+      }
+      @font-face {
+        font-family: "Noto Sans KR";
+        font-weight: 700;
+        src: url({{fontBold}}) format("woff2");
+      }
+      @font-face {
+        font-family: "Noto Sans KR";
+        font-weight: 900;
+        src: url({{fontBlack}}) format("woff2");
+      }
+
+      :root {
+        --bg: #0e1a3c;
+        --accent: #5b8cff;
+        --text: #ffffff;
+        --muted: rgba(255, 255, 255, 0.74);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 1080px;
+        height: 1350px;
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Noto Sans KR", sans-serif;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      header {
+        flex: none;
+        height: 112px;
+        padding: 0 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .badge {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+      }
+
+      .dot {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: var(--accent);
+      }
+
+      .date {
+        font-size: 27px;
+        color: var(--muted);
+        letter-spacing: 0.04em;
+      }
+
+      figure {
+        flex: none;
+        height: 480px;
+        overflow: hidden;
+      }
+
+      figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      /* 원문 대표 이미지가 없거나 받지 못했을 때. 카드를 통째로 버리지 않는다. */
+      .fallback {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #1e3f9e 0%, #0e1a3c 72%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+        font-weight: 900;
+        letter-spacing: 0.12em;
+        color: rgba(255, 255, 255, 0.26);
+      }
+
+      section {
+        flex: 1;
+        padding: 56px 64px 52px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      h1 {
+        font-size: 76px;
+        font-weight: 900;
+        line-height: 1.22;
+        letter-spacing: -0.02em;
+        /* 줄바꿈이 조사에서 끊기면 읽는 리듬이 무너진다. */
+        word-break: keep-all;
+      }
+
+      .rule {
+        flex: none;
+        width: 88px;
+        height: 6px;
+        margin: 34px 0 30px;
+        border-radius: 3px;
+        background: var(--accent);
+      }
+
+      p {
+        font-size: 34px;
+        line-height: 1.7;
+        color: var(--muted);
+        word-break: keep-all;
+      }
+
+      footer {
+        margin-top: auto;
+        padding-top: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 27px;
+        font-weight: 700;
+        color: var(--muted);
+      }
+
+      .page {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="badge"><span class="dot"></span>AI NEWS</div>
+      <div class="date">{{date}}</div>
+    </header>
+
+    <figure>{{thumbnail}}</figure>
+
+    <section>
+      <h1>{{headline}}</h1>
+      <div class="rule"></div>
+      <p>{{body}}</p>
+      <footer>
+        <span>{{sourceName}}</span>
+        <span class="page">{{index}} / {{total}}</span>
+      </footer>
+    </section>
+  </body>
+</html>

@@ -23,6 +23,14 @@ dependencies {
     // Gemini 호출. responseSchema 로 출력 형태를 API 가 보장하게 한다.
     implementation("com.google.genai:google-genai:1.57.0")
 
+    // 카드 렌더링. HTML/CSS 템플릿을 헤드리스 Chromium 으로 스크린샷한다 —
+    // 디자인을 CSS 로 다루는 편이 이미지 API 로 좌표를 찍는 것보다 훨씬 유연하다.
+    implementation("com.microsoft.playwright:playwright:1.52.0")
+
+    // Playwright 는 PNG·JPEG 로만 스크린샷한다. WebP 로 줄이는 건 이쪽이 맡는다 —
+    // 매일 5장이 리포에 영구히 쌓이므로 용량 차이가 그대로 누적된다.
+    implementation("com.github.usefulness:webp-imageio:0.10.0")
+
     // Rome 과 google-genai 가 SLF4J 를 쓴다. 바인딩이 없으면 실행할 때마다 경고가 찍히는데,
     // 파이프라인 로그는 사람이 눈으로 읽는 화면이라 노이즈를 남기지 않는다.
     runtimeOnly("org.slf4j:slf4j-nop:2.0.17")

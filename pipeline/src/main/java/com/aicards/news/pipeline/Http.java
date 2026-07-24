@@ -45,6 +45,27 @@ public final class Http {
         return response.body();
     }
 
+    /** 이미지 등 이진 파일. 카드에 심으려면 원본 바이트와 형식이 함께 필요하다. */
+    public record Binary(byte[] bytes, String contentType) {}
+
+    public static Binary getBytes(String url) throws IOException, InterruptedException {
+        HttpResponse<byte[]> response =
+                CLIENT.send(request(url), HttpResponse.BodyHandlers.ofByteArray());
+
+        if (response.statusCode() >= 400) {
+            throw new IOException("HTTP " + response.statusCode());
+        }
+
+        String contentType =
+                response.headers().firstValue("content-type").orElse("").split(";")[0].strip();
+        if (!contentType.startsWith("image/")) {
+            throw new IOException(
+                    "이미지가 아니다 (%s)".formatted(contentType.isBlank() ? "알 수 없음" : contentType));
+        }
+
+        return new Binary(response.body(), contentType);
+    }
+
     public static String getString(String url) throws IOException, InterruptedException {
         HttpResponse<String> response =
                 CLIENT.send(request(url), HttpResponse.BodyHandlers.ofString());
