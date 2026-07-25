@@ -43,3 +43,22 @@ application {
     // 여전히 OS 기본 인코딩을 따라가므로 따로 지정해야 Windows 에서 깨지지 않는다.
     applicationDefaultJvmArgs = listOf("-Dstdout.encoding=UTF-8", "-Dstderr.encoding=UTF-8")
 }
+
+// Playwright 는 기본으로 Chromium·Firefox·WebKit 3종을 전부 내려받는다. 카드 렌더는
+// Chromium 하나만 쓰므로 나머지(약 420MB)는 받아만 두고 한 번도 안 쓴다. 로컬에선
+// 한 번뿐이라 티가 안 나지만, M5 자동화의 깨끗한 러너는 매일 그만큼을 헛으로 내려받는다.
+// CLI 에 브라우저를 명시해 Chromium(+ headless shell)만 설치한다.
+val installChromium by tasks.registering(JavaExec::class) {
+    group = "playwright"
+    description = "Playwright chromium 브라우저만 설치한다 (firefox·webkit 제외)"
+    classpath = sourceSets["main"].runtimeClasspath
+    mainClass = "com.microsoft.playwright.CLI"
+    args("install", "chromium")
+}
+
+tasks.named<JavaExec>("run") {
+    // create() 는 빠진 브라우저를 자동으로 채워 넣는다. 막지 않으면 위에서 Chromium 만
+    // 깔아도 렌더 때 firefox·webkit 을 도로 받아 온다. 설치는 installChromium 이 맡는다.
+    dependsOn(installChromium)
+    environment("PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD", "1")
+}
