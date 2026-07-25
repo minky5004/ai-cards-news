@@ -60,6 +60,20 @@ JDK 25 가 필요하다. Gradle 은 wrapper 를 커밋해뒀으니 따로 설치
 카피라이팅에는 `GEMINI_API_KEY` 가 필요하다. `.env` 에 넣으면 로컬 실행에서 읽고,
 자동화에서는 같은 이름의 환경변수로 주입한다.
 
+### 웹
+
+```bash
+cd web
+pnpm install
+pnpm dev      # http://localhost:4321/ai-cards-news/
+pnpm build    # dist/ 에 정적 사이트
+```
+
+사이트는 `content/` 에서 **카드 JSON 과 렌더 이미지가 모두 갖춰진 날짜만** 싣는다. 수집만
+돌고 렌더까지 가지 못한 날은 건너뛴다 — 깨진 이미지가 박힌 페이지는 아카이브에 영구히 남는다.
+카드 이미지는 `pnpm dev`/`pnpm build` 앞에서 `scripts/sync-cards.mjs` 가 `public/cards/` 로
+복사한다(Astro 가 정적 자산으로 내보내는 곳이 거기뿐이다). 손으로 부르는 단계가 아니다.
+
 ## 기술 스택
 
 Java 25 · Gradle · Astro · Playwright · Gemini API · GitHub Actions · GitHub Pages

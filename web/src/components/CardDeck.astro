@@ -1,0 +1,72 @@
+---
+import type { RenderedCard } from "../lib/content";
+
+interface Props {
+  cards: RenderedCard[];
+}
+
+const { cards } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+{/* M4-2 에서 이 자리를 스와이프 캐러셀로 바꾼다. 지금은 세로로 쌓아 보여준다. */}
+<ol class="deck">
+  {
+    cards.map((card, i) => (
+      <li class="card">
+        <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+          {/*
+            1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
+            첫 장만 eager 로 받아 나머지는 스크롤할 때 받는다.
+          */}
+          <img
+            src={`${base.replace(/\/$/, "")}${card.image}`}
+            width="1080"
+            height="1350"
+            alt={`${card.headline} — ${card.body}`}
+            loading={i === 0 ? "eager" : "lazy"}
+            decoding="async"
+          />
+        </a>
+        <p class="meta">
+          <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+            {card.sourceName} 원문 보기 →
+          </a>
+        </p>
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .deck {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 32px;
+  }
+
+  .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    background: var(--surface);
+  }
+
+  .meta {
+    margin: 12px 2px 0;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .meta a {
+    text-decoration: none;
+  }
+
+  .meta a:hover {
+    color: var(--accent);
+  }
+</style>

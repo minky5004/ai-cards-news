@@ -1,0 +1,101 @@
+---
+import CardDeck from "../components/CardDeck.astro";
+import Layout from "../layouts/Layout.astro";
+import { formatDate, listDays } from "../lib/content";
+
+const days = listDays();
+const [latest, ...archive] = days;
+const base = import.meta.env.BASE_URL;
+---
+
+<Layout title="AI NEWS — 오늘의 AI 뉴스 카드">
+  {
+    latest ? (
+      <>
+        <section class="hero">
+          <p class="eyebrow">최신 발행</p>
+          <h1>{formatDate(latest.date)}</h1>
+          <p class="count">카드 {latest.cards.length}장</p>
+        </section>
+
+        <CardDeck cards={latest.cards} />
+
+        {archive.length > 0 && (
+          <section class="archive">
+            <h2>지난 발행</h2>
+            <ul>
+              {archive.map((day) => (
+                <li>
+                  <a href={`${base}${day.date}/`}>
+                    <span>{formatDate(day.date)}</span>
+                    <span class="count">{day.cards.length}장</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </>
+    ) : (
+      /* 파이프라인이 아직 한 번도 돌지 않았거나 렌더까지 간 날이 없을 때. */
+      <section class="hero">
+        <h1>아직 발행된 카드가 없습니다</h1>
+        <p class="count">첫 발행을 준비하고 있습니다.</p>
+      </section>
+    )
+  }
+</Layout>
+
+<style>
+  .hero {
+    padding: 40px 0 36px;
+  }
+
+  .eyebrow {
+    margin: 0 0 8px;
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    color: var(--accent);
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(30px, 6vw, 44px);
+    letter-spacing: -0.02em;
+  }
+
+  .count {
+    margin: 6px 0 0;
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  .archive {
+    margin-top: 72px;
+    border-top: 1px solid var(--line);
+    padding-top: 32px;
+  }
+
+  .archive h2 {
+    margin: 0 0 16px;
+    font-size: 18px;
+  }
+
+  .archive ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .archive a {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 4px;
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+  }
+
+  .archive a:hover {
+    color: var(--accent);
+  }
+</style>
