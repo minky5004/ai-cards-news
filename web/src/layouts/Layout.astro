@@ -1,0 +1,114 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "매일 21시, 그날의 AI 뉴스를 카드로." } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site">
+      <a class="brand" href={base}><span class="dot"></span>AI NEWS</a>
+      <span class="tagline">매일 21시 발행</span>
+    </header>
+
+    <main><slot /></main>
+
+    <footer class="site">
+      <a href="https://github.com/minky5004/ai-cards-news">github.com/minky5004/ai-cards-news</a>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  /*
+    색은 카드(templates/card.html)와 같은 딥 네이비 계열로 맞춘다. 카드가 페이지
+    배경 위에 떠 있을 때 톤이 부딪히지 않아야 한다.
+
+    웹폰트는 싣지 않는다. 페이지의 글자는 카드 이미지 밖의 보조 텍스트뿐이고,
+    한글 Noto Sans KR 은 한 굵기당 540KB 라 이 정도 텍스트에 지불할 값이 아니다.
+    카드 안의 타이포그래피는 이미 이미지에 구워져 있다.
+  */
+  :root {
+    --bg: #0a1330;
+    --surface: #0e1a3c;
+    --accent: #5b8cff;
+    --text: #ffffff;
+    --muted: rgba(255, 255, 255, 0.68);
+    --line: rgba(255, 255, 255, 0.12);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family:
+      "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, -apple-system,
+      sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  main {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px 80px;
+  }
+
+  header.site {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 28px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .tagline {
+    font-size: 14px;
+    color: var(--muted);
+  }
+
+  footer.site {
+    border-top: 1px solid var(--line);
+    padding: 28px 20px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
