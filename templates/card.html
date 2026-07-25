@@ -83,6 +83,7 @@
         flex: none;
         height: 480px;
         overflow: hidden;
+        position: relative;
       }
 
       figure img {
@@ -90,6 +91,26 @@
         height: 100%;
         object-fit: cover;
         display: block;
+      }
+
+      /*
+        원문 대표 이미지가 흰 배경이면 딥 네이비 카드 위에서 눈부신 사각형으로 떠
+        톤이 부딪힌다. 위쪽은 살짝 눌러 눈부심을 줄이고 아래쪽은 카드 배경으로 녹여
+        텍스트 영역과의 이음매를 지운다. 가운데는 건드리지 않아 사진·차트 내용이
+        뭉개지지 않는다. 폴백 배경에도 겹치지만 같은 색이라 표가 나지 않는다.
+      */
+      figure::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(
+          to bottom,
+          rgba(14, 26, 60, 0.14) 0%,
+          rgba(14, 26, 60, 0) 20%,
+          rgba(14, 26, 60, 0) 78%,
+          var(--bg) 100%
+        );
       }
 
       /* 원문 대표 이미지가 없거나 받지 못했을 때. 카드를 통째로 버리지 않는다. */
