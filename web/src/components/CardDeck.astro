@@ -7,48 +7,132 @@ interface Props {
 
 const { cards } = Astro.props;
 const base = import.meta.env.BASE_URL;
+const imageBase = base.replace(/\/$/, "");
 ---
 
-{/* M4-2 에서 이 자리를 스와이프 캐러셀로 바꾼다. 지금은 세로로 쌓아 보여준다. */}
-<ol class="deck">
-  {
-    cards.map((card, i) => (
-      <li class="card">
-        <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
-          {/*
-            1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
-            첫 장만 eager 로 받아 나머지는 스크롤할 때 받는다.
-          */}
-          <img
-            src={`${base.replace(/\/$/, "")}${card.image}`}
-            width="1080"
-            height="1350"
-            alt={`${card.headline} — ${card.body}`}
-            loading={i === 0 ? "eager" : "lazy"}
-            decoding="async"
-          />
-        </a>
-        <p class="meta">
-          <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
-            {card.sourceName} 원문 보기 →
+{/*
+  가로 스와이프 캐러셀. 스크롤·스냅·스와이프는 전부 CSS(overflow + scroll-snap)가
+  하고, JS 는 좌우 버튼과 도트만 얹는다. 그래서 스크립트가 실패하거나 아직 안
+  왔어도 카드를 넘겨보는 일 자체는 된다 — 컨트롤은 JS 가 켜기 전까지 숨어 있다.
+  외부 캐러셀 라이브러리를 쓰지 않는 이유는 웹폰트를 안 싣는 것과 같다: 이 페이지가
+  하는 일에 비해 지불이 크다.
+*/}
+<section
+  class="carousel"
+  data-carousel
+  role="region"
+  aria-roledescription="캐러셀"
+  aria-label="카드 목록"
+>
+  <ol class="track" data-track tabindex="0">
+    {
+      cards.map((card, i) => (
+        <li
+          class:list={["slide", { "is-active": i === 0 }]}
+          data-slide
+          aria-roledescription="슬라이드"
+          aria-label={`${i + 1} / ${cards.length}`}
+        >
+          <a class="shot" href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+            {/*
+              1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
+              앞 두 장만 eager 로 받는다 — 가로 스크롤에서도 lazy 는 트랙 기준으로
+              동작하므로 나머지는 넘길 때 받는다.
+            */}
+            <img
+              src={`${imageBase}${card.image}`}
+              width="1080"
+              height="1350"
+              alt={`${card.headline} — ${card.body}`}
+              loading={i < 2 ? "eager" : "lazy"}
+              decoding="async"
+            />
           </a>
-        </p>
-      </li>
-    ))
+          <p class="meta">
+            <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {card.sourceName} 원문 보기 →
+            </a>
+          </p>
+        </li>
+      ))
+    }
+  </ol>
+
+  {
+    cards.length > 1 && (
+      <div class="controls" data-controls hidden>
+        <button class="arrow" type="button" data-prev aria-label="이전 카드">
+          <span aria-hidden="true">←</span>
+        </button>
+        <ol class="dots">
+          {cards.map((_, i) => (
+            <li>
+              <button type="button" data-dot aria-label={`${i + 1}번째 카드로 이동`} />
+            </li>
+          ))}
+        </ol>
+        <button class="arrow" type="button" data-next aria-label="다음 카드">
+          <span aria-hidden="true">→</span>
+        </button>
+      </div>
+    )
   }
-</ol>
+</section>
 
 <style>
-  .deck {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 32px;
+  .carousel {
+    /*
+      카드는 4:5 세로다. 폭·뷰포트 높이 양쪽으로 상한을 걸어, 가로로 눕힌 화면에서
+      카드 아래가 잘리지 않게 한다(55vh 폭 = 68.75vh 높이).
+    */
+    --slide: min(78vw, 420px, 55vh);
   }
 
-  .card img {
+  .track {
+    position: relative; /* 슬라이드 offsetLeft 를 트랙 기준으로 만든다(스크립트가 쓴다) */
+    list-style: none;
+    margin: 0;
+    /* 첫 장과 마지막 장도 가운데에 설 수 있도록 좌우를 비워 둔다. */
+    padding: 0 max(0px, calc((100% - var(--slide)) / 2));
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .track::-webkit-scrollbar {
+    display: none;
+  }
+
+  .track:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 6px;
+    border-radius: 20px;
+  }
+
+  .slide {
+    flex: 0 0 var(--slide);
+    scroll-snap-align: center;
+  }
+
+  /*
+    가운데 카드만 또렷하게. 양옆은 다음 장이 있다는 신호로만 남긴다.
+    이 흐림은 스크립트가 `data-enhanced` 를 붙인 뒤에만 건다 — 현재 장을 따라가는
+    것도 스크립트라, 게이트가 없으면 JS 가 아직 안 왔거나 실패했을 때 카드 전체가
+    흐린 채로 굳는다.
+  */
+  [data-enhanced] .slide:not(.is-active) {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+  }
+
+  .shot {
+    display: block;
+  }
+
+  .slide img {
     display: block;
     width: 100%;
     height: auto;
@@ -60,6 +144,7 @@ const base = import.meta.env.BASE_URL;
     margin: 12px 2px 0;
     font-size: 14px;
     color: var(--muted);
+    text-align: center;
   }
 
   .meta a {
@@ -69,4 +154,161 @@ const base = import.meta.env.BASE_URL;
   .meta a:hover {
     color: var(--accent);
   }
+
+  /*
+    화살표는 카드 위에 겹치지 않고 도트와 한 줄에 선다. 이웃 카드가 반쯤 보이는
+    레이아웃이라 좌우에 띄우면 옆 카드의 헤드라인을 정확히 가린다.
+  */
+  .controls {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .arrow {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: transparent;
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .arrow:hover:not(:disabled) {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .arrow:disabled {
+    opacity: 0.25;
+    cursor: default;
+  }
+
+  .dots {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .dots button {
+    display: block;
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--line);
+    cursor: pointer;
+    transition: background 0.2s ease, width 0.2s ease;
+  }
+
+  .dots button[aria-current="true"] {
+    width: 22px;
+    border-radius: 4px;
+    background: var(--accent);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    /* 흐림 규칙보다 특이성이 낮으면 안 먹으므로 같은 선택자로 되돌린다. */
+    [data-enhanced] .slide:not(.is-active),
+    .dots button {
+      transition: none;
+    }
+  }
 </style>
+
+<script>
+  /*
+    한 페이지에 덱이 하나뿐이지만 컴포넌트라 여러 개를 가정하고 각각 묶는다.
+    현재 장 판정은 IntersectionObserver 가 아니라 "트랙 중앙에 가장 가까운 슬라이드"
+    로 한다 — 데스크톱에서는 이웃 카드까지 온전히 보여서 교차 비율로는 가운데를
+    가릴 수 없다.
+  */
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const behavior: ScrollBehavior = reduceMotion ? "auto" : "smooth";
+
+  for (const deck of document.querySelectorAll<HTMLElement>("[data-carousel]")) {
+    const track = deck.querySelector<HTMLElement>("[data-track]");
+    const slides = [...deck.querySelectorAll<HTMLElement>("[data-slide]")];
+    if (!track || slides.length < 2) continue;
+
+    const controls = deck.querySelector<HTMLElement>("[data-controls]");
+    const prev = deck.querySelector<HTMLButtonElement>("[data-prev]");
+    const next = deck.querySelector<HTMLButtonElement>("[data-next]");
+    const dots = [...deck.querySelectorAll<HTMLButtonElement>("[data-dot]")];
+
+    let index = -1;
+
+    const centered = () => {
+      const center = track.scrollLeft + track.clientWidth / 2;
+      let best = 0;
+      let bestDistance = Infinity;
+      slides.forEach((slide, i) => {
+        const distance = Math.abs(slide.offsetLeft + slide.offsetWidth / 2 - center);
+        if (distance < bestDistance) {
+          bestDistance = distance;
+          best = i;
+        }
+      });
+      return best;
+    };
+
+    const sync = () => {
+      const current = centered();
+      if (current === index) return;
+      index = current;
+
+      slides.forEach((slide, i) => slide.classList.toggle("is-active", i === index));
+      dots.forEach((dot, i) => dot.setAttribute("aria-current", String(i === index)));
+      if (prev) prev.disabled = index === 0;
+      if (next) next.disabled = index === slides.length - 1;
+    };
+
+    const goTo = (target: number) => {
+      const clamped = Math.min(Math.max(target, 0), slides.length - 1);
+      // block: "nearest" 를 줘야 가로 이동이 페이지를 세로로 끌고 가지 않는다.
+      slides[clamped].scrollIntoView({ behavior, inline: "center", block: "nearest" });
+    };
+
+    let ticking = false;
+    track.addEventListener(
+      "scroll",
+      () => {
+        if (ticking) return;
+        ticking = true;
+        requestAnimationFrame(() => {
+          ticking = false;
+          sync();
+        });
+      },
+      { passive: true },
+    );
+
+    // 슬라이드 폭이 뷰포트에 걸려 있어 창 크기가 바뀌면 중앙도 바뀐다.
+    addEventListener("resize", sync, { passive: true });
+
+    track.addEventListener("keydown", (event) => {
+      if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+      event.preventDefault(); // 기본 스크롤은 카드 단위가 아니라 픽셀 단위다
+      goTo(index + (event.key === "ArrowRight" ? 1 : -1));
+    });
+
+    prev?.addEventListener("click", () => goTo(index - 1));
+    next?.addEventListener("click", () => goTo(index + 1));
+    dots.forEach((dot, i) => dot.addEventListener("click", () => goTo(i)));
+
+    if (controls) controls.hidden = false;
+    deck.dataset.enhanced = "";
+    sync();
+  }
+</script>
