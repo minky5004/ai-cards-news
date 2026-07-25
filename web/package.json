@@ -5,6 +5,7 @@
   "engines": {
     "node": ">=22.12.0"
   },
+  "packageManager": "pnpm@11.15.1",
   "scripts": {
     "sync-cards": "node scripts/sync-cards.mjs",
     "predev": "pnpm run sync-cards",
