@@ -41,7 +41,16 @@ application {
 
     // 콘솔 출력이 전부 한국어다. Java 18+ 는 file.encoding 이 UTF-8 이지만 stdout 은
     // 여전히 OS 기본 인코딩을 따라가므로 따로 지정해야 Windows 에서 깨지지 않는다.
-    applicationDefaultJvmArgs = listOf("-Dstdout.encoding=UTF-8", "-Dstderr.encoding=UTF-8")
+    //
+    // webp-imageio 는 WebP 인코딩을 네이티브 라이브러리로 한다. 그 System::load(JNI)
+    // 는 JEP 472(Integrity by Default) 상 restricted method 라 JDK 25 가 경고를 찍고,
+    // 미래 릴리스에선 켜지 않으면 아예 막혀 렌더가 깨진다. 라이브러리가 클래스패스에
+    // 있어 unnamed module 이므로 ALL-UNNAMED 로 네이티브 접근을 허용한다.
+    applicationDefaultJvmArgs =
+        listOf(
+            "-Dstdout.encoding=UTF-8",
+            "-Dstderr.encoding=UTF-8",
+            "--enable-native-access=ALL-UNNAMED")
 }
 
 // Playwright 는 기본으로 Chromium·Firefox·WebKit 3종을 전부 내려받는다. 카드 렌더는
