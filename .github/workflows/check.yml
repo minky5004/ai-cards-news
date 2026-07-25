@@ -1,0 +1,50 @@
+# 사이트 타입 검사.
+#
+# `astro build` 는 타입을 검사하지 않는다 — Vite 가 TS 를 트랜스파일할 때 타입을
+# 지워버리므로, content.ts 의 타입과 컴포넌트 props 가 어긋나도 빌드는 성공하고
+# 런타임에 undefined 가 박힌다. M5 부터는 매일 무인으로 돌기 때문에 사람이 안 보는
+# 사이에 그런 사이트가 배포될 수 있다.
+#
+# 배포 워크플로(deploy.yml)가 아니라 여기서 도는 이유는 시점이 달라서다. 검사는
+# dev 에 들어오기 전에 막는 일이고, 배포는 이미 들어온 것을 올리는 일이다.
+name: 타입 검사
+
+on:
+  pull_request:
+    paths:
+      - "web/**"
+      - ".github/workflows/check.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # 리포 루트에는 package.json 이 없다(Node 프로젝트는 web 하나, 파이프라인은
+      # Java). 경로를 명시하지 않으면 pnpm 버전을 못 찾고 죽는다.
+      - uses: pnpm/action-setup@v4
+        with:
+          package_json_file: web/package.json
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: 의존성 설치
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      - name: 타입 검사
+        working-directory: web
+        run: pnpm run check
