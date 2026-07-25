@@ -1,0 +1,68 @@
+# 웹 사이트를 GitHub Pages 에 배포한다.
+#
+# 배포 소스는 `dev` 다. dev 가 기본 브랜치이고, M5 에서 파이프라인이 매일 커밋할
+# `content/` 도 이리로 온다. main 에서 배포하면 매일 dev → main 머지라는 수동
+# 지점이 하나 더 생겨 완전 자동화라는 전제와 부딪힌다.
+#
+# 파이프라인(Java)만 바뀐 커밋으로는 돌지 않는다 — 사이트 산출물이 그대로다.
+name: 웹 배포
+
+on:
+  push:
+    branches: [dev]
+    paths:
+      - "web/**"
+      - "content/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 배포는 중간에 끊지 않는다. 취소된 배포는 사이트를 반쯤 갱신된 상태로 남길 수 있다.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # 버전은 web/package.json 의 packageManager 필드에서 읽는다.
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: pnpm
+          cache-dependency-path: web/pnpm-lock.yaml
+
+      - name: 의존성 설치
+        working-directory: web
+        run: pnpm install --frozen-lockfile
+
+      # prebuild 가 content/<date>/cards/ 를 public/ 로 복사한다.
+      # content/ 가 아직 리포에 없으면 카드 없는 사이트가 나온다(M5 에서 채워진다).
+      - name: 빌드
+        working-directory: web
+        run: pnpm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
