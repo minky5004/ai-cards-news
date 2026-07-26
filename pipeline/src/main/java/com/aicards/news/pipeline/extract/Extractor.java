@@ -66,8 +66,8 @@ public final class Extractor {
             failures.add("%s: %s".formatted(item.source(), result.error()));
         }
 
-        // 전부 실패해도 항목 자체는 남긴다. 카피 단계에서 제목·요약으로 폴백할 수 있고, 어떤 매체가
-        // 왜 막혔는지 기록이 남아야 다음에 손볼 수 있다.
+        // 전부 실패해도 항목 자체는 남긴다. 카피는 이 항목을 건너뛰지만(제목만으로는 카드를 만들지
+        // 않는다 — Copywriter.hasBody 참고), 어떤 매체가 왜 막혔는지 기록이 남아야 다음에 손볼 수 있다.
         RawItem first = candidates.isEmpty() ? null : candidates.getFirst();
         return new ArticlesResult.Article(
                 cluster.id(),
