@@ -18,6 +18,7 @@ import com.aicards.news.pipeline.schema.IngestResult;
 import com.aicards.news.pipeline.schema.ItemCluster;
 import com.aicards.news.pipeline.schema.RawItem;
 import com.aicards.news.pipeline.score.Rank;
+import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.Duration;
@@ -29,6 +30,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 파이프라인 CLI 진입점.
@@ -474,9 +476,64 @@ public final class Run {
             System.out.printf("텍스트가 넘친 카드 %d장 — 카피 길이 규격을 손봐야 한다.%n", overflowed);
         }
 
-        if (succeeded == 0) {
+        /*
+          한 장이라도 못 그리면 그날 전체를 실패로 본다.
+
+          copy 의 "절반 넘게 실패하면 거부" 와 기준이 다른 이유는 판정 대상이 달라서다. copy 는
+          실패한 기사를 빼고 남은 것으로 그날을 꾸릴 수 있다 — 카드가 한 장 줄 뿐이다. 반면
+          render 는 장수가 cards.json 에 이미 확정돼 있어서, 한 장만 못 그려도 JSON 과 이미지가
+          어긋난다. 웹은 그 어긋난 날짜를 통째로 건너뛰므로(web/src/lib/content.ts) 결과는
+          "4장이라도 발행" 이 아니라 "그날이 사이트에서 사라짐" 이다. 그러니 여기서는 부분 성공이
+          곧 실패다.
+        */
+        // 그릴 카드가 0장이면 아래 판정이 0 != 0 으로 통과해 버리고, 그대로 청소까지 내려가
+        // 디렉터리를 통째로 비운다. copy 가 빈 cards.json 을 쓰지 않으므로 정상 경로에서는 오지
+        // 않지만, 여기서 걸러야 그 보장이 깨졌을 때 조용히 지우는 대신 드러난다.
+        if (results.isEmpty()) {
             throw new IllegalStateException(
-                    "카드를 한 장도 그리지 못했다 (%d장 시도).".formatted(results.size()));
+                    "%s 에 카드가 한 장도 없다.".formatted(Paths.relative(cardsPath)));
+        }
+
+        if (succeeded != results.size()) {
+            throw new IllegalStateException(
+                    "%d장 중 %d장을 그리지 못했다. 장수가 %s 와 어긋나면 그날이 통째로 발행되지 않는다."
+                            .formatted(
+                                    results.size(),
+                                    results.size() - succeeded,
+                                    Paths.relative(cardsPath)));
+        }
+
+        // 전부 성공했을 때만 치운다. 실패한 실행에서 파일을 지우면 무엇이 남았는지 볼 수 없다.
+        removeStaleCards(Paths.cardsDir(date), results);
+    }
+
+    /**
+     * 이번 렌더가 쓰지 않은 옛 카드 이미지를 지운다.
+     *
+     * <p>렌더는 01 부터 장수만큼만 덮어쓸 뿐 지우지 않는다. 5장이던 날이 4장이 되면 {@code 05.webp}
+     * 가 그대로 남고, 웹은 <b>이미지 5장 대 카드 4장</b>을 보고 그 날짜를 통째로 건너뛴다 — 카드가 한
+     * 장 줄어드는 게 아니라 그날이 사이트에서 사라진다. 2026-07-26 이 카피 실패로 5장에서 4장이
+     * 됐을 때 실제로 이 상태가 됐고, 그때는 손으로 지워서 넘어갔다. 무인으로 돌면 아무도 안 지운다.
+     */
+    private static void removeStaleCards(Path dir, List<RenderResult> results) throws IOException {
+        if (!Files.isDirectory(dir)) return;
+
+        // 파일명 규칙(01.webp)이 아니라 "이번에 실제로 쓴 경로" 를 기준으로 삼는다. 규칙이 바뀌어도
+        // 따라오고, 어쩌다 섞인 엉뚱한 webp 도 함께 걸린다.
+        Set<Path> written =
+                results.stream()
+                        .filter(RenderResult::ok)
+                        .map(result -> result.path().toAbsolutePath().normalize())
+                        .collect(Collectors.toSet());
+
+        try (Stream<Path> listed = Files.list(dir)) {
+            for (Path file : listed.toList()) {
+                if (!file.getFileName().toString().endsWith(".webp")) continue;
+                if (written.contains(file.toAbsolutePath().normalize())) continue;
+
+                Files.delete(file);
+                System.out.printf("옛 카드 이미지를 지웠다 — %s%n", Paths.relative(file));
+            }
         }
     }
 

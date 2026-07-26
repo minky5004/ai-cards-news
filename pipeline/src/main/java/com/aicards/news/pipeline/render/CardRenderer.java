@@ -10,6 +10,7 @@ import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -23,6 +24,7 @@ import javax.imageio.ImageIO;
 import javax.imageio.ImageWriteParam;
 import javax.imageio.ImageWriter;
 import javax.imageio.stream.ImageOutputStream;
+import javax.imageio.stream.MemoryCacheImageOutputStream;
 import com.luciad.imageio.webp.WebPWriteParam;
 
 /**
@@ -175,6 +177,20 @@ public final class CardRenderer implements AutoCloseable {
         return "<div class=\"fallback\">AI NEWS</div>";
     }
 
+    /**
+     * WebP 로 인코딩해 파일에 쓴다.
+     *
+     * <p>파일로 곧장 쓰지 않고 메모리에 인코딩한 뒤 한 번에 내보낸다.
+     * {@code ImageIO.createImageOutputStream(File)} 이 돌려주는 스트림은 기존 파일을
+     * {@code RandomAccessFile("rw")} 로 여는데 <b>내용을 잘라내지 않는다.</b> 새 이미지가 옛것보다
+     * 작으면 뒤쪽에 옛 파일의 바이트가 그대로 남아, RIFF 가 선언한 길이보다 파일이 길어진다.
+     * 디코더는 트레일링 바이트를 무시하므로 <b>이미지는 멀쩡히 보이고</b>, 그래서 M3 내내 드러나지
+     * 않았다 — 러너에서 렌더한 카드가 로컬과 바이트가 다른 이유를 쫓다 잡았다(62840바이트짜리
+     * WebP 가 63874바이트 파일로 저장돼 있었고, 남은 1034바이트가 옛 파일의 꼬리였다).
+     *
+     * <p>{@link Files#write} 는 기본이 {@code TRUNCATE_EXISTING} 이라 그 여지가 없다. 카드 한 장은
+     * 수백 KB 라 통째로 들고 있어도 부담이 없다.
+     */
     private static void writeWebp(byte[] png, Path output) throws IOException {
         BufferedImage image = ImageIO.read(new ByteArrayInputStream(png));
         if (image == null) throw new IOException("스크린샷을 이미지로 읽지 못했다");
@@ -185,13 +201,16 @@ public final class CardRenderer implements AutoCloseable {
         param.setCompressionType("Lossy");
         param.setCompressionQuality(QUALITY);
 
-        Files.createDirectories(output.getParent());
-        try (ImageOutputStream stream = ImageIO.createImageOutputStream(output.toFile())) {
+        ByteArrayOutputStream encoded = new ByteArrayOutputStream();
+        try (ImageOutputStream stream = new MemoryCacheImageOutputStream(encoded)) {
             writer.setOutput(stream);
             writer.write(null, new IIOImage(image, null, null), param);
         } finally {
             writer.dispose();
         }
+
+        Files.createDirectories(output.getParent());
+        Files.write(output, encoded.toByteArray());
     }
 
     /** 카피는 LLM 이 쓴 남의 글이다. 따옴표나 부등호가 섞이면 마크업이 깨진다. */
