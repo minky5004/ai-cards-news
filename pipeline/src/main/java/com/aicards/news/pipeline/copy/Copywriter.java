@@ -183,8 +183,11 @@ public final class Copywriter {
      *
      * <p>사유에 실제 값을 함께 남긴다. 길이만 찍으면 모델이 무엇을 줬는지 알 수 없어 다음에 손볼
      * 근거가 없다.
+     *
+     * <p>패키지 접근으로 열어 둔 것은 테스트가 부르기 위해서다. 이 판정을 실제 호출로 확인하려 들면
+     * 망가진 응답을 받아내려고 하루 한도를 태우게 된다.
      */
-    private static String brokenReason(String headline, String body) {
+    static String brokenReason(String headline, String body) {
         if (headline.length() < MIN_HEADLINE) {
             return "헤드라인이 %d자다 (최소 %d자): \"%s\""
                     .formatted(headline.length(), MIN_HEADLINE, headline);

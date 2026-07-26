@@ -34,6 +34,25 @@ dependencies {
     // Rome 과 google-genai 가 SLF4J 를 쓴다. 바인딩이 없으면 실행할 때마다 경고가 찍히는데,
     // 파이프라인 로그는 사람이 눈으로 읽는 화면이라 노이즈를 남기지 않는다.
     runtimeOnly("org.slf4j:slf4j-nop:2.0.17")
+
+    // 테스트. 여기서 검증하는 것은 전부 네트워크·LLM 이 필요 없는 순수 로직이다 —
+    // 클러스터링·스코어링·응답 파손 감지·발행 판정. 그래야 copy 경로를 고칠 때마다
+    // 하루 20회짜리 Gemini 한도를 태우지 않고 확인할 수 있다.
+    testImplementation(platform("org.junit:junit-bom:5.11.4"))
+    testImplementation("org.junit.jupiter:junit-jupiter")
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+}
+
+tasks.test {
+    useJUnitPlatform()
+
+    // 테스트 이름과 실패 메시지가 한국어다. 지정하지 않으면 Windows 콘솔에서 깨진다.
+    systemProperty("file.encoding", "UTF-8")
+
+    testLogging {
+        events("passed", "failed", "skipped")
+        showStandardStreams = false
+    }
 }
 
 application {
