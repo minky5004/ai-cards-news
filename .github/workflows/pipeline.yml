@@ -46,7 +46,8 @@ jobs:
       # 렌더를 붙이는 M5-4 에서 캐시와 함께 다시 다룬다.
       - name: 수집
         env:
-          DATE_ARG: ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+          # TEMP 검증용 고정 날짜 — 되돌린다. 오늘치는 리포에 커밋돼 있어 건너뛴다.
+          DATE_ARG: --date 2026-07-25
         run: ./gradlew run --args="ingest $DATE_ARG" -x installChromium
 
       # 러너가 실제로 무엇을 만들었는지 눈으로 봐야 한다. 리포에 커밋하는 것은 M5-5 다.
