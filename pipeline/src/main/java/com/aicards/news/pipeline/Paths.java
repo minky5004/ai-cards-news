@@ -74,6 +74,11 @@ public final class Paths {
         return dateDir(date).resolve("cards.json");
     }
 
+    /** 그날 나간 LLM 호출의 누적 기록. 한도가 날짜 기준 누적이라 실행 사이에도 남아 있어야 한다. */
+    public static Path usageJson(String date) {
+        return dateDir(date).resolve("usage.json");
+    }
+
     /** 렌더된 카드 이미지가 모이는 디렉터리 */
     public static Path cardsDir(String date) {
         return dateDir(date).resolve("cards");
