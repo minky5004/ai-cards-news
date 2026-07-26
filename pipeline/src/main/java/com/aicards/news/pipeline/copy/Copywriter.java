@@ -153,9 +153,12 @@ public final class Copywriter {
             GenerateContentResponse response =
                     client.models.generateContent(config.model(), prompt, requestConfig);
 
+            // 응답을 받은 시점에 토큰은 이미 나갔다. 카드가 되든 안 되든 사용량에 싣는다.
+            CopyResult.Usage usage = usage(response.usageMetadata());
+
             String text = response.text();
             if (text == null || text.isBlank()) {
-                return CopyResult.failed(article.clusterId(), "빈 응답을 받았다");
+                return CopyResult.failed(article.clusterId(), "빈 응답을 받았다", usage);
             }
 
             CopyOutput parsed = Json.lenient().readValue(text, CopyOutput.class);
@@ -164,13 +167,13 @@ public final class Copywriter {
 
             String broken = brokenReason(headline, body);
             if (broken != null) {
-                return CopyResult.failed(article.clusterId(), broken);
+                return CopyResult.failed(article.clusterId(), broken, usage);
             }
 
-            return CopyResult.ok(
-                    article.clusterId(), headline, body, usage(response.usageMetadata()));
+            return CopyResult.ok(article.clusterId(), headline, body, usage);
         } catch (Exception e) {
             // 카드 하나가 실패해도 나머지는 내보낸다. 그날 카드가 통째로 없어지는 게 최악이다.
+            // 여기는 응답 자체를 못 받은 자리라 토큰을 알 길이 없다. 호출 횟수로만 잡힌다.
             return CopyResult.failed(article.clusterId(), message(e));
         }
     }

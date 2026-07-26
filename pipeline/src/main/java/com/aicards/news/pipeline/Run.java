@@ -373,10 +373,22 @@ public final class Run {
         long attempted = results.size() - skipped;
         long failed = attempted - cards.size();
 
-        // 무료 티어라 비용은 없지만 사용량은 남긴다. 한도에 얼마나 여유가 있는지 봐야 한다.
+        /*
+          무료 티어라 비용은 없지만 사용량은 남긴다. 한도에 얼마나 여유가 있는지 봐야 한다.
+
+          한도의 단위는 토큰이 아니라 요청 수다 — 초과하면 quotaId 가
+          GenerateRequestsPerDayPerProjectPerModel-FreeTier, quotaValue 가 20 으로 온다. 그래서
+          호출 횟수를 먼저 찍는다. 건너뛴 기사는 호출하지 않았으므로 여기 들어가지 않는다.
+        */
         System.out.printf(
-                "카드 %d/%d장 (건너뜀 %d · 실패 %d) · 토큰 입력 %d 출력 %d%n",
-                cards.size(), results.size(), skipped, failed, inputTokens, outputTokens);
+                "카드 %d/%d장 (건너뜀 %d · 실패 %d) · 호출 %d회 · 토큰 입력 %d 출력 %d%n",
+                cards.size(),
+                results.size(),
+                skipped,
+                failed,
+                attempted,
+                inputTokens,
+                outputTokens);
 
         // 한 장도 못 만들었으면 파일을 쓰지 않는다. 빈 산출물을 남기면 이전 결과를 덮어쓰고,
         // 뒤 단계가 그걸 정상으로 알고 빈 날짜를 발행한다. 실패는 실패로 드러나야 한다.
