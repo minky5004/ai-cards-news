@@ -1,0 +1,52 @@
+# 파이프라인 단위 테스트.
+#
+# 여기서 검증하는 것은 전부 네트워크·LLM 이 필요 없는 순수 로직이다 — 클러스터링·스코어링·
+# 응답 파손 감지·발행 판정. 그래서 API 키도 브라우저도 없이 러너에서 돈다.
+#
+# 이 테스트가 있는 이유가 곧 여기서 돌아야 하는 이유다. copy 경로를 고칠 때마다 실제 호출로
+# 확인하면 하루 20회짜리 한도를 태운다 — 2026-07-26 에 17회 중 12회가 그렇게 나갔다.
+# 로컬에서만 돌면 아무도 안 돌리는 날이 오고, 그때부터 다시 실제 호출로 확인하게 된다.
+#
+# 사이트 타입 검사(check.yml)와 나눠 둔 이유는 트리거가 달라서다. 파이프라인만 바뀐 PR 에
+# astro check 를 돌릴 이유가 없고, 그 반대도 마찬가지다.
+name: 파이프라인 테스트
+
+on:
+  pull_request:
+    paths:
+      - "pipeline/**"
+      - "config/**"
+      - ".github/workflows/test.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      # installChromium 을 뺄 필요가 없다. test 태스크는 거기에 의존하지 않는다 —
+      # 브라우저에 의존하는 것은 run 뿐이다.
+      - name: 테스트
+        run: ./gradlew :pipeline:test
+
+      # 실패했을 때 어느 단언이 깨졌는지 보려면 리포트가 필요하다.
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: test-report
+          path: pipeline/build/reports/tests/test/

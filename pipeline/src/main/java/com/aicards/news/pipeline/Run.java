@@ -4,6 +4,7 @@ import com.aicards.news.pipeline.config.ConfigLoader;
 import com.aicards.news.pipeline.config.PipelineConfig;
 import com.aicards.news.pipeline.config.Sources;
 import com.aicards.news.pipeline.copy.CopyResult;
+import com.aicards.news.pipeline.copy.CopyTally;
 import com.aicards.news.pipeline.copy.Copywriter;
 import com.aicards.news.pipeline.ingest.Collector;
 import com.aicards.news.pipeline.ingest.Dedup;
@@ -371,9 +372,7 @@ public final class Run {
                                     : representative.publishedAt()));
         }
 
-        long skipped = results.stream().filter(CopyResult::skipped).count();
-        long attempted = results.size() - skipped;
-        long failed = attempted - cards.size();
+        CopyTally tally = CopyTally.of(results, cards.size());
 
         /*
           무료 티어라 비용은 없지만 사용량은 남긴다. 한도에 얼마나 여유가 있는지 봐야 한다.
@@ -385,10 +384,10 @@ public final class Run {
         System.out.printf(
                 "카드 %d/%d장 (건너뜀 %d · 실패 %d) · 호출 %d회 · 토큰 입력 %d 출력 %d%n",
                 cards.size(),
-                results.size(),
-                skipped,
-                failed,
-                attempted,
+                tally.total(),
+                tally.skipped(),
+                tally.failed(),
+                tally.attempted(),
                 inputTokens,
                 outputTokens);
 
@@ -400,19 +399,11 @@ public final class Run {
                             .formatted(results.size(), Paths.relative(output)));
         }
 
-        /*
-          반쯤 빈 산출물도 이전 결과를 덮어쓴다. 빈 것만 막으면 부족하다 — 실제로 5건 중 1건만
-          성공한 실행이 커밋돼 있던 4장짜리를 1장짜리로 덮어썼다(API 한도 소진이었다). 무인으로
-          돌기 시작하면 카드가 조용히 줄어든 채 발행되고, 아카이브에 그대로 남는다.
-
-          건너뛴 것은 세지 않는다. 본문을 못 가져온 기사는 원문이 PDF 이거나 스크래핑이 막힌
-          날이면 늘 생기는 정상 결과라, 그걸로 벌하면 링크 하나 때문에 그날을 통째로 잃는다.
-          호출한 것 중 절반을 넘게 잃었을 때만 그날 결과를 믿을 수 없다고 본다.
-        */
-        if (failed * 2 > attempted) {
+        // 판정 근거는 CopyTally.trustworthy() 에 있다. 거기 있어야 API 없이 테스트로 밟을 수 있다.
+        if (!tally.trustworthy()) {
             throw new IllegalStateException(
                     "호출한 %d건 중 %d건이 실패했다. 절반을 넘겨 실패한 날은 결과를 믿을 수 없으므로 %s 를 쓰지 않았다."
-                            .formatted(attempted, failed, Paths.relative(output)));
+                            .formatted(tally.attempted(), tally.failed(), Paths.relative(output)));
         }
 
         Json.write(output, new CardsResult(date, Times.iso(Instant.now()), cards));
