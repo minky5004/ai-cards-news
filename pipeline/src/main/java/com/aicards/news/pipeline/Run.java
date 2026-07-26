@@ -351,10 +351,6 @@ public final class Run {
             System.out.printf("✓ %s%n", result.headline());
             System.out.printf("     %s%n", result.body());
             System.out.printf("     %s · %s%n", article.source(), article.url());
-            // 추출이 실패한 기사는 제목만 보고 쓴 카피다. 사실 왜곡 위험이 높으니 드러낸다.
-            if (!article.ok()) {
-                System.out.println("     ⚠ 본문 없이 제목만으로 작성됨 — 사실 확인 필요");
-            }
             System.out.println();
 
             cards.add(
