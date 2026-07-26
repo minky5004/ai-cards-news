@@ -1,0 +1,53 @@
+# 파이프라인을 러너에서 돌린다.
+#
+# M5 를 한 번에 올리지 않고 쪼개 밟는 중이다. 로컬에는 있고 러너에는 없는 것이 셋
+# (JDK 25 · GEMINI_API_KEY · Chromium)인데 전부 한 워크플로에 넣으면 어디서 죽었는지
+# 가리기 어렵다. 여기서는 키도 브라우저도 필요 없는 config·ingest 까지만 태워
+# JDK 25 와 Gradle wrapper 가 러너에서 서는지부터 확인한다.
+#
+# cron 은 아직 붙이지 않는다. 추출·카피·렌더가 러너에서 도는 것을 본 뒤 M5-5 에서 붙인다.
+name: 파이프라인
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "수집 날짜 (YYYY-MM-DD). 비우면 KST 기준 오늘"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      # wrapper 가 리포에 있으므로 Gradle 을 설치하지는 않는다. 배포판과 의존성 캐시만 받는다.
+      - uses: gradle/actions/setup-gradle@v4
+
+      # 수집을 한참 하고 나서 설정 오타로 죽으면 그만큼 네트워크가 낭비된다.
+      - name: 설정 검증
+        run: ./gradlew run --args="config" -x installChromium
+
+      # -x installChromium 을 빼면 안 된다. run 태스크가 Chromium 설치에 의존하는데(렌더가
+      # 쓴다) 수집에는 브라우저가 필요 없다. 그냥 두면 실행할 때마다 170MB 를 받는다.
+      # 렌더를 붙이는 M5-4 에서 캐시와 함께 다시 다룬다.
+      - name: 수집
+        env:
+          DATE_ARG: ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+        run: ./gradlew run --args="ingest $DATE_ARG" -x installChromium
+
+      # 러너가 실제로 무엇을 만들었는지 눈으로 봐야 한다. 리포에 커밋하는 것은 M5-5 다.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: raw
+          path: content/
+          if-no-files-found: error
