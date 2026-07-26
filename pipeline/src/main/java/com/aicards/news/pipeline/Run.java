@@ -6,6 +6,7 @@ import com.aicards.news.pipeline.config.Sources;
 import com.aicards.news.pipeline.copy.CopyResult;
 import com.aicards.news.pipeline.copy.CopyTally;
 import com.aicards.news.pipeline.copy.Copywriter;
+import com.aicards.news.pipeline.copy.UsageLog;
 import com.aicards.news.pipeline.ingest.Collector;
 import com.aicards.news.pipeline.ingest.Dedup;
 import com.aicards.news.pipeline.extract.Extractor;
@@ -314,6 +315,13 @@ public final class Run {
         ArticlesResult articles = Json.read(articlesPath, ArticlesResult.class);
         IngestResult raw = Json.read(Paths.rawJson(date), IngestResult.class);
 
+        UsageLog previous = readUsage(date);
+        if (previous.totalCalls() > 0) {
+            System.out.printf(
+                    "오늘 이미 %d회 호출했다 (%s, %d회 실행)%n",
+                    previous.totalCalls(), Paths.relative(Paths.usageJson(date)), previous.runs().size());
+        }
+
         System.out.printf(
                 "카피라이팅 시작 — %s (%d건, %s)%n%n",
                 date, articles.articles().size(), config.copy().model());
@@ -391,6 +399,23 @@ public final class Run {
                 inputTokens,
                 outputTokens);
 
+        /*
+          아래 판정에서 죽더라도 호출은 이미 나갔다. 그러니 기록이 먼저다 — 실패한 실행의 호출이
+          누락되면 남은 여유를 실제보다 낙관적으로 보게 되고, 그건 한도를 재시도로 태우는 무인
+          실행에서 정확히 최악의 오차다. PR #27 에서 토큰 집계에 대해 배운 것과 같은 얘기다.
+        */
+        UsageLog updated =
+                previous.plus(
+                        new UsageLog.Entry(
+                                Times.iso(Instant.now()),
+                                tally.attempted(),
+                                inputTokens,
+                                outputTokens));
+        Json.write(Paths.usageJson(date), updated);
+        System.out.printf(
+                "오늘 누적 %d회 · 토큰 입력 %d 출력 %d%n",
+                updated.totalCalls(), updated.totalInputTokens(), updated.totalOutputTokens());
+
         // 한 장도 못 만들었으면 파일을 쓰지 않는다. 빈 산출물을 남기면 이전 결과를 덮어쓰고,
         // 뒤 단계가 그걸 정상으로 알고 빈 날짜를 발행한다. 실패는 실패로 드러나야 한다.
         if (cards.isEmpty()) {
@@ -408,6 +433,25 @@ public final class Run {
 
         Json.write(output, new CardsResult(date, Times.iso(Instant.now()), cards));
         System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    /**
+     * 그날의 누적 호출 기록을 읽는다. 없으면 빈 기록으로 시작한다.
+     *
+     * <p>{@code --force} 로 같은 날짜를 다시 돌려도 이전 실행의 호출이 사라지지 않아야 한다. 한도는
+     * 실행이 아니라 날짜 단위로 차기 때문이다.
+     */
+    private static UsageLog readUsage(String date) {
+        Path path = Paths.usageJson(date);
+        if (!Files.exists(path)) return UsageLog.empty(date);
+
+        try {
+            return Json.read(path, UsageLog.class);
+        } catch (IOException e) {
+            // 기록이 깨졌다고 카피를 막지는 않는다. 다만 누적을 잃었다는 사실은 드러내야 한다.
+            System.out.printf("%s 를 읽지 못해 누적을 0부터 센다 — %s%n", Paths.relative(path), e.getMessage());
+            return UsageLog.empty(date);
+        }
     }
 
     private static void runRender(String date, boolean force) throws Exception {
