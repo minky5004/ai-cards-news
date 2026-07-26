@@ -14,9 +14,6 @@
 name: 파이프라인
 
 on:
-  # 검증용 임시 트리거 — 머지 전에 되돌린다.
-  push:
-    branches: [chore/pipeline-render-workflow]
   workflow_dispatch:
     inputs:
       date:
@@ -89,9 +86,7 @@ jobs:
         env:
           DATE_ARG: ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
           FORCE_ARG: ${{ inputs.force && '--force' || '' }}
-        # 검증용 임시 --force — 머지 전에 되돌린다. push 트리거에는 inputs 가 없어
-        # FORCE_ARG 가 비고, 커밋된 01.webp 때문에 렌더가 건너뛰어 버린다.
-        run: ./gradlew run --args="render $DATE_ARG --force"
+        run: ./gradlew run --args="render $DATE_ARG $FORCE_ARG"
 
       # 러너가 실제로 무엇을 만들었는지 눈으로 봐야 한다 — 특히 카드 이미지는 받아서
       # 열어 보지 않으면 폰트나 썸네일이 로컬과 같은지 알 수 없다.
