@@ -37,6 +37,20 @@ public final class Copywriter {
     /** 본문이 없어 카피를 시도조차 하지 않은 기사에 남기는 사유. */
     private static final String NO_BODY = "본문을 추출하지 못했다 — 제목만으로는 카피를 만들지 않는다";
 
+    /*
+      응답이 통째로 망가진 것을 잡는 하한. 규격 검사가 아니다.
+
+      규격은 헤드라인 12~24자 / 본문 110~145자지만, 그걸 여기서 강제하지는 않는다. 규격을 조금
+      넘긴 카피는 렌더에 멀쩡히 들어가고(27자 헤드라인이 실제로 그랬다), 넘치면 렌더의 넘침
+      감지가 잡는다. 여기서 걸러야 하는 것은 모델이 body 를 "..." 세 글자로 준 것 같은 경우다 —
+      실제로 한 번 나왔고, isBlank() 만 보던 검증을 그대로 통과해 카드가 될 뻔했다.
+
+      값은 관측된 정상 카피의 최소(헤드라인 20자, 본문 119자)에서 크게 내려 잡았다. 하한이 높으면
+      멀쩡한 카피를 버려 그날 카드가 한 장 사라진다. 파손은 눈에 띄지만 사라진 카드는 안 띈다.
+    */
+    private static final int MIN_HEADLINE = 8;
+    private static final int MIN_BODY = 50;
+
     private Copywriter() {}
 
     /** LLM 이 채워야 할 것만 담는다. URL·썸네일 같은 확정된 값은 우리가 붙인다. */
@@ -145,23 +159,37 @@ public final class Copywriter {
             }
 
             CopyOutput parsed = Json.lenient().readValue(text, CopyOutput.class);
-            if (parsed.headline() == null
-                    || parsed.headline().isBlank()
-                    || parsed.body() == null
-                    || parsed.body().isBlank()) {
-                return CopyResult.failed(
-                        article.clusterId(), "응답에 headline 또는 body 가 비어 있다: " + text);
+            String headline = parsed.headline() == null ? "" : parsed.headline().strip();
+            String body = parsed.body() == null ? "" : parsed.body().strip();
+
+            String broken = brokenReason(headline, body);
+            if (broken != null) {
+                return CopyResult.failed(article.clusterId(), broken);
             }
 
             return CopyResult.ok(
-                    article.clusterId(),
-                    parsed.headline().strip(),
-                    parsed.body().strip(),
-                    usage(response.usageMetadata()));
+                    article.clusterId(), headline, body, usage(response.usageMetadata()));
         } catch (Exception e) {
             // 카드 하나가 실패해도 나머지는 내보낸다. 그날 카드가 통째로 없어지는 게 최악이다.
             return CopyResult.failed(article.clusterId(), message(e));
         }
+    }
+
+    /**
+     * 응답이 카드로 쓸 수 없을 만큼 망가졌으면 그 사유를, 멀쩡하면 null 을 돌려준다.
+     *
+     * <p>사유에 실제 값을 함께 남긴다. 길이만 찍으면 모델이 무엇을 줬는지 알 수 없어 다음에 손볼
+     * 근거가 없다.
+     */
+    private static String brokenReason(String headline, String body) {
+        if (headline.length() < MIN_HEADLINE) {
+            return "헤드라인이 %d자다 (최소 %d자): \"%s\""
+                    .formatted(headline.length(), MIN_HEADLINE, headline);
+        }
+        if (body.length() < MIN_BODY) {
+            return "본문이 %d자다 (최소 %d자): \"%s\"".formatted(body.length(), MIN_BODY, body);
+        }
+        return null;
     }
 
     private static CopyResult.Usage usage(
