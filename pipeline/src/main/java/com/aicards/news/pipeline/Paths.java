@@ -74,9 +74,14 @@ public final class Paths {
         return dateDir(date).resolve("cards.json");
     }
 
+    /** 렌더된 카드 이미지가 모이는 디렉터리 */
+    public static Path cardsDir(String date) {
+        return dateDir(date).resolve("cards");
+    }
+
     /** 카드 이미지. 01.webp 부터 순서대로 — 웹이 파일명만 보고 캐러셀 순서를 안다. */
     public static Path cardImage(String date, int index) {
-        return dateDir(date).resolve("cards").resolve("%02d.webp".formatted(index));
+        return cardsDir(date).resolve("%02d.webp".formatted(index));
     }
 
     /** 로그에 절대 경로를 그대로 뱉으면 읽기 어렵다. 리포 루트 기준 상대 경로로 줄인다. */
