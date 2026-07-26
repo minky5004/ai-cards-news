@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T07:47:28.234Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49051361",
+      "headline": "클로드 프롬프트, 이제 예시 넣지 마세요",
+      "body": "최신 클로드 모델은 판단력이 높아져 프롬프트에 예시를 넣으면 오히려 성능이 제한됩니다. 앤스로픽은 중복 지침을 지우고 필요한 때만 정보를 로딩하는 방식을 새로 제시했습니다. 이제 길고 복잡한 프롬프트 대신 툴과 인터페이스 구조를 설계하는 데 집중하면 됩니다.",
+      "sourceUrl": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "sourceName": "Claude",
+      "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a639c6b2e881afef80764c6_og_the-new-rules-of-context-engineering-for-claude-5-generation-models.jpg",
+      "publishedAt": "2026-07-25T20:42:35.000Z"
+    },
+    {
+      "clusterId": "hackernews:49048034",
+      "headline": "중국 AI가 GPT-5.5를 넘었다",
+      "body": "Z.ai의 GLM-5.2가 벤치마크 62.1%를 기록하며 GPT-5.5(58.6%)를 넘었습니다. 중국 모델 다운로드가 41%에 달하자 미국 정부는 제재를 검토하고 있습니다. 하지만 이를 막으면 미국이 글로벌 AI 생태계에서 고립될 위험이 있습니다.",
+      "sourceUrl": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
+      "sourceName": "Tobi Knaup",
+      "imageUrl": "https://tobi.knaup.me/assets/img/blog/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment.730px.jpeg",
+      "publishedAt": "2026-07-25T14:49:49.000Z"
+    },
+    {
+      "clusterId": "hackernews:49052912",
+      "headline": "딥시크, 미국과 연산 격차 유출에 투자 중단",
+      "body": "딥시크가 미국과의 컴퓨팅 연산 격차를 언급한 발언 녹취록이 유출되자 투자 유치를 전격 중단했습니다. 유출된 PDF 문서에는 연산 능력 차이에 대한 발언 내용이 담긴 것으로 알려졌습니다. 이에 따라 추진 중이던 자금 조달 일정이 모두 정지되었습니다.",
+      "sourceUrl": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-07-25T23:32:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:49050859",
+      "headline": "데비안, AI가 작성한 코드 금지안 발의",
+      "body": "리눅스 배포판 데비안이 AI 및 LLM으로 작성된 코드의 프로젝트 기여를 전면 금지하는 안건을 공식 발의했습니다. 저작권 불확실성과 품질 저하, 윤리적 문제를 이유로 제시했습니다. 한편 엄격한 책임 명시를 조건으로 허용하자는 대안도 함께 논의되고 있습니다.",
+      "sourceUrl": "https://debian.org/vote/2026/vote_002",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-07-25T19:44:39.000Z"
+    },
+    {
+      "clusterId": "hackernews:49052564",
+      "headline": "클라우드플레어, 9월부터 구글봇 막는다",
+      "body": "클라우드플레어가 9월 15일부터 광고가 있는 페이지의 AI 학습용 봇을 기본 차단합니다. 검색과 모델 학습을 함께 하는 구글봇과 빙봇도 차단 대상에 포함됩니다. 이로써 사이트 소유자는 콘텐츠 무단 학습을 막고 AI 트래픽을 제어할 수 있습니다.",
+      "sourceUrl": "https://blog.cloudflare.com/content-independence-day-ai-options",
+      "sourceName": "The Cloudflare Blog",
+      "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01KWW2Q1J78MZF5QRDGYXQN4VN.png",
+      "publishedAt": "2026-07-25T22:50:49.000Z"
+    }
+  ]
+}

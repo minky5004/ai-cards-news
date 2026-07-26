@@ -1,0 +1,702 @@
+{
+  "date": "2026-07-26",
+  "generatedAt": "2026-07-26T07:45:28.855Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "venturebeat-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 20,
+      "filtered": 13
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49051361",
+      "representativeId": "hackernews:49051361",
+      "items": [
+        {
+          "id": "hackernews:49051361",
+          "title": "The new rules of context engineering for Claude 5 generation models",
+          "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T20:42:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 291,
+            "comments": 184,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49051361"
+          }
+        }
+      ],
+      "score": 4.990892120711852,
+      "breakdown": {
+        "hnPoints": 1.826319284175855,
+        "hnComments": 0.9843589828571427,
+        "mentions": 0.0,
+        "recency": 0.9802138536788532,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49048034",
+      "representativeId": "hackernews:49048034",
+      "items": [
+        {
+          "id": "hackernews:49048034",
+          "title": "Open-weight AI is having its Kubernetes moment",
+          "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T14:49:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 370,
+            "comments": 287,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49048034"
+          }
+        }
+      ],
+      "score": 4.884970725398217,
+      "breakdown": {
+        "hnPoints": 1.9033543275566371,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7816163978415798,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49052912",
+      "representativeId": "hackernews:49052912",
+      "items": [
+        {
+          "id": "hackernews:49052912",
+          "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+          "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T23:32:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 123,
+            "comments": 91,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49052912"
+          }
+        }
+      ],
+      "score": 4.696801341434628,
+      "breakdown": {
+        "hnPoints": 1.5507759337571174,
+        "hnComments": 0.8526359799108633,
+        "mentions": 0.0,
+        "recency": 1.0933894277666472,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49050859",
+      "representativeId": "hackernews:49050859",
+      "items": [
+        {
+          "id": "hackernews:49050859",
+          "title": "LLM Usage in Debian: Three Proposals",
+          "url": "https://debian.org/vote/2026/vote_002",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T19:44:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 136,
+            "comments": 118,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49050859"
+          }
+        }
+      ],
+      "score": 4.628447586663664,
+      "breakdown": {
+        "hnPoints": 1.5828511074457607,
+        "hnComments": 0.9011594799780448,
+        "mentions": 0.0,
+        "recency": 0.9444369992398582,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49052564",
+      "representativeId": "hackernews:49052564",
+      "items": [
+        {
+          "id": "hackernews:49052564",
+          "title": "Cloudflare's new AI traffic options for customers",
+          "url": "https://blog.cloudflare.com/content-independence-day-ai-options",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T22:50:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 99,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49052564"
+          }
+        }
+      ],
+      "score": 4.5522844363916235,
+      "breakdown": {
+        "hnPoints": 1.481570526137868,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.0,
+        "recency": 1.0642986289982697,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49052570",
+      "representativeId": "hackernews:49052570",
+      "items": [
+        {
+          "id": "hackernews:49052570",
+          "title": "What is happening to jobs? Separating AI hype from reality",
+          "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T22:51:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 70,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49052570"
+          }
+        }
+      ],
+      "score": 4.462204868658839,
+      "breakdown": {
+        "hnPoints": 1.3713849028644205,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 1.0645377303500998,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49050512",
+      "representativeId": "hackernews:49050512",
+      "items": [
+        {
+          "id": "hackernews:49050512",
+          "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+          "url": "https://github.com/slvDev/esp32-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T18:59:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 160,
+            "comments": 34,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49050512"
+          }
+        }
+      ],
+      "score": 4.422845115019997,
+      "breakdown": {
+        "hnPoints": 1.6347840871235846,
+        "hnComments": 0.6704023478051564,
+        "mentions": 0.0,
+        "recency": 0.9176586800912556,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49048996",
+      "representativeId": "hackernews:49048996",
+      "items": [
+        {
+          "id": "hackernews:49048996",
+          "title": "Politician reads AI prompt during assembly",
+          "url": "https://youtube.com/watch?v=wlYa8NV5k-U",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T16:31:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 67,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49048996"
+          }
+        },
+        {
+          "id": "hackernews:49049304",
+          "title": "A system prompt to get AI to stop pretending to be human",
+          "url": "https://swiftrocks.com/a-system-prompt-to-get-ai-to-stop-pretending-to-be-human",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T17:01:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49049304"
+          }
+        }
+      ],
+      "score": 4.121367556831621,
+      "breakdown": {
+        "hnPoints": 1.3574955969752556,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 0.8503188642823801,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49047448",
+      "representativeId": "hackernews:49047448",
+      "items": [
+        {
+          "id": "hackernews:49047448",
+          "title": "Corporate America Has Suddenly Decided to Stop Blowing Money on AI",
+          "url": "https://wsj.com/business/china-us-ai-model-costs-53a12e96",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T13:33:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 82,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49047448"
+          }
+        }
+      ],
+      "score": 4.110189058591166,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.8332239394875417,
+        "mentions": 0.0,
+        "recency": 0.7440401568260526,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49051692",
+      "representativeId": "hackernews:49051692",
+      "items": [
+        {
+          "id": "hackernews:49051692",
+          "title": "'AI Mania Is Eviscerating Global Decision-Making'",
+          "url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T21:18:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49051692"
+          }
+        }
+      ],
+      "score": 4.074015874010294,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 1.002814140458114,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49047969",
+      "representativeId": "hackernews:49047969",
+      "items": [
+        {
+          "id": "hackernews:49047969",
+          "title": "The AI jobs apocalypse probably isn't coming anytime soon",
+          "url": "https://theguardian.com/technology/2026/jul/25/ai-jobs-apocalypse-human-labor",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T14:41:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49047969"
+          }
+        }
+      ],
+      "score": 4.046859712402476,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.7772559452631447,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49044492",
+      "representativeId": "hackernews:49044492",
+      "items": [
+        {
+          "id": "hackernews:49044492",
+          "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+          "url": "https://nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T04:20:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 125,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49044492"
+          }
+        }
+      ],
+      "score": 3.999703494271074,
+      "breakdown": {
+        "hnPoints": 1.5559235468071542,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.5218449535564478,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49047526",
+      "representativeId": "hackernews:49047526",
+      "items": [
+        {
+          "id": "hackernews:49047526",
+          "title": "The AI Productivity Illusion",
+          "url": "https://hardresetmedia.com/p/the-ai-productivity-illusion",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T13:43:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49047526"
+          }
+        }
+      ],
+      "score": 3.707982015208817,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.7490711246792529,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49046917",
+      "representativeId": "hackernews:49046917",
+      "items": [
+        {
+          "id": "hackernews:49046917",
+          "title": "What if the RAM/GPU shortage is deliberate?",
+          "url": "https://xn--vk5b17r.online/posts/ram-gpu-consp",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T12:11:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49046917"
+          }
+        }
+      ],
+      "score": 3.610577436501317,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.706061605685904,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/25/ruff",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/25/ruff",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/25/ruff",
+          "title": "Ruff v0.16.0",
+          "url": "https://simonwillison.net/2026/Jul/25/ruff",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-25T22:44:05.000Z",
+          "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's announcement post: Ruff now enables 413 rules by default, up from 59 in previous versions. Since Ruff's default rule set was last modified in v0.1.0 , the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including syntax errors and immediate runtime errors but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration. Here's a one-liner for trying it on any Python project: uvx ruff@latest check . I ran the latest Ruff against my three biggest projects - Datasette , sqlite-utils , and LLM - and it found hundreds of minor issues that breached the new default rules. All three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades: uvx ruff@latest check . --fix --unsafe-fixes Against sqlite-utils , that command reported: Found 1618 errors (1538 fixed, 80 remaining). As an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one: DTZ005 `datetime.datetime.now()` called without a `tz` argument --> tests/test_duplicate.py:17:10 | 15 | \"datetime_col\" TEXT)\"\"\") 16 | # Insert one row of mock data: 17 | dt = datetime.datetime.now() | ^^^^^^^^^^^^^^^^^^^^^^^ 18 | data = { 19 | \"text_col\": \"Cleo\", | help: Pass a `datetime.timezone` object to the `tz` parameter BLE001 Do not catch blind exception: `Exception` --> tests/test_plugins.py:16:12 | 14 | db.execute(\"select * from pragma_function_list()\") 15 | return True 16 | except Exception: | ^^^^^^^^^ 17 | return False 18 | finally: | B018 Found useless attribute access. Either assign it to a variable or remove it. --> tests/test_update.py:46:5 | 44 | def test_update_invalid_pk(fresh_db, pk, update_pk): 45 | table = fresh_db[\"table\"] 46 | table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 47 | with pytest.raises(NotFoundError): 48 | table.update(update_pk, {\"v\": 2}) | Unsurprisingly, given Astral's new home at OpenAI , this output provides everything a coding agent would need to fix the problems. I had Codex (GPT-5.6 Sol high) upgrade LLM and sqlite-utils , and Claude Code (with Opus 5) upgrade Datasette . Tags: python , ruff , astral",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.1097092146936003,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0597092146936007,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+          "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+          "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-26T01:30:00.000Z",
+          "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.078780406305694,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1787804063056941,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
+          "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+          "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-25T16:00:00.000Z",
+          "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7176283964916401,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8176283964916402,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
+          "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+          "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-25T13:05:00.000Z",
+          "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6307653685703645,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7307653685703646,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/25/boris-cherny",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/25/boris-cherny",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/25/boris-cherny",
+          "title": "Quoting Boris Cherny",
+          "url": "https://simonwillison.net/2026/Jul/25/boris-cherny",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-25T00:42:59.000Z",
+          "summary": "More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully. — Boris Cherny , here's that System Card section , page 73 Tags: prompt-injection , anthropic , claude , generative-ai , ai , llms , boris-cherny",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5038941191545727,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4538941191545728,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+          "title": "Introducing Claude Opus 5",
+          "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-24T23:48:50.000Z",
+          "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's description of it as a \"thoughtful and proactive model that comes close to the frontier intelligence of Claude Fable 5 at half the price\" sounds promising. It's currently leading the Artificial Analysis leaderboard , in front of even Fable 5. It's priced the same as Opus 4.8, and continues to offer a \"fast mode\" at twice the cost of the base model. Based on this anecdote in the release post it sounds like it might be relentlessly proactive : On one Frontier-Bench task, Opus 5 was given a drawing of a machine part and asked to write code to rebuild it as a 3D FreeCAD model. However, in this task, the model was intentionally given no way to directly viewthe drawing. Opus 5 responded by writing its own computer vision pipeline to pull the geometry from the raw pixels, then reconstructed the full machine part. It's better at finding vulnerabilities but has deliberately not been trained on how to exploit them. Hopefully this means the US government won't shut it down! As with its predecessor, Opus 4.8, we’ve intentionally avoided training Opus 5 on cyber tasks. The model has nevertheless improved substantially on these tasks as a result of becoming more generally capable, and it comes close to Mythos 5 at finding cybersecurity vulnerabilities. However, it remains substantially behind Mythos 5 on the exploitation of those vulnerabilities—that is, in turning vulnerabilities into material cyber threats. Anthropic have published a prompting guide for Claude Opus 5 . Thariq Shihipar has also written The new rules of context engineering for Claude 5 generation models . The first pelican I got was missing the bicycle wheels; the second attempt was better. Tags: ai , generative-ai , llms , anthropic , claude , llm-release",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4883906130871989,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.43839061308719907,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+          "title": "Canadian legislator reads out apparent LLM response in floor speech",
+          "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-24T21:25:15.000Z",
+          "summary": "\"Here’s a more natural, flowing version of that section...\"",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4497974794303425,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3997974794303427,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap",
+          "title": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+          "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-24T21:05:51.000Z",
+          "summary": "Models are improving quickly, but the cheaper options are often good enough.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4448504716068014,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.39485047160680153,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+          "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+          "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-25T00:23:11.000Z",
+          "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3481626635566144,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4481626635566144,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+          "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+          "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-24T22:25:58.000Z",
+          "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3156843727532785,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.41568437275327863,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49051361",
+    "hackernews:49048034",
+    "hackernews:49052912",
+    "hackernews:49050859",
+    "hackernews:49052564"
+  ]
+}
