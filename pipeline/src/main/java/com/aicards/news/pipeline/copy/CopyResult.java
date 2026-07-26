@@ -38,9 +38,19 @@ public record CopyResult(
         return new CopyResult(clusterId, Status.SKIPPED, null, null, reason, null);
     }
 
-    /** 호출했지만 카드를 얻지 못했다. */
+    /** 호출했지만 응답을 받지 못했다. 토큰을 알 길이 없다. */
     static CopyResult failed(String clusterId, String error) {
         return new CopyResult(clusterId, Status.FAILED, null, null, error, null);
+    }
+
+    /**
+     * 응답은 받았는데 카드로 쓸 수 없었다.
+     *
+     * <p>이때도 토큰은 이미 소모됐다. 카드가 안 나왔다고 사용량에서 빼면 한도에 얼마나 남았는지를
+     * 실제보다 낙관적으로 보게 된다.
+     */
+    static CopyResult failed(String clusterId, String error, Usage usage) {
+        return new CopyResult(clusterId, Status.FAILED, null, null, error, usage);
     }
 
     public boolean ok() {
