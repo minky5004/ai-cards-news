@@ -53,21 +53,21 @@ public final class Copywriter {
 
     private Copywriter() {}
 
-    /** LLM 이 채워야 할 것만 담는다. URL·썸네일 같은 확정된 값은 우리가 붙인다. */
+    /**
+     * LLM 이 채워야 할 것만 담는다. URL·썸네일 같은 확정된 값은 우리가 붙인다.
+     *
+     * <p>길이·톤 같은 내용 지침은 여기 적지 않는다. 스키마는 JSON 구조를 강제하는 자리고, 무엇을
+     * 어떻게 쓸지는 {@code prompts/copywriting.md} 가 전담한다. 두 곳에 적으면 어긋난다 — 실제로
+     * PR #13 이 길이 규격을 12~24자 / 110~145자 로 바꿀 때 프롬프트만 고쳐서, 한동안 모델에게
+     * 서로 다른 두 규격(여기 12~22자 / 90~140자)이 동시에 전달되고 있었다.
+     */
     private static Schema copySchema() {
         Map<String, Schema> properties = new LinkedHashMap<>();
         properties.put(
                 "headline",
-                Schema.builder()
-                        .type(Type.Known.STRING)
-                        .description("한국어 12~22자, 마침표 없음")
-                        .build());
+                Schema.builder().type(Type.Known.STRING).description("카드 헤드라인").build());
         properties.put(
-                "body",
-                Schema.builder()
-                        .type(Type.Known.STRING)
-                        .description("한국어 2~3문장, 전체 90~140자")
-                        .build());
+                "body", Schema.builder().type(Type.Known.STRING).description("카드 본문").build());
 
         return Schema.builder()
                 .type(Type.Known.OBJECT)
