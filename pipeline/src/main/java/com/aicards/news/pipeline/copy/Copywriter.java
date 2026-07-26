@@ -34,6 +34,9 @@ public final class Copywriter {
     private static final String PROMPT_FILE = "copywriting.md";
     private static final String API_KEY = "GEMINI_API_KEY";
 
+    /** 본문이 없어 카피를 시도조차 하지 않은 기사에 남기는 사유. */
+    private static final String NO_BODY = "본문을 추출하지 못했다 — 제목만으로는 카피를 만들지 않는다";
+
     private Copywriter() {}
 
     /** LLM 이 채워야 할 것만 담는다. URL·썸네일 같은 확정된 값은 우리가 붙인다. */
@@ -74,6 +77,12 @@ public final class Copywriter {
         List<CopyResult> results = new ArrayList<>();
         try (Client client = Client.builder().apiKey(apiKey).build()) {
             for (ArticlesResult.Article article : articles) {
+                // 본문이 없으면 시도하지 않는다. 이유는 hasBody 참고.
+                if (!hasBody(article)) {
+                    results.add(CopyResult.failed(article.clusterId(), NO_BODY));
+                    continue;
+                }
+
                 Cluster cluster =
                         clusters.stream()
                                 .filter(candidate -> candidate.id().equals(article.clusterId()))
@@ -125,9 +134,7 @@ public final class Copywriter {
                                             ? "알 수 없음"
                                             : cluster.representative().publishedAt(),
                                     "body",
-                                    article.ok() && article.text() != null
-                                            ? article.text()
-                                            : fallbackBody(article)));
+                                    article.text()));
 
             GenerateContentResponse response =
                     client.models.generateContent(config.model(), prompt, requestConfig);
@@ -175,17 +182,18 @@ public final class Copywriter {
     }
 
     /**
-     * 추출이 실패한 기사에 쓸 폴백 본문.
+     * 카피를 만들 근거가 있는가.
      *
-     * <p>제목만으로 카피를 쓰면 제목을 바꿔 쓴 문장이 나오지만, 카드를 통째로 버리는 것보다는 낫다.
-     * 다만 사실을 지어낼 위험이 커지므로 프롬프트가 근거 부족을 알 수 있게 명시한다.
+     * <p>없으면 그 기사는 카드로 만들지 않는다. 예전에는 제목만 넣고 "추측하지 마라" 를 프롬프트로
+     * 부탁하는 폴백이 있었지만, 모델이 그 지시를 지켰는지 확인할 방법이 없어서 실패했다.
+     * 2026-07-26 의 딥시크 기사(원문이 GitHub 의 PDF 라 추출 404)에서 제목의 "pause fundraise" 가
+     * "추진 중이던 자금 조달 일정이 모두 정지되었습니다" 로, 근거 없는 "~것으로 알려졌습니다" 까지
+     * 붙어 발행됐다. 지시로 막을 수 없는 것은 입력에서 막는다.
+     *
+     * <p>카드 한 장이 줄어드는 쪽을 택한다. 스코어링에서 "임계값 미달이면 최대 장수를 억지로 채우지
+     * 않는다" 와 같은 판단이다 — 확인되지 않은 카드 한 장이 사이트 전체의 신뢰를 깎는다.
      */
-    private static String fallbackBody(ArticlesResult.Article article) {
-        return String.join(
-                "\n",
-                "(원문 본문을 가져오지 못했다. 아래 제목 외에는 확인된 사실이 없다.",
-                "제목에서 확실히 읽히는 것만 쓰고, 추측이 필요한 문장은 빼라.)",
-                "",
-                article.sourceTitle());
+    private static boolean hasBody(ArticlesResult.Article article) {
+        return article.ok() && article.text() != null && !article.text().isBlank();
     }
 }
