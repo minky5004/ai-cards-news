@@ -9,7 +9,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.time.Duration;
 
-/** 바깥으로 나가는 HTTP 요청. 신원과 제한 시간을 한곳에서 정한다. */
+/** 바깥으로 나가는 HTTP 요청. 신원과 제한 시간, 재시도를 한곳에서 정한다. */
 public final class Http {
 
     private static final Duration TIMEOUT = Duration.ofSeconds(15);
@@ -24,6 +24,18 @@ public final class Http {
                     .followRedirects(HttpClient.Redirect.NORMAL)
                     .build();
 
+    /**
+     * 같은 요청을 몇 번까지 보낼지. 첫 시도를 포함한다.
+     *
+     * <p>무인으로 도는 파이프라인에서 일시적인 네트워크 장애는 그날 카드를 통째로 잃는 사고가 된다.
+     * M5-2 검증에서 Gradle 배포판 다운로드가 {@code Connection reset} 으로 죽은 적이 있는데, 그건
+     * 사람이 재실행해서 넘어갔다. 러너에는 재실행해 줄 사람이 없다.
+     */
+    private static final int MAX_ATTEMPTS = 3;
+
+    /** 첫 재시도까지 기다리는 시간. 시도마다 두 배로 늘린다. */
+    private static final Duration BACKOFF = Duration.ofSeconds(1);
+
     private Http() {}
 
     private static HttpRequest request(String url) {
@@ -34,9 +46,69 @@ public final class Http {
                 .build();
     }
 
+    /**
+     * 다시 보내면 결과가 달라질 수 있는 상태 코드인가.
+     *
+     * <p>4xx 는 재시도하지 않는다. 403·404 는 몇 번을 보내도 같은 답이 오고, 그동안 상대 서버만
+     * 두드리게 된다. 게다가 추출 단계는 막힌 매체를 만나면 <b>클러스터 안의 다른 매체로 넘어가는</b>
+     * 폴백을 갖고 있어서, 여기서 붙잡고 있으면 그 폴백이 늦어질 뿐이다.
+     *
+     * <p>429 는 4xx 지만 예외다. "지금은 안 되지만 잠시 뒤에는 된다" 는 뜻이라 재시도가 정확히 맞는
+     * 대응이다.
+     *
+     * <p>패키지 접근인 것은 테스트가 부르기 위해서다. 이 경계가 틀리면 403 을 세 번씩 두드리거나,
+     * 반대로 일시적 장애를 그대로 실패로 넘긴다.
+     */
+    static boolean retryable(int status) {
+        return status == 429 || status >= 500;
+    }
+
+    /**
+     * 요청을 보내되 일시적 실패는 다시 시도한다.
+     *
+     * <p>재시도 대상은 둘이다 — 응답을 아예 못 받은 경우({@link IOException}: connection reset,
+     * 타임아웃)와 상대가 일시적 장애를 알려온 경우({@link #retryable}). 나머지는 첫 응답을 그대로
+     * 돌려주고 판단은 호출자에게 맡긴다.
+     */
+    private static <T> HttpResponse<T> sendWithRetry(
+            HttpRequest request, HttpResponse.BodyHandler<T> handler)
+            throws IOException, InterruptedException {
+
+        IOException lastFailure = null;
+
+        for (int attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+            if (attempt > 1) Thread.sleep(BACKOFF.toMillis() << (attempt - 2));
+
+            try {
+                HttpResponse<T> response = CLIENT.send(request, handler);
+                if (!retryable(response.statusCode()) || attempt == MAX_ATTEMPTS) return response;
+
+                // 재시도할 응답의 본문은 버린다. 스트림이면 열어 둔 채 두면 연결이 샌다.
+                discard(response.body());
+                lastFailure = new IOException("HTTP " + response.statusCode());
+            } catch (IOException e) {
+                if (attempt == MAX_ATTEMPTS) throw e;
+                lastFailure = e;
+            }
+        }
+
+        // 위 루프는 마지막 시도에서 반드시 반환하거나 던진다. 여기 오면 논리가 깨진 것이다.
+        throw lastFailure != null ? lastFailure : new IOException("요청을 보내지 못했다");
+    }
+
+    private static void discard(Object body) {
+        if (body instanceof InputStream stream) {
+            try {
+                stream.close();
+            } catch (IOException ignored) {
+                // 어차피 버릴 응답이다. 닫기 실패로 재시도를 막을 이유가 없다.
+            }
+        }
+    }
+
     public static InputStream getStream(String url) throws IOException, InterruptedException {
         HttpResponse<InputStream> response =
-                CLIENT.send(request(url), HttpResponse.BodyHandlers.ofInputStream());
+                sendWithRetry(request(url), HttpResponse.BodyHandlers.ofInputStream());
 
         if (response.statusCode() >= 400) {
             response.body().close();
@@ -50,7 +122,7 @@ public final class Http {
 
     public static Binary getBytes(String url) throws IOException, InterruptedException {
         HttpResponse<byte[]> response =
-                CLIENT.send(request(url), HttpResponse.BodyHandlers.ofByteArray());
+                sendWithRetry(request(url), HttpResponse.BodyHandlers.ofByteArray());
 
         if (response.statusCode() >= 400) {
             throw new IOException("HTTP " + response.statusCode());
@@ -68,7 +140,7 @@ public final class Http {
 
     public static String getString(String url) throws IOException, InterruptedException {
         HttpResponse<String> response =
-                CLIENT.send(request(url), HttpResponse.BodyHandlers.ofString());
+                sendWithRetry(request(url), HttpResponse.BodyHandlers.ofString());
 
         if (response.statusCode() >= 400) {
             throw new IOException("HTTP " + response.statusCode());
@@ -92,7 +164,7 @@ public final class Http {
                         .build();
 
         HttpResponse<String> response =
-                CLIENT.send(request, HttpResponse.BodyHandlers.ofString());
+                sendWithRetry(request, HttpResponse.BodyHandlers.ofString());
 
         if (response.statusCode() >= 400) {
             throw new IOException("HTTP " + response.statusCode());
