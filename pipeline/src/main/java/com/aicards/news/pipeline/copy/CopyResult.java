@@ -1,5 +1,7 @@
 package com.aicards.news.pipeline.copy;
 
+import java.util.List;
+
 /**
  * 기사 하나에 대한 카피 생성 결과.
  *
@@ -9,7 +11,13 @@ package com.aicards.news.pipeline.copy;
  * @param usage 호출 비용·사용량 추적용. 카드가 안 나왔으면 null 이다.
  */
 public record CopyResult(
-        String clusterId, Status status, String headline, String body, String error, Usage usage) {
+        String clusterId,
+        Status status,
+        String headline,
+        List<String> highlight,
+        String body,
+        String error,
+        Usage usage) {
 
     /**
      * 카드가 안 나온 이유는 두 가지고, 뜻이 정반대다.
@@ -29,18 +37,19 @@ public record CopyResult(
 
     public record Usage(int inputTokens, int outputTokens) {}
 
-    static CopyResult ok(String clusterId, String headline, String body, Usage usage) {
-        return new CopyResult(clusterId, Status.OK, headline, body, null, usage);
+    static CopyResult ok(
+            String clusterId, String headline, List<String> highlight, String body, Usage usage) {
+        return new CopyResult(clusterId, Status.OK, headline, highlight, body, null, usage);
     }
 
     /** 넣을 본문이 없어 호출하지 않았다. */
     static CopyResult skipped(String clusterId, String reason) {
-        return new CopyResult(clusterId, Status.SKIPPED, null, null, reason, null);
+        return new CopyResult(clusterId, Status.SKIPPED, null, null, null, reason, null);
     }
 
     /** 호출했지만 응답을 받지 못했다. 토큰을 알 길이 없다. */
     static CopyResult failed(String clusterId, String error) {
-        return new CopyResult(clusterId, Status.FAILED, null, null, error, null);
+        return new CopyResult(clusterId, Status.FAILED, null, null, null, error, null);
     }
 
     /**
@@ -50,7 +59,7 @@ public record CopyResult(
      * 실제보다 낙관적으로 보게 된다.
      */
     static CopyResult failed(String clusterId, String error, Usage usage) {
-        return new CopyResult(clusterId, Status.FAILED, null, null, error, usage);
+        return new CopyResult(clusterId, Status.FAILED, null, null, null, error, usage);
     }
 
     public boolean ok() {

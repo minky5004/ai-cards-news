@@ -122,8 +122,8 @@ public final class CardRenderer implements AutoCloseable {
         values.put("thumbnail", thumbnail);
         // 이미지가 없는 카드는 타이포 포스터로 간다. 판정은 템플릿의 CSS 가 이 클래스로 한다.
         values.put("variant", imageOk ? "" : "no-image");
-        values.put("headline", escape(card.headline()));
-        values.put("sourceName", escape(card.sourceName()));
+        values.put("headline", Markup.headline(card.headline(), card.highlight()));
+        values.put("sourceName", Markup.escape(card.sourceName()));
         values.put("index", String.valueOf(index));
         values.put("total", String.valueOf(total));
 
@@ -228,11 +228,6 @@ public final class CardRenderer implements AutoCloseable {
 
         Files.createDirectories(output.getParent());
         Files.write(output, encoded.toByteArray());
-    }
-
-    /** 카피는 LLM 이 쓴 남의 글이다. 따옴표나 부등호가 섞이면 마크업이 깨진다. */
-    private static String escape(String text) {
-        return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;");
     }
 
     @Override

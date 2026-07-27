@@ -28,6 +28,7 @@
         --ink: #16181d;
         --cream: #f4f1e8;
         --navy: #23407e;
+        --amber: #ffc94d;
       }
 
       * {
@@ -121,6 +122,16 @@
       .no-image h1 {
         font-size: 128px;
         text-shadow: none;
+      }
+
+      /*
+        강조는 글자색만 바꾼다. 형광펜처럼 반투명 획을 뒤에 깔아 봤는데, 딥 네이비 위의
+        반투명 앰버가 탁한 올리브 띠로 앉아 강조가 아니라 얼룩으로 읽혔다. 배경을 채운
+        사각형도 안 된다 — 줄 사이가 벌어져 헤드라인 덩어리가 깨진다.
+      */
+      mark {
+        background: none;
+        color: var(--amber);
       }
 
       .meta {

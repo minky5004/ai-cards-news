@@ -21,6 +21,10 @@ const CONTENT_DIR = `${resolve(process.cwd(), "../content")}/`;
 export interface Card {
   clusterId: string;
   headline: string;
+  /**
+   * 헤드라인 중 카드 이미지에서 형광으로 칠한 어절. 이 필드가 생기기 전에 발행된 날짜에는 없다.
+   */
+  highlight?: string[];
   body: string;
   sourceUrl: string;
   sourceName: string;

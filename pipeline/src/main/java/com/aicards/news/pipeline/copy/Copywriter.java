@@ -67,17 +67,24 @@ public final class Copywriter {
                 "headline",
                 Schema.builder().type(Type.Known.STRING).description("카드 헤드라인").build());
         properties.put(
+                "highlight",
+                Schema.builder()
+                        .type(Type.Known.ARRAY)
+                        .items(Schema.builder().type(Type.Known.STRING).build())
+                        .description("헤드라인에서 형광으로 칠할 어절")
+                        .build());
+        properties.put(
                 "body", Schema.builder().type(Type.Known.STRING).description("카드 본문").build());
 
         return Schema.builder()
                 .type(Type.Known.OBJECT)
                 .properties(properties)
-                .required("headline", "body")
+                .required("headline", "highlight", "body")
                 .build();
     }
 
     /** 스키마를 강제해도 응답이 우리 기대와 맞는지는 우리가 확인한다. */
-    private record CopyOutput(String headline, String body) {}
+    private record CopyOutput(String headline, List<String> highlight, String body) {}
 
     public static List<CopyResult> writeAll(
             List<ArticlesResult.Article> articles,
@@ -170,7 +177,12 @@ public final class Copywriter {
                 return CopyResult.failed(article.clusterId(), broken, usage);
             }
 
-            return CopyResult.ok(article.clusterId(), headline, body, usage);
+            return CopyResult.ok(
+                    article.clusterId(),
+                    headline,
+                    cleanHighlight(headline, parsed.highlight()),
+                    body,
+                    usage);
         } catch (Exception e) {
             // 카드 하나가 실패해도 나머지는 내보낸다. 그날 카드가 통째로 없어지는 게 최악이다.
             // 여기는 응답 자체를 못 받은 자리라 토큰을 알 길이 없다. 호출 횟수로만 잡힌다.
@@ -196,6 +208,33 @@ public final class Copywriter {
             return "본문이 %d자다 (최소 %d자): \"%s\"".formatted(body.length(), MIN_BODY, body);
         }
         return null;
+    }
+
+    /**
+     * 강조 어절 중 실제로 쓸 수 있는 것만 남긴다.
+     *
+     * <p>모델이 헤드라인에 없는 말을 강조로 주는 일이 있다 — 원문 제목의 표현을 그대로 가져오거나
+     * 조사를 빼고 주는 식이다. 그런 항목은 <b>버린다. 카피를 실패로 만들지 않는다</b> — 강조는 카드가
+     * 성립하는 조건이 아니라 얹는 것이고, 여기서 실패로 처리하면 멀쩡한 카피가 사라진다.
+     *
+     * <p>패키지 접근으로 열어 둔 것은 테스트가 부르기 위해서다. 이 판정을 실제 호출로 확인하려 들면
+     * 모델이 어긋난 강조를 줄 때까지 하루 한도를 태우게 된다.
+     */
+    static List<String> cleanHighlight(String headline, List<String> raw) {
+        List<String> kept = new ArrayList<>();
+        if (raw == null) return kept;
+
+        for (String candidate : raw) {
+            if (candidate == null) continue;
+
+            String word = candidate.strip();
+            // 헤드라인 전체를 칠하는 것은 강조가 아니다. 다른 색 문장이 될 뿐이다.
+            if (word.isEmpty() || word.equals(headline)) continue;
+            if (!headline.contains(word) || kept.contains(word)) continue;
+
+            kept.add(word);
+        }
+        return kept;
     }
 
     private static CopyResult.Usage usage(
