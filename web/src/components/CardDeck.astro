@@ -26,6 +26,7 @@ const imageBase = base.replace(/\/$/, "");
 <section
   class="carousel"
   data-carousel
+  data-unfold={coverName ? "" : undefined}
   role="region"
   aria-roledescription="캐러셀"
   aria-label="카드 목록"
@@ -44,6 +45,7 @@ const imageBase = base.replace(/\/$/, "");
         cards.map((card, i) => (
           <li
             class:list={["slide", { "is-active": i === 0 }]}
+            style={`--n: ${i}`}
             data-slide
             aria-roledescription="슬라이드"
             aria-label={`${i + 1} / ${cards.length}`}
@@ -191,6 +193,26 @@ const imageBase = base.replace(/\/$/, "");
   .slide {
     flex: 0 0 var(--slide);
     scroll-snap-align: center;
+  }
+
+  /*
+    날짜 페이지에 들어설 때 표지 다음 장들이 차례로 나온다.
+
+    더미에서 이어지는 것은 표지 한 장뿐이라, 나머지가 동시에 툭 나타나면 "더미에서
+    펼쳐졌다"가 아니라 "첫 장만 날아왔다"로 읽힌다. 첫 장(n=0)은 전환이 맡으므로
+    건드리지 않고, 그 뒤 장들만 표지 쪽에서 밀려 나오게 한다. 지연은 문서 간 전환이
+    끝나는 시점부터 시작한다.
+  */
+  [data-unfold] .slide:not(:first-child) {
+    animation: unfold 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(180ms + var(--n) * 70ms);
+  }
+
+  @keyframes unfold {
+    from {
+      opacity: 0;
+      transform: translateX(-26px) scale(0.96);
+    }
   }
 
   /*
@@ -476,6 +498,11 @@ const imageBase = base.replace(/\/$/, "");
     .arrow {
       transition: none;
     }
+
+    /* 펼치기는 장식이다. 끄면 카드가 그냥 제자리에 있어야지 사라지면 안 된다. */
+    [data-unfold] .slide:not(:first-child) {
+      animation: none;
+    }
   }
 </style>
 
@@ -500,6 +527,46 @@ const imageBase = base.replace(/\/$/, "");
     animation: none;
     opacity: 1;
     mix-blend-mode: normal;
+  }
+
+  /*
+    확대 뷰의 종이 패널. 여기에 이름을 주지 않으면 패널이 완성된 채로 즉시 나타나고
+    카드만 뒤늦게 딸려 올라가, 둘이 따로 노는 것으로 보인다. 카드가 자라는 동안
+    패널도 같이 서게 맞춘다. 패널 안의 카드 이미지는 자기 이름이 있어 이 스냅샷에서
+    빠지므로, 자라나는 카드가 그 빈자리로 정확히 들어간다.
+  */
+  /*
+    카드가 패널보다 위에 있어야 한다. 지정하지 않으면 패널이 불투명해지는 순간
+    자라나는 카드를 덮어, 확대 뷰가 반쯤 빈 종이로 보이다가 카드가 튀어나온다.
+  */
+  html[data-card-morph]::view-transition-group(card-panel) {
+    z-index: 1;
+  }
+
+  html[data-card-morph]::view-transition-group(card-morph) {
+    z-index: 2;
+  }
+
+  html[data-card-morph]::view-transition-new(card-panel) {
+    animation: card-panel-in 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  html[data-card-morph]::view-transition-old(card-panel) {
+    animation: card-panel-out 200ms ease both;
+  }
+
+  @keyframes card-panel-in {
+    from {
+      opacity: 0;
+      transform: scale(0.96);
+    }
+  }
+
+  @keyframes card-panel-out {
+    to {
+      opacity: 0;
+      transform: scale(0.96);
+    }
   }
 </style>
 
@@ -553,7 +620,14 @@ const imageBase = base.replace(/\/$/, "");
     지원하지 않는 브라우저나 모션을 줄인 설정에서는 그냥 즉시 열고 닫는다 —
     효과가 없을 뿐 동작은 같다.
   */
-  const morph = (from: HTMLElement, to: HTMLElement, swap: () => void) => {
+  const PANEL = "card-panel";
+
+  const morph = (
+    from: HTMLElement,
+    to: HTMLElement,
+    panel: HTMLDialogElement,
+    swap: () => void,
+  ) => {
     if (reduceMotion || !document.startViewTransition) {
       swap();
       return;
@@ -574,16 +648,25 @@ const imageBase = base.replace(/\/$/, "");
     const fromName = from.style.viewTransitionName;
     const toName = to.style.viewTransitionName;
 
+    /*
+      패널은 여는 쪽에서는 "새로 생기는 것", 닫는 쪽에서는 "사라지는 것"이다.
+      열려 있는 동안에만 이름을 달아 두면 두 경우가 저절로 갈린다.
+    */
+    const opening = !panel.open;
+    if (!opening) panel.style.viewTransitionName = PANEL;
+
     from.style.viewTransitionName = MORPH;
     const transition = document.startViewTransition(() => {
       from.style.viewTransitionName = "";
       swap();
       to.style.viewTransitionName = MORPH;
+      panel.style.viewTransitionName = opening ? PANEL : "";
     });
     // 이름을 남겨 두면 다음 전환이 "이름이 둘"인 상태로 들어가 아무것도 안 움직인다.
     transition.finished.finally(() => {
       to.style.viewTransitionName = toName;
       from.style.viewTransitionName = fromName;
+      panel.style.viewTransitionName = "";
       delete document.documentElement.dataset.cardMorph;
     });
   };
@@ -598,13 +681,27 @@ const imageBase = base.replace(/\/$/, "");
 
     const open = () => {
       if (!shotImage || !expandImage) return expand.showModal();
-      morph(shotImage, expandImage, () => expand.showModal());
+      morph(shotImage, expandImage, expand, () => expand.showModal());
     };
 
     const close = () => {
       if (!expand.open) return;
       if (!shotImage || !expandImage) return expand.close();
-      morph(expandImage, shotImage, () => expand.close());
+      morph(expandImage, shotImage, expand, () => expand.close());
+    };
+
+    /*
+      가운데가 아닌 카드는 트랙 밖으로 잘려 있다. 그대로 열면 전환은 잘리지 않은
+      카드 전체를 잡아 늘렸다가, 끝에서 실제 DOM 의 잘린 모습으로 돌아간다 — 그림이
+      다 보였다가 반으로 잘리는 것처럼 보인다. 먼저 가운데로 세워 잘린 데가 없게
+      만든 뒤에 연다. 어차피 누른 카드가 현재 카드가 되는 것이 캐러셀의 상식이다.
+    */
+    const centerThenOpen = () => {
+      if (slide.classList.contains("is-active")) return open();
+
+      slide.scrollIntoView({ inline: "center", block: "nearest", behavior: "auto" });
+      // 스크롤이 반영된 뒤의 좌표로 전환을 시작해야 한다.
+      requestAnimationFrame(() => requestAnimationFrame(open));
     };
 
     let startX = 0;
@@ -630,7 +727,7 @@ const imageBase = base.replace(/\/$/, "");
 
       // 끌었으면 아무 일도 일어나지 않는다. 나가지도, 확대되지도 않는다.
       event.preventDefault();
-      if (!dragged) open();
+      if (!dragged) centerThenOpen();
     });
 
     // 바깥을 누르면 닫는다. dialog 자신이 배경까지 차지하므로 좌표로 가른다.
