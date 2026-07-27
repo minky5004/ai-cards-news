@@ -59,8 +59,14 @@ const imageBase = base.replace(/\/$/, "");
                 앞 두 장만 eager 로 받는다 — 가로 스크롤에서도 lazy 는 트랙 기준으로
                 동작하므로 나머지는 넘길 때 받는다.
               */}
+              {/*
+                `transition:name` 디렉티브를 쓰면 안 된다 — 값이 undefined 여도 Astro 가
+                자동 생성 이름을 붙여, 카드 다섯 장이 전부 각자 전환 대상이 된다. 확대할
+                때 카드가 여러 장 한꺼번에 움직이는 정체가 그것이었다. 이름이 필요한
+                자리에만 CSS 속성으로 직접 준다.
+              */}
               <img
-                transition:name={i === 0 && coverName ? coverName : undefined}
+                style={i === 0 && coverName ? `view-transition-name: ${coverName}` : undefined}
                 src={`${imageBase}${card.image}`}
                 width="1080"
                 height="1350"
@@ -473,6 +479,30 @@ const imageBase = base.replace(/\/$/, "");
   }
 </style>
 
+{/*
+  view transition 의 가짜 요소(`::view-transition-*`)는 문서 루트에 붙으므로 컴포넌트
+  스코프 스타일로는 닿지 않는다. 전역으로 쓰되 카드 morph 중에만 걸리게 표시로 막는다 —
+  더미에서 날짜 페이지로 넘어가는 전환은 화면이 통째로 바뀌는 것이라 교차 페이드가 맞다.
+*/}
+<style is:global>
+  /*
+    `animation: none` 만으로는 안 된다 — 기본 애니메이션만 없어질 뿐 옛 화면이
+    불투명한 채로 얼어붙어, 전환이 끝날 때까지 캐러셀 전체가 확대 뷰를 덮는다.
+    사라질 화면은 즉시 지우고 새 화면은 즉시 세운다. 그래야 움직이는 것이
+    이름 붙인 카드 하나뿐이 된다.
+  */
+  html[data-card-morph]::view-transition-old(root) {
+    animation: none;
+    opacity: 0;
+  }
+
+  html[data-card-morph]::view-transition-new(root) {
+    animation: none;
+    opacity: 1;
+    mix-blend-mode: normal;
+  }
+</style>
+
 <script>
   /*
     한 페이지에 덱이 하나뿐이지만 컴포넌트라 여러 개를 가정하고 각각 묶는다.
@@ -528,6 +558,22 @@ const imageBase = base.replace(/\/$/, "");
       swap();
       return;
     }
+    /*
+      이름 붙인 카드만 자라고 나머지 화면은 그대로 있어야 한다. 표시가 없으면
+      브라우저가 화면 전체를 교차 페이드해서, 사라지는 옛 화면의 옆 카드들이 이미
+      떠 있는 확대 뷰 위로 비친다 — 카드가 여러 장 겹쳐 보이는 정체가 그것이다.
+      실제 연출은 아래 전역 스타일이 이 표시를 보고 끈다.
+    */
+    document.documentElement.dataset.cardMorph = "";
+
+    /*
+      날짜 페이지의 첫 카드에는 아카이브 더미와 이어지는 이름이 이미 붙어 있다.
+      끝나고 빈 값으로 되돌리면 그 이름이 사라져, 뒤로 갔을 때 더미로 되돌아가는
+      전환이 조용히 죽는다. 원래 값을 들고 있다가 그대로 돌려놓는다.
+    */
+    const fromName = from.style.viewTransitionName;
+    const toName = to.style.viewTransitionName;
+
     from.style.viewTransitionName = MORPH;
     const transition = document.startViewTransition(() => {
       from.style.viewTransitionName = "";
@@ -536,7 +582,9 @@ const imageBase = base.replace(/\/$/, "");
     });
     // 이름을 남겨 두면 다음 전환이 "이름이 둘"인 상태로 들어가 아무것도 안 움직인다.
     transition.finished.finally(() => {
-      to.style.viewTransitionName = "";
+      to.style.viewTransitionName = toName;
+      from.style.viewTransitionName = fromName;
+      delete document.documentElement.dataset.cardMorph;
     });
   };
 

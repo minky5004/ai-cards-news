@@ -35,7 +35,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     */}
     <img
       class="cover"
-      transition:name={`cover-${day.date}`}
+      style={`view-transition-name: cover-${day.date}`}
       src={`${imageBase}${cover.image}`}
       width="1080"
       height="1350"
