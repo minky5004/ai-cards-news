@@ -1,0 +1,50 @@
+{
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T09:01:22.904Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49051692",
+      "headline": "AI 생산성 100배 거짓말에 입 다문 이유",
+      "body": "고객사 임원의 100배 생산성 주장에 반박했다간 계약이 파기되기 때문입니다. 포춘 500 기업 임원조차 솔직한 의견을 내면 해고 위험에 처하게 됩니다. 결국 AI 거품이 터지기 전까지는 기업계 전체가 거짓 침묵을 이어갈 수밖에 없습니다.",
+      "sourceUrl": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
+      "sourceName": "Daring Fireball",
+      "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png",
+      "publishedAt": "2026-07-25T21:18:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:49058669",
+      "headline": "차 키 안 맡겨도 로봇이 주차해준다",
+      "body": "런던 개트윅 공항이 영국 최초로 자율주행 주차 로봇을 도입했습니다. 탑승객이 전용 구역에 차를 두고 키를 챙겨 떠나면, 스탠리 로보틱스의 로봇이 차 밑으로 들어가 주차 공간으로 옮깁니다. 좁은 간격으로 주차가 가능해 공항 주차 용량이 대폭 늘어날 것으로 보입니다.",
+      "sourceUrl": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
+      "sourceName": "AGN",
+      "imageUrl": "https://aerospaceglobalnews.com/wp-content/uploads/2026/07/6a61de120354b41c5c00cf08.jpeg",
+      "publishedAt": "2026-07-26T14:40:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:49052570",
+      "headline": "앤트로픽 CEO는 실업률 20%를 경고했다",
+      "body": "앤트로픽 CEO는 AI가 사무직 절반을 없애 실업률이 20%에 달할 것이라 경고했습니다. 그러나 스탠퍼드대 연구 결과 전체 고용 시장에 미친 영향은 아직 미미했습니다. 다만 2024년부터 신입급 청년층 채용 감소는 구체화되고 있습니다.",
+      "sourceUrl": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "sourceName": "Stanford Institute for Economic Policy Research (SIEPR)",
+      "publishedAt": "2026-07-25T22:51:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:49057877",
+      "headline": "AI로 프로젝트 40개 만들다 번아웃이 왔다",
+      "body": "AI로 작업 속도가 최대 100배 빨라지자 사이드 프로젝트를 40개나 펼쳤고, 늘어난 일 때문에 결국 다시 번아웃이 찾아왔습니다. AI 시대일수록 여러 일을 동시에 벌이기보다 가치 있는 소수의 과제에 깊이 집중해야 진짜 성과를 낼 수 있습니다.",
+      "sourceUrl": "https://rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!R31O!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a57282a-143c-41d8-a777-084d8e097340_498x498.gif",
+      "publishedAt": "2026-07-26T13:13:03.000Z"
+    },
+    {
+      "clusterId": "hackernews:49052912",
+      "headline": "량원펑 투자자 간담회 녹취록이 깃허브에 떴다",
+      "body": "깃허브에 딥시크 창업자 량원펑의 2026년 7월 투자자 교류회 번역 녹취록 PDF 파일이 올라왔습니다. 1.58MB 크기의 이 파일은 demo-zexuan 계정을 통해 경로가 공개됐습니다. 딥시크 핵심 경영진의 발언 기록이 포함되어 관심이 쏠립니다.",
+      "sourceUrl": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/15c6504be51b884a0adc5d77e4dba41f94431454/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/bda8dd442980c087edcab9231addaedf5a5810e70a8542d70cbc7f68a3f0577b/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22",
+      "publishedAt": "2026-07-25T23:32:50.000Z"
+    }
+  ]
+}
