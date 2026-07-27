@@ -364,6 +364,10 @@ public final class Run {
                             .orElse(null);
 
             System.out.printf("✓ %s%n", result.headline());
+            // 강조가 비면 모델이 헤드라인 밖의 말을 줬다는 뜻이다. 조용히 사라지지 않게 찍는다.
+            System.out.printf(
+                    "     강조: %s%n",
+                    result.highlight().isEmpty() ? "없음" : String.join(" / ", result.highlight()));
             System.out.printf("     %s%n", result.body());
             System.out.printf("     %s · %s%n", article.source(), article.url());
             System.out.println();
@@ -372,6 +376,7 @@ public final class Run {
                     new CardsResult.Card(
                             result.clusterId(),
                             result.headline(),
+                            result.highlight(),
                             result.body(),
                             article.url(),
                             article.siteName() == null ? article.source() : article.siteName(),

@@ -19,15 +19,15 @@ import org.junit.jupiter.api.Test;
 class CopyTallyTest {
 
     private static CopyResult ok() {
-        return new CopyResult("c", CopyResult.Status.OK, "헤드라인", "본문", null, null);
+        return new CopyResult("c", CopyResult.Status.OK, "헤드라인", List.of(), "본문", null, null);
     }
 
     private static CopyResult failed() {
-        return new CopyResult("c", CopyResult.Status.FAILED, null, null, "실패", null);
+        return new CopyResult("c", CopyResult.Status.FAILED, null, null, null, "실패", null);
     }
 
     private static CopyResult skipped() {
-        return new CopyResult("c", CopyResult.Status.SKIPPED, null, null, "본문 없음", null);
+        return new CopyResult("c", CopyResult.Status.SKIPPED, null, null, null, "본문 없음", null);
     }
 
     private static List<CopyResult> results(int ok, int failed, int skipped) {
