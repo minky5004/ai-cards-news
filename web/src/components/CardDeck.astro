@@ -107,7 +107,7 @@ const imageBase = base.replace(/\/$/, "");
   }
 
   .track:focus-visible {
-    outline: 2px solid var(--accent);
+    outline: 2px solid var(--blue);
     outline-offset: 6px;
     border-radius: 20px;
   }
@@ -132,27 +132,35 @@ const imageBase = base.replace(/\/$/, "");
     display: block;
   }
 
+  /*
+    카드는 잉크 배경 위에 놓인 물건이다. 그림자를 줘야 배경에서 떠오르고,
+    카드 안의 네이비가 배경과 붙어 보이지 않는다.
+  */
   .slide img {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 16px;
-    background: var(--surface);
+    border-radius: 14px;
+    background: var(--ink-raised);
+    box-shadow: 0 20px 44px rgba(0, 0, 0, 0.5);
   }
 
   .meta {
-    margin: 12px 2px 0;
-    font-size: 14px;
-    color: var(--muted);
+    margin: 14px 2px 0;
+    font-size: 12.5px;
+    color: var(--dimmer);
     text-align: center;
   }
 
   .meta a {
     text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 1px;
   }
 
   .meta a:hover {
-    color: var(--accent);
+    color: var(--chalk);
+    border-bottom-color: var(--edge);
   }
 
   /*
@@ -170,20 +178,21 @@ const imageBase = base.replace(/\/$/, "");
   .arrow {
     display: grid;
     place-items: center;
-    width: 40px;
-    height: 40px;
-    border: 1px solid var(--line);
+    width: 38px;
+    height: 38px;
+    border: 1px solid var(--edge);
     border-radius: 50%;
-    background: transparent;
-    color: var(--text);
-    font-size: 16px;
+    background: var(--ink-raised);
+    color: var(--dim);
+    font-size: 15px;
     line-height: 1;
     cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
   }
 
   .arrow:hover:not(:disabled) {
-    border-color: var(--accent);
-    color: var(--accent);
+    border-color: var(--dim);
+    color: var(--chalk);
   }
 
   .arrow:disabled {
@@ -202,26 +211,32 @@ const imageBase = base.replace(/\/$/, "");
 
   .dots button {
     display: block;
-    width: 8px;
-    height: 8px;
+    width: 7px;
+    height: 7px;
     padding: 0;
     border: 0;
     border-radius: 50%;
-    background: var(--line);
+    background: var(--edge);
     cursor: pointer;
     transition: background 0.2s ease, width 0.2s ease;
   }
 
+  .dots button:hover {
+    background: var(--dimmer);
+  }
+
+  /* 현재 위치는 이 페이지에서 파랑이 면으로 쓰이는 유일한 자리다. */
   .dots button[aria-current="true"] {
     width: 22px;
     border-radius: 4px;
-    background: var(--accent);
+    background: var(--blue);
   }
 
   @media (prefers-reduced-motion: reduce) {
     /* 흐림 규칙보다 특이성이 낮으면 안 먹으므로 같은 선택자로 되돌린다. */
     [data-enhanced] .slide:not(.is-active),
-    .dots button {
+    .dots button,
+    .arrow {
       transition: none;
     }
   }
