@@ -1,101 +1,161 @@
 ---
 import CardDeck from "../components/CardDeck.astro";
+import DayStack from "../components/DayStack.astro";
 import Layout from "../layouts/Layout.astro";
-import { formatDate, listDays } from "../lib/content";
+import { listDays } from "../lib/content";
 
 const days = listDays();
 const [latest, ...archive] = days;
-const base = import.meta.env.BASE_URL;
+
+const parts = latest ? latest.date.split("-") : null;
+const weekday = latest
+  ? ["일", "월", "화", "수", "목", "금", "토"][
+      new Date(`${latest.date}T00:00:00Z`).getUTCDay()
+    ]
+  : null;
 ---
 
 <Layout title="AI NEWS — 오늘의 AI 뉴스 카드">
   {
-    latest ? (
+    latest && parts ? (
       <>
-        <section class="hero">
+        {/*
+          히어로는 날짜 그 자체다. 이 사이트의 단위가 날짜이고 아카이브의 파일
+          이름도 날짜라, 다른 무엇을 앞에 세우면 구조를 흐린다.
+        */}
+        <section class="today">
           <p class="eyebrow">최신 발행</p>
-          <h1>{formatDate(latest.date)}</h1>
-          <p class="count">카드 {latest.cards.length}장</p>
+
+          <h1 class="bigdate">
+            <span class="md">
+              {parts[1]}<span class="sep">.</span>{parts[2]}
+            </span>
+            <span class="yr">{parts[0]}</span>
+          </h1>
+
+          <p class="sub">
+            {weekday}요일 · 카드 {latest.cards.length}장
+          </p>
         </section>
 
         <CardDeck cards={latest.cards} />
 
         {archive.length > 0 && (
           <section class="archive">
-            <h2>지난 발행</h2>
-            <ul>
+            <div class="archive-head">
+              <p class="eyebrow">지난 발행</p>
+              <p class="hint">더미 두께가 그날 카드 장수입니다</p>
+            </div>
+
+            <div class="grid">
               {archive.map((day) => (
-                <li>
-                  <a href={`${base}${day.date}/`}>
-                    <span>{formatDate(day.date)}</span>
-                    <span class="count">{day.cards.length}장</span>
-                  </a>
-                </li>
+                <DayStack day={day} />
               ))}
-            </ul>
+            </div>
           </section>
         )}
       </>
     ) : (
       /* 파이프라인이 아직 한 번도 돌지 않았거나 렌더까지 간 날이 없을 때. */
-      <section class="hero">
-        <h1>아직 발행된 카드가 없습니다</h1>
-        <p class="count">첫 발행을 준비하고 있습니다.</p>
+      <section class="today">
+        <p class="eyebrow">대기 중</p>
+        <h1 class="bigdate">
+          <span class="md">--<span class="sep">.</span>--</span>
+        </h1>
+        <p class="sub">첫 발행을 기다리고 있습니다. 매일 21:00 에 카드가 쌓입니다.</p>
       </section>
     )
   }
 </Layout>
 
 <style>
-  .hero {
-    padding: 40px 0 36px;
+  .today {
+    padding: clamp(28px, 6vw, 56px) 0 clamp(24px, 4vw, 40px);
   }
 
-  .eyebrow {
-    margin: 0 0 8px;
-    font-size: 13px;
+  /*
+    날짜를 이 페이지에서 가장 큰 것으로 세운다. 등폭 숫자라 자릿수가 바뀌어도
+    폭이 흔들리지 않고, 음수 자간으로 조여야 이 크기에서 덩어리로 읽힌다.
+  */
+  .bigdate {
+    margin: 10px 0 0;
+    display: flex;
+    align-items: baseline;
+    gap: clamp(10px, 2vw, 18px);
+    font-size: clamp(58px, 13vw, 116px);
+    font-weight: 800;
+    letter-spacing: -0.045em;
+    line-height: 0.92;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /*
+    이 크기에서 마침표는 점이 아니라 원형 덩어리로 읽힌다. 크기를 크게 줄이고
+    시각 중심으로 올려야 두 숫자를 잇는 구분자로 보인다.
+  */
+  .sep {
+    font-size: 0.44em;
+    vertical-align: 0.06em;
+    color: var(--dimmer);
+    margin: 0 0.06em;
+  }
+
+  .yr {
+    font-size: clamp(13px, 1.6vw, 16px);
+    font-weight: 700;
     letter-spacing: 0.14em;
-    color: var(--accent);
+    color: var(--dimmer);
   }
 
-  h1 {
-    margin: 0;
-    font-size: clamp(30px, 6vw, 44px);
-    letter-spacing: -0.02em;
-  }
-
-  .count {
-    margin: 6px 0 0;
+  .sub {
+    margin: 14px 0 0;
     font-size: 14px;
-    color: var(--muted);
+    color: var(--dim);
   }
 
   .archive {
-    margin-top: 72px;
-    border-top: 1px solid var(--line);
-    padding-top: 32px;
+    margin-top: clamp(64px, 10vw, 104px);
+    border-top: 1px solid var(--edge-soft);
+    padding-top: 28px;
   }
 
-  .archive h2 {
-    margin: 0 0 16px;
-    font-size: 18px;
-  }
-
-  .archive ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .archive a {
+  .archive-head {
     display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
     justify-content: space-between;
-    padding: 14px 4px;
-    border-bottom: 1px solid var(--line);
-    text-decoration: none;
+    gap: 8px;
+    margin-bottom: clamp(20px, 3vw, 32px);
   }
 
-  .archive a:hover {
-    color: var(--accent);
+  .hint {
+    margin: 0;
+    font-size: 12px;
+    color: var(--dimmer);
+  }
+
+  /*
+    더미가 위·오른쪽으로 삐져나오므로 칸 사이를 넉넉히 둔다. 좁히면 펼쳐진
+    더미가 이웃 칸을 침범한다.
+
+    열 수는 auto-fill 로 두지 않고 못박는다. 아카이브는 훑어보는 곳이라 칸이
+    화면 폭을 다 먹으면 안 된다 — 모바일에서 1열이면 스크롤이 3000px 를 넘겼다.
+  */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(28px, 4vw, 44px) clamp(16px, 3vw, 32px);
+  }
+
+  @media (min-width: 640px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
 </style>

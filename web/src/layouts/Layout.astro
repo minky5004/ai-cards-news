@@ -19,96 +19,186 @@ const base = import.meta.env.BASE_URL;
   </head>
   <body>
     <header class="site">
-      <a class="brand" href={base}><span class="dot"></span>AI NEWS</a>
-      <span class="tagline">매일 21시 발행</span>
+      <a class="brand" href={base}>
+        <span class="mark" aria-hidden="true"></span>
+        AI NEWS
+      </a>
+      <span class="stamp">매일 21:00 자동 발행</span>
     </header>
 
     <main><slot /></main>
 
     <footer class="site">
-      <a href="https://github.com/minky5004/ai-cards-news">github.com/minky5004/ai-cards-news</a>
+      <span>사람이 만지지 않는 파이프라인이 매일 카드를 쌓습니다.</span>
+      <a href="https://github.com/minky5004/ai-cards-news">소스 보기</a>
     </footer>
   </body>
 </html>
 
 <style is:global>
   /*
-    색은 카드(templates/card.html)와 같은 딥 네이비 계열로 맞춘다. 카드가 페이지
-    배경 위에 떠 있을 때 톤이 부딪히지 않아야 한다.
+    배경은 카드와 같은 네이비가 아니라 뉴트럴한 잉크다.
+
+    둘 다 네이비면 카드가 배경에 묻힌다 — 예전 팔레트가 그랬다. 배경에서 파란
+    기운을 빼면 카드의 네이비가 그 위에서 비로소 "파랑" 으로 읽히고, 카드가
+    조명 아래 놓인 것처럼 떠오른다.
+
+    UI 는 거의 무채색으로 둔다. 이 페이지에서 색을 내는 것은 카드 이미지여야
+    한다. 파랑과 앰버는 면으로 쓰지 않고 점·선·포커스 링에만 쓴다.
 
     웹폰트는 싣지 않는다. 페이지의 글자는 카드 이미지 밖의 보조 텍스트뿐이고,
     한글 Noto Sans KR 은 한 굵기당 540KB 라 이 정도 텍스트에 지불할 값이 아니다.
-    카드 안의 타이포그래피는 이미 이미지에 구워져 있다.
+    카드 안의 타이포그래피는 이미 이미지에 구워져 있다. 개성은 폰트를 사 오는
+    대신 크기 대비와 자간으로 낸다 — 날짜를 거대한 등폭 숫자로 다루는 것이
+    이 페이지의 타이포 시그니처다.
   */
   :root {
-    --bg: #0a1330;
-    --surface: #0e1a3c;
-    --accent: #5b8cff;
-    --text: #ffffff;
-    --muted: rgba(255, 255, 255, 0.68);
-    --line: rgba(255, 255, 255, 0.12);
+    --ink: #0b0d12;
+    --ink-raised: #12151d;
+    --ink-sunken: #080a0e;
+    --edge: #232833;
+    --edge-soft: rgba(255, 255, 255, 0.07);
+    --chalk: #e6e9f0;
+    --dim: #8b93a3;
+    --dimmer: #5c6270;
+    --blue: #5b8cff;
+    --ember: #ffa23e;
+
+    --shell: 1120px;
+    --gutter: clamp(18px, 4vw, 32px);
   }
 
   * {
     box-sizing: border-box;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     margin: 0;
-    background: var(--bg);
-    color: var(--text);
+    background: var(--ink);
+    color: var(--chalk);
     font-family:
       "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, -apple-system,
       sans-serif;
-    line-height: 1.6;
+    line-height: 1.65;
     -webkit-font-smoothing: antialiased;
+    /*
+      카드 캐러셀 뒤에서 은은하게 올라오는 빛. 밤 21시에 발행된다는 사실이
+      배경에 남는 유일한 흔적이고, 카드가 조명 아래 놓인 것처럼 만든다.
+      면적은 넓지만 알파가 낮아 색으로 읽히지는 않는다.
+    */
+    background-image: radial-gradient(
+      ellipse 900px 520px at 50% 8%,
+      rgba(91, 140, 255, 0.13),
+      transparent 62%
+    );
+    background-repeat: no-repeat;
   }
 
   a {
     color: inherit;
   }
 
+  :focus-visible {
+    outline: 2px solid var(--blue);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
   main {
-    max-width: 1080px;
+    max-width: var(--shell);
     margin: 0 auto;
-    padding: 0 20px 80px;
+    padding: 0 var(--gutter) 96px;
+  }
+
+  /* 라벨은 기계가 찍은 것처럼. 자동 파이프라인이 이 사이트의 정체다. */
+  .eyebrow {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--dimmer);
   }
 
   header.site {
-    max-width: 1080px;
+    max-width: var(--shell);
     margin: 0 auto;
-    padding: 28px 20px;
+    padding: 22px var(--gutter);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 16px;
   }
 
   .brand {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
+    gap: 9px;
+    font-size: 14px;
     font-weight: 800;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.16em;
     text-decoration: none;
   }
 
-  .dot {
-    width: 10px;
-    height: 10px;
+  /*
+    브랜드 마크는 켜져 있는 표시등이다. 파이프라인이 매일 돌고 있다는 뜻이라
+    이 사이트에서 앰버가 쓰이는 유일한 자리이기도 하다.
+  */
+  .mark {
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
-    background: var(--accent);
+    background: var(--ember);
+    box-shadow: 0 0 0 4px rgba(255, 162, 62, 0.14);
   }
 
-  .tagline {
-    font-size: 14px;
-    color: var(--muted);
+  .stamp {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    color: var(--dimmer);
+    text-transform: uppercase;
   }
 
   footer.site {
-    border-top: 1px solid var(--line);
-    padding: 28px 20px;
-    text-align: center;
-    font-size: 13px;
-    color: var(--muted);
+    max-width: var(--shell);
+    margin: 0 auto;
+    border-top: 1px solid var(--edge-soft);
+    padding: 26px var(--gutter) 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    font-size: 12.5px;
+    color: var(--dimmer);
+  }
+
+  footer.site a {
+    color: var(--dim);
+    text-decoration: none;
+    border-bottom: 1px solid var(--edge);
+    padding-bottom: 1px;
+  }
+
+  footer.site a:hover {
+    color: var(--chalk);
+    border-bottom-color: var(--dim);
+  }
+
+  @media (max-width: 520px) {
+    .stamp {
+      display: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 </style>

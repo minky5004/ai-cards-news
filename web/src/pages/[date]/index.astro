@@ -21,65 +21,153 @@ interface Props {
 
 const { day, newer, older } = Astro.props;
 const base = import.meta.env.BASE_URL;
+
+const [year, month, dayOfMonth] = day.date.split("-");
+const weekday = ["일", "월", "화", "수", "목", "금", "토"][
+  new Date(`${day.date}T00:00:00Z`).getUTCDay()
+];
+
+/** pager 라벨은 `07.26` 처럼 짧게. 본문의 큰 날짜와 같은 표기다. */
+const short = (d: string) => d.slice(5).replace("-", ".");
 ---
 
 <Layout
   title={`${formatDate(day.date)} AI 뉴스 카드`}
   description={day.cards.map((card) => card.headline).join(" · ")}
 >
-  <section class="hero">
-    <p class="eyebrow">발행</p>
-    <h1>{formatDate(day.date)}</h1>
-    <p class="count">카드 {day.cards.length}장</p>
+  <section class="day">
+    <p class="eyebrow">발행 기록</p>
+
+    <h1 class="bigdate">
+      <span class="md">
+        {month}<span class="sep">.</span>{dayOfMonth}
+      </span>
+      <span class="yr">{year}</span>
+    </h1>
+
+    <p class="sub">{weekday}요일 · 카드 {day.cards.length}장</p>
   </section>
 
   <CardDeck cards={day.cards} />
 
-  <nav class="pager">
-    {older ? <a href={`${base}${older.date}/`}>← {formatDate(older.date)}</a> : <span></span>}
-    {newer ? <a href={`${base}${newer.date}/`}>{formatDate(newer.date)} →</a> : <span></span>}
+  <nav class="pager" aria-label="다른 발행일">
+    {
+      older ? (
+        <a href={`${base}${older.date}/`} rel="prev">
+          <span class="dir">이전</span>
+          <span class="num">{short(older.date)}</span>
+        </a>
+      ) : (
+        <span />
+      )
+    }
+
+    <a class="home" href={base}>전체 보기</a>
+
+    {
+      newer ? (
+        <a class="next" href={`${base}${newer.date}/`} rel="next">
+          <span class="dir">다음</span>
+          <span class="num">{short(newer.date)}</span>
+        </a>
+      ) : (
+        <span />
+      )
+    }
   </nav>
 </Layout>
 
 <style>
-  .hero {
-    padding: 40px 0 36px;
+  .day {
+    padding: clamp(28px, 6vw, 56px) 0 clamp(24px, 4vw, 40px);
   }
 
-  .eyebrow {
-    margin: 0 0 8px;
-    font-size: 13px;
+  .bigdate {
+    margin: 10px 0 0;
+    display: flex;
+    align-items: baseline;
+    gap: clamp(10px, 2vw, 18px);
+    font-size: clamp(58px, 13vw, 116px);
+    font-weight: 800;
+    letter-spacing: -0.045em;
+    line-height: 0.92;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 히어로와 같은 이유로 줄인다 — 이 크기의 마침표는 원형 덩어리로 읽힌다. */
+  .sep {
+    font-size: 0.44em;
+    vertical-align: 0.06em;
+    color: var(--dimmer);
+    margin: 0 0.06em;
+  }
+
+  .yr {
+    font-size: clamp(13px, 1.6vw, 16px);
+    font-weight: 700;
     letter-spacing: 0.14em;
-    color: var(--accent);
+    color: var(--dimmer);
   }
 
-  h1 {
-    margin: 0;
-    font-size: clamp(30px, 6vw, 44px);
-    letter-spacing: -0.02em;
-  }
-
-  .count {
-    margin: 6px 0 0;
+  .sub {
+    margin: 14px 0 0;
     font-size: 14px;
-    color: var(--muted);
+    color: var(--dim);
   }
 
   .pager {
-    margin-top: 56px;
-    border-top: 1px solid var(--line);
+    margin-top: clamp(48px, 7vw, 72px);
+    border-top: 1px solid var(--edge-soft);
     padding-top: 24px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    font-size: 14px;
+    gap: 16px;
   }
 
   .pager a {
     text-decoration: none;
-    color: var(--muted);
+    color: var(--dim);
   }
 
   .pager a:hover {
-    color: var(--accent);
+    color: var(--chalk);
+  }
+
+  /* 앞뒤 링크는 방향 라벨 위에 날짜를 얹어 둘을 한 덩어리로 읽게 한다. */
+  .pager a:not(.home) {
+    display: grid;
+    gap: 2px;
+    line-height: 1.2;
+  }
+
+  .next {
+    text-align: right;
+  }
+
+  .dir {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--dimmer);
+  }
+
+  .num {
+    font-size: 17px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.02em;
+  }
+
+  .home {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid var(--edge);
+    padding-bottom: 2px;
+  }
+
+  .home:hover {
+    border-bottom-color: var(--dim);
   }
 </style>

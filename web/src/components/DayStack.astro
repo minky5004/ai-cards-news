@@ -1,0 +1,180 @@
+---
+import type { Day } from "../lib/content";
+
+interface Props {
+  day: Day;
+}
+
+const { day } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const imageBase = base.replace(/\/$/, "");
+
+const [, month, dayOfMonth] = day.date.split("-");
+const weekday = ["일", "월", "화", "수", "목", "금", "토"][
+  new Date(`${day.date}T00:00:00Z`).getUTCDay()
+];
+
+const cover = day.cards[0];
+
+/*
+  표지 뒤에 깔릴 층. 카드가 5장이면 4겹이 뒤에 쌓여 더미가 5장 두께로 보인다.
+  두께가 곧 그날 발행한 장수라, 아카이브를 훑기만 해도 조용한 날과 그렇지 않은
+  날이 구분된다 — 장식이 아니라 정보다.
+*/
+const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) => i + 1);
+---
+
+<a class="stack" href={`${base}${day.date}/`} aria-label={`${month}월 ${dayOfMonth}일 발행 카드 ${day.cards.length}장 보기`}>
+  <span class="pile">
+    {leaves.map((i) => <span class="leaf" style={`--i:${i}`} aria-hidden="true" />)}
+
+    <img
+      class="cover"
+      src={`${imageBase}${cover.image}`}
+      width="1080"
+      height="1350"
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  </span>
+
+  <span class="label">
+    <span class="date">
+      <span class="mm">{month}</span><span class="sep">.</span><span class="dd">{dayOfMonth}</span>
+    </span>
+    <span class="meta">{weekday}요일 · {day.cards.length}장</span>
+  </span>
+</a>
+
+<style>
+  .stack {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /*
+    더미의 자리. 층들이 위·오른쪽으로 삐져나오므로 그만큼 여백을 미리 잡아 둔다.
+    안 잡으면 이웃 칸과 겹치고, 격자에서 마지막 칸이 잘린다.
+  */
+  .pile {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 5;
+    margin: 22px 26px 0 0;
+  }
+
+  .leaf,
+  .cover {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  /*
+    뒤로 갈수록 위·오른쪽으로 조금씩 밀리고 옅어진다. 종이 더미를 위에서 비스듬히
+    본 모습이다. 층 자체는 빈 면이라 표지 이미지만 실제로 내려받으면 된다.
+  */
+  .leaf {
+    /*
+      배경보다 확실히 밝아야 층이 보인다. 처음엔 --ink-raised 로 뒀는데 배경과
+      너무 가까워 더미가 그냥 카드 한 장처럼 보였다 — 두께가 정보인데 안 읽히면
+      의미가 없다.
+    */
+    background: #1b2130;
+    border: 1px solid #2c3444;
+    transform: translate(calc(var(--i) * 6px), calc(var(--i) * -6px))
+      rotate(calc(var(--i) * 0.5deg));
+    opacity: calc(1 - var(--i) * 0.14);
+    transition:
+      transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 0.32s ease;
+  }
+
+  .cover {
+    object-fit: cover;
+    background: var(--ink-raised);
+    border: 1px solid var(--edge);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+    transition:
+      transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.32s ease;
+  }
+
+  /* 호버·포커스에서 더미가 부채꼴로 벌어진다. 이 페이지에서 유일하게 큰 움직임이다. */
+  .stack:hover .leaf,
+  .stack:focus-visible .leaf {
+    /*
+      가로로는 넉넉히 벌리고 세로는 아낀다. 세로를 같이 키우면 5장짜리 더미가
+      섹션 구분선을 넘어 올라간다 — 장수가 많은 날일수록 더 튄다.
+    */
+    transform: translate(calc(var(--i) * 13px), calc(var(--i) * -7px))
+      rotate(calc(var(--i) * 1.9deg));
+    opacity: calc(1 - var(--i) * 0.1);
+  }
+
+  .stack:hover .cover,
+  .stack:focus-visible .cover {
+    transform: translateY(3px);
+    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.55);
+  }
+
+  .label {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  /*
+    날짜는 이 사이트의 파일 이름이다. 등폭 숫자로 크게 세워 목록에서 눈이
+    숫자만 따라 내려갈 수 있게 한다.
+  */
+  .date {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+
+  .sep {
+    color: var(--dimmer);
+    margin: 0 1px;
+  }
+
+  .dd {
+    color: var(--chalk);
+  }
+
+  .mm {
+    color: var(--dim);
+  }
+
+  .meta {
+    font-size: 12.5px;
+    color: var(--dimmer);
+  }
+
+  .stack:hover .mm {
+    color: var(--chalk);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .leaf,
+    .cover {
+      transition: none;
+    }
+
+    .stack:hover .leaf,
+    .stack:focus-visible .leaf,
+    .stack:hover .cover,
+    .stack:focus-visible .cover {
+      transform: translate(calc(var(--i, 0) * 6px), calc(var(--i, 0) * -6px))
+        rotate(calc(var(--i, 0) * 0.5deg));
+    }
+  }
+</style>
