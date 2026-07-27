@@ -1,4 +1,6 @@
 ---
+import { ClientRouter } from "astro:transitions";
+
 interface Props {
   title: string;
   description?: string;
@@ -16,6 +18,13 @@ const base = import.meta.env.BASE_URL;
     <meta name="description" content={description} />
     <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
     <title>{title}</title>
+
+    {/*
+      아카이브 더미를 누르면 그 표지가 날짜 페이지의 첫 카드 자리로 이어진다 —
+      더미에서 한 장을 뽑아 펼치는 동작이 화면에서 그대로 보인다. 지원하지 않는
+      브라우저는 그냥 평범한 링크 이동이 된다.
+    */}
+    <ClientRouter />
   </head>
   <body>
     <header class="site">

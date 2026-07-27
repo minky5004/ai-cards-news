@@ -44,7 +44,8 @@ const short = (d: string) => d.slice(5).replace("-", ".");
     </div>
   </section>
 
-  <CardDeck cards={day.cards} />
+  {/* 홈 아카이브 더미의 표지와 짝이 되는 이름. 더미에서 이 페이지로 이어진다. */}
+  <CardDeck cards={day.cards} coverName={`cover-${day.date}`} />
 
   <nav class="pager" aria-label="다른 발행일">
     {

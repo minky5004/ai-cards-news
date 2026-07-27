@@ -28,8 +28,14 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
   <span class="pile">
     {leaves.map((i) => <span class="leaf" style={`--i:${i}`} aria-hidden="true" />)}
 
+    {/*
+      날짜 페이지의 첫 카드와 같은 이름을 달아 둔다. 이름이 같은 두 요소를
+      브라우저가 하나로 보고 위치·크기를 이어 붙인다 — 더미 표지가 그대로
+      커지며 그날의 첫 카드가 된다.
+    */}
     <img
       class="cover"
+      transition:name={`cover-${day.date}`}
       src={`${imageBase}${cover.image}`}
       width="1080"
       height="1350"

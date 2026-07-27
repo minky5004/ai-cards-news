@@ -3,9 +3,15 @@ import type { RenderedCard } from "../lib/content";
 
 interface Props {
   cards: RenderedCard[];
+  /**
+   * 첫 카드에 붙일 view transition 이름. 아카이브 더미의 표지와 같은 이름을 주면
+   * 더미를 눌러 들어올 때 표지가 그대로 첫 카드가 된다. 홈의 오늘 발행처럼 이어질
+   * 상대가 없는 자리에서는 주지 않는다 — 이름은 한 화면에 하나뿐이어야 한다.
+   */
+  coverName?: string;
 }
 
-const { cards } = Astro.props;
+const { cards, coverName } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const imageBase = base.replace(/\/$/, "");
 ---
@@ -54,6 +60,7 @@ const imageBase = base.replace(/\/$/, "");
                 동작하므로 나머지는 넘길 때 받는다.
               */}
               <img
+                transition:name={i === 0 && coverName ? coverName : undefined}
                 src={`${imageBase}${card.image}`}
                 width="1080"
                 height="1350"
@@ -81,7 +88,7 @@ const imageBase = base.replace(/\/$/, "");
                 갇히지 않는다.
               */}
               <form class="close-row" method="dialog">
-                <button class="close" type="submit" aria-label="닫기">
+                <button class="close" type="submit" data-close aria-label="닫기">
                   <span aria-hidden="true">✕</span>
                 </button>
               </form>
@@ -477,6 +484,27 @@ const imageBase = base.replace(/\/$/, "");
   const behavior: ScrollBehavior = reduceMotion ? "auto" : "smooth";
 
   /*
+    배선을 함수로 묶어 `astro:page-load` 마다 다시 건다.
+
+    ClientRouter 가 붙은 뒤로 페이지 이동이 문서 교체가 아니라 DOM 교체가 됐다.
+    모듈 스크립트는 처음 한 번만 실행되므로, 묶어 두지 않으면 <b>이동한 페이지에서
+    캐러셀과 확대가 통째로 죽는다</b> — 화살표·도트가 숨은 채 남고 카드를 눌러도
+    아무 일도 일어나지 않는다. 실제로 그 상태를 재현하고 나서 이 구조로 왔다.
+
+    `astro:page-load` 는 첫 진입에도 발화하므로 여기서만 부르면 된다.
+  */
+  let wiring: AbortController | null = null;
+
+  const setup = () => {
+    /*
+      DOM 은 교체돼도 window 는 남는다. 지난 배선의 resize 청취자를 끊지 않으면
+      이동할 때마다 하나씩 쌓인다.
+    */
+    wiring?.abort();
+    wiring = new AbortController();
+    const signal = wiring.signal;
+
+  /*
     카드를 누르면 원문으로 나가는 대신 확대 뷰를 연다. 카드 이미지에는 헤드라인밖에
     없으므로 본문을 읽을 자리가 필요하고, 그 자리가 곧 카드 자신이어야 한다.
 
@@ -485,10 +513,51 @@ const imageBase = base.replace(/\/$/, "");
   */
   const DRAG_SLOP = 10;
 
+  /* 카드와 확대 뷰의 이미지를 잇는 이름. 한 번에 한 장만 열리므로 하나면 된다. */
+  const MORPH = "card-morph";
+
+  /*
+    카드 이미지가 확대 뷰의 이미지 자리로 자라난다. 두 요소에 같은 이름을 붙이되,
+    이름은 화면에 하나뿐이어야 하므로 전환 콜백 안에서 넘겨준다.
+
+    지원하지 않는 브라우저나 모션을 줄인 설정에서는 그냥 즉시 열고 닫는다 —
+    효과가 없을 뿐 동작은 같다.
+  */
+  const morph = (from: HTMLElement, to: HTMLElement, swap: () => void) => {
+    if (reduceMotion || !document.startViewTransition) {
+      swap();
+      return;
+    }
+    from.style.viewTransitionName = MORPH;
+    const transition = document.startViewTransition(() => {
+      from.style.viewTransitionName = "";
+      swap();
+      to.style.viewTransitionName = MORPH;
+    });
+    // 이름을 남겨 두면 다음 전환이 "이름이 둘"인 상태로 들어가 아무것도 안 움직인다.
+    transition.finished.finally(() => {
+      to.style.viewTransitionName = "";
+    });
+  };
+
   for (const slide of document.querySelectorAll<HTMLElement>("[data-slide]")) {
     const shot = slide.querySelector<HTMLAnchorElement>(".shot");
     const expand = slide.querySelector<HTMLDialogElement>("[data-expand]");
     if (!shot || !expand) continue;
+
+    const shotImage = shot.querySelector<HTMLImageElement>("img");
+    const expandImage = expand.querySelector<HTMLImageElement>(".expand-shot");
+
+    const open = () => {
+      if (!shotImage || !expandImage) return expand.showModal();
+      morph(shotImage, expandImage, () => expand.showModal());
+    };
+
+    const close = () => {
+      if (!expand.open) return;
+      if (!shotImage || !expandImage) return expand.close();
+      morph(expandImage, shotImage, () => expand.close());
+    };
 
     let startX = 0;
     let startY = 0;
@@ -513,7 +582,7 @@ const imageBase = base.replace(/\/$/, "");
 
       // 끌었으면 아무 일도 일어나지 않는다. 나가지도, 확대되지도 않는다.
       event.preventDefault();
-      if (!dragged) expand.showModal();
+      if (!dragged) open();
     });
 
     // 바깥을 누르면 닫는다. dialog 자신이 배경까지 차지하므로 좌표로 가른다.
@@ -525,7 +594,22 @@ const imageBase = base.replace(/\/$/, "");
         event.clientX <= box.right &&
         event.clientY >= box.top &&
         event.clientY <= box.bottom;
-      if (!inside) expand.close();
+      if (!inside) close();
+    });
+
+    /*
+      ESC 와 닫기 버튼은 원래 브라우저가 알아서 닫는다. 그대로 두면 그 두 경로만
+      효과 없이 툭 닫혀 열 때와 닫을 때가 어긋난다. 스크립트가 있을 때만 가로채고,
+      없으면 원래대로 닫힌다 — 닫히지 않는 상태는 어느 경우에도 만들지 않는다.
+    */
+    expand.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      close();
+    });
+
+    expand.querySelector("[data-close]")?.addEventListener("click", (event) => {
+      event.preventDefault();
+      close();
     });
   }
 
@@ -587,7 +671,7 @@ const imageBase = base.replace(/\/$/, "");
     );
 
     // 슬라이드 폭이 뷰포트에 걸려 있어 창 크기가 바뀌면 중앙도 바뀐다.
-    addEventListener("resize", sync, { passive: true });
+    addEventListener("resize", sync, { passive: true, signal });
 
     track.addEventListener("keydown", (event) => {
       if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
@@ -604,5 +688,8 @@ const imageBase = base.replace(/\/$/, "");
     if (dotsList) dotsList.hidden = false;
     deck.dataset.enhanced = "";
     sync();
-  }
+    }
+  };
+
+  document.addEventListener("astro:page-load", setup);
 </script>
