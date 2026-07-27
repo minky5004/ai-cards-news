@@ -42,6 +42,11 @@ const imageBase = base.replace(/\/$/, "");
             aria-roledescription="슬라이드"
             aria-label={`${i + 1} / ${cards.length}`}
           >
+            {/*
+              스크립트가 붙으면 이 링크가 확대 뷰를 연다. 붙기 전이거나 실패하면
+              원문으로 나가는 원래 동작이 그대로 산다 — 카드 이미지에는 헤드라인밖에
+              없으므로 어느 쪽이든 막다른 길이 되면 안 된다.
+            */}
             <a class="shot" href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
               {/*
                 1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
@@ -62,6 +67,50 @@ const imageBase = base.replace(/\/$/, "");
                 {card.sourceName} 원문 보기 →
               </a>
             </p>
+
+            {/*
+              확대 뷰. 스크립트로 조립하지 않고 서버에서 미리 그린다 — 본문은 이제
+              카드 이미지에 없으므로, 여기에도 없으면 검색엔진과 스크린리더에게는
+              그 글이 아예 존재하지 않는 것이 된다. 닫혀 있는 dialog 라도 마크업에는
+              남아 있다.
+            */}
+            <dialog class="expand" data-expand aria-label={`${card.headline} 자세히`}>
+              {/*
+                `method="dialog"` 인 폼의 제출 버튼은 스크립트 없이 dialog 를 닫는다.
+                닫기 동작을 우리가 붙이지 않으므로 스크립트가 죽어도 열린 확대 뷰에
+                갇히지 않는다.
+              */}
+              <form class="close-row" method="dialog">
+                <button class="close" type="submit" aria-label="닫기">
+                  <span aria-hidden="true">✕</span>
+                </button>
+              </form>
+
+              <div class="expand-inner">
+                <img
+                  class="expand-shot"
+                  src={`${imageBase}${card.image}`}
+                  width="1080"
+                  height="1350"
+                  alt={card.headline}
+                  loading="lazy"
+                  decoding="async"
+                />
+
+                <div class="detail">
+                  <h2>{card.headline}</h2>
+                  <p class="body">{card.body}</p>
+                  <a
+                    class="origin"
+                    href={card.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {card.sourceName} 원문 보기 ↗
+                  </a>
+                </div>
+              </div>
+            </dialog>
           </li>
         ))
       }
@@ -150,7 +199,11 @@ const imageBase = base.replace(/\/$/, "");
     카드는 종이 위에 놓인 인쇄물이다. 옅은 그림자와 실선 테두리로 크림 바탕에서
     가장자리를 분명히 한다 — 카드 안이 딥 네이비라 크림 위에서는 저절로 도드라진다.
   */
-  .slide img {
+  /*
+    `.slide img` 로 잡으면 안 된다 — 확대 뷰의 이미지도 슬라이드 안에 있어서 함께
+    걸리고, 특이성이 `.expand-shot` 보다 높아 확대 뷰의 크기 지정을 덮어 버린다.
+  */
+  .shot img {
     display: block;
     width: 100%;
     height: auto;
@@ -275,6 +328,134 @@ const imageBase = base.replace(/\/$/, "");
     background: var(--accent);
   }
 
+  /*
+    확대 뷰. 카드 이미지를 크게 다시 보여 주는 자리가 아니라, 카드에서 빠진 본문을
+    읽는 자리다 — 그래서 이미지와 글이 같은 무게로 선다.
+  */
+  .expand {
+    width: min(980px, calc(100vw - 32px));
+    max-height: calc(100vh - 48px);
+    padding: 0;
+    border: 1px solid var(--rule);
+    border-radius: 18px;
+    background: var(--paper-raised);
+    color: var(--text);
+    overflow: auto;
+    overscroll-behavior: contain;
+  }
+
+  .expand::backdrop {
+    background: rgba(22, 24, 29, 0.62);
+  }
+
+  /*
+    카드를 4:5 그대로 폭에 맞춰 깔면 이미지 하나가 확대 뷰를 통째로 먹고 본문이
+    스크롤 아래로 밀린다 — 본문을 읽으라고 만든 자리인데 본문이 안 보인다.
+    높이로 상한을 걸고 `contain` 으로 담아 카드 전체가 잘리지 않게 한다(헤드라인이
+    카드 아래쪽에 있어 `cover` 로 자르면 헤드라인부터 없어진다).
+  */
+  .expand-shot {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 44vh;
+    object-fit: contain;
+    background: var(--paper-sunken);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* 폭이 나면 이미지와 글을 나란히 세운다. 둘 다 한눈에 들어와야 한다. */
+  @media (min-width: 760px) {
+    .expand-inner {
+      display: grid;
+      /* minmax(0, …) 이어야 긴 출처명 한 줄이 열을 밀어내지 않는다. */
+      grid-template-columns: auto minmax(0, 1fr);
+      align-items: center;
+    }
+
+    .expand-shot {
+      width: auto;
+      height: min(68vh, 540px);
+      max-height: none;
+      border-bottom: 0;
+      border-right: 1px solid var(--rule);
+    }
+  }
+
+  /*
+    높이 0 의 sticky 줄. 닫기 버튼을 그냥 absolute 로 두면 스크롤 컨테이너 안이라
+    본문을 내리는 순간 위로 사라진다 — 확대 뷰는 이미지와 본문이 함께 들어가 실제로
+    스크롤된다.
+  */
+  .close-row {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 0;
+  }
+
+  .close {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: grid;
+    place-items: center;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    border: 1px solid var(--rule);
+    border-radius: 50%;
+    /* 카드 이미지 위에 앉으므로 종이색으로 띄워야 보인다. */
+    background: var(--paper-raised);
+    color: var(--text-soft);
+    font-size: 13px;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .close:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  .detail {
+    padding: clamp(20px, 4vw, 30px);
+  }
+
+  .detail h2 {
+    margin: 0;
+    font-size: clamp(20px, 3.4vw, 27px);
+    font-weight: 800;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    word-break: keep-all;
+  }
+
+  .detail .body {
+    margin: 14px 0 0;
+    font-size: clamp(14.5px, 2.2vw, 16.5px);
+    line-height: 1.75;
+    color: var(--text-soft);
+    word-break: keep-all;
+  }
+
+  .detail .origin {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 9px 16px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--text-soft);
+    text-decoration: none;
+  }
+
+  .detail .origin:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
   @media (prefers-reduced-motion: reduce) {
     /* 흐림 규칙보다 특이성이 낮으면 안 먹으므로 같은 선택자로 되돌린다. */
     [data-enhanced] .slide:not(.is-active),
@@ -294,6 +475,59 @@ const imageBase = base.replace(/\/$/, "");
   */
   const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const behavior: ScrollBehavior = reduceMotion ? "auto" : "smooth";
+
+  /*
+    카드를 누르면 원문으로 나가는 대신 확대 뷰를 연다. 카드 이미지에는 헤드라인밖에
+    없으므로 본문을 읽을 자리가 필요하고, 그 자리가 곧 카드 자신이어야 한다.
+
+    캐러셀 배선과 떼어 놓은 것은 <b>카드가 한 장인 날에도 확대는 돼야 하기 때문</b>이다.
+    아래 캐러셀 쪽은 슬라이드가 둘 미만이면 통째로 건너뛴다.
+  */
+  const DRAG_SLOP = 10;
+
+  for (const slide of document.querySelectorAll<HTMLElement>("[data-slide]")) {
+    const shot = slide.querySelector<HTMLAnchorElement>(".shot");
+    const expand = slide.querySelector<HTMLDialogElement>("[data-expand]");
+    if (!shot || !expand) continue;
+
+    let startX = 0;
+    let startY = 0;
+
+    shot.addEventListener(
+      "pointerdown",
+      (event) => {
+        startX = event.clientX;
+        startY = event.clientY;
+      },
+      { passive: true },
+    );
+
+    shot.addEventListener("click", (event) => {
+      /*
+        손가락이 흔들린 것과 누른 것을 가른다. 카드는 스와이프로 넘기는 물건이라
+        넘기다 손이 미끄러지면 링크가 오발된다 — 지금까지 그게 원문 새 탭이었다.
+      */
+      const dragged =
+        Math.abs(event.clientX - startX) > DRAG_SLOP ||
+        Math.abs(event.clientY - startY) > DRAG_SLOP;
+
+      // 끌었으면 아무 일도 일어나지 않는다. 나가지도, 확대되지도 않는다.
+      event.preventDefault();
+      if (!dragged) expand.showModal();
+    });
+
+    // 바깥을 누르면 닫는다. dialog 자신이 배경까지 차지하므로 좌표로 가른다.
+    expand.addEventListener("click", (event) => {
+      if (event.target !== expand) return;
+      const box = expand.getBoundingClientRect();
+      const inside =
+        event.clientX >= box.left &&
+        event.clientX <= box.right &&
+        event.clientY >= box.top &&
+        event.clientY <= box.bottom;
+      if (!inside) expand.close();
+    });
+  }
 
   for (const deck of document.querySelectorAll<HTMLElement>("[data-carousel]")) {
     const track = deck.querySelector<HTMLElement>("[data-track]");
