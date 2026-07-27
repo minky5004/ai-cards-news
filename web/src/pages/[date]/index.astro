@@ -23,9 +23,6 @@ const { day, newer, older } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
 const [year, month, dayOfMonth] = day.date.split("-");
-const weekday = ["일", "월", "화", "수", "목", "금", "토"][
-  new Date(`${day.date}T00:00:00Z`).getUTCDay()
-];
 
 /** pager 라벨은 `07.26` 처럼 짧게. 본문의 큰 날짜와 같은 표기다. */
 const short = (d: string) => d.slice(5).replace("-", ".");
@@ -44,8 +41,6 @@ const short = (d: string) => d.slice(5).replace("-", ".");
       </span>
       <span class="yr">{year}</span>
     </h1>
-
-    <p class="sub">{weekday}요일 · 카드 {day.cards.length}장</p>
   </section>
 
   <CardDeck cards={day.cards} />
@@ -107,12 +102,6 @@ const short = (d: string) => d.slice(5).replace("-", ".");
     font-weight: 700;
     letter-spacing: 0.14em;
     color: var(--dimmer);
-  }
-
-  .sub {
-    margin: 14px 0 0;
-    font-size: 14px;
-    color: var(--dim);
   }
 
   .pager {

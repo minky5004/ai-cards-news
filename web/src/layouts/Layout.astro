@@ -19,10 +19,6 @@ const base = import.meta.env.BASE_URL;
   </head>
   <body>
     <header class="site">
-      <a class="brand" href={base}>
-        <span class="mark" aria-hidden="true"></span>
-        AI NEWS
-      </a>
       <span class="stamp">매일 21:00 자동 발행</span>
     </header>
 
@@ -37,14 +33,15 @@ const base = import.meta.env.BASE_URL;
 
 <style is:global>
   /*
-    배경은 카드와 같은 네이비가 아니라 뉴트럴한 잉크다.
+    배경은 카드와 같은 네이비가 아니라 따뜻한 잉크 브라운블랙이다.
 
-    둘 다 네이비면 카드가 배경에 묻힌다 — 예전 팔레트가 그랬다. 배경에서 파란
-    기운을 빼면 카드의 네이비가 그 위에서 비로소 "파랑" 으로 읽히고, 카드가
-    조명 아래 놓인 것처럼 떠오른다.
+    첫 팔레트(차가운 뉴트럴 잉크)는 반려됐다 — 카드는 도드라졌지만 전체가
+    차갑고 밋밋했다. 색상군 자체를 바꿔 배경을 웜톤으로: 카드의 차가운
+    네이비와 배경의 따뜻한 브라운이 보색에 가깝게 대비돼 카드가 더 도드라지고,
+    사이트 자체도 어둡지만 차갑지 않게 읽힌다.
 
     UI 는 거의 무채색으로 둔다. 이 페이지에서 색을 내는 것은 카드 이미지여야
-    한다. 파랑과 앰버는 면으로 쓰지 않고 점·선·포커스 링에만 쓴다.
+    한다. 앰버는 면으로 쓰지 않고 점·선·포커스 링에만 쓴다.
 
     웹폰트는 싣지 않는다. 페이지의 글자는 카드 이미지 밖의 보조 텍스트뿐이고,
     한글 Noto Sans KR 은 한 굵기당 540KB 라 이 정도 텍스트에 지불할 값이 아니다.
@@ -53,16 +50,15 @@ const base = import.meta.env.BASE_URL;
     이 페이지의 타이포 시그니처다.
   */
   :root {
-    --ink: #0b0d12;
-    --ink-raised: #12151d;
-    --ink-sunken: #080a0e;
-    --edge: #232833;
-    --edge-soft: rgba(255, 255, 255, 0.07);
-    --chalk: #e6e9f0;
-    --dim: #8b93a3;
-    --dimmer: #5c6270;
-    --blue: #5b8cff;
-    --ember: #ffa23e;
+    --ink: #171310;
+    --ink-raised: #211a14;
+    --ink-sunken: #100d0a;
+    --edge: #372c20;
+    --edge-soft: rgba(255, 255, 255, 0.06);
+    --chalk: #f2ece1;
+    --dim: #a89a86;
+    --dimmer: #6e6252;
+    --accent: #d99a3f;
 
     --shell: 1120px;
     --gutter: clamp(18px, 4vw, 32px);
@@ -92,7 +88,7 @@ const base = import.meta.env.BASE_URL;
     */
     background-image: radial-gradient(
       ellipse 900px 520px at 50% 8%,
-      rgba(91, 140, 255, 0.13),
+      rgba(217, 154, 63, 0.1),
       transparent 62%
     );
     background-repeat: no-repeat;
@@ -103,7 +99,7 @@ const base = import.meta.env.BASE_URL;
   }
 
   :focus-visible {
-    outline: 2px solid var(--blue);
+    outline: 2px solid var(--accent);
     outline-offset: 3px;
     border-radius: 4px;
   }
@@ -130,30 +126,7 @@ const base = import.meta.env.BASE_URL;
     padding: 22px var(--gutter);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-
-  .brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 0.16em;
-    text-decoration: none;
-  }
-
-  /*
-    브랜드 마크는 켜져 있는 표시등이다. 파이프라인이 매일 돌고 있다는 뜻이라
-    이 사이트에서 앰버가 쓰이는 유일한 자리이기도 하다.
-  */
-  .mark {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--ember);
-    box-shadow: 0 0 0 4px rgba(255, 162, 62, 0.14);
+    justify-content: flex-end;
   }
 
   .stamp {

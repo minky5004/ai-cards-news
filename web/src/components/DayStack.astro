@@ -62,7 +62,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     position: relative;
     display: block;
     aspect-ratio: 4 / 5;
-    margin: 22px 26px 0 0;
+    margin: 24px 28px 0 0;
   }
 
   .leaf,
@@ -84,8 +84,8 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
       너무 가까워 더미가 그냥 카드 한 장처럼 보였다 — 두께가 정보인데 안 읽히면
       의미가 없다.
     */
-    background: #1b2130;
-    border: 1px solid #2c3444;
+    background: #2c2318;
+    border: 1px solid #4a3a26;
     transform: translate(calc(var(--i) * 6px), calc(var(--i) * -6px))
       rotate(calc(var(--i) * 0.5deg));
     opacity: calc(1 - var(--i) * 0.14);
@@ -134,7 +134,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     숫자만 따라 내려갈 수 있게 한다.
   */
   .date {
-    font-size: 26px;
+    font-size: 29px;
     font-weight: 800;
     letter-spacing: -0.03em;
     font-variant-numeric: tabular-nums;
