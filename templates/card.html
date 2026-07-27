@@ -24,10 +24,10 @@
       }
 
       :root {
-        --bg: #0e1a3c;
-        --accent: #5b8cff;
-        --text: #ffffff;
-        --muted: rgba(255, 255, 255, 0.74);
+        /* 사이트의 --text 와 같은 값. 카드와 웹이 같은 잉크를 쓴다. */
+        --ink: #16181d;
+        --cream: #f4f1e8;
+        --navy: #23407e;
       }
 
       * {
@@ -39,158 +39,143 @@
       body {
         width: 1080px;
         height: 1350px;
-        background: var(--bg);
-        color: var(--text);
-        font-family: "Noto Sans KR", sans-serif;
-        display: flex;
-        flex-direction: column;
+        position: relative;
         overflow: hidden;
+        background: var(--ink);
+        color: var(--cream);
+        font-family: "Noto Sans KR", sans-serif;
         -webkit-font-smoothing: antialiased;
       }
 
-      header {
-        flex: none;
-        height: 112px;
-        padding: 0 64px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+      /* 이미지는 카드를 통째로 덮는다. 텍스트는 그 위에 앉는다. */
+      .photo {
+        position: absolute;
+        inset: 0;
       }
 
-      .badge {
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        font-size: 30px;
-        font-weight: 900;
-        letter-spacing: 0.08em;
-      }
-
-      .dot {
-        width: 16px;
-        height: 16px;
-        border-radius: 50%;
-        background: var(--accent);
-      }
-
-      .date {
-        font-size: 27px;
-        color: var(--muted);
-        letter-spacing: 0.04em;
-      }
-
-      figure {
-        flex: none;
-        height: 480px;
-        overflow: hidden;
-        position: relative;
-      }
-
-      figure img {
+      .photo img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         display: block;
+        /*
+          원문 대표 이미지는 우리가 고를 수 없다 — 사진인 날도 있고 남의 글자가 가득한
+          og:image 인 날도 있다(GitHub 레포 카드가 그렇다). 세로 규격에 맞춰 크롭되면
+          그 글자가 확대돼 카드의 주인공을 뺏는다. 채도와 밝기를 눌러 배경 질감으로
+          내려놓으면 어떤 이미지가 와도 헤드라인이 카드를 지배한다.
+        */
+        filter: brightness(0.74) saturate(0.82) contrast(0.94);
       }
 
       /*
-        원문 대표 이미지가 흰 배경이면 딥 네이비 카드 위에서 눈부신 사각형으로 떠
-        톤이 부딪힌다. 위쪽은 살짝 눌러 눈부심을 줄이고 아래쪽은 카드 배경으로 녹여
-        텍스트 영역과의 이음매를 지운다. 가운데는 건드리지 않아 사진·차트 내용이
-        뭉개지지 않는다. 폴백 배경에도 겹치지만 같은 색이라 표가 나지 않는다.
+        스크림. 헤드라인이 어떤 사진 위에서도 읽혀야 하므로 아래쪽을 강하게 누른다.
+        가운데(26~52%)는 거의 건드리지 않아 사진의 주제가 살아 있고, 상단은 흰 배경
+        썸네일이 눈부신 사각형으로 뜨는 것만 살짝 잡는다.
       */
-      figure::after {
-        content: "";
+      .scrim {
         position: absolute;
         inset: 0;
-        pointer-events: none;
         background: linear-gradient(
           to bottom,
-          rgba(14, 26, 60, 0.14) 0%,
-          rgba(14, 26, 60, 0) 20%,
-          rgba(14, 26, 60, 0) 78%,
-          var(--bg) 100%
+          rgba(22, 24, 29, 0.58) 0%,
+          rgba(22, 24, 29, 0.22) 30%,
+          rgba(22, 24, 29, 0.46) 56%,
+          rgba(22, 24, 29, 0.9) 78%,
+          rgba(22, 24, 29, 0.99) 100%
         );
       }
 
-      /* 원문 대표 이미지가 없거나 받지 못했을 때. 카드를 통째로 버리지 않는다. */
-      .fallback {
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(135deg, #1e3f9e 0%, #0e1a3c 72%);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 60px;
-        font-weight: 900;
-        letter-spacing: 0.12em;
-        color: rgba(255, 255, 255, 0.26);
+      /*
+        원문 대표 이미지가 없거나 받지 못했을 때. 빈 자리를 메우는 게 아니라 타이포
+        포스터라는 다른 종류의 카드가 된다 — .stack 규칙이 헤드라인을 키운다.
+      */
+      .no-image .photo {
+        background: linear-gradient(150deg, var(--navy) 0%, var(--ink) 78%);
       }
 
-      section {
-        flex: 1;
-        padding: 56px 64px 52px;
+      .no-image .scrim {
+        background: none;
+      }
+
+      .content {
+        position: absolute;
+        inset: 0;
+        padding: 96px 64px 60px;
         display: flex;
         flex-direction: column;
+        justify-content: flex-end;
       }
 
       h1 {
-        font-size: 76px;
+        font-size: 96px;
         font-weight: 900;
-        line-height: 1.22;
-        letter-spacing: -0.02em;
+        line-height: 1.15;
+        letter-spacing: -0.03em;
         /* 줄바꿈이 조사에서 끊기면 읽는 리듬이 무너진다. */
         word-break: keep-all;
+        text-wrap: balance;
+        /* 밝은 사진 위에서 스크림만으로 모자랄 때의 마지막 안전장치. */
+        text-shadow: 0 2px 28px rgba(0, 0, 0, 0.45);
       }
 
-      .rule {
-        flex: none;
-        width: 88px;
-        height: 6px;
-        margin: 34px 0 30px;
-        border-radius: 3px;
-        background: var(--accent);
+      .no-image h1 {
+        font-size: 128px;
+        text-shadow: none;
       }
 
-      p {
-        font-size: 34px;
-        line-height: 1.7;
-        color: var(--muted);
-        word-break: keep-all;
-      }
-
-      footer {
-        margin-top: auto;
-        padding-top: 28px;
+      .meta {
+        margin-top: 44px;
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: space-between;
-        font-size: 27px;
+        gap: 32px;
+        font-size: 26px;
         font-weight: 700;
-        color: var(--muted);
+        letter-spacing: 0.02em;
+        color: rgba(244, 241, 232, 0.72);
       }
 
+      /*
+        출처명은 길이를 예측할 수 없다 — "AGN" 인 날도 있고 "Stanford Institute for
+        Economic Policy Research (SIEPR)" 인 날도 있다. 줄어드는 것은 출처명 하나뿐이고
+        날짜와 페이지 번호는 통째로 남는다. 한 덩어리로 두면 긴 출처명이 날짜부터 잘라먹는다.
+      */
+      .origin {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        min-width: 0;
+      }
+
+      .source {
+        min-width: 0;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .date,
       .page {
-        color: var(--accent);
+        flex: none;
+        font-variant-numeric: tabular-nums;
       }
     </style>
   </head>
-  <body>
-    <header>
-      <div class="badge"><span class="dot"></span>AI NEWS</div>
-      <div class="date">{{date}}</div>
-    </header>
+  <body class="{{variant}}">
+    <div class="photo">{{thumbnail}}</div>
+    <div class="scrim"></div>
 
-    <figure>{{thumbnail}}</figure>
-
-    <section>
-      <h1>{{headline}}</h1>
-      <div class="rule"></div>
-      <p>{{body}}</p>
-      <footer>
-        <span>{{sourceName}}</span>
-        <span class="page">{{index}} / {{total}}</span>
-      </footer>
-    </section>
+    <div class="content">
+      <div class="stack">
+        <h1>{{headline}}</h1>
+        <div class="meta">
+          <span class="origin">
+            <span class="source">{{sourceName}}</span>
+            <span class="date">· {{date}}</span>
+          </span>
+          <span class="page">{{index}} / {{total}}</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
