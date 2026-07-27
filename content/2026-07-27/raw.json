@@ -1,0 +1,498 @@
+{
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T09:00:00.213Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "venturebeat-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 14,
+      "filtered": 12
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49051692",
+      "representativeId": "hackernews:49051692",
+      "items": [
+        {
+          "id": "hackernews:49051692",
+          "title": "'AI Mania Is Eviscerating Global Decision-Making'",
+          "url": "https://daringfireball.net/linked/2026/07/25/ai-mania-nikhil-suresh",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T21:18:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 61,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49051692"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+          "title": "Making sense of the panic over Chinese AI",
+          "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-26T19:40:57.000Z",
+          "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.8241843935307855,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8981934475323807,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49058669",
+      "representativeId": "hackernews:49058669",
+      "items": [
+        {
+          "id": "hackernews:49058669",
+          "title": "London Gatwick has launched a robotic airport parking service",
+          "url": "https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics",
+          "source": "hackernews",
+          "publishedAt": "2026-07-26T14:40:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 277,
+            "comments": 242,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49058669"
+          }
+        }
+      ],
+      "score": 4.7511590353105015,
+      "breakdown": {
+        "hnPoints": 1.8105123670964312,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7406466682140704,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49052570",
+      "representativeId": "hackernews:49052570",
+      "items": [
+        {
+          "id": "hackernews:49052570",
+          "title": "What is happening to jobs? Separating AI hype from reality",
+          "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T22:51:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 261,
+            "comments": 341,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49052570"
+          }
+        }
+      ],
+      "score": 4.394173762259589,
+      "breakdown": {
+        "hnPoints": 1.7914419582702403,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.40273180398934816,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49057877",
+      "representativeId": "hackernews:49057877",
+      "items": [
+        {
+          "id": "hackernews:49057877",
+          "title": "The New AI Superpowers: Focus and Followthrough",
+          "url": "https://rickmanelius.com/p/the-new-ai-superpowers-focus-and",
+          "source": "hackernews",
+          "publishedAt": "2026-07-26T13:13:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 198,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49057877"
+          }
+        }
+      ],
+      "score": 4.390330772712,
+      "breakdown": {
+        "hnPoints": 1.7029564809649926,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 0.7002448805091008,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49052912",
+      "representativeId": "hackernews:49052912",
+      "items": [
+        {
+          "id": "hackernews:49052912",
+          "title": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+          "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/15c6504be51b884a0adc5d77e4dba41f94431454/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T23:32:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 248,
+            "comments": 196,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49052912"
+          }
+        }
+      ],
+      "score": 4.384925718636023,
+      "breakdown": {
+        "hnPoints": 1.7750691637039229,
+        "hnComments": 0.9962096881718906,
+        "mentions": 0.0,
+        "recency": 0.41364686676020895,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49052564",
+      "representativeId": "hackernews:49052564",
+      "items": [
+        {
+          "id": "hackernews:49052564",
+          "title": "Cloudflare's new AI traffic options for customers",
+          "url": "https://blog.cloudflare.com/content-independence-day-ai-options",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T22:50:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 189,
+            "comments": 149,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49052564"
+          }
+        }
+      ],
+      "score": 4.235522164327766,
+      "breakdown": {
+        "hnPoints": 1.688067085751122,
+        "hnComments": 0.944813730487555,
+        "mentions": 0.0,
+        "recency": 0.4026413480890889,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49059587",
+      "representativeId": "hackernews:49059587",
+      "items": [
+        {
+          "id": "hackernews:49059587",
+          "title": "This July I Was Fired from Simple AI (A Deeply YC Company)",
+          "url": "https://andys.blog/this-july-i-was-fired-from-simple-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-07-26T16:14:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 114,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49059587"
+          }
+        }
+      ],
+      "score": 4.158895215967323,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.8947122993348348,
+        "mentions": 0.0,
+        "recency": 0.7868647629668526,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49056620",
+      "representativeId": "hackernews:49056620",
+      "items": [
+        {
+          "id": "hackernews:49056620",
+          "title": "Terence Tao: Mathematics in the Age of AI [pdf]",
+          "url": "https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-07-26T10:32:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 123,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49056620"
+          }
+        }
+      ],
+      "score": 4.120150891052219,
+      "breakdown": {
+        "hnPoints": 1.5507759337571174,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 0.6317173884302023,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49056194",
+      "representativeId": "hackernews:49056194",
+      "items": [
+        {
+          "id": "hackernews:49056194",
+          "title": "Elevated Errors for Opus 5",
+          "url": "https://status.claude.com/incidents/zftg3gqkmv18",
+          "source": "hackernews",
+          "publishedAt": "2026-07-26T09:18:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 93,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49056194"
+          }
+        }
+      ],
+      "score": 4.095012190629417,
+      "breakdown": {
+        "hnPoints": 1.4616640360974937,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.6024098389605028,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49059660",
+      "representativeId": "hackernews:49059660",
+      "items": [
+        {
+          "id": "hackernews:49059660",
+          "title": "What if LLMs escape through inferences itself? This is fiction. For now",
+          "url": "https://agrillo.it/EvasionEn.html",
+          "source": "hackernews",
+          "publishedAt": "2026-07-26T16:23:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 75,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49059660"
+          }
+        }
+      ],
+      "score": 3.93301071987732,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.8166102864847931,
+        "mentions": 0.0,
+        "recency": 0.7915076849662421,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49051707",
+      "representativeId": "hackernews:49051707",
+      "items": [
+        {
+          "id": "hackernews:49051707",
+          "title": "Becoming a Research Engineer at a Big LLM Lab",
+          "url": "https://maxmynter.com/pages/blog/jobhunt",
+          "source": "hackernews",
+          "publishedAt": "2026-07-25T21:19:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49051707"
+          }
+        }
+      ],
+      "score": 3.387051216446961,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.5552083144780106,
+        "mentions": 0.0,
+        "recency": 0.3797705541869465,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+          "title": "Are brain waves the next unlock for physical AI?",
+          "url": "https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T00:19:14.000Z",
+          "summary": "Forget YouTube videos—frontier physical AI models need multiple camera angles, dense annotation, and soon, brain wave readings.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9738316672543683,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0738316672543684,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/26/relay-market",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/26/relay-market",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/26/relay-market",
+          "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+          "url": "https://simonwillison.net/2026/Jul/26/relay-market",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-26T19:30:54.000Z",
+          "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from various sources. This looks to be mostly a thing in China. Resellers sell access to an LLM proxy that offers significant discounts on regular API pricing, which they achieve by abusing free trials, proxying through unprotected support bots, or sometimes through stolen credit cards or chargeback attacks. The software they are using for these proxies is open source - mostly one-api and its more actively developed fork new-api , both legitimate API proxy products which can be used to load. balance requests across a pool of API credentials. The buyers are seeking cheap tokens, avoiding geo-restrictions, and in some cases collecting data for model distillation. I've been cautious about exposing my own LLM-driven applications publicly out of fear of abuse leading to big token bills. The existence of this marketplace makes me even more cautious: there's now an entire ecosystem that can profit from finding a new unprotected endpoint to exploit. LLM vendors really need to get better at offering strict caps for their API keys. I want my LLM apps to stop working the moment they hit a dollar threshold I've set for a period of time. Here's the (Chinese language) forum thread that served as the principal source for Matt's article. Via Hacker News Tags: ai , generative-ai , llms , llm-pricing , ai-ethics , ai-in-china",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.942418636506824,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8924186365068241,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+          "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+          "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-26T16:33:13.000Z",
+          "summary": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6962376203434821,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7962376203434822,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/25/ruff",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/25/ruff",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/25/ruff",
+          "title": "Ruff v0.16.0",
+          "url": "https://simonwillison.net/2026/Jul/25/ruff",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-25T22:44:05.000Z",
+          "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and my unpinned \"ruff\" dev dependency. From Brent Westbrook's announcement post: Ruff now enables 413 rules by default, up from 59 in previous versions. Since Ruff's default rule set was last modified in v0.1.0 , the number of rules in Ruff has grown from 708 to 968. Many of these rules catch severe issues, including syntax errors and immediate runtime errors but were not previously enabled by default. With the new rule set, Ruff will bring these issues and many others to your attention without any Ruff configuration. Here's a one-liner for trying it on any Python project: uvx ruff@latest check . I ran the latest Ruff against my three biggest projects - Datasette , sqlite-utils , and LLM - and it found hundreds of minor issues that breached the new default rules. All three projects have very comprehensive test suites, executed in CI against Python 3.10 through Python 3.14, so upgrades like this are pretty safe. The following command did the bulk of the upgrades: uvx ruff@latest check . --fix --unsafe-fixes Against sqlite-utils , that command reported: Found 1618 errors (1538 fixed, 80 remaining). As an illustrative example, here are three of the remaining issues. Ruff does a nice job of explaining each one: DTZ005 `datetime.datetime.now()` called without a `tz` argument --> tests/test_duplicate.py:17:10 | 15 | \"datetime_col\" TEXT)\"\"\") 16 | # Insert one row of mock data: 17 | dt = datetime.datetime.now() | ^^^^^^^^^^^^^^^^^^^^^^^ 18 | data = { 19 | \"text_col\": \"Cleo\", | help: Pass a `datetime.timezone` object to the `tz` parameter BLE001 Do not catch blind exception: `Exception` --> tests/test_plugins.py:16:12 | 14 | db.execute(\"select * from pragma_function_list()\") 15 | return True 16 | except Exception: | ^^^^^^^^^ 17 | return False 18 | finally: | B018 Found useless attribute access. Either assign it to a variable or remove it. --> tests/test_update.py:46:5 | 44 | def test_update_invalid_pk(fresh_db, pk, update_pk): 45 | table = fresh_db[\"table\"] 46 | table.insert({\"id1\": 5, \"id2\": 3, \"v\": 1}, pk=pk).last_pk | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 47 | with pytest.raises(NotFoundError): 48 | table.update(update_pk, {\"v\": 2}) | Unsurprisingly, given Astral's new home at OpenAI , this output provides everything a coding agent would need to fix the problems. I had Codex (GPT-5.6 Sol high) upgrade LLM and sqlite-utils , and Claude Code (with Opus 5) upgrade Datasette . Tags: python , ruff , astral",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4509050985889738,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.400905098588974,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+          "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+          "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-26T01:30:00.000Z",
+          "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.345951652068416,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4459516520684161,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49051692",
+    "hackernews:49058669",
+    "hackernews:49052570",
+    "hackernews:49057877",
+    "hackernews:49052912"
+  ]
+}
