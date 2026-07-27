@@ -8,8 +8,7 @@ const days = listDays();
 const [latest, ...past] = days;
 
 /*
-  아카이브가 오늘 카드보다 위에 오므로 개수를 묶어야 한다. 매일 한 줄씩 쌓이는
-  사이트라 묶지 않으면 한 달 뒤에는 더미 30개가 오늘 발행을 화면 밖으로 밀어낸다.
+  매일 한 줄씩 쌓이는 사이트라 묶지 않으면 한 달 뒤 홈 하단이 더미 30개로 길어진다.
   두 줄(데스크톱 4열 기준)까지만 싣고, 그보다 오래된 날짜는 상세 페이지의
   이전/다음 이동으로 닿는다 — 연·월 묶음이나 전체 아카이브 페이지는 별도 작업이다.
 */
@@ -22,18 +21,6 @@ const parts = latest ? latest.date.split("-") : null;
   {
     latest && parts ? (
       <>
-        {archive.length > 0 && (
-          <section class="archive">
-            <p class="eyebrow">지난 발행</p>
-
-            <div class="grid">
-              {archive.map((day) => (
-                <DayStack day={day} />
-              ))}
-            </div>
-          </section>
-        )}
-
         {/*
           히어로는 날짜 그 자체다. 이 사이트의 단위가 날짜이고 아카이브의 파일
           이름도 날짜라, 다른 무엇을 앞에 세우면 구조를 흐린다.
@@ -55,6 +42,18 @@ const parts = latest ? latest.date.split("-") : null;
         </section>
 
         <CardDeck cards={latest.cards} />
+
+        {archive.length > 0 && (
+          <section class="archive">
+            <p class="eyebrow">지난 발행</p>
+
+            <div class="grid">
+              {archive.map((day) => (
+                <DayStack day={day} />
+              ))}
+            </div>
+          </section>
+        )}
       </>
     ) : (
       /* 파이프라인이 아직 한 번도 돌지 않았거나 렌더까지 간 날이 없을 때. */
