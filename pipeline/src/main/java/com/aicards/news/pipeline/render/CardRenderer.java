@@ -115,13 +115,14 @@ public final class CardRenderer implements AutoCloseable {
             throws IOException {
 
         String thumbnail = thumbnail(card);
-        boolean imageOk = thumbnail.startsWith("<img");
+        boolean imageOk = !thumbnail.isEmpty();
 
         Map<String, String> values = new HashMap<>(fonts);
         values.put("date", date.replace('-', '.'));
         values.put("thumbnail", thumbnail);
+        // 이미지가 없는 카드는 타이포 포스터로 간다. 판정은 템플릿의 CSS 가 이 클래스로 한다.
+        values.put("variant", imageOk ? "" : "no-image");
         values.put("headline", escape(card.headline()));
-        values.put("body", escape(card.body()));
         values.put("sourceName", escape(card.sourceName()));
         values.put("index", String.valueOf(index));
         values.put("total", String.valueOf(total));
@@ -145,15 +146,28 @@ public final class CardRenderer implements AutoCloseable {
      * <p>카드가 잘려 나가도 이미지만 보고는 알아채기 어렵다. 숫자로 남겨야 카피 길이 상한을 실측으로
      * 정할 수 있다.
      *
-     * <p>텍스트 영역({@code section})이 아니라 카드 경계({@code body})에서 잰다. {@code section} 은
-     * flex 아이템이라 {@code min-height: auto} 가 걸려 있어 내용이 많으면 스크롤되지 않고 자기 높이를
-     * 늘린다 — 40자/400자 카피에서 758px 이 1217px 로 늘었다. 그래서 {@code section} 기준으로는
-     * 넘침이 영원히 0 이고, 실제로 잘라내는 것은 {@code overflow: hidden} 인 {@code body} 다.
+     * <p>텍스트 덩어리({@code .stack})의 실제 높이를 글자가 놓일 수 있는 높이와 직접 견준다.
+     * 스크롤 높이를 보는 방식은 여기서 쓸 수 없다 — 포스터형은 텍스트가 카드 하단에 정렬돼 있어
+     * 넘치면 <b>위로</b> 밀려 나가는데, 위로 벗어난 부분은 {@code scrollHeight} 에 잡히지 않는다.
+     * 그러면 지표가 어떤 카피에도 0 을 돌려주고, <b>항상 0 을 내는 지표는 통과했다는 착각만 준다</b>
+     * (PR #11 의 넘침 감지가 정확히 그 상태였다).
      */
     private int overflowPx() {
         Object measured =
                 page.evaluate(
-                        "() => Math.max(0, document.body.scrollHeight - document.body.clientHeight)");
+                        """
+                        () => {
+                          const box = document.querySelector(".content");
+                          const stack = document.querySelector(".stack");
+                          if (!box || !stack) return 0;
+                          const style = getComputedStyle(box);
+                          const room =
+                            box.clientHeight
+                            - parseFloat(style.paddingTop)
+                            - parseFloat(style.paddingBottom);
+                          return Math.max(0, Math.round(stack.scrollHeight - room));
+                        }
+                        """);
         return measured instanceof Number number ? number.intValue() : 0;
     }
 
@@ -162,6 +176,9 @@ public final class CardRenderer implements AutoCloseable {
      *
      * <p>이미지를 미리 받아 심어 넣는다. 브라우저가 직접 받아오게 두면 실패·지연을 우리가 다룰 수
      * 없고, 느린 원격 이미지 하나에 렌더링 전체가 매달린다.
+     *
+     * <p>받지 못하면 빈 문자열을 돌려준다. 자리를 때우는 조각을 끼워 넣지 않는다 — 이미지가 없는
+     * 카드는 {@code no-image} 로 넘어가 헤드라인이 커진 타이포 포스터가 된다.
      */
     private String thumbnail(CardsResult.Card card) {
         if (card.imageUrl() != null) {
@@ -171,10 +188,10 @@ public final class CardRenderer implements AutoCloseable {
                         .formatted(dataUri(image.contentType(), image.bytes()));
             } catch (IOException | InterruptedException e) {
                 if (e instanceof InterruptedException) Thread.currentThread().interrupt();
-                // 카드를 버리지 않고 폴백으로 간다. 아래 폴백이 그 자리를 채운다.
+                // 카드를 버리지 않는다. 이미지 없는 변형으로 간다.
             }
         }
-        return "<div class=\"fallback\">AI NEWS</div>";
+        return "";
     }
 
     /**
