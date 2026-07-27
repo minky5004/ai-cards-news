@@ -109,11 +109,6 @@ jobs:
           FORCE_ARG: ${{ inputs.force && '--force' || '' }}
         run: ./gradlew run --args="ingest $DATE_ARG $FORCE_ARG" -x installChromium
 
-      # [임시] 실패 알림 경로를 밟기 위한 스텝. 확인 후 제거한다.
-      # 카피 앞에 두어 Gemini 를 부르지 않고 실패를 만든다.
-      - name: 일부러 실패
-        run: exit 1
-
       # 본문 추출은 남의 서버를 긁는 단계라 키가 필요 없다. copy 앞에 두는 이유는
       # 순서 때문만이 아니다 — 여기서 실패하면 그 기사는 카피 대상에서 빠지므로,
       # 추출이 먼저 끝나야 Gemini 호출 수가 확정된다.
