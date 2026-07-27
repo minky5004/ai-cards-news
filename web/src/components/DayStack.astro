@@ -62,7 +62,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     position: relative;
     display: block;
     aspect-ratio: 4 / 5;
-    margin: 22px 26px 0 0;
+    margin: 24px 28px 0 0;
   }
 
   .leaf,
@@ -80,12 +80,12 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
   */
   .leaf {
     /*
-      배경보다 확실히 밝아야 층이 보인다. 처음엔 --ink-raised 로 뒀는데 배경과
-      너무 가까워 더미가 그냥 카드 한 장처럼 보였다 — 두께가 정보인데 안 읽히면
-      의미가 없다.
+      크림 위에서는 층이 흰 종이 한 장씩이다. 배경보다 밝게 띄우고 테두리로
+      가장자리를 그으면 겹쳐 쌓인 인쇄물로 읽힌다 — 다크에서는 층을 배경보다
+      밝게 만들어야 해서 억지스러웠는데, 종이 바탕에서는 그게 자연스럽다.
     */
-    background: #1b2130;
-    border: 1px solid #2c3444;
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
     transform: translate(calc(var(--i) * 6px), calc(var(--i) * -6px))
       rotate(calc(var(--i) * 0.5deg));
     opacity: calc(1 - var(--i) * 0.14);
@@ -96,9 +96,9 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
 
   .cover {
     object-fit: cover;
-    background: var(--ink-raised);
-    border: 1px solid var(--edge);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+    background: var(--paper-sunken);
+    border: 1px solid var(--rule);
+    box-shadow: 0 10px 24px rgba(22, 24, 29, 0.16);
     transition:
       transform 0.32s cubic-bezier(0.22, 1, 0.36, 1),
       box-shadow 0.32s ease;
@@ -119,7 +119,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
   .stack:hover .cover,
   .stack:focus-visible .cover {
     transform: translateY(3px);
-    box-shadow: 0 18px 38px rgba(0, 0, 0, 0.55);
+    box-shadow: 0 16px 34px rgba(22, 24, 29, 0.24);
   }
 
   .label {
@@ -134,7 +134,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     숫자만 따라 내려갈 수 있게 한다.
   */
   .date {
-    font-size: 26px;
+    font-size: 29px;
     font-weight: 800;
     letter-spacing: -0.03em;
     font-variant-numeric: tabular-nums;
@@ -142,25 +142,25 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
   }
 
   .sep {
-    color: var(--dimmer);
+    color: var(--accent);
     margin: 0 1px;
   }
 
   .dd {
-    color: var(--chalk);
+    color: var(--text);
   }
 
   .mm {
-    color: var(--dim);
+    color: var(--text-soft);
   }
 
   .meta {
     font-size: 12.5px;
-    color: var(--dimmer);
+    color: var(--text-faint);
   }
 
   .stack:hover .mm {
-    color: var(--chalk);
+    color: var(--accent);
   }
 
   @media (prefers-reduced-motion: reduce) {

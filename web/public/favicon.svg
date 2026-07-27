@@ -1,13 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <!--
     사이트의 시그니처인 카드 더미. 탭에서는 16px 로 줄어들어 세부가 사라지므로
-    겹친 실루엣과 앰버 점만 남도록 단순하게 그린다. 색은 페이지 팔레트 그대로다.
+    겹친 실루엣만 남도록 단순하게 그린다. 색은 페이지 팔레트 그대로다 — 크림
+    바탕에 뒤로 갈수록 옅어지는 종이 층, 맨 앞장이 카드의 잉크 네이비다.
   -->
-  <rect width="32" height="32" rx="7" fill="#0b0d12" />
+  <rect width="32" height="32" rx="7" fill="#f4f1e8" />
 
-  <rect x="12.5" y="4.5" width="13" height="17" rx="2.2" fill="#2c3444" />
-  <rect x="9.75" y="6.75" width="13" height="17" rx="2.2" fill="#454f66" />
-  <rect x="7" y="9" width="13" height="17" rx="2.2" fill="#e6e9f0" />
-
-  <circle cx="10.7" cy="12.7" r="1.5" fill="#ffa23e" />
+  <rect x="12.5" y="4.5" width="13" height="17" rx="2.2" fill="#e0d9c7" />
+  <rect x="9.75" y="6.75" width="13" height="17" rx="2.2" fill="#bcb3a0" />
+  <rect x="7" y="9" width="13" height="17" rx="2.2" fill="#23407e" />
 </svg>

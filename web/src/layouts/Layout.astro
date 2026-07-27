@@ -19,10 +19,6 @@ const base = import.meta.env.BASE_URL;
   </head>
   <body>
     <header class="site">
-      <a class="brand" href={base}>
-        <span class="mark" aria-hidden="true"></span>
-        AI NEWS
-      </a>
       <span class="stamp">매일 21:00 자동 발행</span>
     </header>
 
@@ -37,32 +33,33 @@ const base = import.meta.env.BASE_URL;
 
 <style is:global>
   /*
-    배경은 카드와 같은 네이비가 아니라 뉴트럴한 잉크다.
+    종이(크림) 바탕이다. 다크를 두 번 냈다가 두 번 다 반려됐고, 그 뒤에 실제로
+    도는 뉴스 다이제스트를 찍어 봤더니 뉴닉·롱블랙·Tangle·Techmeme 넷 다 밝은
+    배경이었다. 다크는 이 장르의 관습이 아니었다.
 
-    둘 다 네이비면 카드가 배경에 묻힌다 — 예전 팔레트가 그랬다. 배경에서 파란
-    기운을 빼면 카드의 네이비가 그 위에서 비로소 "파랑" 으로 읽히고, 카드가
-    조명 아래 놓인 것처럼 떠오른다.
+    액센트는 카드 이미지에서 빌려 온 잉크 네이비 하나다. 크림 위에 네이비는
+    인쇄물의 기본 짝이고, 카드가 바로 그 네이비라 UI 와 카드가 한 시스템으로
+    읽힌다. 색을 새로 들여오지 않고 이미 있는 것을 쓰는 쪽이 맞다.
 
-    UI 는 거의 무채색으로 둔다. 이 페이지에서 색을 내는 것은 카드 이미지여야
-    한다. 파랑과 앰버는 면으로 쓰지 않고 점·선·포커스 링에만 쓴다.
+    토큰 이름은 뜻하는 바 그대로다 — 예전에는 `--ink` 가 배경, `--chalk` 가
+    글자였는데 팔레트가 뒤집히면 이름이 거짓말을 한다.
 
     웹폰트는 싣지 않는다. 페이지의 글자는 카드 이미지 밖의 보조 텍스트뿐이고,
     한글 Noto Sans KR 은 한 굵기당 540KB 라 이 정도 텍스트에 지불할 값이 아니다.
     카드 안의 타이포그래피는 이미 이미지에 구워져 있다. 개성은 폰트를 사 오는
-    대신 크기 대비와 자간으로 낸다 — 날짜를 거대한 등폭 숫자로 다루는 것이
-    이 페이지의 타이포 시그니처다.
+    대신 크기 대비와 괘선으로 낸다 — 날짜를 등폭 숫자로 크게 앉히고 그 아래
+    괘선을 긋는 것이 이 페이지의 타이포 시그니처다.
   */
   :root {
-    --ink: #0b0d12;
-    --ink-raised: #12151d;
-    --ink-sunken: #080a0e;
-    --edge: #232833;
-    --edge-soft: rgba(255, 255, 255, 0.07);
-    --chalk: #e6e9f0;
-    --dim: #8b93a3;
-    --dimmer: #5c6270;
-    --blue: #5b8cff;
-    --ember: #ffa23e;
+    --paper: #f4f1e8;
+    --paper-raised: #fbfaf5;
+    --paper-sunken: #e9e4d5;
+    --rule: #d6cfbc;
+    --rule-soft: rgba(22, 24, 29, 0.12);
+    --text: #16181d;
+    --text-soft: #5d5a52;
+    --text-faint: #8f897c;
+    --accent: #23407e;
 
     --shell: 1120px;
     --gutter: clamp(18px, 4vw, 32px);
@@ -78,24 +75,13 @@ const base = import.meta.env.BASE_URL;
 
   body {
     margin: 0;
-    background: var(--ink);
-    color: var(--chalk);
+    background: var(--paper);
+    color: var(--text);
     font-family:
       "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, -apple-system,
       sans-serif;
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
-    /*
-      카드 캐러셀 뒤에서 은은하게 올라오는 빛. 밤 21시에 발행된다는 사실이
-      배경에 남는 유일한 흔적이고, 카드가 조명 아래 놓인 것처럼 만든다.
-      면적은 넓지만 알파가 낮아 색으로 읽히지는 않는다.
-    */
-    background-image: radial-gradient(
-      ellipse 900px 520px at 50% 8%,
-      rgba(91, 140, 255, 0.13),
-      transparent 62%
-    );
-    background-repeat: no-repeat;
   }
 
   a {
@@ -103,7 +89,7 @@ const base = import.meta.env.BASE_URL;
   }
 
   :focus-visible {
-    outline: 2px solid var(--blue);
+    outline: 2px solid var(--accent);
     outline-offset: 3px;
     border-radius: 4px;
   }
@@ -121,7 +107,7 @@ const base = import.meta.env.BASE_URL;
     font-weight: 700;
     letter-spacing: 0.22em;
     text-transform: uppercase;
-    color: var(--dimmer);
+    color: var(--text-faint);
   }
 
   header.site {
@@ -130,44 +116,21 @@ const base = import.meta.env.BASE_URL;
     padding: 22px var(--gutter);
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 16px;
-  }
-
-  .brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    font-size: 14px;
-    font-weight: 800;
-    letter-spacing: 0.16em;
-    text-decoration: none;
-  }
-
-  /*
-    브랜드 마크는 켜져 있는 표시등이다. 파이프라인이 매일 돌고 있다는 뜻이라
-    이 사이트에서 앰버가 쓰이는 유일한 자리이기도 하다.
-  */
-  .mark {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--ember);
-    box-shadow: 0 0 0 4px rgba(255, 162, 62, 0.14);
+    justify-content: flex-end;
   }
 
   .stamp {
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.14em;
-    color: var(--dimmer);
+    color: var(--text-faint);
     text-transform: uppercase;
   }
 
   footer.site {
     max-width: var(--shell);
     margin: 0 auto;
-    border-top: 1px solid var(--edge-soft);
+    border-top: 1px solid var(--rule);
     padding: 26px var(--gutter) 40px;
     display: flex;
     flex-wrap: wrap;
@@ -175,19 +138,19 @@ const base = import.meta.env.BASE_URL;
     justify-content: space-between;
     gap: 8px;
     font-size: 12.5px;
-    color: var(--dimmer);
+    color: var(--text-faint);
   }
 
   footer.site a {
-    color: var(--dim);
+    color: var(--text-soft);
     text-decoration: none;
-    border-bottom: 1px solid var(--edge);
+    border-bottom: 1px solid var(--rule);
     padding-bottom: 1px;
   }
 
   footer.site a:hover {
-    color: var(--chalk);
-    border-bottom-color: var(--dim);
+    color: var(--accent);
+    border-bottom-color: var(--accent);
   }
 
   @media (max-width: 520px) {

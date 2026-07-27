@@ -24,57 +24,67 @@ const imageBase = base.replace(/\/$/, "");
   aria-roledescription="캐러셀"
   aria-label="카드 목록"
 >
-  <ol class="track" data-track tabindex="0">
+  <div class="stage">
     {
-      cards.map((card, i) => (
-        <li
-          class:list={["slide", { "is-active": i === 0 }]}
-          data-slide
-          aria-roledescription="슬라이드"
-          aria-label={`${i + 1} / ${cards.length}`}
-        >
-          <a class="shot" href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
-            {/*
-              1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
-              앞 두 장만 eager 로 받는다 — 가로 스크롤에서도 lazy 는 트랙 기준으로
-              동작하므로 나머지는 넘길 때 받는다.
-            */}
-            <img
-              src={`${imageBase}${card.image}`}
-              width="1080"
-              height="1350"
-              alt={`${card.headline} — ${card.body}`}
-              loading={i < 2 ? "eager" : "lazy"}
-              decoding="async"
-            />
-          </a>
-          <p class="meta">
-            <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
-              {card.sourceName} 원문 보기 →
-            </a>
-          </p>
-        </li>
-      ))
+      cards.length > 1 && (
+        <button class="arrow arrow-prev" type="button" data-prev aria-label="이전 카드" hidden>
+          <span aria-hidden="true">←</span>
+        </button>
+      )
     }
-  </ol>
+
+    <ol class="track" data-track tabindex="0">
+      {
+        cards.map((card, i) => (
+          <li
+            class:list={["slide", { "is-active": i === 0 }]}
+            data-slide
+            aria-roledescription="슬라이드"
+            aria-label={`${i + 1} / ${cards.length}`}
+          >
+            <a class="shot" href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+              {/*
+                1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
+                앞 두 장만 eager 로 받는다 — 가로 스크롤에서도 lazy 는 트랙 기준으로
+                동작하므로 나머지는 넘길 때 받는다.
+              */}
+              <img
+                src={`${imageBase}${card.image}`}
+                width="1080"
+                height="1350"
+                alt={`${card.headline} — ${card.body}`}
+                loading={i < 2 ? "eager" : "lazy"}
+                decoding="async"
+              />
+            </a>
+            <p class="meta">
+              <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {card.sourceName} 원문 보기 →
+              </a>
+            </p>
+          </li>
+        ))
+      }
+    </ol>
+
+    {
+      cards.length > 1 && (
+        <button class="arrow arrow-next" type="button" data-next aria-label="다음 카드" hidden>
+          <span aria-hidden="true">→</span>
+        </button>
+      )
+    }
+  </div>
 
   {
     cards.length > 1 && (
-      <div class="controls" data-controls hidden>
-        <button class="arrow" type="button" data-prev aria-label="이전 카드">
-          <span aria-hidden="true">←</span>
-        </button>
-        <ol class="dots">
-          {cards.map((_, i) => (
-            <li>
-              <button type="button" data-dot aria-label={`${i + 1}번째 카드로 이동`} />
-            </li>
-          ))}
-        </ol>
-        <button class="arrow" type="button" data-next aria-label="다음 카드">
-          <span aria-hidden="true">→</span>
-        </button>
-      </div>
+      <ol class="dots" data-dots hidden>
+        {cards.map((_, i) => (
+          <li>
+            <button type="button" data-dot aria-label={`${i + 1}번째 카드로 이동`} />
+          </li>
+        ))}
+      </ol>
     )
   }
 </section>
@@ -86,6 +96,10 @@ const imageBase = base.replace(/\/$/, "");
       카드 아래가 잘리지 않게 한다(55vh 폭 = 68.75vh 높이).
     */
     --slide: min(78vw, 420px, 55vh);
+  }
+
+  .stage {
+    position: relative; /* 화살표를 이 안에서 절대배치하는 기준 */
   }
 
   .track {
@@ -107,7 +121,7 @@ const imageBase = base.replace(/\/$/, "");
   }
 
   .track:focus-visible {
-    outline: 2px solid var(--blue);
+    outline: 2px solid var(--accent);
     outline-offset: 6px;
     border-radius: 20px;
   }
@@ -133,22 +147,23 @@ const imageBase = base.replace(/\/$/, "");
   }
 
   /*
-    카드는 잉크 배경 위에 놓인 물건이다. 그림자를 줘야 배경에서 떠오르고,
-    카드 안의 네이비가 배경과 붙어 보이지 않는다.
+    카드는 종이 위에 놓인 인쇄물이다. 옅은 그림자와 실선 테두리로 크림 바탕에서
+    가장자리를 분명히 한다 — 카드 안이 딥 네이비라 크림 위에서는 저절로 도드라진다.
   */
   .slide img {
     display: block;
     width: 100%;
     height: auto;
     border-radius: 14px;
-    background: var(--ink-raised);
-    box-shadow: 0 20px 44px rgba(0, 0, 0, 0.5);
+    background: var(--paper-sunken);
+    border: 1px solid var(--rule);
+    box-shadow: 0 14px 34px rgba(22, 24, 29, 0.18);
   }
 
   .meta {
     margin: 14px 2px 0;
     font-size: 12.5px;
-    color: var(--dimmer);
+    color: var(--text-faint);
     text-align: center;
   }
 
@@ -159,40 +174,34 @@ const imageBase = base.replace(/\/$/, "");
   }
 
   .meta a:hover {
-    color: var(--chalk);
-    border-bottom-color: var(--edge);
+    color: var(--accent);
+    border-bottom-color: var(--accent);
   }
 
-  /*
-    화살표는 카드 위에 겹치지 않고 도트와 한 줄에 선다. 이웃 카드가 반쯤 보이는
-    레이아웃이라 좌우에 띄우면 옆 카드의 헤드라인을 정확히 가린다.
-  */
-  .controls {
-    margin-top: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-
+  /* 카드 폭 밖 여백에 앉는 원형 버튼. 기본은 숨김 — 640px 미만은 스와이프·도트로만 넘긴다. */
   .arrow {
-    display: grid;
+    display: none;
     place-items: center;
     width: 38px;
     height: 38px;
-    border: 1px solid var(--edge);
+    border: 1px solid var(--rule);
     border-radius: 50%;
-    background: var(--ink-raised);
-    color: var(--dim);
+    background: var(--paper-raised);
+    color: var(--text-soft);
     font-size: 15px;
     line-height: 1;
     cursor: pointer;
     transition: color 0.2s ease, border-color 0.2s ease;
   }
 
+  /* JS 가 아직 안 왔거나 실패하면 화살표는 계속 숨어 있다 — 스와이프는 그대로 산다. */
+  .arrow[hidden] {
+    display: none;
+  }
+
   .arrow:hover:not(:disabled) {
-    border-color: var(--dim);
-    color: var(--chalk);
+    border-color: var(--accent);
+    color: var(--accent);
   }
 
   .arrow:disabled {
@@ -200,13 +209,47 @@ const imageBase = base.replace(/\/$/, "");
     cursor: default;
   }
 
+  /*
+    데스크톱·태블릿 이상에서만 화살표를 카드 옆에 띄운다. `.stage` 에 여백을
+    미리 비워 둬 화살표가 앉을 자리가 배경(빈 공간)이 되게 한다 — 이웃 카드
+    이미지를 밟지 않는다. 모바일은 그 여백을 확보할 폭이 없어 화살표를 접고
+    스와이프·도트로만 넘긴다. `.arrow` 의 `display: none` 과 특이성이 같으므로
+    이 규칙을 소스 순서상 뒤에 둬야 이긴다.
+  */
+  @media (min-width: 640px) {
+    .stage {
+      padding-inline: clamp(40px, 6vw, 56px);
+    }
+
+    .arrow-prev,
+    .arrow-next {
+      display: grid;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .arrow-prev {
+      left: 0;
+    }
+
+    .arrow-next {
+      right: 0;
+    }
+  }
+
   .dots {
+    margin: 22px 0 0;
     list-style: none;
-    margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
+  }
+
+  .dots[hidden] {
+    display: none;
   }
 
   .dots button {
@@ -216,20 +259,20 @@ const imageBase = base.replace(/\/$/, "");
     padding: 0;
     border: 0;
     border-radius: 50%;
-    background: var(--edge);
+    background: var(--rule);
     cursor: pointer;
     transition: background 0.2s ease, width 0.2s ease;
   }
 
   .dots button:hover {
-    background: var(--dimmer);
+    background: var(--text-faint);
   }
 
-  /* 현재 위치는 이 페이지에서 파랑이 면으로 쓰이는 유일한 자리다. */
+  /* 현재 위치는 이 페이지에서 액센트가 면으로 쓰이는 유일한 자리다. */
   .dots button[aria-current="true"] {
     width: 22px;
     border-radius: 4px;
-    background: var(--blue);
+    background: var(--accent);
   }
 
   @media (prefers-reduced-motion: reduce) {
@@ -257,9 +300,9 @@ const imageBase = base.replace(/\/$/, "");
     const slides = [...deck.querySelectorAll<HTMLElement>("[data-slide]")];
     if (!track || slides.length < 2) continue;
 
-    const controls = deck.querySelector<HTMLElement>("[data-controls]");
     const prev = deck.querySelector<HTMLButtonElement>("[data-prev]");
     const next = deck.querySelector<HTMLButtonElement>("[data-next]");
+    const dotsList = deck.querySelector<HTMLElement>("[data-dots]");
     const dots = [...deck.querySelectorAll<HTMLButtonElement>("[data-dot]")];
 
     let index = -1;
@@ -322,7 +365,9 @@ const imageBase = base.replace(/\/$/, "");
     next?.addEventListener("click", () => goTo(index + 1));
     dots.forEach((dot, i) => dot.addEventListener("click", () => goTo(i)));
 
-    if (controls) controls.hidden = false;
+    if (prev) prev.hidden = false;
+    if (next) next.hidden = false;
+    if (dotsList) dotsList.hidden = false;
     deck.dataset.enhanced = "";
     sync();
   }

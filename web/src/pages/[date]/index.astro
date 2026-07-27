@@ -23,9 +23,6 @@ const { day, newer, older } = Astro.props;
 const base = import.meta.env.BASE_URL;
 
 const [year, month, dayOfMonth] = day.date.split("-");
-const weekday = ["일", "월", "화", "수", "목", "금", "토"][
-  new Date(`${day.date}T00:00:00Z`).getUTCDay()
-];
 
 /** pager 라벨은 `07.26` 처럼 짧게. 본문의 큰 날짜와 같은 표기다. */
 const short = (d: string) => d.slice(5).replace("-", ".");
@@ -38,14 +35,13 @@ const short = (d: string) => d.slice(5).replace("-", ".");
   <section class="day">
     <p class="eyebrow">발행 기록</p>
 
-    <h1 class="bigdate">
-      <span class="md">
+    {/* 히어로와 같은 괘선 한 줄. 두 페이지가 같은 장부의 다른 행으로 읽힌다. */}
+    <div class="dateline">
+      <h1 class="bigdate">
         {month}<span class="sep">.</span>{dayOfMonth}
-      </span>
+      </h1>
       <span class="yr">{year}</span>
-    </h1>
-
-    <p class="sub">{weekday}요일 · 카드 {day.cards.length}장</p>
+    </div>
   </section>
 
   <CardDeck cards={day.cards} />
@@ -82,11 +78,18 @@ const short = (d: string) => d.slice(5).replace("-", ".");
     padding: clamp(28px, 6vw, 56px) 0 clamp(24px, 4vw, 40px);
   }
 
-  .bigdate {
-    margin: 10px 0 0;
+  .dateline {
+    margin-top: 8px;
     display: flex;
     align-items: baseline;
-    gap: clamp(10px, 2vw, 18px);
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1.5px solid var(--text);
+    padding-bottom: clamp(6px, 1vw, 12px);
+  }
+
+  .bigdate {
+    margin: 0;
     font-size: clamp(58px, 13vw, 116px);
     font-weight: 800;
     letter-spacing: -0.045em;
@@ -98,26 +101,21 @@ const short = (d: string) => d.slice(5).replace("-", ".");
   .sep {
     font-size: 0.44em;
     vertical-align: 0.06em;
-    color: var(--dimmer);
+    color: var(--accent);
     margin: 0 0.06em;
   }
 
   .yr {
     font-size: clamp(13px, 1.6vw, 16px);
     font-weight: 700;
-    letter-spacing: 0.14em;
-    color: var(--dimmer);
-  }
-
-  .sub {
-    margin: 14px 0 0;
-    font-size: 14px;
-    color: var(--dim);
+    letter-spacing: 0.16em;
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
   }
 
   .pager {
     margin-top: clamp(48px, 7vw, 72px);
-    border-top: 1px solid var(--edge-soft);
+    border-top: 1px solid var(--rule);
     padding-top: 24px;
     display: flex;
     align-items: center;
@@ -127,11 +125,11 @@ const short = (d: string) => d.slice(5).replace("-", ".");
 
   .pager a {
     text-decoration: none;
-    color: var(--dim);
+    color: var(--text-soft);
   }
 
   .pager a:hover {
-    color: var(--chalk);
+    color: var(--accent);
   }
 
   /* 앞뒤 링크는 방향 라벨 위에 날짜를 얹어 둘을 한 덩어리로 읽게 한다. */
@@ -150,7 +148,7 @@ const short = (d: string) => d.slice(5).replace("-", ".");
     font-weight: 700;
     letter-spacing: 0.2em;
     text-transform: uppercase;
-    color: var(--dimmer);
+    color: var(--text-faint);
   }
 
   .num {
@@ -163,11 +161,11 @@ const short = (d: string) => d.slice(5).replace("-", ".");
   .home {
     font-size: 12px;
     letter-spacing: 0.08em;
-    border-bottom: 1px solid var(--edge);
+    border-bottom: 1px solid var(--rule);
     padding-bottom: 2px;
   }
 
   .home:hover {
-    border-bottom-color: var(--dim);
+    border-bottom-color: var(--accent);
   }
 </style>
