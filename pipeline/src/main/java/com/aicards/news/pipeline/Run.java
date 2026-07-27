@@ -30,6 +30,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.IntFunction;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -454,15 +455,21 @@ public final class Run {
         }
     }
 
-    private static void runRender(String date, boolean force) throws Exception {
-        Path first = Paths.cardImage(date, 1);
-
-        if (!force && Files.exists(first)) {
-            System.out.printf(
-                    "%s 가 이미 있다. 다시 만들려면 --force 를 붙여라.%n", Paths.relative(first));
-            return;
+    /**
+     * 이미 그려져 있는 카드 장수.
+     *
+     * <p>경로를 함수로 받는 것은 테스트에서 임시 디렉터리를 쓰기 위해서다. 파일명 규칙({@code
+     * NN.webp})은 {@link Paths#cardImage} 한 곳에만 두고 여기로 옮겨 오지 않는다.
+     */
+    static int renderedCount(int expected, IntFunction<Path> imagePath) {
+        int found = 0;
+        for (int i = 1; i <= expected; i++) {
+            if (Files.exists(imagePath.apply(i))) found++;
         }
+        return found;
+    }
 
+    private static void runRender(String date, boolean force) throws Exception {
         Path cardsPath = Paths.cardsJson(date);
         if (!Files.exists(cardsPath)) {
             throw new IllegalStateException(
@@ -470,9 +477,33 @@ public final class Run {
         }
 
         CardsResult cards = Json.read(cardsPath, CardsResult.class);
+        int expected = cards.cards().size();
 
-        System.out.printf(
-                "카드 렌더링 시작 — %s (%d장, 1080x1350)%n%n", date, cards.cards().size());
+        // 렌더가 실제로 파일을 쓰는 경로는 --date 가 아니라 cards.json 의 date 로 정해진다
+        // (CardRenderer 가 cards.date() 를 쓴다). 판정을 --date 로 하면 세는 곳과 쓰는 곳이
+        // 어긋나 엉뚱한 날짜를 덮어쓴다 — 실제로 한 번 그렇게 발행분을 덮어썼다.
+        String renderDate = cards.date();
+
+        // 장수를 세고 나서 판정한다. 첫 장만 보고 건너뛰면 중간에 죽은 렌더가 그대로 굳는다
+        // — 무인 재시도에서는 그게 곧 그날을 통째로 잃는다는 뜻이다.
+        if (!force) {
+            int rendered = renderedCount(expected, i -> Paths.cardImage(renderDate, i));
+
+            if (rendered == expected) {
+                System.out.printf(
+                        "%s 에 카드 %d장이 이미 다 있다. 다시 만들려면 --force 를 붙여라.%n",
+                        Paths.relative(Paths.cardsDir(renderDate)), expected);
+                return;
+            }
+            if (rendered > 0) {
+                // 없는 것만 그리지 않는다. 렌더는 API 를 쓰지 않아 다시 그리는 값이 싸고,
+                // 부분만 채우면 "렌더가 쓴 경로" 기준의 청소와 얽혀 규칙이 흐려진다.
+                System.out.printf(
+                        "카드가 %d/%d장만 있다 — 처음부터 다시 그린다.%n", rendered, expected);
+            }
+        }
+
+        System.out.printf("카드 렌더링 시작 — %s (%d장, 1080x1350)%n%n", renderDate, expected);
 
         List<RenderResult> results;
         try (CardRenderer renderer = new CardRenderer()) {
