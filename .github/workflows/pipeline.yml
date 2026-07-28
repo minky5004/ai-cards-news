@@ -13,8 +13,6 @@
 # GITHUB_TOKEN 으로 만든 푸시는 다른 워크플로를 발화시키지 않는다(재귀 방지). 2026-07-28
 # 첫 cron 은 발행까지 끝내고도 사이트가 그 전날에 머물렀고, 그 자리가 여기였다.
 # 이 워크플로 자신은 push 로 돌지 않으므로 자기 커밋이 자기를 다시 부르지는 않는다.
-#
-# cron 은 아직 붙이지 않는다. 커밋·푸시가 도는 것을 본 뒤 M5-5b 에서 붙인다.
 name: 파이프라인
 
 on:
@@ -54,6 +52,9 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    # 알림 잡이 이슈 제목에 쓸 날짜다. 잡이 나뉘면 steps 출력에 닿지 못한다.
+    outputs:
+      date: ${{ steps.date.outputs.date }}
     steps:
       - uses: actions/checkout@v5
 
@@ -175,50 +176,83 @@ jobs:
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
 
-      # 무인 실행이라 아무도 안 보고 있다. 죽은 것을 알리지 않으면 며칠 뒤 사이트가
-      # 멈춰 있는 걸 보고서야 안다.
-      #
-      # 같은 날짜에 열린 이슈가 있으면 새로 만들지 않는다 — 재시도마다 이슈가 쌓이면
-      # 알림이 소음이 되어 오히려 안 보게 된다.
-      - name: 실패 알림
-        if: failure()
+  # 발행 커밋을 사이트에 올린다. 파이프라인이 죽으면 needs 가 막아 돌지 않는다 —
+  # 미완성인 날짜가 사이트에 나가지 않는다.
+  #
+  # dev 에서만 돈다. 배포 소스가 dev 라는 것을 여기서 강제하지 않으면, 그 규칙은
+  # github-pages 환경의 브랜치 허용 목록에만 존재한다 — 리포 설정 한 곳이 풀리면
+  # 작업 브랜치 검증 실행이 실사이트를 덮어쓴다. 게다가 그 거부는 사이트를 빌드하고
+  # 나서야 나오므로, 검증할 때마다 2~3분을 태우고 실행이 통째로 빨개진다.
+  #
+  # permissions 를 잡에 다시 적는 이유는 잡 레벨이 워크플로 레벨을 덮어쓰기 때문이다.
+  # 위쪽 contents: write · issues: write 는 커밋과 실패 이슈용이라 Pages 권한이 없다.
+  deploy:
+    needs: pipeline
+    if: github.ref_name == 'dev'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
+
+  # 무인 실행이라 아무도 안 보고 있다. 죽은 것을 알리지 않으면 며칠 뒤 사이트가
+  # 멈춰 있는 걸 보고서야 안다.
+  #
+  # 잡으로 빼낸 이유는 배포까지 지켜보기 위해서다. 스텝으로 두면 자기 잡이 도는 동안만
+  # 발화해 deploy 잡의 실패는 그대로 통과한다 — 카드는 커밋됐는데 사이트만 어제에
+  # 머무는 상태가 무성으로 지나가는 자리가 거기였다.
+  #
+  # if: failure() 는 needs 중 하나라도 실패했을 때 참이다. pipeline 이 죽어 deploy 가
+  # 건너뛰어진 경우에도 발화한다.
+  alert:
+    needs: [pipeline, deploy]
+    if: failure()
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      # 같은 제목의 열린 이슈가 있으면 새로 만들지 않는다 — 재시도마다 이슈가 쌓이면
+      # 알림이 소음이 되어 오히려 안 보게 된다. 제목에 단계를 넣는 것은 고치는 방법이
+      # 달라서다. 파이프라인은 죽은 단계부터 이어 돌리면 되고, 배포는 다시 부르면 된다.
+      - name: 실패 이슈
         env:
           GH_TOKEN: ${{ github.token }}
-          DATE: ${{ steps.date.outputs.date }}
+          GH_REPO: ${{ github.repository }}
+          DATE: ${{ needs.pipeline.outputs.date }}
+          PIPELINE_RESULT: ${{ needs.pipeline.result }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          TITLE="파이프라인 실패 — $DATE"
+          # 날짜 확정 단계에 닿기 전에 죽으면 출력이 비어 있다. 그대로 두면 제목이
+          # "실패 — " 로 끝나 날짜별 중복 억제가 통째로 어긋난다.
+          [ -n "$DATE" ] || DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)
+
+          if [ "$PIPELINE_RESULT" = "success" ]; then
+            STAGE="배포"
+            HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
+          산출물이 이미 리포에 있으면 다섯 단계는 전부 건너뛰고 배포만 다시 돈다 —
+          Gemini 는 한 번도 부르지 않는다."
+          else
+            STAGE="파이프라인"
+            HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
+
+          이미 끝난 단계는 산출물이 있어 건너뛰므로, 죽은 단계부터 이어서 돈다.
+          같은 결과를 다시 만들어야 할 때만 \`force\` 를 켠다 — 카피를 다시 돌리면
+          Gemini 하루 한도(20회)를 그만큼 더 쓴다."
+          fi
+
+          TITLE="$STAGE 실패 — $DATE"
 
           if [ -n "$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[].number')" ]; then
-            echo "같은 날짜의 이슈가 이미 열려 있다 — 새로 만들지 않는다"
+            echo "$TITLE 이슈가 이미 열려 있다 — 새로 만들지 않는다"
             exit 0
           fi
 
-          gh issue create --title "$TITLE" --label bug --body "$(cat <<BODY
-          $DATE 발행이 실패했다.
+          gh issue create --title "$TITLE" --label bug --body "$DATE 발행의 $STAGE 단계가 실패했다.
 
           - 실행 로그: $RUN_URL
           - 트리거: \`${{ github.event_name }}\`
 
           ## 다시 돌리려면
 
-          Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
-
-          이미 끝난 단계는 산출물이 있어 건너뛰므로, 죽은 단계부터 이어서 돈다.
-          같은 결과를 다시 만들어야 할 때만 \`force\` 를 켠다 — 카피를 다시 돌리면
-          Gemini 하루 한도(20회)를 그만큼 더 쓴다.
-          BODY
-          )"
-
-  # 발행 커밋을 사이트에 올린다. 파이프라인이 죽으면 needs 가 막아 돌지 않는다 —
-  # 미완성인 날짜가 사이트에 나가지 않는다.
-  #
-  # permissions 를 잡에 다시 적는 이유는 잡 레벨이 워크플로 레벨을 덮어쓰기 때문이다.
-  # 위쪽 contents: write · issues: write 는 커밋과 실패 이슈용이라 Pages 권한이 없다.
-  deploy:
-    needs: pipeline
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    uses: ./.github/workflows/deploy.yml
+          $HOWTO"
