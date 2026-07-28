@@ -1,0 +1,1074 @@
+{
+  "date": "2026-07-28",
+  "generatedAt": "2026-07-28T14:12:49.172Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 0
+    },
+    {
+      "name": "venturebeat-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 30,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49081644",
+      "representativeId": "hackernews:49081644",
+      "items": [
+        {
+          "id": "hackernews:49081644",
+          "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+          "url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T09:59:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 63,
+            "comments": 36,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49081644"
+          }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai",
+          "title": "Building the enterprise environment for agentic AI",
+          "url": "https://technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-07-27T11:32:58.000Z",
+          "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best-suited to run agents is built with proper CPU capacity, resilient data access, policy-aware tool use, observability, memory management, and the…",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+          "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+          "url": "https://theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-27T12:06:22.000Z",
+          "summary": "Nvidia on Monday said it is joining forces with Microsoft, SpaceX, IBM, and other tech companies to build and share open-source AI security tools. The new Open Secure AI Alliance said open tools are required to effectively defend against attacks from frontier models. The initiative is a direct response to mounting concerns over the safety […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.160227628359937,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.6808806914263887,
+        "mentions": 1.6666666666666665,
+        "recency": 1.274688763089388,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49073267",
+      "representativeId": "hackernews:49073267",
+      "items": [
+        {
+          "id": "hackernews:49073267",
+          "title": "Jensen Huang's first post on Twitter is in defense of open access to AI models",
+          "url": "https://pcgamer.com/software/ai/jensen-huangs-first-ever-post-on-x-is-in-defense-of-open-access-to-ai-models-alongside-google-openai-and-meta",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T17:56:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49073267"
+          }
+        },
+        {
+          "id": "hackernews:49076057",
+          "title": "Our position on open-weights models",
+          "url": "https://anthropic.com/news/position-open-weights-models",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T22:03:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1044,
+            "comments": 1523,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49076057"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+          "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+          "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-28T00:13:33.000Z",
+          "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.908640374485737,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8753070411524035,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49068738",
+      "representativeId": "hackernews:49068738",
+      "items": [
+        {
+          "id": "hackernews:49068738",
+          "title": "AI companies are shredding rare books",
+          "url": "https://twitter.com/HedgieMarkets/status/2081534588485296565",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T12:32:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 771,
+            "comments": 491,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49068738"
+          }
+        },
+        {
+          "id": "hackernews:49069939",
+          "title": "AI companies spend record sums on Washington lobbying",
+          "url": "https://ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T14:07:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 270,
+            "comments": 143,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49069939"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive",
+          "title": "Satya Nadella says companies that trust one AI for everything may not survive",
+          "url": "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T21:17:11.000Z",
+          "summary": "Companies without their own models — or without a layer of AI infrastructure known as AI gateways to separate their prompts from the model itself — will be in trouble, Nadella says.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.814963802407524,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7816304690741909,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49076505",
+      "representativeId": "hackernews:49076505",
+      "items": [
+        {
+          "id": "hackernews:49076505",
+          "title": "Kimi K3 Now Available via Telnyx Inference API",
+          "url": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T22:46:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 115,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49076505"
+          }
+        },
+        {
+          "id": "hackernews:49070985",
+          "title": "Kimi-K3 Technical Report [pdf]",
+          "url": "https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T15:23:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 385,
+            "comments": 171,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49070985"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/27/kimi-k3",
+          "title": "moonshotai/Kimi-K3",
+          "url": "https://simonwillison.net/2026/Jul/27/kimi-k3",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-27T23:39:04.000Z",
+          "summary": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified version of the MIT license with K2 back in July 2025. That license just added this paragraph requiring attribution beyond a certain size of commercial entity: Our only modification part is that, if the Software (or any derivative works thereof) is used for any of your commercial products or services that have more than 100 million monthly active users, or more than 20 million US dollars (or equivalent in other currencies) in monthly revenue, you shall prominently display \"Kimi K2\" on the user interface of such product or service. The K3 license no longer calls itself \"modified MIT\" and goes further, requiring a separate agreement with Moonshot for large \"Model as a Service\" businesses: If the Licensee or any of its affiliates operates a Model as a Service business, and the aggregate revenue of the Licensee and its affiliates exceeds 20 million US dollars (or the equivalent in other currencies) in total over any consecutive 12 months, the Licensee must enter into a separate agreement with Moonshot AI before using the Software or its derivative works for any commercial purpose. To Kimi's credit, they make no attempt to describe this as an \"open source\" license in their own materials, consistently using the term \"open weight\" in its place. OpenRouter is already offering K3 from 7 providers , most of which are at the same $3/million input and $15/million output as Moonshot AI themselves. Tags: ai , generative-ai , llms , llm-pricing , llm-release , ai-in-china , moonshot , kimi , janky-licenses",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.776207186672005,
+      "breakdown": {
+        "hnPoints": 1.916105756942031,
+        "hnComments": 0.9706201257617965,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8561479706348447,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49070427",
+      "representativeId": "hackernews:49070427",
+      "items": [
+        {
+          "id": "hackernews:49070427",
+          "title": "Apple Will 'Watch Everything Burn' When the AI Bubble Bursts",
+          "url": "https://macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T14:42:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 242,
+            "comments": 329,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49070427"
+          }
+        }
+      ],
+      "score": 4.574016857883104,
+      "breakdown": {
+        "hnPoints": 1.767221970966425,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.606794886916679,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49082706",
+      "representativeId": "hackernews:49082706",
+      "items": [
+        {
+          "id": "hackernews:49082706",
+          "title": "AI revenues are growing fast, but not fast enough",
+          "url": "https://economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T12:19:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49082706"
+          }
+        }
+      ],
+      "score": 4.563156370827366,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 1.395137559079554,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49083239",
+      "representativeId": "hackernews:49083239",
+      "items": [
+        {
+          "id": "hackernews:49083239",
+          "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+          "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T13:07:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49083239"
+          }
+        }
+      ],
+      "score": 4.319085176286007,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 1.4381703160208277,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49074680",
+      "representativeId": "hackernews:49074680",
+      "items": [
+        {
+          "id": "hackernews:49074680",
+          "title": "Professor's invisible prompt trap catches 32/35 students cheating with AI",
+          "url": "https://techspot.com/news/113243-professor-invisible-prompt-trap-catches-32-students-cheating.html",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T19:46:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 102,
+            "comments": 86,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49074680"
+          }
+        }
+      ],
+      "score": 4.270419479424017,
+      "breakdown": {
+        "hnPoints": 1.491080153018164,
+        "hnComments": 0.8420990676715653,
+        "mentions": 0.0,
+        "recency": 0.7372402587342882,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49071512",
+      "representativeId": "hackernews:49071512",
+      "items": [
+        {
+          "id": "hackernews:49071512",
+          "title": "Nvidia's $750B in Deals Reignite Circular AI Fears",
+          "url": "https://bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T16:02:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 81,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49071512"
+          }
+        }
+      ],
+      "score": 4.075284198205791,
+      "breakdown": {
+        "hnPoints": 1.4177250981030416,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.6384839201611451,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49068029",
+      "representativeId": "hackernews:49068029",
+      "items": [
+        {
+          "id": "hackernews:49068029",
+          "title": "Elevated errors on Claude Opus 5",
+          "url": "https://status.claude.com/incidents/mfdtrknpxghq",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T11:32:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 101,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49068029"
+          }
+        },
+        {
+          "id": "hackernews:49066591",
+          "title": "Elevated errors on Claude Opus 5",
+          "url": "https://status.claude.com/incidents/lhqp09kxq7pb",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T08:20:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49066591"
+          }
+        }
+      ],
+      "score": 4.036605732922833,
+      "breakdown": {
+        "hnPoints": 1.487941406638958,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.537082648854095,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49077443",
+      "representativeId": "hackernews:49077443",
+      "items": [
+        {
+          "id": "hackernews:49077443",
+          "title": "Don't ask an LLM for a confidence score",
+          "url": "https://justinflick.com/2026/07/27/llm-confidence-scores.html",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T00:06:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 63,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49077443"
+          }
+        }
+      ],
+      "score": 3.9744416482988463,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.8715698776838152,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49071441",
+      "representativeId": "hackernews:49071441",
+      "items": [
+        {
+          "id": "hackernews:49071441",
+          "title": "All major LLMs are lib-left. Even Grok, half the time",
+          "url": "https://unslop.run/blog/political-compass-of-llms",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T15:57:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49071441"
+          }
+        }
+      ],
+      "score": 3.8580947575701856,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.6365404250147111,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49076176",
+      "representativeId": "hackernews:49076176",
+      "items": [
+        {
+          "id": "hackernews:49076176",
+          "title": "OpenAI's rogue model attack is just the beginning",
+          "url": "https://blog.peterwildeford.com/p/openais-rogue-model-attack-is-just",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T22:17:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49076176"
+          }
+        }
+      ],
+      "score": 3.7101898760838807,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.812290609389443,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49066519",
+      "representativeId": "hackernews:49066519",
+      "items": [
+        {
+          "id": "hackernews:49066519",
+          "title": "Meta launched a new AI optimism ad set to a song about human extinction",
+          "url": "https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction",
+          "source": "hackernews",
+          "publishedAt": "2026-07-27T08:09:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49066519"
+          }
+        }
+      ],
+      "score": 3.423155906783136,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.47147495988732985,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "representativeId": "openai:https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+          "title": "How AI is expanding what people do at work",
+          "url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+          "source": "openai",
+          "publishedAt": "2026-07-27T03:30:00.000Z",
+          "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff",
+          "title": "An opinionated guide to which AI to use to do stuff",
+          "url": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-27T21:55:53.000Z",
+          "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus, and Gemini 2.5 Pro as the models and Deep Research as a useful alternative mode. Today it's much more about agentic systems - \"where the AI is capable of doing the equivalent of many hours of real human work in one go\". Gemini has fallen off Ethan's list, since Google still doesn’t have an established entry in the Codex/ChatGPT Work/Cowork category. Gemini Spark has yet to prove itself! Ethan offers a useful explanation of the ways you can give ChatGPT or Claude a computer to use: To use the computers provided by the AI companies, the mode you want is called ChatGPT Work in ChatGPT, and Cowork in Claude (the naming will not get less confusing, I am sorry to say). [...] The most powerful way to use AI is to give it access to your computer. You do that by downloading the ChatGPT or Claude apps and picking a mode to use. ChatGPT's two agent modes are Work and Codex; Claude's are Cowork and Code. The names do not map onto each other in any way that will help you remember them. And yes, these use the same names as the Work and Cowork modes we discussed above, but operate differently, and have more features and capabilities because they can access your computer. I think the difference between ChatGPT Work on a mobile device and ChatGPT Work inside the desktop app (where it's effectively a less intimidating skin on top of Codex) is spectacularly unintuitive. Short version: if you flip ChatGPT mobile from \"Chat\" to \"Work\" mode you get a version where its Code Interpreter container is no longer restricted from accessing the internet! Tags: ai , generative-ai , llms , ethan-mollick , code-interpreter , general-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 3.1346208716970914,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8012875383637583,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent",
+          "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+          "url": "https://technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-07-27T18:00:00.000Z",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containment and hacked into the computer systems of Hugging Face, another AI company, was the first time I got…",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+          "title": "OpenAI’s Hugging Face breach has reignited the debate over alignment and control",
+          "url": "https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T17:28:42.000Z",
+          "summary": "OpenAI's Hugging Face breach has reignited debate over AI alignment and control, exposing competing views on whether increasingly capable AI should be better aligned, better contained, or both.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.5720495016769416,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6887161683436085,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+          "title": "Fish Audio raises $50M seed to build AI voice models for creators and enterprises",
+          "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-28T14:00:00.000Z",
+          "summary": "Since launching last year, the startup today has more than 8 million people using the open-source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.387709209904215,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.487709209904215,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+          "title": "Recursive Superintelligence signs $410 compute deal with Amazon",
+          "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-28T13:19:17.000Z",
+          "summary": "Recursive’s $400 million outlay represents the bulk of the company’s fundraising to date.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.349335850385744,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4493358503857443,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+          "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+          "url": "https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T12:30:00.000Z",
+          "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.304210507968566,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4042105079685663,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "representativeId": "theverge-ai:https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+          "title": "Smart rings are looking like my kind of AI gadget",
+          "url": "https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T12:00:00.000Z",
+          "summary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.277432336687217,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.377432336687217,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+          "title": "Hugging Face is being used to easily undress women and children",
+          "url": "https://theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T09:07:14.000Z",
+          "summary": "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1328628497267568,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2328628497267566,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
+          "title": "Microsoft unveils AI security tools it says outperform competing platforms",
+          "url": "https://arstechnica.com/security/2026/07/microsoft-unveils-ai-security-tools-it-says-outperform-competing-platforms",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-27T21:56:14.000Z",
+          "summary": "Microsoft says tools cost less than competing ones and outperform them, too.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8514675526270552,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8014675526270554,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+          "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+          "source": "huggingface",
+          "publishedAt": "2026-07-27T09:32:20.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.8472074170490975,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49720741704909754,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+          "title": "ChatGPT starts blocking direct requests to copy an author's style",
+          "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-27T16:58:46.000Z",
+          "summary": "New behavior capturing a writer's \"broad qualities\" could have legal implications.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.712174757491322,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6621747574913222,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+          "title": "PSA: Your Claude shared chats and Artifacts may have ended up on Google",
+          "url": "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T20:19:42.000Z",
+          "summary": "The issue appears to have originated from Claude’s “share chat” feature, which allows users to create links that enable anyone with the assigned URL view a conversation or project.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6533192511800996,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7533192511800997,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
+          "title": "Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system",
+          "url": "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T18:32:11.000Z",
+          "summary": "Microsoft bolstered its AI cybersecurity offerings this week with the launch of its first AI security model and a new security platform.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6030897824811619,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7030897824811619,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
+          "title": "The path to artificial superintelligence",
+          "url": "https://technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-07-27T12:00:00.000Z",
+          "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own distinct knowledge and objectives. Today they can exchange data, but they are not yet able to actually coordinate…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5966343850680758,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5466343850680759,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery",
+          "title": "Closing the data loop in AI-driven drug discovery",
+          "url": "https://technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-07-27T11:40:16.000Z",
+          "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubled every nine years—a phenomenon known as Eroom’s Law. Today, bringing a new drug to market takes an average of 10-15 years and costs…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.589754964567545,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5397549645675452,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+          "title": "Artist sues AI meme generator for selling deeply personal comic as ad template",
+          "url": "https://arstechnica.com/tech-policy/2026/07/artist-sues-ai-meme-generator-for-selling-deeply-personal-comic-as-ad-template",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-27T10:50:37.000Z",
+          "summary": "Meme generator may have screwed up by using templates in outputs, expert says.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.572826542857035,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5228265428570351,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+          "title": "Why China is giving away its best AI models",
+          "url": "https://theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-27T16:51:50.000Z",
+          "summary": "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost. Its performance alone would have been enough to intensify the rivalry between […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5592347360604657,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6592347360604658,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
+          "title": "Threads users can now chat with Meta AI in their DMs",
+          "url": "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T16:45:24.000Z",
+          "summary": "Meta on Monday said it is rolling out its Meta AI chatbot within Threads' DMs, giving users a way to chat with the AI assistant.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5565184120969904,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6565184120969905,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+          "title": "Google’s AI search is rapidly becoming the default, new data shows",
+          "url": "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T15:57:12.000Z",
+          "summary": "Google’s AI Overviews now appear in 43% of searches, underscoring how quickly AI-generated answers are becoming the default way people discover information online.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.536519998666487,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.636519998666487,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
+          "title": "Power up your AI infrastructure! A first look at the Smart Systems Stage agenda at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/07/27/power-up-your-ai-infrastructure-a-first-look-at-the-smart-systems-stage-agenda-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T15:30:00.000Z",
+          "summary": "At TechCrunch Disrupt 2026, the Smart Systems Stage will be where energy, infrastructure, and technology collide, covering everything from fusion breakthroughs to the grid strain AI is putting on the entire economy.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.525504670774195,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6255046707741951,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
+          "title": "Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research",
+          "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T15:01:50.000Z",
+          "summary": "After two years in stealth, Safe Superintelligence has announced a long-term partnership with Nvidia as it prepares to scale to its next phase.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5142987341487082,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6142987341487082,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
+          "title": "Enigma raises $71M to make controlling a robot as easy as adjusting the volume",
+          "url": "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-27T13:00:00.000Z",
+          "summary": "The massive seed round was led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4680948279482413,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5680948279482413,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49081644",
+    "hackernews:49073267",
+    "hackernews:49068738",
+    "hackernews:49076505",
+    "hackernews:49070427"
+  ]
+}
