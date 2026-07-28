@@ -231,8 +231,16 @@ const imageBase = base.replace(/\/$/, "");
     transition: opacity 0.3s ease;
   }
 
+  /*
+    평소에는 카드 이미지가 이 면을 정확히 덮어 보이지 않는다. 확대 전환에서 이미지가
+    제 이름을 달고 따로 떨어져 나가면 그제서야 드러나, 카드 자리에서 확대 뷰 자리로
+    <b>자라나는 상자</b>가 된다 — 면이 없으면 자랄 것도 없다. 색은 확대 뷰와 같은
+    종이색이라 자라는 동안 색이 변하지 않는다.
+  */
   .shot {
     display: block;
+    border-radius: 14px;
+    background: var(--paper-raised);
   }
 
   /*
@@ -551,26 +559,19 @@ const imageBase = base.replace(/\/$/, "");
     z-index: 2;
   }
 
-  html[data-card-morph]::view-transition-new(card-panel) {
-    animation: card-panel-in 260ms cubic-bezier(0.22, 1, 0.36, 1) both;
-  }
+  /*
+    상자와 사진은 한 덩어리로 읽혀야 하므로 시간을 같이 준다. 기본값 250ms 는
+    자라나는 동작에는 짧다 — 420px 짜리 카드가 980px 로 벌어지는 거리다.
 
-  html[data-card-morph]::view-transition-old(card-panel) {
-    animation: card-panel-out 200ms ease both;
-  }
-
-  @keyframes card-panel-in {
-    from {
-      opacity: 0;
-      transform: scale(0.96);
-    }
-  }
-
-  @keyframes card-panel-out {
-    to {
-      opacity: 0;
-      transform: scale(0.96);
-    }
+    투명도는 손대지 않는다. 브라우저 기본 교차 페이드가 곧 "카드 면이 확대 뷰
+    면으로 바뀌는" 연출이고, 둘 다 같은 종이색이라 바뀌는 것은 그 위에 얹힌
+    글자뿐이다. 예전에 여기에 `scale(0.96)` 짜리 자체 애니메이션을 걸어 뒀는데,
+    그게 바로 상자가 제자리에서 툭 나타나던 정체다.
+  */
+  html[data-card-morph]::view-transition-group(card-panel),
+  html[data-card-morph]::view-transition-group(card-morph) {
+    animation-duration: 320ms;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
   }
 </style>
 
@@ -618,22 +619,31 @@ const imageBase = base.replace(/\/$/, "");
   */
   const DRAG_SLOP = 10;
 
-  /* 카드와 확대 뷰의 이미지를 잇는 이름. 한 번에 한 장만 열리므로 하나면 된다. */
-  const MORPH = "card-morph";
-
   /*
-    카드 이미지가 확대 뷰의 이미지 자리로 자라난다. 두 요소에 같은 이름을 붙이되,
-    이름은 화면에 하나뿐이어야 하므로 전환 콜백 안에서 넘겨준다.
+    카드와 확대 뷰를 두 쌍으로 잇는다 — 상자와 그 안의 사진.
 
-    지원하지 않는 브라우저나 모션을 줄인 설정에서는 그냥 즉시 열고 닫는다 —
-    효과가 없을 뿐 동작은 같다.
+    상자(`card-panel`)에 짝을 주지 않으면 확대 뷰가 <b>처음부터 최종 크기로 서서
+    투명도만 오른다.</b> 사진만 이동하므로 "박스가 툭 나타나고 사진이 거기로
+    끌려간다"로 읽힌다 — 실제로 그 상태를 재고 나서 이 구조로 왔다(짝이 없어
+    `new(card-panel)` 만 있고 `old` 가 없었다). 카드 상자를 `old` 로 이어 붙이면
+    상자가 카드 자리에서 확대 뷰 자리로 자란다.
+
+    <b>사진에 따로 이름을 주는 것이 상자를 늘려도 되게 만든다.</b> 이름 붙은 자식은
+    부모 스냅샷에서 빠지므로, 4:5 카드가 가로로 넓은 확대 뷰로 늘어나도 찌그러질
+    그림이 상자 안에 없다.
+
+    이름은 화면에 하나뿐이어야 하므로 두 쌍 다 전환 콜백 안에서 넘겨준다. 지원하지
+    않는 브라우저나 모션을 줄인 설정에서는 그냥 즉시 열고 닫는다 — 효과가 없을 뿐
+    동작은 같다.
   */
+  const MORPH = "card-morph";
   const PANEL = "card-panel";
 
   const morph = (
-    from: HTMLElement,
-    to: HTMLElement,
-    panel: HTMLDialogElement,
+    fromImage: HTMLElement,
+    toImage: HTMLElement,
+    fromBox: HTMLElement,
+    toBox: HTMLElement,
     swap: () => void,
   ) => {
     if (quiet() || !document.startViewTransition) {
@@ -651,8 +661,10 @@ const imageBase = base.replace(/\/$/, "");
       끝나고 빈 값으로 되돌리면 그 이름이 사라져, 뒤로 갔을 때 더미로 되돌아가는
       전환이 조용히 죽는다. 원래 값을 들고 있다가 그대로 돌려놓는다.
     */
-    const fromName = from.style.viewTransitionName;
-    const toName = to.style.viewTransitionName;
+    const held = new Map<HTMLElement, string>();
+    for (const el of [fromImage, toImage, fromBox, toBox]) {
+      held.set(el, el.style.viewTransitionName);
+    }
 
     /*
       이 전환과 상관없는 이름을 잠시 뗀다.
@@ -664,31 +676,24 @@ const imageBase = base.replace(/\/$/, "");
     */
     const parked: [HTMLElement, string][] = [];
     for (const other of document.querySelectorAll<HTMLElement>("[data-vt]")) {
-      if (other === from || other === to || other === panel) continue;
+      if (held.has(other)) continue;
       if (!other.style.viewTransitionName) continue;
       parked.push([other, other.style.viewTransitionName]);
       other.style.viewTransitionName = "";
     }
 
-    /*
-      패널은 여는 쪽에서는 "새로 생기는 것", 닫는 쪽에서는 "사라지는 것"이다.
-      열려 있는 동안에만 이름을 달아 두면 두 경우가 저절로 갈린다.
-    */
-    const opening = !panel.open;
-    if (!opening) panel.style.viewTransitionName = PANEL;
-
-    from.style.viewTransitionName = MORPH;
+    fromImage.style.viewTransitionName = MORPH;
+    fromBox.style.viewTransitionName = PANEL;
     const transition = document.startViewTransition(() => {
-      from.style.viewTransitionName = "";
+      fromImage.style.viewTransitionName = "";
+      fromBox.style.viewTransitionName = "";
       swap();
-      to.style.viewTransitionName = MORPH;
-      panel.style.viewTransitionName = opening ? PANEL : "";
+      toImage.style.viewTransitionName = MORPH;
+      toBox.style.viewTransitionName = PANEL;
     });
     // 이름을 남겨 두면 다음 전환이 "이름이 둘"인 상태로 들어가 아무것도 안 움직인다.
     transition.finished.finally(() => {
-      to.style.viewTransitionName = toName;
-      from.style.viewTransitionName = fromName;
-      panel.style.viewTransitionName = "";
+      for (const [el, name] of held) el.style.viewTransitionName = name;
       for (const [other, name] of parked) other.style.viewTransitionName = name;
       delete document.documentElement.dataset.cardMorph;
     });
@@ -704,13 +709,13 @@ const imageBase = base.replace(/\/$/, "");
 
     const open = () => {
       if (!shotImage || !expandImage) return expand.showModal();
-      morph(shotImage, expandImage, expand, () => expand.showModal());
+      morph(shotImage, expandImage, shot, expand, () => expand.showModal());
     };
 
     const close = () => {
       if (!expand.open) return;
       if (!shotImage || !expandImage) return expand.close();
-      morph(expandImage, shotImage, expand, () => expand.close());
+      morph(expandImage, shotImage, expand, shot, () => expand.close());
     };
 
     /*
