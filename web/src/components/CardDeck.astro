@@ -635,10 +635,10 @@ const imageBase = base.replace(/\/$/, "");
     to: HTMLElement,
     panel: HTMLDialogElement,
     swap: () => void,
-  ): Promise<void> => {
+  ) => {
     if (quiet() || !document.startViewTransition) {
       swap();
-      return Promise.resolve();
+      return;
     }
     /*
       쌓임 순서를 지정하는 전역 스타일이 이 표시를 보고 켜진다. 문서 간 이동에는
@@ -692,9 +692,6 @@ const imageBase = base.replace(/\/$/, "");
       for (const [other, name] of parked) other.style.viewTransitionName = name;
       delete document.documentElement.dataset.cardMorph;
     });
-
-    // 전환이 끝나기를 기다릴 수 있게 넘긴다. 건너뛰어 거절돼도 뒷일은 이어져야 한다.
-    return transition.finished.catch(() => {});
   };
 
   for (const slide of document.querySelectorAll<HTMLElement>("[data-slide]")) {
@@ -704,58 +701,36 @@ const imageBase = base.replace(/\/$/, "");
 
     const shotImage = shot.querySelector<HTMLImageElement>("img");
     const expandImage = expand.querySelector<HTMLImageElement>(".expand-shot");
-    const track = slide.closest<HTMLElement>("[data-track]");
-
-    /** 확대하려고 트랙을 옮겼다면 옮기기 전 위치. 안 옮겼으면 없다. */
-    let parkedLeft: number | null = null;
 
     const open = () => {
       if (!shotImage || !expandImage) return expand.showModal();
       morph(shotImage, expandImage, expand, () => expand.showModal());
     };
 
-    /*
-      확대를 열려고 옮긴 트랙을 제자리로 돌린다.
-
-      되돌리기는 전환이 <b>끝난 뒤</b>여야 한다. 전환 안에서 되돌리면 들어오는
-      스냅샷이 잘린 카드에서 찍혀, 아래 `centerThenOpen` 이 없애 둔 잘림이 그대로
-      되살아난다 — 카드가 온전히 돌아왔다가 끝에서 반으로 잘린다. 카드가 제자리에
-      앉고 나서 트랙이 미끄러지면 두 움직임이 순서대로 읽힌다.
-    */
-    const unpark = () => {
-      if (parkedLeft === null || !track) return;
-      const left = parkedLeft;
-      parkedLeft = null;
-      track.scrollTo({ left, behavior: quiet() ? "auto" : "smooth" });
-    };
-
     const close = () => {
       if (!expand.open) return;
-      if (!shotImage || !expandImage) {
-        expand.close();
-        unpark();
-        return;
-      }
-      morph(expandImage, shotImage, expand, () => expand.close()).finally(unpark);
+      if (!shotImage || !expandImage) return expand.close();
+      morph(expandImage, shotImage, expand, () => expand.close());
     };
 
     /*
-      가운데가 아닌 카드는 트랙 밖으로 잘려 있다. 그대로 열면 전환은 잘리지 않은
-      카드 전체를 잡아 늘렸다가, 끝에서 실제 DOM 의 잘린 모습으로 돌아간다 — 그림이
-      다 보였다가 반으로 잘리는 것처럼 보인다. 먼저 가운데로 세워 잘린 데가 없게
-      만든 뒤에 연다.
+      확대는 가운데 카드에서만. 옆 카드를 누르면 그 카드를 가운데로 옮기고 끝난다 —
+      캐러셀에서 옆 카드를 누르는 것은 "저걸 보겠다"이지 "저걸 확대하겠다"가 아니다.
 
-      옮긴 자리는 확대를 여는 동안만 빌린 것이라 닫으면 돌려준다. 돌려주지 않으면
-      <b>확대를 닫았을 때 가운데 카드가 눌렀던 카드로 바뀌어 있다</b> — 보던 자리로
-      돌아오지 않는 셈이다.
+      한때 옆 카드도 한 번에 확대했다. 가운데가 아닌 카드는 트랙 밖으로 잘려 있어
+      그대로 열면 전환이 잘리지 않은 카드 전체를 잡았다가 끝에서 잘린 모습으로
+      돌아가므로, 열기 직전에 즉시 가운데로 세워야 했다. 그러면 닫을 때 그 자리를
+      돌려주는 일이 또 따라붙어 <b>눌린 카드가 가운데로 왔다가 도로 밀려나는</b>
+      왕복이 남는다. 확대를 가운데 카드로 좁히면 잘림도 되돌리기도 처음부터 없다.
     */
-    const centerThenOpen = () => {
+    const centerOrOpen = () => {
       if (slide.classList.contains("is-active")) return open();
 
-      parkedLeft = track ? track.scrollLeft : null;
-      slide.scrollIntoView({ inline: "center", block: "nearest", behavior: "auto" });
-      // 스크롤이 반영된 뒤의 좌표로 전환을 시작해야 한다.
-      requestAnimationFrame(() => requestAnimationFrame(open));
+      slide.scrollIntoView({
+        behavior: quiet() ? "auto" : "smooth",
+        inline: "center",
+        block: "nearest",
+      });
     };
 
     let startX = 0;
@@ -786,7 +761,7 @@ const imageBase = base.replace(/\/$/, "");
 
       // 끌었으면 아무 일도 일어나지 않는다. 나가지도, 확대되지도 않는다.
       event.preventDefault();
-      if (!dragged) centerThenOpen();
+      if (!dragged) centerOrOpen();
     }, { signal });
 
     // 바깥을 누르면 닫는다. dialog 자신이 배경까지 차지하므로 좌표로 가른다.
