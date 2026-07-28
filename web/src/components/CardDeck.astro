@@ -165,6 +165,8 @@ const imageBase = base.replace(/\/$/, "");
       카드 아래가 잘리지 않게 한다(55vh 폭 = 68.75vh 높이).
     */
     --slide: min(78vw, 420px, 55vh);
+    /* 펼치기가 "한 칸 옆" 을 계산해야 해서 간격도 값으로 둔다. */
+    --gap: 20px;
   }
 
   .stage {
@@ -178,7 +180,7 @@ const imageBase = base.replace(/\/$/, "");
     /* 첫 장과 마지막 장도 가운데에 설 수 있도록 좌우를 비워 둔다. */
     padding: 0 max(0px, calc((100% - var(--slide)) / 2));
     display: flex;
-    gap: 20px;
+    gap: var(--gap);
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
@@ -201,22 +203,37 @@ const imageBase = base.replace(/\/$/, "");
   }
 
   /*
-    날짜 페이지에 들어설 때 표지 다음 장들이 차례로 나온다.
+    날짜 페이지에 들어설 때 표지 다음 장들이 <b>바로 앞 장 뒤에서 한 칸씩 미끄러져
+    나온다.</b> 더미에서 카드를 한 장씩 뽑아 늘어놓는 동작이다.
 
-    더미에서 이어지는 것은 표지 한 장뿐이라, 나머지가 동시에 툭 나타나면 "더미에서
-    펼쳐졌다"가 아니라 "첫 장만 날아왔다"로 읽힌다. 첫 장(n=0)은 전환이 맡으므로
-    건드리지 않고, 그 뒤 장들만 표지 쪽에서 밀려 나오게 한다. 지연은 문서 간 전환이
-    끝나는 시점부터 시작한다.
+    한때 시작점이 `-26px` 이었다. 카드 폭이 420px 이니 6%고, 그래서 "표지만 날아오고
+    나머지는 그냥 나타난다"로 읽혔다 — 어디서 왔는지 알 수 없는 자리에서 페이드인하는
+    것과 같다. <b>의미가 있는 시작점은 앞 장이 있던 자리 하나뿐이다.</b>
+
+    전부 표지 자리(`--n` 칸)에서 출발시키는 쪽도 재 봤는데, 이동 거리가 장마다 달라
+    속도가 제각각이 되고 뒤 장이 앞 장 사이의 틈으로 스쳐 지나간다. 한 칸씩이면 거리가
+    모두 같고, 보이지 않는 자리의 장은 화면에 나타나지도 않는다.
+
+    첫 장(n=0)은 문서 간 전환이 맡으므로 건드리지 않는다. 지연은 그 전환이 끝나는
+    시점에 맞춰 시작한다.
   */
+  [data-unfold] .slide {
+    /*
+      뒤 장이 앞 장을 밟으면 "뒤에서 나온다"가 아니라 "위로 지나간다"가 된다.
+      flex 아이템은 `position` 없이도 `z-index` 가 먹는다.
+    */
+    z-index: calc(10 - var(--n));
+  }
+
   [data-unfold] .slide:not(:first-child) {
-    animation: unfold 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
-    animation-delay: calc(180ms + var(--n) * 70ms);
+    animation: unfold 340ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(160ms + var(--n) * 55ms);
   }
 
   @keyframes unfold {
     from {
       opacity: 0;
-      transform: translateX(-26px) scale(0.96);
+      transform: translateX(calc((var(--slide) + var(--gap)) * -1));
     }
   }
 
