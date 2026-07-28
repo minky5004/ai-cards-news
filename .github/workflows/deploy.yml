@@ -16,6 +16,10 @@ on:
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
+  # 파이프라인이 발행 커밋을 올린 뒤 직접 부른다. 위의 push 트리거로는 안 닿는다 —
+  # GITHUB_TOKEN 으로 만든 푸시는 다른 워크플로를 발화시키지 않는다(재귀 방지).
+  workflow_call:
+
 permissions:
   contents: read
   pages: write
@@ -30,7 +34,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # ref 를 브랜치 헤드로 못박는다. 기본값은 워크플로를 트리거한 SHA 인데,
+      # 파이프라인이 부를 때 그 SHA 는 파이프라인이 시작된 시점이라 방금 올린
+      # 발행 커밋보다 앞선다 — 배포는 돌고도 오늘 카드가 빠진 사이트가 나간다.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
 
       # 버전은 packageManager 필드에서 읽는다. 리포 루트에는 package.json 이
       # 없으므로(웹만 Node 프로젝트다) 경로를 명시해야 한다 — 기본값인 루트를

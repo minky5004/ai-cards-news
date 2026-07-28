@@ -9,7 +9,9 @@
 # 잡을 나누면 그 사이마다 artifact 업로드·다운로드가 필요해진다 — 수집부터 커밋까지가
 # 한 줄로 이어지는 하나의 실행이다.
 #
-# 커밋한 content/ 는 배포 워크플로(content/** push)를 트리거해 사이트까지 이어진다.
+# 커밋 다음에 배포 워크플로를 직접 부른다. content/** push 트리거로는 안 닿는다 —
+# GITHUB_TOKEN 으로 만든 푸시는 다른 워크플로를 발화시키지 않는다(재귀 방지). 2026-07-28
+# 첫 cron 은 발행까지 끝내고도 사이트가 그 전날에 머물렀고, 그 자리가 여기였다.
 # 이 워크플로 자신은 push 로 돌지 않으므로 자기 커밋이 자기를 다시 부르지는 않는다.
 #
 # cron 은 아직 붙이지 않는다. 커밋·푸시가 도는 것을 본 뒤 M5-5b 에서 붙인다.
@@ -207,3 +209,16 @@ jobs:
           Gemini 하루 한도(20회)를 그만큼 더 쓴다.
           BODY
           )"
+
+  # 발행 커밋을 사이트에 올린다. 파이프라인이 죽으면 needs 가 막아 돌지 않는다 —
+  # 미완성인 날짜가 사이트에 나가지 않는다.
+  #
+  # permissions 를 잡에 다시 적는 이유는 잡 레벨이 워크플로 레벨을 덮어쓰기 때문이다.
+  # 위쪽 contents: write · issues: write 는 커밋과 실패 이슈용이라 Pages 권한이 없다.
+  deploy:
+    needs: pipeline
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
