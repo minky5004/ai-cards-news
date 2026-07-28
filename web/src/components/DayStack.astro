@@ -28,8 +28,18 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
   <span class="pile">
     {leaves.map((i) => <span class="leaf" style={`--i:${i}`} aria-hidden="true" />)}
 
+    {/*
+      날짜 페이지의 첫 카드와 같은 이름을 달아 둔다. 이름이 같은 두 요소를
+      브라우저가 하나로 보고 위치·크기를 이어 붙인다 — 더미 표지가 그대로
+      커지며 그날의 첫 카드가 된다.
+
+      `data-vt` 는 그 이름을 되읽기 위한 표시다. 이동 직전에 `Layout` 이 양쪽
+      문서의 이름을 대조해 짝이 없는 쪽을 떼어 낸다.
+    */}
     <img
       class="cover"
+      data-vt={`cover-${day.date}`}
+      style={`view-transition-name: cover-${day.date}`}
       src={`${imageBase}${cover.image}`}
       width="1080"
       height="1350"
@@ -152,6 +162,8 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
 
   .mm {
     color: var(--text-soft);
+    /* 층은 0.32s 로 벌어지는데 숫자만 툭 바뀌면 둘이 한 동작으로 안 읽힌다. */
+    transition: color 0.32s ease;
   }
 
   .meta {

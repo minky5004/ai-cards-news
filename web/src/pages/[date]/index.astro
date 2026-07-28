@@ -44,7 +44,8 @@ const short = (d: string) => d.slice(5).replace("-", ".");
     </div>
   </section>
 
-  <CardDeck cards={day.cards} />
+  {/* 홈 아카이브 더미의 표지와 짝이 되는 이름. 더미에서 이 페이지로 이어진다. */}
+  <CardDeck cards={day.cards} coverName={`cover-${day.date}`} />
 
   <nav class="pager" aria-label="다른 발행일">
     {
@@ -126,6 +127,10 @@ const short = (d: string) => d.slice(5).replace("-", ".");
   .pager a {
     text-decoration: none;
     color: var(--text-soft);
+    /* 캐러셀 화살표는 부드럽고 바로 아래 페이저는 툭 바뀌면 손맛이 갈린다. */
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .pager a:hover {

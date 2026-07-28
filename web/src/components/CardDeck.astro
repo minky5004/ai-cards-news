@@ -3,9 +3,15 @@ import type { RenderedCard } from "../lib/content";
 
 interface Props {
   cards: RenderedCard[];
+  /**
+   * 첫 카드에 붙일 view transition 이름. 아카이브 더미의 표지와 같은 이름을 주면
+   * 더미를 눌러 들어올 때 표지가 그대로 첫 카드가 된다. 홈의 오늘 발행처럼 이어질
+   * 상대가 없는 자리에서는 주지 않는다 — 이름은 한 화면에 하나뿐이어야 한다.
+   */
+  coverName?: string;
 }
 
-const { cards } = Astro.props;
+const { cards, coverName } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const imageBase = base.replace(/\/$/, "");
 ---
@@ -16,6 +22,11 @@ const imageBase = base.replace(/\/$/, "");
   왔어도 카드를 넘겨보는 일 자체는 된다 — 컨트롤은 JS 가 켜기 전까지 숨어 있다.
   외부 캐러셀 라이브러리를 쓰지 않는 이유는 웹폰트를 안 싣는 것과 같다: 이 페이지가
   하는 일에 비해 지불이 크다.
+*/}
+{/*
+  `data-unfold` 는 여기서 달지 않는다. 마크업에 박으면 더미에서 이어진 이동이
+  아닐 때에도 걸려, 새로고침이나 즐겨찾기 진입에서 첫 장만 있고 나머지가 비어
+  있는 화면이 뜬다. 이동 직전에 짝을 확인한 `Layout` 이 붙여 준다.
 */}
 <section
   class="carousel"
@@ -38,6 +49,7 @@ const imageBase = base.replace(/\/$/, "");
         cards.map((card, i) => (
           <li
             class:list={["slide", { "is-active": i === 0 }]}
+            style={`--n: ${i}`}
             data-slide
             aria-roledescription="슬라이드"
             aria-label={`${i + 1} / ${cards.length}`}
@@ -53,7 +65,15 @@ const imageBase = base.replace(/\/$/, "");
                 앞 두 장만 eager 로 받는다 — 가로 스크롤에서도 lazy 는 트랙 기준으로
                 동작하므로 나머지는 넘길 때 받는다.
               */}
+              {/*
+                `transition:name` 디렉티브를 쓰면 안 된다 — 값이 undefined 여도 Astro 가
+                자동 생성 이름을 붙여, 카드 다섯 장이 전부 각자 전환 대상이 된다. 확대할
+                때 카드가 여러 장 한꺼번에 움직이는 정체가 그것이었다. 이름이 필요한
+                자리에만 CSS 속성으로 직접 준다.
+              */}
               <img
+                data-vt={i === 0 && coverName ? coverName : undefined}
+                style={i === 0 && coverName ? `view-transition-name: ${coverName}` : undefined}
                 src={`${imageBase}${card.image}`}
                 width="1080"
                 height="1350"
@@ -81,7 +101,7 @@ const imageBase = base.replace(/\/$/, "");
                 갇히지 않는다.
               */}
               <form class="close-row" method="dialog">
-                <button class="close" type="submit" aria-label="닫기">
+                <button class="close" type="submit" data-close aria-label="닫기">
                   <span aria-hidden="true">✕</span>
                 </button>
               </form>
@@ -145,6 +165,8 @@ const imageBase = base.replace(/\/$/, "");
       카드 아래가 잘리지 않게 한다(55vh 폭 = 68.75vh 높이).
     */
     --slide: min(78vw, 420px, 55vh);
+    /* 펼치기가 "한 칸 옆" 을 계산해야 해서 간격도 값으로 둔다. */
+    --gap: 20px;
   }
 
   .stage {
@@ -158,7 +180,7 @@ const imageBase = base.replace(/\/$/, "");
     /* 첫 장과 마지막 장도 가운데에 설 수 있도록 좌우를 비워 둔다. */
     padding: 0 max(0px, calc((100% - var(--slide)) / 2));
     display: flex;
-    gap: 20px;
+    gap: var(--gap);
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
@@ -178,6 +200,41 @@ const imageBase = base.replace(/\/$/, "");
   .slide {
     flex: 0 0 var(--slide);
     scroll-snap-align: center;
+  }
+
+  /*
+    날짜 페이지에 들어설 때 표지 다음 장들이 <b>바로 앞 장 뒤에서 한 칸씩 미끄러져
+    나온다.</b> 더미에서 카드를 한 장씩 뽑아 늘어놓는 동작이다.
+
+    한때 시작점이 `-26px` 이었다. 카드 폭이 420px 이니 6%고, 그래서 "표지만 날아오고
+    나머지는 그냥 나타난다"로 읽혔다 — 어디서 왔는지 알 수 없는 자리에서 페이드인하는
+    것과 같다. <b>의미가 있는 시작점은 앞 장이 있던 자리 하나뿐이다.</b>
+
+    전부 표지 자리(`--n` 칸)에서 출발시키는 쪽도 재 봤는데, 이동 거리가 장마다 달라
+    속도가 제각각이 되고 뒤 장이 앞 장 사이의 틈으로 스쳐 지나간다. 한 칸씩이면 거리가
+    모두 같고, 보이지 않는 자리의 장은 화면에 나타나지도 않는다.
+
+    첫 장(n=0)은 문서 간 전환이 맡으므로 건드리지 않는다. 지연은 그 전환이 끝나는
+    시점에 맞춰 시작한다.
+  */
+  [data-unfold] .slide {
+    /*
+      뒤 장이 앞 장을 밟으면 "뒤에서 나온다"가 아니라 "위로 지나간다"가 된다.
+      flex 아이템은 `position` 없이도 `z-index` 가 먹는다.
+    */
+    z-index: calc(10 - var(--n));
+  }
+
+  [data-unfold] .slide:not(:first-child) {
+    animation: unfold 340ms cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: calc(160ms + var(--n) * 55ms);
+  }
+
+  @keyframes unfold {
+    from {
+      opacity: 0;
+      transform: translateX(calc((var(--slide) + var(--gap)) * -1));
+    }
   }
 
   /*
@@ -224,6 +281,9 @@ const imageBase = base.replace(/\/$/, "");
     text-decoration: none;
     border-bottom: 1px solid transparent;
     padding-bottom: 1px;
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .meta a:hover {
@@ -411,6 +471,9 @@ const imageBase = base.replace(/\/$/, "");
     font-size: 13px;
     line-height: 1;
     cursor: pointer;
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .close:hover {
@@ -449,6 +512,9 @@ const imageBase = base.replace(/\/$/, "");
     font-weight: 600;
     color: var(--text-soft);
     text-decoration: none;
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .detail .origin:hover {
@@ -463,6 +529,119 @@ const imageBase = base.replace(/\/$/, "");
     .arrow {
       transition: none;
     }
+
+    /* 펼치기는 장식이다. 끄면 카드가 그냥 제자리에 있어야지 사라지면 안 된다. */
+    [data-unfold] .slide:not(:first-child) {
+      animation: none;
+    }
+  }
+</style>
+
+{/*
+  view transition 의 가짜 요소(`::view-transition-*`)는 문서 루트에 붙으므로 컴포넌트
+  스코프 스타일로는 닿지 않는다. 전역으로 쓰되 카드 morph 중에만 걸리게 표시로 막는다 —
+  더미에서 날짜 페이지로 넘어가는 전환은 화면이 통째로 바뀌는 것이라 교차 페이드가 맞다.
+*/}
+<style is:global>
+  /*
+    쌓임 순서가 이 연출의 전부다. 아래에서부터 페이지 → 패널 → 카드다.
+
+    카드가 패널보다 위여야 한다. 지정하지 않으면 패널이 불투명해지는 순간
+    자라나는 카드를 덮어, 확대 뷰가 반쯤 빈 종이로 보이다가 카드가 튀어나온다.
+
+    한때 루트를 `animation: none; opacity: 0/1` 로 즉시 갈아 세웠다. 패널에 이름이
+    없던 시절 옛 화면이 불투명한 채 얼어붙어 확대 뷰를 덮었기 때문인데, 그 대가로
+    <b>화면이 어두워지는 것이 0프레임에 툭 켜졌다</b> — 어두운 배경은 새 루트에
+    딸려 있어 루트를 즉시 세우면 같이 즉시 켜진다. 닫을 때는 반대로 80ms 만에
+    통째로 밝아지고 패널 잔상만 남았다. 이제 패널이 z-index 1 로 제 자리를 지키므로
+    루트는 기본 교차 페이드로 되돌린다 — 두 루트는 어두워짐 말고는 같은 그림이라,
+    그 교차 페이드가 곧 배경이 서서히 깔리는 연출이 된다.
+
+    `data-card-morph` 는 `Layout` 도 본다. 거기서 페이지 이동에 거는 순차 페이드를
+    이 표시가 있을 때 비켜 준다 — 여기서 필요한 것이 정확히 그 반대이기 때문이다.
+  */
+  html[data-card-morph]::view-transition-group(card-panel) {
+    z-index: 1;
+  }
+
+  html[data-card-morph]::view-transition-group(card-morph) {
+    z-index: 2;
+  }
+
+  /* 1박 — 사진이 카드 자리에서 확대 뷰 안의 제자리로 간다. */
+  html[data-card-morph]::view-transition-group(card-morph) {
+    animation-duration: 240ms;
+    animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  /*
+    2박 — 종이가 그 사진 자리에서부터 펴진다.
+
+    크기를 늘리지 않고 <b>잘라 드러낸다</b>. 늘리면 스냅샷이 함께 늘어나 글자가
+    가로로 눌린 채 커진다. `--panel-seed` 는 확대 뷰 안에서 사진이 차지한 영역이라
+    좁은 화면(사진이 위, 글이 아래)에서는 펴지는 방향이 아래로 저절로 바뀐다.
+  */
+  html[data-card-morph="open"]::view-transition-new(card-panel) {
+    animation: panel-unfold 260ms cubic-bezier(0.22, 1, 0.36, 1) 150ms both;
+  }
+
+  /*
+    투명도가 키프레임에 있어야 한다. 지연·유지 구간에서 브라우저가 `from`·`to` 를
+    붙들고 있기 때문이다 — 없이 두면 <b>사진이 도착하기도 전에 종이 기둥이 떠 있고</b>,
+    닫을 때는 접힌 기둥이 사진이 카드로 돌아갈 때까지 남는다. 둘 다 프레임에서 봤다.
+    기둥이 보이는 구간은 사진이 그 자리를 정확히 덮고 있는 동안뿐이다.
+  */
+  @keyframes panel-unfold {
+    from {
+      clip-path: inset(var(--panel-seed, 0px 0px 0px 0px) round 18px);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    to {
+      clip-path: inset(0px round 18px);
+      opacity: 1;
+    }
+  }
+
+  /* 닫을 때는 차례가 반대다 — 종이가 먼저 접히고 사진이 뒤따라 돌아간다. */
+  html[data-card-morph="close"]::view-transition-old(card-panel) {
+    animation: panel-fold 190ms ease both;
+  }
+
+  @keyframes panel-fold {
+    from {
+      clip-path: inset(0px round 18px);
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    to {
+      clip-path: inset(var(--panel-seed, 0px 0px 0px 0px) round 18px);
+      opacity: 0;
+    }
+  }
+
+  /* 자체 애니메이션이 기본값을 대신하므로 합성 방식도 직접 못박는다. */
+  html[data-card-morph="open"]::view-transition-new(card-panel),
+  html[data-card-morph="close"]::view-transition-old(card-panel) {
+    mix-blend-mode: normal;
+  }
+
+  html[data-card-morph="close"]::view-transition-group(card-morph) {
+    animation-delay: 170ms;
+    animation-fill-mode: both;
+  }
+
+  /*
+    배경이 밝아지는 것도 사진이 돌아오는 데 맞춘다. 기본 250ms 로 두면 사진이
+    아직 카드에 닿기 전에 배경이 다 밝아져 둘이 따로 논다.
+  */
+  html[data-card-morph="close"]::view-transition-old(root),
+  html[data-card-morph="close"]::view-transition-new(root) {
+    animation-duration: 410ms;
   }
 </style>
 
@@ -473,8 +652,33 @@ const imageBase = base.replace(/\/$/, "");
     로 한다 — 데스크톱에서는 이웃 카드까지 온전히 보여서 교차 비율로는 가운데를
     가릴 수 없다.
   */
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const behavior: ScrollBehavior = reduceMotion ? "auto" : "smooth";
+  /*
+    설정을 켤 때마다 읽는다. 모듈 스코프에서 한 번만 재면 그 값이 페이지를 옮겨도
+    그대로 남아, 이용자가 도중에 설정을 바꿔도 반영되지 않는다 — 스크립트는 처음
+    한 번만 실행되기 때문이다.
+  */
+  const quiet = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /*
+    배선을 함수로 묶어 `astro:page-load` 마다 다시 건다.
+
+    ClientRouter 가 붙은 뒤로 페이지 이동이 문서 교체가 아니라 DOM 교체가 됐다.
+    모듈 스크립트는 처음 한 번만 실행되므로, 묶어 두지 않으면 <b>이동한 페이지에서
+    캐러셀과 확대가 통째로 죽는다</b> — 화살표·도트가 숨은 채 남고 카드를 눌러도
+    아무 일도 일어나지 않는다. 실제로 그 상태를 재현하고 나서 이 구조로 왔다.
+
+    `astro:page-load` 는 첫 진입에도 발화하므로 여기서만 부르면 된다.
+  */
+  let wiring: AbortController | null = null;
+
+  const setup = () => {
+    /*
+      DOM 은 교체돼도 window 는 남는다. 지난 배선의 resize 청취자를 끊지 않으면
+      이동할 때마다 하나씩 쌓인다.
+    */
+    wiring?.abort();
+    wiring = new AbortController();
+    const signal = wiring.signal;
 
   /*
     카드를 누르면 원문으로 나가는 대신 확대 뷰를 연다. 카드 이미지에는 헤드라인밖에
@@ -485,21 +689,162 @@ const imageBase = base.replace(/\/$/, "");
   */
   const DRAG_SLOP = 10;
 
+  /*
+    확대는 두 박자다 — <b>사진이 먼저 제자리로 가고, 그 사진 자리에서 종이가 펴진다.</b>
+
+    한 박자로 두면 종이가 제자리에서 나타나고 사진이 거기로 끌려가는 것처럼 보인다.
+    상자에 짝을 줘 카드 크기에서 확대 크기로 늘려도 봤는데, 그러면 종이 스냅샷이
+    함께 늘어나 <b>글자가 가로로 눌린 채 커진다.</b> 그래서 종이는 크기를 바꾸지 않고
+    사진이 차지한 영역에서부터 잘라 드러낸다 — 글자는 처음부터 제 크기다.
+
+    닫을 때는 순서가 반대다. 종이가 사진 자리로 접히고, 그다음 사진이 카드로 돌아간다.
+
+    지원하지 않는 브라우저나 모션을 줄인 설정에서는 그냥 즉시 열고 닫는다 — 효과가
+    없을 뿐 동작은 같다.
+  */
+  const MORPH = "card-morph";
+  const PANEL = "card-panel";
+
+  const morph = (
+    fromImage: HTMLElement,
+    toImage: HTMLElement,
+    panel: HTMLDialogElement,
+    swap: () => void,
+  ) => {
+    if (quiet() || !document.startViewTransition) {
+      swap();
+      return;
+    }
+
+    /*
+      쌓임 순서와 두 박자의 차례를 정하는 전역 스타일이 이 표시를 보고 갈라진다.
+      문서 간 이동에는 걸리지 않아야 해서 morph 중에만 붙인다.
+    */
+    const opening = !panel.open;
+    document.documentElement.dataset.cardMorph = opening ? "open" : "close";
+
+    /*
+      종이가 펴져 나올 씨앗 자리 — 확대 뷰 안에서 사진이 차지하는 영역이다. 넓은
+      화면에서는 왼쪽 열, 좁은 화면에서는 위쪽 띠라 <b>펴지는 방향이 저절로 갈린다</b>.
+      확대 뷰가 열려 있어야 잴 수 있으므로 여는 쪽은 전환 콜백 안에서 잰다.
+    */
+    const inner = panel.contains(toImage) ? toImage : fromImage;
+    const seed = () => {
+      const box = panel.getBoundingClientRect();
+      const shot = inner.getBoundingClientRect();
+      const gap = (n: number) => `${Math.max(0, Math.round(n))}px`;
+      document.documentElement.style.setProperty(
+        "--panel-seed",
+        `${gap(shot.top - box.top)} ${gap(box.right - shot.right)} ` +
+          `${gap(box.bottom - shot.bottom)} ${gap(shot.left - box.left)}`,
+      );
+    };
+    if (!opening) seed();
+
+    /*
+      날짜 페이지의 첫 카드에는 아카이브 더미와 이어지는 이름이 이미 붙어 있다.
+      끝나고 빈 값으로 되돌리면 그 이름이 사라져, 뒤로 갔을 때 더미로 되돌아가는
+      전환이 조용히 죽는다. 원래 값을 들고 있다가 그대로 돌려놓는다.
+    */
+    const held = new Map<HTMLElement, string>();
+    for (const el of [fromImage, toImage, panel]) {
+      held.set(el, el.style.viewTransitionName);
+    }
+
+    /*
+      이 전환과 상관없는 이름을 잠시 뗀다.
+
+      날짜 페이지의 첫 카드에는 더미와 이어지는 이름이 상시로 붙어 있다. 그대로
+      두고 <b>둘째 카드를 확대하면 그 첫 카드가 자기 이름 때문에 따로 떠올라</b>,
+      어두워진 배경 위에 혼자 밝게 남는다 — 확대와 아무 관계가 없는 카드다.
+      이름 붙은 요소는 루트 스냅샷에서 빠져 나와 그 위에 그려지기 때문이다.
+    */
+    const parked: [HTMLElement, string][] = [];
+    for (const other of document.querySelectorAll<HTMLElement>("[data-vt]")) {
+      if (held.has(other)) continue;
+      if (!other.style.viewTransitionName) continue;
+      parked.push([other, other.style.viewTransitionName]);
+      other.style.viewTransitionName = "";
+    }
+
+    /*
+      종이는 확대 뷰가 열려 있는 쪽에만 이름을 단다 — 여는 쪽에서는 "새로 생기는 것",
+      닫는 쪽에서는 "사라지는 것"이 되어 두 경우가 저절로 갈린다. 짝을 지으면 크기가
+      보간돼 글자가 눌리므로 일부러 한쪽에만 둔다.
+    */
+    if (!opening) panel.style.viewTransitionName = PANEL;
+
+    fromImage.style.viewTransitionName = MORPH;
+    const transition = document.startViewTransition(() => {
+      fromImage.style.viewTransitionName = "";
+      swap();
+      toImage.style.viewTransitionName = MORPH;
+      panel.style.viewTransitionName = opening ? PANEL : "";
+      if (opening) seed();
+    });
+    // 이름을 남겨 두면 다음 전환이 "이름이 둘"인 상태로 들어가 아무것도 안 움직인다.
+    transition.finished.finally(() => {
+      for (const [el, name] of held) el.style.viewTransitionName = name;
+      for (const [other, name] of parked) other.style.viewTransitionName = name;
+      delete document.documentElement.dataset.cardMorph;
+      document.documentElement.style.removeProperty("--panel-seed");
+    });
+  };
+
   for (const slide of document.querySelectorAll<HTMLElement>("[data-slide]")) {
     const shot = slide.querySelector<HTMLAnchorElement>(".shot");
     const expand = slide.querySelector<HTMLDialogElement>("[data-expand]");
     if (!shot || !expand) continue;
 
+    const shotImage = shot.querySelector<HTMLImageElement>("img");
+    const expandImage = expand.querySelector<HTMLImageElement>(".expand-shot");
+
+    const open = () => {
+      if (!shotImage || !expandImage) return expand.showModal();
+      morph(shotImage, expandImage, expand, () => expand.showModal());
+    };
+
+    const close = () => {
+      if (!expand.open) return;
+      if (!shotImage || !expandImage) return expand.close();
+      morph(expandImage, shotImage, expand, () => expand.close());
+    };
+
+    /*
+      확대는 가운데 카드에서만. 옆 카드를 누르면 그 카드를 가운데로 옮기고 끝난다 —
+      캐러셀에서 옆 카드를 누르는 것은 "저걸 보겠다"이지 "저걸 확대하겠다"가 아니다.
+
+      한때 옆 카드도 한 번에 확대했다. 가운데가 아닌 카드는 트랙 밖으로 잘려 있어
+      그대로 열면 전환이 잘리지 않은 카드 전체를 잡았다가 끝에서 잘린 모습으로
+      돌아가므로, 열기 직전에 즉시 가운데로 세워야 했다. 그러면 닫을 때 그 자리를
+      돌려주는 일이 또 따라붙어 <b>눌린 카드가 가운데로 왔다가 도로 밀려나는</b>
+      왕복이 남는다. 확대를 가운데 카드로 좁히면 잘림도 되돌리기도 처음부터 없다.
+    */
+    const centerOrOpen = () => {
+      if (slide.classList.contains("is-active")) return open();
+
+      slide.scrollIntoView({
+        behavior: quiet() ? "auto" : "smooth",
+        inline: "center",
+        block: "nearest",
+      });
+    };
+
     let startX = 0;
     let startY = 0;
 
+    /*
+      배선을 전부 `signal` 에 묶는다. DOM 이 교체되면 옛 요소와 함께 사라지므로
+      지금은 없어도 도는데, 같은 요소에 두 번 걸리면 확대가 두 번 열려 두 번째
+      `showModal` 이 던진다. 회수가 공짜라 굳이 그 위험을 남길 이유가 없다.
+    */
     shot.addEventListener(
       "pointerdown",
       (event) => {
         startX = event.clientX;
         startY = event.clientY;
       },
-      { passive: true },
+      { passive: true, signal },
     );
 
     shot.addEventListener("click", (event) => {
@@ -513,8 +858,8 @@ const imageBase = base.replace(/\/$/, "");
 
       // 끌었으면 아무 일도 일어나지 않는다. 나가지도, 확대되지도 않는다.
       event.preventDefault();
-      if (!dragged) expand.showModal();
-    });
+      if (!dragged) centerOrOpen();
+    }, { signal });
 
     // 바깥을 누르면 닫는다. dialog 자신이 배경까지 차지하므로 좌표로 가른다.
     expand.addEventListener("click", (event) => {
@@ -525,8 +870,23 @@ const imageBase = base.replace(/\/$/, "");
         event.clientX <= box.right &&
         event.clientY >= box.top &&
         event.clientY <= box.bottom;
-      if (!inside) expand.close();
-    });
+      if (!inside) close();
+    }, { signal });
+
+    /*
+      ESC 와 닫기 버튼은 원래 브라우저가 알아서 닫는다. 그대로 두면 그 두 경로만
+      효과 없이 툭 닫혀 열 때와 닫을 때가 어긋난다. 스크립트가 있을 때만 가로채고,
+      없으면 원래대로 닫힌다 — 닫히지 않는 상태는 어느 경우에도 만들지 않는다.
+    */
+    expand.addEventListener("cancel", (event) => {
+      event.preventDefault();
+      close();
+    }, { signal });
+
+    expand.querySelector("[data-close]")?.addEventListener("click", (event) => {
+      event.preventDefault();
+      close();
+    }, { signal });
   }
 
   for (const deck of document.querySelectorAll<HTMLElement>("[data-carousel]")) {
@@ -569,7 +929,11 @@ const imageBase = base.replace(/\/$/, "");
     const goTo = (target: number) => {
       const clamped = Math.min(Math.max(target, 0), slides.length - 1);
       // block: "nearest" 를 줘야 가로 이동이 페이지를 세로로 끌고 가지 않는다.
-      slides[clamped].scrollIntoView({ behavior, inline: "center", block: "nearest" });
+      slides[clamped].scrollIntoView({
+        behavior: quiet() ? "auto" : "smooth",
+        inline: "center",
+        block: "nearest",
+      });
     };
 
     let ticking = false;
@@ -583,26 +947,29 @@ const imageBase = base.replace(/\/$/, "");
           sync();
         });
       },
-      { passive: true },
+      { passive: true, signal },
     );
 
     // 슬라이드 폭이 뷰포트에 걸려 있어 창 크기가 바뀌면 중앙도 바뀐다.
-    addEventListener("resize", sync, { passive: true });
+    addEventListener("resize", sync, { passive: true, signal });
 
     track.addEventListener("keydown", (event) => {
       if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
       event.preventDefault(); // 기본 스크롤은 카드 단위가 아니라 픽셀 단위다
       goTo(index + (event.key === "ArrowRight" ? 1 : -1));
-    });
+    }, { signal });
 
-    prev?.addEventListener("click", () => goTo(index - 1));
-    next?.addEventListener("click", () => goTo(index + 1));
-    dots.forEach((dot, i) => dot.addEventListener("click", () => goTo(i)));
+    prev?.addEventListener("click", () => goTo(index - 1), { signal });
+    next?.addEventListener("click", () => goTo(index + 1), { signal });
+    dots.forEach((dot, i) => dot.addEventListener("click", () => goTo(i), { signal }));
 
     if (prev) prev.hidden = false;
     if (next) next.hidden = false;
     if (dotsList) dotsList.hidden = false;
     deck.dataset.enhanced = "";
     sync();
-  }
+    }
+  };
+
+  document.addEventListener("astro:page-load", setup);
 </script>
