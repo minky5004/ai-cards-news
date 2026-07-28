@@ -127,6 +127,10 @@ const short = (d: string) => d.slice(5).replace("-", ".");
   .pager a {
     text-decoration: none;
     color: var(--text-soft);
+    /* 캐러셀 화살표는 부드럽고 바로 아래 페이저는 툭 바뀌면 손맛이 갈린다. */
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .pager a:hover {

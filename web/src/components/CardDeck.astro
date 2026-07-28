@@ -23,10 +23,14 @@ const imageBase = base.replace(/\/$/, "");
   외부 캐러셀 라이브러리를 쓰지 않는 이유는 웹폰트를 안 싣는 것과 같다: 이 페이지가
   하는 일에 비해 지불이 크다.
 */}
+{/*
+  `data-unfold` 는 여기서 달지 않는다. 마크업에 박으면 더미에서 이어진 이동이
+  아닐 때에도 걸려, 새로고침이나 즐겨찾기 진입에서 첫 장만 있고 나머지가 비어
+  있는 화면이 뜬다. 이동 직전에 짝을 확인한 `Layout` 이 붙여 준다.
+*/}
 <section
   class="carousel"
   data-carousel
-  data-unfold={coverName ? "" : undefined}
   role="region"
   aria-roledescription="캐러셀"
   aria-label="카드 목록"
@@ -68,6 +72,7 @@ const imageBase = base.replace(/\/$/, "");
                 자리에만 CSS 속성으로 직접 준다.
               */}
               <img
+                data-vt={i === 0 && coverName ? coverName : undefined}
                 style={i === 0 && coverName ? `view-transition-name: ${coverName}` : undefined}
                 src={`${imageBase}${card.image}`}
                 width="1080"
@@ -259,6 +264,9 @@ const imageBase = base.replace(/\/$/, "");
     text-decoration: none;
     border-bottom: 1px solid transparent;
     padding-bottom: 1px;
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .meta a:hover {
@@ -446,6 +454,9 @@ const imageBase = base.replace(/\/$/, "");
     font-size: 13px;
     line-height: 1;
     cursor: pointer;
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .close:hover {
@@ -484,6 +495,9 @@ const imageBase = base.replace(/\/$/, "");
     font-weight: 600;
     color: var(--text-soft);
     text-decoration: none;
+    transition:
+      color 0.18s ease,
+      border-color 0.18s ease;
   }
 
   .detail .origin:hover {
@@ -513,31 +527,21 @@ const imageBase = base.replace(/\/$/, "");
 */}
 <style is:global>
   /*
-    `animation: none` 만으로는 안 된다 — 기본 애니메이션만 없어질 뿐 옛 화면이
-    불투명한 채로 얼어붙어, 전환이 끝날 때까지 캐러셀 전체가 확대 뷰를 덮는다.
-    사라질 화면은 즉시 지우고 새 화면은 즉시 세운다. 그래야 움직이는 것이
-    이름 붙인 카드 하나뿐이 된다.
-  */
-  html[data-card-morph]::view-transition-old(root) {
-    animation: none;
-    opacity: 0;
-  }
+    쌓임 순서가 이 연출의 전부다. 아래에서부터 페이지 → 패널 → 카드다.
 
-  html[data-card-morph]::view-transition-new(root) {
-    animation: none;
-    opacity: 1;
-    mix-blend-mode: normal;
-  }
-
-  /*
-    확대 뷰의 종이 패널. 여기에 이름을 주지 않으면 패널이 완성된 채로 즉시 나타나고
-    카드만 뒤늦게 딸려 올라가, 둘이 따로 노는 것으로 보인다. 카드가 자라는 동안
-    패널도 같이 서게 맞춘다. 패널 안의 카드 이미지는 자기 이름이 있어 이 스냅샷에서
-    빠지므로, 자라나는 카드가 그 빈자리로 정확히 들어간다.
-  */
-  /*
-    카드가 패널보다 위에 있어야 한다. 지정하지 않으면 패널이 불투명해지는 순간
+    카드가 패널보다 위여야 한다. 지정하지 않으면 패널이 불투명해지는 순간
     자라나는 카드를 덮어, 확대 뷰가 반쯤 빈 종이로 보이다가 카드가 튀어나온다.
+
+    한때 루트를 `animation: none; opacity: 0/1` 로 즉시 갈아 세웠다. 패널에 이름이
+    없던 시절 옛 화면이 불투명한 채 얼어붙어 확대 뷰를 덮었기 때문인데, 그 대가로
+    <b>화면이 어두워지는 것이 0프레임에 툭 켜졌다</b> — 어두운 배경은 새 루트에
+    딸려 있어 루트를 즉시 세우면 같이 즉시 켜진다. 닫을 때는 반대로 80ms 만에
+    통째로 밝아지고 패널 잔상만 남았다. 이제 패널이 z-index 1 로 제 자리를 지키므로
+    루트는 기본 교차 페이드로 되돌린다 — 두 루트는 어두워짐 말고는 같은 그림이라,
+    그 교차 페이드가 곧 배경이 서서히 깔리는 연출이 된다.
+
+    `data-card-morph` 는 `Layout` 도 본다. 거기서 페이지 이동에 거는 순차 페이드를
+    이 표시가 있을 때 비켜 준다 — 여기서 필요한 것이 정확히 그 반대이기 때문이다.
   */
   html[data-card-morph]::view-transition-group(card-panel) {
     z-index: 1;
@@ -577,8 +581,12 @@ const imageBase = base.replace(/\/$/, "");
     로 한다 — 데스크톱에서는 이웃 카드까지 온전히 보여서 교차 비율로는 가운데를
     가릴 수 없다.
   */
-  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const behavior: ScrollBehavior = reduceMotion ? "auto" : "smooth";
+  /*
+    설정을 켤 때마다 읽는다. 모듈 스코프에서 한 번만 재면 그 값이 페이지를 옮겨도
+    그대로 남아, 이용자가 도중에 설정을 바꿔도 반영되지 않는다 — 스크립트는 처음
+    한 번만 실행되기 때문이다.
+  */
+  const quiet = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /*
     배선을 함수로 묶어 `astro:page-load` 마다 다시 건다.
@@ -628,15 +636,13 @@ const imageBase = base.replace(/\/$/, "");
     panel: HTMLDialogElement,
     swap: () => void,
   ) => {
-    if (reduceMotion || !document.startViewTransition) {
+    if (quiet() || !document.startViewTransition) {
       swap();
       return;
     }
     /*
-      이름 붙인 카드만 자라고 나머지 화면은 그대로 있어야 한다. 표시가 없으면
-      브라우저가 화면 전체를 교차 페이드해서, 사라지는 옛 화면의 옆 카드들이 이미
-      떠 있는 확대 뷰 위로 비친다 — 카드가 여러 장 겹쳐 보이는 정체가 그것이다.
-      실제 연출은 아래 전역 스타일이 이 표시를 보고 끈다.
+      쌓임 순서를 지정하는 전역 스타일이 이 표시를 보고 켜진다. 문서 간 이동에는
+      걸리지 않아야 해서 morph 중에만 붙인다.
     */
     document.documentElement.dataset.cardMorph = "";
 
@@ -647,6 +653,22 @@ const imageBase = base.replace(/\/$/, "");
     */
     const fromName = from.style.viewTransitionName;
     const toName = to.style.viewTransitionName;
+
+    /*
+      이 전환과 상관없는 이름을 잠시 뗀다.
+
+      날짜 페이지의 첫 카드에는 더미와 이어지는 이름이 상시로 붙어 있다. 그대로
+      두고 <b>둘째 카드를 확대하면 그 첫 카드가 자기 이름 때문에 따로 떠올라</b>,
+      어두워진 배경 위에 혼자 밝게 남는다 — 확대와 아무 관계가 없는 카드다.
+      이름 붙은 요소는 루트 스냅샷에서 빠져 나와 그 위에 그려지기 때문이다.
+    */
+    const parked: [HTMLElement, string][] = [];
+    for (const other of document.querySelectorAll<HTMLElement>("[data-vt]")) {
+      if (other === from || other === to || other === panel) continue;
+      if (!other.style.viewTransitionName) continue;
+      parked.push([other, other.style.viewTransitionName]);
+      other.style.viewTransitionName = "";
+    }
 
     /*
       패널은 여는 쪽에서는 "새로 생기는 것", 닫는 쪽에서는 "사라지는 것"이다.
@@ -667,6 +689,7 @@ const imageBase = base.replace(/\/$/, "");
       to.style.viewTransitionName = toName;
       from.style.viewTransitionName = fromName;
       panel.style.viewTransitionName = "";
+      for (const [other, name] of parked) other.style.viewTransitionName = name;
       delete document.documentElement.dataset.cardMorph;
     });
   };
@@ -707,13 +730,18 @@ const imageBase = base.replace(/\/$/, "");
     let startX = 0;
     let startY = 0;
 
+    /*
+      배선을 전부 `signal` 에 묶는다. DOM 이 교체되면 옛 요소와 함께 사라지므로
+      지금은 없어도 도는데, 같은 요소에 두 번 걸리면 확대가 두 번 열려 두 번째
+      `showModal` 이 던진다. 회수가 공짜라 굳이 그 위험을 남길 이유가 없다.
+    */
     shot.addEventListener(
       "pointerdown",
       (event) => {
         startX = event.clientX;
         startY = event.clientY;
       },
-      { passive: true },
+      { passive: true, signal },
     );
 
     shot.addEventListener("click", (event) => {
@@ -728,7 +756,7 @@ const imageBase = base.replace(/\/$/, "");
       // 끌었으면 아무 일도 일어나지 않는다. 나가지도, 확대되지도 않는다.
       event.preventDefault();
       if (!dragged) centerThenOpen();
-    });
+    }, { signal });
 
     // 바깥을 누르면 닫는다. dialog 자신이 배경까지 차지하므로 좌표로 가른다.
     expand.addEventListener("click", (event) => {
@@ -740,7 +768,7 @@ const imageBase = base.replace(/\/$/, "");
         event.clientY >= box.top &&
         event.clientY <= box.bottom;
       if (!inside) close();
-    });
+    }, { signal });
 
     /*
       ESC 와 닫기 버튼은 원래 브라우저가 알아서 닫는다. 그대로 두면 그 두 경로만
@@ -750,12 +778,12 @@ const imageBase = base.replace(/\/$/, "");
     expand.addEventListener("cancel", (event) => {
       event.preventDefault();
       close();
-    });
+    }, { signal });
 
     expand.querySelector("[data-close]")?.addEventListener("click", (event) => {
       event.preventDefault();
       close();
-    });
+    }, { signal });
   }
 
   for (const deck of document.querySelectorAll<HTMLElement>("[data-carousel]")) {
@@ -798,7 +826,11 @@ const imageBase = base.replace(/\/$/, "");
     const goTo = (target: number) => {
       const clamped = Math.min(Math.max(target, 0), slides.length - 1);
       // block: "nearest" 를 줘야 가로 이동이 페이지를 세로로 끌고 가지 않는다.
-      slides[clamped].scrollIntoView({ behavior, inline: "center", block: "nearest" });
+      slides[clamped].scrollIntoView({
+        behavior: quiet() ? "auto" : "smooth",
+        inline: "center",
+        block: "nearest",
+      });
     };
 
     let ticking = false;
@@ -812,7 +844,7 @@ const imageBase = base.replace(/\/$/, "");
           sync();
         });
       },
-      { passive: true },
+      { passive: true, signal },
     );
 
     // 슬라이드 폭이 뷰포트에 걸려 있어 창 크기가 바뀌면 중앙도 바뀐다.
@@ -822,11 +854,11 @@ const imageBase = base.replace(/\/$/, "");
       if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
       event.preventDefault(); // 기본 스크롤은 카드 단위가 아니라 픽셀 단위다
       goTo(index + (event.key === "ArrowRight" ? 1 : -1));
-    });
+    }, { signal });
 
-    prev?.addEventListener("click", () => goTo(index - 1));
-    next?.addEventListener("click", () => goTo(index + 1));
-    dots.forEach((dot, i) => dot.addEventListener("click", () => goTo(i)));
+    prev?.addEventListener("click", () => goTo(index - 1), { signal });
+    next?.addEventListener("click", () => goTo(index + 1), { signal });
+    dots.forEach((dot, i) => dot.addEventListener("click", () => goTo(i), { signal }));
 
     if (prev) prev.hidden = false;
     if (next) next.hidden = false;
