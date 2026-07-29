@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T14:16:41.324Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49087091",
+      "headline": "클로드가 60시간 만에 양자 암호를 뚫었다",
+      "highlight": [
+        "60시간 만에"
+      ],
+      "body": "앤트로픽의 ‘클로드 미소스’가 차세대 양자 암호 후보 HAWK의 결함을 단 60시간 만에 찾아냈습니다. 약 10만 달러 비용으로 암호 키 강도를 절반으로 낮추는 공격법을 스스로 밝혀낸 것입니다. 실제 시스템 영향은 없지만 AI가 보안 검증을 주도할 가능성을 보여줍니다.",
+      "sourceUrl": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Object-LaptopSecure&backgroundColor=sky",
+      "publishedAt": "2026-07-28T17:22:16.000Z"
+    },
+    {
+      "clusterId": "hackernews:49089755",
+      "headline": "오픈AI가 코드 보안 취약점 찾고 고쳐준다",
+      "highlight": [
+        "보안 취약점"
+      ],
+      "body": "오픈AI가 코드 취약점을 찾고 수정하는 보안 도구를 공개했습니다. CLI와 타입스크립트 SDK로 제공되며 명령어 한 줄로 코드 점검을 수행합니다. 챗GPT 계정이나 API 키로 간편하게 보안 점검을 자동화할 수 있습니다.",
+      "sourceUrl": "https://github.com/openai/codex-security",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/0978f1ca9750b2feb640d7dd66f30f7f2b8ada144ebcc43709d605df320438d3/openai/codex-security",
+      "publishedAt": "2026-07-28T20:52:55.000Z"
+    },
+    {
+      "clusterId": "hackernews:49082706",
+      "headline": "구글 AI 지출 2050억 달러 폭증",
+      "highlight": [
+        "2050억 달러"
+      ],
+      "body": "구글이 AI 분야 예상 지출액을 최대 2050억 달러로 올리며 비용 예측에 실패했습니다. 벌어들이는 수익보다 지출이 큰 상황에서 경쟁사의 저가 공세까지 겹쳤습니다. 이에 따라 AI 거품론과 과잉 투자에 대한 월가의 불안감이 커지고 있습니다.",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKS501_STOCKS_CVIRGINIA_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-07-28T12:19:54.000Z"
+    },
+    {
+      "clusterId": "hackernews:49092499",
+      "headline": "앤드류 웅이 1억 달러 투자받은 AI 회사",
+      "highlight": [
+        "1억 달러"
+      ],
+      "body": "AI 거두 앤드류 웅이 코세라로부터 1억 달러를 투자받아 신생 AI 기업 '런벡터'를 설립했습니다. 챗봇의 단순 답변을 넘어 학습자 맞춤형 1 대 1 AI 교육 가이드를 제공하는 것이 목표입니다. 런벡터는 2027년 초 첫 성과물을 공개할 예정입니다.",
+      "sourceUrl": "https://learnvector.ai",
+      "sourceName": "LearnVector",
+      "imageUrl": "https://learnvector.ai/assets/social-card.jpg",
+      "publishedAt": "2026-07-29T01:49:19.000Z"
+    }
+  ]
+}

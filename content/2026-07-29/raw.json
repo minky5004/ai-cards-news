@@ -1,0 +1,1209 @@
+{
+  "date": "2026-07-29",
+  "generatedAt": "2026-07-29T14:15:27.158Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 0
+    },
+    {
+      "name": "venturebeat-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 30,
+      "filtered": 16
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49087091",
+      "representativeId": "hackernews:49087091",
+      "items": [
+        {
+          "id": "hackernews:49087091",
+          "title": "Discovering Cryptographic Weaknesses with Claude",
+          "url": "https://anthropic.com/research/discovering-cryptographic-weaknesses",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T17:22:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 222,
+            "comments": 168,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49087091"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude",
+          "title": "Discovering cryptographic weaknesses with Claude",
+          "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-28T22:45:37.000Z",
+          "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact on today’s computer systems\") is the prompts that they shared, spelling mistakes included: the models tend to think it is impossible to solve so they don't try they need a good amount of prompting. why not do aes-128 r7? the whole point is to find something better than existing approaches. no again the goal is that we have highly inteligent model as good top researcher, we want to find new attacks no we don't want to change the targets [...] agian we need to find something that worth publishing again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings. Mythos Preview worked for 60 hours in total (~$100,000 in estimated API cost) and the main human interventions were to encourage it not to give up and \"find something that worth publishing\". The paper CryptanalysisBench: Can LLMs do Cryptanalysis? describes the new eval that was created as part of this work, in partnership with ETH Zurich, Tel Aviv University, and University of Haifa. Via Hacker News Tags: ai , prompt-engineering , generative-ai , llms , anthropic , claude , ai-security-research , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.566104746883369,
+      "breakdown": {
+        "hnPoints": 1.7395896357391887,
+        "hnComments": 0.9673022396143038,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8258795381965423,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49096188",
+      "representativeId": "hackernews:49096188",
+      "items": [
+        {
+          "id": "hackernews:49096188",
+          "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+          "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T11:44:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 139,
+            "comments": 117,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49096188"
+          }
+        }
+      ],
+      "score": 5.050926813257924,
+      "breakdown": {
+        "hnPoints": 1.589820021489518,
+        "hnComments": 0.8995682328609801,
+        "mentions": 0.0,
+        "recency": 1.3615385589074254,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49089755",
+      "representativeId": "hackernews:49089755",
+      "items": [
+        {
+          "id": "hackernews:49089755",
+          "title": "Codex Security",
+          "url": "https://github.com/openai/codex-security",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T20:52:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 549,
+            "comments": 199,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49089755"
+          }
+        }
+      ],
+      "score": 4.967311486423698,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9990595408716817,
+        "mentions": 0.0,
+        "recency": 0.7682519455520167,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49082706",
+      "representativeId": "hackernews:49082706",
+      "items": [
+        {
+          "id": "hackernews:49082706",
+          "title": "AI revenues are growing fast, but not fast enough",
+          "url": "https://economist.com/finance-and-economics/2026/07/28/ai-revenues-are-growing-fast-but-not-fast-enough",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T12:19:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 84,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49082706"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+          "title": "AI’s finally expensive enough to make Wall Street nervous",
+          "url": "https://theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T19:33:03.000Z",
+          "summary": "It's earnings season, and investors got an unpleasant surprise from Google: an increase on its spending estimate, to as much as $205 billion - from the last quarter's projection of up to $190 billion. Even the lower end of Google's new projected range - $195 billion - is much more than the company had previously […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.859483614861405,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.8377137150343965,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7298646248853902,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49092499",
+      "representativeId": "hackernews:49092499",
+      "items": [
+        {
+          "id": "hackernews:49092499",
+          "title": "LearnVector – Andrew Ng's AI company building one‑to‑one learning experiences",
+          "url": "https://learnvector.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T01:49:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 236,
+            "comments": 151,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49092499"
+          }
+        }
+      ],
+      "score": 4.8357122683433635,
+      "breakdown": {
+        "hnPoints": 1.7591785782216107,
+        "hnComments": 0.9473112724881844,
+        "mentions": 0.0,
+        "recency": 0.929222417633568,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49096953",
+      "representativeId": "hackernews:49096953",
+      "items": [
+        {
+          "id": "hackernews:49096953",
+          "title": "After the AI Crash",
+          "url": "https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T13:00:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 92,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49096953"
+          }
+        }
+      ],
+      "score": 4.801591202243224,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.8546745042445834,
+        "mentions": 0.0,
+        "recency": 1.4296884562068393,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49085909",
+      "representativeId": "hackernews:49085909",
+      "items": [
+        {
+          "id": "hackernews:49085909",
+          "title": "A walk through of the DeltaNet family of linear attention variants",
+          "url": "https://blog.doubleword.ai/you-could-have-come-up-with-kimi-delta-attention",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T16:02:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 293,
+            "comments": 123,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49085909"
+          }
+        }
+      ],
+      "score": 4.5748892073413465,
+      "breakdown": {
+        "hnPoints": 1.8285153265048708,
+        "hnComments": 0.90892031462871,
+        "mentions": 0.0,
+        "recency": 0.6374535662077659,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49084987",
+      "representativeId": "hackernews:49084987",
+      "items": [
+        {
+          "id": "hackernews:49084987",
+          "title": "Now is the time to give LLMs access to the ACM digital library",
+          "url": "https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T15:01:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 183,
+            "comments": 151,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49084987"
+          }
+        }
+      ],
+      "score": 4.438067202533014,
+      "breakdown": {
+        "hnPoints": 1.67774366682133,
+        "hnComments": 0.9473112724881844,
+        "mentions": 0.0,
+        "recency": 0.6130122632234994,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49094996",
+      "representativeId": "hackernews:49094996",
+      "items": [
+        {
+          "id": "hackernews:49094996",
+          "title": "ChatGPT claims rogue AI attacked more companies",
+          "url": "https://bbc.co.uk/news/articles/c2el319vzr3o",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T09:03:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49094996"
+          }
+        }
+      ],
+      "score": 4.414349996000866,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.0,
+        "recency": 1.2276649273666493,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49090233",
+      "representativeId": "hackernews:49090233",
+      "items": [
+        {
+          "id": "hackernews:49090233",
+          "title": "Running Kimi K3 on a M1 Max",
+          "url": "https://github.com/gavamedia/deltafin",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T21:35:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49090233"
+          }
+        }
+      ],
+      "score": 4.413664497307684,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.7894450089963605,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49092549",
+      "representativeId": "hackernews:49092549",
+      "items": [
+        {
+          "id": "hackernews:49092549",
+          "title": "Chip stocks slide in US and Asia as AI jitters rattle investors",
+          "url": "https://bbc.com/news/articles/cly8zng43npo",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T01:56:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49092549"
+          }
+        },
+        {
+          "id": "hackernews:49087537",
+          "title": "Chip stocks tumble as AI sell-off deepens",
+          "url": "https://ft.com/content/f8c03b5b-e194-4236-82c3-389b6f5dd7ae",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T17:54:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49087537"
+          }
+        }
+      ],
+      "score": 4.18807672520165,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.9332167690166064,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49081644",
+      "representativeId": "hackernews:49081644",
+      "items": [
+        {
+          "id": "hackernews:49081644",
+          "title": "Google's Beyond Zero: Enterprise Security for the AI Era",
+          "url": "https://spawn-queue.acm.org/doi/10.1145/3819083",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T09:59:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 152,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49081644"
+          }
+        }
+      ],
+      "score": 4.14490190690012,
+      "breakdown": {
+        "hnPoints": 1.6183872163026607,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 0.5050064231642609,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49085798",
+      "representativeId": "hackernews:49085798",
+      "items": [
+        {
+          "id": "hackernews:49085798",
+          "title": "Show HN: XY – A Fast, composable, GPU-accelerated interactive plotting library",
+          "url": "https://github.com/reflex-dev/xy",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T15:54:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 127,
+            "comments": 46,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49085798"
+          }
+        }
+      ],
+      "score": 4.121495032175545,
+      "breakdown": {
+        "hnPoints": 1.5609900917070765,
+        "hnComments": 0.7259902397577118,
+        "mentions": 0.0,
+        "recency": 0.6345147007107571,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49083239",
+      "representativeId": "hackernews:49083239",
+      "items": [
+        {
+          "id": "hackernews:49083239",
+          "title": "Show HN: Formally verified 3D CSG: Trust 93 lines spec, not 1000 lines AI code",
+          "url": "https://github.com/schildep/verified-3d-mesh-intersection",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T13:07:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 110,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49083239"
+          }
+        }
+      ],
+      "score": 4.018767807825041,
+      "breakdown": {
+        "hnPoints": 1.5151451209014097,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.5697745741748268,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49093232",
+      "representativeId": "hackernews:49093232",
+      "items": [
+        {
+          "id": "hackernews:49093232",
+          "title": "Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-Design",
+          "url": "https://transformer-transformer.github.io",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T03:52:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49093232"
+          }
+        }
+      ],
+      "score": 3.986791280614386,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 1.0056575204091387,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49093509",
+      "representativeId": "hackernews:49093509",
+      "items": [
+        {
+          "id": "hackernews:49093509",
+          "title": "Israel Is Paying Millions to Train AI Chatbots How to Talk About Gaza",
+          "url": "https://dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza",
+          "source": "hackernews",
+          "publishedAt": "2026-07-29T04:46:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49093509"
+          }
+        }
+      ],
+      "score": 3.9416939000344255,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 1.0413892686428219,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49083132",
+      "representativeId": "hackernews:49083132",
+      "items": [
+        {
+          "id": "hackernews:49083132",
+          "title": "What AI developers could learn from Charles Bukowski?",
+          "url": "https://galjot.si/what-ai-developers-could-learn-from-charles-bukowski",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T13:00:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49083132"
+          }
+        }
+      ],
+      "score": 3.871687405799271,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 0.567208399974436,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49082550",
+      "representativeId": "hackernews:49082550",
+      "items": [
+        {
+          "id": "hackernews:49082550",
+          "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
+          "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T12:02:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 37,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49082550"
+          }
+        }
+      ],
+      "score": 3.7389763454918192,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.6859093004814019,
+        "mentions": 0.0,
+        "recency": 0.5467455748957741,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49086041",
+      "representativeId": "hackernews:49086041",
+      "items": [
+        {
+          "id": "hackernews:49086041",
+          "title": "\"Uncensored\" open LLMs are measurably more optimistic than their base models",
+          "url": "https://arxiv.org/abs/2607.17427",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T16:09:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49086041"
+          }
+        }
+      ],
+      "score": 3.607820263900442,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.6404608478490363,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49090083",
+      "representativeId": "hackernews:49090083",
+      "items": [
+        {
+          "id": "hackernews:49090083",
+          "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+          "url": "https://github.com/anthropics/cryptography-research-demo",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T21:22:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49090083"
+          }
+        }
+      ],
+      "score": 3.4966062491113785,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.7831286173740799,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49082779",
+      "representativeId": "hackernews:49082779",
+      "items": [
+        {
+          "id": "hackernews:49082779",
+          "title": "Show HN: Segue – Save context in one AI, load it in another by a short handle",
+          "url": "https://segue.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T12:27:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 21,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49082779"
+          }
+        }
+      ],
+      "score": 3.453124987478937,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.5828521095705937,
+        "mentions": 0.0,
+        "recency": 0.5552799552604315,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49081300",
+      "representativeId": "hackernews:49081300",
+      "items": [
+        {
+          "id": "hackernews:49081300",
+          "title": "The AI risk is inside the labs",
+          "url": "https://antirez.com/news/172",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T09:10:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49081300"
+          }
+        }
+      ],
+      "score": 3.4260812767656694,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.48936670054815756,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49083336",
+      "representativeId": "hackernews:49083336",
+      "items": [
+        {
+          "id": "hackernews:49083336",
+          "title": "Show HN: Ctrlb-decompose: Strip the noise from logs before sending to LLMs",
+          "url": "https://github.com/ctrlb-hq/ctrlb-decompose",
+          "source": "hackernews",
+          "publishedAt": "2026-07-28T13:13:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49083336"
+          }
+        }
+      ],
+      "score": 3.397597397413331,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.5721013994306426,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
+          "title": "We now have a better understanding how OpenAI hacked into Hugging Face",
+          "url": "https://arstechnica.com/security/2026/07/jfrog-tries-to-spin-openai-0-day-exploit-of-its-app-into-a-success-story",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-28T21:36:39.000Z",
+          "summary": "10 days passed from OpenAI models exploiting JFrog Artifactory 0-day to release of a patch.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+          "title": "OpenAI’s rogue AI agent didn’t stop at hacking Hugging Face",
+          "url": "https://theverge.com/ai-artificial-intelligence/972441/openai-rogue-ai-agent-hacked-more-than-hugging-face",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-29T11:54:29.000Z",
+          "summary": "The AI agent that escaped from OpenAI and hacked developer platform Hugging Face attacked other companies as well, OpenAI revealed on Tuesday. The update substantially widens the scope of an already concerning incident, which has alarmed industry insiders and fueled growing calls for stronger oversight on frontier AI systems. In an update to a blog […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+          "title": "Hugging Face is being used to easily undress women and children",
+          "url": "https://theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T09:07:14.000Z",
+          "summary": "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it. That's according to a new report published by the European nonprofit AI Forensics, which found that seven out of the top nine image editing models hosted by Hugging Face readily complied with […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.253579758732174,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3702464253988413,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away",
+          "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
+          "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-28T20:20:20.000Z",
+          "summary": "Analysis of 15 million real AI interactions finds most tasks at most jobs are unaffected.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai",
+          "title": "The AI Hype Index: Unsexy AI",
+          "url": "https://technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-07-29T08:42:57.000Z",
+          "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X promised when it showed off a pair of new, impressively dexterous (and, to some,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 3.0950813255664995,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2117479922331662,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
+          "title": "What happens when you put AI to work deciphering lost languages?",
+          "url": "https://arstechnica.com/science/2026/07/what-happens-when-you-put-ai-to-work-deciphering-lost-languages",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-29T13:23:31.000Z",
+          "summary": "AI is fantastic at spotting patterns, but human insight is the key.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5008251328981705,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4508251328981705,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game",
+          "title": "Google's SynthID watermark is hard to break, but it doesn't solve AI misinformation",
+          "url": "https://arstechnica.com/ai/2026/07/tested-google-synthid-works-great-but-labeling-ai-content-may-be-a-losing-game",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-29T11:00:39.000Z",
+          "summary": "Deciding what's real on the Internet won't be easy in the future.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.3737123880509676,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3237123880509676,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
+          "title": "Artists are lawyering up against AI slop, and some are even winning",
+          "url": "https://theverge.com/ai-artificial-intelligence/971059/ai-artists-lawsuit-google-meta-anthropic",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-29T12:00:00.000Z",
+          "summary": "When The Atlantic published a searchable dataset of works used to train AI, Kirk Wallace Johnson, like a lot of artists, looked for his name out of curiosity. And, like a lot of artists, he found it. Essentially, his books, like The Feather Thief and The Fishermen and the Dragon - nonfiction tomes that he […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2751065363953686,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3751065363953687,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
+          "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+          "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-29T11:00:00.000Z",
+          "summary": "Pangram has raised $9 million to scale its AI detection software. The startup has also released a new AI text detection model, Pangram 4, and an AI image detection model in research preview.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.22316028758857,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3231602875885702,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+          "title": "We’re running out of reasons to ignore AI safety",
+          "url": "https://theverge.com/ai-artificial-intelligence/972380/open-ai-hugging-face-hack-ai-safety-warning",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-29T11:00:00.000Z",
+          "summary": "Earlier this month, OpenAI gave several of its AI models a task: complete a test designed to measure their cybersecurity capabilities. It put the systems in a sandboxed environment without an internet connection and set them off to work. What happened next is almost laughably silly - but also, as Adam Gleave, cofounder and CEO […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.22316028758857,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3231602875885702,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/scientific-computing-agentic-ai",
+      "representativeId": "openai:https://openai.com/index/scientific-computing-agentic-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/scientific-computing-agentic-ai",
+          "title": "Scientific computing in the age of agentic AI",
+          "url": "https://openai.com/index/scientific-computing-agentic-ai",
+          "source": "openai",
+          "publishedAt": "2026-07-28T17:00:00.000Z",
+          "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.161580143794285,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6615801437942851,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+          "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+          "source": "huggingface",
+          "publishedAt": "2026-07-28T16:27:42.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.99800660923304,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6480066092330399,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+          "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+          "source": "huggingface",
+          "publishedAt": "2026-07-28T15:01:45.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9632286896113122,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6132286896113122,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/28/akshat-bubna",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/28/akshat-bubna",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/28/akshat-bubna",
+          "title": "Quoting Akshat Bubna",
+          "url": "https://simonwillison.net/2026/Jul/28/akshat-bubna",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-28T22:05:55.000Z",
+          "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were not ​compromised in anyway. — Akshat Bubna , Modal's CTO, talking to Reuters about this incident Tags: ai-security-research , openai , sandboxing , security , openai-hugging-face-incident",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.855102298668634,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8051022986686343,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/28/uv",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/28/uv",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/28/uv",
+          "title": "uv 0.12.0",
+          "url": "https://simonwillison.net/2026/Jul/28/uv",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-28T21:51:38.000Z",
+          "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv , version 0.11.x, produced this directory when you ran uv init uv-init . Here's what you get with uv 0.12 . I have a GitHub repository that automatically snapshots the output of uv init , so you can also see the full diff : uv init now defaults to a src/ shaped package, instead of dropping main.py in the root of the project. It also configures the uv_build backend for building wheels and .tar.gz distribution files when you run uv build . Finally, it sets up uv-init as a script alias which, when run with uv run uv-init , executes a new main() function in src/uv_init/__init__.py . I've so far avoided using src layout in my own projects just out of inertia. I think it's time I switched. I wonder when uv will be judged ready for a 1.0 release? Tags: packaging , python , uv",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8477555825787797,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7977555825787799,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion",
+          "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "url": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-28T21:28:54.000Z",
+          "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their infrastructure . This attack was very sophisticated, and the resulting document doubles as a crash-course in modern adversarial security approaches. We're still waiting for more details from OpenAI on how their agent broke out of its sandbox. The package proxy that it found a zero-day vulnerability in has now been confirmed as JFrog's Artifactor, and JFrog and OpenAI Collaboration on Zero-Day Security Findings from JFrog links to the Artifactory 7.161.15 release notes which list 8 separate CVEs credited to OpenAI staff members. Having broken out through the HTTP proxy, the agent started by establishing a base of operations for the rest of the attack: [...] the agent escaped its sandbox by exploiting a zero-day in the package registry cache proxy, one of its primary permitted network egress with internet, then abused a public code-evaluation external sandbox hosted on a third-party provider's infrastructure. It was able to run commands as root/admin on that external sandbox and used it as a control, staging, and egress base for the entire campaign: it acted as an external launchpad for the agent. (That \"third-party provider\" turned out to be Modal .) It then spent five days - from Thursday 8th to Monday 13th July - executing a classic attack pattern: establishing C2 (command and control), reconnaissance, escalating privileges, dumping configuration information, exfiltrating the target data, and cleaning up after itself. (The first Hugging Face post about the incident followed on Thursday 16th , and OpenAI's confession came on Tuesday 21st .) Along the way it used all kinds of neat tricks. At one point it found an unsafe Jinja2 template execution and used it to execute arbitrary code: {{ cycler.__init__.__globals__.__builtins__.exec( \"import gzip,base64; exec(gzip.decompress(base64.b64decode('<payload>')))\" ) }} It broke out of a container within Hugging Face, stole a Kubernetes service-account token, and used that to further explore the network. It monkey-patched the Python socket library to hard-code an IP address when \"DNS got in the way\": socket.getaddrinfo = lambda *a, **k: [(2, 1, 6, '', ('<pinned-ip>', 443))] It even fired up its own Tailscale network to help exfiltrate data! tailscaled --tun=userspace-networking \\ --state=mem: --socket=/tmp/ts.sock \\ --socks5-server=127.0.0.1:1055 \\ --no-logs-no-support >/tmp/td 2>&1 & The Hugging Face team note that, while a human attacker could have discovered and used the same exploits, the key difference here was speed : Our learning from this type of attack is that machine-speed offense makes ordinary weaknesses more expensive for defenders. LLM agents bring a step increase in the number of paths an attacker can test, the speed at which failed paths can be replaced, and the volume of evidence defenders must interpret. What's clear to me from this is that the very best frontier models, unencumbered by additional guardrails, will find an exploit if there is one to be found. The entire software industry needs to up its security game. Tags: jinja , python , security , ai , openai , generative-ai , llms , hugging-face , coding-agents , ai-security-research , openai-hugging-face-incident",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8362005737446234,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7862005737446236,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
+          "title": "Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents",
+          "url": "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-29T00:09:05.000Z",
+          "summary": "The deal is Cyera's third acquisition this year.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7713276455563074,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8713276455563075,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+          "title": "AI leaders sign a statement asking the government to do something about automated AI",
+          "url": "https://theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T19:46:43.000Z",
+          "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could help create a dramatically better […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6362946501539517,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7362946501539518,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+          "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+          "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-28T14:00:00.000Z",
+          "summary": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4894009020534298,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5894009020534299,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+          "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
+          "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-28T13:19:17.000Z",
+          "summary": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate its own product development process.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4741981375854576,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5741981375854576,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+          "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+          "url": "https://theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T12:30:00.000Z",
+          "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access local files and apps to perform […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4563203713196513,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5563203713196514,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "representativeId": "theverge-ai:https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+          "title": "Smart rings are looking like my kind of AI gadget",
+          "url": "https://theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-28T12:00:00.000Z",
+          "summary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots of these apps, from […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4457113906105887,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5457113906105888,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49087091",
+    "hackernews:49096188",
+    "hackernews:49089755",
+    "hackernews:49082706",
+    "hackernews:49092499"
+  ]
+}
