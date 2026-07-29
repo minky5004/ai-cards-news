@@ -1,5 +1,6 @@
 ---
 import type { GetStaticPaths } from "astro";
+import ArchiveGrid from "../../components/ArchiveGrid.astro";
 import CardDeck from "../../components/CardDeck.astro";
 import Layout from "../../layouts/Layout.astro";
 import { formatDate, listDays, type Day } from "../../lib/content";
@@ -8,19 +9,30 @@ export const getStaticPaths = (() => {
   const days = listDays();
   return days.map((day, i) => ({
     params: { date: day.date },
+    /*
+      앞뒤 하나씩과 목록 전체를 함께 넘긴다. 페이저는 옆날로 새는 동작이고 격자는
+      아무 날로 가는 동작이라, 하나가 다른 하나를 대신하지 못한다.
+    */
     // 아카이브는 날짜순으로 앞뒤를 오갈 수 있어야 한다. 목록은 최신순이라 다음 날이 앞이다.
-    props: { day, newer: days[i - 1] ?? null, older: days[i + 1] ?? null },
+    props: { day, days, newer: days[i - 1] ?? null, older: days[i + 1] ?? null },
   }));
 }) satisfies GetStaticPaths;
 
 interface Props {
   day: Day;
+  days: Day[];
   newer: Day | null;
   older: Day | null;
 }
 
-const { day, newer, older } = Astro.props;
+const { day, days, newer, older } = Astro.props;
 const base = import.meta.env.BASE_URL;
+
+/*
+  보고 있는 날짜는 뺀다. 섹션 이름이 "다른 발행" 이기도 하고, 07.28 을 보는 중에
+  07.28 더미를 누르면 같은 페이지로 가는 막다른 길이 된다.
+*/
+const others = days.filter((d) => d.date !== day.date);
 
 const [year, month, dayOfMonth] = day.date.split("-");
 
@@ -72,6 +84,21 @@ const short = (d: string) => d.slice(5).replace("-", ".");
       )
     }
   </nav>
+
+  {/*
+    페이저 아래에 둔다. 범위가 좁은 것에서 넓은 것 순서다 — 페이저는 옆날 하나,
+    격자는 아무 날. 이 격자가 없던 동안에는 특정 날짜로 가는 길이 이전/다음
+    연타뿐이었고, 홈 아카이브도 여덟 개에서 끊겨 있어 오래된 날짜에 닿을 방법이
+    사실상 없었다.
+  */}
+  {
+    others.length > 0 && (
+      <section class="others">
+        <p class="eyebrow">다른 발행</p>
+        <ArchiveGrid days={others} />
+      </section>
+    )
+  }
 </Layout>
 
 <style>
@@ -172,5 +199,16 @@ const short = (d: string) => d.slice(5).replace("-", ".");
 
   .home:hover {
     border-bottom-color: var(--accent);
+  }
+
+  /* 홈의 `지난 발행` 과 같은 간격·괘선. 두 페이지가 같은 장부의 다른 행으로 읽힌다. */
+  .others {
+    padding: clamp(28px, 6vw, 56px) 0 0;
+  }
+
+  .others .eyebrow {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 12px;
+    margin-bottom: clamp(24px, 3.5vw, 38px);
   }
 </style>
