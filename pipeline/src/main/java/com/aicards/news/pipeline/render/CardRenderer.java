@@ -47,6 +47,20 @@ public final class CardRenderer implements AutoCloseable {
     /** 눈으로 차이가 안 보이는 선까지만 줄인다. 매일 5장이 리포에 영구히 쌓인다. */
     private static final float QUALITY = 0.9f;
 
+    /**
+     * 스크랩과 테이프의 자리 변주.
+     *
+     * <p>다섯 장이 전부 같은 각도로 정렬돼 있으면 붙인 것으로 안 보인다 — 인쇄된 것으로 보인다.
+     * 난수가 아니라 카드 번호로 고르므로 같은 날짜를 다시 렌더해도 결과가 같다.
+     */
+    private static final String[] TILT = {"-1.5deg", "1.1deg", "-0.8deg", "1.6deg", "-1.2deg"};
+
+    private static final String[] TAPE_X = {"258px", "196px", "320px", "232px", "286px"};
+
+    private static final String[] TAPE_TILT = {
+        "-3.4deg", "2.6deg", "-1.8deg", "3.2deg", "-2.4deg"
+    };
+
     private final Playwright playwright;
     private final Browser browser;
     private final Page page;
@@ -117,15 +131,21 @@ public final class CardRenderer implements AutoCloseable {
         String thumbnail = thumbnail(card);
         boolean imageOk = !thumbnail.isEmpty();
 
+        int variantSlot = (index - 1) % TILT.length;
+
         Map<String, String> values = new HashMap<>(fonts);
         values.put("date", date.replace('-', '.'));
         values.put("thumbnail", thumbnail);
-        // 이미지가 없는 카드는 타이포 포스터로 간다. 판정은 템플릿의 CSS 가 이 클래스로 한다.
-        values.put("variant", imageOk ? "" : "no-image");
+        // 붙일 이미지가 없는 카드는 아무것도 안 붙인 포스트잇이 된다. 판정은 템플릿의 CSS 가 한다.
+        values.put("variant", imageOk ? "" : "bare");
         values.put("headline", Markup.headline(card.headline(), card.highlight()));
+        values.put("body", Markup.escape(card.body()));
         values.put("sourceName", Markup.escape(card.sourceName()));
         values.put("index", String.valueOf(index));
         values.put("total", String.valueOf(total));
+        values.put("tilt", TILT[variantSlot]);
+        values.put("tapeX", TAPE_X[variantSlot]);
+        values.put("tapeTilt", TAPE_TILT[variantSlot]);
 
         page.setContent(Templates.render(Paths.templatesDir().resolve(TEMPLATE), values));
         // 웹폰트는 load 이벤트와 별개로 끝난다. 기다리지 않으면 폴백 폰트로 찍힌 카드가 나온다.
@@ -146,23 +166,26 @@ public final class CardRenderer implements AutoCloseable {
      * <p>카드가 잘려 나가도 이미지만 보고는 알아채기 어렵다. 숫자로 남겨야 카피 길이 상한을 실측으로
      * 정할 수 있다.
      *
-     * <p>텍스트 덩어리({@code .stack})의 실제 높이를 글자가 놓일 수 있는 높이와 직접 견준다.
-     * 스크롤 높이를 보는 방식은 여기서 쓸 수 없다 — 포스터형은 텍스트가 카드 하단에 정렬돼 있어
-     * 넘치면 <b>위로</b> 밀려 나가는데, 위로 벗어난 부분은 {@code scrollHeight} 에 잡히지 않는다.
-     * 그러면 지표가 어떤 카피에도 0 을 돌려주고, <b>항상 0 을 내는 지표는 통과했다는 착각만 준다</b>
-     * (PR #11 의 넘침 감지가 정확히 그 상태였다).
+     * <p>내용 덩어리({@code .stack})의 실제 높이를 글자가 놓일 수 있는 높이와 직접 견준다. 이 계산이
+     * 성립하려면 내용이 <b>위에서부터</b> 쌓여야 한다 — 아래 정렬이면 넘친 부분이 위로 벗어나는데
+     * 위로 벗어난 부분은 {@code scrollHeight} 에 잡히지 않는다. 그러면 지표가 어떤 카피에도 0 을
+     * 돌려주고, <b>항상 0 을 내는 지표는 통과했다는 착각만 준다</b>(PR #11 의 넘침 감지가 정확히 그
+     * 상태였다).
+     *
+     * <p>뱃지와 메타는 흐름에서 빠져 카드 위아래에 고정돼 있고 그 자리는 {@code .sheet} 의 패딩으로
+     * 잡혀 있다. 그래서 패딩 안쪽 높이가 그대로 글이 놓일 수 있는 높이가 된다.
      */
     private int overflowPx() {
         Object measured =
                 page.evaluate(
                         """
                         () => {
-                          const box = document.querySelector(".content");
+                          const sheet = document.querySelector(".sheet");
                           const stack = document.querySelector(".stack");
-                          if (!box || !stack) return 0;
-                          const style = getComputedStyle(box);
+                          if (!sheet || !stack) return 0;
+                          const style = getComputedStyle(sheet);
                           const room =
-                            box.clientHeight
+                            sheet.clientHeight
                             - parseFloat(style.paddingTop)
                             - parseFloat(style.paddingBottom);
                           return Math.max(0, Math.round(stack.scrollHeight - room));
