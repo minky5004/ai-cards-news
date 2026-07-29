@@ -1,0 +1,99 @@
+---
+import DayStack from "./DayStack.astro";
+import type { Day } from "../lib/content";
+
+interface Props {
+  /** 실을 날짜. 최신순으로 들어온다. */
+  days: Day[];
+}
+
+const { days } = Astro.props;
+
+/*
+  월이 바뀌는 자리에만 표시를 세운다. 첫 무리 앞에는 붙이지 않는다 — 그 자리는
+  이미 섹션 라벨("지난 발행" · "다른 발행")이 이고 있어서, 겹쳐 놓으면 라벨이
+  두 겹으로 쌓인다.
+*/
+const rows = days.map((day, i) => ({
+  day,
+  mark:
+    i > 0 && day.date.slice(0, 7) !== days[i - 1].date.slice(0, 7)
+      ? day.date.slice(0, 7).replace("-", ".")
+      : null,
+}));
+---
+
+{/*
+  발행일 더미를 자르지 않고 전부 늘어놓는다.
+
+  한때 여덟 개에서 끊었다. 홈 하단이 길어지는 것을 걱정한 판단이었는데, 이
+  사이트가 증명해야 하는 것이 <b>얼마나 오래 빠짐없이 돌았는가</b>라 잘라 내면
+  100일을 돌려도 화면은 영영 여드레짜리로 보인다. 길이는 비용이 아니라 결과물이다.
+
+  표지 이미지가 {@code loading="lazy"} 라 화면에 든 더미만 실제로 내려받는다.
+  그래서 400일이 쌓여도 초기 로드는 여덟 장이고, 점진 로딩 스크립트를 따로
+  얹을 이유가 없다 — 스크롤을 내리면 나오는 동작이 이미 성립한다.
+*/}
+<div class="grid">
+  {
+    rows.map(({ day, mark }) => (
+      <>
+        {mark && <p class="mark">{mark}</p>}
+        <DayStack day={day} />
+      </>
+    ))
+  }
+</div>
+
+<style>
+  /*
+    더미가 위·오른쪽으로 삐져나오므로 칸 사이를 넉넉히 둔다. 좁히면 펼쳐진
+    더미가 이웃 칸을 침범한다.
+
+    열 수는 auto-fill 로 두지 않고 못박는다. 아카이브는 훑어보는 곳이라 칸이
+    화면 폭을 다 먹으면 안 된다 — 모바일에서 1열이면 스크롤이 3000px 를 넘겼다.
+  */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: clamp(32px, 4vw, 52px) clamp(18px, 3vw, 36px);
+  }
+
+  /*
+    달이 바뀌는 자리. 격자 폭을 통째로 차지해 그 아래가 새 줄에서 시작한다 —
+    선 하나로 나누는 것이 아니라 <b>줄을 끊어</b> 나누므로, 달의 경계가 격자
+    구조 자체에 드러난다.
+  */
+  .mark {
+    grid-column: 1 / -1;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: var(--text-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 라벨에서 뻗어 나가는 괘선. 이 사이트가 날짜를 괘선 위에 앉히는 방식 그대로다. */
+  .mark::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: var(--rule);
+  }
+
+  @media (min-width: 640px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (min-width: 900px) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+</style>

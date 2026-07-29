@@ -1,18 +1,11 @@
 ---
+import ArchiveGrid from "../components/ArchiveGrid.astro";
 import CardDeck from "../components/CardDeck.astro";
-import DayStack from "../components/DayStack.astro";
 import Layout from "../layouts/Layout.astro";
 import { listDays } from "../lib/content";
 
 const days = listDays();
 const [latest, ...past] = days;
-
-/*
-  매일 한 줄씩 쌓이는 사이트라 묶지 않으면 한 달 뒤 홈 하단이 더미 30개로 길어진다.
-  두 줄(데스크톱 4열 기준)까지만 싣고, 그보다 오래된 날짜는 상세 페이지의
-  이전/다음 이동으로 닿는다 — 연·월 묶음이나 전체 아카이브 페이지는 별도 작업이다.
-*/
-const archive = past.slice(0, 8);
 
 const parts = latest ? latest.date.split("-") : null;
 ---
@@ -43,15 +36,10 @@ const parts = latest ? latest.date.split("-") : null;
 
         <CardDeck cards={latest.cards} />
 
-        {archive.length > 0 && (
+        {past.length > 0 && (
           <section class="archive">
             <p class="eyebrow">지난 발행</p>
-
-            <div class="grid">
-              {archive.map((day) => (
-                <DayStack day={day} />
-              ))}
-            </div>
+            <ArchiveGrid days={past} />
           </section>
         )}
       </>
@@ -139,28 +127,4 @@ const parts = latest ? latest.date.split("-") : null;
     margin-bottom: clamp(24px, 3.5vw, 38px);
   }
 
-  /*
-    더미가 위·오른쪽으로 삐져나오므로 칸 사이를 넉넉히 둔다. 좁히면 펼쳐진
-    더미가 이웃 칸을 침범한다.
-
-    열 수는 auto-fill 로 두지 않고 못박는다. 아카이브는 훑어보는 곳이라 칸이
-    화면 폭을 다 먹으면 안 된다 — 모바일에서 1열이면 스크롤이 3000px 를 넘겼다.
-  */
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: clamp(32px, 4vw, 52px) clamp(18px, 3vw, 36px);
-  }
-
-  @media (min-width: 640px) {
-    .grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (min-width: 900px) {
-    .grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
 </style>
