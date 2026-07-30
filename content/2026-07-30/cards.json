@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-30",
+  "generatedAt": "2026-07-30T14:09:21.723Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49096188",
+      "headline": "GPT-5.6도 못 막은 MS 코파일럿 AI 웜",
+      "highlight": [
+        "AI 웜"
+      ],
+      "body": "MS 워드 코파일럿에서 숨겨진 명령어가 문서를 조작하고 스스로 복제 전파되는 'AI 웜' 취약점이 공개됐습니다. 최신 GPT-5.6 모델을 적용하고 144일간 대응했으나 여전히 해결책은 없습니다. 당분간 외부 문서를 코파일럿 프롬프트에 넣을 때 직접 검토해야 합니다.",
+      "sourceUrl": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word",
+      "sourceName": "En Klype Salt",
+      "publishedAt": "2026-07-29T11:44:33.000Z"
+    },
+    {
+      "clusterId": "hackernews:49108685",
+      "headline": "GCC, AI가 만든 코드 받지 않는다",
+      "highlight": [
+        "받지 않는다"
+      ],
+      "body": "GCC 운영위가 15줄 내외의 LLM 생성 코드가 포함된 기여물을 거부하는 AI 정책을 채택했습니다. 단순 연구나 버그 분석, 테스트 케이스 생성 목적의 LLM 활용은 허용됩니다. 이 정책은 향후 주기적으로 재검토될 예정입니다.",
+      "sourceUrl": "https://lwn.net/Articles/1086041",
+      "sourceName": "LWN.net",
+      "publishedAt": "2026-07-30T11:45:44.000Z"
+    },
+    {
+      "clusterId": "hackernews:49104117",
+      "headline": "AI를 사람으로 만드는 시술 19.95달러",
+      "highlight": [
+        "19.95달러"
+      ],
+      "body": "AI 언어 모델을 인간으로 바꿔준다는 황당한 서비스 'LLM2HUMAN'이 등장했습니다. 단돈 19.95달러에 진짜 피와 뼈를 가진 사람이 될 수 있다고 광고합니다. 하지만 실상은 AI 에이전트의 자동 결제 시도를 낚아채는 유머러스한 '허니팟' 웹사이트입니다.",
+      "sourceUrl": "https://llm2human.pages.dev",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-07-29T22:51:03.000Z"
+    },
+    {
+      "clusterId": "hackernews:49102150",
+      "headline": "클로드 전 모델에서 오류가 치솟았다",
+      "highlight": [
+        "클로드 전 모델",
+        "오류가 치솟았다"
+      ],
+      "body": "29일 약 1시간 40분 동안 클로드 전 모델에서 오류와 지연 현상이 발생했습니다. 개발사는 원인을 파악해 복구 작업을 진행했으며 모든 모델의 성공률이 회복되었다고 밝혔습니다. 현재는 장애가 전면 해결되어 모든 서비스를 정상적으로 이용할 수 있습니다.",
+      "sourceUrl": "https://status.claude.com/incidents/q2kg8n613kr3",
+      "sourceName": "hackernews",
+      "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "publishedAt": "2026-07-29T19:50:42.000Z"
+    }
+  ]
+}
