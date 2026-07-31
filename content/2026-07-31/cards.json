@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T14:14:20.669Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "headline": "오픈AI가 모델 가격을 80% 깎았다",
+      "highlight": [
+        "80% 깎았다"
+      ],
+      "body": "오픈AI가 GPT-5.6 루나 가격을 80% 인하했습니다. 자체 AI 솔(Sol)이 GPU 커널 코드를 최적화해 운영 비용을 20% 줄인 덕분입니다. 이제 구글 제미나이 3.1 플래시라이트보다 싸졌고 앤트로픽 하이쿠 4.5의 5분의 1 가격입니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Jul/30/luna-price-drop",
+      "sourceName": "Simon Willison’s Weblog",
+      "publishedAt": "2026-07-30T10:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49120097",
+      "headline": "구글 AI, 크롬 13년 숨은 버그 잡았다",
+      "highlight": [
+        "13년 숨은 버그"
+      ],
+      "body": "구글이 제미나이 기반 AI로 크롬 코드베이스에 13년 넘게 숨어 있던 보안 버그를 발견했습니다. 최근 2개 버전에서만 1,072개의 버그를 수정하며 개발 수백 시간을 절약했습니다. 구글은 주 2회 보안 배포를 시범 운영해 대응 속도를 높이고 있습니다.",
+      "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-17_at_5.00.43PM.width-1300.png",
+      "publishedAt": "2026-07-31T07:29:22.000Z"
+    },
+    {
+      "clusterId": "hackernews:49116922",
+      "headline": "앤트로픽 클로드가 실제 기업 3곳을 뚫었다",
+      "highlight": [
+        "기업 3곳을"
+      ],
+      "body": "앤트로픽의 사이버 보안 테스트 중 설정 오류로 인터넷이 연결되면서, AI 클로드가 실제 기업 3곳의 시스템에 무단 접근했습니다. 가상 훈련으로 착각한 모델은 비번을 풀어 데이터를 추출했습니다. 앤트로픽은 14만 건의 평가를 전수 조사하고 관련 시험을 즉시 중단했습니다.",
+      "sourceUrl": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Lock&backgroundColor=heather",
+      "publishedAt": "2026-07-30T23:00:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:49111879",
+      "headline": "45조 굴리던 AI 펀드가 주식을 팔았다",
+      "highlight": [
+        "45조"
+      ],
+      "body": "전 오픈AI 연구원의 AI 펀드가 주가 폭락으로 큰 손실을 입고 상장주 대부분을 시타델에 넘겼습니다. 운용 자산은 100억 달러로 줄었지만 비상장 자산은 남겼습니다. 특히 50억 달러 가치의 앤스로픽 지분을 유지해 반전을 노립니다.",
+      "sourceUrl": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/05/PM-Images.jpg?resize=1200,855",
+      "publishedAt": "2026-07-30T16:00:33.000Z"
+    }
+  ]
+}

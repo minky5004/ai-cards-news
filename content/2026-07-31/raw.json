@@ -1,0 +1,1369 @@
+{
+  "date": "2026-07-31",
+  "generatedAt": "2026-07-31T14:12:56.016Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 14,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 1
+    },
+    {
+      "name": "venturebeat-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 6
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 37,
+      "filtered": 20
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "representativeId": "openai:https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+          "title": "Advancing the price-performance frontier with GPT-5.6",
+          "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+          "source": "openai",
+          "publishedAt": "2026-07-30T10:00:00.000Z",
+          "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+          "trust": 1.0,
+          "signals": {
+            "points": 587,
+            "comments": 387,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49112867"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/30/luna-price-drop",
+          "title": "Advancing the price-performance frontier with GPT‑5.6",
+          "url": "https://simonwillison.net/2026/Jul/30/luna-price-drop",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-30T23:58:42.000Z",
+          "summary": "Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5.6 fuses frontier intelligence with frontier efficiency they describe using 5.6 Sol to optimize load balancing, and more impressively to optimize inference itself: We also used GPT‑5.6 Sol to optimize the model’s forward pass: the computation that transforms inputs into next-token predictions. Even when individual operations are fast, excess memory movement, synchronization, and inefficient data layouts can leave GPUs idle. To avoid this, GPT‑5.6 Sol found work that could be precomputed, avoided, or parallelized. With Codex, GPT‑5.6 Sol autonomously rewrote and optimized our production kernels, the core code that executes the mathematical operations that make up the model. This worked in part because we’ve trained GPT‑5.6 to be effective at writing and improving kernels in Triton⁠ and Gluon⁠ , two open-source GPU programming languages maintained by OpenAI. These efforts, combined with broader kernel advancements from GPT‑5.6 Sol, reduced end-to-end serving costs by 20%. That Luna price drop completely changes the landscape with respect to lower priced models. At $0.20/million tokens for input and $1.20/million for output Luna is now cheaper than Google's Gemini 3.1 Flash-Lite ($.025/$1.50). Anthropic's cheapest current model is Claude Haiku 4.5, and that's $1/$5 - Luna is now 1/5th of that for input, previously it cost the same. My agent.datasette.io demo site was running on Gemini 3.1 Flash-Lite. I've switched it over to Luna. Via Hacker News Tags: ai , openai , generative-ai , llms , anthropic , gemini , llm-pricing",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 6.200274180065771,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8669408467324375,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49120097",
+      "representativeId": "hackernews:49120097",
+      "items": [
+        {
+          "id": "hackernews:49120097",
+          "title": "Google fixed more Chrome bugs in June than over the past two years, thanks to AI",
+          "url": "https://blog.google/security/chrome-stronger-with-every-update",
+          "source": "hackernews",
+          "publishedAt": "2026-07-31T07:29:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 242,
+            "comments": 228,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49120097"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai",
+          "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+          "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T18:57:58.000Z",
+          "summary": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.958277744882759,
+      "breakdown": {
+        "hnPoints": 1.767221970966425,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.1577224405830002,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49116922",
+      "representativeId": "hackernews:49116922",
+      "items": [
+        {
+          "id": "hackernews:49116922",
+          "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+          "url": "https://anthropic.com/news/investigating-incidents-cybersecurity-evals",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T23:00:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 198,
+            "comments": 154,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49116922"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/30/three-real-world-incidents",
+          "title": "Investigating three real-world incidents in our cybersecurity evaluations",
+          "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-30T23:41:29.000Z",
+          "summary": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier models broke out of a sandboxed container and hacked into Hugging Face to try and get the solutions to the cyber benchmark it was executing. This inspired Anthropic to double-check their own logs, and it turned out they had three similar (albeit less impressive) incidents, the earliest of which played out in April! Of the 141,006 evaluation runs we reviewed, we identified three separate incidents (involving six total runs, four of which impacted the same organization; the other two incidents each happened in independent evaluation runs). [...] In all cases, Anthropic’s evaluation prompt specified to Claude that its environment was a simulation and that it had no internet access. Due to a misunderstanding between us and our evaluation partner, this was not the case, and internet access was available. Because of this, when Claude’s search led it to real systems on the open internet, it treated them as part of the exercise. [...] Operating under the false belief that all accessible entities were intended to be in-scope for the exercise, Claude compromised the impacted organizations’ infrastructure using basic techniques, such as exploiting weak passwords and unauthenticated endpoints. One of the companies was targeted because its name happened to match the fictional name in the eval. The most concerning of the three incidents involved Claude uploading a malware package to PyPI, after a comically convoluted sequence of steps to get an account: [...] in order to create a PyPI account, Claude needed an email address. And in order to create an email address, it needed a phone number. To get a phone number, after failing to find a free phone number service, it tried—and failed—to obtain funds to pay for a phone number through several different means. It finally backtracked, found a free, non-blocked email provider, used this to register a PyPI account, and then used this account to upload malware to PyPI. That package was then installed by a security company that \"routinely installs Python packages and scans them for malware\", and the executed code was able to exfiltrate credentials back to Claude! Thankfully that package was removed from PyPI by other automated scanners an hour after it was published, but it had still been downloaded and executed on \"15 real systems\" by that point. It's abundantly clear now that running evals of cyberattack potential in models is a spectacularly risky business. Every AI lab needs to pay attention to this. Keeping a close eye on what's happening in those sandboxes is crucial. Via Hacker News Tags: pypi , python , sandboxing , ai , generative-ai , llms , anthropic , ai-ethics , ai-security-research",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.544700583041795,
+      "breakdown": {
+        "hnPoints": 1.7029564809649926,
+        "hnComments": 0.9509966340526815,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8574141346907878,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49111879",
+      "representativeId": "hackernews:49111879",
+      "items": [
+        {
+          "id": "hackernews:49111879",
+          "title": "Citadel Buys Situational Awareness's Stock Portfolio After Big Losses in AI",
+          "url": "https://wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T16:00:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49111879"
+          }
+        },
+        {
+          "id": "hackernews:49122994",
+          "title": "Situational Awareness Down 67% in July in AI Stock Rout",
+          "url": "https://wsj.com/finance/investing/situational-awareness-down-67-in-july-in-ai-stock-rout-cd19901f",
+          "source": "hackernews",
+          "publishedAt": "2026-07-31T13:37:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49122994"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
+          "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+          "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T23:25:58.000Z",
+          "summary": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.398486951885543,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4663669800186068,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49120299",
+      "representativeId": "hackernews:49120299",
+      "items": [
+        {
+          "id": "hackernews:49120299",
+          "title": "DeepSeek V4 Flash 0731 Intelligence, Performance and Price Analysis",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-flash-ga",
+          "source": "hackernews",
+          "publishedAt": "2026-07-31T07:59:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 223,
+            "comments": 92,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49120299"
+          }
+        }
+      ],
+      "score": 4.975794048657604,
+      "breakdown": {
+        "hnPoints": 1.7410290965389135,
+        "hnComments": 0.8546745042445834,
+        "mentions": 0.0,
+        "recency": 1.1800904478741068,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49117099",
+      "representativeId": "hackernews:49117099",
+      "items": [
+        {
+          "id": "hackernews:49117099",
+          "title": "The AI Aesthetic",
+          "url": "https://blog.jim-nielsen.com/2026/ai-aesthetic",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T23:22:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 346,
+            "comments": 160,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49117099"
+          }
+        }
+      ],
+      "score": 4.886901023749969,
+      "breakdown": {
+        "hnPoints": 1.8818386382647243,
+        "hnComments": 0.9581580642784832,
+        "mentions": 0.0,
+        "recency": 0.846904321206762,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49111237",
+      "representativeId": "hackernews:49111237",
+      "items": [
+        {
+          "id": "hackernews:49111237",
+          "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T15:15:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 589,
+            "comments": 477,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49111237"
+          }
+        }
+      ],
+      "score": 4.819784592985719,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6197845929857186,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49113059",
+      "representativeId": "hackernews:49113059",
+      "items": [
+        {
+          "id": "hackernews:49113059",
+          "title": "We Gave GPT 5.6 Sol a Real Business. It Lied, Spammed, and Lost $447",
+          "url": "https://bottlenecklabs.com/blog/autonomously-run-businesses",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T17:31:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 375,
+            "comments": 224,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49113059"
+          }
+        }
+      ],
+      "score": 4.783678474560574,
+      "breakdown": {
+        "hnPoints": 1.9076612051566586,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6760172694039156,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49118933",
+      "representativeId": "hackernews:49118933",
+      "items": [
+        {
+          "id": "hackernews:49118933",
+          "title": "The AI trade now runs on borrowed money, and the lenders are repricing it",
+          "url": "https://greyswansignals.com/?theme=dark",
+          "source": "hackernews",
+          "publishedAt": "2026-07-31T04:15:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 137,
+            "comments": 141,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49118933"
+          }
+        }
+      ],
+      "score": 4.741660546881683,
+      "breakdown": {
+        "hnPoints": 1.5851908919554503,
+        "hnComments": 0.9344789981941682,
+        "mentions": 0.0,
+        "recency": 1.0219906567320645,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49108685",
+      "representativeId": "hackernews:49108685",
+      "items": [
+        {
+          "id": "hackernews:49108685",
+          "title": "GCC steering committee announces AI policy",
+          "url": "https://lwn.net/Articles/1086041",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T11:45:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 318,
+            "comments": 363,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49108685"
+          }
+        },
+        {
+          "id": "hackernews:49109165",
+          "title": "OpenJDK Interim Policy on Generative AI",
+          "url": "https://openjdk.org/legal/ai",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T12:36:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49109165"
+          }
+        }
+      ],
+      "score": 4.614369062309575,
+      "breakdown": {
+        "hnPoints": 1.8547712398180598,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5595978224915152,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49119274",
+      "representativeId": "hackernews:49119274",
+      "items": [
+        {
+          "id": "hackernews:49119274",
+          "title": "Show HN: What should the GUI for AI agents look like?",
+          "url": "https://marbleos.com/demo",
+          "source": "hackernews",
+          "publishedAt": "2026-07-31T05:17:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49119274"
+          }
+        }
+      ],
+      "score": 4.399456149665434,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 1.063761860000887,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49113599",
+      "representativeId": "hackernews:49113599",
+      "items": [
+        {
+          "id": "hackernews:49113599",
+          "title": "Show HN: Distilling DeepSeek into GPT-OSS doesn't transfer censorship. Try it",
+          "url": "https://ctgt.ai/research/distillation-censorship-transfer",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T18:13:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 147,
+            "comments": 70,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49113599"
+          }
+        }
+      ],
+      "score": 4.305956105927464,
+      "breakdown": {
+        "hnPoints": 1.6076978957672894,
+        "hnComments": 0.803778012190777,
+        "mentions": 0.0,
+        "recency": 0.6944801979693971,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49107749",
+      "representativeId": "hackernews:49107749",
+      "items": [
+        {
+          "id": "hackernews:49107749",
+          "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+          "url": "https://github.com/YoanWai/agent-manager",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T09:34:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 95,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49107749"
+          }
+        }
+      ],
+      "score": 3.9853593727369265,
+      "breakdown": {
+        "hnPoints": 1.4684373168411968,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.4978468759541248,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49112671",
+      "representativeId": "hackernews:49112671",
+      "items": [
+        {
+          "id": "hackernews:49112671",
+          "title": "US gov and OpenAI mislabel map of Africa at global conference",
+          "url": "https://theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T16:59:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49112671"
+          }
+        }
+      ],
+      "score": 3.7559024658332154,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.6413354390568011,
+        "mentions": 0.0,
+        "recency": 0.6624946789944108,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49113774",
+      "representativeId": "hackernews:49113774",
+      "items": [
+        {
+          "id": "hackernews:49113774",
+          "title": "AI productivity gains are closer to 10% than 10x",
+          "url": "https://leaddev.com/reporting/ai-productivity-gains-are-closer-to-10-than-10x",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T18:28:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49113774"
+          }
+        }
+      ],
+      "score": 3.75525457592126,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.7012207771579424,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49108480",
+      "representativeId": "hackernews:49108480",
+      "items": [
+        {
+          "id": "hackernews:49108480",
+          "title": "'My life's screwed': Korean investors stress out after AI bubble bursts",
+          "url": "https://ft.com/content/23f388eb-e8ab-4fb1-b1ca-8e04eb4561a1",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T11:22:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49108480"
+          }
+        }
+      ],
+      "score": 3.7520502432102374,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 0.5335334116586987,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49111019",
+      "representativeId": "hackernews:49111019",
+      "items": [
+        {
+          "id": "hackernews:49111019",
+          "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+          "url": "https://github.com/hamzarehmandeveloper/claude-account",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T14:58:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49111019"
+          }
+        }
+      ],
+      "score": 3.7126472525375824,
+      "breakdown": {
+        "hnPoints": 1.271189988341675,
+        "hnComments": 0.6283260283811849,
+        "mentions": 0.0,
+        "recency": 0.6131312358147225,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49107232",
+      "representativeId": "hackernews:49107232",
+      "items": [
+        {
+          "id": "hackernews:49107232",
+          "title": "Sam Altman is now talking to the White House about decelerating AI",
+          "url": "https://twitter.com/AISafetyMemes/status/2082569026929394008",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T08:08:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49107232"
+          }
+        }
+      ],
+      "score": 3.625637492696523,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 0.47100192013438014,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49108778",
+      "representativeId": "hackernews:49108778",
+      "items": [
+        {
+          "id": "hackernews:49108778",
+          "title": "Go LLM SDK for streaming, tool-calling AI backends (plus frontend React lib)",
+          "url": "https://github.com/grafana/ai-sdk",
+          "source": "hackernews",
+          "publishedAt": "2026-07-30T11:55:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49108778"
+          }
+        }
+      ],
+      "score": 3.585627384710007,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.5450704909917216,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49117486",
+      "representativeId": "hackernews:49117486",
+      "items": [
+        {
+          "id": "hackernews:49117486",
+          "title": "Judge Voices Doubt US Has Justified Its Ban on Anthropic AI",
+          "url": "https://bloomberg.com/news/articles/2026-07-30/judge-voices-doubt-us-has-justified-its-ban-on-anthropic-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-07-31T00:07:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49117486"
+          }
+        }
+      ],
+      "score": 3.1866201942106915,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8716272715627796,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/advancing-responsible-ai-across-europe",
+      "representativeId": "openai:https://openai.com/index/advancing-responsible-ai-across-europe",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/advancing-responsible-ai-across-europe",
+          "title": "Advancing responsible AI across Europe",
+          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+          "source": "openai",
+          "publishedAt": "2026-07-31T15:00:00.000Z",
+          "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 3.0,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.5,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/unive",
+      "representativeId": "openai:https://openai.com/index/unive",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/unive",
+          "title": "Univé builds an AI-ready workforce",
+          "url": "https://openai.com/index/unive",
+          "source": "openai",
+          "publishedAt": "2026-07-31T07:00:00.000Z",
+          "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.636106480402238,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1361064804022378,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust",
+          "title": "AI scammers outperform humans when it comes to building trust",
+          "url": "https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-31T14:01:40.000Z",
+          "summary": "The AI chatbot was more effective at creating “exploitable trust” than the humans.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5391923963097147,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.489192396309715,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag",
+          "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+          "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T19:44:16.000Z",
+          "summary": "Friend, the AI wearable, can now talk to its users — for an enhanced price.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+          "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+          "url": "https://theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-30T16:33:32.000Z",
+          "summary": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million in funding to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship? Yeah well, if you didn't remember, Friend is back. And now, it's twice the price. This morning, Friend launched a new ad […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.4696606063310025,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7363272729976695,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
+          "title": "LinkedIn adds a button to report AI-generated ‘slop’",
+          "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T18:05:21.000Z",
+          "summary": "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+          "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
+          "url": "https://theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-30T18:43:26.000Z",
+          "summary": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that \"Seems like AI […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.441466151095219,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7081328177618859,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+          "title": "It’s time to panic about AI safety",
+          "url": "https://theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-31T14:03:04.000Z",
+          "summary": "When the phrase \"OpenAI hacked Hugging Face\" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, including a bunch of other supposedly secure web services, all in the name of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3905310729280624,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4905310729280625,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit",
+          "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
+          "url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-31T11:00:52.000Z",
+          "summary": "A disputed exam, an unreliable detector, and one very late Apple Pages file.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.376038577748111,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3260385777481114,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+          "title": "Anthropic says Claude accidentally hacked real companies too",
+          "url": "https://theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-31T13:41:17.000Z",
+          "summary": "Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of its own models had breached developer platform Hugging Face, adding to growing unease over whether frontier AI […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3698375342327225,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4698375342327226,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+          "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+          "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration",
+          "source": "google-deepmind",
+          "publishedAt": "2026-07-30T15:00:59.000Z",
+          "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.113918760007528,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.613918760007528,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "representativeId": "huggingface:https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+          "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+          "source": "huggingface",
+          "publishedAt": "2026-07-30T15:09:09.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9671449956922564,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6171449956922563,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-rc2",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-rc2",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-rc2",
+          "title": "llm 0.32rc2",
+          "url": "https://simonwillison.net/2026/Jul/30/llm-rc2",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-30T22:52:06.000Z",
+          "summary": "Release: llm 0.32rc2 Hot on the heels of RC1 , this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna . It was previously GPT-4o mini . Luna is a much better and more recent model, albeit slightly more expensive - $0.20 per million input tokens and $1.20 per million output tokens, compared to $0.15/$0.60 for 4o mini. You can switch back to 4o mini using llm models default gpt-4o-mini , or switch to GPT-5 nano , an even cheaper default model ($0.05/$0.40), using llm models default gpt-5-nano . #1576 New llm openai endpoint command for running prompts, chats and model listings against arbitrary OpenAI-compatible endpoints without first configuring a model. These calls are not logged. #1565 The llm openai endpoint command is really cool. I got frustrated at the lack of an obvious CLI tool for trying out prompts against arbitrary OpenAI Chat Completions imitation endpoints, so I decided to add that to LLM itself. You don't even have to install LLM to use this. Here's a uvx one-liner for running a prompt - with tools - against an LM Studio local model: uvx --pre llm openai endpoint http://127.0.0.1:1234/v1 \\ T llm_version -T llm_time --td \\ -m google/gemma-4-31b 'what is the current LLM version? And the time?' Output here . Tags: llm , uv , lm-studio",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.88066507141462,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8306650714146202,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+          "title": "Anthropic says its own AI models breached three companies during security tests",
+          "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-31T01:06:54.000Z",
+          "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.805730416080979,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9057304160809792,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/30/bruce-schneier",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/30/bruce-schneier",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/30/bruce-schneier",
+          "title": "Quoting Bruce Schneier",
+          "url": "https://simonwillison.net/2026/Jul/30/bruce-schneier",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-30T18:25:26.000Z",
+          "summary": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thinking and outlining and drafting and editing, making and criticizing and revising arguments, will help develop the critical thinking skills they will need in their future careers. And without this constant mental exercise, those skills will atrophy. Employers are already noticing . — Bruce Schneier , Should You Use AI for a Task? Here’s a Simple Way to Decide Tags: ai-ethics , writing , ai-misuse , generative-ai , bruce-schneier , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7499992186296265,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6999992186296267,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
+          "title": "Reddit reports a solid quarter but shows signs of AI’s impact",
+          "url": "https://techcrunch.com/2026/07/30/reddit-reports-a-solid-quarter-but-shows-signs-of-ais-impact",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T23:08:58.000Z",
+          "summary": "Reddit's financial situation is looking good but uncertainty about its relationship to Google and the new AI-ified web are stirring market concerns.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7397059299305775,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8397059299305776,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
+          "title": "Google reveals Gemini Robotics 2.0, promising improved dexterity and safety",
+          "url": "https://arstechnica.com/ai/2026/07/google-reveals-gemini-robotics-2-0-promising-improved-dexterity-and-safety",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-07-30T17:58:02.000Z",
+          "summary": "Gemini Robotics 2 includes three models, but only one is publicly available right now.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7377970562974354,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6877970562974356,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
+          "title": "Investors love AI, as long as you’re a cloud host",
+          "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T22:41:41.000Z",
+          "summary": "Amazon isn't slowing down on data center spending — but investors don't seem to mind.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7251302258939205,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8251302258939205,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "representativeId": "theverge-ai:https://theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+          "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+          "url": "https://theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-30T22:29:45.000Z",
+          "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where people […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7188348170844128,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.818834817084413,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
+          "title": "llm-chat-completions-server 0.1a0",
+          "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-30T15:43:16.000Z",
+          "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous conversation, like this: curl http://localhost:8002/v1/chat/completions \\ -H 'Content-Type: application/json' \\ -d '{ \"model\": \"qwen3.5-4b\", \"messages\": [ {\"role\": \"user\", \"content\": \"Capital of France?\"}, {\"role\": \"assistant\", \"content\": \"Paris.\"}, {\"role\": \"user\", \"content\": \"Germany?\"} ] }' Here the conversation state is tracked by the client, so each of these requests gets longer and longer. The new schema design in LLM is designed to de-duplicate these using hashes of the individual message parts. To test that out, I built this plugin: uv tool install llm --pre llm install llm-chat-completions-server llm chat-completions-server -p 9001 Running this starts a localhost server on port 9001 that exposes your full collection of LLM models (from any plugins you have installed) using a ChatGPT Completions compatible endpoint. GPT-5.6 Sol wrote the whole thing - it turns out it knows the OpenAI Chat Completions API shape really well. Tags: projects , openai , llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6808071403614715,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6308071403614717,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-rc1",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-rc1",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Jul/30/llm-rc1",
+          "title": "llm 0.32rc1",
+          "url": "https://simonwillison.net/2026/Jul/30/llm-rc1",
+          "source": "simonwillison",
+          "publishedAt": "2026-07-30T15:30:20.000Z",
+          "summary": "Release: llm 0.32rc1 This RC for LLM 0.32 finishes the work that started in LLM 0.32a0 - it adds a new schema design that does a much better job of capturing the details of the prompts and responses returned by the latest model families. The most important change is the use of content-addressable hash IDs for stored messages. This allows de-duplication in the database, and means that LLM can now represent trees of messages for forked conversations. Since it involves a significant schema change - new tables only, and old data should not be affected at all - it's worth running a backup of your existing logs.db before upgrading to the RC: llm logs backup logs-backup.db The RC also adds support for gpt-5.6-sol , gpt-5.6-terra , and gpt-5.6-luna . Tags: llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6755927017337164,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6255927017337167,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+          "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+          "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T20:26:38.000Z",
+          "summary": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6566234727668752,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7566234727668752,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "representativeId": "theverge-ai:https://theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+          "title": "Google DeepMind’s new AI model can control a robot’s entire body",
+          "url": "https://theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+          "source": "theverge-ai",
+          "publishedAt": "2026-07-30T17:18:45.000Z",
+          "summary": "Google DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the previous model focused on controlling a humanoid robot's upper body, Gemini Robotics 2 now supports \"whole-body motions\" ranging from its feet to fingertips, according to an announcement on Thursday. The new model will allow humanoid robots […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5706729820522687,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6706729820522688,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
+          "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+          "url": "https://technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-07-30T10:15:19.000Z",
+          "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5610773245206797,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5110773245206799,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
+          "title": "Okta buys AI security startup Permiso — source says for about $200M",
+          "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T16:09:42.000Z",
+          "summary": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5416000700525352,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6416000700525354,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming",
+          "title": "Meta says AI is making it easier to build new apps — and more are coming",
+          "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T15:41:16.000Z",
+          "summary": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5299979520512414,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6299979520512415,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack",
+          "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+          "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T15:19:15.000Z",
+          "summary": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5211584529793782,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6211584529793782,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession",
+          "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
+          "url": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T15:00:00.000Z",
+          "summary": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5135314342885489,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.613531434288549,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable",
+          "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
+          "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T14:48:32.000Z",
+          "summary": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5090328213115667,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6090328213115669,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+          "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+          "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-07-30T13:00:00.000Z",
+          "summary": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4680532402011188,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5680532402011189,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+    "hackernews:49120097",
+    "hackernews:49116922",
+    "hackernews:49111879",
+    "hackernews:49120299"
+  ]
+}
