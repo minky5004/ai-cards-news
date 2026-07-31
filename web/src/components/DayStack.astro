@@ -29,17 +29,17 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     {leaves.map((i) => <span class="leaf" style={`--i:${i}`} aria-hidden="true" />)}
 
     {/*
-      날짜 페이지의 첫 카드와 같은 이름을 달아 둔다. 이름이 같은 두 요소를
+      날짜 페이지의 첫 카드와 이어질 이름의 <b>후보</b>다. 이름이 같은 두 요소를
       브라우저가 하나로 보고 위치·크기를 이어 붙인다 — 더미 표지가 그대로
       커지며 그날의 첫 카드가 된다.
 
-      `data-vt` 는 그 이름을 되읽기 위한 표시다. 이동 직전에 `Layout` 이 양쪽
-      문서의 이름을 대조해 짝이 없는 쪽을 떼어 낸다.
+      실제 `view-transition-name` 은 마크업에 박지 않는다. 격자는 발행일 수만큼
+      타일이 있어, 박아 두면 <b>한 번의 이동에 짝이 여럿</b> 생긴다. 이름은
+      이동이 만든다 — `Layout` 이 양쪽 문서를 대조해 짝이 될 둘에만 붙인다.
     */}
     <img
       class="cover"
       data-vt={`cover-${day.date}`}
-      style={`view-transition-name: cover-${day.date}`}
       src={`${imageBase}${cover.image}`}
       width="1080"
       height="1350"

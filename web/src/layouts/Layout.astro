@@ -216,18 +216,20 @@ const base = import.meta.env.BASE_URL;
 
 <script>
   /*
-    이동마다 짝을 확인해 `view-transition-name` 을 정리한다.
+    이동마다 `view-transition-name` 을 <b>새로 만든다.</b> 마크업에는 이름의 후보만
+    `data-vt` 로 있고, 실제 이름은 짝이 될 둘에만 여기서 붙는다.
 
-    이름을 마크업에 박아 두면 짝이 없는 이동에서도 그 이름이 살아 있다. 날짜
-    페이지끼리 오갈 때가 그렇다 — 07.26 의 `cover-2026-07-26` 과 07.27 의
-    `cover-2026-07-27` 은 서로 다른 이름이라 각자 혼자 페이드하고, 첫 카드 자리에
-    잔상 둘이 세로로 늘어져 겹친다. 화면을 찍어 보고 나서 이 구조로 왔다.
+    이름을 마크업에 박으면 그 이동과 상관없는 짝이 생긴다. 아카이브 격자는 홈에도
+    날짜 페이지에도 실리고 타일은 발행일 수만큼이라, 박아 둔 채로 07.29 → 07.27 을
+    누르면 <b>다섯 쌍이 한꺼번에 짝이 맞아</b> 표지 하나가 커지는 대신 화면 전체가
+    제각기 흘러간다. 짝이 하나도 없을 때만 거는 순차 페이드도 그때 같이 꺼진다.
 
-    규칙은 하나다 — <b>상대 문서에 같은 이름이 없으면 뗀다.</b> 짝이 맞는 하나만
-    남으므로 화면에서 움직이는 것도 그 하나뿐이 된다.
+    규칙은 하나다 — <b>짝은 한 쌍 · 새 문서의 덱 표지가 우선.</b> 표지를 눌러 그날로
+    들어가는 것이 이 전환의 뜻이므로, 들어가는 쪽 덱이 짝의 한쪽이다. 홈으로 되돌아갈
+    때는 그 자리가 비므로 나가는 쪽 덱 표지를 짝으로 삼아 더미로 되돌아간다.
 
-    `[data-vt]` 가 그 이름의 단일 출처다. 인라인 스타일에서 되읽지 않는 것은,
-    카드 확대가 전환 도중 인라인 값을 갈아 끼우기 때문이다.
+    `[data-vt]` 가 이름의 단일 출처다. 인라인 스타일에서 되읽지 않는 것은, 카드
+    확대가 전환 도중 인라인 값을 갈아 끼우기 때문이다.
   */
   const named = (root: ParentNode) => {
     const found = new Map<string, HTMLElement>();
@@ -237,6 +239,10 @@ const base = import.meta.env.BASE_URL;
     }
     return found;
   };
+
+  /** 그 문서가 날짜 페이지일 때 덱 첫 카드의 이름. 홈의 덱에는 이름이 없다. */
+  const cover = (root: ParentNode) =>
+    root.querySelector<HTMLElement>("[data-carousel] [data-vt]")?.dataset.vt ?? null;
 
   const reconcile = (incoming: Document) => {
     const before = named(document);
@@ -250,16 +256,29 @@ const base = import.meta.env.BASE_URL;
     */
     const quiet = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+    for (const el of before.values()) el.style.viewTransitionName = "";
+    for (const el of after.values()) el.style.viewTransitionName = "";
+
+    /** 들어가는 쪽 덱으로 이어지는 짝. 더미를 눌러 그날로 들어가는 이동이다. */
+    const entering = cover(incoming);
+    /** 나가는 쪽 덱에서 나오는 짝. 홈으로 되돌아가 더미에 다시 앉는 이동이다. */
+    const leaving = cover(document);
+
+    const pair = quiet
+      ? null
+      : entering && before.has(entering)
+        ? entering
+        : leaving && after.has(leaving)
+          ? leaving
+          : null;
+
     /** 새 문서에서 짝이 맞은 요소. 펼치기를 걸지 말지가 여기 달렸다. */
     let landing: HTMLElement | null = null;
 
-    for (const [name, el] of before) {
-      if (!quiet && after.has(name)) continue;
-      el.style.viewTransitionName = "";
-    }
-    for (const [name, el] of after) {
-      if (!quiet && before.has(name)) landing = el;
-      else el.style.viewTransitionName = "";
+    if (pair) {
+      before.get(pair)!.style.viewTransitionName = pair;
+      landing = after.get(pair)!;
+      landing.style.viewTransitionName = pair;
     }
 
     /*
@@ -267,11 +286,11 @@ const base = import.meta.env.BASE_URL;
       즐겨찾기로 바로 들어온 사람에게도 걸려, <b>첫 장만 있고 나머지 자리가 한동안
       비어 있는 화면</b>이 뜬다 — 도트는 넉 장인데 카드는 한 장이라 고장으로 읽힌다.
 
-      짝이 맞았더라도 그것이 이 덱의 첫 카드일 때만 건다. 날짜에서 홈으로 되돌아갈
-      때는 짝이 아카이브 더미라, 홈의 오늘 발행까지 덩달아 펼쳐질 이유가 없다.
+      들어가는 쪽 덱으로 이어진 짝일 때만 건다. 날짜에서 홈으로 되돌아갈 때는 짝이
+      아카이브 더미라, 홈의 오늘 발행까지 덩달아 펼쳐질 이유가 없다.
     */
     const deck = incoming.querySelector("[data-carousel]");
-    if (deck && landing && deck.contains(landing)) deck.setAttribute("data-unfold", "");
+    if (deck && pair && pair === entering) deck.setAttribute("data-unfold", "");
 
     /*
       이어 붙일 카드가 없으면 배경을 순차로 넘긴다(위 전역 스타일). 표시는 <b>양쪽
