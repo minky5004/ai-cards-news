@@ -202,13 +202,18 @@ public final class CardRenderer implements AutoCloseable {
      *
      * <p>받지 못하면 빈 문자열을 돌려준다. 자리를 때우는 조각을 끼워 넣지 않는다 — 이미지가 없는
      * 카드는 {@code no-image} 로 넘어가 헤드라인이 커진 타이포 포스터가 된다.
+     *
+     * <p>받아 온 것이 스크랩 자리를 채우지 못하면 같은 길로 보낸다({@link Scrap}). 받았다는 것과
+     * 붙일 만하다는 것은 다른 조건이고, 그것을 안 가리면 파비콘이 8배로 늘어난 채 카드에 실린다.
      */
     private String thumbnail(CardsResult.Card card) {
         if (card.imageUrl() != null) {
             try {
                 Http.Binary image = Http.getBytes(card.imageUrl());
-                return "<img src=\"%s\" alt=\"\" />"
-                        .formatted(dataUri(image.contentType(), image.bytes()));
+                if (Scrap.fills(image.bytes())) {
+                    return "<img src=\"%s\" alt=\"\" />"
+                            .formatted(dataUri(image.contentType(), image.bytes()));
+                }
             } catch (IOException | InterruptedException e) {
                 if (e instanceof InterruptedException) Thread.currentThread().interrupt();
                 // 카드를 버리지 않는다. 이미지 없는 변형으로 간다.
