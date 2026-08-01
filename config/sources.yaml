@@ -34,9 +34,9 @@ rss:
   - name: theverge-ai
     url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
     trust: 0.6
-  - name: venturebeat-ai
-    url: https://venturebeat.com/category/ai/feed/
-    trust: 0.5
+  # venturebeat-ai 제거(2026-08-01) — 피드가 7건뿐이고 최신이 2026-05-19, 나머지는 1월이다.
+  # 같은 날 잰 다른 다섯은 전부 이틀 안이었다. 살아 있는 척하는 소스는 수집량이 왜 적은지를
+  # 가리므로, 응답이 200 이어도 소스로 세지 않는다.
   - name: mit-tech-review-ai
     url: https://www.technologyreview.com/topic/artificial-intelligence/feed
     trust: 0.7
