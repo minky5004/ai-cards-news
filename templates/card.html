@@ -61,11 +61,23 @@
         position: absolute;
         inset: 0 0 auto;
         height: 168px;
+        background: var(--glue);
+      }
+
+      /*
+        그림자는 띠 밖으로 떨어뜨린다. 띠 안에서 어두워지다 끝내면 가장 진한 지점이 그대로
+        잘려 없던 선이 하나 생긴다 — 떠 보이게 하려던 처방이 반대로 경계를 못 박는다.
+        드리운 그림자는 가리는 것에 붙어서 가장 진하고 멀어지며 옅어진다.
+      */
+      .glue::after {
+        content: "";
+        position: absolute;
+        inset: 100% 0 auto;
+        height: 20px;
         background: linear-gradient(
           to bottom,
-          var(--glue) 0%,
-          var(--glue) 86%,
-          rgba(0, 0, 0, 0.05) 100%
+          rgba(60, 44, 10, 0.07),
+          rgba(60, 44, 10, 0)
         );
       }
 
@@ -167,16 +179,23 @@
         display: block;
       }
 
-      /* 테이프. 이 한 조각이 이미지를 "붙인 것" 으로 확정한다. */
+      /*
+        테이프. 이 한 조각이 이미지를 "붙인 것" 으로 확정한다.
+
+        색은 제 것이어야 한다. 반투명 흰색은 노란 종이 위에서만 테이프고 스크랩의 흰 여백
+        위에서는 아무것도 아니다 — 바탕과 같은 색이라 정의상 안 보인다(대비 7.4). 테이프는
+        절반이 띠 위, 절반이 스크랩 위에 걸치므로 두 바탕 <b>사이</b>의 미색으로 잡아 어느
+        쪽에서도 제 몫만큼 어긋나게 한다. 테두리도 같은 이유로 흰 선에서 옅은 잉크 선으로.
+      */
       .tape {
         position: absolute;
         top: -26px;
         left: var(--tape-x);
         width: 190px;
         height: 52px;
-        background: rgba(255, 255, 255, 0.42);
-        border-left: 1px solid rgba(255, 255, 255, 0.5);
-        border-right: 1px solid rgba(255, 255, 255, 0.5);
+        background: rgba(236, 226, 190, 0.72);
+        border-left: 1px solid rgba(60, 44, 10, 0.1);
+        border-right: 1px solid rgba(60, 44, 10, 0.1);
         box-shadow: 0 2px 4px rgba(60, 44, 10, 0.12);
         transform: rotate(var(--tape-tilt));
       }
