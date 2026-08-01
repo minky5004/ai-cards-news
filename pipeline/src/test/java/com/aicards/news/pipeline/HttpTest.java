@@ -16,6 +16,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 /**
  * HTTP 재시도.
@@ -136,6 +138,58 @@ class HttpTest {
 
             assertEquals("ok", Http.getString(url));
             assertEquals(1, requests.get());
+        }
+    }
+
+    /**
+     * 해석할 수 없는 주소.
+     *
+     * <p>여기서 검사하는 것은 실패 여부가 아니라 <b>실패의 종류</b>다. {@code Http} 의 공개 메서드는
+     * 전부 {@code throws IOException} 을 걸고 있고, 호출자들은 그 약속 위에 폴백을 세워 두었다 —
+     * 렌더러는 "카드를 버리지 않고 이미지 없는 변형으로", 추출기는 "다른 매체로". 주소 해석이
+     * 검사받지 않는 예외로 빠져나가면 그 폴백이 통째로 건너뛰어진다.
+     *
+     * <p>대가가 큰 쪽은 렌더다. 카드 한 장이 실패하면 그날 전체가 실패이므로(장수가 {@code
+     * cards.json} 에 확정돼 있다) <b>og:image 주소 하나가 그날 발행을 통째로 날린다.</b> 그리고
+     * og:image 는 우리가 고를 수 없는 남의 페이지 값이다.
+     */
+    @Nested
+    @DisplayName("주소 해석 실패")
+    class Unparseable {
+
+        /**
+         * 전부 실제로 만나는 꼴이다 — 프로토콜 상대 경로는 og:image 에 흔하고, 공백은 CDN 주소를
+         * 인코딩하지 않은 페이지에서 나온다.
+         */
+        @ParameterizedTest(name = "[{index}] {0}")
+        @ValueSource(
+                strings = {
+                    "//cdn.example.com/lead.png",
+                    "https://example.com/lead image.png",
+                    "data:image/png;base64,iVBORw0KGgo=",
+                    "example.com/lead.png",
+                    " ",
+                })
+        @DisplayName("검사받는 예외로 나온다 — 호출자의 폴백이 걸릴 수 있게")
+        void surfacesAsCheckedFailure(String url) {
+            assertThrows(IOException.class, () -> Http.getBytes(url));
+            assertThrows(IOException.class, () -> Http.getString(url));
+            assertThrows(IOException.class, () -> Http.getStream(url));
+
+            // getHtml 은 제한 시간과 Accept 가 달라 한때 요청을 따로 지었고, 그 갈래만 이 방어
+            // 밖에 있었다. 기사 주소는 남의 피드에서 오므로 여기가 오히려 더 험한 입력이다.
+            assertThrows(IOException.class, () -> Http.getHtml(url));
+        }
+
+        @Test
+        @DisplayName("무엇이 문제인지 주소와 함께 남는다")
+        void namesTheOffendingUrl() {
+            IOException thrown =
+                    assertThrows(IOException.class, () -> Http.getBytes("//cdn.example.com/x.png"));
+
+            assertTrue(
+                    thrown.getMessage().contains("//cdn.example.com/x.png"),
+                    "어떤 주소가 문제였는지 안 남았다: " + thrown.getMessage());
         }
     }
 }

@@ -38,12 +38,34 @@ public final class Http {
 
     private Http() {}
 
-    private static HttpRequest request(String url) {
-        return HttpRequest.newBuilder(URI.create(url))
-                .header("User-Agent", SourceResult.USER_AGENT)
-                .timeout(TIMEOUT)
-                .GET()
-                .build();
+    /**
+     * 해석하지 못한 주소를 검사받는 실패로 바꾼다.
+     *
+     * <p>{@code URI.create} 와 {@code HttpRequest.newBuilder} 는 {@link IllegalArgumentException}
+     * 을 던진다 — 공백 섞인 주소 · 프로토콜 상대 경로({@code //cdn…}) · {@code data:} 스킴 전부
+     * 여기서 걸린다. 검사받지 않는 예외라 <b>이 클래스의 {@code throws IOException} 을 그냥
+     * 통과해</b> 호출자의 폴백을 건너뛴다.
+     *
+     * <p>대가가 큰 쪽은 렌더다. 카드 한 장이 실패하면 그날 전체가 실패이므로(장수가 {@code
+     * cards.json} 에 확정돼 있다) og:image 주소 하나가 그날 발행을 통째로 날린다. 그리고 og:image
+     * 는 우리가 고를 수 없는 남의 페이지 값이라, 언젠가 온다가 아니라 <b>오는 것이 정상</b>이다.
+     *
+     * <p>{@link IOException} 으로 바꾸는 것이 형식만 맞추는 일이 아닌 이유는, 호출자에게 이 실패가
+     * "이 주소로는 못 받아온다" 라는 <b>같은 뜻</b>이기 때문이다 — {@code MalformedURLException}
+     * 이 {@code IOException} 인 것과 같은 사정이다.
+     */
+    private static HttpRequest.Builder builder(String url) throws IOException {
+        try {
+            return HttpRequest.newBuilder(URI.create(url))
+                    .header("User-Agent", SourceResult.USER_AGENT)
+                    .GET();
+        } catch (IllegalArgumentException e) {
+            throw new IOException("주소를 해석하지 못했다 (%s)".formatted(url), e);
+        }
+    }
+
+    private static HttpRequest request(String url) throws IOException {
+        return builder(url).timeout(TIMEOUT).build();
     }
 
     /**
@@ -155,12 +177,12 @@ public final class Http {
      * 그 사건의 카드를 통째로 잃는다.
      */
     public static String getHtml(String url) throws IOException, InterruptedException {
+        // 제한 시간과 Accept 만 다르다. 주소 해석은 다른 호출자와 같은 자리에서 한 번만 한다 —
+        // 여기서 따로 URI.create 를 부르면 그 갈래만 검사받지 않는 예외로 빠져나간다.
         HttpRequest request =
-                HttpRequest.newBuilder(URI.create(url))
-                        .header("User-Agent", SourceResult.USER_AGENT)
+                builder(url)
                         .header("Accept", "text/html,application/xhtml+xml")
                         .timeout(ARTICLE_TIMEOUT)
-                        .GET()
                         .build();
 
         HttpResponse<String> response =
