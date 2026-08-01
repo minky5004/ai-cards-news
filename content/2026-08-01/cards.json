@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-01",
+  "generatedAt": "2026-08-01T13:27:32.014Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49124898",
+      "headline": "구글 어스 AI로 가짜 위성사진 조작한다",
+      "highlight": [
+        "가짜 위성사진"
+      ],
+      "body": "구글 어스에 추가된 신규 AI 기능이 가짜 위성 이미지를 만드는 데 쓰이고 있습니다. 이란에 원전이 있거나 특정 지역이 드론 공격을 받은 것처럼 정교하게 조작할 수 있습니다. 정보 분석가들의 필수 도구였던 구글 어스가 허위 정보 유포 도구로 변질될 위기입니다.",
+      "sourceUrl": "https://404media.co/google-earths-new-ai-lets-anyone-fabricate-completely-bullshit-satellite-images",
+      "sourceName": "404 Media",
+      "imageUrl": "https://storage.ghost.io/c/0f/76/0f76b548-bc58-4f25-abc3-3f5ebca07da4/content/images/2026/07/CleanShot-2026-07-31-at-08.53.48.gif",
+      "publishedAt": "2026-07-31T16:06:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:49120299",
+      "headline": "AI 환각 측정하는 새로운 평가 지표 등장",
+      "highlight": [
+        "AI 환각",
+        "평가 지표"
+      ],
+      "body": "Artificial Analysis가 AI 성능과 환각을 함께 검증하는 v4.1 지표를 공개했습니다. 총 9가지 평가 항목으로 구성되었으며 환각과 지식 신뢰도를 측정하는 지수도 포함됩니다. 이로써 모델별 지능 수준과 환각 발생률, 비용까지 정밀 비교할 수 있게 됐습니다.",
+      "sourceUrl": "https://artificialanalysis.ai/models/deepseek-v4-flash",
+      "sourceName": "hackernews",
+      "imageUrl": "https://artificialanalysis.ai/en/models/deepseek-v4-flash/opengraph-image?f89c1d53703bc167",
+      "publishedAt": "2026-07-31T07:59:11.000Z"
+    },
+    {
+      "clusterId": "hackernews:49132130",
+      "headline": "AI가 짠 코드는 실제 서비스에서 터진다",
+      "highlight": [
+        "실제 서비스에서 터진다"
+      ],
+      "body": "AI를 쓰면 몇 분 만에 시제품을 만들 수 있지만 데이터 과부하나 보안 결함에는 무력합니다. 컴퓨터 과학의 기초 지식 없이는 AI가 짠 5천만 행 데이터베이스의 오류조차 잡을 수 없습니다. 결국 승패는 코딩 속도가 아니라 시스템을 이해하는 깊이에서 갈립니다.",
+      "sourceUrl": "https://weeraman.com/the-prototype-isnt-the-product",
+      "sourceName": "Anuradha Weeraman",
+      "imageUrl": "https://weeraman.com/images/the-prototype-isnt-the-product/the-prototype-isnt-the-product.jpg",
+      "publishedAt": "2026-08-01T07:52:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:49120097",
+      "headline": "구글 크롬 13년 숨은 버그 AI가 잡았다",
+      "highlight": [
+        "13년",
+        "AI가"
+      ],
+      "body": "구글이 제미나이 AI를 활용해 크롬에 13년 넘게 방치된 보안 버그를 찾아냈습니다. 최근 2개 버전에서만 1072개의 버그를 잡아내며 지난 23개 버전을 합친 기록을 넘어섰습니다. 빠른 AI 대응 덕분에 보안 패치가 한층 간편하고 신속해질 예정입니다.",
+      "sourceUrl": "https://blog.google/security/chrome-stronger-with-every-update",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Screenshot_2026-07-17_at_5.00.43PM.width-1300.png",
+      "publishedAt": "2026-07-31T07:29:22.000Z"
+    }
+  ]
+}
