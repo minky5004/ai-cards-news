@@ -10,6 +10,14 @@
 
 <sub>2026-07-29 발행분 · 전체 아카이브 → <b><a href="https://minky5004.github.io/ai-cards-news/">사이트</a></b></sub>
 
+<p>
+  <img src="docs/screenshots/home.webp" width="430" alt="홈 — 오늘 발행 캐러셀">
+  <img src="docs/screenshots/expand.webp" width="430" alt="확대 뷰 — 카드와 본문">
+  <img src="docs/screenshots/mobile.webp" width="118" alt="모바일 홈">
+</p>
+
+<sub>같은 카드를 싣는 정적 사이트. 캐러셀·확대·전환은 라이브러리 없이 CSS 와 스크립트뿐이다.</sub>
+
 ## 파이프라인
 
 | 단계 | 하는 일 | 산출물 |
@@ -73,6 +81,7 @@
 | `templates/` | 카드 HTML/CSS — 생김새는 코드가 아니라 여기서 변경 |
 | `assets/` | 카드에 심어 보내는 폰트 |
 | `content/` | 날짜별 산출물 — 완성된 날짜만 커밋 |
+| `docs/` | 화면 스크린샷 — 헤드리스로 찍어 PR·README 에서 참조 |
 
 ## 개발
 
