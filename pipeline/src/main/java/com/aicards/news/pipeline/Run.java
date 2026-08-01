@@ -487,7 +487,7 @@ public final class Run {
         // 렌더가 실제로 파일을 쓰는 경로는 --date 가 아니라 cards.json 의 date 로 정해진다
         // (CardRenderer 가 cards.date() 를 쓴다). 판정을 --date 로 하면 세는 곳과 쓰는 곳이
         // 어긋나 엉뚱한 날짜를 덮어쓴다 — 실제로 한 번 그렇게 발행분을 덮어썼다.
-        String renderDate = cards.date();
+        String renderDate = requireSameDate(date, cards.date(), cardsPath);
 
         // 장수를 세고 나서 판정한다. 첫 장만 보고 건너뛰면 중간에 죽은 렌더가 그대로 굳는다
         // — 무인 재시도에서는 그게 곧 그날을 통째로 잃는다는 뜻이다.
@@ -575,7 +575,7 @@ public final class Run {
         }
 
         // 전부 성공했을 때만 치운다. 실패한 실행에서 파일을 지우면 무엇이 남았는지 볼 수 없다.
-        removeStaleCards(Paths.cardsDir(date), results);
+        removeStaleCards(Paths.cardsDir(renderDate), results);
     }
 
     /**
@@ -586,7 +586,31 @@ public final class Run {
      * 장 줄어드는 게 아니라 그날이 사이트에서 사라진다. 2026-07-26 이 카피 실패로 5장에서 4장이
      * 됐을 때 실제로 이 상태가 됐고, 그때는 손으로 지워서 넘어갔다. 무인으로 돌면 아무도 안 지운다.
      */
-    private static void removeStaleCards(Path dir, List<RenderResult> results) throws IOException {
+    /**
+     * 날짜의 출처가 둘이면 지우는 곳과 쓰는 곳이 갈린다.
+     *
+     * <p>{@code --date} 와 {@code cards.json} 의 {@code date} 는 원래 같아야 한다 — {@code copy} 가
+     * 같은 날짜로 쓰기 때문이다. 그런데 그 전제를 아무도 확인하지 않아서, 어긋나면 렌더는
+     * {@code cards.json} 쪽에 쓰고 <b>청소는 {@code --date} 쪽 디렉터리를 훑었다.</b> 청소는 "이번에
+     * 쓴 경로" 에 없는 webp 를 지우므로, 두 날짜가 다르면 {@code --date} 그날의 webp 가 하나도
+     * 안 맞아 <b>전량이 지워진다</b>. 덮어쓰기보다 삭제가 먼저 오는 자리다.
+     *
+     * <p>한쪽을 따르게 만드는 대신 거부하는 이유는, 어느 쪽을 따르든 사람이 준 것과 파일이 든 것 중
+     * 하나를 조용히 버리기 때문이다. 그 선택은 우리가 대신 할 일이 아니다.
+     *
+     * <p>패키지 접근인 것은 테스트가 부르기 위해서다 — 이 방어를 실제 렌더로 밟으려면 어긋난
+     * {@code cards.json} 을 만들어야 하고, 그건 방어가 없을 때 발행분을 지우는 바로 그 절차다.
+     */
+    static String requireSameDate(String cliDate, String cardsDate, Path cardsPath) {
+        if (!cliDate.equals(cardsDate)) {
+            throw new IllegalStateException(
+                    "--date %s 와 %s 의 date %s 가 다르다. 렌더는 후자에 쓰고 청소는 전자를 훑어 그날 카드가 전량 지워진다."
+                            .formatted(cliDate, Paths.relative(cardsPath), cardsDate));
+        }
+        return cardsDate;
+    }
+
+    static void removeStaleCards(Path dir, List<RenderResult> results) throws IOException {
         if (!Files.isDirectory(dir)) return;
 
         // 파일명 규칙(01.webp)이 아니라 "이번에 실제로 쓴 경로" 를 기준으로 삼는다. 규칙이 바뀌어도

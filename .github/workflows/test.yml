@@ -16,6 +16,11 @@ on:
     paths:
       - "pipeline/**"
       - "config/**"
+      # 템플릿·폰트는 렌더가 읽는 파이프라인 자원이다. 여기 없으면 templates/card.html 만 고친
+      # PR 에 체크가 한 개도 안 붙는다 — 2026-08-01 #57 이 "no checks reported" 로 머지됐다.
+      - "templates/**"
+      - "assets/**"
+      - "prompts/**"
       - ".github/workflows/test.yml"
   workflow_dispatch:
 
