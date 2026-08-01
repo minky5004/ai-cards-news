@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.time.Instant;
+import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
@@ -33,8 +34,13 @@ public final class HackerNewsCollector {
 
     private HackerNewsCollector() {}
 
-    /** Algolia 는 필드를 null 로 주기도 하고 아예 빼기도 한다. 전부 nullable 로 받는다. */
-    private record Hit(
+    /**
+     * Algolia 는 필드를 null 로 주기도 하고 아예 빼기도 한다. 전부 nullable 로 받는다.
+     *
+     * <p>패키지 접근인 것은 테스트가 히트를 지어 보이기 위해서다 — 못 쓰는 히트 하나가 질의 전체를
+     * 버리게 만드는지는 실제 응답을 기다려서는 확인할 수 없다.
+     */
+    record Hit(
             String objectID,
             String title,
             /* Ask HN·Show HN 같은 자체 게시글은 url 이 없다 */
@@ -61,7 +67,7 @@ public final class HackerNewsCollector {
                 try {
                     items.addAll(future.get());
                 } catch (Exception e) {
-                    failures.add(e.getCause() != null ? e.getCause().getMessage() : e.getMessage());
+                    failures.add(reason(e));
                 }
             }
         }
@@ -98,21 +104,39 @@ public final class HackerNewsCollector {
                                                         config.minPoints())));
 
         Response response = MAPPER.readValue(Http.getString(url), Response.class);
+        return toItems(response.hits(), config.trust());
+    }
+
+    /**
+     * 쓸 수 있는 히트만 골라 {@link RawItem} 으로 바꾼다.
+     *
+     * <p><b>못 쓰는 히트는 그 하나만 버린다.</b> 예전에는 {@code url}·{@code title} 만 보고
+     * {@code created_at} 은 그대로 {@code Instant.parse} 에 넘겼는데, 그러면 날짜가 빠진 히트 하나가
+     * {@code NullPointerException} 으로 {@code searchOnce} 를 통째로 실패시켜 <b>그 질의의 나머지
+     * 히트까지 전부 사라졌다</b>. 히트가 최대 {@code hitsPerQuery} 개이므로 한 건 때문에 수십 건을
+     * 잃는 거래다.
+     *
+     * <p>날짜를 못 읽으면 채워 넣지 않고 버린다. 최신성이 스코어의 입력이라 지어낸 시각은 순위를
+     * 조용히 흔든다 — 빠진 것이 틀린 것보다 낫다.
+     */
+    static List<RawItem> toItems(List<Hit> hits, double trust) {
         List<RawItem> items = new ArrayList<>();
 
-        for (Hit hit : response.hits()) {
+        for (Hit hit : hits) {
             if (hit.url() == null || hit.title() == null) continue;
 
-            String normalized = Dedup.normalizeUrl(hit.url());
+            Instant published = parsed(hit.createdAt());
+            if (published == null) continue;
+
             items.add(
                     new RawItem(
                             NAME + ":" + hit.objectID(),
                             Text.clean(hit.title()),
-                            normalized,
+                            Dedup.normalizeUrl(hit.url()),
                             NAME,
-                            Times.iso(Instant.parse(hit.createdAt())),
+                            Times.iso(published),
                             null,
-                            config.trust(),
+                            trust,
                             new Signals(
                                     hit.points() == null ? 0 : hit.points(),
                                     hit.numComments() == null ? 0 : hit.numComments(),
@@ -120,6 +144,32 @@ public final class HackerNewsCollector {
         }
 
         return items;
+    }
+
+    /** 읽히지 않는 시각은 {@code null}. 빠진 것과 깨진 것을 여기서 한 갈래로 만든다. */
+    private static Instant parsed(String createdAt) {
+        if (createdAt == null) return null;
+        try {
+            return Instant.parse(createdAt);
+        } catch (DateTimeParseException e) {
+            return null;
+        }
+    }
+
+    /**
+     * 실패 목록에 남길 말.
+     *
+     * <p>{@code getMessage()} 는 {@code null} 일 수 있다 — {@link NullPointerException} 처럼 메시지
+     * 없이 던져지는 예외가 흔하다. 그것이 그대로 들어가면 실패 목록에 {@code null} 이 눕고, 질의가
+     * 전부 실패한 날에는 {@code SourceResult.failed(NAME, null)} 이 되어 <b>무엇이 실패했는지가
+     * 사라진 실패</b>가 된다. 실패를 삼키지 않겠다는 이 클래스의 전제가 거기서 깨진다.
+     *
+     * <p>메시지가 없으면 예외의 형을 대신 남긴다. 형만 있어도 "무엇이" 는 남는다.
+     */
+    static String reason(Throwable e) {
+        Throwable cause = e.getCause() != null ? e.getCause() : e;
+        String message = cause.getMessage();
+        return message != null && !message.isBlank() ? message : cause.getClass().getSimpleName();
     }
 
     private static String encode(String value) {
