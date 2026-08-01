@@ -1,10 +1,15 @@
 package com.aicards.news.pipeline;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.aicards.news.pipeline.render.RenderResult;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.List;
 import java.util.function.IntFunction;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -82,6 +87,90 @@ class RunTest {
         void noCards() {
             // 0 == 0 으로 "다 있다" 가 되어 렌더를 건너뛰는 경로가 생기지 않게 한다.
             assertEquals(0, Run.renderedCount(0, images()));
+        }
+    }
+
+    /**
+     * 날짜의 출처.
+     *
+     * <p>렌더는 {@code cards.json} 의 {@code date} 에 쓰고 청소는 {@code --date} 디렉터리를 훑었다.
+     * 두 날짜가 다르면 청소 대상의 webp 가 "이번에 쓴 경로" 와 하나도 안 맞아 <b>전량이 지워진다</b>.
+     * 덮어쓰기보다 삭제가 먼저 오는 자리라, 여기서 막는 값이 크다.
+     */
+    @Nested
+    @DisplayName("날짜 대조")
+    class DateAgreement {
+
+        @Test
+        @DisplayName("같으면 그 날짜를 돌려준다")
+        void agrees() {
+            assertEquals(
+                    "2026-07-30",
+                    Run.requireSameDate("2026-07-30", "2026-07-30", dir.resolve("cards.json")));
+        }
+
+        @Test
+        @DisplayName("다르면 거부한다 — 한쪽을 조용히 따르지 않는다")
+        void refusesMismatch() {
+            IllegalStateException thrown =
+                    assertThrows(
+                            IllegalStateException.class,
+                            () ->
+                                    Run.requireSameDate(
+                                            "2026-07-30", "2026-07-27", dir.resolve("cards.json")));
+
+            assertTrue(thrown.getMessage().contains("2026-07-30"), thrown.getMessage());
+            assertTrue(thrown.getMessage().contains("2026-07-27"), thrown.getMessage());
+        }
+    }
+
+    /**
+     * 옛 카드 청소.
+     *
+     * <p>5장이던 날이 4장이 되면 {@code 05.webp} 가 남고, 웹은 <b>이미지 5장 대 카드 4장</b>을 보고
+     * 그 날짜를 통째로 건너뛴다. 지우지 않는 것도 그날을 잃는 일이다.
+     */
+    @Nested
+    @DisplayName("옛 카드 청소")
+    class Cleanup {
+
+        private RenderResult wrote(int index) {
+            return new RenderResult(
+                    index, dir.resolve("%02d.webp".formatted(index)), true, true, 0, 1, null);
+        }
+
+        @Test
+        @DisplayName("이번에 쓴 것만 남기고 나머지 webp 를 지운다")
+        void removesUnwritten() throws IOException {
+            write(1, 2, 3, 4, 5);
+
+            Run.removeStaleCards(dir, List.of(wrote(1), wrote(2), wrote(3), wrote(4)));
+
+            assertTrue(Files.exists(dir.resolve("04.webp")));
+            assertFalse(Files.exists(dir.resolve("05.webp")), "장수가 줄었는데 옛 카드가 남았다");
+        }
+
+        @Test
+        @DisplayName("webp 가 아닌 파일은 건드리지 않는다")
+        void keepsNonWebp() throws IOException {
+            write(1);
+            Files.writeString(dir.resolve("cards.json"), "{}");
+
+            Run.removeStaleCards(dir, List.of(wrote(1)));
+
+            assertTrue(Files.exists(dir.resolve("cards.json")), "산출물 JSON 까지 지웠다");
+        }
+
+        @Test
+        @DisplayName("실패한 결과의 경로는 쓴 것으로 세지 않는다")
+        void failedResultsDoNotProtectFiles() throws IOException {
+            write(1, 2);
+            RenderResult failed =
+                    new RenderResult(2, dir.resolve("02.webp"), false, false, 0, 0, "실패");
+
+            Run.removeStaleCards(dir, List.of(wrote(1), failed));
+
+            assertFalse(Files.exists(dir.resolve("02.webp")));
         }
     }
 }
