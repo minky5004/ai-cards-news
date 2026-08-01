@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -9,6 +10,8 @@ import java.util.function.Function;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 /**
  * 비밀값 조회.
@@ -103,4 +106,86 @@ class EnvTest {
                     IllegalStateException.class, () -> Env.resolve(KEY, env("  "), Map.of()));
         }
     }
+
+    /**
+     * 헤더로 보낼 수 없는 값.
+     *
+     * <p>지키려는 성질은 "터진다" 가 아니라 <b>터질 때 값을 안 찍는다</b>이다. GitHub 는 시크릿과
+     * 정확히 같은 문자열만 가려 주므로, 이스케이프되거나 잘려 찍힌 값은 마스킹을 빠져나가 공개
+     * Actions 로그에 남는다. 앞뒤 공백은 이미 떼어 냈으니 여기 걸리는 것은 값 <b>안</b>의 문자다.
+     */
+    @Nested
+    @DisplayName("헤더로 못 보내는 값")
+    class Unusable {
+
+        private static final String SECRET = "AQ.Ab8RN6";
+
+        @ParameterizedTest(name = "[{index}] {1}")
+        @CsvSource(
+                delimiter = '|',
+                value = {
+                    "AQ.Ab8 RN6 | 값 안의 공백",
+                    "AQ.Ab8\tRN6 | 탭",
+                    "AQ.Ab8RN6 | 제어 문자",
+                    "AQ.키RN6 | 한글",
+                    "AQ.Ab8 RN6 | NBSP",
+                })
+        @DisplayName("거부한다")
+        void rejects(String value, String what) {
+            assertThrows(IllegalStateException.class, () -> Env.resolve(KEY, env(value), Map.of()));
+        }
+
+        @Test
+        @DisplayName("메시지에 값이 실리지 않는다 — 위치와 코드포인트만")
+        void neverPrintsTheValue() {
+            IllegalStateException e =
+                    assertThrows(
+                            IllegalStateException.class,
+                            () -> Env.resolve(KEY, env(SECRET + " " + SECRET), Map.of()));
+
+            assertFalse(e.getMessage().contains(SECRET), "값이 그대로 찍혔다: " + e.getMessage());
+            assertTrue(e.getMessage().contains(KEY), "어떤 키인지 안 남았다: " + e.getMessage());
+        }
+
+        @Test
+        @DisplayName("정상 키는 그대로 통과한다")
+        void keepsUsableKeys() {
+            assertEquals("AQ.Ab8RN6-_x", Env.resolve(KEY, env(" AQ.Ab8RN6-_x\n"), Map.of()));
+        }
+
+        /**
+         * {@code String.strip()} 은 이 셋을 공백으로 보지 않는다 — {@code Character.isWhitespace} 가
+         * 줄바꿈 없는 공백을 명시적으로 제외하기 때문이다. 한때 이 클래스의 주석은 반대로 적혀
+         * 있었고, 그래서 시크릿 끝의 NBSP 가 그대로 API 키에 실려 나갔다.
+         */
+        @ParameterizedTest(name = "[{index}] U+{0}")
+        @CsvSource({"00A0", "2007", "202F"})
+        @DisplayName("줄바꿈 없는 공백도 가장자리에서는 떼어 낸다")
+        void trimsNonBreakingSpaces(String codePoint) {
+            String space = String.valueOf((char) Integer.parseInt(codePoint, 16));
+
+            assertEquals(SECRET, Env.resolve(KEY, env(space + SECRET + space), Map.of()));
+        }
+
+        @ParameterizedTest(name = "[{index}] U+{0}")
+        @CsvSource({"00A0", "2007", "202F"})
+        @DisplayName("값 안에 있으면 거부한다 — 가장자리와 자리가 다르다")
+        void rejectsNonBreakingSpacesInside(String codePoint) {
+            String space = String.valueOf((char) Integer.parseInt(codePoint, 16));
+
+            assertThrows(
+                    IllegalStateException.class,
+                    () -> Env.resolve(KEY, env("AQ." + space + "Ab8RN6"), Map.of()));
+        }
+
+        @Test
+        @DisplayName("줄바꿈 없는 공백뿐인 값은 없는 것으로 본다")
+        void nonBreakingSpaceOnlyIsMissing() {
+            String nbsp = String.valueOf((char) NO_BREAK_SPACE);
+
+            assertEquals("from-file", Env.resolve(KEY, env(nbsp), Map.of(KEY, "from-file")));
+        }
+    }
+
+    private static final int NO_BREAK_SPACE = 0x00A0;
 }
