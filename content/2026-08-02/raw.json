@@ -1,0 +1,763 @@
+{
+  "date": "2026-08-02",
+  "generatedAt": "2026-08-02T13:26:53.300Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 19,
+      "filtered": 15
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49132058",
+      "representativeId": "hackernews:49132058",
+      "items": [
+        {
+          "id": "hackernews:49132058",
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T07:37:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 435,
+            "comments": 304,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49132058"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics",
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-01T20:34:49.000Z",
+          "summary": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\" Now it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress on the main result for at least a decade\". They claim to have spent less than $2,000 at GPT-5.6 Sol token prices on each one. (No news on how many problems they spent $2,000 on without reaching a solution though.) The openai/ten-proofs repository has Lean 4 formalizations of their results, and there's also a paper describing the solutions and an additional LLM-generated PDF where the model \"reconstructs how the proof came together\" based on the unpublished reasoning traces. That's a decent level of transparency, but I want to see the prompts they used! A lot of mathematicians online are experiencing a collective burst of Deep Blue . Mathematician Kirwin Hampshire published an impassioned essay last week, The Dark Night of Mathematics , describing \"a profound spiritual crisis\" brought on by previous (and less significant) results. OpenAI's results reminds me of what Terence Tao described as \"big mathematics\" in IEEE Spectrum in June : Unlike some of his peers, Tao is neither dismissive of AI nor fearful. Instead, he sees it as the catalyst for a fundamental shift in the discipline—a transition toward what he calls “big mathematics.” He envisions a future of large-scale, decentralized collaborations between humans and machines, where complex mathematical tasks can be diced and sliced, with humans claiming the creative parts and AI doing the lion’s share of the technical grunt work. Via Hacker News Tags: mathematics , ai , openai , generative-ai , llms , deep-blue",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.772046700599892,
+      "breakdown": {
+        "hnPoints": 1.9552926933197265,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7834206739468318,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49139102",
+      "representativeId": "hackernews:49139102",
+      "items": [
+        {
+          "id": "hackernews:49139102",
+          "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+          "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T22:25:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 315,
+            "comments": 332,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49139102"
+          }
+        }
+      ],
+      "score": 4.892666177562511,
+      "breakdown": {
+        "hnPoints": 1.8517313530874904,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8409348244750197,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49141073",
+      "representativeId": "hackernews:49141073",
+      "items": [
+        {
+          "id": "hackernews:49141073",
+          "title": "Running Kimi K3 on MI355X at Better Performance per Dollar Than B300",
+          "url": "https://wafer.ai/blog/kimi-k3-mi355x",
+          "source": "hackernews",
+          "publishedAt": "2026-08-02T04:21:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 156,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49141073"
+          }
+        }
+      ],
+      "score": 4.697620439865488,
+      "breakdown": {
+        "hnPoints": 1.6266901016829547,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 1.0568175936983688,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49143630",
+      "representativeId": "hackernews:49143630",
+      "items": [
+        {
+          "id": "hackernews:49143630",
+          "title": "Only 8.9% of sites block AI crawlers, but 94.8% are never cited in AI answers",
+          "url": "https://website-auditor.io/ai-visibility-index",
+          "source": "hackernews",
+          "publishedAt": "2026-08-02T11:53:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49143630"
+          }
+        }
+      ],
+      "score": 4.524740418328378,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 1.4130684258903088,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49143289",
+      "representativeId": "hackernews:49143289",
+      "items": [
+        {
+          "id": "hackernews:49143289",
+          "title": "Generative AI floods and dilutes the market for books",
+          "url": "https://arxiv.org/abs/2607.20349",
+          "source": "hackernews",
+          "publishedAt": "2026-08-02T11:06:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 70,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49143289"
+          }
+        }
+      ],
+      "score": 4.478977017635695,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.803778012190777,
+        "mentions": 0.0,
+        "recency": 1.370420240746965,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49132130",
+      "representativeId": "hackernews:49132130",
+      "items": [
+        {
+          "id": "hackernews:49132130",
+          "title": "AI doesn't generate working products, that's still your job",
+          "url": "https://weeraman.com/the-prototype-isnt-the-product",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T07:52:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 257,
+            "comments": 283,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49132130"
+          }
+        }
+      ],
+      "score": 4.466690470880614,
+      "breakdown": {
+        "hnPoints": 1.7864923383041966,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4801981325764175,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49143688",
+      "representativeId": "hackernews:49143688",
+      "items": [
+        {
+          "id": "hackernews:49143688",
+          "title": "An internal OpenAI Astra model solved 10 major open math and CS problems",
+          "url": "https://twitter.com/polynoamial/status/2083467194663571701",
+          "source": "hackernews",
+          "publishedAt": "2026-08-02T12:01:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 21,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49143688"
+          }
+        }
+      ],
+      "score": 4.3467894608000215,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.5828521095705937,
+        "mentions": 0.0,
+        "recency": 1.4201144987990744,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49134038",
+      "representativeId": "hackernews:49134038",
+      "items": [
+        {
+          "id": "hackernews:49134038",
+          "title": "On the non-use of AI in my writing process",
+          "url": "https://antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T12:56:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 130,
+            "comments": 127,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49134038"
+          }
+        },
+        {
+          "id": "hackernews:49134310",
+          "title": "How to Spot AI Writing",
+          "url": "https://economist.com/culture/2026/07/30/how-to-spot-ai-writing",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T13:35:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49134310"
+          }
+        }
+      ],
+      "score": 4.281899251533119,
+      "breakdown": {
+        "hnPoints": 1.568443373740658,
+        "hnComments": 0.9149069020237386,
+        "mentions": 0.0,
+        "recency": 0.5985489757687223,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49130604",
+      "representativeId": "hackernews:49130604",
+      "items": [
+        {
+          "id": "hackernews:49130604",
+          "title": "Flint: A Visualization Language for the AI Era",
+          "url": "https://microsoft.github.io/flint-chart",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T02:45:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 265,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49130604"
+          }
+        }
+      ],
+      "score": 4.189023529725572,
+      "breakdown": {
+        "hnPoints": 1.7963165811027721,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 0.3943167790960628,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49141008",
+      "representativeId": "hackernews:49141008",
+      "items": [
+        {
+          "id": "hackernews:49141008",
+          "title": "Don't credit the LLM",
+          "url": "https://isaacsu.com/2026/08/dont-credit-the-llm",
+          "source": "hackernews",
+          "publishedAt": "2026-08-02T04:07:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49141008"
+          }
+        }
+      ],
+      "score": 4.077801196785293,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 1.0477229348986918,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49140869",
+      "representativeId": "hackernews:49140869",
+      "items": [
+        {
+          "id": "hackernews:49140869",
+          "title": "OpenAI's claimed disproof of Connes' Rigidity Conjecture is invalid [pdf]",
+          "url": "https://philarchive.org/archive/NIEWTCv17",
+          "source": "hackernews",
+          "publishedAt": "2026-08-02T03:41:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 42,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49140869"
+          }
+        }
+      ],
+      "score": 4.05450768011216,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.7092181537550141,
+        "mentions": 0.0,
+        "recency": 1.0302966037092334,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49139325",
+      "representativeId": "hackernews:49139325",
+      "items": [
+        {
+          "id": "hackernews:49139325",
+          "title": "Zitron: \"Everyone Has Been Sold a Lie\" on AI",
+          "url": "https://youtube.com/watch?v=pHcZpvIfho0",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T22:50:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 37,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49139325"
+          }
+        }
+      ],
+      "score": 4.01180035177469,
+      "breakdown": {
+        "hnPoints": 1.271189988341675,
+        "hnComments": 0.6859093004814019,
+        "mentions": 0.0,
+        "recency": 0.8547010629516129,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49134079",
+      "representativeId": "hackernews:49134079",
+      "items": [
+        {
+          "id": "hackernews:49134079",
+          "title": "Google kills Earth AI generator after one day",
+          "url": "https://twitter.com/newsfromgoogle/status/2083249962150760610",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T13:02:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 101,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49134079"
+          }
+        }
+      ],
+      "score": 3.991135686902949,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.8720925712296893,
+        "mentions": 0.0,
+        "recency": 0.5861181533956878,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49132341",
+      "representativeId": "hackernews:49132341",
+      "items": [
+        {
+          "id": "hackernews:49132341",
+          "title": "EU will mandate labels on authentic-looking AI content starting August 2",
+          "url": "https://engadget.com/2227966/eu-mandate-labels-on-authentic-looking-ai-content",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T08:26:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 104,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49132341"
+          }
+        }
+      ],
+      "score": 3.9618656458390262,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.8775585094278122,
+        "mentions": 0.0,
+        "recency": 0.49102814466986106,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49138483",
+      "representativeId": "hackernews:49138483",
+      "items": [
+        {
+          "id": "hackernews:49138483",
+          "title": "AI's real threat to jobs isn't job loss, it's lower paychecks, new research says",
+          "url": "https://businessinsider.com/ai-could-lower-workers-pay-job-market-impact-2026-7",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T21:05:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49138483"
+          }
+        }
+      ],
+      "score": 3.8182638043308468,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.7987448540221742,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49137268",
+      "representativeId": "hackernews:49137268",
+      "items": [
+        {
+          "id": "hackernews:49137268",
+          "title": "Google cancels AI Studio app after 800k preorders",
+          "url": "https://twitter.com/GoogleAIStudio/status/2083274575769473092",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T18:55:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49137268"
+          }
+        }
+      ],
+      "score": 3.6324985292616736,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 0.7349086733828565,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49136955",
+      "representativeId": "hackernews:49136955",
+      "items": [
+        {
+          "id": "hackernews:49136955",
+          "title": "Scanning 7.6 Petabytes of HuggingFace Training Data for Secrets",
+          "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
+          "source": "hackernews",
+          "publishedAt": "2026-08-01T18:21:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49136955"
+          }
+        }
+      ],
+      "score": 3.5242981885285225,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 0.7192611075155849,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+          "title": "Is paying artists enough to convince them to embrace AI?",
+          "url": "https://theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-02T13:00:00.000Z",
+          "summary": "Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models on artists' work without permission. They've pointed out how the practice is tantamount to theft, and in response, many gen AI boosters have argued that it's necessary for the technology's evolution. This has led to contentious legal battles, but it's […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3743365567773957,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4743365567773958,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/2/open-letters",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/2/open-letters",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/2/open-letters",
+          "title": "Open letters about AI development",
+          "url": "https://simonwillison.net/2026/Aug/2/open-letters",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-02T04:16:52.000Z",
+          "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA, Amazon, Y Combinator, The Linux Foundation and (a later signer) OpenAI. It's clearly an argument designed to counter any instincts by the current US government to ban or limit open weight models over \"safety\" concerns - a reasonable consideration given what happened to Claude Fable 5 ! Relying solely on closed models is not inherently safe: they can be breached, misused, or fail in ways that outsiders cannot detect. And concentrating advanced AI capabilities behind a small number of closed models compounds that risk. It results in a small number of single points of failure, weakens competition, and leaves critical technology in the hands of a few providers. Open weight models, on the other hand, allow a broad community of researchers and developers to examine their behavior, identify vulnerabilities, develop safeguards, and improve them over time. The one surprising note in the letter is that it comes out in support of distillation, where models train on output from other models: In shaping this ecosystem, policymakers should be careful not to conflate legitimate model-development techniques with misappropriation. Distillation, or the practice of using one model’s outputs to help train or improve another, is a widely used technique for model improvement, evaluation, and validation. It reflects a long tradition of learning from, building upon, and improving existing technologies, a tradition that has helped drive innovation since the rise of the open-source software movement. Notably absent from the signatures: Anthropic, who published their own response Our position on open-weights models three days later. CEO Dario Amodei doubled down on the risk of authoritarian governments building \"AI models that are more powerful than those built by the US\", and models being \"misused to carry out cyberattacks or biological attacks\", and called for \"a crack down on industrial-scale distillation operations \", while also stating that \"Anthropic has never advocated for a ban on open-weights models\". Then on July 28th Pacing the Frontier was published, featuring signatures from \"1,324 employees of frontier AI companies\" - with names like Jakub Pachocki (Chief Scientist, OpenAI), Ilya Sutskever (Safe Superintelligence Inc, previously OpenAI), Dario Amodei (Anthropic), Jack Clark (Anthropic) and more. Their core message: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development. Their concern is intense competitive pressure combined with accelerated AI progress caused by automated AI research - and given that Anthropic produce 80% of their code with Claude Code , OpenAI had Sol reduce their end-to-end serving costs by 20% , and Kimi K3 designed a chip to serve a nano model built on its own architecture , you can see why people are taking that risk more seriously right now. Tags: anthropic , generative-ai , openai , ai , llms , ai-ethics",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.103859966988601,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0538599669886015,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/2/july-newsletter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/2/july-newsletter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/2/july-newsletter",
+          "title": "July 2026 newsletter",
+          "url": "https://simonwillison.net/2026/Aug/2/july-newsletter",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-02T04:12:41.000Z",
+          "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under test GPT-5.6 Sol, Terra, and Luna Claude Opus 5 Kimi K3 and DeepSeek-V4-Flash-0731 Open letters about Al development A fireside chat and a podcast Reigniting my interest in MCP Other model releases My projects What I'm using at the moment Here's a copy of the June newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.1010342790292924,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0510342790292926,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/1/greg-brockman",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/1/greg-brockman",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/1/greg-brockman",
+          "title": "Quoting Greg Brockman",
+          "url": "https://simonwillison.net/2026/Aug/1/greg-brockman",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-01T22:29:44.000Z",
+          "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker. reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people. — Greg Brockman , President and Co-Founder, OpenAI Tags: ai-ethics , ai-misuse , generative-ai , openai , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8933850927749878,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.843385092774988,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/1/datasette-apps",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/1/datasette-apps",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/1/datasette-apps",
+          "title": "datasette-apps 0.2a0",
+          "url": "https://simonwillison.net/2026/Aug/1/datasette-apps",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-01T21:23:56.000Z",
+          "summary": "Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_list() tool for listing apps the user has permission to edit, so the agent can edit them. #36 The app_debug() tool is pretty neat: it works by displaying the app in a opacity: 0 iframe with pointer-events: none (so it can't be seen or interacted with) and then executing agent-provided JavaScript inside that sandboxed iframe. This means the agent can smoke test that the app is working and even do things like measure the dimensions of different elements. This uses the new context.browser_task() mechanism added in datasette-agent 0.4a0 . Tags: iframes , datasette , datasette-apps",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8585099876290465,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8085099876290467,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
+          "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+          "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-01T19:45:45.000Z",
+          "summary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6591342807593015,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7591342807593016,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
+          "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+          "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-01T12:30:36.000Z",
+          "summary": "Reddit may still be considering ending its licensing deal with Google.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6241542728523264,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5741542728523265,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+          "title": "Is this Billboard Hot 100 hit AI slop?",
+          "url": "https://theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-01T18:20:00.000Z",
+          "summary": "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles. But he's recently found solo success with the track \"Rubberz,\" which has climbed to number 58 on the Billboard Hot 100. Almost immediately, though, questions were raised about the song's origins, with many speculating that it was largely, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6184844602303916,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7184844602303918,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+          "title": "Sam Altman is still making the case for parenting via ChatGPT",
+          "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-01T17:07:34.000Z",
+          "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5858480834923339,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6858480834923341,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49132058",
+    "hackernews:49139102",
+    "hackernews:49141073",
+    "hackernews:49143630",
+    "hackernews:49143289"
+  ]
+}
