@@ -1,6 +1,6 @@
 # AI-cards-news
 
-> 매일 21:00 KST · 수집부터 게시까지 **사람 손이 개입하지 않는** AI 뉴스 카드 파이프라인
+> 매일 밤 · 수집부터 게시까지 **사람 손이 개입하지 않는** AI 뉴스 카드 파이프라인
 
 <p>
   <img src="content/2026-07-29/cards/01.webp" width="215" alt="발행 카드 1">
@@ -102,7 +102,7 @@ JDK 25 필요 · Gradle 은 wrapper 동봉.
 
 ```bash
 cd web && pnpm install
-pnpm main      # http://localhost:4321/ai-cards-news/
+pnpm dev      # http://localhost:4321/ai-cards-news/
 pnpm build    # dist/ 에 정적 사이트
 ```
 
