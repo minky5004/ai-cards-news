@@ -15,10 +15,19 @@ on:
       - "content/**"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
+    inputs:
+      ref:
+        description: "빌드할 커밋 또는 브랜치. 비우면 이 실행을 만든 커밋"
+        required: false
+        type: string
 
   # 파이프라인이 발행 커밋을 올린 뒤 직접 부른다. 위의 push 트리거로는 안 닿는다 —
   # GITHUB_TOKEN 으로 만든 푸시는 다른 워크플로를 발화시키지 않는다(재귀 방지).
   workflow_call:
+    inputs:
+      ref:
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -34,12 +43,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # ref 를 브랜치 헤드로 못박는다. 기본값은 워크플로를 트리거한 SHA 인데,
-      # 파이프라인이 부를 때 그 SHA 는 파이프라인이 시작된 시점이라 방금 올린
-      # 발행 커밋보다 앞선다 — 배포는 돌고도 오늘 카드가 빠진 사이트가 나간다.
+      # 못박음이 필요한 것은 파이프라인이 부르는 갈래 하나뿐이다. 그때의 트리거 SHA 는
+      # 파이프라인이 시작된 시점이라 방금 올린 발행 커밋보다 앞선다 — 배포는 돌고도
+      # 오늘 카드가 빠진 사이트가 나간다. 그래서 호출부가 푸시한 SHA 를 직접 넘긴다.
+      #
+      # 빈 값은 checkout 의 기본값(이 실행을 만든 커밋)으로 떨어진다. push 와
+      # workflow_dispatch 는 그 기본값이 맞다 — 브랜치 헤드로 못박으면 옛 배포를
+      # 재실행했을 때 당시 상태가 아니라 현재 dev 가 빌드된다.
+      #
+      # 재사용 워크플로 안의 github.event_name 은 호출한 쪽의 이벤트(schedule)라
+      # 트리거로 갈래를 가를 수 없다. 갈래를 가르는 것은 입력이 채워졌는지 여부다.
       - uses: actions/checkout@v5
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ inputs.ref }}
 
       # 버전은 packageManager 필드에서 읽는다. 리포 루트에는 package.json 이
       # 없으므로(웹만 Node 프로젝트다) 경로를 명시해야 한다 — 기본값인 루트를

@@ -52,9 +52,11 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    # 알림 잡이 이슈 제목에 쓸 날짜다. 잡이 나뉘면 steps 출력에 닿지 못한다.
+    # 알림 잡이 이슈 제목에 쓸 날짜, 배포 잡이 빌드할 발행 커밋이다.
+    # 잡이 나뉘면 steps 출력에 닿지 못한다.
     outputs:
       date: ${{ steps.date.outputs.date }}
+      sha: ${{ steps.publish.outputs.sha }}
     steps:
       - uses: actions/checkout@v5
 
@@ -155,6 +157,7 @@ jobs:
       # 푸시 대상은 github.ref_name 이다. cron 은 dev 에서 돌고, 작업 브랜치로 검증할 때는
       # 그 브랜치에 쌓인다. dev 로 못박으면 검증 실행이 발행 브랜치를 건드린다.
       - name: 산출물 커밋
+        id: publish
         env:
           DATE: ${{ steps.date.outputs.date }}
         run: |
@@ -176,6 +179,10 @@ jobs:
           git pull --rebase origin "${{ github.ref_name }}"
           git push origin "HEAD:${{ github.ref_name }}"
 
+          # 배포 잡이 빌드할 커밋. 브랜치 이름이 아니라 SHA 인 이유는, 러너가 도는 사이에
+          # 들어온 다른 푸시가 헤드를 옮겨도 방금 발행한 것이 그대로 나가야 하기 때문이다.
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
   # 발행 커밋을 사이트에 올린다. 파이프라인이 죽으면 needs 가 막아 돌지 않는다 —
   # 미완성인 날짜가 사이트에 나가지 않는다.
   #
@@ -194,6 +201,10 @@ jobs:
       pages: write
       id-token: write
     uses: ./.github/workflows/deploy.yml
+    # 발행 커밋이 없는 실행(재시도로 같은 결과가 나와 커밋을 건너뛴 날)에서는 비어,
+    # 브랜치 헤드로 떨어진다 — 올릴 새 카드가 없으니 그것이 맞다.
+    with:
+      ref: ${{ needs.pipeline.outputs.sha || github.ref_name }}
 
   # 무인 실행이라 아무도 안 보고 있다. 죽은 것을 알리지 않으면 며칠 뒤 사이트가
   # 멈춰 있는 걸 보고서야 안다.
