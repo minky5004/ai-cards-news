@@ -102,7 +102,7 @@ JDK 25 필요 · Gradle 은 wrapper 동봉.
 
 ```bash
 cd web && pnpm install
-pnpm dev      # http://localhost:4321/ai-cards-news/
+pnpm main      # http://localhost:4321/ai-cards-news/
 pnpm build    # dist/ 에 정적 사이트
 ```
 
