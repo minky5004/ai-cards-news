@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-03",
+  "generatedAt": "2026-08-03T14:45:53.273Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49145934",
+      "headline": "부품 구매부터 소프트웨어 개발까지 하는 AI",
+      "highlight": [
+        "부품 구매부터"
+      ],
+      "body": "오픈소스 AI '스프로킷'은 소프트웨어 작성과 하드웨어 개발을 동시에 처리합니다. 웹사이트에서 필요한 부품이나 SaaS를 직접 구매하고 회로도와 부품 명세서까지 만듭니다. 이제 AI 하나로 개발부터 하드웨어 제작 준비까지 한 번에 마칠 수 있습니다.",
+      "sourceUrl": "https://sprocket-demo.spikonado.com",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/05e1ec4e70809d24c36a1ed66e86b1e7a0a49d42310a3cde3b9c6e7796587199/spikonado/sprocket",
+      "publishedAt": "2026-08-02T16:26:19.000Z"
+    },
+    {
+      "clusterId": "hackernews:49154332",
+      "headline": "AI가 쓴 가짜 취약점에 보안 당국이 낚였다",
+      "highlight": [
+        "가짜 취약점"
+      ],
+      "body": "AI가 만든 가짜 SQLite 취약점 보고서 50여 개가 공식 보안 DB에 위험도 최고점으로 등록됐습니다. 보안 연구진의 확인 결과 존재하지 않는 코드를 언급한 AI 환각으로 나타났습니다. 검증 없는 수집 시스템이 보안 팀의 귀중한 시간을 뺏고 있습니다.",
+      "sourceUrl": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-03T11:28:54.000Z"
+    },
+    {
+      "clusterId": "hackernews:49153374",
+      "headline": "AI 코딩 10배 속도 대신 2배를 택했다",
+      "highlight": [
+        "10배 속도",
+        "2배를 택했다"
+      ],
+      "body": "개발자 앙쿠르 세티는 AI가 짠 코드를 직접 손으로 타이핑해 적용합니다. 10배의 작업 속도 대신 버그와 환각을 줄이고 코드 이해도를 높이기 위해서입니다. 속도보다 코드에 대한 완전한 통제권을 지키려는 개발자의 선택입니다.",
+      "sourceUrl": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
+      "sourceName": "Ankur Sethi's Lab Notebook",
+      "publishedAt": "2026-08-03T09:32:07.000Z"
+    },
+    {
+      "clusterId": "hackernews:49154601",
+      "headline": "AI에 쏟아붓더니 메타 현금이 토막났다",
+      "highlight": [
+        "메타 현금이"
+      ],
+      "body": "메타의 잉여현금흐름이 AI 데이터센터 투자 여파로 85억 달러에서 10억 달러 미만으로 줄었습니다. 빅테크의 천문학적인 투자에도 시장은 수익성에 의문을 품고 주가가 크게 흔들립니다. 거품 경고음이 커진 만큼 실질적 성과를 따지는 신중한 접근이 필요합니다.",
+      "sourceUrl": "https://theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
+      "sourceName": "theregister",
+      "imageUrl": "https://image.theregister.com/5282039.jpg?imageId=5282039&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "publishedAt": "2026-08-03T11:59:10.000Z"
+    }
+  ]
+}
