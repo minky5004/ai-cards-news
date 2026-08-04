@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T14:23:00.123Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49167113",
+      "headline": "AI 이미지 쓴 블로그는 글도 안 읽는다",
+      "highlight": [
+        "AI 이미지",
+        "안 읽는다"
+      ],
+      "body": "블로그에 AI 이미지가 들어가는 순간 글 내용까지 AI가 쓴 것은 아닌지 의심받습니다. 독자들은 차라리 그림판으로 그린 그림이 낫다며 성의 없는 AI 이미지에 반감을 표합니다. 개인 블로그일수록 AI 이미지를 피해야 진짜 사람 글이라는 신뢰를 줍니다.",
+      "sourceUrl": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog",
+      "sourceName": "hackernews",
+      "imageUrl": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/og.png",
+      "publishedAt": "2026-08-04T11:30:17.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/apple-is-getting-this-wrong",
+      "headline": "오픈AI 소송한 애플, 메일도 잘못 보냈다",
+      "highlight": [
+        "잘못 보냈다"
+      ],
+      "body": "애플은 영업비밀 유출을 이유로 오픈AI를 고소하며 사전 연락을 무시당했다고 주장했습니다. 하지만 애플 측 변호사가 아시아계 성씨를 착각해 이메일을 엉뚱한 사람에게 보낸 사실이 밝혀졌습니다. 오픈AI는 애플 직원이 퇴사자에게 정보 탐색을 부탁한 메시지까지 공개하며 맞섰습니다.",
+      "sourceUrl": "https://openai.com/index/apple-is-getting-this-wrong",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3LMWP6Zq4rgiX3gVyxKiX/667973a65cc5111e602f68338b9f1c87/Frame__13_.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-08-03T22:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49161518",
+      "headline": "똑같은 AI 써도 전문가 결과가 다른 이유",
+      "highlight": [
+        "전문가"
+      ],
+      "body": "AI는 누구나 쓰지만 전문 지식이 있는 사람이 훨씬 뛰어난 답을 뽑아냅니다. 천재 수학자 테렌스 타오는 전문 지식으로 AI를 수학자 모드로 유도해 답변을 얻어냈습니다. AI 성능이 좋아져도 인간의 전문성이 핵심인 이유입니다.",
+      "sourceUrl": "https://seangoedecke.com/llms-reward-expertise",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.seangoedecke.com/og-image.jpg",
+      "publishedAt": "2026-08-03T21:13:53.000Z"
+    },
+    {
+      "clusterId": "hackernews:49166386",
+      "headline": "AMD GPU 1장으로 딥시크 V4 돌렸다",
+      "highlight": [
+        "GPU 1장으로",
+        "딥시크 V4"
+      ],
+      "body": "엔비디아 H100의 반값인 AMD MI300X 1장에 3040억 파라미터의 딥시크 V4 모델이 올려졌습니다. 별도 양자화 없이 192GB HBM에 모델 전체를 탑재하는 데 성공했습니다. 단일 GPU 구동에 성공하며 거대 AI 모델의 인프라 운용 비용을 크게 줄였습니다.",
+      "sourceUrl": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/f7cc966eeb5523007c27402db796456251507977e1cb19c5dc8f0a3fff9020c6/ryanzhou/deepseek-v4-flash-mi300x",
+      "publishedAt": "2026-08-04T10:00:55.000Z"
+    }
+  ]
+}

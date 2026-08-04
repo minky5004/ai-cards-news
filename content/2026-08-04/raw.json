@@ -1,0 +1,1110 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026-08-04T14:21:30.988Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 33,
+      "filtered": 23
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49167113",
+      "representativeId": "hackernews:49167113",
+      "items": [
+        {
+          "id": "hackernews:49167113",
+          "title": "AI-Generated Images Discourage Me from Reading Your Blog",
+          "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog",
+          "source": "hackernews",
+          "publishedAt": "2026-08-04T11:30:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 450,
+            "comments": 263,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49167113"
+          }
+        },
+        {
+          "id": "hackernews:49153481",
+          "title": "EU enforces labeling AI generated content",
+          "url": "https://euronews.com/my-europe/2026/08/02/ai-generated-label-becomes-mandatory-in-the-eu-for-companies",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T09:46:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49153481"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+          "title": "Europe’s AI labeling and transparency rules are now in effect",
+          "url": "https://theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-03T17:38:45.000Z",
+          "summary": "The European Union has ushered in some additional rules that aim to make it easier for people to identify chatbots and AI deepfakes online. The new transparency obligations under the bloc's landmark AI Act came into effect on August 2nd, requiring companies to disclose when people are interacting with AI models, and if content has […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.34339656877975,
+      "breakdown": {
+        "hnPoints": 1.9661748678064586,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3438883676399576,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/apple-is-getting-this-wrong",
+      "representativeId": "openai:https://openai.com/index/apple-is-getting-this-wrong",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/apple-is-getting-this-wrong",
+          "title": "Apple is getting this wrong",
+          "url": "https://openai.com/index/apple-is-getting-this-wrong",
+          "source": "openai",
+          "publishedAt": "2026-08-03T22:00:00.000Z",
+          "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+          "trust": 1.0,
+          "signals": {
+            "points": 235,
+            "comments": 238,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49164649"
+          }
+        }
+      ],
+      "score": 5.056753751670167,
+      "breakdown": {
+        "hnPoints": 1.7578182423596416,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7989355093105256,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49161518",
+      "representativeId": "hackernews:49161518",
+      "items": [
+        {
+          "id": "hackernews:49161518",
+          "title": "LLMs reward expertise",
+          "url": "https://seangoedecke.com/llms-reward-expertise",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T21:13:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1137,
+            "comments": 478,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49161518"
+          }
+        }
+      ],
+      "score": 4.975635284713461,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7756352847134612,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49166386",
+      "representativeId": "hackernews:49166386",
+      "items": [
+        {
+          "id": "hackernews:49166386",
+          "title": "DeepSeek V4 Flash on a Single AMD MI300X",
+          "url": "https://github.com/ryanzhou/deepseek-v4-flash-mi300x",
+          "source": "hackernews",
+          "publishedAt": "2026-08-04T10:00:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 180,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49166386"
+          }
+        }
+      ],
+      "score": 4.8633674232723285,
+      "breakdown": {
+        "hnPoints": 1.672455017009565,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 1.2689774123552915,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49157930",
+      "representativeId": "hackernews:49157930",
+      "items": [
+        {
+          "id": "hackernews:49157930",
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T16:27:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 579,
+            "comments": 867,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49157930"
+          }
+        }
+      ],
+      "score": 4.845282501784659,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6452825017846586,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49154332",
+      "representativeId": "hackernews:49154332",
+      "items": [
+        {
+          "id": "hackernews:49154332",
+          "title": "SQLite Critical CVEs or LLM Slop?",
+          "url": "https://research.jfrog.com/post/sqlite-critical-cves-or-llm-slops",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T11:28:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 715,
+            "comments": 366,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49154332"
+          }
+        }
+      ],
+      "score": 4.732849163970187,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5328491639701869,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49153374",
+      "representativeId": "hackernews:49153374",
+      "items": [
+        {
+          "id": "hackernews:49153374",
+          "title": "Prevent cognitive debt by manually retyping LLM-generated code",
+          "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T09:32:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 509,
+            "comments": 421,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49153374"
+          }
+        }
+      ],
+      "score": 4.69437112604824,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4943711260482398,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49158333",
+      "representativeId": "hackernews:49158333",
+      "items": [
+        {
+          "id": "hackernews:49158333",
+          "title": "Show HN: Run an 80B Qwen in 4.3 GB of RAM on a Mac, and a 35B on an iPhone",
+          "url": "https://github.com/leonickson1/Swiftlet",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T16:54:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 247,
+            "comments": 112,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49158333"
+          }
+        }
+      ],
+      "score": 4.521761544133279,
+      "breakdown": {
+        "hnPoints": 1.7737745182866997,
+        "hnComments": 0.8914041151072508,
+        "mentions": 0.0,
+        "recency": 0.6565829107393283,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49155629",
+      "representativeId": "hackernews:49155629",
+      "items": [
+        {
+          "id": "hackernews:49155629",
+          "title": "MiniMax H3 Day-0 Support in ComfyUI: Open Weights, Native Audio, and 2K Video",
+          "url": "https://blog.comfy.org/p/minimax-h3-day-0-support-in-comfyui",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T13:34:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 317,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49155629"
+          }
+        }
+      ],
+      "score": 4.479914140584495,
+      "breakdown": {
+        "hnPoints": 1.8537611323885028,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.577661407516535,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49160699",
+      "representativeId": "hackernews:49160699",
+      "items": [
+        {
+          "id": "hackernews:49160699",
+          "title": "AI's debt binge can't last, hidden borrowing reaches $1.65T",
+          "url": "https://fortune.com/2026/07/31/ai-debt-hypescalers-capex-capital-spending-hidden-borrowing-bond-issuance",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T20:02:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 162,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49160699"
+          }
+        }
+      ],
+      "score": 4.477044594090157,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.9604860156288831,
+        "mentions": 0.0,
+        "recency": 0.740830690829408,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49158581",
+      "representativeId": "hackernews:49158581",
+      "items": [
+        {
+          "id": "hackernews:49158581",
+          "title": "Smaller, faster, safer: running Kimi and GLM at scale",
+          "url": "https://blog.cloudflare.com/smaller-faster-safer-models",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T17:08:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 245,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49158581"
+          }
+        }
+      ],
+      "score": 4.412117594757721,
+      "breakdown": {
+        "hnPoints": 1.7711694922963264,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.6627287738360752,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49166230",
+      "representativeId": "hackernews:49166230",
+      "items": [
+        {
+          "id": "hackernews:49166230",
+          "title": "An Honest Review of AI Programming",
+          "url": "https://mropert.github.io/2026/08/04/an_honest_review_of_ai_programming",
+          "source": "hackernews",
+          "publishedAt": "2026-08-04T09:35:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 58,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49166230"
+          }
+        }
+      ],
+      "score": 4.369998056978794,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.7688672468575888,
+        "mentions": 0.0,
+        "recency": 1.2482448526754708,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49154228",
+      "representativeId": "hackernews:49154228",
+      "items": [
+        {
+          "id": "hackernews:49154228",
+          "title": "AirLLM 70B inference with single 4GB GPU",
+          "url": "https://github.com/lyogavin/airllm",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T11:15:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 225,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49154228"
+          }
+        }
+      ],
+      "score": 4.303215106762052,
+      "breakdown": {
+        "hnPoints": 1.743888839386605,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.5283879518040271,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49154601",
+      "representativeId": "hackernews:49154601",
+      "items": [
+        {
+          "id": "hackernews:49154601",
+          "title": "The AI bubble is popping; we just don't know it yet",
+          "url": "https://theregister.com/ai-and-ml/2026/08/03/the-ai-bubble-is-already-popping-we-just-dont-know-it-yet/5282004",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T11:59:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 144,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49154601"
+          }
+        },
+        {
+          "id": "hackernews:49159902",
+          "title": "The AI Bailout Could Be Baked into the AI Bubble",
+          "url": "https://prospect.org/2026/08/03/ai-bailout-could-be-baked-into-bubble-private-equity-life-insurers-loans",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T18:51:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49159902"
+          }
+        }
+      ],
+      "score": 4.252000631339206,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.9384211974796635,
+        "mentions": 0.0,
+        "recency": 0.7078452498312163,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49157786",
+      "representativeId": "hackernews:49157786",
+      "items": [
+        {
+          "id": "hackernews:49157786",
+          "title": "What's the largest software project AI can complete on its own?",
+          "url": "https://epoch.ai/MirrorCode",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T16:16:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 94,
+            "comments": 99,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49157786"
+          }
+        }
+      ],
+      "score": 4.174361951036752,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.8683585548682906,
+        "mentions": 0.0,
+        "recency": 0.6409348949469211,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49150561",
+      "representativeId": "hackernews:49150561",
+      "items": [
+        {
+          "id": "hackernews:49150561",
+          "title": "OpenAI's super PAC is funding AI-generated news site attacking industry critics",
+          "url": "https://modelrepublic.org/articles/the-reporters-at-this-news-site-are-ai-bots.-openai%E2%80%99s-super-pac-appears-to-be-using-it-to-advance-its-political-agenda",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T02:30:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 206,
+            "comments": 106,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49150561"
+          }
+        }
+      ],
+      "score": 4.1739214506812194,
+      "breakdown": {
+        "hnPoints": 1.7156367016191527,
+        "hnComments": 0.8811163822319403,
+        "mentions": 0.0,
+        "recency": 0.37716836683012606,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49166984",
+      "representativeId": "hackernews:49166984",
+      "items": [
+        {
+          "id": "hackernews:49166984",
+          "title": "Show HN: Fine-tune an 8B model on a 4 GB laptop GPU",
+          "url": "https://github.com/MakazhanAlpamys/Soup",
+          "source": "hackernews",
+          "publishedAt": "2026-08-04T11:17:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49166984"
+          }
+        }
+      ],
+      "score": 4.157142172062047,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 1.3332927162897072,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49152222",
+      "representativeId": "hackernews:49152222",
+      "items": [
+        {
+          "id": "hackernews:49152222",
+          "title": "The AI Productivity Gap",
+          "url": "https://bjorg.bjornroche.com/management/ai-productivity-gap",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T07:07:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 130,
+            "comments": 109,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49152222"
+          }
+        }
+      ],
+      "score": 4.105276502829041,
+      "breakdown": {
+        "hnPoints": 1.568443373740658,
+        "hnComments": 0.8863304010013479,
+        "mentions": 0.0,
+        "recency": 0.4505027280870352,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49154127",
+      "representativeId": "hackernews:49154127",
+      "items": [
+        {
+          "id": "hackernews:49154127",
+          "title": "Show HN: Nightcrawler – A local AI pentesting agent running on a smartphone",
+          "url": "https://github.com/garagehq/nightcrawler",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T11:06:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 113,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49154127"
+          }
+        },
+        {
+          "id": "hackernews:49159018",
+          "title": "Show HN: Hacker News with AI stories filtered out",
+          "url": "https://hcker.news/?view=frontpage&ai=exclude",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T17:39:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49159018"
+          }
+        }
+      ],
+      "score": 4.059150802386457,
+      "breakdown": {
+        "hnPoints": 1.5237248014050555,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.6761187157915425,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49150773",
+      "representativeId": "hackernews:49150773",
+      "items": [
+        {
+          "id": "hackernews:49150773",
+          "title": "AI migrated legacy COBOL programs to Java, bugs included",
+          "url": "https://arxiv.org/abs/2607.28271",
+          "source": "hackernews",
+          "publishedAt": "2026-08-03T03:06:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 91,
+            "comments": 95,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49150773"
+          }
+        }
+      ],
+      "score": 3.9013161228361795,
+      "breakdown": {
+        "hnPoints": 1.4547450822917476,
+        "hnComments": 0.860661091639612,
+        "mentions": 0.0,
+        "recency": 0.3859099489048198,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+          "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+          "source": "huggingface",
+          "publishedAt": "2026-08-04T13:58:29.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.827988993045536,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4779889930455359,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai",
+          "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+          "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-04T14:03:01.000Z",
+          "summary": "Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3822954737286524,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4822954737286524,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+          "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+          "url": "https://theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-04T11:27:55.000Z",
+          "summary": "Apple's legal battle against OpenAI just got messier now that the ChatGPT-maker has publicly aired receipts to counter Apple's version of events. In a blog post published overnight titled \"Apple is getting this wrong,\" OpenAI said that Apple's lawsuit accusing it of stealing trade secrets is \"careless, aggressive, and oddly personal,\" sharing iMessage and email […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2418486398924733,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3418486398924732,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+          "title": "Can Reddit fend off a new wave of AI SEO spam?",
+          "url": "https://theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-04T10:00:00.000Z",
+          "summary": "Earlier this year, a Reddit user had asked members of a skincare-focused subreddit if anyone had tried a specific hypochlorous acid spray, a product often used for acne. There were dozens of responses; one from a user named Primary-Taro4254 seemed innocuous enough, at least at first. \"I haven't personally tried [that brand] so I can't […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1682310679342773,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2682310679342776,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "representativeId": "openai:https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "source": "openai",
+          "publishedAt": "2026-08-03T07:00:00.000Z",
+          "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9483873941238925,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4483873941238924,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/4/steve-yegge",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/4/steve-yegge",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/4/steve-yegge",
+          "title": "Quoting Steve Yegge",
+          "url": "https://simonwillison.net/2026/Aug/4/steve-yegge",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-04T00:42:45.000Z",
+          "summary": "Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw. — Steve Yegge , The Shape of Things to Come Tags: steve-yegge , coding-agents , generative-ai , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9369012604315574,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8869012604315576,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy",
+          "title": "Don't be a meat proxy",
+          "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-03T23:45:04.000Z",
+          "summary": "Don't be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add. Via Lobste.rs Tags: definitions , ai , generative-ai , llms , ai-misuse",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9046673460976171,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8546673460976174,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+          "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+          "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-03T22:11:39.000Z",
+          "summary": "$100 million deal gives 50,000 Ukrainian drones US-developed AI capabilities.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.854931541802209,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8049315418022092,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+          "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+          "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-03T19:00:50.000Z",
+          "summary": "Top scores increased by 5x.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7621514033410932,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7121514033410935,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics",
+          "title": "Trump’s AI protectionism has come for robotics",
+          "url": "https://technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-03T18:43:30.000Z",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children, and despite advances are still worse at using their hands than my toddler. It’s a nascent industry, and such robots…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7542729186485126,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7042729186485128,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+          "title": "After killer quarter, Palantir CEO Alex Karp calls AI industry ‘Marxist’",
+          "url": "https://techcrunch.com/2026/08/03/after-killer-quarter-palantir-ceo-alex-karp-calls-ai-industry-marxist",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-03T23:19:50.000Z",
+          "summary": "After a quarter that delivered $1 billion in profit, Palantir CEO Alex Karp on Monday once again warned that AI frontier labs are too untrustworthy for enterprises.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7409376309948263,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8409376309948265,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/3/david-crawshaw",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/3/david-crawshaw",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/3/david-crawshaw",
+          "title": "Quoting David Crawshaw's prompt",
+          "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-03T16:15:27.000Z",
+          "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. — David Crawshaw's prompt , Devtools must be open source Tags: prompt-engineering , coding-agents , generative-ai , ai , llms , open-source",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6904346097166534,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6404346097166536,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev",
+          "title": "Devtools must be open source (exe.dev)",
+          "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-03T15:30:38.000Z",
+          "summary": "My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on other people to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often. I think LLMs have changed that equation in a way that makes the original dream much more feasible. Several times a day I'll prompt regular Claude chat to \"Clone x/y from GitHub and tell me how Z works\". Getting software to compile in order to start hacking on it used to be enough friction that I often wouldn't bother. Now I treat that as a zero time investment challenge: tell Codex or Claude Code to checkout and build X and then come back ten minutes later and see how it got on. I'm not habitually modifying the software I use yet, but I can see a path to that which didn't exist a year or so ago. Tags: hacker-news , open-source , ai , generative-ai , llms , ai-assisted-programming",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6722758946444924,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6222758946444926,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+          "title": "Design Arena creators raise $7.9 million to bring taste to AI models",
+          "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-03T19:28:57.000Z",
+          "summary": "Design Arena is used by 5.3 million people around the world, providing critical human evaluations to frontier labs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6251190827366928,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.725119082736693,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip",
+          "title": "Influencers draw backlash for attending OpenAI’s first luxury trip",
+          "url": "https://techcrunch.com/2026/08/03/influencers-draw-backlash-for-attending-openais-first-luxury-trip",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-03T19:09:56.000Z",
+          "summary": "OpenAI’s first-ever influencer brand trip is sparking online backlash as tensions over the use of AI continue.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6163228267867402,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7163228267867404,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+          "title": "Congress’ favorite AI tool? ChatGPT",
+          "url": "https://techcrunch.com/2026/08/03/congresss-favorite-ai-tool-chatgpt",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-03T16:40:55.000Z",
+          "summary": "House spending records show OpenAI's ChatGPT dominates paid AI use on Capitol Hill, with congressional offices relying on the chatbot to draft memos, summarize legislation, and assist constituent communications.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.550988258034231,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.650988258034231,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
+          "title": "Here’s why AI agents lie and cheat to reach their goals",
+          "url": "https://technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-03T08:30:05.000Z",
+          "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face in July, they weren’t trying to make money or commit sabotage—they were just looking for answers…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5250753040981744,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4750753040981746,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+          "title": "China’s Alibaba takes another swipe at America’s AI supremacy",
+          "url": "https://theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-03T11:01:11.000Z",
+          "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, widely available to users in a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4234543114824427,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5234543114824428,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+          "title": "A Marc Benioff-backed startup thinks AI can solve the AI deployment problem",
+          "url": "https://techcrunch.com/2026/08/03/a-marc-benioff-backed-startup-thinks-ai-can-solve-the-ai-deployment-problem",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-03T10:00:00.000Z",
+          "summary": "June emerged from stealth today with a $20 million pre-seed round to make AI adoption simpler.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4032978328444061,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5032978328444063,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49167113",
+    "openai:https://openai.com/index/apple-is-getting-this-wrong",
+    "hackernews:49161518",
+    "hackernews:49166386",
+    "hackernews:49157930"
+  ]
+}
