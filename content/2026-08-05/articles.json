@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T14:13:56.141Z",
+  "articles": [
+    {
+      "clusterId": "hackernews:49181083",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "sourceTitle": "Position: LLMs Can't Jump",
+      "source": "hackernews",
+      "ok": false,
+      "error": "hackernews: 본문이 너무 짧다 (170자)"
+    },
+    {
+      "clusterId": "hackernews:49175826",
+      "url": "https://africanews.com/2026/08/04/ai-fuels-more-than-half-of-cybercrime-in-africa-as-digital-scams-surge-interpol",
+      "sourceTitle": "AI fuels more than half of cybercrime in Africa as scams surge – Interpol",
+      "source": "hackernews",
+      "ok": false,
+      "error": "hackernews: 본문이 너무 짧다 (267자)"
+    },
+    {
+      "clusterId": "hackernews:49170479",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai",
+      "sourceTitle": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "source": "hackernews",
+      "ok": true,
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "text": "Apple says more ex-employees may have taken confidential data to OpenAI\n\n7:03 AM PDT · August 4, 2026\n\nApple is now seeking a preliminary injunction in its trade secrets case against OpenAI, which aims to stop the AI model maker from moving forward with developing an AI device or other products based on Apple’s technology. The iPhone maker also claims that more of its former employees may be involved with the trade secrets theft.\n\nIn a new filing, Apple is requesting expedited discovery from the accused OpenAI employees, senior systems engineer Chang Liu and Chief Hardware Officer Tang Yew Tan; OpenAI, and its foundation; and io, the device startup co-founded by Apple’s former lead designer Jony Ive.\n\nApple also notes that its continued investigation has so far revealed 11 other former Apple employees beyond Liu and Tan may have been witnesses or otherwise involved in the case, and others who were previously named in the original complaint, like OpenAI employee Yu-Ting Peng.\n\nThe filing marks an escalation in Apple’s legal battle with OpenAI, as it suggests Apple has uncovered new evidence that the misconduct goes beyond the former employees named in the original complaint.\n\n“For example, another former Apple employee seems to have met with Mr. Liu and Ms. Peng in advance of Ms. Peng’s interview at OpenAI and discussed with them during that meeting Apple proprietary information relating to unannounced products,” the filing states. “Yet another former Apple employee took screenshots of confidential Apple documents relating to an unannounced Apple product before an interview at OpenAI.”\n\n“And, after Apple filed its complaint, multiple former Apple employees now working at OpenAI reached out to discuss returning Apple-issued work devices they kept when they left Apple,” Apple claims, suggesting there were more who were possibly involved with the scheme.\n\nApple is pushing the court to allow for expedited discovery because it believes it has good cause to suspect that there are others involved in the theft of its intellectual property. The company noted that its motion for a preliminary injunction is also pending.\n\nOpenAI responded publicly to Apple’s latest, saying in a blog post that Apple’s request for a preliminary injunction is “both based on false information and completely unnecessary because we do not have, nor want, any of their trade secrets.”\n\n“We’re much more interested in building innovative products and technologies that push the frontier,” OpenAI’s statement reads.\n\nThe AI model maker also pointed to earlier mistakes Apple made, which had been reported, including that Apple emailed the wrong person when it made contact with OpenAI after confusing two similar surnames. OpenAI also alleges that Apple lied about discussing matters with its general counsel. And, the company said that Apple didn’t admit to the claim that the “residual access” allowing former employees to access Apple’s system was the result of poor security procedures on Apple’s part.\n\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.\n\nYou can contact or verify outreach from Sarah by emailing sarahp@techcrunch.com or via encrypted message at sarahperez.01 on Signal.",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/tim-cook-sam-altman-GettyImages-2233062347.jpg?w=1024",
+      "byline": "Sarah Perez",
+      "siteName": "TechCrunch"
+    },
+    {
+      "clusterId": "hackernews:49167113",
+      "url": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog",
+      "sourceTitle": "AI-Generated Images Discourage Me from Reading Your Blog",
+      "source": "hackernews",
+      "ok": true,
+      "title": "AI-Generated Images Discourage Me From Reading Your Blog",
+      "text": "I have a growing hatred for AI-generated images in blogs. It makes me wonder if the text in the blog posts is AI-generated to some extent. It’s always disappointing seeing these images in blogs run by individuals. I expect this from corporate blogs but not indie blogs.I’d rather see a shitty\nMicrosoft Paint drawing as opposed to some AI image.I know there are plenty of things you can roast my blog for but at least you know for a fact you’re getting the thoughts of a real human being and not some\nLLM.If you run a personal blog, please avoid AI-generated images.Discussion over at\nHacker News",
+      "imageUrl": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/og.png",
+      "byline": "Nelson Figueroa"
+    },
+    {
+      "clusterId": "hackernews:49182052",
+      "url": "https://iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
+      "sourceTitle": "Iowa-led states ask OpenAI to keep their bots on a leash",
+      "source": "hackernews",
+      "ok": false,
+      "error": "hackernews: (certificate_unknown) PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target"
+    }
+  ]
+}

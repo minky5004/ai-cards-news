@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T14:14:26.164Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49170479",
+      "headline": "애플 퇴사자 11명이 오픈AI로 기술 유출",
+      "highlight": [
+        "11명이",
+        "오픈AI로"
+      ],
+      "body": "애플이 영업비밀 유출 소송을 확대하며 오픈AI에 AI 기기 개발 중단 가처분을 신청했습니다. 조사 과정에서 전 직원 11명이 미공개 제품 정보 유출 등에 관여한 정황이 추가 파악됐습니다. 오픈AI는 허위 주장이라며 맞섰으나, 기기 개발에 차질이 생길지 주목됩니다.",
+      "sourceUrl": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/tim-cook-sam-altman-GettyImages-2233062347.jpg?w=1024",
+      "publishedAt": "2026-08-04T15:37:42.000Z"
+    },
+    {
+      "clusterId": "hackernews:49167113",
+      "headline": "AI 이미지 쓰면 블로그 글도 안 읽는다",
+      "highlight": [
+        "안 읽는다"
+      ],
+      "body": "개인 블로그에 생성형 AI 이미지가 있으면 글 전체가 AI로 작성됐다는 의심이 들어 독자가 떠난다. 해커뉴스에서는 조악한 그림판 그림이 진정성 면에서 훨씬 낫다는 의견까지 나왔다. 진짜 사람이 쓴 글임을 증명하고 싶다면 AI 이미지 사용을 그만두어야 한다.",
+      "sourceUrl": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog",
+      "sourceName": "hackernews",
+      "imageUrl": "https://nelson.cloud/ai-generated-images-discourage-me-from-reading-your-blog/og.png",
+      "publishedAt": "2026-08-04T11:30:17.000Z"
+    }
+  ]
+}
