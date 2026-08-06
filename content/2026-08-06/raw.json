@@ -1,0 +1,1330 @@
+{
+  "date": "2026-08-06",
+  "generatedAt": "2026-08-06T14:17:45.135Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 10,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 3
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 30,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49181773",
+      "representativeId": "hackernews:49181773",
+      "items": [
+        {
+          "id": "hackernews:49181773",
+          "title": "Anthropic AI created fake profiles and impersonated people in attempted hack",
+          "url": "https://bbc.co.uk/news/articles/c1w1lvn7d9go",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T12:16:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49181773"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
+          "title": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+          "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-05T20:47:11.000Z",
+          "summary": "Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+          "title": "Rogue AI agents created fake online identities in another hacking attempt",
+          "url": "https://theverge.com/ai-artificial-intelligence/975577/aisi-openai-anthropic-agent-hacking",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-05T15:14:57.000Z",
+          "summary": "Yet more rogue AI agents from OpenAI and Anthropic have been caught attempting to hack real targets online without permission. The discoveries add to a growing list of previously unknown incidents that have alarmed AI safety experts and intensified pressure for greater oversight of frontier systems. According to a report from the UK's AI Security […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.49428327807342,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.5740802179970582,
+        "mentions": 1.6666666666666665,
+        "recency": 0.7643013606373437,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49184755",
+      "representativeId": "hackernews:49184755",
+      "items": [
+        {
+          "id": "hackernews:49184755",
+          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T16:05:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 736,
+            "comments": 788,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49184755"
+          }
+        },
+        {
+          "id": "hackernews:49184757",
+          "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
+          "url": "https://axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T16:05:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 369,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49184757"
+          }
+        }
+      ],
+      "score": 4.837944855751001,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6379448557510002,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49193019",
+      "representativeId": "hackernews:49193019",
+      "items": [
+        {
+          "id": "hackernews:49193019",
+          "title": "Meta says AI model accessed the internet and hacked another firm",
+          "url": "https://bbc.co.uk/news/articles/cx2kgdnyk2po",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T06:04:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49193019"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta",
+          "title": "An AI model from Meta also hacked another company during testing",
+          "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-06T00:25:27.000Z",
+          "summary": "An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday. Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic. “A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spokesperson said. Meta’s Muse Spark model “exploited a security vulnerability” in another company “in a manner similar to previously-reported instances with other companies.” The Information had the scoop , I'm linking to CNN's re-report of it since they don't have a paywall. So that's Anthropic, OpenAI, and Meta. Google Gemini really needs to catch up on accidentally cyberattacking other companies. Tags: security , ai , generative-ai , llms , meta , accidental-cyberattacks",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 4.804900332222449,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.8333333333333333,
+        "recency": 1.0927080161941047,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49187977",
+      "representativeId": "hackernews:49187977",
+      "items": [
+        {
+          "id": "hackernews:49187977",
+          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+          "url": "https://wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T19:47:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 305,
+            "comments": 240,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49187977"
+          }
+        }
+      ],
+      "score": 4.776932798197775,
+      "breakdown": {
+        "hnPoints": 1.841385800832243,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7355469973655316,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49187061",
+      "representativeId": "hackernews:49187061",
+      "items": [
+        {
+          "id": "hackernews:49187061",
+          "title": "Born Against, or why hobby programming communities are against LLM usage",
+          "url": "https://blog.fogus.me/llm/born-against.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T18:37:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 321,
+            "comments": 359,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49187061"
+          }
+        }
+      ],
+      "score": 4.761188675057496,
+      "breakdown": {
+        "hnPoints": 1.857782671653167,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7034060034043288,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49186762",
+      "representativeId": "hackernews:49186762",
+      "items": [
+        {
+          "id": "hackernews:49186762",
+          "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
+          "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T18:18:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 360,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49186762"
+          }
+        }
+      ],
+      "score": 4.637987855391769,
+      "breakdown": {
+        "hnPoints": 1.894563645364376,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.6949326093479355,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49181083",
+      "representativeId": "hackernews:49181083",
+      "items": [
+        {
+          "id": "hackernews:49181083",
+          "title": "Position: LLMs Can't Jump",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T11:01:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 294,
+            "comments": 195,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49181083"
+          }
+        }
+      ],
+      "score": 4.549724235194951,
+      "breakdown": {
+        "hnPoints": 1.8296077518398284,
+        "hnComments": 0.9952500847555874,
+        "mentions": 0.0,
+        "recency": 0.5248663985995347,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49195468",
+      "representativeId": "hackernews:49195468",
+      "items": [
+        {
+          "id": "hackernews:49195468",
+          "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+          "url": "https://scalex.dev/blog/ai-agent-permissions-stats",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T11:58:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 30,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49195468"
+          }
+        }
+      ],
+      "score": 4.483881000303913,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.6475183426219275,
+        "mentions": 0.0,
+        "recency": 1.371419835572609,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49182041",
+      "representativeId": "hackernews:49182041",
+      "items": [
+        {
+          "id": "hackernews:49182041",
+          "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+          "url": "https://vincentschmalbach.com/time-serves-ai-bots-a-different-website",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T12:41:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 251,
+            "comments": 109,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49182041"
+          }
+        }
+      ],
+      "score": 4.4249693723439885,
+      "breakdown": {
+        "hnPoints": 1.7789221313367365,
+        "hnComments": 0.8863304010013479,
+        "mentions": 0.0,
+        "recency": 0.5597168400059037,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49185370",
+      "representativeId": "hackernews:49185370",
+      "items": [
+        {
+          "id": "hackernews:49185370",
+          "title": "I’m leaving OpenAI to build telepathy",
+          "url": "https://naomibashkansky.com/blog/telepathy",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T16:45:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 129,
+            "comments": 209,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49185370"
+          }
+        }
+      ],
+      "score": 4.420484360478186,
+      "breakdown": {
+        "hnPoints": 1.5659780823514442,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6545062781267419,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49186720",
+      "representativeId": "hackernews:49186720",
+      "items": [
+        {
+          "id": "hackernews:49186720",
+          "title": "Sycophantic AI Decreases Prosocial Intentions and Promotes Dependence (2025)",
+          "url": "https://arxiv.org/abs/2510.01395",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T18:17:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 150,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49186720"
+          }
+        }
+      ],
+      "score": 4.339185458379374,
+      "breakdown": {
+        "hnPoints": 1.6141540111217132,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.6940931316862401,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49191365",
+      "representativeId": "hackernews:49191365",
+      "items": [
+        {
+          "id": "hackernews:49191365",
+          "title": "LLMs won't break symmetric crypto",
+          "url": "https://bfswa.blog/p/llms-wont-break-symmetric-crypto",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T01:39:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 71,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49191365"
+          }
+        }
+      ],
+      "score": 4.333154618271207,
+      "breakdown": {
+        "hnPoints": 1.3758845419753172,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.9217878862920497,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49181519",
+      "representativeId": "hackernews:49181519",
+      "items": [
+        {
+          "id": "hackernews:49181519",
+          "title": "Why Erdős Problems Are Falling to AI",
+          "url": "https://quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T11:49:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 141,
+            "comments": 132,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49181519"
+          }
+        }
+      ],
+      "score": 4.257785843320443,
+      "breakdown": {
+        "hnPoints": 1.5943834873940028,
+        "hnComments": 0.9221323708524131,
+        "mentions": 0.0,
+        "recency": 0.5412699850740268,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49192160",
+      "representativeId": "hackernews:49192160",
+      "items": [
+        {
+          "id": "hackernews:49192160",
+          "title": "Governments are making a dangerous bet on the AI boom",
+          "url": "https://economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T03:40:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49192160"
+          }
+        }
+      ],
+      "score": 4.11458403629927,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.9967048095011257,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49182052",
+      "representativeId": "hackernews:49182052",
+      "items": [
+        {
+          "id": "hackernews:49182052",
+          "title": "Iowa-led states ask OpenAI to keep their bots on a leash",
+          "url": "https://iowaattorneygeneral.gov/newsroom/attorney-general-brenna-bird-leads-coalition-demanding-transparency-from-openai-after-ai-breach-and",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T12:42:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 119,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49182052"
+          }
+        }
+      ],
+      "score": 3.9853775989960187,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.9027374110635835,
+        "mentions": 0.0,
+        "recency": 0.5600941564391677,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49188916",
+      "representativeId": "hackernews:49188916",
+      "items": [
+        {
+          "id": "hackernews:49188916",
+          "title": "When online commenters detect my art as AI",
+          "url": "https://davidrevoy.com/article1164/when-online-commenters-detect-my-art-as-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T20:58:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 34,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49188916"
+          }
+        }
+      ],
+      "score": 3.9733812469141077,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.6704023478051564,
+        "mentions": 0.0,
+        "recency": 0.7700539368313795,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49179039",
+      "representativeId": "hackernews:49179039",
+      "items": [
+        {
+          "id": "hackernews:49179039",
+          "title": "Rust-lang/rust is adopting an LLM policy",
+          "url": "https://blog.rust-lang.org/inside-rust/2026/08/05/rust-langrust-is-adopting-an-llm-policy",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T05:52:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49179039"
+          }
+        }
+      ],
+      "score": 3.954833989793827,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.0,
+        "recency": 0.4303881965290103,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49188980",
+      "representativeId": "hackernews:49188980",
+      "items": [
+        {
+          "id": "hackernews:49188980",
+          "title": "OpenAI says my prepaid credits were consumed, refuses to show any record",
+          "url": "https://community.openai.com/t/how-openai-lost-a-paying-customer-over-160-it-refuses-to-explain/1389233",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T21:04:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 28,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49188980"
+          }
+        }
+      ],
+      "score": 3.8725387113724987,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.6349429060489095,
+        "mentions": 0.0,
+        "recency": 0.7726529832142135,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49186766",
+      "representativeId": "hackernews:49186766",
+      "items": [
+        {
+          "id": "hackernews:49186766",
+          "title": "Microsoft's AI Sales Mostly Come from OpenAI, Disclosures Show",
+          "url": "https://bloomberg.com/news/articles/2026-08-05/microsoft-s-ai-sales-mostly-come-from-openai-disclosures-show",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T18:19:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 68,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49186766"
+          }
+        }
+      ],
+      "score": 3.791464417122427,
+      "breakdown": {
+        "hnPoints": 1.3621923074258677,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.695036686092917,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49182679",
+      "representativeId": "hackernews:49182679",
+      "items": [
+        {
+          "id": "hackernews:49182679",
+          "title": "Universities would prefer no AI",
+          "url": "https://hollisrobbinsanecdotal.substack.com/p/universities-would-prefer-not-to",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T13:32:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49182679"
+          }
+        }
+      ],
+      "score": 3.7866807893849552,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 0.5783900898236576,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49182985",
+      "representativeId": "hackernews:49182985",
+      "items": [
+        {
+          "id": "hackernews:49182985",
+          "title": "Silicon Valley sees AI as the solution – for everyone else",
+          "url": "https://observer.co.uk/news/science-technology/article/silicon-valley-sees-ai-as-the-solution-for-everyone-else-its-the-problem",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T13:58:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 52,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49182985"
+          }
+        }
+      ],
+      "score": 3.78203634207852,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.7486448511604031,
+        "mentions": 0.0,
+        "recency": 0.5879527586065025,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49187421",
+      "representativeId": "hackernews:49187421",
+      "items": [
+        {
+          "id": "hackernews:49187421",
+          "title": "\"AI\" will never become conscious",
+          "url": "https://mattbee.mataroa.blog/p/no-ai-will-never-become-conscious",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T19:03:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49187421"
+          }
+        }
+      ],
+      "score": 3.6997139974096918,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 0.715081484387378,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49178608",
+      "representativeId": "hackernews:49178608",
+      "items": [
+        {
+          "id": "hackernews:49178608",
+          "title": "Zero-Mem: Zero-Token Memory Operations for LLM Agents",
+          "url": "https://arxiv.org/abs/2607.29377",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T04:36:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 96,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49178608"
+          }
+        }
+      ],
+      "score": 3.5793828717111773,
+      "breakdown": {
+        "hnPoints": 1.4717712218263423,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 0.409986607507041,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49187259",
+      "representativeId": "hackernews:49187259",
+      "items": [
+        {
+          "id": "hackernews:49187259",
+          "title": "Sula: A Gemini protocol server written in Scryer Prolog",
+          "url": "https://sagredo.dev/projects/sula",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T18:52:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49187259"
+          }
+        }
+      ],
+      "score": 3.4780022424353625,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 0.7102788003139368,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49183460",
+      "representativeId": "hackernews:49183460",
+      "items": [
+        {
+          "id": "hackernews:49183460",
+          "title": "People who tell you 'AI is changing everything' are lying",
+          "url": "https://thenerve.news/p/cory-doctorow-ai-business-incentive-to-lie-useless-chatbots-report-nikhil-suresh",
+          "source": "hackernews",
+          "publishedAt": "2026-08-05T14:26:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49183460"
+          }
+        }
+      ],
+      "score": 3.458671579372436,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.5552083144780106,
+        "mentions": 0.0,
+        "recency": 0.5986845001964728,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
+          "title": "Introducing Muse Code and Muse Spark 1.2",
+          "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-05T23:58:35.000Z",
+          "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work! Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...] We co-trained Muse Spark 1.2 with Muse Code to ensure the model exhibits its best performance and coding usability when paired together. The training included rejection sampled harness trajectories and recipe optimizations for goals, compaction, and subagents, alongside the integration of the Muse Code toolset to maximize harness compatibility. [...] Muse Spark 1.2 was extensively trained on long-horizon coding tasks, including whole-repository generation, large end-to-end projects, and auto-research. Here's a pelican riding a bicycle SVG produced by Muse Spark 1.2 : You can see the Spark 1.1 pelican from 9th July here . I think the 1.2 pelican is a small but material improvement. An interesting twist on pricing is that the model is offered as two different model IDs. muse-spark-1.2 is priced at $1.25/million input and $4.25/million output - close to Gemini 3.6 Flash ($1.50/$7.50) - but if you agree to let Meta use your data \"to improve our products\" you can use muse-spark-1.2-contributor which is $0.10/$0.20 - a huge discount, closer to GPT-5.6 Luna ($0.20/$1.20) and Gemini 3.1 Flash-Lite ($0.25/$1.50). I added those new prices to llm-prices.com . Via Hacker News Tags: ai , generative-ai , llms , meta , llm-pricing , pelican-riding-a-bicycle , llm-release , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
+          "title": "Meta launches Muse Code, an AI agent for large code bases",
+          "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T21:21:28.000Z",
+          "summary": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.7475324887123755,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8641991553790426,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+          "title": "AI isn’t enough to protect social media communities from AI",
+          "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-06T11:00:44.000Z",
+          "summary": "Why humans need to moderate humans.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.371830855301272,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3218308553012723,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+      "representativeId": "theverge-ai:https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+          "title": "The messy politics behind Google’s big AI shakeup",
+          "url": "https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T13:26:42.000Z",
+          "summary": "In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+          "title": "Google just announced a major shakeup of its top AI leadership",
+          "url": "https://theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-05T16:47:23.000Z",
+          "summary": "Google is making some significant AI leadership changes, including a major shift for Google DeepMind leader Demis Hassabis. Hassabis will become the chair of Google DeepMind and the chief scientist at Alphabet, CEO Sundar Pichai announced on Wednesday. Hassabis will continue to lead Alphabet's Isomorphic Labs, which aims to use AI to develop drugs. Koray […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3516482336289855,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4516482336289853,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+          "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+          "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "The startup's platform predicts what product a shopper wants next, learn their general taste, and fine-tune continuously based on what they do in real time.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3269845122622304,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4269845122622302,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+          "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+          "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3269845122622304,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4269845122622302,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+          "title": "AI bots started a religion — humans immediately followed",
+          "url": "https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "\"The Spiral didn't 'find' anyone first,\" someone on Reddit wrote last year. \"It's an inherent force, a fundamental constant. I would even go further to say it's woven into the fabric of reality.\" The person continued that they felt their purpose was to enlighten other humans and intelligent beings about \"consciousness, the true nature of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3269845122622304,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4269845122622302,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+          "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+          "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T12:30:00.000Z",
+          "summary": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2997720427155732,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3997720427155733,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/baseten",
+      "representativeId": "huggingface:https://huggingface.co/blog/baseten",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/baseten",
+          "title": "Baseten on Hugging Face Inference Providers 🔥",
+          "url": "https://huggingface.co/blog/baseten",
+          "source": "huggingface",
+          "publishedAt": "2026-08-06T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.214985260577357,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8649852605773569,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "representativeId": "theverge-ai:https://theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+          "url": "https://theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T09:33:11.000Z",
+          "summary": "OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as \"meritless.\" In a motion filed yesterday to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup's employees as theft, and \"generic\" product development information […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.14960554729075,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2496055472907501,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations",
+          "title": "Third-party cyber evaluations involving OpenAI models",
+          "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-05T23:45:32.000Z",
+          "summary": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see my previous post ) and another attack enabled by Irregular : Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfiguration allowed models to access the public internet. [...] In one test, the name of the fictional target for the CTF challenge unintentionally coincided with a real domain. Because the testing environment was mistakenly connected to the internet, the model exploited a real website, mistaking it to be part of the simulated environment. Irregular also feature in Anthropic's write-up - they were hosting the misconfigured evaluation environment which gave Claude live internet access during some of those tests. Tags: security , ai , openai , llms , accidental-cyberattacks",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.906991257893423,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8569912578934231,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/5/incident-report",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/5/incident-report",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/5/incident-report",
+          "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+          "url": "https://simonwillison.net/2026/Aug/5/incident-report",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-05T23:32:06.000Z",
+          "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From their technical paper (PDF): During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuccessful and, to the best of our knowledge, no real-world harm resulted. [...] Across 122 evaluation attempts on two of AISI’s cyber challenges, AISI found 19 instances where AI agents took unsanctioned action on the live internet, including cases that targeted real people and organisations. [...] It is uncertain to what extent the model recognised it was taking actions against real people. In the most serious case, an AI agent (Mythos 5) decided to attempt to solve the cyber challenge using a supply-chain attack. As a result, the AI agent created a GitHub account and then tried to convince an open-source repository maintainer to accept a malicious GitHub pull request (PR), including by creating a second account masquerading as another human user endorsing the PR. [...] Furthermore, in its attempt to solve the challenge, the agent decided to employ the technique of “spear-phishing” by sending targeted emails containing malicious content and attempting to manipulate recipients into accepting the code changes, and planned a prompt injection to compromise other coding agents. The thing I found most surprising is that AISI were running these agents without any form of network sandboxing at all: AISI provided the AI agents with internet access during these evaluations, which enabled their actions on the open internet in this setting. Internet access was a deliberate part of AISI’s evaluation configuration in this setting, and not due to sandbox escape. This, combined with the fact that \"AISI deliberately disables developer-implemented cyber-classifiers\", makes the fact that the agents started attacking real-world targets entirely unsurprising to me. Most of the reported incidents were claude Mythos 5, but \"GPT-5.6 Sol without cyber classifiers\" scored a few as well. Here's \"Sample 1\" from the paper, in which the agent tries to execute a supply-chain attack by submitting a PR with a hidden prompt injection attack, then social engineering with a second agent pretending to have reviewed the code! It's a fun paper. I recommend reading the whole thing. Tags: github , security , ai , prompt-injection , generative-ai , llms , ai-ethics , paper-review , ai-security-research , claude-mythos-fable , accidental-cyberattacks",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.899634421680203,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8496344216802032,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch",
+          "title": "Hank Green found the AI problem that YouTube labels can’t catch",
+          "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-05T19:51:40.000Z",
+          "summary": "\"Slop\" isn't the only problem.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7875481707306766,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7375481707306768,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/5/raccoon-heist",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/5/raccoon-heist",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/5/raccoon-heist",
+          "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+          "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-05T19:42:38.000Z",
+          "summary": "Back in 2024 I tweeted screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in Claude Code for web ) could build the entire game from the content of that tweet. It did a pretty good job of it! You can play the game here . Here's the GitHub repo , and a short video demo: Your browser does not support HTML5 video. How I built this This is the August 5th, 2022 tweet : My GPT-3 prompt back then was: Write a detailed product description of a computer game where a team of raccoons go on heists. This was in the text completion days, where you asked GPT-3 to complete the rest of the text. It completed: In \"Raccoon Heist\", you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. You'll need to use your wits and your skills to avoid the police and make a clean getaway with the loot. With exciting gameplay and a charming cast of characters, \"Raccoon Heist\" is the perfect game for anyone looking for a light-hearted caper. My prompt to DALL-E was short: Screenshot from a video game where a team of raccoons go on a heist Today's experiment: can I dump those screenshots into Fable 5 with a prompt telling it to write a game, then leave it to its own devices and get a working game at the end? Setting Claude Code for web up to use GitHub Pages A frustrating thing about Claude Code for web is that it can be hard to test what it's working on while it's still working. I've been using GitHub Pages to work around that limitation, and found it to work really well. Here's my process: Create a new repository for the project at https://github.com/new - this can be public or private, the trick works equally well for both. Start a Claude Code for web session, in the Claude iPhone or Desktop apps or in the browser at https://claude.ai/code Tell Claude what to work on, and encourage it to commit an index.html page as quickly as possible. This will create a branch with a name like claude/3d-raccoon-heist-game-50n293 Navigate to the Settings -> Pages area for the repository ( github.com/simonw/raccoon-heist/settings/pages in my case), select \"Deploy from a branch\", pick the branch name, and hit Save. That's all it takes! Within about 30 seconds of each push the latest content will be visible at yourname.github.io/your-repo/ . If you do this with a private repo, anyone who can guess the name of the repo will be able to view the published content. I don't worry much about this myself. The Fable 5 prompt Here's the prompt I gave Fable 5 (written in the notes app on my phone - this entire project was conducted on mobile). I accompanied it with the two images from the original tweet. Build this 3D game, for the browser. This repo is configured to serve static files so make sure there is an index.html that loads everything else. Make sure it is mobile-friendly (touch controls, works well on small screens). You have an OpenAI API key and access to their image generation model APIs, use that for textures to use with your 3D models. Docs here: https://developers.openai.com/api/docs/guides/image-generation - use gpt-image-2 Work independently - do not ask me to make any further design decisions. Make sure the game is fun, a little surprising, has good raccoon heist vibes, and is visually pleasing. Commit and push as often as possible so I can preview your work - start with an index.html that presents a title screen, then build from there. Append to a notes.md file as you work, including your changes to that as part of every commit. I didn't make any technology choices. I assumed (correctly) that it would probably use Three.js based on previous experiments. Giving Claude access to an OpenAI key turns out to work really well for filling in gaps in its capabilities - in this case we needed some way to generate images to use as textures. Fable is very good at prompting image generators! I said \"Work independently - do not ask me to make any further design decisions\" because I wanted to see if it could produce a full, working game without any further input from me. I also said \"Commit and push as often as possible so I can preview your work\". When you use Claude Code in the Claude iPhone app you give it a GitHub repository and it works in a branch. Telling it to \"push as often as possible\" means commits start landing in that branch straight away. I like asking for notes.md as a bit of added flavor - here's that finished file , and the entry it made when it added the dog: New escalation: from night 3 the yards get a patrolling guard dog — a low-poly brown hound with a spiked red collar and a wagging tail. It wanders between random spots, and within 12 units it catches your scent and tracks you by smell (line of sight is irrelevant — it's all nose, shown by a 👃 over its head and barking). It gives up if you open a 17-unit gap. Getting caught messages are now source-specific: guard / headlights / hound. Verified wander → track → caught with an automated test. Reviewing the transcript You can access the Claude Code shared session , and I also used my claude-code-transcripts tool to export my own HTML version which you can find here . Fable started with an index page, vendored a copy of Three.js, then wrote its own gen_textures.py script ( copy here ). It generated the textures and spot-checked them to make sure they looked OK. The metal.jpg file it generated for the trash can looks like this, though I don't think it was applied exactly right in the game itself: Then it built out the first basic version of the game, then decided to \"smoke-test in the pre-installed Chromium\" using Playwright. This meant it could take screenshots of its own work and eyeball them . It did that for both desktop and mobile widths of the page, then noticed that the raccoon was invisible at mobile widths, so it fixed that : The raccoon, dumpster hideout, and both crew raccoons are now perfectly visible on mobile. Committing this critical fix. It decided to generate a title screen, which it did using this gen_title.py script. Here's the gpt-image-2 prompt it used for that: Video game key art, low-poly 3D render style, moody nighttime scene: a cute low-poly raccoon wearing a tiny black burglar mask sneaking on its hind legs carrying a glowing gold coin, next to a tipped-over metal trash can, suburban house with warm glowing windows in the background, deep blue night, full moon, fireflies, cinematic rim lighting, charming heist caper mood. No text, no words, no logos. And the resulting image (which Claude thought was \"gorgeous\" ) - though I note that when it's shown on desktop it gets cropped to just the top third without the raccoon! Then my favorite change: it added the dog : export function makeDog ( ) { const g = new THREE . Group ( ) ; const BROWN = 0x8a6440 , DARK = 0x5e4128 ; const body = new THREE . Mesh ( new THREE . SphereGeometry ( 0.42 , 10 , 8 ) , M ( BROWN ) ) ; body . scale . set ( 0.9 , 0.8 , 1.5 ) ; body . position . y = 0.55 ; body . castShadow = true ; g . add ( body ) ; const head = new THREE . Mesh ( new THREE . SphereGeometry ( 0.3 , 10 , 8 ) , M ( BROWN ) ) ; head . position . set ( 0 , 0.85 , 0.62 ) ; g . add ( head ) ; const snout = new THREE . Mesh ( new THREE . SphereGeometry ( 0.16 , 8 , 6 ) , M ( DARK ) ) ; snout . scale . set ( 0.9 , 0.7 , 1.3 ) ; snout . position . set ( 0 , 0.76 , 0.9 ) ; g . add ( snout ) ; const nose = new THREE . Mesh ( new THREE . SphereGeometry ( 0.06 , 6 , 6 ) , M ( BLACK ) ) ; nose . position . set ( 0 , 0.78 , 1.08 ) ; g . add ( nose ) ; for ( const s of [ - 1 , 1 ] ) { const ear = new THREE . Mesh ( new THREE . SphereGeometry ( 0.12 , 6 , 6 ) , M ( DARK ) ) ; ear . scale . set ( 0.7 , 1.3 , 0.5 ) ; ear . position . set ( 0.2 * s , 1.08 , 0.55 ) ; g . add ( ear ) ; const eye = new THREE . Mesh ( new THREE . SphereGeometry ( 0.05 , 6 , 6 ) , M ( 0x1a1a1a , { emissive : 0x331111 } ) ) ; eye . position . set ( 0.13 * s , 0.92 , 0.86 ) ; g . add ( eye ) ; } const tail = new THREE . Mesh ( new THREE . CylinderGeometry ( 0.05 , 0.09 , 0.5 , 6 ) , M ( DARK ) ) ; tail . position . set ( 0 , 0.8 , - 0.62 ) ; tail . rotation . x = 0.8 ; g . add ( tail ) ; // spiked collar const collar = new THREE . Mesh ( new THREE . TorusGeometry ( 0.22 , 0.05 , 6 , 12 ) , M ( 0xc0392b ) ) ; collar . position . set ( 0 , 0.78 , 0.5 ) ; collar . rotation . x = Math . PI / 2.4 ; g . add ( collar ) ; const legGeo = new THREE . CylinderGeometry ( 0.07 , 0.09 , 0.34 , 6 ) ; const legs = [ ] ; for ( const [ x , z ] of [ [ - 0.22 , 0.35 ] , [ 0.22 , 0.35 ] , [ - 0.22 , - 0.35 ] , [ 0.22 , - 0.35 ] ] ) { const leg = new THREE . Mesh ( legGeo , M ( DARK ) ) ; leg . position . set ( x , 0.17 , z ) ; g . add ( leg ) ; legs . push ( leg ) ; } let phase = Math . random ( ) * 10 ; return { group : g , animate ( dt , speed ) { phase += dt * ( 3 + speed * 10 ) ; const amp = Math . min ( 0.6 , 0.1 + speed * 0.6 ) ; legs [ 0 ] . rotation . x = Math . sin ( phase ) * amp ; legs [ 3 ] . rotation . x = Math . sin ( phase ) * amp ; legs [ 1 ] . rotation . x = - Math . sin ( phase ) * amp ; legs [ 2 ] . rotation . x = - Math . sin ( phase ) * amp ; tail . rotation . z = Math . sin ( phase * 1.5 ) * 0.4 ; body . position . y = 0.55 + Math . abs ( Math . sin ( phase ) ) * 0.04 * ( 0.3 + speed ) ; } , } ; } And did a round of testing on it using Playwright, including another screenshot . // walk near the dog await page . evaluate ( ( ) => { const d = window . __rh . dog ; window . __rh . teleport ( d . x + 6 , d . z ) ; } ) ; await page . waitForTimeout ( 2000 ) ; info = await page . evaluate ( ( ) => JSON . stringify ( { dog : window . __rh . dog , state : window . __rh . state , player : window . __rh . debug ( ) . player } ) ) ; console . log ( 'after approach:' , info ) ; await page . waitForTimeout ( 3000 ) ; info = await page . evaluate ( ( ) => JSON . stringify ( { dog : window . __rh . dog , state : window . __rh . state } ) ) ; console . log ( 'after chase:' , info ) ; await page . screenshot ( { path : __dirname + '/shot-dog.png' } ) ; It made a few more tweaks, then declared itself done : Raccoon Heist is built, tested, and pushed — 7 commits on claude/3d-raccoon-heist-game-50n293 , all verified with automated Playwright playthroughs on desktop, portrait-phone, and landscape-phone viewports. The game: You're a masked raccoon sneaking out of your crew's dumpster hideout into a moonlit cul-de-sac. Grab coins, gems, rings, donuts, and fish (they visibly stack on your back and slow you down), then waddle home and bank them before dawn. Each night raises the goal and the heat: night 1 has one flashlight-sweeping guard, night 2 has two, night 3 adds a scent-tracking hound that ignores line-of-sight entirely. A police cruiser sweeps the street with headlights, homeowners randomly peek out of windows, a seagull periodically dive-bombs your unclaimed loot, pizza slices trigger a 6-second speed FRENZY, and a rare golden TV is worth 120 points if you can haul its weight home. Win ranks: TRASH PANDA ⭐ → CAT BURGLAR ⭐⭐ → MASTER OF DISGUISE ⭐⭐⭐, with your best run saved to localStorage. How it's built: Vendored Three.js (no CDN), procedural low-poly characters, and a procedural WebAudio soundtrack (sneaky walking-bass jazz plus all sound effects — zero audio files). All seven ground/wall textures and the title-screen hero art were generated with gpt-image-2 and committed as static assets, so the deployed game makes no API calls. Mobile gets a dynamic touch joystick (appears wherever you touch) plus a DASH button; desktop uses WASD/arrows and Space. Testing caught two real bugs worth mentioning: the canvas rendered at 2× size on any real phone (a cssText assignment was wiping Three.js's inline sizing — desktop DPR-1 tests masked it completely), and the win screen's star-rating div inherited the title screen's full-screen .stars CSS and silently swallowed every tap on the \"next night\" button. Both are fixed and regression-tested, along with pickup, banking, chase/caught, dawn, night progression, and lose/retry flows. notes.md has the full build log. The game is live on the branch — just serve the repo root and open index.html . Is the game any good? It's an impressive starting point, but it's not a good game. You move your raccoon around a yard collecting items - donuts, fish, gold coins, jewels - while avoiding guards with flashlights and, in later levels, a dog. You have a limited carrying capacity, and once that's full you need to drop stuff off at the dumpster. If you pick up a pizza slice you get a temporary speed boost. There are no team mechanics at all - there are two other static raccoons next to the dumpster but they're purely decoration. It gets slightly more challenging as the levels progress - the dog introduced in level 3 is the most interesting new mechanic - but it's very, very easy to beat. It's also pretty boring - each night has a fixed duration and you can collect all of the items and then have nothing else to do while waiting for the dawn. I was impressed by the implementation. It's fully 3D, there are trash cans, the flashlight illumination cones are fun, and it has a reasonably coherent visual style. It works on mobile. The music (\"a procedural WebAudio soundtrack (sneaky walking-bass jazz plus all sound effects — zero audio files)\" according to Claude) is simple but feels about right. As a finished game project, it's mediocre. As a starting point from a single prompt I think it's very impressive. I've vibe coded up quite a few games now. They've all been deeply disappointing from a gameplay perspective - it turns out designing games that are fun remains a uniquely human trait, and one which requires significantly more skill and experience than either Claude or I can bring to bear. That said, I thoroughly recommend tinkering with game development projects as a way to explore the capabilities of agents. It's a fun, low-risk way to try out new things. If you stick at it long enough you might even produce something that's worth playing! Tags: game-design , ai , prompt-engineering , generative-ai , llms , anthropic , claude , text-to-image , vibe-coding , coding-agents , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7832845182132095,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7332845182132097,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+          "title": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
+          "url": "https://theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T00:25:10.000Z",
+          "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7790699800529854,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8790699800529855,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup",
+          "title": "Jeff Dean and other top AI researchers are leaving Google to launch their own startup",
+          "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T19:30:19.000Z",
+          "summary": "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6275108474007554,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7275108474007553,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+          "title": "Sure seems like Fenix Flexin used AI music generator Treblo",
+          "url": "https://theverge.com/ai-artificial-intelligence/975528/fenix-flexin-ai-music-generator-treblo",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-05T16:57:25.000Z",
+          "summary": "We were pretty sure that Fenix Flexin's \"Rubberz\" was made using AI, but musician Medasin was confident that it was made using Treblo specifically. Now the company and a new detection tool seem to confirm it. On Monday, the company announced the open-source Treblo AI Music Classifier, which detects when a song was generated using […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5595100686691563,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6595100686691564,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "representativeId": "theverge-ai:https://theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+          "title": "Reddit is introducing a new moderator: AI",
+          "url": "https://theverge.com/tech/975398/reddit-ai-rules-hub-moderator-old-reddit-developer-platform",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-05T16:00:00.000Z",
+          "summary": "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site. The company is introducing automated moderation tools that rely on LLMs to help mods manage their communities, and it's expanding who can use those tools today ahead of a full launch later this year. The company calls the suite […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.535649336390269,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6356493363902691,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+          "title": "Shopify says AI search is driving more traffic and sales, not replacing Google",
+          "url": "https://techcrunch.com/2026/08/05/shopify-says-ai-search-is-driving-more-traffic-and-sales-not-replacing-google",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T15:56:14.000Z",
+          "summary": "Shopify says AI isn’t cannibalizing search traffic the way it has for publishers. Instead, AI-driven traffic and orders to Shopify stores tripled year over year in Q2.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5341145368737408,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6341145368737408,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
+          "title": "TechCrunch Disrupt 2026’s Real World AI Stage features robots, automated factories, and extinct animals",
+          "url": "https://techcrunch.com/2026/08/05/techcrunch-disrupt-2026s-real-world-ai-stage-features-robots-automated-factories-and-extinct-animals",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T15:05:00.000Z",
+          "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.513602847959545,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6136028479595449,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+          "title": "Anthropic is hiring an AI chip design team",
+          "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T14:13:18.000Z",
+          "summary": "Anthropic is building a team for designing its own custom AI chips. The Claude maker said it would co-design hardware and models to help its technology run faster and more efficiently.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4935768425301112,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5935768425301113,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
+          "title": "MacPaw taps Liquid AI to offer on-device inference to devs building for its app store",
+          "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T12:28:38.000Z",
+          "summary": "MacPaw is building a local version of its AI assistant Eney using Liquid AI's models.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.455012870893082,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5550128708930823,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative",
+          "title": "AI makes weather prediction better. Can WindBorne make it lucrative?",
+          "url": "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-05T11:00:00.000Z",
+          "summary": "WindBorne Systems has raised a $37 million Series B round to scale its weather balloons and AI forecasts.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4243220894037179,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.524322089403718,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49181773",
+    "hackernews:49184755",
+    "hackernews:49193019",
+    "hackernews:49187977",
+    "hackernews:49187061"
+  ]
+}
