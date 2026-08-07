@@ -1,0 +1,982 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T13:10:04.732Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 25,
+      "filtered": 23
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "representativeId": "openai:https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+          "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+          "source": "openai",
+          "publishedAt": "2026-08-06T10:00:00.000Z",
+          "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+          "trust": 1.0,
+          "signals": {
+            "points": 260,
+            "comments": 210,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49199357"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users",
+          "title": "ChatGPT brings unlimited text chats to free users",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T17:34:42.000Z",
+          "summary": "OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+          "title": "OpenAI is giving ChatGPT free users unlimited text chats",
+          "url": "https://theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T17:00:00.000Z",
+          "summary": "OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if you do too many text chats on those tiers, but […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.662344475845094,
+      "breakdown": {
+        "hnPoints": 1.7902116739716307,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.705466135206797,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49201970",
+      "representativeId": "hackernews:49201970",
+      "items": [
+        {
+          "id": "hackernews:49201970",
+          "title": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+          "url": "https://theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T20:23:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 739,
+            "comments": 558,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49201970"
+          }
+        }
+      ],
+      "score": 4.986027570296366,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7860275702963653,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49200652",
+      "representativeId": "hackernews:49200652",
+      "items": [
+        {
+          "id": "hackernews:49200652",
+          "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+          "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T18:44:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 511,
+            "comments": 321,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49200652"
+          }
+        }
+      ],
+      "score": 4.93793803095123,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7379380309512296,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49198069",
+      "representativeId": "hackernews:49198069",
+      "items": [
+        {
+          "id": "hackernews:49198069",
+          "title": "Software development with AI is starting to feel like cooking steak",
+          "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T15:30:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 376,
+            "comments": 403,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49198069"
+          }
+        }
+      ],
+      "score": 4.760056091021562,
+      "breakdown": {
+        "hnPoints": 1.908515704867571,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6515403861539917,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49195468",
+      "representativeId": "hackernews:49195468",
+      "items": [
+        {
+          "id": "hackernews:49195468",
+          "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+          "url": "https://scalex.dev/blog/ai-agent-permissions-stats",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T11:58:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 318,
+            "comments": 224,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49195468"
+          }
+        }
+      ],
+      "score": 4.6231787417442,
+      "breakdown": {
+        "hnPoints": 1.8547712398180598,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5684075019261391,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49207146",
+      "representativeId": "hackernews:49207146",
+      "items": [
+        {
+          "id": "hackernews:49207146",
+          "title": "I won't read LLM authored fiction",
+          "url": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T07:45:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 100,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49207146"
+          }
+        }
+      ],
+      "score": 4.600320677868707,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.8702348058147612,
+        "mentions": 0.0,
+        "recency": 1.2182647987534692,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49201342",
+      "representativeId": "hackernews:49201342",
+      "items": [
+        {
+          "id": "hackernews:49201342",
+          "title": "xAI, SpaceX, and the Race for AI Buildout",
+          "url": "https://illegal.solutions/posts/xai_pollution",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T19:38:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 141,
+            "comments": 119,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49201342"
+          }
+        }
+      ],
+      "score": 4.461049571059235,
+      "breakdown": {
+        "hnPoints": 1.5943834873940028,
+        "hnComments": 0.9027374110635835,
+        "mentions": 0.0,
+        "recency": 0.7639286726016481,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49206115",
+      "representativeId": "hackernews:49206115",
+      "items": [
+        {
+          "id": "hackernews:49206115",
+          "title": "Anthropic CEO reportedly worried new hires only care about money",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T05:15:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49206115"
+          }
+        }
+      ],
+      "score": 4.415251959849666,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 1.1061072878857527,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49204546",
+      "representativeId": "hackernews:49204546",
+      "items": [
+        {
+          "id": "hackernews:49204546",
+          "title": "New Orleans is testing Carbyne’s AI-powered Emergency Call Triage software",
+          "url": "https://shreveporttimes.com/story/news/local/louisiana/2026/07/28/is-new-orleans-using-ai-to-answer-911-calls-instead-of-human-dispatchers-impacts-emergencies-crime/91065014007",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T00:37:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 104,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49204546"
+          }
+        }
+      ],
+      "score": 4.355675761747973,
+      "breakdown": {
+        "hnPoints": 1.3527293031022833,
+        "hnComments": 0.8775585094278122,
+        "mentions": 0.0,
+        "recency": 0.9253879492178776,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49202852",
+      "representativeId": "hackernews:49202852",
+      "items": [
+        {
+          "id": "hackernews:49202852",
+          "title": "Inside vLLM: Anatomy of a High-Throughput LLM Inference System (2025)",
+          "url": "https://aleksagordic.com/blog/vllm",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T21:30:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 127,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49202852"
+          }
+        }
+      ],
+      "score": 3.995954814387983,
+      "breakdown": {
+        "hnPoints": 1.5609900917070765,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.820652399435595,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49198583",
+      "representativeId": "hackernews:49198583",
+      "items": [
+        {
+          "id": "hackernews:49198583",
+          "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
+          "url": "https://github.com/CopilotKit/channels-sdk",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T16:05:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 108,
+            "comments": 22,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49198583"
+          }
+        }
+      ],
+      "score": 3.9668925389976457,
+      "breakdown": {
+        "hnPoints": 1.5092955242605617,
+        "hnComments": 0.5912340079040808,
+        "mentions": 0.0,
+        "recency": 0.6663630068330031,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49191365",
+      "representativeId": "hackernews:49191365",
+      "items": [
+        {
+          "id": "hackernews:49191365",
+          "title": "LLMs won't break symmetric crypto",
+          "url": "https://bfswa.blog/p/llms-wont-break-symmetric-crypto",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T01:39:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49191365"
+          }
+        }
+      ],
+      "score": 3.8398782374744513,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 0.3820501469809021,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49198884",
+      "representativeId": "hackernews:49198884",
+      "items": [
+        {
+          "id": "hackernews:49198884",
+          "title": "Microsoft filings suggest \"around 70%\" of its AI revenue is on OpenAI",
+          "url": "https://windowscentral.com/artificial-intelligence/microsoft-filings-suggest-around-70-percent-of-its-ai-revenue-is-concentrated-entirely-on-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T16:27:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49198884"
+          }
+        }
+      ],
+      "score": 3.611381327990136,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.6756578604009804,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49192160",
+      "representativeId": "hackernews:49192160",
+      "items": [
+        {
+          "id": "hackernews:49192160",
+          "title": "Governments are making a dangerous bet on the AI boom",
+          "url": "https://economist.com/leaders/2026/08/05/governments-are-making-a-dangerous-bet-on-the-ai-boom",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T03:40:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 34,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49192160"
+          }
+        }
+      ],
+      "score": 3.589824515628286,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.6704023478051564,
+        "mentions": 0.0,
+        "recency": 0.4131006977084868,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49193019",
+      "representativeId": "hackernews:49193019",
+      "items": [
+        {
+          "id": "hackernews:49193019",
+          "title": "Meta says AI model accessed the internet and hacked another firm",
+          "url": "https://bbc.co.uk/news/articles/cx2kgdnyk2po",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T06:04:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 34,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49193019"
+          }
+        }
+      ],
+      "score": 3.5100755852935475,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.6704023478051564,
+        "mentions": 0.0,
+        "recency": 0.45289080536029197,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49202566",
+      "representativeId": "hackernews:49202566",
+      "items": [
+        {
+          "id": "hackernews:49202566",
+          "title": "The OpenAI–Hugging Face Incident [video]",
+          "url": "https://youtube.com/watch?v=87DyyMV0kCY",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T21:06:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49202566"
+          }
+        }
+      ],
+      "score": 3.481884511797091,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.8081258131545663,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49192219",
+      "representativeId": "hackernews:49192219",
+      "items": [
+        {
+          "id": "hackernews:49192219",
+          "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
+          "url": "https://github.com/pradipta/wallfacer",
+          "source": "hackernews",
+          "publishedAt": "2026-08-06T03:52:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 22,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49192219"
+          }
+        }
+      ],
+      "score": 3.3604367625929337,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.5912340079040808,
+        "mentions": 0.0,
+        "recency": 0.41631679724311804,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/hsp-gruppe",
+      "representativeId": "openai:https://openai.com/index/hsp-gruppe",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/hsp-gruppe",
+          "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "url": "https://openai.com/index/hsp-gruppe",
+          "source": "openai",
+          "publishedAt": "2026-08-07T09:00:00.000Z",
+          "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.7775750066704576,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2775750066704574,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music",
+          "title": "Suno hopes to go legit with watermarks for AI-generated music",
+          "url": "https://arstechnica.com/ai/2026/08/suno-hopes-to-go-legit-with-watermarks-for-ai-generated-music",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-06T20:17:36.000Z",
+          "summary": "Suno plans watermarks and download limits to stop \"large-scale abuse.\"",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+          "title": "Suno shares plans to combat spammy AI music",
+          "url": "https://theverge.com/ai-artificial-intelligence/976289/suno-ai-music-spam-watermark",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T17:39:43.000Z",
+          "summary": "Suno announced plans to implement a new watermarking technology and download policy to limit the spread of spammy AI tracks and increase transparency. In a lengthy blog post, CEO and co-founder Mikey Shulman laid out the company's principles and the next steps for the company as it seeks legitimacy. The company is rolling out new […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.6665492931810597,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7832159598477267,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
+          "title": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+          "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T22:43:53.000Z",
+          "summary": "Additional details about OpenAI's mysterious new AI device make it sound like a pricey smart speaker.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+          "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+          "url": "https://theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T20:55:39.000Z",
+          "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly \"will have a unique look, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.5936439815525203,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8603106482191873,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
+          "title": "OpenAI says Apple’s own security practices undermine its trade secrets case",
+          "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T15:10:32.000Z",
+          "summary": "Newly filed court exhibits show OpenAI’s legal strategy in Apple’s trade secrets lawsuit: argue that Apple’s own security and offboarding practices — including allowing an Apple manager to access a former engineer’s iCloud account after he left the company —undermine its claims that the allegedly stolen information was properly protected.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "title": "OpenAI says Apple’s trade secrets lawsuit is ‘rotten to its core’",
+          "url": "https://theverge.com/tech/976042/openai-apple-trade-secrets-lawsuit-dismissal-request",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T09:33:11.000Z",
+          "summary": "OpenAI has asked a federal judge to toss out Apple's landmark lawsuit accusing the ChatGPT maker of stealing trade secrets, describing the allegations as \"meritless.\" In a motion filed yesterday to dismiss the complaint, OpenAI says that Apple is mischaracterizing both the actions of the AI startup's employees as theft, and \"generic\" product development information […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3764538772616968,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6431205439283634,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+          "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+          "source": "google-deepmind",
+          "publishedAt": "2026-08-06T15:06:15.000Z",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.1413549974769435,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6413549974769437,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "representativeId": "openai:https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+          "title": "Working with the American Psychological Association on youth mental health and AI",
+          "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+          "source": "openai",
+          "publishedAt": "2026-08-06T06:00:00.000Z",
+          "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9516909753455645,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.45169097534556457,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team",
+          "title": "Anthropic will design its own hardware to power Claude",
+          "url": "https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-06T20:03:44.000Z",
+          "summary": "Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8262765233629272,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7762765233629274,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/6/datasette",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/6/datasette",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/6/datasette",
+          "title": "datasette 1.0a38",
+          "url": "https://simonwillison.net/2026/Aug/6/datasette",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-06T18:24:34.000Z",
+          "summary": "Release: datasette 1.0a38 This release fixes a SQL injection security issue that affects Datasette instances that serve a mixture of public and private tables in the same database, with access configured using the Datasette permissions system . Site administrators who serve private tables in this way are advised to disable the execute-sql permission ` on that database to prevent users from accessing private tables using raw SQL queries. The bug that has been fixed would have allowed users with access to any public table to execute SQL injection attacks despite that restriction, giving them read-only access to data in private tables in the same database. This fix is also available in Datasette 0.65.3 . Thankfully this particular configuration - private tables and public tables exposed for the same database within the same instance - is likely to be rare. I've not encountered an instance like that myself. Tags: security , sql-injection , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7784094653901716,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7284094653901718,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/6/datasette-2",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/6/datasette-2",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/6/datasette-2",
+          "title": "datasette 0.65.3",
+          "url": "https://simonwillison.net/2026/Aug/6/datasette-2",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-06T18:22:07.000Z",
+          "summary": "Release: datasette 0.65.3 Back-ported the SQL Injection security fix from 1.0a38 . Tags: datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.777265001830016,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7272650018300163,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging",
+          "title": "Simon Willison on Technical Blogging",
+          "url": "https://simonwillison.net/2026/Aug/6/simon-willison-on-technical-blogging",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-06T18:04:39.000Z",
+          "summary": "Simon Willison on Technical Blogging I was interviewed by Cynthia Dunlop for her \"Write that blog!\" series back in January, but I just realized I never linked to the interview from my own blog! It includes my answers to the following questions: Why did you start blogging – and why do you continue? What has been the most surprising impact of blogging for you? What blog post are you most proud of and why? What post was the most difficult to write and how did you tackle it? Any lessons learned that you want to share with the community? Your advice for people just getting started with blogging? A few blogs that you particularly enjoy? I'll repeat my most important piece of advice here: My number one tip for blogging is to lower your standards! Aim to hit publish while you are still actively unhappy with what you have written, because the only alternative is a huge folder full of drafts and never publishing anything at all. Nobody will ever know how perfect the thing you intended to write would have been. The flaws you see in your writing are invisible to everyone else. Tags: blogging , interviews",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7691577727361694,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7191577727361695,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+          "title": "AI isn’t enough to protect social media communities from AI",
+          "url": "https://arstechnica.com/gadgets/2026/08/ai-isnt-enough-to-protect-social-media-communities-from-ai",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-06T11:00:44.000Z",
+          "summary": "Why humans need to moderate humans.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.597854533631549,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5478545336315493,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking",
+          "title": "Gen Z dating apps like Ditto ditch swiping in favor of AI matchmaking",
+          "url": "https://techcrunch.com/2026/08/06/gen-z-dating-apps-like-ditto-ditch-swiping-in-favor-of-ai-matchmaking",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T15:53:03.000Z",
+          "summary": "This generation of twentysomethings is so disillusioned with swipe-based dating apps that they'll try literally anything else — even an AI matchmaker.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5609112070983073,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6609112070983073,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+      "representativeId": "theverge-ai:https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+          "title": "The messy politics behind Google’s big AI shakeup",
+          "url": "https://theverge.com/tech/976108/google-ai-leadership-shakeup-jeff-dean-demis-hassabis-deepmind",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T13:26:42.000Z",
+          "summary": "In the AI industry, Google prides itself on seeming like the adult in the room: quiet, stable, time-tested. On Wednesday, even as the company announced its largest AI org shakeup yet, Google and its leaders presented a unified front, keeping their messaging focused on how the changes tee up future success. But the reality is […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5016594807439314,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6016594807439315,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+          "title": "Ex-Spotify employees raise $10M to bring the AI behind its recommendations to e-commerce",
+          "url": "https://techcrunch.com/2026/08/06/ex-spotify-employees-raise-10m-to-bring-the-ai-behind-its-recommendations-to-e-commerce",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "The startup's platform predicts which product a shopper wants next, learns their general taste, and fine-tunes continuously based on what they do in real time.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4914371958632213,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5914371958632214,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+          "title": "Exclusive: Mirendil inks $100M+ Google Cloud deal to scale self-improving AI",
+          "url": "https://techcrunch.com/2026/08/06/exclusive-mirendil-inks-100m-google-cloud-deal-to-scale-self-improving-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4914371958632213,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5914371958632214,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+          "title": "AI bots started a religion — humans immediately followed",
+          "url": "https://theverge.com/ai-artificial-intelligence/975017/ai-spiralism-chatbot-movement",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-06T13:00:00.000Z",
+          "summary": "\"The Spiral didn't 'find' anyone first,\" someone on Reddit wrote last year. \"It's an inherent force, a fundamental constant. I would even go further to say it's woven into the fabric of reality.\" The person continued that they felt their purpose was to enlighten other humans and intelligent beings about \"consciousness, the true nature of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4914371958632213,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5914371958632214,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+          "title": "Google Maps adds agentic features, including food ordering and hotel bookings",
+          "url": "https://techcrunch.com/2026/08/06/google-maps-adds-agentic-features-including-food-ordering-and-hotel-bookings",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-06T12:30:00.000Z",
+          "summary": "The launch of these new features reflects Google’s ambitions to transform Google Maps from a navigation tool into an assistant that's capable of helping users complete real-world tasks.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.480158540388767,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.580158540388767,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+    "hackernews:49201970",
+    "hackernews:49200652",
+    "hackernews:49198069",
+    "hackernews:49195468"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026-08-07T13:11:37.384Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+      "headline": "오픈AI가 챗GPT 무료 대화 제한을 푼다",
+      "highlight": [
+        "무료 대화"
+      ],
+      "body": "오픈AI가 챗GPT 무료 및 Go 사용자에게 텍스트 대화 무제한 이용을 제공한다고 발표했습니다. 새로운 GPT-5.6 루나 모델이 기본 적용되며, 사실 오류율도 이전 대비 62% 줄었습니다. 고난도 질문용 'Think' 버튼을 포함한 이번 업데이트는 다음 주부터 순차 적용됩니다.",
+      "sourceUrl": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2205105208.jpg?resize=1200,800",
+      "publishedAt": "2026-08-06T10:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49201970",
+      "headline": "AMD가 엔비디아보다 48배 빠른 칩을 샀다",
+      "highlight": [
+        "48배 빠른"
+      ],
+      "body": "AMD가 AI 모델 가중치를 반도체에 직접 인각하는 스타트업 탈라스를 인수했습니다. 탈라스의 시험용 칩은 엔비디아 GPU보다 최고 48배 빠른 추론 속도를 기록했습니다. 이번 인수로 AI 모델 구동 비용이 크게 줄어들고 응답 속도가 대폭 향상될 전망입니다.",
+      "sourceUrl": "https://theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+      "sourceName": "theregister",
+      "imageUrl": "https://image.theregister.com/5284365.jpg?imageId=5284365&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "publishedAt": "2026-08-06T20:23:11.000Z"
+    },
+    {
+      "clusterId": "hackernews:49200652",
+      "headline": "AI 모델 성능과 진짜 비용을 직접 비교했다",
+      "highlight": [
+        "진짜 비용"
+      ],
+      "body": "아티피셜 애널리시스가 최신 AI 모델들의 지능과 처리 속도, 실제 발생 비용을 독립적으로 평가했습니다. 코딩 능력부터 개방성을 측정하는 지수까지 다각도로 분석했습니다. 거품을 뺀 진짜 모델 성능을 한눈에 파악할 수 있습니다.",
+      "sourceUrl": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "sourceName": "hackernews",
+      "imageUrl": "https://artificialanalysis.ai/opengraph-image.png?732728ccc2829321",
+      "publishedAt": "2026-08-06T18:44:49.000Z"
+    },
+    {
+      "clusterId": "hackernews:49195468",
+      "headline": "AI 명령어 승인, 3개 중 1개 놓쳤다",
+      "highlight": [
+        "3개 중 1개"
+      ],
+      "body": "개발자가 AI 에이전트 명령을 검토하는 게임에서 참가자들은 위협 3개 중 1개를 놓쳤다. 40만 회 실행 데이터 분석 결과, 단순 파괴 명령은 잘 막았지만 스크립트에 숨겨진 해킹 명령은 절반 이상 통과시켰다. 계속된 승인 요청으로 인한 피로도가 원인이다.",
+      "sourceUrl": "https://scalex.dev/blog/ai-agent-permissions-stats",
+      "sourceName": "Scale X",
+      "imageUrl": "https://scalex.dev/img/permission_game_stats_card.png",
+      "publishedAt": "2026-08-06T11:58:07.000Z"
+    }
+  ]
+}
