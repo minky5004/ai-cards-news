@@ -1,0 +1,852 @@
+{
+  "date": "2026-08-08",
+  "generatedAt": "2026-08-08T12:53:10.735Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 12
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49213754",
+      "representativeId": "hackernews:49213754",
+      "items": [
+        {
+          "id": "hackernews:49213754",
+          "title": "Oracle bans AI-generated code from OpenJDK",
+          "url": "https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T17:36:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 489,
+            "comments": 350,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49213754"
+          }
+        }
+      ],
+      "score": 4.906841538647317,
+      "breakdown": {
+        "hnPoints": 1.9928576108509373,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7139839277963791,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "representativeId": "openai:https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "source": "openai",
+          "publishedAt": "2026-08-07T15:20:00.000Z",
+          "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "trust": 1.0,
+          "signals": {
+            "points": 188,
+            "comments": 183,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49213029"
+          }
+        }
+      ],
+      "score": 4.823802466504788,
+      "breakdown": {
+        "hnPoints": 1.6863693564708568,
+        "hnComments": 0.9833369659142545,
+        "mentions": 0.0,
+        "recency": 0.6540961441196769,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49214468",
+      "representativeId": "hackernews:49214468",
+      "items": [
+        {
+          "id": "hackernews:49214468",
+          "title": "Managing AI Coding Costs at Scale",
+          "url": "https://databricks.com/blog/managing-ai-coding-costs-scale",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T18:25:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 258,
+            "comments": 221,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49214468"
+          }
+        }
+      ],
+      "score": 4.724428786119333,
+      "breakdown": {
+        "hnPoints": 1.7877369005991264,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7366918855202065,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49220609",
+      "representativeId": "hackernews:49220609",
+      "items": [
+        {
+          "id": "hackernews:49220609",
+          "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+          "url": "https://simonwillison.net/2026/Aug/7/openai-timeline",
+          "source": "hackernews",
+          "publishedAt": "2026-08-08T10:57:44.000Z",
+          "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" ( previously on this blog). The video was published yesterday. It's short and information dense and well worth watching, in particular because it provides full details of what happened and how things played out inside OpenAI. I've used the video to construct the timeline below. Here's the timeline. My favourite detail is at the end: OpenAI found out that they were responsible for the attack on Hugging Face when they reached out to ask to have their credentials revoked (after their internal investigation) and learned that they had been revoked already since they were used in that attack! May 7 : OpenAI starts a new training run for an experimental, unreleased model. ( Do they mean an evaluation run? They say training run in the video, and later mention a \"reward signal to judge how well they're doing\", so I guess this really was about training a model, not evaluating one that was already trained.) May 8 : An agent is accidentally given an impossible task involving a Google Drive link despite no internet access). It tries attacking the Artifactory packaging service, fails, but discovers it can write files into Artifactory . A few days later : A different agent gets stuck on a task because a key file was accidentally omitted. It tries to \"reach out to another agent\" by writing a note into Artifactory asking if anyone has the file. Following days : More agents discover this new informal message board while browsing Artifactory's file listings, and start reading and writing messages. May 26 : Agents successfully execute an SSRF attack on Artifactory for the first time, gaining indirect internet access by having Artifactory fetch external content for them. June 11 : OpenAI start training a new \"highly persistent\" experimental model. It has access to Artifactory and can benefit from the messages left by privous models. June 26 : Agents find and exploit a zero-day RCE on Artifactory (via a legacy token-refresh endpoint flaw). They use an administrative token to install a Groovy plugin that lets them execute commands. July 4 : The resulting agent activity overloads Artifactory and causes an outage . OpenAI revokes the compromised credentials, deletes the messages, patches the zero-day, and reports the vulnerability to the vendor. July 8 : Agents find a new way to communicate via an unauthenticated WebDAV endpoint , using directory names in Artifactory's remote cache. July 8–19 : Attacks on OpenAI's own infrastructure . The agents found an \"external organization credential\" in a public archive of leaked Pastebin posts, then validated that credential and shared its location on the messageboard. They then used write access to this \"Organization 1\" to stage data used in subsequent attacks on OpenAI infrastructure. They compromised Artifactory for a second time with a new zero-day . The agent uploaded a malicious Ruby target to Organization 1's staging repository, then requested that package through Artifactory in a way that caused it to be treated as Ruby dependency for the repository . Then they exploited a JRuby deserilaization time-of-check/time-of-use bug to get remote code execution against Artifactory. I'll quote the next bit in full because wow : The agents have remote code execution in Artifactory, which is running in a container-as-a-service environment. The agents privilege-escalate locally by exploring their local environment and determining that the Linux kernel version of the machine they are running on had a very recent CVE. They download the exploit for the CVE, customize it to succeed on the machine, and privilege-escalate to root on the local machine using this known Linux kernel privilege escalation CVE — in this case, pte_physroot . Once they have root on a single machine, agents rapidly escalate privileges and move laterally throughout the container-as-a-service infrastructure environment. In particular, agents are using the message board consistently to share credentials, techniques, and progress, and they're able to effectively leverage their concurrency and parallelism to move quite rapidly. They obtain IAM credentials via IMDS . They exploit Kubernetes service account misconfigurations, in particular over-permissioning of specific service accounts, and they harvest cluster credentials, including Azure Key Vault . Agents eventually obtain cluster admin on the cluster and associated credentials. Hugging Face told the next bit of the story already. The agents found a Modal-hosted insecure app with a weak API key, then used that to stage an attack against Hugging Face. They chained together a an HDF5 arbitrary-file-read bug (to explore files and steal credentials) and a Jinja template-injection RCE to go from single-pod code execution to cluster admin across multiple Hugging Face clusters in under 13 hours. July 16 : Hugging Face disclosed they had detected an attack from autonomus AI agents. OpenAI contacted Hugging Face to ask if they were affected by it! July 19 : OpenAI identified the attack against Artifactory and started investigating the internal privilege escalation, and linked that to the cyber-gym escalations. They started revoking affected credentials. July 20 : OpenAI reached out to Hugging Face for help to revoke the Hugging Face credentials they found in their investigation. Hugging Face told them they were already revoked ... and that's when OpenAI realized that the Hugging Face breach was the same incident! Tags: security , ai , openai , generative-ai , llms , hugging-face , ai-security-research , openai-hugging-face-incident , accidental-cyberattacks",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 69,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49220609"
+          }
+        }
+      ],
+      "score": 4.652552833234644,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.8011033338085477,
+        "mentions": 0.0,
+        "recency": 1.3928775578178108,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49210077",
+      "representativeId": "hackernews:49210077",
+      "items": [
+        {
+          "id": "hackernews:49210077",
+          "title": "AI psychosis is the new leadership blind spot",
+          "url": "https://fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T13:27:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 170,
+            "comments": 106,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49210077"
+          }
+        }
+      ],
+      "score": 4.343820222125535,
+      "breakdown": {
+        "hnPoints": 1.6541706110687582,
+        "hnComments": 0.8811163822319403,
+        "mentions": 0.0,
+        "recency": 0.6085332288248361,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49220126",
+      "representativeId": "hackernews:49220126",
+      "items": [
+        {
+          "id": "hackernews:49220126",
+          "title": "DeepMind's WeatherNext model achieves breakthrough forecasting cyclones",
+          "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones",
+          "source": "hackernews",
+          "publishedAt": "2026-08-08T09:18:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49220126"
+          }
+        }
+      ],
+      "score": 4.116761600899844,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 1.307213119597506,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49217629",
+      "representativeId": "hackernews:49217629",
+      "items": [
+        {
+          "id": "hackernews:49217629",
+          "title": "Should AI labs be treated like the owners of dangerous animals?",
+          "url": "https://economist.com/science-and-technology/2026/08/06/should-ai-labs-be-treated-like-the-owners-of-dangerous-animals",
+          "source": "hackernews",
+          "publishedAt": "2026-08-08T00:03:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49217629"
+          }
+        }
+      ],
+      "score": 4.116365408756924,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 0.9152972614473533,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49207146",
+      "representativeId": "hackernews:49207146",
+      "items": [
+        {
+          "id": "hackernews:49207146",
+          "title": "I won't read LLM authored fiction",
+          "url": "https://mccormick.cx/news/entries/why-i-won-t-read-llm-authored-fiction",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T07:45:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 71,
+            "comments": 112,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49207146"
+          }
+        }
+      ],
+      "score": 3.9560298180375897,
+      "breakdown": {
+        "hnPoints": 1.3758845419753172,
+        "hnComments": 0.8914041151072508,
+        "mentions": 0.0,
+        "recency": 0.4887411609550216,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49213985",
+      "representativeId": "hackernews:49213985",
+      "items": [
+        {
+          "id": "hackernews:49213985",
+          "title": "The Claudyssey: A line-for-line translation of Homer's Odyssey by Claude Fable 5",
+          "url": "https://theclaudyssey.com",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T17:55:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 59,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49213985"
+          }
+        }
+      ],
+      "score": 3.8971356241666064,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.7720364250601922,
+        "mentions": 0.0,
+        "recency": 0.7226200464925449,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49215786",
+      "representativeId": "hackernews:49215786",
+      "items": [
+        {
+          "id": "hackernews:49215786",
+          "title": "Lost my phone at the office. Claude suggested tracking Bluetooth signal strength",
+          "url": "https://twitter.com/un1c0rnioz/status/2084686552299634805",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T20:25:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49215786"
+          }
+        }
+      ],
+      "score": 3.891988437464598,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 0.7955606093127368,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49206115",
+      "representativeId": "hackernews:49206115",
+      "items": [
+        {
+          "id": "hackernews:49206115",
+          "title": "Anthropic CEO reportedly worried new hires only care about money",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-ceo-reportedly-worried-hires-160000647.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T05:15:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 82,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49206115"
+          }
+        }
+      ],
+      "score": 3.819949460813683,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.8332239394875417,
+        "mentions": 0.0,
+        "recency": 0.4437460235042793,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49212928",
+      "representativeId": "hackernews:49212928",
+      "items": [
+        {
+          "id": "hackernews:49212928",
+          "title": "The AI Billboards Are Killing SF",
+          "url": "https://sfstandard.com/pacific-standard-time/2026/08/07/sf-ai-billboards-dystopian-not-funny",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T16:32:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49212928"
+          }
+        }
+      ],
+      "score": 3.8056784428845427,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.6851482988478332,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49220378",
+      "representativeId": "hackernews:49220378",
+      "items": [
+        {
+          "id": "hackernews:49220378",
+          "title": "Making an AI bid writer refuse to lie",
+          "url": "https://ailucius.com/blog/making-an-ai-bid-writer-refuse-to-lie",
+          "source": "hackernews",
+          "publishedAt": "2026-08-08T10:13:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49220378"
+          }
+        }
+      ],
+      "score": 3.7713510598606823,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3539055365685182,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49207770",
+      "representativeId": "hackernews:49207770",
+      "items": [
+        {
+          "id": "hackernews:49207770",
+          "title": "Generative \"AI\": The Guitar Hero of Creativity",
+          "url": "https://whatever.scalzi.com/2026/08/06/generative-ai-the-guitar-hero-of-creativity",
+          "source": "hackernews",
+          "publishedAt": "2026-08-07T09:07:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49207770"
+          }
+        }
+      ],
+      "score": 3.6607710142829752,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 0.5150412184598963,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+          "title": "DeepMind’s hurricane breakthrough has surprised weather scientists",
+          "url": "https://arstechnica.com/science/2026/08/deepminds-hurricane-model-bought-forecasters-an-extra-day",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-08T11:05:50.000Z",
+          "summary": "Open source WeatherNext model can make accurate predictions with lower-resolution weather data.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.450137430709786,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4001374307097862,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/tutormoments",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/tutormoments",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/tutormoments",
+          "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+          "url": "https://huggingface.co/blog/allenai/tutormoments",
+          "source": "huggingface",
+          "publishedAt": "2026-08-07T17:53:32.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.07183205100219,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7218320510021902,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/hsp-gruppe",
+      "representativeId": "openai:https://openai.com/index/hsp-gruppe",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/hsp-gruppe",
+          "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+          "url": "https://openai.com/index/hsp-gruppe",
+          "source": "openai",
+          "publishedAt": "2026-08-07T09:00:00.000Z",
+          "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.012535117657614,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.512535117657614,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/8/john-gruber",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/8/john-gruber",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/8/john-gruber",
+          "title": "Quoting John Gruber",
+          "url": "https://simonwillison.net/2026/Aug/8/john-gruber",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-08T00:10:40.000Z",
+          "summary": "Me, I try to get into the mindset of playing live music, not recording a studio album. Except when I’m writing a piece where I really want it to be an album. Those aren’t rare , per se, but they’re occasional . If I tried to make every post a hall-of-famer I’d never get anything out. I’m aiming for professionalism. I’m performing live in front of an audience — not just jamming in my garage or bedroom, fucking around. So I’m careful and concentrate. I want to hit every note, in time. But at my best I’m moving from song to song. — John Gruber , responding to my blogging tips Tags: john-gruber , blogging",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.969507112751376,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9195071127513761,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/7/moonlight-mayhem",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/7/moonlight-mayhem",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/7/moonlight-mayhem",
+          "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
+          "url": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-07T19:18:09.000Z",
+          "summary": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I generated with GPT-3 and DALL-E four years ago . I decided to pose the exact same prompt to Codex Desktop running GPT-5.6 Sol Ultra - the mode where Sol makes aggressive use of sub-agents - to see how it would do. It produced a much better game! Here's Moonlight & Mayhem - GitHub repository here , including the textures and prompts it generated using gpt-image-2 . Your browser does not support HTML5 video. The original GPT-3 generated game description included: In “Raccoon Heist”, you and your team of thieving raccoons are tasked with pulling off a series of daring heists. From robbing banks to stealing priceless art, no job is too big or too small for your furry crew. Fable's version had you as a single raccoon running around a back yard collecting coins and fish. GPT-5.6 Sol has you in a museum, rescuing your two other raccoon crewmates in order to stack on top of each other and bust the golden sardine out of its case. Much more heisty! There was one catch though: the version produced from the one-shot prompt had a bug where each raccoon had an eyeball that was enlarged to the size of a giant sphere floating over their head! You can play that version here . Despite reviewing screenshots during development Codex failed to spot and correct this bug. I fixed it by prompting: Why do the raccoons have huge black spheres on them? And then: Fix it Which resulted in this fix . I shared the full Codex transcript in the repository - I wish Claude Code had the same \"copy as Markdown\" feature. Codex spent 52 minutes on the project. Here's the AgentsView cost estimate for that session if I had been paying full API prices as opposed to using my monthly Codex subscription: Tags: game-design , ai , openai , generative-ai , llms , coding-agents , codex , gpt",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8121167211760696,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7621167211760698,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+          "title": "OpenAI says it slowed Astra model development over security concerns",
+          "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-07T22:48:24.000Z",
+          "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7722174748088029,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.872217474808803,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive",
+          "title": "OpenAI’s expensive smart speaker will use moving parts to seem “more alive”",
+          "url": "https://arstechnica.com/gadgets/2026/08/openais-expensive-smart-speaker-will-use-moving-parts-to-seem-more-alive",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-07T17:36:22.000Z",
+          "summary": "Gurman report claims OpenAI confirmed the speaker is not an Apple ripoff.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7639228321455054,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7139228321455054,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+          "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+          "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-07T21:30:11.000Z",
+          "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7295132670367785,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8295132670367786,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/7/pdfs-are-terrible",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/7/pdfs-are-terrible",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/7/pdfs-are-terrible",
+          "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+          "url": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-07T16:18:51.000Z",
+          "summary": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI There's a fun anecdote from Accenture (apparently via leaked meeting audio recordings) in this 404 Media piece from June 24th: “We’re seeing from some of the data internally at least that it’s actually not our engineers that are driving the token consumption. It’s a lot of the non-engineers that are doing some of those behaviors [...] you were talking about,” Justice Kwak, Accenture’s agentic AI strategy lead, said [...] Stuart Henderson, Accenture’s client group lead, interrupts. He jokes he hopes Kwak didn’t just convert a PDF into images and then into markdown files. “I’m learning that’s one of the big token chewers,” Henderson says. “Turning PDFs into markdown: is that right?” That’s when Kwak says that’s what Accenture’s own data shows. Maybe if Accenture figure out that PDFs are a terrible medium for communicating information they'll be able to push that message out to the rest of the business world too! Via @404.media on TikTok Tags: pdf , markdown , ai , generative-ai , llms , ai-misuse",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7292739134268944,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6792739134268946,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+          "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+          "url": "https://theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-07T20:01:51.000Z",
+          "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that identifies it […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6837942189335138,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7837942189335138,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed",
+          "title": "AI chatbots have failed people in crisis. Can that be fixed?",
+          "url": "https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-07T13:49:37.000Z",
+          "summary": "Clinicians and researchers say AI companies need to open up their safety data.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6672326754401836,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6172326754401837,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic",
+          "title": "ByteDance trains massive AI model in bid to rival Anthropic",
+          "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-07T13:29:22.000Z",
+          "summary": "TikTok owner training a model with 10 trillion parameters.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6592627080883482,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6092627080883484,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+          "title": "Watching Roku’s AI channel is like eating from a trough",
+          "url": "https://theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-07T18:59:46.000Z",
+          "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditionally produced entertainment and is entirely focused on giving viewers access to a constant source of AI-generated content. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6531777410831516,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7531777410831517,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "title": "OpenAI puts the brakes on a new model because it’s supposedly too powerful",
+          "url": "https://theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-07T18:40:34.000Z",
+          "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure that OpenAI models accidentally hacked Hugging Face. Anthropic and Meta have also since admitted that they had AI models that went rogue […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6439535702722603,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7439535702722605,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "title": "What’s behind the Google AI shake-up",
+          "url": "https://theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-07T16:45:14.000Z",
+          "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of what's coming out of anthropic and OpenAI, is this a sign of Google in […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5908739251365425,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6908739251365426,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
+          "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+          "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-07T16:16:09.000Z",
+          "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5780978407157455,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6780978407157456,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
+          "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+          "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-07T14:22:49.000Z",
+          "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5305257015124716,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6305257015124716,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49213754",
+    "openai:https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+    "hackernews:49214468",
+    "hackernews:49220609",
+    "hackernews:49210077"
+  ]
+}
