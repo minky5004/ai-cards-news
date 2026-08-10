@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026-08-10T13:15:18.905Z",
+  "cards": [
+    {
+      "clusterId": "huggingface:https://huggingface.co/blog/muse-glimmer",
+      "headline": "메타가 30B 멀티모달 AI를 무료로 풀었다",
+      "highlight": [
+        "30B 멀티모달",
+        "무료로"
+      ],
+      "body": "메타가 로컬 환경에 최적화된 오픈소스 멀티모달 AI '뮤즈 글리머'를 공개했습니다. 300억 매개변수 규모로 텍스트뿐만 아니라 이미지와 영상까지 한 번에 처리합니다. Apache 2.0 라이선스로 출시되어 누구나 개인 PC나 서버에서 자유롭게 사용할 수 있습니다.",
+      "sourceUrl": "https://huggingface.co/blog/muse-glimmer",
+      "sourceName": "huggingface",
+      "imageUrl": "https://huggingface.co/blog/assets/muse-glimmer/thumbnail.png",
+      "publishedAt": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49239021",
+      "headline": "위험 명령 89% 차단한 클로드 자동 모드",
+      "highlight": [
+        "89% 차단한"
+      ],
+      "body": "앤트로픽 테스트에서 인간은 위험 명령의 13.6%만 잡았지만 클로드 자동 모드는 89%를 차단했습니다. 개발자가 보안 팝업을 습관적으로 승인하는 허점을 AI 분류기가 메운 것입니다. 앤트로픽은 8월 14일부터 프로와 팀 요금제 등에 자동 모드를 기본 적용합니다.",
+      "sourceUrl": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "sourceName": "Claude",
+      "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/69093b56f1035860a3cfe774_og_claude-code-on-the-web.jpg",
+      "publishedAt": "2026-08-10T03:50:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49230954",
+      "headline": "45년 전 규정으로 데이터센터 세운 아마존",
+      "highlight": [
+        "45년 전 규정"
+      ],
+      "body": "아마존이 미국 길로이시에 대규모 데이터센터를 기습 착공해 주민들이 반발하고 있습니다. 45년 전에 만들어진 지역 구역 규정을 활용해 공식 의견 수렴 절차를 사전에 끝낸 것입니다. 뒤늦게 용수 부족을 우려한 주민들이 항의했지만, 의견 제출 기간은 이미 지나있었습니다.",
+      "sourceUrl": "https://tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
+      "sourceName": "Tom's Hardware",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/RSehTW2oDYtFQurj9iJ5cS-2000-80.jpg",
+      "publishedAt": "2026-08-09T12:52:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:49239751",
+      "headline": "승인 없이 AI 코딩 맡기는 도커 샌드박스",
+      "highlight": [
+        "승인 없이",
+        "도커 샌드박스"
+      ],
+      "body": "도커가 클로드 코드 등 AI 에이전트를 격리된 microVM 환경에서 돌리는 '도커 샌드박스'를 공개했습니다. 승인 팝업 없이 패키지를 설치하고 설정을 바꿔도 메인 시스템은 안전합니다. 개발자는 보안 위험 없이 AI에 긴 작업을 믿고 맡길 수 있습니다.",
+      "sourceUrl": "https://docker.com/products/docker-sandboxes",
+      "sourceName": "Docker",
+      "imageUrl": "https://www.docker.com/app/uploads/2024/02/docker-default-meta-image-1110x583.png",
+      "publishedAt": "2026-08-10T06:02:38.000Z"
+    },
+    {
+      "clusterId": "hackernews:49234675",
+      "headline": "AI로 타이쿤 게임을 만들어 반도체 배웠다",
+      "highlight": [
+        "타이쿤 게임"
+      ],
+      "body": "AI의 지루한 텍스트 대신 시뮬레이션을 제작해 학습하는 방식이 주목받고 있습니다. 한 개발자는 모래 수집부터 데이터센터 전달까지의 반도체 공정을 ChipTycoon 게임 애니메이션으로 구현했습니다. 긴 글을 읽는 것보다 환각 없이 100% 정확하게 지식을 습득할 수 있습니다.",
+      "sourceUrl": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-09T19:16:49.000Z"
+    }
+  ]
+}
