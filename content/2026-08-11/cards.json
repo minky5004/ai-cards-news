@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T13:12:26.770Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49243880",
+      "headline": "오픈AI에 밀린 메타가 판을 다시 짰다",
+      "highlight": [
+        "판을 다시 짰다"
+      ],
+      "body": "메타가 오픈AI와 앤트로픽에 뒤처진 기업용 AI 경쟁 대신 개인 맞춤형 오픈 모델 전략을 내세웠습니다. 알리바바 같은 중국계 모델처럼 저렴하고 개방된 미국산 대안을 목표로 삼은 것입니다. 수장 교체까지 단행한 메타가 초지능 독점 대신 대중화로 활로를 찾을지 주목됩니다.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/08/with-new-open-models-meta-pitches-another-reboot-of-its-struggling-ai-strategy",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2024/08/GettyImages-2162539176-1024x648.jpg",
+      "publishedAt": "2026-08-10T14:06:22.000Z"
+    },
+    {
+      "clusterId": "hackernews:49250109",
+      "headline": "클로드로 쓴 글 복사해도 AI 표식 남는다",
+      "highlight": [
+        "AI 표식"
+      ],
+      "body": "앤트로픽이 EU AI 법안 준수를 위해 클로드 생성물에 식별용 워터마크를 도입합니다. 텍스트에는 눈에 안 보이지만 복사해도 유지되는 워터마크가 들어가며, 이미지 파일에는 C2PA 표준 서명이 붙습니다. AI 출처를 투명하게 판별할 수 있게 돕는 조치입니다.",
+      "sourceUrl": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "sourceName": "hackernews",
+      "imageUrl": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+      "publishedAt": "2026-08-10T21:36:56.000Z"
+    },
+    {
+      "clusterId": "hackernews:49241679",
+      "headline": "내 PC에서 바로 돌리는 메타 AI가 나왔다",
+      "highlight": [
+        "내 PC에서",
+        "메타 AI"
+      ],
+      "body": "메타가 인터넷 없이 개인 PC에서 동작하는 오픈소스 모델 '뮤즈 글리머'를 공개했습니다. 300억 파라미터 크기로 맥북이나 소비자용 GPU 한 대면 로컬 에이전트 작업을 빠르게 수행합니다. 이제 클라우드 없이도 기기 자체에서 언제든 AI를 안전하게 쓸 수 있게 됩니다.",
+      "sourceUrl": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "sourceName": "Meta AI Research",
+      "imageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=2272911630133843&version=1786289182",
+      "publishedAt": "2026-08-10T10:10:02.000Z"
+    },
+    {
+      "clusterId": "hackernews:49252179",
+      "headline": "맥에서 3.5초 만에 영상 만드는 AI 엔진",
+      "highlight": [
+        "3.5초"
+      ],
+      "body": "개발자 antirez가 애플 실리콘 전용 AI 추론 엔진 h3.c를 공개했습니다. M5 Max 칩 기준 단 3.5초 만에 미니맥스 H3 모델로 영상 생성을 완료합니다. 메탈 최적화로 메모리 효율을 높여 맥에서도 고성능 로컬 영상 생성이 가능해집니다.",
+      "sourceUrl": "https://github.com/antirez/h3.c",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/d639143cc288381a17e27a42ae69e9190bb73fa2087e75896a8d58b728aaaa92/antirez/h3.c",
+      "publishedAt": "2026-08-11T01:22:09.000Z"
+    }
+  ]
+}
