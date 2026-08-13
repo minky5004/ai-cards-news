@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T13:18:55.425Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49274600",
+      "headline": "오픈AI 코드로 딥시크 V4 Pro 바로 쓴다",
+      "highlight": [
+        "오픈AI 코드로",
+        "바로 쓴다"
+      ],
+      "body": "오픈라우터가 딥시크 V4 Pro용 OpenAI 호환 API를 지원합니다. 기존 SDK에서 기본 URL과 모델명만 바꾸면 캐싱 할인과 자동 우회 라우팅이 바로 적용됩니다. 덕분에 최소한의 공수로 최선의 속도와 가격을 확보할 수 있습니다.",
+      "sourceUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "sourceName": "hackernews",
+      "imageUrl": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813/opengraph-image-1oizug?abd1ffaa6102aa5f",
+      "publishedAt": "2026-08-12T16:04:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:49281916",
+      "headline": "3개월 걸리던 개발을 주말 만에 끝낸다",
+      "highlight": [
+        "3개월",
+        "주말 만에"
+      ],
+      "body": "오픈AI의 강력한 코딩 에이전트 코덱스가 챗GPT에 탑재됐습니다. 복잡한 코드 리팩터링부터 개발 테스트까지 알아서 처리하며 작업 시간을 최대 50% 줄여줍니다. 이제 챗GPT 앱과 터미널, 에디터 등 다양한 환경에서 바로 사용할 수 있습니다.",
+      "sourceUrl": "https://openai.com/codex",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/2Z64goaCYuEmGe825kLJFB/ccd8ea0a41e98a3a273357ae621dfe72/codex-og-image.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-08-13T04:53:41.000Z"
+    },
+    {
+      "clusterId": "hackernews:49276344",
+      "headline": "트위치 방송이 아마존 AI에 자동 동의됐다",
+      "highlight": [
+        "아마존 AI",
+        "자동 동의됐다"
+      ],
+      "body": "트위치가 스트리머 방송 영상과 채팅 데이터를 아마존 생성형 AI 학습에 기본 적용합니다. 모든 계정이 자동으로 동의 처리되며, 거부하려면 보안 설정 하단에서 수동으로 옵션을 꺼야 합니다. 직접 해제하지 않으면 내 방송 내역이 AI 학습에 계속 사용됩니다.",
+      "sourceUrl": "https://404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting",
+      "sourceName": "404 Media",
+      "imageUrl": "https://images.unsplash.com/photo-1527334919515-b8dee906a34b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDJ8fHR3aXRjaHxlbnwwfHx8fDE3ODY1NTY4NzB8MA&ixlib=rb-4.1.0&q=80&w=2000",
+      "publishedAt": "2026-08-12T18:02:18.000Z"
+    },
+    {
+      "clusterId": "hackernews:49274027",
+      "headline": "GPT-5.6과 동급인 Grok 4.6 공개",
+      "highlight": [
+        "Grok 4.6"
+      ],
+      "body": "SpaceXAI가 신형 AI 모델 Grok 4.6을 공개했습니다. 종합 지능 지수에서 GPT-5.6 Sol과 동점을 기록하며 코딩과 자율 작업 성능을 끌어올렸습니다. 출시 첫 주 동안 Cursor와 Grok Build에서 2배의 사용량이 제공됩니다.",
+      "sourceUrl": "https://x.ai/news/grok-4-6",
+      "sourceName": "hackernews",
+      "imageUrl": "https://x.ai/images/news/grok-4-6-og.png",
+      "publishedAt": "2026-08-12T15:32:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:49271994",
+      "headline": "하루 만에 2만 5천 줄 코드가 쏟아진다",
+      "highlight": [
+        "2만 5천 줄"
+      ],
+      "body": "AI를 활용해 프롬프트 몇 번으로 2만 5천 줄의 코드를 만드는 시대가 됐지만, 정작 코드를 이해하는 사람은 없습니다. 오류를 수정하는 비용이 급증하면서 나쁜 코드를 남발하는 개발자보다 좋은 결정을 내리는 개발자의 가치가 훨씬 높아지고 있습니다.",
+      "sourceUrl": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+      "sourceName": "Blog - Florian Herrengt",
+      "publishedAt": "2026-08-12T13:20:05.000Z"
+    }
+  ]
+}

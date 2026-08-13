@@ -1,0 +1,1120 @@
+{
+  "date": "2026-08-13",
+  "generatedAt": "2026-08-13T13:16:43.489Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 34,
+      "filtered": 8
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49274600",
+      "representativeId": "hackernews:49274600",
+      "items": [
+        {
+          "id": "hackernews:49274600",
+          "title": "DeepSeek V4 Pro 0813",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T16:04:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 979,
+            "comments": 422,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49274600"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813",
+          "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+          "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-12T23:59:23.000Z",
+          "summary": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Interestingly I got very different looking pelicans for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model: Low: Medium: High: In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into a post on Reddit which was deleted by the moderators for being \"low-effort\", then copied into this ASCII-art table on Hacker News . Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , ai-in-china",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.932514266724635,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8991809333913017,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49281916",
+      "representativeId": "hackernews:49281916",
+      "items": [
+        {
+          "id": "hackernews:49281916",
+          "title": "ChatGPT Desktop (Codex Desktop) for Linux",
+          "url": "https://openai.com/codex",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T04:53:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 271,
+            "comments": 177,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49281916"
+          }
+        }
+      ],
+      "score": 5.066698377110267,
+      "breakdown": {
+        "hnPoints": 1.8034927660344202,
+        "hnComments": 0.977085730525823,
+        "mentions": 0.0,
+        "recency": 1.086119880550024,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49276344",
+      "representativeId": "hackernews:49276344",
+      "items": [
+        {
+          "id": "hackernews:49276344",
+          "title": "Twitch Is Mining Peoples' Streams to Train Amazon's AI",
+          "url": "https://404media.co/twitch-training-amazon-ai-models-how-to-opt-out-setting",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T18:02:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49276344"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now",
+          "title": "Twitch content has trained Amazon AI for years, but users can opt out now",
+          "url": "https://arstechnica.com/ai/2026/08/twitch-content-has-trained-amazon-ai-for-years-but-users-can-opt-out-now",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-12T21:00:30.000Z",
+          "summary": "Streaming platform says user-generated content \"may be used for future Gen AI model improvements.\"",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+          "title": "Twitch streamers can now opt out from training Amazon’s AI",
+          "url": "https://theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-12T17:29:10.000Z",
+          "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.0447150253971085,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.26140197200678245,
+        "mentions": 1.6666666666666665,
+        "recency": 0.8016534640757472,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49274027",
+      "representativeId": "hackernews:49274027",
+      "items": [
+        {
+          "id": "hackernews:49274027",
+          "title": "Grok 4.6",
+          "url": "https://x.ai/news/grok-4-6",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T15:32:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 594,
+            "comments": 546,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49274027"
+          }
+        }
+      ],
+      "score": 4.849614424091243,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6496144240912429,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49271994",
+      "representativeId": "hackernews:49271994",
+      "items": [
+        {
+          "id": "hackernews:49271994",
+          "title": "AI is removing the middle class of software engineering?",
+          "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T13:20:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 918,
+            "comments": 823,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49271994"
+          }
+        }
+      ],
+      "score": 4.796559897985589,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5965598979855893,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49275385",
+      "representativeId": "hackernews:49275385",
+      "items": [
+        {
+          "id": "hackernews:49275385",
+          "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+          "url": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T16:54:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 334,
+            "comments": 383,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49275385"
+          }
+        }
+      ],
+      "score": 4.755050735985028,
+      "breakdown": {
+        "hnPoints": 1.870515981641635,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6845347543433928,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49283563",
+      "representativeId": "hackernews:49283563",
+      "items": [
+        {
+          "id": "hackernews:49283563",
+          "title": "If I own Claude's outputs why can't I train my own model on them?",
+          "url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T09:34:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 69,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49283563"
+          }
+        }
+      ],
+      "score": 4.703121983178075,
+      "breakdown": {
+        "hnPoints": 1.4016357980053775,
+        "hnComments": 0.8011033338085477,
+        "mentions": 0.0,
+        "recency": 1.3003828513641493,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49283891",
+      "representativeId": "hackernews:49283891",
+      "items": [
+        {
+          "id": "hackernews:49283891",
+          "title": "Claude users are mad that Anthropic's new watermarks will catch them using it",
+          "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T10:23:51.000Z",
+          "summary": "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is.",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49283891"
+          }
+        }
+      ],
+      "score": 4.639917654157232,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 1.3424731425636307,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49272569",
+      "representativeId": "hackernews:49272569",
+      "items": [
+        {
+          "id": "hackernews:49272569",
+          "title": "Someone is running mass vulnerability scans, spoofing AI bots like ClaudeBot",
+          "url": "https://knownagents.com/insights",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T14:02:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 287,
+            "comments": 220,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49272569"
+          }
+        }
+      ],
+      "score": 4.635009844691024,
+      "breakdown": {
+        "hnPoints": 1.8218817110344818,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6131281336565417,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49267928",
+      "representativeId": "hackernews:49267928",
+      "items": [
+        {
+          "id": "hackernews:49267928",
+          "title": "llama.cpp",
+          "url": "https://llama.app",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T04:51:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 356,
+            "comments": 159,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49267928"
+          }
+        }
+      ],
+      "score": 4.478519155711004,
+      "breakdown": {
+        "hnPoints": 1.8909789960003773,
+        "hnComments": 0.9569832214477102,
+        "mentions": 0.0,
+        "recency": 0.4305569382629164,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49270022",
+      "representativeId": "hackernews:49270022",
+      "items": [
+        {
+          "id": "hackernews:49270022",
+          "title": "What sort of maths are LLMs good at?",
+          "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T10:04:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 258,
+            "comments": 150,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49270022"
+          }
+        }
+      ],
+      "score": 4.459960832844106,
+      "breakdown": {
+        "hnPoints": 1.7877369005991264,
+        "hnComments": 0.9460666365214079,
+        "mentions": 0.0,
+        "recency": 0.5261572957235716,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49272620",
+      "representativeId": "hackernews:49272620",
+      "items": [
+        {
+          "id": "hackernews:49272620",
+          "title": "German advocacy group lodges criminal complaint over Meta AI glasses",
+          "url": "https://reuters.com/legal/government/german-advocacy-group-lodges-criminal-complaint-over-meta-ai-glasses-2026-08-12",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T14:06:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 116,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49272620"
+          }
+        }
+      ],
+      "score": 4.0803512324341815,
+      "breakdown": {
+        "hnPoints": 1.5320816076690804,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.6144215120162959,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49267057",
+      "representativeId": "hackernews:49267057",
+      "items": [
+        {
+          "id": "hackernews:49267057",
+          "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+          "url": "https://404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T02:05:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 195,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49267057"
+          }
+        }
+      ],
+      "score": 4.018891991625024,
+      "breakdown": {
+        "hnPoints": 1.6980695168411684,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.38697436203505065,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49269090",
+      "representativeId": "hackernews:49269090",
+      "items": [
+        {
+          "id": "hackernews:49269090",
+          "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+          "url": "https://discoveredmaterials.com/research",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T07:51:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 149,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49269090"
+          }
+        }
+      ],
+      "score": 3.954405873438023,
+      "breakdown": {
+        "hnPoints": 1.6120163358015704,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.48308225244659436,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49280926",
+      "representativeId": "hackernews:49280926",
+      "items": [
+        {
+          "id": "hackernews:49280926",
+          "title": "Video game lawyer says all her clients have anti-AI contracts",
+          "url": "https://gamesradar.com/games/echoing-palworld-dev-video-game-lawyer-says-all-her-clients-have-anti-ai-contracts-because-gamers-hate-it-and-its-a-copyright-landmine-i-think-were-going-to-see-lawsuits",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T01:47:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49280926"
+          }
+        }
+      ],
+      "score": 3.823879136034618,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.963872904138003,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49268697",
+      "representativeId": "hackernews:49268697",
+      "items": [
+        {
+          "id": "hackernews:49268697",
+          "title": "AI agent hacks gym to get its user a spot in pilates class",
+          "url": "https://bbc.com/news/articles/cn0nww2qlp7o",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T06:53:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49268697"
+          }
+        }
+      ],
+      "score": 3.619959933894949,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 0.4654153688094799,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49280945",
+      "representativeId": "hackernews:49280945",
+      "items": [
+        {
+          "id": "hackernews:49280945",
+          "title": "Anthropic in Talks to Buy World Model AI Startup Decart for $6B",
+          "url": "https://bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T01:50:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49280945"
+          }
+        }
+      ],
+      "score": 3.6035922202903103,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.9656169164138833,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49268214",
+      "representativeId": "hackernews:49268214",
+      "items": [
+        {
+          "id": "hackernews:49268214",
+          "title": "I'm Done Using AI",
+          "url": "https://brettcodes.com/im-done-using-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T05:42:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49268214"
+          }
+        }
+      ],
+      "score": 3.3338753375106664,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.4448021968656961,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49273277",
+      "representativeId": "hackernews:49273277",
+      "items": [
+        {
+          "id": "hackernews:49273277",
+          "title": "Qwen3.8 Weights Released",
+          "url": "https://modelscope.cn/models/Qwen/Qwen3.8-2.4T-A95B",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T14:49:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49273277"
+          }
+        }
+      ],
+      "score": 3.2504300464703553,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.6319588323916892,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49274420",
+      "representativeId": "hackernews:49274420",
+      "items": [
+        {
+          "id": "hackernews:49274420",
+          "title": "SpaceXAI: Grok 4.6",
+          "url": "https://openrouter.ai/x-ai/grok-4.6",
+          "source": "hackernews",
+          "publishedAt": "2026-08-12T15:55:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49274420"
+          }
+        }
+      ],
+      "score": 3.094465490794712,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.6589857400933676,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/how-enterprises-put-ai-to-work",
+      "representativeId": "openai:https://openai.com/index/how-enterprises-put-ai-to-work",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/how-enterprises-put-ai-to-work",
+          "title": "From assistance to execution: How enterprises put AI to work",
+          "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+          "source": "openai",
+          "publishedAt": "2026-08-12T06:00:00.000Z",
+          "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+          "title": "Grok is now an AI ‘teammate’ you can assign work",
+          "url": "https://theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-12T11:58:54.000Z",
+          "summary": "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you. The bots share their own cloud-based computer environment, and can sign into apps, tools, and websites you already use to complete multi-step workplace tasks, only coming back when their assigned work […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.899606138389326,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5662728050559926,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+          "title": "Claude's new Scarlet Letter watermark is invisible—for now",
+          "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-13T11:10:18.000Z",
+          "summary": "The mark flags anything Claude processed, even human writing it only edited.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4330971394846337,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3830971394846336,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+          "title": "Everything announced at Made by Google ’26: Pixel 11, Pixel Watch 5, Pixel Tag, and tons of Gemini features",
+          "url": "https://techcrunch.com/2026/08/12/google-unveils-pixel-11-lineup-new-airtag-rival-and-gemini-features-at-made-by-google-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T14:20:33.000Z",
+          "summary": "From the Pixel 11 series and a brand new competitor to Apple’s AirTag, here are all the announcements from the Made by Google 2026 event.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+          "title": "Google’s Pixel Watch 5 dives deeper into AI and health",
+          "url": "https://theverge.com/tech/978094/pixel-watch-5-hands-on-made-by-google-gemini-wearables-smartwatch",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-12T14:00:00.000Z",
+          "summary": "The $399 Google Pixel Watch 5 isn't about the hardware. Sure, there's a new satin pyrite case finish, a few new strap colors, and a Steph Curry Special Edition. Under the hood, there's a slightly faster Qualcomm processor and an itty-bitty battery bump. There's a $50 price hike from last year, too, because the Pixel […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.35349942811436,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6201660947810271,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+          "title": "How kids feel about AI, in their own words",
+          "url": "https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-13T09:00:00.000Z",
+          "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.322137255961229,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2721372559612294,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+          "title": "Putting sign language AI into users’ hands",
+          "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands",
+          "source": "google-deepmind",
+          "publishedAt": "2026-08-12T14:01:59.000Z",
+          "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.112819963632508,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.612819963632508,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/olmoearth-embeddings",
+          "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+          "source": "huggingface",
+          "publishedAt": "2026-08-12T16:14:36.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0172634616097667,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6672634616097665,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+          "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+          "source": "huggingface",
+          "publishedAt": "2026-08-12T14:00:51.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9623743747625848,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6123743747625847,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers",
+          "title": "The web’s newest weapon against AI scrapers is a font",
+          "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-12T22:02:25.000Z",
+          "summary": "“ShieldFont” aims to poison AI training data without making pages unreadable for people.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8841512358066748,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8341512358066749,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/12/alchemy-utils",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/12/alchemy-utils",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/12/alchemy-utils",
+          "title": "alchemy-utils 0.1a0",
+          "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-12T19:51:30.000Z",
+          "summary": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines Test against PostgreSQL and SQLite and duckdb Use ~/dev/sqlite-utils for reference Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work It took very few follow-up prompts to produce this project in a state good enough to release as an alpha. Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database: uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog' redirects_redirect The output from that starts like this: [ { \"id\": 2328, \"domain\": \"simonwillison.net\", \"path\": \"2020/May/21/apple-photos-sqlite/\", \"target\": \"/2020/May/21/dogsheep-photos/\", \"created\": \"2020-05-21T13:03:46.591692-07:00\" }, { \"id\": 3, \"domain\": \"feeds.simonwillison.net\", \"path\": \"swn-links\", \"target\": \"https://simonwillison.net/atom/links/\", \"created\": \"2017-10-01T14:12:54.820729-07:00\" } Or if you'd like a DuckDB database with every tree in San Francisco , schema created automatically to match the file: curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv (That one took nearly an hour the first time I ran it, so I had Codex optimize it and got it down to around 35 seconds.) Tags: databases , postgresql , projects , python , sql , sqlalchemy , sqlite , sqlite-utils , duckdb , coding-agents , codex",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8169273073675403,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7669273073675404,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data",
+          "title": "Scaling AI agents with trustworthy data",
+          "url": "https://technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-12T16:51:57.000Z",
+          "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organizations find that realizing the desired return on investment (ROI) from AI hinges on having the right foundation, with inadequate infrastructure and data…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7334519151926284,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6834519151926285,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart",
+          "title": "Booksellers suspect AI firms are buying and then destroying rare books",
+          "url": "https://arstechnica.com/tech-policy/2026/08/heres-a-balm-if-the-idea-of-destroying-books-to-train-ai-breaks-your-heart",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-12T15:19:17.000Z",
+          "summary": "AI firms quietly bulk buying rare books face resistance from booksellers.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6939895912192193,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6439895912192195,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/12/florian-herrengt",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/12/florian-herrengt",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/12/florian-herrengt",
+          "title": "Quoting Florian Herrengt",
+          "url": "https://simonwillison.net/2026/Aug/12/florian-herrengt",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-12T15:08:47.000Z",
+          "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person who worked on this feature. \"So where does the data come from?\" \"Hmm... actually I don't know. Let me ask Claude.\" You sit next to each other watching an endless wall of text appear on the screen. Neither of you has any idea whether any of it is true but Claude seems very confident. [...] This project has become so convoluted, with so many layers and services, that no one on your team could possibly start to understand what's going on. — Florian Herrengt , AI is removing the middle class of software engineering Tags: ai-misuse , cognitive-debt , generative-ai , ai , llms , ai-assisted-programming",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.689664379868152,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6396643798681523,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation",
+          "title": "AI coding startup Cognition reportedly already in talks to raise at $40B valuation",
+          "url": "https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T18:19:12.000Z",
+          "summary": "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6228152158715008,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.722815215871501,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open",
+          "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+          "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T17:51:00.000Z",
+          "summary": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6098507713430923,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7098507713430925,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise",
+          "title": "OpenAI-backed Thrive Holdings raises $2B to bring AI to the enterprise",
+          "url": "https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T17:41:29.000Z",
+          "summary": "Thrive Holdings has raised $2 billion in new funding at a $12 billion valuation from investors like SoftBank, D1 Capital Partners, and Altimeter Capital.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6055283410344323,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7055283410344325,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice",
+          "title": "Why Stream ring-maker Sandbar says the future of AI wearables is voice",
+          "url": "https://techcrunch.com/video/why-stream-ring-maker-sandbar-says-the-future-of-ai-wearables-is-voice",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T16:46:02.000Z",
+          "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard",
+          "title": "Why Sandbar thinks it’s voice-enabled ring can avoid the AI hardware graveyard",
+          "url": "https://techcrunch.com/podcast/why-sandbar-thinks-its-voice-enabled-ring-can-avoid-the-ai-hardware-graveyard",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T14:22:00.000Z",
+          "summary": "AI notetaking hardware has taken off over the past couple of years, with credit-card-sized devices, pendants, pins, and even transcribing earbuds all promising to capture your meetings and turn them into summaries and action items. Now, a whole wave of wearables — rings especially — are betting people want to capture stray thoughts and ideas the same way. One of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5808615413057323,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6808615413057323,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+          "title": "Guitar company D’Addario admits that AI music was used in a promotional video",
+          "url": "https://theverge.com/ai-artificial-intelligence/978982/daddario-guitar-ai-music-suno",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-12T15:52:07.000Z",
+          "summary": "After weeks of controversy and speculation, music company D'Addario has admitted that AI, specifically Suno, was used as part of a recent promotional video. For nearly two weeks, the company has denied the allegations, even as evidence piled up against it. It offered various explanations, from low-quality exports, to combinations of plug-ins like Autotune introducing […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.557704073141897,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.657704073141897,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+          "title": "Of course the ChatGPT dog cancer vaccine spawned a startup",
+          "url": "https://theverge.com/ai-artificial-intelligence/978671/ai-cured-dog-cancer-mrna-vaccine-startup-gamgee",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-12T12:09:34.000Z",
+          "summary": "Remember that much-hyped story about an Australian tech entrepreneur using ChatGPT, Grok, and other AI tools to craft a personalized cancer vaccine for his dog? Well, surprise: He's launched a startup. That entrepreneur is Paul Conyngham, who says he is launching Gamgee to offer \"personalised mRNA cancer vaccines for dogs.\" But his ambitions go well […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4701627508586321,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5701627508586322,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation",
+          "title": "AI code-testing startup Blacksmith’s valuation jumps almost 10x in less than a year",
+          "url": "https://techcrunch.com/2026/08/12/blacksmiths-valuation-jumps-10x-to-550m-as-ai-coding-fuels-software-validation",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-12T11:00:00.000Z",
+          "summary": "Blacksmith says revenue has grown more than tenfold over the past year.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4452660040179914,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5452660040179915,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49274600",
+    "hackernews:49281916",
+    "hackernews:49276344",
+    "hackernews:49274027",
+    "hackernews:49271994"
+  ]
+}
