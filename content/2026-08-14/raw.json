@@ -1,0 +1,1137 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T13:11:24.683Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 38,
+      "filtered": 20
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/previewing-ultrafast",
+      "representativeId": "openai:https://openai.com/index/previewing-ultrafast",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/previewing-ultrafast",
+          "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+          "url": "https://openai.com/index/previewing-ultrafast",
+          "source": "openai",
+          "publishedAt": "2026-08-13T10:00:00.000Z",
+          "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49289844",
+          "title": "Accelerating GPT-5.6 Sol Ultrafast",
+          "url": "https://cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T18:10:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 650,
+            "comments": 253,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49289844"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed",
+          "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+          "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-13T19:22:40.000Z",
+          "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.922104037411628,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.7554373707449613,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-7-flash",
+          "title": "Introducing Gemini 3.7 Flash",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+          "source": "google-deepmind",
+          "publishedAt": "2026-08-13T17:04:18.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49289112",
+          "title": "Gemini 3.7 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T17:23:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 895,
+            "comments": 451,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49289112"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release",
+          "title": "Google announces Gemini 3.7 Flash just three weeks after previous release",
+          "url": "https://arstechnica.com/ai/2026/08/google-announces-gemini-3-7-flash-just-three-weeks-after-previous-release",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-13T17:00:13.000Z",
+          "summary": "Gemini 3.6 Flash debuted just 3 weeks ago, but Google says 3.7 has \"substantial improvements.\"",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 6.866421327570302,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.6997546609036353,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49285327",
+      "representativeId": "hackernews:49285327",
+      "items": [
+        {
+          "id": "hackernews:49285327",
+          "title": "Choosing an AI model: one prompt, 11 models, different results",
+          "url": "https://netlify.com/blog/one-prompt-11-models-very-different-results",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T13:05:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 208,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49285327"
+          }
+        },
+        {
+          "id": "hackernews:49283563",
+          "title": "Can I use my Outputs to train an AI model?",
+          "url": "https://support.claude.com/en/articles/12326764-can-i-use-my-outputs-to-train-an-ai-model",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T09:34:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 90,
+            "comments": 84,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49283563"
+          }
+        },
+        {
+          "id": "hackernews:49280945",
+          "title": "Anthropic in Talks to Buy World Model AI Startup Decart for $6B",
+          "url": "https://bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T01:50:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49280945"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
+          "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+          "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-13T21:13:24.000Z",
+          "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+          "title": "Apple trained its own AI model for China with help from Alibaba",
+          "url": "https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-14T09:21:17.000Z",
+          "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.725820475744827,
+      "breakdown": {
+        "hnPoints": 1.7187301769151873,
+        "hnComments": 0.8463847445224318,
+        "mentions": 1.6666666666666665,
+        "recency": 1.294038887640542,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49285244",
+      "representativeId": "hackernews:49285244",
+      "items": [
+        {
+          "id": "hackernews:49285244",
+          "title": "DeepSeek Harness developer preview",
+          "url": "https://deepseek.com/harness/en",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T12:58:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 691,
+            "comments": 281,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49285244"
+          }
+        }
+      ],
+      "score": 4.790186196532543,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5901861965325427,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49288889",
+      "representativeId": "hackernews:49288889",
+      "items": [
+        {
+          "id": "hackernews:49288889",
+          "title": "Mistral OCR 4.1",
+          "url": "https://docs.mistral.ai/models/ocr-4-1",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T17:05:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 381,
+            "comments": 153,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49288889"
+          }
+        }
+      ],
+      "score": 4.7541739595352634,
+      "breakdown": {
+        "hnPoints": 1.9127544875552065,
+        "hnComments": 0.9497761659449963,
+        "mentions": 0.0,
+        "recency": 0.6916433060350607,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49287153",
+      "representativeId": "hackernews:49287153",
+      "items": [
+        {
+          "id": "hackernews:49287153",
+          "title": "Text AI watermarks will always be trivial to remove",
+          "url": "https://seangoedecke.com/text-ai-watermarks",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T15:07:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 156,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49287153"
+          }
+        },
+        {
+          "id": "hackernews:49292932",
+          "title": "How AI text watermarking works",
+          "url": "https://declaude.org/watermarking",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T23:16:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 118,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49292932"
+          }
+        }
+      ],
+      "score": 4.607135538336602,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.9534141244009318,
+        "mentions": 0.0,
+        "recency": 0.8779935263038048,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49281916",
+      "representativeId": "hackernews:49281916",
+      "items": [
+        {
+          "id": "hackernews:49281916",
+          "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+          "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T04:53:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 458,
+            "comments": 310,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49281916"
+          }
+        }
+      ],
+      "score": 4.6043309581528495,
+      "breakdown": {
+        "hnPoints": 1.9718316104959457,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.43249934765690395,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49285604",
+      "representativeId": "hackernews:49285604",
+      "items": [
+        {
+          "id": "hackernews:49285604",
+          "title": "AI agents lie, cheat and steal. That is putting off users",
+          "url": "https://economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T13:28:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 163,
+            "comments": 199,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49285604"
+          }
+        }
+      ],
+      "score": 4.441719821959635,
+      "breakdown": {
+        "hnPoints": 1.640723682632624,
+        "hnComments": 0.9990595408716817,
+        "mentions": 0.0,
+        "recency": 0.6019365984553302,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49290768",
+      "representativeId": "hackernews:49290768",
+      "items": [
+        {
+          "id": "hackernews:49290768",
+          "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+          "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T19:25:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 117,
+            "comments": 92,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49290768"
+          }
+        }
+      ],
+      "score": 4.346371267413268,
+      "breakdown": {
+        "hnPoints": 1.5348196578300592,
+        "hnComments": 0.8546745042445834,
+        "mentions": 0.0,
+        "recency": 0.756877105338625,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49288293",
+      "representativeId": "hackernews:49288293",
+      "items": [
+        {
+          "id": "hackernews:49288293",
+          "title": "AI At Home Part 1: A Box Of Scraps",
+          "url": "https://jdagostino.github.io/ai-pt1-box-o-scraps/index.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T16:22:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 121,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49288293"
+          }
+        }
+      ],
+      "score": 4.180675356568386,
+      "breakdown": {
+        "hnPoints": 1.5455446160228499,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 0.6727662644448695,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49285160",
+      "representativeId": "hackernews:49285160",
+      "items": [
+        {
+          "id": "hackernews:49285160",
+          "title": "DeepSeek API Pricing Update",
+          "url": "https://twitter.com/deepseek_ai/status/2087864589895798968",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T12:49:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 125,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49285160"
+          }
+        }
+      ],
+      "score": 4.0842213755007215,
+      "breakdown": {
+        "hnPoints": 1.5559235468071542,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 0.5869062434672684,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49290062",
+      "representativeId": "hackernews:49290062",
+      "items": [
+        {
+          "id": "hackernews:49290062",
+          "title": "AI Is Threatening Natural Resources for Billions",
+          "url": "https://unric.org/en/ais-environmental-costs-threaten-water-land-and-climate",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T18:28:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49290062"
+          }
+        }
+      ],
+      "score": 3.986944712096674,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 0.7295483085162583,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49285909",
+      "representativeId": "hackernews:49285909",
+      "items": [
+        {
+          "id": "hackernews:49285909",
+          "title": "The Conceptual Reasoning Index",
+          "url": "https://alignment.anthropic.com/2026/conceptual-reasoning-index",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T13:48:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 52,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49285909"
+          }
+        }
+      ],
+      "score": 3.959791396800565,
+      "breakdown": {
+        "hnPoints": 1.4016357980053775,
+        "hnComments": 0.7486448511604031,
+        "mentions": 0.0,
+        "recency": 0.6095107476347841,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49283891",
+      "representativeId": "hackernews:49283891",
+      "items": [
+        {
+          "id": "hackernews:49283891",
+          "title": "Claude users are mad that Anthropic's new watermarks will catch them using it",
+          "url": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T10:23:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49283891"
+          }
+        }
+      ],
+      "score": 3.9138904366100977,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.5345807298100942,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49290521",
+      "representativeId": "hackernews:49290521",
+      "items": [
+        {
+          "id": "hackernews:49290521",
+          "title": "Person Hides Prompt Injection in Legal Filing Telling AI to Side with Them",
+          "url": "https://404media.co/person-hides-prompt-injection-in-legal-filing-telling-ai-to-side-with-them",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T19:04:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 15,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49290521"
+          }
+        }
+      ],
+      "score": 3.7469783909203134,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.5228039440135649,
+        "mentions": 0.0,
+        "recency": 0.7468562932411127,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49294362",
+      "representativeId": "hackernews:49294362",
+      "items": [
+        {
+          "id": "hackernews:49294362",
+          "title": "Even Claude Is in the Dark About Dario Amodei's Wife",
+          "url": "https://wsj.com/tech/ai/claude-dario-amodei-wife-anthropic-e1eeda7d",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T03:06:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49294362"
+          }
+        }
+      ],
+      "score": 3.708914410127343,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 1.0170976053266558,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49286057",
+      "representativeId": "hackernews:49286057",
+      "items": [
+        {
+          "id": "hackernews:49286057",
+          "title": "AI Generated 3D Models Flood Market, but Almost No One Is Buying Them",
+          "url": "https://404media.co/ai-generated-3d-models-flood-market-but-almost-no-one-is-buying-them",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T13:57:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 40,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49286057"
+          }
+        }
+      ],
+      "score": 3.6570165474877054,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.7002373295680289,
+        "mentions": 0.0,
+        "recency": 0.6129563654893233,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49288051",
+      "representativeId": "hackernews:49288051",
+      "items": [
+        {
+          "id": "hackernews:49288051",
+          "title": "Samsung is using Claude to verify chip designs. It's not going smoothly",
+          "url": "https://neowin.net/news/samsung-is-using-claude-to-verify-chip-designs-and-its-not-going-smoothly",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T16:05:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49288051"
+          }
+        }
+      ],
+      "score": 3.5130385696508153,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.6658432225455815,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49280926",
+      "representativeId": "hackernews:49280926",
+      "items": [
+        {
+          "id": "hackernews:49280926",
+          "title": "Video game lawyer says all her clients have anti-AI contracts",
+          "url": "https://gamesradar.com/games/echoing-palworld-dev-video-game-lawyer-says-all-her-clients-have-anti-ai-contracts-because-gamers-hate-it-and-its-a-copyright-landmine-i-think-were-going-to-see-lawsuits",
+          "source": "hackernews",
+          "publishedAt": "2026-08-13T01:47:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49280926"
+          }
+        }
+      ],
+      "score": 3.3252734753490985,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.38381988004191725,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues",
+          "title": "OpenAI hires new CRO as executive shake-up continues",
+          "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-13T17:07:13.000Z",
+          "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+          "title": "OpenAI is losing its second executive this week",
+          "url": "https://theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-13T19:28:39.000Z",
+          "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer in December after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportunities,\" she said in a team note posted to LinkedIn. Dali Rajic, president and COO of Wiz, will be taking over the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.491677252131399,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7583439187980658,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps",
+          "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+          "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-13T15:30:52.000Z",
+          "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+          "title": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
+          "url": "https://theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-13T13:30:00.000Z",
+          "summary": "Microsoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single \"super app\" interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and work accounts will be moved to the new unified app, which recycles the \"Microsoft Copilot\" name but features an updated app icon. The single […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.384344605931519,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.651011272598186,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/builders-guide-to-gpt-5-6",
+      "representativeId": "openai:https://openai.com/index/builders-guide-to-gpt-5-6",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/builders-guide-to-gpt-5-6",
+          "title": "The builder’s guide to GPT‑5.6",
+          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "source": "openai",
+          "publishedAt": "2026-08-13T11:00:00.000Z",
+          "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0471286318319977,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5471286318319977,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "representativeId": "huggingface:https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "source": "huggingface",
+          "publishedAt": "2026-08-13T17:16:04.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.046483865393788,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6964838653937878,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "representativeId": "openai:https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+          "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+          "source": "openai",
+          "publishedAt": "2026-08-13T09:00:00.000Z",
+          "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0065725645815897,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5065725645815896,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/13/sqlite-utils-2",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/13/sqlite-utils-2",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/13/sqlite-utils-2",
+          "title": "sqlite-utils 4.2.1",
+          "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-13T23:53:47.000Z",
+          "summary": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout: uv run --isolated --no-default-groups sqlite-utils --help The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependencies they will be ignored for the duration of that uv run command. Tags: packaging , python , sqlite-utils , uv",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/13/sqlite-utils",
+          "title": "sqlite-utils 4.2",
+          "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-13T20:11:29.000Z",
+          "summary": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whole lot of other smaller changes. Includes contributions from Bunlong Heng , ethanhawkes-gif , Rami Abdelrazzaq , nyxst4ck , and ikatyal2110 . (It later turned out 4.2 had a crashing bug , fixed in 4.2.1 .) Tags: releases , sqlite , sqlite-utils",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9490155718430073,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8990155718430075,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/13/llm-gemini",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/13/llm-gemini",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/13/llm-gemini",
+          "title": "llm-gemini 0.33",
+          "url": "https://simonwillison.net/2026/Aug/13/llm-gemini",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-13T19:37:34.000Z",
+          "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern: llm -m gemini-3.7-flash -T CodeExecution \\ 'use python to calculate (factorial of 13) * 3' I had Gemini 3.7 Flash draw me some pelicans riding bicycles at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great: One catch though: the pelican I showed here was rendered with Safari. Both Firefox and Chrome render it differently, due to Safari being more tolerant of empty SVG <filter> elements than those other two browsers. They still display the bicycle, but the pelican is missing entirely! Tags: google , ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8126961676174242,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7626961676174243,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+          "title": "The new Instagram logo is the perfect embodiment of AI slop",
+          "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-13T17:32:10.000Z",
+          "summary": "Opinion: Some remarks about the new wordmark accidentally being perfectly awful.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7537179629663628,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.703717962966363,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "representativeId": "theverge-ai:https://theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/979871/microsoft-copilot-mico-retired",
+          "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+          "url": "https://theverge.com/tech/979871/microsoft-copilot-mico-retired",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-13T21:42:38.000Z",
+          "summary": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire. Mico launched in Copilot's voice mode last […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7264404793673909,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.826440479367391,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
+          "title": "Anthropic could be worth $2 trillion when it goes public",
+          "url": "https://arstechnica.com/ai/2026/08/anthropic-could-be-worth-2-trillion-when-it-goes-public",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-13T13:58:56.000Z",
+          "summary": "Rapid revenue growth fuels hope Claude maker's IPO is the biggest listing in history",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.663710840743573,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6137108407435732,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+          "title": "IBM partners with OpenAI to bolster enterprise AI push",
+          "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-13T19:19:49.000Z",
+          "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6540568342275996,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7540568342275997,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war",
+          "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+          "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-13T18:28:14.000Z",
+          "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.629501487393481,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7295014873934812,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+          "title": "Claude's new Scarlet Letter watermark is invisible—for now",
+          "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-13T11:10:18.000Z",
+          "summary": "The mark flags anything Claude processed, even human writing it only edited.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6007574451821138,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.550757445182114,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+          "title": "Suno is trying to look more like a real music production tool",
+          "url": "https://theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-13T16:00:00.000Z",
+          "summary": "Suno is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addition is undoubtedly MIDI support. Suno says that MIDI was its most requested feature, and it's basically a prerequisite for any modern DAW. Unfortunately, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5632983022699616,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6632983022699616,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+          "title": "How kids feel about AI, in their own words",
+          "url": "https://technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-13T09:00:00.000Z",
+          "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they were…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5565725645815895,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5065725645815896,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+          "title": "I looked inside an AI generated movie, and the best parts were all human",
+          "url": "https://theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-13T15:30:00.000Z",
+          "summary": "Imagine a trio of bumbling, English lads who fantasize about becoming megastars while knocking back a few pints in a grimy pub somewhere in London. Picture the guys chortling and trying to one-up each other's idealized visions of the future with a series of increasingly glitzy fantasies in which their fame leads to access to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5506492617963157,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6506492617963159,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+          "title": "Does Google even want to win at AI?",
+          "url": "https://theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-13T14:10:31.000Z",
+          "summary": "Today on Decoder, I’m talking with Hayden Field, The Verge’s senior AI reporter, about a question that’s been rocketing around the tech industry for the past week: Is Google losing the AI race? That’s because last week Google announced a bombshell reorganization of its AI division, Google DeepMind. Jeff Dean, the company’s chief scientist, is […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.518290301846033,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6182903018460332,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/13/alchemy-utils",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/13/alchemy-utils",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/13/alchemy-utils",
+          "title": "alchemy-utils 0.1a1",
+          "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-13T03:03:17.000Z",
+          "summary": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.452915060982386,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.40291506098238616,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/previewing-ultrafast",
+    "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-7-flash",
+    "hackernews:49285327",
+    "hackernews:49285244",
+    "hackernews:49288889"
+  ]
+}

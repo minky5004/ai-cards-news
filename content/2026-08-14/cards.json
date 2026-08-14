@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T13:14:43.052Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/previewing-ultrafast",
+      "headline": "78시간 걸릴 문제 11시간 만에 풀었다",
+      "highlight": [
+        "11시간 만에"
+      ],
+      "body": "오픈AI가 세레브라스 칩 기반의 GPT-5.6 Sol 울트라패스트 모드를 선보였습니다. 경쟁 모델이 78시간 동안 푼 박사급 난제 2,500개를 단 11시간 11분 만에 해결했습니다. 성능 저하 없이 초당 750토큰을 내뿜어 실시간 AI 에이전트 시대를 당겼습니다.",
+      "sourceUrl": "https://cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn.sanity.io/images/e4qjo92p/production/fdfac76baee0b174ea63df807f9d4f975341caea-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=max&auto=format",
+      "publishedAt": "2026-08-13T10:00:00.000Z"
+    },
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "headline": "구글이 3주 만에 새 AI를 반값에 내놨다",
+      "highlight": [
+        "3주 만에",
+        "반값에"
+      ],
+      "body": "구글이 '제미나이 3.6' 출시 3주 만에 신모델 '3.7 플래시'를 공개했습니다. 토큰당 가격을 절반으로 인하했지만 코딩과 웹 개발 성능은 대폭 올렸습니다. 개발자들은 더 적은 비용으로 고성능 AI 에이전트를 구축할 수 있게 됐습니다.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png",
+      "publishedAt": "2026-08-13T17:04:18.000Z"
+    },
+    {
+      "clusterId": "hackernews:49285327",
+      "headline": "웹사이트 하나에 1055크레딧 쓴 AI",
+      "highlight": [
+        "1055크레딧"
+      ],
+      "body": "넷리파이가 11개 AI 모델로 동네 카페 웹사이트 제작 테스트를 진행했습니다. 클로드 오퍼스 5는 정교한 디자인을 선보였지만 1회 생성에 1,055크레딧을 소진해 다른 모델보다 최대 4배 더 썼습니다. 제작 목적과 예산에 맞춰 AI 모델을 선택해야 합니다.",
+      "sourceUrl": "https://netlify.com/blog/one-prompt-11-models-very-different-results",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn.sanity.io/images/o0o2tn5x/production/61190f2745496c269dd071680edec773a29eaef7-1800x1013.png",
+      "publishedAt": "2026-08-13T13:05:29.000Z"
+    },
+    {
+      "clusterId": "hackernews:49285244",
+      "headline": "딥시크가 AI 에이전트 소스코드를 공개했다",
+      "highlight": [
+        "소스코드를 공개했다"
+      ],
+      "body": "딥시크가 AI 에이전트 프레임워크 '딥시크 하네스'의 소스코드를 개발자 프리뷰로 공개했습니다. 모델, 도구, UI 등 모든 요소가 플러그인이라 소스 수정 없이 자유롭게 조립하고 바꿀 수 있습니다. 깃허브에서 전체 소스를 내려받아 자신만의 에이전트를 바로 구축할 수 있습니다.",
+      "sourceUrl": "https://deepseek.com/harness/en",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-13T12:58:02.000Z"
+    }
+  ]
+}
