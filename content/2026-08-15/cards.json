@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T12:43:45.764Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49300314",
+      "headline": "구글은 데이터 안 보고 AI 돌린다",
+      "highlight": [
+        "데이터 안 보고"
+      ],
+      "body": "구글이 암호화된 데이터를 풀지 않고 AI를 실행하는 오픈소스 도구 'HEIR'를 공개했습니다. 서버가 원본 정보를 보지 않고도 AI 추천이나 부정 탐지 기능을 안전하게 제공합니다. 비전문가도 클릭 한 번으로 암호화 AI를 적용하도록 돕는 게 목표입니다.",
+      "sourceUrl": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Untitled_design_10_p3wN1dg.width-1300.png",
+      "publishedAt": "2026-08-14T15:43:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:49300800",
+      "headline": "클로드 세션 출력 비용이 5배나 비싼 이유",
+      "highlight": [
+        "5배나 비싼 이유"
+      ],
+      "body": "출력 과정은 모델이 토큰을 하나씩 생성하며 GPU를 훨씬 오래 점유하기 때문입니다. 그래서 출력 가격은 입력의 약 5배로 책정됩니다. 대화 도중 모델이나 설정 옵션을 바꾸면 프롬프트 캐시가 깨져 비용이 급증할 수 있으니 주의해야 합니다.",
+      "sourceUrl": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "sourceName": "Claude",
+      "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6a7f1f51730ca89a4d571062_og_maximizing-the-value-of-your-claude-code-sessions.jpg",
+      "publishedAt": "2026-08-14T16:15:21.000Z"
+    },
+    {
+      "clusterId": "hackernews:49299282",
+      "headline": "200억 달러 펀드를 날린 오픈AI 연구원",
+      "highlight": [
+        "200억 달러",
+        "날린"
+      ],
+      "body": "오픈AI 슈퍼얼라인먼트 팀 출신 레오폴드 아센브레너의 펀드가 폭망했다. 엔비디아 등에 4배 레버리지 투자를 단행했다가 마진콜을 맞고 시타델에 청산당했다. AI 기술의 천재성이 금융과 시장 리스크 관리까지 보장해주지 않는다는 방증이다.",
+      "sourceUrl": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!PLI0!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a3790af-8609-45cc-bb7b-e4f006e27538_1536x1024.jpeg",
+      "publishedAt": "2026-08-14T14:34:49.000Z"
+    },
+    {
+      "clusterId": "hackernews:49308553",
+      "headline": "재판 이기려 서류에 비밀 프롬프트 숨겼다",
+      "highlight": [
+        "비밀 프롬프트"
+      ],
+      "body": "미국에서 한 원고가 법원 AI를 조작하려고 제출 서류에 투명한 프롬프트를 숨겼다가 적발됐습니다. 하지만 커네티컷 주 법원은 AI를 쓰지 않아 아무 효과가 없었습니다. 스페이더 판사는 악의적 시도라며 종이 서류만 제출하도록 제재했습니다.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/GettyImages-1793608536-1152x648.jpg",
+      "publishedAt": "2026-08-15T07:31:46.000Z"
+    }
+  ]
+}

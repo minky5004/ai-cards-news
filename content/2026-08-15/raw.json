@@ -1,0 +1,687 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T12:41:30.710Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 23,
+      "filtered": 19
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49300314",
+      "representativeId": "hackernews:49300314",
+      "items": [
+        {
+          "id": "hackernews:49300314",
+          "title": "Google is making private AI practical with homomorphic encryption",
+          "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T15:43:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 425,
+            "comments": 257,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49300314"
+          }
+        }
+      ],
+      "score": 4.816711949394706,
+      "breakdown": {
+        "hnPoints": 1.947827881587288,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6688840678074173,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49300800",
+      "representativeId": "hackernews:49300800",
+      "items": [
+        {
+          "id": "hackernews:49300800",
+          "title": "Maximizing the value of your Claude Code sessions",
+          "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T16:15:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 259,
+            "comments": 139,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49300800"
+          }
+        }
+      ],
+      "score": 4.603624769598322,
+      "breakdown": {
+        "hnPoints": 1.7889766668810265,
+        "hnComments": 0.9318043198119388,
+        "mentions": 0.0,
+        "recency": 0.6828437829053563,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49299282",
+      "representativeId": "hackernews:49299282",
+      "items": [
+        {
+          "id": "hackernews:49299282",
+          "title": "When Genius Fails: The Intellectual Arrogance of the AI Labs",
+          "url": "https://weightythoughts.com/p/when-genius-failsthe-intellectual",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T14:34:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 172,
+            "comments": 195,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49299282"
+          }
+        }
+      ],
+      "score": 4.493337901534551,
+      "breakdown": {
+        "hnPoints": 1.6579115712666674,
+        "hnComments": 0.9952500847555874,
+        "mentions": 0.0,
+        "recency": 0.6401762455122961,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49308553",
+      "representativeId": "hackernews:49308553",
+      "items": [
+        {
+          "id": "hackernews:49308553",
+          "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+          "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T07:31:46.000Z",
+          "summary": "Judge warns pro se litigants are using chatbots wrong and getting desperate.",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49308553"
+          }
+        }
+      ],
+      "score": 4.408489451137102,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 1.2295764345867366,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49300568",
+      "representativeId": "hackernews:49300568",
+      "items": [
+        {
+          "id": "hackernews:49300568",
+          "title": "AI by Hand",
+          "url": "https://byhand.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T15:58:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 330,
+            "comments": 23,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49300568"
+          }
+        }
+      ],
+      "score": 4.34161917543903,
+      "breakdown": {
+        "hnPoints": 1.86665144325761,
+        "hnComments": 0.5992591196328295,
+        "mentions": 0.0,
+        "recency": 0.6757086125485903,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49309050",
+      "representativeId": "hackernews:49309050",
+      "items": [
+        {
+          "id": "hackernews:49309050",
+          "title": "Debian has begun voting on the future of AI/LLM contributions",
+          "url": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T09:20:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49309050"
+          }
+        }
+      ],
+      "score": 4.327202070310308,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 1.3181234509263051,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49307700",
+      "representativeId": "hackernews:49307700",
+      "items": [
+        {
+          "id": "hackernews:49307700",
+          "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+          "url": "https://chenxiachan.github.io/thoughtdag",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T04:42:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49307700"
+          }
+        }
+      ],
+      "score": 4.102598333450418,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 1.1027288476246573,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49303540",
+      "representativeId": "hackernews:49303540",
+      "items": [
+        {
+          "id": "hackernews:49303540",
+          "title": "Anthropic Risk August 2026 [pdf]",
+          "url": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T19:32:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49303540"
+          }
+        }
+      ],
+      "score": 4.028883875163846,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.7748249332995206,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49303350",
+      "representativeId": "hackernews:49303350",
+      "items": [
+        {
+          "id": "hackernews:49303350",
+          "title": "How Claude's text watermarking works",
+          "url": "https://anthropic.com/news/claude-text-watermark",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T19:15:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49303350"
+          }
+        }
+      ],
+      "score": 4.02224971313714,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.7667122308461853,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49307099",
+      "representativeId": "hackernews:49307099",
+      "items": [
+        {
+          "id": "hackernews:49307099",
+          "title": "Show HN: Deltix – AI Driven Testing",
+          "url": "https://app.deltix.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T02:42:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49307099"
+          }
+        }
+      ],
+      "score": 3.8434967367519732,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 1.0210652059730003,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49299985",
+      "representativeId": "hackernews:49299985",
+      "items": [
+        {
+          "id": "hackernews:49299985",
+          "title": "Show HN: Graft – Claude Code hooks that cut grep tokens by 42%",
+          "url": "https://github.com/NanoNets/Graft",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T15:22:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 42,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49299985"
+          }
+        }
+      ],
+      "score": 3.755873536730128,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.7092181537550141,
+        "mentions": 0.0,
+        "recency": 0.6598729508470154,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49299102",
+      "representativeId": "hackernews:49299102",
+      "items": [
+        {
+          "id": "hackernews:49299102",
+          "title": "AI Model Atlas – visualizing populations of ML models as interconnected 3D graph",
+          "url": "https://run.cosmograph.app/public/ca9fd1ad-fe83-4238-8b69-b707c633aef0",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T14:22:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 63,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49299102"
+          }
+        }
+      ],
+      "score": 3.5875006605448956,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.6351968301220894,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49298088",
+      "representativeId": "hackernews:49298088",
+      "items": [
+        {
+          "id": "hackernews:49298088",
+          "title": "HashAgent – Share an AI agent as a URL, runs locally via WebGPU",
+          "url": "https://hashagent.pages.dev",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T12:57:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49298088"
+          }
+        }
+      ],
+      "score": 3.464527956975752,
+      "breakdown": {
+        "hnPoints": 1.271189988341675,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.6012350106239029,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49294362",
+      "representativeId": "hackernews:49294362",
+      "items": [
+        {
+          "id": "hackernews:49294362",
+          "title": "Even Claude Is in the Dark About Dario Amodei's Wife",
+          "url": "https://wsj.com/tech/ai/claude-dario-amodei-wife-anthropic-e1eeda7d",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T03:06:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49294362"
+          }
+        }
+      ],
+      "score": 3.242224267705261,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.41145585812717533,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49301417",
+      "representativeId": "hackernews:49301417",
+      "items": [
+        {
+          "id": "hackernews:49301417",
+          "title": "A Contract-Grade Verifier for LLM-Generated GPU Kernels",
+          "url": "https://arxiv.org/abs/2608.12700",
+          "source": "hackernews",
+          "publishedAt": "2026-08-14T16:57:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49301417"
+          }
+        }
+      ],
+      "score": 3.111497491600904,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7014481320195746,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/15/sighting-391300422",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/15/sighting-391300422",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/15/sighting-391300422",
+          "title": "Northern Gannet",
+          "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-15T03:22:00.000Z",
+          "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the coast of San Francisco 14 years ago . He has since made Pillar Point harbor his home, where he's quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier. Tags: photography , wildlife , half-moon-bay",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.09746060732346,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0474606073234598,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate",
+          "title": "Don't classify. Hallucinate!",
+          "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-14T21:54:35.000Z",
+          "summary": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit! His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess: Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query. Product classifications might look like: Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables Décor & Pillows / Decorative Pillows & Blankets / Throw Pillows Furniture / Bedroom Furniture / Dressers & Chests Kitchen & Tabletop / Kitchen Organization / Food Storage & Canisters School Furniture and Supplies / School Furniture / School Chairs & Seating / Stackable Chairs Baby & Kids / Toddler & Kids Bedroom Furniture / Kids Beds Here's the query to generate classifications for: brown coffee table Tags: search , ai , generative-ai , llms , embeddings , doug-turnbull",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8989387702118448,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8489387702118449,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+          "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-14T14:27:14.000Z",
+          "summary": "US groups release cheaper models after new challenges to their trillion-dollar ambitions.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6870680739778654,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6370680739778656,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "representativeId": "theverge-ai:https://theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+          "title": "You can now turn off Google Gemini’s visible watermarks",
+          "url": "https://theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-14T16:39:32.000Z",
+          "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With the update, you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow. When toggled off, Google will remove the \"sparkle\" watermark that appears in the bottom-right corner of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5935248320812405,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6935248320812406,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+          "title": "Google will now allow users to remove visible watermark from its AI generations",
+          "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-14T16:13:40.000Z",
+          "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.582106458497484,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6821064584974841,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone",
+          "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+          "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-14T15:43:28.000Z",
+          "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5690128677360127,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6690128677360127,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
+          "title": "Kog is going deeper to squeeze more inference out of GPUs",
+          "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-14T14:50:11.000Z",
+          "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5465211381573702,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6465211381573702,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong",
+          "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+          "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-14T14:00:00.000Z",
+          "summary": "Meta released Glimmer this week, an open-weight AI model anyone can download and run on their own hardware — a contrast to Muse Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside a letter from Mark Zuckerberg arguing AI should be “for everyone” rather than controlled by a handful of labs, but as Equity’s […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.526029868271168,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.626029868271168,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+          "title": "Apple trained its own AI model for China with help from Alibaba",
+          "url": "https://theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-14T09:21:17.000Z",
+          "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington. The China-focused large language model was developed in partnership with Alibaba and trained with the company's support, Reuters reports, citing three unnamed people familiar with […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.423489464703905,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.523489464703905,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49300314",
+    "hackernews:49300800",
+    "hackernews:49299282",
+    "hackernews:49308553",
+    "hackernews:49300568"
+  ]
+}
