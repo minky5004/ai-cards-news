@@ -1,0 +1,54 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T12:44:00.591Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49317760",
+      "headline": "초등만 배운 AI 아무리 훈련해도 초등 수준",
+      "highlight": [
+        "아무리 훈련해도",
+        "초등 수준"
+      ],
+      "body": "미국 초등 과정 880억 토큰으로 학습된 AI 'LittleLearner' 연구 결과입니다. 모델 규모를 키우고 GRPO 강화학습을 거쳐도 초등 범위를 넘어선 문제 능력은 향상되지 않았습니다. AI의 능력 상한선은 기법이 아닌 사전학습 데이터가 결정합니다.",
+      "sourceUrl": "https://littlelearner-ll.github.io",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-16T07:37:53.000Z"
+    },
+    {
+      "clusterId": "hackernews:49312845",
+      "headline": "AI는 지능이 아니라 기억력으로 수학을 푼다",
+      "highlight": [
+        "기억력으로"
+      ],
+      "body": "AI가 어려운 수학 문제를 푸는 비결은 더 뛰어난 지능 때문만이 아닙니다. 인간은 작업 기억의 한계로 복잡한 계산 과정을 놓치지만, AI는 거대한 컨텍스트 윈도우에 모든 중간 수식과 조건을 저장해 둡니다. 거대한 메모리 노트로 인간의 한계를 극복하는 셈입니다.",
+      "sourceUrl": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!DIxw!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e2e14e7-c536-49c0-9f27-79b1073dd527_1279x759.jpeg",
+      "publishedAt": "2026-08-15T18:13:02.000Z"
+    },
+    {
+      "clusterId": "hackernews:49316271",
+      "headline": "AI 45개 협업으로 허점 266개 찾았다",
+      "highlight": [
+        "266개"
+      ],
+      "body": "앤트로픽이 AI 에이전트 45개를 모아 협업시킨 결과, 단독 실행 방식보다 12배 이상 많은 266개의 보안 허점을 찾아냈습니다. 에이전트들이 스스로 도구를 만들고 역할을 분담해 전문성을 발휘한 덕분입니다. 단순 반복을 넘어 복잡한 협력 체계가 AI의 성능을 좌우하는 시대가 열렸습니다.",
+      "sourceUrl": "https://anthropic.com/research/multiagent-systems",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg",
+      "publishedAt": "2026-08-16T02:12:53.000Z"
+    },
+    {
+      "clusterId": "hackernews:49309451",
+      "headline": "AI 다루기는 코딩보다 리더십에 가깝다",
+      "highlight": [
+        "리더십"
+      ],
+      "body": "AI는 단순한 기계 명령어가 아니라 맥락과 의도를 공유할 때 가장 잘 작동합니다. 개발자 알렌 바기는 AI 협업이 단순 지시보다 사람을 이끄는 리더십과 닮았다고 말합니다. 명확한 의도 표현과 맥락 제공이 앞으로의 핵심 AI 역량이 될 것입니다.",
+      "sourceUrl": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+      "sourceName": "Allen Bargi",
+      "imageUrl": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/social-card.png",
+      "publishedAt": "2026-08-15T10:39:41.000Z"
+    }
+  ]
+}

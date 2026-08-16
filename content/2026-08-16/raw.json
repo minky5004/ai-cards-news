@@ -1,0 +1,668 @@
+{
+  "date": "2026-08-16",
+  "generatedAt": "2026-08-16T12:43:02.131Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 22,
+      "filtered": 12
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49317760",
+      "representativeId": "hackernews:49317760",
+      "items": [
+        {
+          "id": "hackernews:49317760",
+          "title": "What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://littlelearner-ll.github.io",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T07:37:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 161,
+            "comments": 124,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49317760"
+          }
+        }
+      ],
+      "score": 4.980417351017171,
+      "breakdown": {
+        "hnPoints": 1.6367761613027223,
+        "hnComments": 0.9104348742922621,
+        "mentions": 0.0,
+        "recency": 1.2332063154221866,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49312845",
+      "representativeId": "hackernews:49312845",
+      "items": [
+        {
+          "id": "hackernews:49312845",
+          "title": "AI has access to a vastly larger working memory than the human brain",
+          "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T18:13:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 520,
+            "comments": 451,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49312845"
+          }
+        }
+      ],
+      "score": 4.935696534841655,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7356965348416546,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49316271",
+      "representativeId": "hackernews:49316271",
+      "items": [
+        {
+          "id": "hackernews:49316271",
+          "title": "Patterns and problems in emerging multi-agent systems",
+          "url": "https://anthropic.com/research/multiagent-systems",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T02:12:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 127,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49316271"
+          }
+        }
+      ],
+      "score": 4.590646851530482,
+      "breakdown": {
+        "hnPoints": 1.5609900917070765,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 1.0010321133327822,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49309451",
+      "representativeId": "hackernews:49309451",
+      "items": [
+        {
+          "id": "hackernews:49309451",
+          "title": "Working with AI feels more like leadership than coding",
+          "url": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T10:39:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 303,
+            "comments": 191,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49309451"
+          }
+        }
+      ],
+      "score": 4.58060417997053,
+      "breakdown": {
+        "hnPoints": 1.8392761608005175,
+        "hnComments": 0.9913620776430032,
+        "mentions": 0.0,
+        "recency": 0.5499659415270094,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49313367",
+      "representativeId": "hackernews:49313367",
+      "items": [
+        {
+          "id": "hackernews:49313367",
+          "title": "AI in drug discovery – what it is, where we stand and the path forward",
+          "url": "https://science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T19:12:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 148,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49313367"
+          }
+        }
+      ],
+      "score": 4.409852360086532,
+      "breakdown": {
+        "hnPoints": 1.6098643615435815,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.7645058085391103,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49310719",
+      "representativeId": "hackernews:49310719",
+      "items": [
+        {
+          "id": "hackernews:49310719",
+          "title": "Cloudflare's AI Psychosis",
+          "url": "https://opensauce.it/cloudflare-ai-psychosis",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T14:08:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 109,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49310719"
+          }
+        }
+      ],
+      "score": 4.191715213984542,
+      "breakdown": {
+        "hnPoints": 1.5122336173019333,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.0,
+        "recency": 0.628906420501055,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49311445",
+      "representativeId": "hackernews:49311445",
+      "items": [
+        {
+          "id": "hackernews:49311445",
+          "title": "AI Can Now Design Functional Viruses. Should We Worry?",
+          "url": "https://spectrum.ieee.org/ai-designed-virus",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T15:32:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 61,
+            "comments": 126,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49311445"
+          }
+        }
+      ],
+      "score": 4.104841103578142,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.9134279794279235,
+        "mentions": 0.0,
+        "recency": 0.6636357749226833,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49310725",
+      "representativeId": "hackernews:49310725",
+      "items": [
+        {
+          "id": "hackernews:49310725",
+          "title": "Secondhand book sales are booming. Is it because of AI?",
+          "url": "https://bbc.co.uk/news/articles/cp3rprx2wl4o",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T14:08:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 68,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49310725"
+          }
+        }
+      ],
+      "score": 3.9976149257764586,
+      "breakdown": {
+        "hnPoints": 1.3621923074258677,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.0,
+        "recency": 0.6290073370951055,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49307700",
+      "representativeId": "hackernews:49307700",
+      "items": [
+        {
+          "id": "hackernews:49307700",
+          "title": "Show HN: ThoughtDAG – An editable context graph for LLM conversations",
+          "url": "https://chenxiachan.github.io/thoughtdag",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T04:42:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 124,
+            "comments": 59,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49307700"
+          }
+        }
+      ],
+      "score": 3.9625869542274827,
+      "breakdown": {
+        "hnPoints": 1.553360035618055,
+        "hnComments": 0.7720364250601922,
+        "mentions": 0.0,
+        "recency": 0.4371904935492352,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49308553",
+      "representativeId": "hackernews:49308553",
+      "items": [
+        {
+          "id": "hackernews:49308553",
+          "title": "Suspecting court of using AI, man injected prompts in filings to try to win case",
+          "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T07:31:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49308553"
+          }
+        }
+      ],
+      "score": 3.850609208813888,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.48748078863758604,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49310755",
+      "representativeId": "hackernews:49310755",
+      "items": [
+        {
+          "id": "hackernews:49310755",
+          "title": "The AI Situation in Software Development",
+          "url": "https://srikanth.ch/posts/the-ai-situation",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T14:12:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 69,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49310755"
+          }
+        }
+      ],
+      "score": 3.8489842150380613,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.8011033338085477,
+        "mentions": 0.0,
+        "recency": 0.6304353579373496,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49309050",
+      "representativeId": "hackernews:49309050",
+      "items": [
+        {
+          "id": "hackernews:49309050",
+          "title": "Debian has begun voting on the future of AI/LLM contributions",
+          "url": "https://lists.debian.org/debian-devel-announce/2026/08/msg00002.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T09:20:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49309050"
+          }
+        }
+      ],
+      "score": 3.8409595438391353,
+      "breakdown": {
+        "hnPoints": 1.3527293031022833,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.5225863486845512,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49310495",
+      "representativeId": "hackernews:49310495",
+      "items": [
+        {
+          "id": "hackernews:49310495",
+          "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
+          "url": "https://stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T13:43:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49310495"
+          }
+        }
+      ],
+      "score": 3.7698078757373903,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.6283260283811849,
+        "mentions": 0.0,
+        "recency": 0.6189358158629374,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49310177",
+      "representativeId": "hackernews:49310177",
+      "items": [
+        {
+          "id": "hackernews:49310177",
+          "title": "GenRec: Towards LLM-Native Recommendation at Netflix",
+          "url": "https://netflixtechblog.com/genrec-towards-llm-native-recommendation-at-netflix-f20be6f643e3",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T12:56:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49310177"
+          }
+        }
+      ],
+      "score": 3.6668931327831333,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 0.6006087991305508,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49314967",
+      "representativeId": "hackernews:49314967",
+      "items": [
+        {
+          "id": "hackernews:49314967",
+          "title": "AI-Assisted GPU Porting of a 250k Line Legacy Weather Simulation Code",
+          "url": "https://arxiv.org/abs/2608.13122",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T22:41:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49314967"
+          }
+        }
+      ],
+      "score": 3.5724361568298866,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.874231351825673,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49315059",
+      "representativeId": "hackernews:49315059",
+      "items": [
+        {
+          "id": "hackernews:49315059",
+          "title": "Anthropic CEO wife asked Epstein for porn business",
+          "url": "https://forbes.com/sites/alisondurkee/2026/08/14/who-is-cami-clark-anthropic-ceos-wife-asked-epstein-to-invest-in-porn-business",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T22:54:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49315059"
+          }
+        }
+      ],
+      "score": 3.4773606528375547,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 0.881461668385099,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49307099",
+      "representativeId": "hackernews:49307099",
+      "items": [
+        {
+          "id": "hackernews:49307099",
+          "title": "Show HN: Deltix – AI Driven Testing",
+          "url": "https://app.deltix.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-15T02:42:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49307099"
+          }
+        }
+      ],
+      "score": 3.3445620545229455,
+      "breakdown": {
+        "hnPoints": 1.271189988341675,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.4048139325518321,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "representativeId": "theverge-ai:https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+          "title": "Rogue AI aren’t science fiction anymore",
+          "url": "https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-16T12:00:00.000Z",
+          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3591364480227472,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4591364480227473,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
+          "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+          "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-15T21:29:19.000Z",
+          "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7344667835473853,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8344667835473853,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+          "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+          "url": "https://theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-15T20:45:00.000Z",
+          "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the important thing is that there's a human on both sides of the equation. Prompts can request a response as […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7110667618340951,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8110667618340952,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/15/cors-chat",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/15/cors-chat",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/15/cors-chat",
+          "title": "CORS Chat",
+          "url": "https://simonwillison.net/2026/Aug/15/cors-chat",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-15T14:49:54.000Z",
+          "summary": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-compatible chat endpoint. I've tried it against LM Studio with the --cors option and OpenRouter, and both work fine. Conversations are persisted in the browser and can be exported as copy-pasted JSON. One fun detail is that it notices SVG images that are being generated and progressively renders them in the chat while the tokens are still streaming in. Tags: svg , ai , generative-ai , llms , cors , openrouter , lm-studio",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6957717707835944,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6457717707835947,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+          "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+          "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-15T18:58:39.000Z",
+          "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.657553852993883,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.757553852993883,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/15/sighting-391300422",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/15/sighting-391300422",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/15/sighting-391300422",
+          "title": "Northern Gannet",
+          "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-15T03:22:00.000Z",
+          "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They showed up in the Farallon Islands off the coast of San Francisco 14 years ago . They have since made Pillar Point harbor their home, where they are quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier. Tags: photography , wildlife , half-moon-bay",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4652787159559253,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.41527871595592547,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49317760",
+    "hackernews:49312845",
+    "hackernews:49316271",
+    "hackernews:49309451",
+    "hackernews:49313367"
+  ]
+}
