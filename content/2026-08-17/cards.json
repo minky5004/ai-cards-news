@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T12:51:16.198Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49324087",
+      "headline": "클로드가 워터마크 때문에 단어 선택을 바꾼다",
+      "highlight": [
+        "단어 선택",
+        "바꾼다"
+      ],
+      "body": "앤트로픽이 EU 규제 준수를 위해 클로드 생성 결과물에 텍스트 워터마크를 적용합니다. 최적의 표현을 쓰는 대신 정해진 단어 목록에서 선택 확률을 조절하는 방식입니다. 문맥 정밀도를 떨어뜨려 사용자의 글 품질을 해친다는 지적이 나옵니다.",
+      "sourceUrl": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "sourceName": "Daring Fireball",
+      "imageUrl": "https://daringfireball.net/graphics/df-wide-card.png",
+      "publishedAt": "2026-08-16T21:53:43.000Z"
+    },
+    {
+      "clusterId": "hackernews:49319556",
+      "headline": "클로드 프롬프트 전면 개편, API는 제외",
+      "highlight": [
+        "API는 제외"
+      ],
+      "body": "앤트로픽이 클로드 웹과 모바일 앱의 최신 시스템 프롬프트를 업데이트했습니다. 답변 내 마크다운 코드 제공 등 동작을 개선하지만, API에는 이번 변경이 적용되지 않습니다. 아울러 클로드 4.6 세대부터는 각 모델 ID가 단일 고정 스냅샷으로 운영됩니다.",
+      "sourceUrl": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "sourceName": "Claude Platform Docs",
+      "imageUrl": "https://platform.claude.com/docs/og?locale=en&path=release-notes/system-prompts&design-rev=1",
+      "publishedAt": "2026-08-16T12:48:21.000Z"
+    },
+    {
+      "clusterId": "hackernews:49320611",
+      "headline": "AI 크레딧 80% 할인해 되파는 브로커",
+      "highlight": [
+        "80% 할인",
+        "브로커"
+      ],
+      "body": "스타트업의 안 쓰는 AI 크레딧을 사들여 최대 80% 할인해 되파는 브로커들이 늘고 있습니다. 이들은 텔레그램이나 전용 사이트에서 하루 10만 달러 규모의 토큰을 우회 판매합니다. 거래 시장이 커지며 남용 우려가 깊어지자 AI 기업들의 단속도 이어질 전망입니다.",
+      "sourceUrl": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "sourceName": "Vectoral",
+      "publishedAt": "2026-08-16T14:44:55.000Z"
+    }
+  ]
+}

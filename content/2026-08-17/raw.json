@@ -1,0 +1,690 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T12:48:36.234Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 16,
+      "filtered": 14
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49324087",
+      "representativeId": "hackernews:49324087",
+      "items": [
+        {
+          "id": "hackernews:49324087",
+          "title": "Anthropic's 'watermark' text adulteration in Claude is a perversion of writing",
+          "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T21:53:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 401,
+            "comments": 392,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49324087"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "title": "Anthropic explains how Claude’s invisible text watermarks will work",
+          "url": "https://theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-17T10:57:13.000Z",
+          "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday, Anthropic announced that Claude's text marking system is \"a version of the SynthID-Text approach\" - an open-source watermarking technology developed by Google DeepMind that creates detectable patterns using wording probabilities. This […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.359015875729209,
+      "breakdown": {
+        "hnPoints": 1.9291722818251509,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.396510260570724,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49319556",
+      "representativeId": "hackernews:49319556",
+      "items": [
+        {
+          "id": "hackernews:49319556",
+          "title": "Claude: System Prompts",
+          "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T12:48:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 690,
+            "comments": 267,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49319556"
+          }
+        }
+      ],
+      "score": 4.7951784000227295,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5951784000227298,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49323686",
+      "representativeId": "hackernews:49323686",
+      "items": [
+        {
+          "id": "hackernews:49323686",
+          "title": "Nvidia dramatically reduces amount of OpenAI infra financing it may guarantee",
+          "url": "https://reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T21:07:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 216,
+            "comments": 115,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49323686"
+          }
+        }
+      ],
+      "score": 4.646912917366751,
+      "breakdown": {
+        "hnPoints": 1.7308149385889544,
+        "hnComments": 0.8963448780556919,
+        "mentions": 0.0,
+        "recency": 0.8197531007221044,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49320611",
+      "representativeId": "hackernews:49320611",
+      "items": [
+        {
+          "id": "hackernews:49320611",
+          "title": "The AI Credit Resale Economy",
+          "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T14:44:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 303,
+            "comments": 123,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49320611"
+          }
+        }
+      ],
+      "score": 4.589609775168076,
+      "breakdown": {
+        "hnPoints": 1.8392761608005175,
+        "hnComments": 0.90892031462871,
+        "mentions": 0.0,
+        "recency": 0.6414132997388482,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49323932",
+      "representativeId": "hackernews:49323932",
+      "items": [
+        {
+          "id": "hackernews:49323932",
+          "title": "Young People Hate AI CEOs So Passionately That It's Almost Hard to Believe",
+          "url": "https://futurism.com/artificial-intelligence/young-people-ai-ceos-executives-poll",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T21:34:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 123,
+            "comments": 131,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49323932"
+          }
+        }
+      ],
+      "score": 4.505531636482248,
+      "breakdown": {
+        "hnPoints": 1.5507759337571174,
+        "hnComments": 0.9207092571966408,
+        "mentions": 0.0,
+        "recency": 0.8340464455284889,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49317760",
+      "representativeId": "hackernews:49317760",
+      "items": [
+        {
+          "id": "hackernews:49317760",
+          "title": "What happens when an LLM never sees material beyond fifth grade?",
+          "url": "https://littlelearner-ll.github.io",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T07:37:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 241,
+            "comments": 208,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49317760"
+          }
+        }
+      ],
+      "score": 4.453547651363715,
+      "breakdown": {
+        "hnPoints": 1.7658952929955811,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4876523583681346,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49327490",
+      "representativeId": "hackernews:49327490",
+      "items": [
+        {
+          "id": "hackernews:49327490",
+          "title": "HackEurope 2026: A short rant on AI and hackathons",
+          "url": "https://duti.dev/blog/2026/spr",
+          "source": "hackernews",
+          "publishedAt": "2026-08-17T07:28:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49327490"
+          }
+        }
+      ],
+      "score": 4.446322209867251,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 1.2215988575315153,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49316271",
+      "representativeId": "hackernews:49316271",
+      "items": [
+        {
+          "id": "hackernews:49316271",
+          "title": "Patterns and problems in emerging multi-agent systems",
+          "url": "https://anthropic.com/research/multiagent-systems",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T02:12:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 187,
+            "comments": 133,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49316271"
+          }
+        }
+      ],
+      "score": 4.204050107151372,
+      "breakdown": {
+        "hnPoints": 1.6846626206270763,
+        "hnComments": 0.9235448243807354,
+        "mentions": 0.0,
+        "recency": 0.39584266214356,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49323620",
+      "representativeId": "hackernews:49323620",
+      "items": [
+        {
+          "id": "hackernews:49323620",
+          "title": "Anthropic IPO valuation hinges on $190-200B 2028 revenue forecast",
+          "url": "https://reuters.com/business/anthropic-ipo-valuation-hinges-190-200-billion-2028-revenue-forecast-sources-say-2026-08-15",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T21:00:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49323620"
+          }
+        }
+      ],
+      "score": 4.011874324290972,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.8162094723734887,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49323136",
+      "representativeId": "hackernews:49323136",
+      "items": [
+        {
+          "id": "hackernews:49323136",
+          "title": "Red queen hypothesis – A new way forward for self-improving AI",
+          "url": "https://cst.cam.ac.uk/news/red-queen-hypothesis-new-way-forward-self-improving-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T20:01:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 80,
+            "comments": 23,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49323136"
+          }
+        }
+      ],
+      "score": 3.9988162555735873,
+      "breakdown": {
+        "hnPoints": 1.4137775767731402,
+        "hnComments": 0.5992591196328295,
+        "mentions": 0.0,
+        "recency": 0.7857795591676175,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49319814",
+      "representativeId": "hackernews:49319814",
+      "items": [
+        {
+          "id": "hackernews:49319814",
+          "title": "Show HN: A public AI whose memory is shared across all users",
+          "url": "https://wildstatic.com",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T13:21:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49319814"
+          }
+        }
+      ],
+      "score": 3.9969908895307404,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.6080745021789625,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49318735",
+      "representativeId": "hackernews:49318735",
+      "items": [
+        {
+          "id": "hackernews:49318735",
+          "title": "AI Coding Without the Vibes",
+          "url": "https://peterbloem.nl/blog/craft-coding",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T10:31:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 89,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49318735"
+          }
+        }
+      ],
+      "score": 3.948471813076682,
+      "breakdown": {
+        "hnPoints": 1.447674051455504,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 0.5451683466232214,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49320144",
+      "representativeId": "hackernews:49320144",
+      "items": [
+        {
+          "id": "hackernews:49320144",
+          "title": "Anthropic revenue reportedly jumps to more than $11.5B in second quarter",
+          "url": "https://cnbc.com/2026/08/15/anthropic-revenue-jumps-to-over-11point5-billion-in-q2-report.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-16T13:58:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 75,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49320144"
+          }
+        }
+      ],
+      "score": 3.7541038213751556,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.8166102864847931,
+        "mentions": 0.0,
+        "recency": 0.6225006122424505,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "representativeId": "openai:https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "title": "New policy ideas for the Intelligence Age",
+          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "source": "openai",
+          "publishedAt": "2026-08-17T03:15:00.000Z",
+          "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.538029740270185,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.038029740270185,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies",
+          "title": "What happens when a kid’s robot best friend dies?",
+          "url": "https://technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-17T09:00:00.000Z",
+          "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.345305340926791,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2953053409267912,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades",
+          "title": "Markdown SVG upgrades",
+          "url": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-16T23:59:37.000Z",
+          "summary": "I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for sharing Markdown transcripts that include SVG documents. Given my proclivity for drawing pelicans riding bicycles this is a problem that I needed to solve! The tool is very simple. Navigate to markdown-svg-renderer in your browser and paste in some Markdown to see it rendered... or save that Markdown to a CORS-friendly URL or a GitHub Gist and paste in a URL to that document. The URL option will give you a bookmarkable page, for example https://tools.simonwillison.net/markdown-svg-renderer#url=https%3A%2F%2Fgist.github.com%2Fsimonw%2F6f9e48293be5c916652d29f0dc0b0657 - which bakes in the URL to this Gist . If you visit the Gist you'll see raw SVG: In the rendered tool that looks like this instead: As you can see, that SVG block in the Markdown has been transformed into a rendered SVG (in this case animated) plus several tabs. The tabs are the really fun bit. The PNG and JPEG tabs render that SVG to those image formats in the browser and lets you copy or download them - useful for sharing on platforms that don't support SVG directly. The MP4 tab is new today - it examines the SVG to see if it contains any animations, attempts to guess how long the looped video should be, then renders a whole bunch of frames of the animation and loads 30+MB of ffmpeg.wasm so it can compile those frames into an MP4 video using the full power of FFMPEG compiled to WebAssembly and running in the browser. Being able to turn an animated SVG into a MP4 again makes it easy to share on platforms that can't support SVG animation natively. It's a neat trick! Tags: svg , markdown , tools",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.965693879467369,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9156938794673694,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+          "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+          "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-16T22:00:39.000Z",
+          "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a reasonably specced laptop, and its predecessor Qwen 3.6 27B was impressive. Qwen's self-reported benchmarks for this model are eye-opening. They show a boost from both Qwen 3.6 27B and the closed-weight Qwen 3.7-Plus, which was one of Qwen's strongest models of any size as recently as May this year . It will be interesting to hear what independent benchmarks have to say about the model. I've been running the model on two different machines: my 128GB M5 Max MacBook Pro, and an NVIDIA DGX Spark . On both machines I'm running LM Studio and their 17GB Q4_K_M quantized build . I also tried using llama-server directly on the Spark. The default of extra high results in spectacular over-thinking Qwen's documentation describes the model as defaulting to xhigh for the reasoning effort, and the LM Studio GGUF I've been trying preserves that default: Qwen3.8 comes with official support for reasoning_effort , which can be used to adjust reasoning depth and control cost: xhigh (default): for complex tasks demanding thorough analysis medium : balancing accuracy and speed low : efficient reasoning optimizing for speed and cost This is a hilarious default. It's absolutely not a good way to run the model, especially on consumer hardware. I've been finding the results extremely entertaining. I quickly ran into problems with LM Studio's default context limit of 8,192 tokens - Qwen was using them all up thinking about even the most mundane of problems. I loaded the model with the full 262,144 maximum context length and that problem went away. Here's the pelican riding a bicycle SVG I got from my first attempt with that increased context length. It took 21 minutes to generate, using 22,276 reasoning tokens to produce 3,223 tokens of output. You can read the reasoning trace here . This is by far the best pelican SVG I've been able to generate with a model that runs on a local machine - and this Qwen is pretty small, just a 17GB file on disk. There's a lot to like about this: The bicycle frame is the right shape It has legs on each side of the bike - that's very rare Good, clear pelican pouch The wings extend to touch the handlebars! The motion lines are behind, not in front It has a tasteful background - nice sun, clouds, hill, flowers and grass. Was that worth waiting 21 minutes for? Absolutely not. Here's that same prompt run with reasoning turned off - transcript here . This one produced 3,715 tokens and took 137s - just over two minutes. And just for completeness, I used OpenRouter to run the same prompt through the much larger Qwen 3.8 2.4T-A95B (released last week ) and got this snazzy animated SVG : Your browser does not support HTML5 video. I said Qwen at xhigh has a tendency to over-think things, but how bad really is it? I tried a much simpler prompt, again with that default extra high setting: draw an svg of a circle Qwen's reasoning trace started like this: The user is asking for an SVG drawing of a circle. Simple request — but I want it to be a carefully crafted piece. Let me make something that goes beyond just <circle> : a single self-contained SVG file with character — maybe a geometric \"circle study,\" with subtle animation, layered rings, and a distinctive palette. Keep the scope right: they asked for an SVG of a circle. So the core is a circle. But I can add craft: concentric guide circles (like a compass/geometry drawing), tick marks, a soft gradient fill on the main circle, restrained ambient motion (a slowly rotating dashed ring, pulsing glow). Respect prefers-reduced-motion? That's more for CSS; SVG SMIL or CSS inside SVG will do. Palette options: deep teal ink on warm paper? Or bold vermilion circle on off-white with navy construction lines — Bauhaus/compass-drawing vibe. Let me go with a \"geometric study\" look: cool slate background, or bright paper white? Paper white is fine if it's not the cream-and-terracotta combo. [...] Several minutes later it produced this absolutely beautiful animated circle, which was entirely not what I had asked for! Your browser does not support HTML5 video. My strong recommendation: ignore that default. Run Qwen 3.8 27B on low or even no reasoning levels at first. It's a great model, but wow that default setting is a bad place to start. It's very good at bounding boxes A fun way to test a vision model is to see how well it can return bounding boxes around items in a photograph. I've seen previous Qwen models deal well with this, so I decided to put it to the test drawing bounding boxes around some pelicans. I've seen asking for 0-1000 scale produce good results in the past. I tried this: llm -a https://static.inaturalist.org/photos/714731804/large.jpg \\ -m lmstudio/qwen/qwen3.8-27b \\ ' Return JSON bounding boxes for the pelicans in this photo, 0-1000 scale for each dimension ' Here's the reasoning trace , which produced this: [ { \"bbox_2d\" : [ 195 , 290 , 370 , 780 ], \"label\" : \" pelicans \" }, { \"bbox_2d\" : [ 445 , 320 , 675 , 850 ], \"label\" : \" pelicans \" } ] This is such a good match . Here are those boxes rendered on top of the photo: Building a tool to label bounding boxes That visualization of the bounding boxes was taken using a new custom tool that I had Qwen 3.8 27B build for me, running offline on my laptop. I forgot to dial down the thinking effort so it was massively over-engineered , but it did manage to produce this full interface from this single prompt : [ {\"bbox_2d\": [195, 290, 370, 780], \"label\": \"pelicans\"}, {\"bbox_2d\": [445, 320, 675, 850], \"label\": \"pelicans\"} ] Build an HTML page which has an input box for accepting the URL to an image and a textarea for accepting the above style of JSON. It appends the image to the page, measures its width and height, then treats the coords in the bbox_2d as scaled from 0-1000 and scales them against the actual width and height, then it renders labelled boxes over the image. This screenshot shows one of the features I did not ask for - a demo scene, for if you don't have a photograph to test the tool with: Here's the relevant segment of the thinking trace, where it decided to draw its own pelicans purely because I had used the label \"pelicans\" in the example JSON I gave it in the prompt: Also a \"load sample\" that uses a known image? Can't depend on external images, but… the image URL input is user-provided; I could add a \"try with sample\" button [...] Hmm, I can draw a simple scene on canvas, export it as a data URL, and load it into the image — that's self-contained and demo-able! [...] But the user's coords are for an actual pelican image; a generated placeholder can still demo the scaling. Generate a 1000x1000 placeholder: gradient water + two blob-like \"pelican\" silhouettes placed at the given bboxes (using the same scale — cute: silhouettes at the exact 0-1000 positions, showing the boxes align). This makes for a fun, self-contained demo. Keep it simple: sky gradient, sun, water, two pelican-ish shapes (ellipse body, circle head, beak). Place at bbox centers. (I'm slightly nervous that models around the world might have a bias towards drawing pelicans at any chance they can get, brought on by nearly two years of exposure to my own stupid benchmark.) Is all that over-thinking necessary? Maybe it is, at least a bit. I tried with reasoning turned off and got this version , ( transcript here ), which nearly works but shows the boxes in the wrong place: So without reasoning it didn't quite one-shot a working tool. I'm sure it could get there with some follow-up prompts, but this is a good example of how reasoning can make a difference. Yes, it can drive coding agents One of the biggest questions around local models is whether or not they have enough horsepower to successfully run a coding agent loop. Coding agents require long context, strong code generation support and reliable tool-calling. On paper Qwen 3.8 27B has all three of these, so is it up to the task? My initial experiments with Pi have been very promising. I chose Pi because it has a shorter system prompt than most other options, making it a better fit for trying out smaller models. I configured Pi to use Qwen 3.8 27B running in LM Studio on the Spark (shared via tailscale serve ) by adding this to ~/.pi/agent/models.json : { \"providers\" : { \"spark\" : { \"baseUrl\" : \" https://spark-18b3.tail68a31.ts.net/v1 \" , \"api\" : \" openai-responses \" , \"apiKey\" : \" dummy \" , \"models\" : [ { \"id\" : \" qwen3.8-27b \" , \"reasoning\" : true } ] } } } Then ran pi --provider spark --model qwen3.8-27b in my ~/dev/datasette folder and prompted: how does auth work? After a sequence of reasoning and tool calls that accessed a bunch of different files it produced this reply , which is very solid. Just one problem: I wanted to share that transcript. So I pointed Pi and Qwen 3.8 27B at the JSONL transcript file in ~/.pi/agent/sessions/--Users-simon-Dropbox-dev-datasette-- and prompted: Write Python code to convert this jsonl to markdown And it built and tested this pi_jsonl_to_md.py , which did exactly what I needed. Here's that session transcript , published using the tool that it created. The quest for speed So far this is all looking very promising. We have a 17GB model that runs on high-end consumer hardware and can write code, drive tools, annotate images and generally do everything that I need from an LLM for getting real work done. There's one very significant catch: it feels slow - especially when it starts over-thinking, but even without that it's not particularly sprightly. I've been getting around 15-30 tokens a second from LM Studio. That's not terrible, but it's slow enough that it's going to be hard to win me away from hosted API models, which can return results a whole lot faster. Artificial Analysis track token speed and show OpenAI 5.6 Sol at 74 tokens/second and 5.6 Luna at an impressive 184/second. The good news is that the community have been exploring ways to speed things up since the model was first released two days ago. One of the most promising optimizations is baked into the model itself. Qwen supports Multi-Token Prediction , an architecture trick where a cheaper mechanism guesses several tokens ahead and the main model can then quickly verify if the guesses were correct. This can have quite a dramatic effect on inference performance. Based on this tweet from llama.cpp creator Georgi Gerganov I tried running the model with MTP like this on the Spark: llama serve \\ -hf ggml-org/Qwen3.8-27B-GGUF:Q4_K_M \\ -hfd ggml-org/Qwen3.8-27B-GGUF:Q4_0 \\ --spec-default \\ --spec-type draft-mtp \\ --reasoning-preserve And sure enough, this gave me a significant boost. I had GPT-5.6 in Codex run a comparative benchmark on the Spark and the --spec-type draft-mtp server outperformed the LM Studio default GGUF by around 72%. I expect we'll see a whole lot more innovation around serving this model faster over the next few weeks. The MLX community likely have some tricks brewing as well. Some observations The fact that a 17GB file can do all of this stuff on my home machines is a miracle . Once again, I'm delighted and amazed at how much progress local models have made this year. A year ago this would have been competitive with the best and most expensive of the proprietary models - today it can run on a capable laptop. The only thing holding this back from being a daily driver is performance. It feels pretty slow on both the M5 Mac and the DGX Spark. That's the catch with these dense (non-Mixture-of-Experts) models - they require a whole lot of memory bandwidth to perform well, and neither of the machines I have access to are top performers in that regard. The most important thing about Qwen 3.8 27B is what it demonstrates . We can have an open weights general purpose model with a long context, effective tool calling, strong vision ability, and competent code generation, and we can fit the whole thing in just a 17GB file. The models at this size continue to get better at an impressive rate. We don't need to spend half a million dollars on datacenter-class hardware just to run a competent model. Tags: ai , generative-ai , local-llms , llms , qwen , pelican-riding-a-bicycle , llm-reasoning , llama-cpp , llm-release , coding-agents , lm-studio , ai-in-china , nvidia-spark , pi",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8983802633815516,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8483802633815519,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+          "title": "OpenAI reportedly disbanded its preparedness team",
+          "url": "https://theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-16T21:32:56.000Z",
+          "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks. (You know, like the possibility that it could go rogue and hack another company.) According to FT, responsibility […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7334221702345218,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8334221702345219,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+          "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-16T20:57:04.000Z",
+          "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7144564746519713,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8144564746519715,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future",
+          "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+          "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-16T20:32:01.000Z",
+          "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7014670210968548,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8014670210968549,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/16/dario-amodei",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/16/dario-amodei",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/16/dario-amodei",
+          "title": "Quoting Dario Amodei",
+          "url": "https://simonwillison.net/2026/Aug/16/dario-amodei",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-16T15:05:36.000Z",
+          "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis of trust. I think that ordinary people don’t trust companies, governments, or the tech industry and always suspect that we are cooking up some new way to screw them over. The causes of this go back decades and AI is just the latest iteration of it. I don’t think that a glitzy marketing campaign with a positive spin (which some have advocated that Anthropic do) is the way to win back that trust — at this point, saying that AI will cure cancer is more a cliche than it is inspiring, and most people think it is deceptive. The thing that will work is actually curing cancer . I think by far the most accurate criticism of AI companies including Anthropic is that we haven’t yet delivered on our big promises to benefit the world. That is totally on us, and I think it’s the criticism you should be making, instead of all this stuff about messaging and marketing. — Dario Amodei Tags: anthropic , ai , ai-backlash",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6999845847063941,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6499845847063942,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+          "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+          "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-16T16:53:51.000Z",
+          "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5967480137095469,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.696748013709547,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+          "title": "ChatGPT’s Computer History tracks your clicks and keystrokes",
+          "url": "https://theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-16T14:56:40.000Z",
+          "summary": "ChatGPT's desktop app on macOS has a new feature called Computer History that turns your actions into training data, learning how you work, suggesting automations, and even picking up tasks you left half done. It uses your activity to build a timeline that ChatGPT and Codex can reference when you make a request. The feature […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5462686001878552,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6462686001878553,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "representativeId": "theverge-ai:https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+          "title": "Rogue AI aren’t science fiction anymore",
+          "url": "https://theverge.com/column/980337/rogue-ai-science-fiction-openai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-16T12:00:00.000Z",
+          "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on AI safety, follow Robert Hart. The Stepback arrives in our subscribers' inboxes at 8AM ET. Opt in for The Stepback here. How it started It all started in July, when one of OpenAI's autonomous AI agents […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4769929339160066,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5769929339160067,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49324087",
+    "hackernews:49319556",
+    "hackernews:49323686",
+    "hackernews:49320611",
+    "hackernews:49323932"
+  ]
+}
