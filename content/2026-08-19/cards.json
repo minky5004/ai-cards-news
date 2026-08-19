@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026-08-19T12:56:20.145Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49353432",
+      "headline": "AI 도입했더니 코드 제출량이 3배 늘었다",
+      "highlight": [
+        "3배 늘었다"
+      ],
+      "body": "리니어 보고서에 따르면 코딩 에이전트를 쓴 팀의 주간 코드 제출(PR)량이 2년 만에 21개에서 65개로 3배나 늘었습니다. PM과 디자이너 등 비개발자의 직접 코드 제출 비율도 함께 증가했습니다. AI가 실제 제품 개발 속도를 폭발적으로 끌어올리고 있습니다.",
+      "sourceUrl": "https://linear.app/data",
+      "sourceName": "hackernews",
+      "imageUrl": "https://linear.app/static/og/data-v1.jpg",
+      "publishedAt": "2026-08-18T22:08:07.000Z"
+    },
+    {
+      "clusterId": "hackernews:49348751",
+      "headline": "클로드 코드 주간 한도가 50% 늘어난다",
+      "highlight": [
+        "50% 늘어난다"
+      ],
+      "body": "앤트로픽이 8월 31일까지 클로드 코드의 주간 사용 한도를 50% 늘리는 프로모션을 진행합니다. Pro, Max, Team 플랜 사용자는 별도 신청 없이 자동 적용됩니다. CLI와 IDE 확장, 웹 등 모든 환경에서 기존보다 넉넉하게 개발할 수 있습니다.",
+      "sourceUrl": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
+      "sourceName": "hackernews",
+      "imageUrl": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+      "publishedAt": "2026-08-18T17:02:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:49348163",
+      "headline": "클로드 주요 모델 2시간 먹통됐다",
+      "highlight": [
+        "2시간 먹통됐다"
+      ],
+      "body": "앤트로픽의 클로드 주요 모델과 서비스에 약 2시간 동안 대규모 접속 장애 및 성능 저하가 발생했습니다. 오푸스 5를 비롯한 소넷, 하이쿠 모델뿐만 아니라 웹사이트와 API, 코드 서비스까지 영향권에 들었습니다. 현재는 원인을 파악하고 긴급 복구 작업이 마무리된 상태입니다.",
+      "sourceUrl": "https://status.claude.com/incidents/q7txxvbsftgq",
+      "sourceName": "hackernews",
+      "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "publishedAt": "2026-08-18T16:28:20.000Z"
+    }
+  ]
+}
