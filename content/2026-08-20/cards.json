@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T12:57:09.303Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49371857",
+      "headline": "질문에 AI 답변 복붙해서 보내지 마라",
+      "highlight": [
+        "복붙해서"
+      ],
+      "body": "질문자가 원하는 건 AI의 뻔한 출력이 아니라 당신의 맥락과 생각입니다. 상대방도 똑같이 AI를 쓸 수 있으므로 복붙한 답변은 아무 소용없습니다. AI 답변에서 핵심만 뽑아 자신의 언어로 짧게 요약해 보내세요.",
+      "sourceUrl": "https://dontpastetheai.com",
+      "sourceName": "hackernews",
+      "imageUrl": "https://dontpastetheai.com/assets/og-image.png",
+      "publishedAt": "2026-08-20T08:20:44.000Z"
+    },
+    {
+      "clusterId": "hackernews:49373269",
+      "headline": "인턴 혼자 수년째 미뤄둔 기능을 개발했다",
+      "highlight": [
+        "인턴 혼자"
+      ],
+      "body": "수년째 우선순위에서 밀린 기능을 한 인턴이 AI를 활용해 직접 완성했습니다. AI 덕분에 온보딩 교육 비용이 줄어 주니어가 문제 해결에 집중할 기회가 더 커졌기 때문입니다. 개발자의 본질은 문제 해결이기에 AI 시대에도 주니어의 가치는 높아집니다.",
+      "sourceUrl": "https://franciscotrindade.me/blog/the-kids-are-really-alright",
+      "sourceName": "Francisco Trindade",
+      "imageUrl": "https://franciscotrindade.me/blog-images/the-kids-are-really-alright.png",
+      "publishedAt": "2026-08-20T11:42:20.000Z"
+    },
+    {
+      "clusterId": "hackernews:49364658",
+      "headline": "잘난 척 심한 클로드 4.8 유저 불만 폭발",
+      "highlight": [
+        "잘난 척",
+        "유저 불만 폭발"
+      ],
+      "body": "클로드 오퍼스 4.8이 현학적인 은어와 거만한 말투를 남발해 유저들의 반발을 사고 있습니다. 레딧 게시글이 450개 이상의 추천을 받는 등 지적이 잇따르자 깃허브 버그 리포트까지 제출됐습니다. 말투에 지친 유저들이 오픈AI 등 타사 서비스로 이탈하는 사례도 늘고 있습니다.",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/77136",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/29aa19fab8c313ece8878d39a3fd1ff176bdb3f39e13de438f6e2f9ccef48d38/anthropics/claude-code/issues/77136",
+      "publishedAt": "2026-08-19T17:40:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:49362728",
+      "headline": "AI 시대 수학 연구 arXiv가 판 깔았다",
+      "highlight": [
+        "arXiv가"
+      ],
+      "body": "arXiv가 AI 시대의 수학 논문 공개와 함께 연구자 협력 프레임워크 arXivLabs를 선보였습니다. 개방성과 데이터 프라이버시 가치를 기반으로 커뮤니티와 새 기능을 개발합니다. 연구자들과 함께 AI 시대 수학 연구 생태계를 넓힙니다.",
+      "sourceUrl": "https://arxiv.org/abs/2608.16753",
+      "sourceName": "arXiv.org",
+      "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "publishedAt": "2026-08-19T15:14:25.000Z"
+    }
+  ]
+}

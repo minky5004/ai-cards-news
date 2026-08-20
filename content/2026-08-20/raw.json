@@ -1,0 +1,695 @@
+{
+  "date": "2026-08-20",
+  "generatedAt": "2026-08-20T12:54:05.761Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 10,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 20
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49371857",
+      "representativeId": "hackernews:49371857",
+      "items": [
+        {
+          "id": "hackernews:49371857",
+          "title": "Don't Paste the AI, please",
+          "url": "https://dontpastetheai.com",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T08:20:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 618,
+            "comments": 296,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49371857"
+          }
+        }
+      ],
+      "score": 5.458625349455046,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.258625349455046,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49367350",
+      "representativeId": "hackernews:49367350",
+      "items": [
+        {
+          "id": "hackernews:49367350",
+          "title": "Feature Request: Support AGENTS.md",
+          "url": "https://github.com/anthropics/claude-code/issues/6235",
+          "source": "hackernews",
+          "publishedAt": "2026-08-19T21:19:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 309,
+            "comments": 189,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49367350"
+          }
+        }
+      ],
+      "score": 4.858488098193815,
+      "breakdown": {
+        "hnPoints": 1.8455640277668868,
+        "hnComments": 0.9893875919121559,
+        "mentions": 0.0,
+        "recency": 0.823536478514773,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49373269",
+      "representativeId": "hackernews:49373269",
+      "items": [
+        {
+          "id": "hackernews:49373269",
+          "title": "AI didn't erase the junior engineer's value, it increased it it",
+          "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T11:42:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49373269"
+          }
+        }
+      ],
+      "score": 4.576761676661826,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 1.4324805711337307,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49364658",
+      "representativeId": "hackernews:49364658",
+      "items": [
+        {
+          "id": "hackernews:49364658",
+          "title": "Opus 5.0 drives incoherence into the stratosphere",
+          "url": "https://github.com/anthropics/claude-code/issues/77136",
+          "source": "hackernews",
+          "publishedAt": "2026-08-19T17:40:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 182,
+            "comments": 165,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49364658"
+          }
+        }
+      ],
+      "score": 4.555129742046604,
+      "breakdown": {
+        "hnPoints": 1.6759904256865528,
+        "hnComments": 0.963924925490933,
+        "mentions": 0.0,
+        "recency": 0.7152143908691176,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49362728",
+      "representativeId": "hackernews:49362728",
+      "items": [
+        {
+          "id": "hackernews:49362728",
+          "title": "Mathematics in the age of AI",
+          "url": "https://arxiv.org/abs/2608.16753",
+          "source": "hackernews",
+          "publishedAt": "2026-08-19T15:14:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 187,
+            "comments": 222,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49362728"
+          }
+        }
+      ],
+      "score": 4.536035561974909,
+      "breakdown": {
+        "hnPoints": 1.6846626206270763,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6513729413478333,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49363668",
+      "representativeId": "hackernews:49363668",
+      "items": [
+        {
+          "id": "hackernews:49363668",
+          "title": "Extensible Software in the age of LLMs",
+          "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms",
+          "source": "hackernews",
+          "publishedAt": "2026-08-19T16:26:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 158,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49363668"
+          }
+        }
+      ],
+      "score": 4.308433070808698,
+      "breakdown": {
+        "hnPoints": 1.6307625478589205,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.6820331273393524,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49370862",
+      "representativeId": "hackernews:49370862",
+      "items": [
+        {
+          "id": "hackernews:49370862",
+          "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T05:54:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49370862"
+          }
+        }
+      ],
+      "score": 4.244949683489854,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.0,
+        "recency": 1.145750844821595,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+          "title": "Meta AI’s new Mac app wants you to talk to your apps",
+          "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T12:11:57.000Z",
+          "summary": "Meta said its Muse Spark model is powering the dictation feature.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/982270/meta-ai-mac-app",
+          "title": "Meta AI is getting a Mac app",
+          "url": "https://theverge.com/tech/982270/meta-ai-mac-app",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-19T17:00:00.000Z",
+          "summary": "Meta is launching a new Mac app dedicated to its AI chatbot. In an announcement on Wednesday, Meta says you can share your window with its AI chatbot, which can provide suggestions, answer questions, or create content based on what's on your screen. Meta AI on the Mac also supports dictation across all apps. The […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.1933030164163863,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.459969683083053,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "representativeId": "openai:https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "title": "Offering Zero Data Retention for frontier models",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "source": "openai",
+          "publishedAt": "2026-08-19T19:00:00.000Z",
+          "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.2528472864712343,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7528472864712341,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+          "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+          "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T09:30:00.000Z",
+          "summary": "Binance's Agent OS works with tools including ChatGPT, Claude Code, and Cursor.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2158405771167593,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3158405771167594,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/replit",
+      "representativeId": "openai:https://openai.com/index/replit",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/replit",
+          "title": "Replit expands access to software creation with GPT-5.6 Luna",
+          "url": "https://openai.com/index/replit",
+          "source": "openai",
+          "publishedAt": "2026-08-19T07:00:00.000Z",
+          "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9742640717906719,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4742640717906719,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/qad",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/qad",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/qad",
+          "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+          "url": "https://huggingface.co/blog/LiquidAI/qad",
+          "source": "huggingface",
+          "publishedAt": "2026-08-19T13:48:49.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9665528351176407,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6165528351176406,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
+          "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+          "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-19T23:16:00.000Z",
+          "summary": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal is to be able to use this to execute user-provided tasks for things like data transformations It quickly ran into a problem: the Claude Code for web environment can't run smol machines . Quoting the notes it wrote : This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags → no nested virt. smolvm machine run fails as expected: \"kvm not available\". Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit. And Plan B is what it did , installing smolvm and running these tests directly in a GitHub Actions runner against that branch. That was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being relentlessly proactive . Tags: research , sandboxing , ai , github-actions , generative-ai , llms , coding-agents , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9372829733110688,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.887282973311069,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/19/jeremy-morrell",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/19/jeremy-morrell",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/19/jeremy-morrell",
+          "title": "Quoting Jeremy Morrell",
+          "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-19T22:56:31.000Z",
+          "summary": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. — Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxing , llms , ai , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9262570584599752,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8762570584599754,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
+          "title": "Conceptual integrity and counting lines of code",
+          "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-19T22:46:07.000Z",
+          "summary": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents, at 35:01 : A lot of people will tell you it makes no sense to measure productivity in lines of code. I’d actually disagree, because there’s a hard limit. In the before-times, a software engineer could produce a few hundred lines of production-ready code per day — and 200 lines of working, debugged, production-level code is an incredibly good day. Most days you’d produce 50 or 60. If agents let you produce a thousand lines of debugged code, that really is a very meaningful improvement — as long as the code is the same quality: maintainable, tested, all of that. You can get to that point with agents, but it takes a huge amount of skill and knowledge and experience. That’s what senior engineers are made of. I can do way more work as a single engineer than I could without agents. So you could argue, why should a company have more than one engineer? Beyond the obvious bus factor thing — a team of one is a very badly designed team — the answer is that the new limiting factor is cognitive capacity. I can churn out code a hundred times faster. I don’t have the cognitive capacity to stay on top of 100 times the amount of code. So you still need a team of engineers, so you can load balance that cognitive capacity across the team. And this section on conceptual integrity at 46:03 , which Claire equated to the Winchester Mystery House ! Simon : There’s a concept in The Mythical Man-Month — conceptual integrity — where well-designed software has an integrity to it: there are no surprises in it, it covers exactly the right domain of things, everything fits together and makes sense. That’s so much harder with coding agents, where you can have an idea for a feature, run a prompt, and five minuteslater you’ve got the feature. Your software grows little weird bumps in funny different directions. Claire : You know my analogy for that? The Winchester Mystery House. Simon : It’s got 140 rooms, because the woman who built it was the widow of the guy who invented the Winchester rifle, and her psychic told her she’d be haunted by the ghosts of everyone killed with that rifle unless she kept building the house forever. So for 40 years she kept adding new rooms. That’s exactly the problem with coding agents and software: it’s very easy to keep adding new rooms, because the cost of adding those rooms is so much cheaper. What you end up with is something where the conceptual integrity falls apart — and then it’s harder to make decisions about it. It all keeps coming back to discipline. It used to be that the discipline was enforced on you by the amount of time it took. You’d come up with an idea for a crazy feature and think “yeah, but that would take me a week — I cannot justify that, so I’ll forget about it.” If it takes an hour, it’s so much easier to justify. (Side-note: the Wikipedia article includes credible sources that dispute the story about the psychic.) Tags: ai , generative-ai , llms , podcast-appearances , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9204277373837777,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8704277373837779,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+          "title": "OpenAI seeks to one-up Anthropic with new customer privacy protections",
+          "url": "https://techcrunch.com/2026/08/19/openai-seeks-to-one-up-anthropic-with-new-customer-privacy-protections",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T22:10:46.000Z",
+          "summary": "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7509020387865941,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8509020387865942,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+          "title": "AI was supposed to win people over by now — it hasn’t",
+          "url": "https://techcrunch.com/2026/08/19/ai-was-supposed-to-win-people-over-by-now-it-hasnt",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T19:11:40.000Z",
+          "summary": "As AI becomes harder to avoid, consumers are growing more wary of the technology — and Silicon Valley is discovering that widespread adoption doesn’t necessarily lead to acceptance.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.658505539085318,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7585055390853181,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+          "title": "Google packs Search and Gemini with new AI study tools",
+          "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T19:00:00.000Z",
+          "summary": "The launch of the new study features marks Google's latest effort to make Gemini the AI assistant that students turn to when learning and studying, as it continues to compete with companies like OpenAI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.652847286471234,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7528472864712341,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+          "title": "Google Gemini is getting a dedicated student hub",
+          "url": "https://theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-19T19:00:00.000Z",
+          "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more. Google is also enhancing its study notebooks with support for graphs and images. It can even add test dates […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.652847286471234,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7528472864712341,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+          "title": "Researchers say OpenAI revoked their access to limited cyber program",
+          "url": "https://techcrunch.com/2026/08/19/researchers-complain-that-openai-revoked-their-access-to-limited-cyber-program",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T18:46:14.000Z",
+          "summary": "The idea behind OpenAI's Trusted Access for Cyber program is to give trusted defenders better models so they can report bugs and vulnerabilities to companies, with the aim of getting flaws patched faster.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6462248133718274,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7462248133718273,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute",
+          "title": "Meet the startup helping Wall Street put a price on AI compute",
+          "url": "https://techcrunch.com/video/meet-the-startup-helping-wall-street-put-a-price-on-ai-compute",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T17:26:48.000Z",
+          "summary": "The AI buildout shows no signs of slowing. And with hundreds of billions of dollars a year going into data centers and GPUs, compute has become the single biggest cost for anyone building AI products. But for all that spending, there still isn’t a straightforward way to put a price on compute — or for firms to hedge their exposure when the price changes. Silicon Data […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6091353180589825,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7091353180589827,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+          "title": "OpenAI hit the brakes. Now what?",
+          "url": "https://theverge.com/ai-artificial-intelligence/982323/openai-hit-brakes-voluntary-pacing-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-19T17:10:09.000Z",
+          "summary": "With a looming IPO, intense competition from Anthropic, and Chinese and open-weight rivals nipping at its heels, OpenAI has plenty of reasons to move fast. Instead, it hit the brakes. On Tuesday, the company said it had slowed the pace of some AI development while it tightened security and safeguards. That included a two-week pause […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6015978291537185,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7015978291537186,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers",
+          "title": "TerraPower’s nuclear reactor has a secret weapon for powering AI data centers",
+          "url": "https://techcrunch.com/2026/08/19/terrapowers-nuclear-reactor-has-a-secret-weapon-for-powering-ai-data-centers",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T15:44:53.000Z",
+          "summary": "TerraPower's nuclear power plant possesses a strategic advantage over competitors, especially when chasing after data center deals.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5642349645411298,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6642349645411298,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required",
+          "title": "Amazon makes its AI-powered Alexa+ free on Fire TV, no Prime required",
+          "url": "https://techcrunch.com/2026/08/19/amazon-makes-its-ai-powered-alexa-free-on-fire-tv-no-prime-required",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T15:00:00.000Z",
+          "summary": "Amazon is making its AI-powered Alexa+ assistant free on all compatible Fire TV devices in the U.S., automatically upgrading users whether or not they subscribe to Prime.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.545373806334729,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6453738063347292,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
+          "title": "AI isn’t close to curing cancer. This startup says it knows what it will take.",
+          "url": "https://techcrunch.com/2026/08/19/ai-isnt-close-to-curing-cancer-this-startup-says-it-knows-what-it-will-take",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-19T12:00:00.000Z",
+          "summary": "It's the data, stupid.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4749626967849618,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5749626967849618,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49371857",
+    "hackernews:49367350",
+    "hackernews:49373269",
+    "hackernews:49364658",
+    "hackernews:49362728"
+  ]
+}
