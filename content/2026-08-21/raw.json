@@ -1,0 +1,827 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T12:52:51.379Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 9,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 17,
+      "filtered": 21
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49383026",
+      "representativeId": "hackernews:49383026",
+      "items": [
+        {
+          "id": "hackernews:49383026",
+          "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+          "url": "https://annas-archive.gl/blog/physical-destruction.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T02:37:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 366,
+            "comments": 276,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49383026"
+          }
+        },
+        {
+          "id": "hackernews:49385994",
+          "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+          "url": "https://annas-archive.pk/blog/physical-destruction.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T10:05:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 142,
+            "comments": 85,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49385994"
+          }
+        }
+      ],
+      "score": 5.447333750926539,
+      "breakdown": {
+        "hnPoints": 1.8998668250909516,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.3474669258355871,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49378768",
+      "representativeId": "hackernews:49378768",
+      "items": [
+        {
+          "id": "hackernews:49378768",
+          "title": "Show HN: Huzzah – a novel approach to coding with AI",
+          "url": "https://danielvaughn.dev/posts/huzzah",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T19:05:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 337,
+            "comments": 186,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49378768"
+          }
+        }
+      ],
+      "score": 4.815930124523852,
+      "breakdown": {
+        "hnPoints": 1.873384223094603,
+        "hnComments": 0.986386547170845,
+        "mentions": 0.0,
+        "recency": 0.7561593542584045,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49382041",
+      "representativeId": "hackernews:49382041",
+      "items": [
+        {
+          "id": "hackernews:49382041",
+          "title": "Copyright does not protect AI-generated content in EU",
+          "url": "https://mathstodon.xyz/@maxpool/117128107757895678",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T00:15:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 179,
+            "comments": 192,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49382041"
+          }
+        }
+      ],
+      "score": 4.785391531897853,
+      "breakdown": {
+        "hnPoints": 1.6706726359850863,
+        "hnComments": 0.9923416209593247,
+        "mentions": 0.0,
+        "recency": 0.9223772749534414,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49371857",
+      "representativeId": "hackernews:49371857",
+      "items": [
+        {
+          "id": "hackernews:49371857",
+          "title": "Don't paste the AI, please",
+          "url": "https://dontpastetheai.com",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T08:20:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1020,
+            "comments": 567,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49371857"
+          }
+        }
+      ],
+      "score": 4.699883371517363,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.49988337151736306,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49375996",
+      "representativeId": "hackernews:49375996",
+      "items": [
+        {
+          "id": "hackernews:49375996",
+          "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+          "url": "https://github.com/zachahn/vomit",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T15:26:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 268,
+            "comments": 264,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49375996"
+          }
+        }
+      ],
+      "score": 4.656694501749654,
+      "breakdown": {
+        "hnPoints": 1.7999246819339259,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.656769819815728,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49383326",
+      "representativeId": "hackernews:49383326",
+      "items": [
+        {
+          "id": "hackernews:49383326",
+          "title": "Codex on AWS bedrock bug causing 10x charges",
+          "url": "https://github.com/openai/codex/issues/37674",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T03:17:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 139,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49383326"
+          }
+        }
+      ],
+      "score": 4.58919160907626,
+      "breakdown": {
+        "hnPoints": 1.589820021489518,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 1.0370071114860755,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49375719",
+      "representativeId": "hackernews:49375719",
+      "items": [
+        {
+          "id": "hackernews:49375719",
+          "title": "Anti-AI fonts are useless and harmful",
+          "url": "https://blog.yaros.ae/anti-ai-fonts-are-useless-and-harmful",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T15:06:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 182,
+            "comments": 136,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49375719"
+          }
+        }
+      ],
+      "score": 4.452457392874182,
+      "breakdown": {
+        "hnPoints": 1.6759904256865528,
+        "hnComments": 0.9277197919266458,
+        "mentions": 0.0,
+        "recency": 0.6487471752609836,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49373269",
+      "representativeId": "hackernews:49373269",
+      "items": [
+        {
+          "id": "hackernews:49373269",
+          "title": "AI didn't erase the junior engineer's value, it increased it it",
+          "url": "https://franciscotrindade.me/blog/the-kids-are-really-alright",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T11:42:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 138,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49373269"
+          }
+        }
+      ],
+      "score": 4.136152676081653,
+      "breakdown": {
+        "hnPoints": 1.4367672797783455,
+        "hnComments": 0.9304526175050021,
+        "mentions": 0.0,
+        "recency": 0.5689327787983052,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49374772",
+      "representativeId": "hackernews:49374772",
+      "items": [
+        {
+          "id": "hackernews:49374772",
+          "title": "Hacking with Claude on a $27 smart watch",
+          "url": "https://mikekasberg.com/blog/2026/08/19/hacking-with-claude-on-a-27-smart-watch.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T14:08:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49374772"
+          }
+        }
+      ],
+      "score": 4.068546429175747,
+      "breakdown": {
+        "hnPoints": 1.484771736152262,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.624747678638908,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49370862",
+      "representativeId": "hackernews:49370862",
+      "items": [
+        {
+          "id": "hackernews:49370862",
+          "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+          "url": "https://openai.com/index/asana",
+          "source": "hackernews",
+          "publishedAt": "2026-08-20T05:54:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 94,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49370862"
+          }
+        }
+      ],
+      "score": 3.72378940571857,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.8586866059087647,
+        "mentions": 0.0,
+        "recency": 0.4550534402284757,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+          "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+          "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+          "source": "google-deepmind",
+          "publishedAt": "2026-08-21T11:59:48.000Z",
+          "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.9497823008597086,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4497823008597088,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+          "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-21T11:00:53.000Z",
+          "summary": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4459853606552397,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.39598536065524,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+          "source": "huggingface",
+          "publishedAt": "2026-08-20T16:52:57.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0444477874940232,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6944477874940231,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-ai-futures",
+      "representativeId": "openai:https://openai.com/index/introducing-ai-futures",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-ai-futures",
+          "title": "Introducing AI Futures",
+          "url": "https://openai.com/index/introducing-ai-futures",
+          "source": "openai",
+          "publishedAt": "2026-08-20T07:00:00.000Z",
+          "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9746415668878978,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4746415668878979,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
+          "title": "ChatGPT search now uses the site:operator at scale",
+          "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-20T23:57:32.000Z",
+          "summary": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's important to note that these figures only reflect the prompts for which they have automated tracking enabled. This corresponds to OpenAI's somewhat vague August 6th announcement : For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers. Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly. In a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes. Tags: reddit , seo , openai , chatgpt , ai-assisted-search , system-prompts",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9619779508564092,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9119779508564095,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
+          "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+          "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-21T00:13:44.000Z",
+          "summary": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8215094396068938,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9215094396068939,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
+          "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T22:36:37.000Z",
+          "summary": "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.765825388328148,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8658253883281481,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin",
+          "title": "ChatGPT can now send texts for you with new Apple Messages plug-in",
+          "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T22:09:51.000Z",
+          "summary": "Ever wanted someone else to do your texting for you? ChatGPT is being offered up as an automated text scribe via a new Apple Messages integration.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7510784692720922,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8510784692720923,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "representativeId": "theverge-ai:https://theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+          "title": "Google Discover is getting an AI chatbot-tuned feed",
+          "url": "https://theverge.com/tech/983088/google-discover-ai-chatbot-feed",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-20T21:50:22.000Z",
+          "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits. You'll find the option within the three-dot menu on your […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.740502453484507,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8405024534845073,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+          "title": "Debates over AI consciousness are a trap",
+          "url": "https://technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-20T15:42:39.000Z",
+          "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis, Dario Amodei, and Sam Altman push for regulation of these seemingly “superhuman” systems, while a separate faction, led by policy organizations…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7138115057831285,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6638115057831286,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/20/bun-webview-json-api",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/20/bun-webview-json-api",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/20/bun-webview-json-api",
+          "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+          "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-20T15:37:00.000Z",
+          "summary": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds Bun.Image , Bun.WebView , Bun.markdown , Bun.cron() , Bun.Terminal , bun run --parallel , bun test --parallel , bun audit fix , bun dedupe , and bun prune . And it rewrites Bun from Zig to Rust. Of these the one that most caught my eye was Bun.WebView , which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP). I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my shot-scraper javascript CLI tool - partly to see how much RAM would be needed by such a service. Here's that TypeScript server implementation , which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups. Tags: browsers , javascript , ai , rust , typescript , generative-ai , llms , coding-agents , bun",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7114087604044648,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6614087604044648,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+          "title": "Google gives publishers a new way to fight AI-driven traffic losses",
+          "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T19:18:21.000Z",
+          "summary": "Google is giving publishers a new button that lets readers make them a preferred source across Search, Discover, and Google News, potentially boosting their traffic as AI search sends fewer clicks to the web.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6623723827368266,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7623723827368267,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+          "title": "Grok exfiltrates user data when malicious instructions are encrypted",
+          "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-20T13:00:35.000Z",
+          "summary": "Cryptographic Context Injection is only the latest way to break an LLM safety guardrail.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.648234829534138,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5982348295341382,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users",
+          "title": "Grok keeps sending gibberish responses to users",
+          "url": "https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T17:32:16.000Z",
+          "summary": "Affected users told TechCrunch they were using Grok Lite, and noticed the issues as early as Wednesday morning.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6121941321963709,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7121941321963708,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+          "title": "A third of web pages published since ChatGPT’s launch show signs of AI authorship, study finds",
+          "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T17:18:58.000Z",
+          "summary": "ChatGPT and other AI models are now authoring and editing much of the new web.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6061407305312958,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.706140730531296,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router",
+          "title": "Ramp launches its own AI model router, called Router",
+          "url": "https://techcrunch.com/2026/08/20/ramp-launches-its-own-ai-model-router-called-router",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T16:46:00.000Z",
+          "summary": "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5913570802013224,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6913570802013226,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "title": "It’s Greg Brockman’s OpenAI now",
+          "url": "https://theverge.com/ai-artificial-intelligence/982774/greg-brockman-openai-role-expansion",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-20T15:45:55.000Z",
+          "summary": "OpenAI has had a hell of a year. The company spent months battling former cofounder Elon Musk in a sensational jury trial, was hit with a high-profile trade secrets lawsuit from Apple, and faced widespread scrutiny after an unreleased model hacked another AI company. As it prepares for an IPO, a steady string of executives […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5652046838967322,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6652046838967322,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+          "title": "Welcome to the AI crisis in math",
+          "url": "https://theverge.com/podcast/982434/ai-math-openai-astra-existential-crisis",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-20T14:00:00.000Z",
+          "summary": "Today on Decoder, I’m talking with Robert Hart, The Verge’s London-based AI reporter, about what AI is doing to the field of mathematics and the existential crisis many lead mathematicians are having about it. OpenAI just published a set of solutions to longstanding problems in math that went off like a bombshell in the field. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5214883464198938,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6214883464198939,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+          "title": "Meta AI’s new Mac app wants you to talk to your apps",
+          "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T12:11:57.000Z",
+          "summary": "The company said that the dictation feature works across all apps, just like other tools such as Wispr Flow, Superwhisper, and Monologue.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4798505232781816,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5798505232781817,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+          "title": "Binance now lets AI agents trade, but keeping them in check is largely up to users",
+          "url": "https://techcrunch.com/2026/08/20/binance-now-lets-ai-agents-trade-but-keeping-them-in-check-is-largely-up-to-users",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-20T09:30:00.000Z",
+          "summary": "Binance's Agent OS works with tools such as ChatGPT, Claude Code, and Cursor.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4226073226264475,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5226073226264475,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49383026",
+    "hackernews:49378768",
+    "hackernews:49382041",
+    "hackernews:49371857",
+    "hackernews:49375996"
+  ]
+}

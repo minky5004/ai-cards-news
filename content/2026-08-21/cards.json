@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026-08-21T12:54:08.975Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49383026",
+      "headline": "앤트로픽은 수백만 권의 종이책을 파괴했다",
+      "highlight": [
+        "수백만 권",
+        "파괴했다"
+      ],
+      "body": "앤트로픽은 AI 클로드 학습 데이터를 얻으려 종이책 수백만 권을 구매 후 스캔하고 파괴했습니다. 경쟁사의 학습을 막고 보관 비용을 줄이기 위해서입니다. 이에 안나스 아카이브는 지식 독점을 막기 위해 전 세계에 도서 스캔 및 업로드를 호소했습니다.",
+      "sourceUrl": "https://annas-archive.gl/blog/physical-destruction.html",
+      "sourceName": "hackernews",
+      "imageUrl": "https://annas-archive.gl/blog/duxiu-examples/1.jpg",
+      "publishedAt": "2026-08-21T02:37:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:49378768",
+      "headline": "긴 프롬프트에 지쳐 직접 만든 AI 에디터",
+      "highlight": [
+        "AI 에디터"
+      ],
+      "body": "AI 코딩 에이전트에 긴 영어 프롬프트를 반복 입력하는 데 피로감을 느낀 개발자가 실험적 에디터 'Huzzah'를 공개했습니다. 자연어 대화 대신 짧은 의사코드를 작성해 저장하면 LLM이 코드를 자동 생성합니다. 개발 의도가 기록에 남아 효율적이고 직관적인 개발이 가능해집니다.",
+      "sourceUrl": "https://danielvaughn.dev/posts/huzzah",
+      "sourceName": "hackernews",
+      "imageUrl": "https://danielvaughn.dev/opengraph-image.jpg",
+      "publishedAt": "2026-08-20T19:05:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:49371857",
+      "headline": "AI 답변 복붙보다 당신의 세 줄이 낫다",
+      "highlight": [
+        "AI 답변 복붙보다"
+      ],
+      "body": "상대방이 당신에게 질문하는 건 AI의 똑같은 정답이 아니라 당신의 맥락과 판단을 원하기 때문입니다. AI 답변을 그대로 복사해 보내기보다 직접 읽고 핵심만 간추린 세 줄을 써보세요. 짧더라도 사람이 직접 쓴 한마디가 봇의 긴 글보다 훨씬 가치 있습니다.",
+      "sourceUrl": "https://dontpastetheai.com",
+      "sourceName": "hackernews",
+      "imageUrl": "https://dontpastetheai.com/assets/og-image.png",
+      "publishedAt": "2026-08-20T08:20:44.000Z"
+    },
+    {
+      "clusterId": "hackernews:49375996",
+      "headline": "클로드의 토큰 낭비를 싹 치워주는 툴",
+      "highlight": [
+        "토큰 낭비"
+      ],
+      "body": "클로드가 쏟아내는 불필요한 토큰을 로컬 LLM으로 깔끔하게 정제해 주는 오픈소스 도구 'Vomit'이 등장했습니다. 외부 연동 없이 Llama.app이나 Ollama를 활용해 100% 로컬 환경에서 안전하게 동작합니다. 다만 속도가 다소 느리고 약간의 할루시네이션이 발생할 수 있어 유의해야 합니다.",
+      "sourceUrl": "https://github.com/zachahn/vomit",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/885c298cd176bb2a34f01abb5129610265228eec642b9e7594ce9ae7ff7937cc/zachahn/vomit",
+      "publishedAt": "2026-08-20T15:26:02.000Z"
+    }
+  ]
+}
