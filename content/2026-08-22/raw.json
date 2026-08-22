@@ -1,0 +1,615 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T12:42:51.123Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 26
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49386699",
+      "representativeId": "hackernews:49386699",
+      "items": [
+        {
+          "id": "hackernews:49386699",
+          "title": "I'm becoming AI-blind",
+          "url": "https://cymerys.com/w/im-becoming-ai-blind",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T11:48:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 406,
+            "comments": 413,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49386699"
+          }
+        }
+      ],
+      "score": 4.707863596426645,
+      "breakdown": {
+        "hnPoints": 1.9331490809411238,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5747145154855207,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49388752",
+      "representativeId": "hackernews:49388752",
+      "items": [
+        {
+          "id": "hackernews:49388752",
+          "title": "Claudette: Make Claude stop talking like a BuzzFeed article",
+          "url": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T14:31:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 302,
+            "comments": 193,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49388752"
+          }
+        }
+      ],
+      "score": 4.66994819398163,
+      "breakdown": {
+        "hnPoints": 1.8382161303455469,
+        "hnComments": 0.9933161020136931,
+        "mentions": 0.0,
+        "recency": 0.6384159616223893,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49383026",
+      "representativeId": "hackernews:49383026",
+      "items": [
+        {
+          "id": "hackernews:49383026",
+          "title": "AI companies destroy physical books – let's scan rare books before it's too late",
+          "url": "https://annas-archive.gl/blog/physical-destruction.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T02:37:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 576,
+            "comments": 856,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49383026"
+          }
+        }
+      ],
+      "score": 4.6037069575158664,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.40370695751586577,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49395638",
+      "representativeId": "hackernews:49395638",
+      "items": [
+        {
+          "id": "hackernews:49395638",
+          "title": "OpenAI cuts developer pricing for frontier GPT-5.6 Sol model by more than 20%",
+          "url": "https://reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T01:09:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49395638"
+          }
+        },
+        {
+          "id": "hackernews:49396590",
+          "title": "GPT 5.6 Sol 20% price reduction",
+          "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T04:33:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49396590"
+          }
+        }
+      ],
+      "score": 4.4741441378629485,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 1.0954232301192337,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49393051",
+      "representativeId": "hackernews:49393051",
+      "items": [
+        {
+          "id": "hackernews:49393051",
+          "title": "Quick impressions: A week of using Codex more than Claude",
+          "url": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T19:51:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 91,
+            "comments": 99,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49393051"
+          }
+        }
+      ],
+      "score": 4.307037143874599,
+      "breakdown": {
+        "hnPoints": 1.4547450822917476,
+        "hnComments": 0.8683585548682906,
+        "mentions": 0.0,
+        "recency": 0.7839335067145599,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49390463",
+      "representativeId": "hackernews:49390463",
+      "items": [
+        {
+          "id": "hackernews:49390463",
+          "title": "Building an (almost) fully self-hosted, sandboxed, agentic software factory",
+          "url": "https://blog.jakesaunders.dev/building-an-almost-fully-self-hosted-sandboxed-agentic-software-factory",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T16:27:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 106,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49390463"
+          }
+        }
+      ],
+      "score": 4.153461555979551,
+      "breakdown": {
+        "hnPoints": 1.503337595620365,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 0.68775948425852,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49383326",
+      "representativeId": "hackernews:49383326",
+      "items": [
+        {
+          "id": "hackernews:49383326",
+          "title": "Codex on AWS bedrock bug causing 10x charges",
+          "url": "https://github.com/openai/codex/issues/37674",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T03:17:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 147,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49383326"
+          }
+        }
+      ],
+      "score": 4.003121702145897,
+      "breakdown": {
+        "hnPoints": 1.6076978957672894,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 0.4141874267588931,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49389565",
+      "representativeId": "hackernews:49389565",
+      "items": [
+        {
+          "id": "hackernews:49389565",
+          "title": "AI boosted homework scores, then exam scores dropped: Study",
+          "url": "https://canews24.online/?p=71",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T15:25:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49389565"
+          }
+        }
+      ],
+      "score": 3.957633435510415,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 0.6608589579029917,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49390308",
+      "representativeId": "hackernews:49390308",
+      "items": [
+        {
+          "id": "hackernews:49390308",
+          "title": "What happens when a GPU reads memory",
+          "url": "https://blog.doubleword.ai/what-happens-when-a-gpu-reads-memory",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T16:16:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 108,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49390308"
+          }
+        }
+      ],
+      "score": 3.957023858174008,
+      "breakdown": {
+        "hnPoints": 1.5092955242605617,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.6828480704759092,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49392331",
+      "representativeId": "hackernews:49392331",
+      "items": [
+        {
+          "id": "hackernews:49392331",
+          "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T18:48:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49392331"
+          }
+        }
+      ],
+      "score": 3.943199307507183,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.7527074833816343,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49390066",
+      "representativeId": "hackernews:49390066",
+      "items": [
+        {
+          "id": "hackernews:49390066",
+          "title": "LLMs are proof that Unix won",
+          "url": "https://bastian.rieck.me/blog/2026/unix",
+          "source": "hackernews",
+          "publishedAt": "2026-08-21T15:59:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49390066"
+          }
+        }
+      ],
+      "score": 3.6227428893509304,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.6752504274883581,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+          "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+          "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games",
+          "source": "google-deepmind",
+          "publishedAt": "2026-08-21T11:59:48.000Z",
+          "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.079052538697786,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5790525386977861,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+          "title": "Anthropic’s Opus 4.6 is a smut-machine",
+          "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-21T23:07:25.000Z",
+          "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.788799394118211,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.888799394118211,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/21/llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/21/llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/21/llm",
+          "title": "llm 0.32.1",
+          "url": "https://simonwillison.net/2026/Aug/21/llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-21T17:16:13.000Z",
+          "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitive openai dependency. This dot-release fixes that for the moment by pinning to openai<3 , and a soon-to-drop 0.33 release will switch from httpx to httpx2 . Tags: httpx , openai , llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7594360526450252,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7094360526450253,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/21/llm-openrouter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/21/llm-openrouter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/21/llm-openrouter",
+          "title": "llm-openrouter 0.7",
+          "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-21T16:58:19.000Z",
+          "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it can display the reasoning traces for LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's implementation of the Responses API . Three new server-side tools: Shell , WebFetch , and WebSearch . Enable these with options like -T WebSearch . Tags: llm , openrouter",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7513324948650808,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.701332494865081,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+          "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+          "url": "https://theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-21T21:25:50.000Z",
+          "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7327013663833397,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8327013663833397,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/21/stop-making-tuis",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/21/stop-making-tuis",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/21/stop-making-tuis",
+          "title": "Stop Making TUIs",
+          "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-21T16:07:32.000Z",
+          "summary": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing. I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps back in March , and I'm still using both of those on a daily basis. I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses! Thomas: If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yourself a disservice. Go build a native UI. It’ll probably change the way you think. Tags: thomas-ptacek , ai , generative-ai , llms , vibe-coding , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.728842537252579,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6788425372525791,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/21/matt-webb",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/21/matt-webb",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/21/matt-webb",
+          "title": "Quoting Matt Webb",
+          "url": "https://simonwillison.net/2026/Aug/21/matt-webb",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-21T15:06:26.000Z",
+          "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work. So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome. — Matt Webb , Galactic Compass 2: now with new augmented reality mode Tags: matt-webb , generative-ai , chatgpt , education , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7027374864124656,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6527374864124658,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+          "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+          "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-21T19:43:39.000Z",
+          "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6798436960224,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7798436960224,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+          "title": "As demand for Meta AI glasses explodes, it’s harder to avoid creepy recordings",
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-ai-glasses-may-get-creepier-and-apps-that-detect-them-arent-perfect",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-21T11:00:53.000Z",
+          "summary": "Ars looks at Zuckoff, the latest free app detecting Meta AI glasses amid privacy backlash.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6075656887196212,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5575656887196214,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+          "title": "Major YouTube creators are facing backlash for accepting AI money",
+          "url": "https://theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-21T13:37:52.000Z",
+          "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as the future of video production. In response to these videos, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5166691702965558,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6166691702965558,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49386699",
+    "hackernews:49388752",
+    "hackernews:49383026",
+    "hackernews:49395638",
+    "hackernews:49393051"
+  ]
+}

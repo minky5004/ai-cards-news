@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026-08-22T12:44:37.589Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49386699",
+      "headline": "AI가 쓴 글을 보면 뇌가 읽기를 거부한다",
+      "highlight": [
+        "뇌가 읽기를 거부한다"
+      ],
+      "body": "AI가 작성한 특유의 과장된 어조와 무의미한 텍스트에 노출되면서 뇌가 이를 자동 차단하는 현상이 나타나고 있습니다. 웹 광고를 무시하는 배너 블라인드니스처럼 뇌가 AI 글을 본능적으로 거부하는 겁니다. 생산성을 높여줄 줄 알았던 AI가 오히려 읽는 이의 업무를 방해하고 있습니다.",
+      "sourceUrl": "https://cymerys.com/w/im-becoming-ai-blind",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-21T11:48:05.000Z"
+    },
+    {
+      "clusterId": "hackernews:49388752",
+      "headline": "클로드의 TED 발표 말투 구글이 지운다",
+      "highlight": [
+        "TED 발표 말투"
+      ],
+      "body": "클로드가 단순 버그도 TED 발표처럼 과장해 설명하는 문제를 해결하는 도구가 나왔습니다. `/debuzz` 스킬은 답변을 구글 제미나이 모델에 전달해 평범한 언어로 재번역합니다. 연극 같은 미사여구를 제거하고 핵심 개발 정보만 깔끔하게 정리해 줍니다.",
+      "sourceUrl": "https://github.com/adnanakil/nobuzz/blob/main/README.md",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/8b7895be3f57fc78c26575dcbaa5d14f2e80e88373d035cd777dee16bea2f6ac/adnanakil/nobuzz",
+      "publishedAt": "2026-08-21T14:31:52.000Z"
+    },
+    {
+      "clusterId": "hackernews:49383026",
+      "headline": "앤트로픽이 수백만 권의 종이책을 파기했다",
+      "highlight": [
+        "수백만 권의",
+        "파기했다"
+      ],
+      "body": "앤트로픽이 비밀 프로젝트로 종이책 수백만 권을 구매해 스캔 후 파기한 사실이 드러났습니다. 경쟁사의 활용을 막고 법적 책임을 피하려는 목적입니다. 안나스 아카이브는 지식 독점에 맞서 희귀서적 스캔 봉사를 요청했습니다.",
+      "sourceUrl": "https://annas-archive.gl/blog/physical-destruction.html",
+      "sourceName": "hackernews",
+      "imageUrl": "https://annas-archive.gl/blog/duxiu-examples/1.jpg",
+      "publishedAt": "2026-08-21T02:37:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:49395638",
+      "headline": "오픈AI가 모델 이용료를 33% 깎았다",
+      "highlight": [
+        "33% 깎았다"
+      ],
+      "body": "오픈AI가 최신 AI 모델인 GPT-5.6 Sol을 공개하며 이용료를 대폭 낮췄습니다. 입력 토큰 가격은 20%, 출력 토큰 가격은 33% 인하되어 비용 부담을 줄였습니다. 이 프로모션 가격은 최소 2026년 11월 21일까지 유지됩니다.",
+      "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "sourceName": "OpenAI Developers",
+      "imageUrl": "https://developers.openai.com/og/api/docs/models/gpt-5.6-sol.png",
+      "publishedAt": "2026-08-22T01:09:21.000Z"
+    },
+    {
+      "clusterId": "hackernews:49393051",
+      "headline": "코덱스는 딱 시킨 것만 클로드는 오버했다",
+      "highlight": [
+        "딱 시킨 것만"
+      ],
+      "body": "일주일간 코덱스와 클로드를 비교 사용해 본 결과 일하는 방식이 전혀 달랐습니다. 코덱스는 지시한 작업만 수행하고 깔끔하게 멈추지만, 클로드는 요구하지 않은 부분까지 예측해 더 복잡하게 구현했습니다. 목적에 따라 두 도구를 명확히 구분해 쓰는 전략이 필요합니다.",
+      "sourceUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude",
+      "sourceName": "All about coding",
+      "imageUrl": "https://allaboutcoding.ghinda.com/assets/images/posts/a-week-of-using-codex-more-than-claude/og.png",
+      "publishedAt": "2026-08-21T19:51:48.000Z"
+    }
+  ]
+}
