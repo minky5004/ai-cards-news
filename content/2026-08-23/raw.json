@@ -1,0 +1,435 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T12:44:23.644Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 6
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49402232",
+      "representativeId": "hackernews:49402232",
+      "items": [
+        {
+          "id": "hackernews:49402232",
+          "title": "Why your local LLM feels dumber than it is",
+          "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T18:14:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 388,
+            "comments": 151,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49402232"
+          }
+        }
+      ],
+      "score": 4.801545182629537,
+      "breakdown": {
+        "hnPoints": 1.9185964967533449,
+        "hnComments": 0.9473112724881844,
+        "mentions": 0.0,
+        "recency": 0.7356374133880076,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49401549",
+      "representativeId": "hackernews:49401549",
+      "items": [
+        {
+          "id": "hackernews:49401549",
+          "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+          "url": "https://twitter.com/argofowl/status/2091150597374537729",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T16:58:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 195,
+            "comments": 174,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49401549"
+          }
+        }
+      ],
+      "score": 4.5728137780560445,
+      "breakdown": {
+        "hnPoints": 1.6980695168411684,
+        "hnComments": 0.9738806392359105,
+        "mentions": 0.0,
+        "recency": 0.7008636219789655,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49407507",
+      "representativeId": "hackernews:49407507",
+      "items": [
+        {
+          "id": "hackernews:49407507",
+          "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+          "url": "https://xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model",
+          "source": "hackernews",
+          "publishedAt": "2026-08-23T10:02:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 61,
+            "comments": 21,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49407507"
+          }
+        }
+      ],
+      "score": 4.462900795592933,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.5828521095705937,
+        "mentions": 0.0,
+        "recency": 1.3522713367948045,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49399941",
+      "representativeId": "hackernews:49399941",
+      "items": [
+        {
+          "id": "hackernews:49399941",
+          "title": "Digging the grave of my skills: Hollywood creatives training AI to do their jobs",
+          "url": "https://theguardian.com/technology/2026/aug/22/the-hollywood-creatives-training-ai-to-do-their-jobs",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T14:13:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 70,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49399941"
+          }
+        }
+      ],
+      "score": 3.923155037441784,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.803778012190777,
+        "mentions": 0.0,
+        "recency": 0.6301419924786557,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49395638",
+      "representativeId": "hackernews:49395638",
+      "items": [
+        {
+          "id": "hackernews:49395638",
+          "title": "OpenAI cuts developer pricing for frontier GPT-5.6 Sol model by more than 20%",
+          "url": "https://reuters.com/technology/openai-cuts-developer-pricing-frontier-gpt-56-sol-model-by-more-than-20-2026-08-21",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T01:09:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49395638"
+          }
+        },
+        {
+          "id": "hackernews:49396590",
+          "title": "GPT 5.6 Sol 20% price reduction",
+          "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T04:33:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 90,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49396590"
+          }
+        }
+      ],
+      "score": 3.9070262416753714,
+      "breakdown": {
+        "hnPoints": 1.4512289931735118,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 0.43428898106866026,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49401229",
+      "representativeId": "hackernews:49401229",
+      "items": [
+        {
+          "id": "hackernews:49401229",
+          "title": "Anthropic IPO filing will show AI backlash as a risk factor, sources say",
+          "url": "https://cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T16:23:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49401229"
+          }
+        }
+      ],
+      "score": 3.875327777774173,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 0.6850024045754248,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49397947",
+      "representativeId": "hackernews:49397947",
+      "items": [
+        {
+          "id": "hackernews:49397947",
+          "title": "Embedded AI",
+          "url": "https://nostarch.com/embedded-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-22T09:07:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49397947"
+          }
+        }
+      ],
+      "score": 3.31377789904837,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.5178978949060999,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/22/linus-torvalds",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/22/linus-torvalds",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/22/linus-torvalds",
+          "title": "Quoting Linus Torvalds",
+          "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-22T21:04:26.000Z",
+          "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect those things have been trained by people who may not be quite as stubborn as I am. But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above. — Linus Torvalds , drm/xe: Don't hand out the flat CCS storage as usable VRAM Tags: linus-torvalds , linux , generative-ai , ai-assisted-programming , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.870530285014787,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8205302850147871,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/22/llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/22/llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/22/llm",
+          "title": "llm 0.33",
+          "url": "https://simonwillison.net/2026/Aug/22/llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-22T17:01:16.000Z",
+          "summary": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key . The Python EmbeddingModel.embed() , EmbeddingModel.embed_multi() , Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read self.key continue to work through a compatibility fallback. Thanks, ChrisJr404 . #757 , #1620 The embedding models now use the same pattern for keys that regular LLM models do. llm prompt -t/--template can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another. This unlocks a neat pattern where you can create templates that package a model with a set of default options: llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh llm \"Generate an SVG of a pelican riding a bicycle\" --save pelican # Combine and run the templates llm -t lhigh -t pelican Reasoning-capable Responses API models now support a reasoning_summary option with auto , concise , and detailed values. This can be used with llm openai endpoint --responses . #1600 This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API. Tags: annotated-release-notes , llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7519665388991734,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7019665388991736,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+          "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+          "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-22T21:46:56.000Z",
+          "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7432196195202534,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8432196195202535,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/22/more-than-just-code-review",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/22/more-than-just-code-review",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/22/more-than-just-code-review",
+          "title": "More than just code review",
+          "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-22T15:56:54.000Z",
+          "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software. Tags: code-review , coding-agents , generative-ai , agentic-engineering , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7235586141771637,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6735586141771639,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+          "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-22T19:00:00.000Z",
+          "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6575496959927762,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7575496959927763,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+          "title": "OpenAI says California should strengthen its AI safety bill",
+          "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-22T16:30:34.000Z",
+          "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5882708151083085,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6882708151083085,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+          "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+          "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-22T16:00:00.000Z",
+          "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.574900053087568,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6749000530875682,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49402232",
+    "hackernews:49401549",
+    "hackernews:49407507",
+    "hackernews:49399941",
+    "hackernews:49395638"
+  ]
+}
