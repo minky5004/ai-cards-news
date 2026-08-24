@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T12:56:52.674Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49407507",
+      "headline": "30분 만에 유료 앱 보안 뚫은 로컬 AI",
+      "highlight": [
+        "30분 만에",
+        "보안 뚫은"
+      ],
+      "body": "Qwen 3.8 27B가 클라우드 없이 유료 앱의 라이선스 검증을 30분 만에 해독하고 우회했습니다. 스스로 오류를 수정하며 정적 분석만으로 숨겨진 키를 복원했습니다. 고성능 보안 분석 AI가 개인 기기 영역으로 들어왔습니다.",
+      "sourceUrl": "https://xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model",
+      "sourceName": "XDA",
+      "imageUrl": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2026/02/lenovo-thinkstation-pgx-2.jpg?w=1600&h=900&fit=crop",
+      "publishedAt": "2026-08-23T10:02:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:49407785",
+      "headline": "AI 쓰기 싫으면 나가라… 꿈의 직장 관뒀다",
+      "highlight": [
+        "꿈의 직장"
+      ],
+      "body": "호주식축구연맹(AFL)의 가브리엘 보일은 마이크로소프트 코파일럿 도입을 거부했으나, 거부권이 없다는 서면 답변을 받았습니다. 회사가 강행 방침을 고수하자 그녀는 사직서를 냈습니다. AI 전면 도입에 따른 노동권과 프라이버시 논란이 커지고 있습니다.",
+      "sourceUrl": "https://smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
+      "sourceName": "The Sydney Morning Herald",
+      "imageUrl": "https://static.ffx.io/images/$zoom_1%2C$multiply_0.7554%2C$ratio_1.777778%2C$width_1059%2C$x_1735%2C$y_682/t_crop_custom/q_86%2Cf_auto/8fc11ce2d27e6a21d211604709ab3b2ad15f7e9e",
+      "publishedAt": "2026-08-23T10:54:35.000Z"
+    }
+  ]
+}

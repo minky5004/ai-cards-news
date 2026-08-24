@@ -1,0 +1,236 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026-08-24T12:55:07.288Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49407507",
+      "representativeId": "hackernews:49407507",
+      "items": [
+        {
+          "id": "hackernews:49407507",
+          "title": "I gave Qwen 3.8 27B a reverse-engineering job and it finished in 30 minutes",
+          "url": "https://xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model",
+          "source": "hackernews",
+          "publishedAt": "2026-08-23T10:02:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 159,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49407507"
+          }
+        }
+      ],
+      "score": 4.194371409247341,
+      "breakdown": {
+        "hnPoints": 1.6327796011872633,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 0.5329671615694547,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49407785",
+      "representativeId": "hackernews:49407785",
+      "items": [
+        {
+          "id": "hackernews:49407785",
+          "title": "'AI refuser' quit her dream job, and hopes others follow",
+          "url": "https://smh.com.au/technology/this-ai-refuser-quit-her-dream-job-and-hopes-others-follow-20260818-p60pdu.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-23T10:54:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49407785"
+          }
+        }
+      ],
+      "score": 3.59036421545368,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 0.5509601135823988,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+          "title": "Your executable is a SQLite database",
+          "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-24T11:38:15.000Z",
+          "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4777913994322422,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4277913994322424,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+          "title": "Kids outlearn AI—and we still don’t know why",
+          "url": "https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-24T09:00:00.000Z",
+          "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.339898403605972,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2898984036059722,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+          "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+          "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-23T20:24:52.000Z",
+          "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\" As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year\". This article also introduced me to the Ramp AI index , which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption. Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model: Opus 4.8: 28.0% Sonnet 4.6: 8.3% Fable 5: 8.0% Opus 4.6: 6.9% Sonnet 5: 3.6% Opus 5: 3.5% Opus 4.7: 1.7% Sonnet 4.5: 1.3% Haiku 4.5: 1.0% Opus 4.5: 0.7% Via Hacker News Tags: ai , openai , generative-ai , llms , anthropic , claude , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.844467389789003,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7944673897890031,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/23/drew-breunig",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/23/drew-breunig",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/23/drew-breunig",
+          "title": "Quoting Drew Breunig",
+          "url": "https://simonwillison.net/2026/Aug/23/drew-breunig",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-23T19:55:30.000Z",
+          "summary": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed. So we started to think about what work went where. — Drew Breunig , Fable & The End of the Free Lunch Tags: drew-breunig , anthropic , claude , llm-pricing , ai , llms , generative-ai , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8296338037232915,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7796338037232917,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated",
+          "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+          "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-23T15:00:00.000Z",
+          "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.544949201802986,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6449492018029861,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49407507",
+    "hackernews:49407785"
+  ]
+}
