@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T12:53:47.370Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49421554",
+      "headline": "AI 도움 받았더니 성적 17% 하락",
+      "highlight": [
+        "17% 하락"
+      ],
+      "body": "유펜의 연구에서 AI를 활용해 공부한 학생들은 교재만 본 집단보다 성적이 17% 낮게 나왔습니다. 젯브레인 분석에서도 AI 코딩 도구에 의존한 초보자는 이해 없이 착각에만 빠진 것으로 확인됐습니다. 직접 시행착오를 겪지 않으면 전문가 수준의 실력을 쌓을 수 없습니다.",
+      "sourceUrl": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+      "sourceName": "hackernews",
+      "imageUrl": "https://larsfaye.com/opengraph-expertise.jpg",
+      "publishedAt": "2026-08-24T15:52:33.000Z"
+    },
+    {
+      "clusterId": "hackernews:49421074",
+      "headline": "오픈AI가 파인튜닝 신규 이용을 막았다",
+      "highlight": [
+        "파인튜닝",
+        "막았다"
+      ],
+      "body": "오픈AI가 파인튜닝 플랫폼 종료 수순을 밟으며 신규 사용자 접근을 차단했습니다. 기존 사용자도 향후 수개월 동안만 새로운 학습 작업을 생성할 수 있습니다. 모든 미세조정 모델은 기반 모델이 폐기될 때까지 추론이 지원됩니다.",
+      "sourceUrl": "https://developers.openai.com/api/docs/pricing",
+      "sourceName": "OpenAI Developers",
+      "imageUrl": "https://developers.openai.com/og/api/docs/pricing.png",
+      "publishedAt": "2026-08-24T15:22:43.000Z"
+    },
+    {
+      "clusterId": "hackernews:49428318",
+      "headline": "4천만 달러로 최첨단 거대 AI를 만들었다",
+      "highlight": [
+        "4천만 달러"
+      ],
+      "body": "톰슨 로이터가 오픈소스 기반에 4천만 달러를 들여 자체 LLM '톰슨'을 공개했습니다. 수십 년간 쌓은 법률·세무 전문 데이터로 학습시켜 최첨단 프론티어 모델급 성능을 냅니다. 막대한 추론 비용 없이도 전문 분야에 특화된 고성능 AI를 자체 통제할 수 있게 되었습니다.",
+      "sourceUrl": "https://thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.thomsonreuters.com/content/dam/ewp-m/images/thomsonreuters/en/photography/reuters/rtr1zkvu-luke-macgregor-tr.jpg.transform/rect-768/q90/image.jpg",
+      "publishedAt": "2026-08-25T02:11:39.000Z"
+    },
+    {
+      "clusterId": "hackernews:49424387",
+      "headline": "AI가 단어 몇 개로 서버를 뚫는다",
+      "highlight": [
+        "서버를 뚫는다"
+      ],
+      "body": "AI가 뱉은 특정 토큰이 vLLM 등 추론 엔진을 건드려 서버 제어권을 탈취할 수 있습니다. 실제로 파서 결함 탓에 임의 코드가 실행되는 취약점(CVE-2025-9141)이 발견됐습니다. AI 보안의 방어선이 모델 내부에서 구동 인프라 소프트웨어로 이동 중입니다.",
+      "sourceUrl": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+      "sourceName": "hackernews",
+      "imageUrl": "https://boydkane.com/static/og-image.png",
+      "publishedAt": "2026-08-24T19:03:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:49417313",
+      "headline": "우리는 앞으로도 AI를 절대 쓰지 않겠다",
+      "highlight": [
+        "절대 쓰지 않겠다"
+      ],
+      "body": "소프트웨어 기업 코크가 모든 영역에서 AI를 영원히 쓰지 않겠다고 선언했습니다. 이들은 AI를 환각을 고칠 수 없는 거대한 자동완성 도구일 뿐이라 지적했습니다. 또한 데이터센터의 환경 파괴와 감시 문제를 비판하며 오직 인간의 창의성만 믿겠다고 밝혔습니다.",
+      "sourceUrl": "https://corkmac.app/our-ai-stance",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-24T09:32:32.000Z"
+    }
+  ]
+}

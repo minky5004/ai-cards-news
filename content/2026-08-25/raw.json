@@ -1,0 +1,808 @@
+{
+  "date": "2026-08-25",
+  "generatedAt": "2026-08-25T12:51:47.273Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 19,
+      "filtered": 25
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49421554",
+      "representativeId": "hackernews:49421554",
+      "items": [
+        {
+          "id": "hackernews:49421554",
+          "title": "Coding expertise is going to collapse from AI reliance",
+          "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T15:52:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 521,
+            "comments": 510,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49421554"
+          }
+        }
+      ],
+      "score": 4.86850094166053,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6685009416605301,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49421074",
+      "representativeId": "hackernews:49421074",
+      "items": [
+        {
+          "id": "hackernews:49421074",
+          "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T15:22:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 328,
+            "comments": 321,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49421074"
+          }
+        }
+      ],
+      "score": 4.720524460521396,
+      "breakdown": {
+        "hnPoints": 1.8647016254589133,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6558228350624824,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49428318",
+      "representativeId": "hackernews:49428318",
+      "items": [
+        {
+          "id": "hackernews:49428318",
+          "title": "Thomson Reuters Launches Its Own Frontier Model",
+          "url": "https://thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T02:11:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 124,
+            "comments": 52,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49428318"
+          }
+        }
+      ],
+      "score": 4.496642047821305,
+      "breakdown": {
+        "hnPoints": 1.553360035618055,
+        "hnComments": 0.7486448511604031,
+        "mentions": 0.0,
+        "recency": 0.9946371610428462,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49424387",
+      "representativeId": "hackernews:49424387",
+      "items": [
+        {
+          "id": "hackernews:49424387",
+          "title": "LLMs could control their host machines by exploiting inference engines",
+          "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T19:03:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 163,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49424387"
+          }
+        }
+      ],
+      "score": 4.424813255553744,
+      "breakdown": {
+        "hnPoints": 1.640723682632624,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 0.7554649264304969,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49417313",
+      "representativeId": "hackernews:49417313",
+      "items": [
+        {
+          "id": "hackernews:49417313",
+          "title": "We never use AI. For anything",
+          "url": "https://corkmac.app/our-ai-stance",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T09:32:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 98,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49417313"
+          }
+        }
+      ],
+      "score": 4.015757975829865,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.8664634468125141,
+        "mentions": 0.0,
+        "recency": 0.5238167918738992,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49415852",
+      "representativeId": "hackernews:49415852",
+      "items": [
+        {
+          "id": "hackernews:49415852",
+          "title": "OCR It – pull text out of un-copyable documents for your LLM",
+          "url": "https://github.com/thiagotigaz/ocr-it",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T06:25:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 134,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49415852"
+          }
+        }
+      ],
+      "score": 3.9076271512524836,
+      "breakdown": {
+        "hnPoints": 1.5781198611192067,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 0.4645708805262432,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49415907",
+      "representativeId": "hackernews:49415907",
+      "items": [
+        {
+          "id": "hackernews:49415907",
+          "title": "Anthropic Claude and API service outages",
+          "url": "https://status.claude.com/uptime",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T06:32:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 60,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49415907"
+          }
+        },
+        {
+          "id": "hackernews:49414934",
+          "title": "Why is Anthropic's public writing style so unlike Claude's?",
+          "url": "https://cmart.blog/claude-writing",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T03:32:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49414934"
+          }
+        }
+      ],
+      "score": 3.875713947154479,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.4666477416006979,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49418449",
+      "representativeId": "hackernews:49418449",
+      "items": [
+        {
+          "id": "hackernews:49418449",
+          "title": "Anthropic candidates face blunt money question",
+          "url": "https://axios.com/2026/08/24/scoop-anthropic-candidates-face-blunt-money-question",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T11:55:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49418449"
+          }
+        }
+      ],
+      "score": 3.7287972772386917,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 0.5742527121532226,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49424758",
+      "representativeId": "hackernews:49424758",
+      "items": [
+        {
+          "id": "hackernews:49424758",
+          "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
+          "url": "https://github.com/l3a0/claude-plugins",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T19:32:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49424758"
+          }
+        }
+      ],
+      "score": 3.670060955305706,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.7697563239141023,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49428303",
+      "representativeId": "hackernews:49428303",
+      "items": [
+        {
+          "id": "hackernews:49428303",
+          "title": "80% of developers find AI coding more addictive than helpful",
+          "url": "https://zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T02:09:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49428303"
+          }
+        }
+      ],
+      "score": 3.5156484859925863,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.9934994017220183,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49415405",
+      "representativeId": "hackernews:49415405",
+      "items": [
+        {
+          "id": "hackernews:49415405",
+          "title": "Elevated Errors for Multiple Models",
+          "url": "https://status.claude.com/incidents/vgz5psbjmt1h",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T05:12:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49415405"
+          }
+        }
+      ],
+      "score": 3.2368242716661326,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.4433733896104101,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49416553",
+      "representativeId": "hackernews:49416553",
+      "items": [
+        {
+          "id": "hackernews:49416553",
+          "title": "Most AI Work Can Wait",
+          "url": "https://tomtunguz.com/ai-execution-routing",
+          "source": "hackernews",
+          "publishedAt": "2026-08-24T08:03:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49416553"
+          }
+        }
+      ],
+      "score": 2.819600923630159,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49470817520387433,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "representativeId": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "source": "huggingface",
+          "publishedAt": "2026-08-25T11:39:24.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.7819058961573306,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4319058961573308,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "representativeId": "openai:https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "title": "Disrupting a new covert influence campaign from Russia",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "openai",
+          "publishedAt": "2026-08-25T00:00:00.000Z",
+          "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.414049429749228,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.914049429749228,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+          "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+          "url": "https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-25T09:00:00.000Z",
+          "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.3426611002307514,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2926611002307518,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/gradio-workflow-guide",
+      "representativeId": "huggingface:https://huggingface.co/blog/gradio-workflow-guide",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/gradio-workflow-guide",
+          "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+          "url": "https://huggingface.co/blog/gradio-workflow-guide",
+          "source": "huggingface",
+          "publishedAt": "2026-08-25T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.264049429749228,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.914049429749228,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+          "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+          "url": "https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-25T09:15:03.000Z",
+          "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2052075839685665,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3052075839685668,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/gpt-5-6-in-kiro",
+      "representativeId": "openai:https://openai.com/index/gpt-5-6-in-kiro",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/gpt-5-6-in-kiro",
+          "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+          "url": "https://openai.com/index/gpt-5-6-in-kiro",
+          "source": "openai",
+          "publishedAt": "2026-08-24T12:00:00.000Z",
+          "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.075815058592729,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5758150585927287,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+          "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-24T21:45:53.000Z",
+          "summary": "Young employment in AI-impacted fields down 19% compared to more AI-resistant occupations.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.888662347454532,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8386623474545323,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec",
+          "title": "Situational Awareness, star AI hedge fund that nearly imploded, now being probed by the SEC",
+          "url": "https://techcrunch.com/2026/08/24/situational-awareness-star-ai-hedge-fund-that-nearly-imploded-now-being-probed-by-the-sec",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-25T00:23:12.000Z",
+          "summary": "The AI hedge fund went from \"the talk of Wall Street\" to \"subject of federal subpoenas\" faster than you can say \"diversify your portfolio.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.827761299194234,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9277612991942341,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china",
+          "title": "Nvidia senior manager linked to Supermicro scheme smuggling AI servers to China",
+          "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-24T16:41:45.000Z",
+          "summary": "Nvidia worker indicted after Jensen Huang scolded Supermicro for AI server smuggling.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.739946811646798,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6899468116467982,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/24/llm-anthropic",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/24/llm-anthropic",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/24/llm-anthropic",
+          "title": "llm-anthropic 0.27",
+          "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-24T16:27:04.000Z",
+          "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7334754267788552,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6834754267788553,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies",
+          "title": "How to encourage smarter AI use in the classroom",
+          "url": "https://technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-24T14:20:19.000Z",
+          "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon their release a few years ago. Suddenly, students carried an app in their phones that could magically answer almost any…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6800770920301566,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6300770920301568,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+          "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+          "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-24T18:03:55.000Z",
+          "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.627307470525217,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7273074705252172,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+          "title": "Your executable is a SQLite database",
+          "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-24T11:38:15.000Z",
+          "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.617832974361208,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5678329743612082,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+          "title": "Kids outlearn AI—and we still don’t know why",
+          "url": "https://technologyreview.com/2026/08/24/1141740/kids-machines-language-learning",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-24T09:00:00.000Z",
+          "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. Now there are two. Four short years after the release of ChatGPT,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5629928975861662,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5129928975861664,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics",
+          "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+          "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-24T15:24:18.000Z",
+          "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5564896130836332,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6564896130836333,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+          "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+          "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-24T15:00:00.000Z",
+          "summary": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5463305501153757,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6463305501153759,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+          "title": "Hugging Face reportedly in talks to be acquired for $13B",
+          "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-24T13:47:26.000Z",
+          "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5169188921188348,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6169188921188349,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49421554",
+    "hackernews:49421074",
+    "hackernews:49428318",
+    "hackernews:49424387",
+    "hackernews:49417313"
+  ]
+}
