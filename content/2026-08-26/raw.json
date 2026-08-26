@@ -1,0 +1,1107 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T12:56:55.024Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 27,
+      "filtered": 22
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49446422",
+      "representativeId": "hackernews:49446422",
+      "items": [
+        {
+          "id": "hackernews:49446422",
+          "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+          "url": "https://bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+          "source": "hackernews",
+          "publishedAt": "2026-08-26T10:04:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 201,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49446422"
+          }
+        }
+      ],
+      "score": 5.097381819425262,
+      "breakdown": {
+        "hnPoints": 1.7077703206818444,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 1.3432267542209861,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49434378",
+      "representativeId": "hackernews:49434378",
+      "items": [
+        {
+          "id": "hackernews:49434378",
+          "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+          "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T14:06:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 526,
+            "comments": 334,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49434378"
+          }
+        }
+      ],
+      "score": 4.822275655017438,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6222756550174376,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49435728",
+      "representativeId": "hackernews:49435728",
+      "items": [
+        {
+          "id": "hackernews:49435728",
+          "title": "How much of HN is AI?",
+          "url": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T15:23:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 270,
+            "comments": 329,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49435728"
+          }
+        },
+        {
+          "id": "hackernews:49435675",
+          "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+          "url": "https://github.com/ThinkOffApp/CarWatch",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T15:20:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 143,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49435675"
+          }
+        }
+      ],
+      "score": 4.656380928621255,
+      "breakdown": {
+        "hnPoints": 1.8023077961790344,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6540731324422204,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49445252",
+      "representativeId": "hackernews:49445252",
+      "items": [
+        {
+          "id": "hackernews:49445252",
+          "title": "Disrupting a new covert influence campaign from Russia",
+          "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+          "source": "hackernews",
+          "publishedAt": "2026-08-26T07:31:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49445252"
+          }
+        }
+      ],
+      "score": 4.60123754380632,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 1.2172840311526758,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49432317",
+      "representativeId": "hackernews:49432317",
+      "items": [
+        {
+          "id": "hackernews:49432317",
+          "title": "Qwen 3.8-Flash-Next releasing tomorrow (125B a6B)",
+          "url": "https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T11:49:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 328,
+            "comments": 162,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49432317"
+          }
+        }
+      ],
+      "score": 4.595334931523441,
+      "breakdown": {
+        "hnPoints": 1.8647016254589133,
+        "hnComments": 0.9604860156288831,
+        "mentions": 0.0,
+        "recency": 0.5701472904356443,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49435147",
+      "representativeId": "hackernews:49435147",
+      "items": [
+        {
+          "id": "hackernews:49435147",
+          "title": "AI is hitting entry-level jobs hardest, Stanford study finds",
+          "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T14:48:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 142,
+            "comments": 166,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49435147"
+          }
+        }
+      ],
+      "score": 4.401359324143162,
+      "breakdown": {
+        "hnPoints": 1.5966411735155095,
+        "hnComments": 0.9650574313838309,
+        "mentions": 0.0,
+        "recency": 0.6396607192438217,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49446653",
+      "representativeId": "hackernews:49446653",
+      "items": [
+        {
+          "id": "hackernews:49446653",
+          "title": "Debian polls its developers on AI: permit or ban?",
+          "url": "https://theregister.com/ai-and-ml/2026/08/26/debian-polls-its-developers-on-whether-to-burn-the-bots-tame-the-bots-or-let-em-loose/5292270",
+          "source": "hackernews",
+          "publishedAt": "2026-08-26T10:31:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 41,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49446653"
+          }
+        }
+      ],
+      "score": 4.396116775297237,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.7047812040004495,
+        "mentions": 0.0,
+        "recency": 1.366442822870503,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49434291",
+      "representativeId": "hackernews:49434291",
+      "items": [
+        {
+          "id": "hackernews:49434291",
+          "title": "Anthropic tells staff to work from home due to possible security team strike",
+          "url": "https://businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T14:00:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 122,
+            "comments": 127,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49434291"
+          }
+        }
+      ],
+      "score": 4.28312759284147,
+      "breakdown": {
+        "hnPoints": 1.548170907766744,
+        "hnComments": 0.9149069020237386,
+        "mentions": 0.0,
+        "recency": 0.6200497830509866,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49443871",
+      "representativeId": "hackernews:49443871",
+      "items": [
+        {
+          "id": "hackernews:49443871",
+          "title": "Analyzing student votes across AI models for college essay help",
+          "url": "https://studyarena.com/blog/chatgpt-vs-claude-vs-gemini-college-essays-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-08-26T03:23:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49443871"
+          }
+        }
+      ],
+      "score": 4.244684529643293,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 1.0383763386400537,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49432879",
+      "representativeId": "hackernews:49432879",
+      "items": [
+        {
+          "id": "hackernews:49432879",
+          "title": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+          "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T12:33:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 116,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49432879"
+          }
+        }
+      ],
+      "score": 4.222591518976226,
+      "breakdown": {
+        "hnPoints": 1.5320816076690804,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 0.5862076641727402,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49428318",
+      "representativeId": "hackernews:49428318",
+      "items": [
+        {
+          "id": "hackernews:49428318",
+          "title": "Thomson Reuters Launches Its Own Frontier Model",
+          "url": "https://thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T02:11:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49428318"
+          }
+        }
+      ],
+      "score": 3.9247820627124588,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 0.39342476008263627,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49436536",
+      "representativeId": "hackernews:49436536",
+      "items": [
+        {
+          "id": "hackernews:49436536",
+          "title": "Anthropic Sees over $30T in Potential Revenue",
+          "url": "https://wsj.com/tech/ai/anthropic-expected-to-tell-investors-it-sees-over-30-trillion-in-potential-revenue-a611efea",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T16:20:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49436536"
+          }
+        }
+      ],
+      "score": 3.8912909857767852,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 0.6782263182043675,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/jalapeno-first-results",
+      "representativeId": "openai:https://openai.com/index/jalapeno-first-results",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/jalapeno-first-results",
+          "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+          "url": "https://openai.com/index/jalapeno-first-results",
+          "source": "openai",
+          "publishedAt": "2026-08-25T07:00:00.000Z",
+          "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
+          "title": "OpenAI’s Jalapeño chip is built for fast inference at scale, benchmarks show",
+          "url": "https://techcrunch.com/2026/08/25/openais-jalapeno-chip-is-built-for-fast-inference-at-scale-benchmarks-show",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-25T14:22:04.000Z",
+          "summary": "Tested on SemiAnalysis’ InferenceX benchmark, Jalapeño registered both more tokens per user and more throughput per kilowatt than the currently available state-of-the art.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+          "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+          "url": "https://theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-25T14:00:00.000Z",
+          "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and higher throughput, as AI systems […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.7953787472514113,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.6287120805847446,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49439489",
+      "representativeId": "hackernews:49439489",
+      "items": [
+        {
+          "id": "hackernews:49439489",
+          "title": "OpenAI's Head of Data Centers Has Left the Company",
+          "url": "https://wsj.com/tech/ai/openais-head-of-data-centers-has-left-company-6d24fd83",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T19:37:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 15,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49439489"
+          }
+        }
+      ],
+      "score": 3.702718725711551,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.5228039440135649,
+        "mentions": 0.0,
+        "recency": 0.7698654221166565,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-4-2",
+          "title": "Granite 4.2 LLMs: How They're Built",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+          "source": "huggingface",
+          "publishedAt": "2026-08-25T15:14:14.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms",
+          "title": "IBM's new Granite 4.2 models ride the wave of interest in local LLMs",
+          "url": "https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-26T11:10:49.000Z",
+          "summary": "The focus is on agentic capability and predictable enterprise deployment.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 3.5845901483603733,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4012568150270397,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "hackernews:49435781",
+      "representativeId": "hackernews:49435781",
+      "items": [
+        {
+          "id": "hackernews:49435781",
+          "title": "Warnock: Harnessing GPU geometry amplification for vector graphics",
+          "url": "https://dl.acm.org/doi/pdf/10.1145/3820012",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T15:26:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49435781"
+          }
+        }
+      ],
+      "score": 3.3762855587944625,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.6553617440715442,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold",
+          "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
+          "url": "https://technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-26T07:01:00.000Z",
+          "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla of expensive boats bob in…",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+          "title": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
+          "url": "https://theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-26T11:07:40.000Z",
+          "summary": "Bill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI optimist, the Microsoft cofounder is now deeply pessimistic about what AI means for our collective future. Having been conspicuously quiet on AI issues recently, Gates is back with a nearly 6,000-word essay seeking […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.281760118166794,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3984267848334608,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:49428303",
+      "representativeId": "hackernews:49428303",
+      "items": [
+        {
+          "id": "hackernews:49428303",
+          "title": "80% of developers find AI coding more addictive than helpful",
+          "url": "https://zdnet.com/article/i-cant-stop-80-of-developers-find-ai-coding-more-addictive-than-helpful",
+          "source": "hackernews",
+          "publishedAt": "2026-08-25T02:09:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49428303"
+          }
+        }
+      ],
+      "score": 3.07509022882991,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.39297472392336064,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/loveholidays",
+      "representativeId": "openai:https://openai.com/index/loveholidays",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/loveholidays",
+          "title": "How loveholidays is making everyone a builder with Codex",
+          "url": "https://openai.com/index/loveholidays",
+          "source": "openai",
+          "publishedAt": "2026-08-26T00:00:00.000Z",
+          "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4110453948504933,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9110453948504935,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+          "title": "Arga is building a better way to train enterprise AI agents",
+          "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-26T12:55:28.000Z",
+          "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them",
+          "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+          "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-26T11:00:00.000Z",
+          "summary": "Runable says 60%–70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3986043432019324,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4986043432019327,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses",
+          "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+          "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-26T12:00:00.000Z",
+          "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3461944181764567,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4461944181764568,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1141949/editors-letter-september-2026",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1141949/editors-letter-september-2026",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1141949/editors-letter-september-2026",
+          "title": "Raised on AI",
+          "url": "https://technologyreview.com/2026/08/26/1141949/editors-letter-september-2026",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-26T09:00:00.000Z",
+          "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet. Fast-forward a couple…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.338412753335119,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2884127533351193,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests",
+          "title": "AI models flub these intelligence tests. Can you fare any better?",
+          "url": "https://technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-26T09:00:00.000Z",
+          "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.338412753335119,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2884127533351193,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/26/paul-dix",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/26/paul-dix",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/26/paul-dix",
+          "title": "Quoting Paul Dix",
+          "url": "https://simonwillison.net/2026/Aug/26/paul-dix",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-26T08:07:55.000Z",
+          "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works. — Paul Dix , The end of programming Tags: coding-agents , ai-assisted-programming , generative-ai , bun , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.296056544672581,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.246056544672581,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "representativeId": "openai:https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "title": "The full stack behind abundant intelligence",
+          "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+          "source": "openai",
+          "publishedAt": "2026-08-25T07:05:00.000Z",
+          "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.974927773448146,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4749277734481462,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call",
+          "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+          "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-26T03:30:00.000Z",
+          "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9424941520927845,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0424941520927846,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3",
+          "title": "EVE Online: The Move to Python 3 Begins!",
+          "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-25T22:59:30.000Z",
+          "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3. There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented Scheduling in Carbon: Leaving Stackless Python Behind describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) carbonengine/scheduler library. Via Lobster.rs Tags: eve-online , migrations , python , python3 , stackless",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9263483288216388,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.876348328821639,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "representativeId": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+          "source": "huggingface",
+          "publishedAt": "2026-08-25T11:39:24.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.916384663394195,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5663846633941949,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames",
+          "title": "World humanoid robot games show runners breaking records, bursting into flames",
+          "url": "https://arstechnica.com/ai/2026/08/world-humanoid-robot-games-show-runners-breaking-records-bursting-into-flames",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-25T20:59:03.000Z",
+          "summary": "Record-breaking robot races are less substantial than household chore challenges.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.861154452385563,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8111544523855632,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say",
+          "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+          "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-26T00:40:59.000Z",
+          "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8353267652073313,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9353267652073314,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+          "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
+          "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-26T00:06:20.000Z",
+          "summary": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8147561048763017,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9147561048763018,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs",
+          "title": "AI won’t replace radiologists, but it will dramatically change their jobs",
+          "url": "https://arstechnica.com/health/2026/08/ai-wont-replace-radiologists-but-it-will-dramatically-change-their-jobs",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-25T15:10:03.000Z",
+          "summary": "A pioneering AI scientist once predicted computers would replace human radiologists. They haven't.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.698375014495738,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6483750144957381,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding",
+          "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+          "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-25T19:03:47.000Z",
+          "summary": "The company's new fundraising total now stands at $232 million.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6533123857596865,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7533123857596866,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference",
+          "title": "Apple's new desktop computers are designed specifically for local AI development",
+          "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-25T13:00:11.000Z",
+          "summary": "Folks have been daisy-chaining Macs for AI—this refresh keeps that in mind.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6465245789139384,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5965245789139386,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+          "title": "Claude Cowork finally remembers what you told the app in chat",
+          "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-25T17:50:33.000Z",
+          "summary": "Anthropic is giving Claude a shared memory across chat and Cowork, so users no longer have to repeatedly brief the AI on projects, preferences, and other context.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6187248697650323,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7187248697650322,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+          "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+          "url": "https://technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-08-25T09:00:00.000Z",
+          "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.561306940003353,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5113069400033532,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
+          "title": "Accel-backed Keenable is indexing the web for AI agents",
+          "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-25T13:00:00.000Z",
+          "summary": "Now exiting stealth mode with a $26 million seed round, Keenable has been building a vast web search index for AI agents.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4964543936507146,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5964543936507147,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+          "title": "‘The world seems to be ready’: An interview with OpenAI head of product Thibault Sottiaux",
+          "url": "https://techcrunch.com/2026/08/25/the-world-seems-to-be-ready-an-interview-with-openai-head-of-product-thibault-sottiaux",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-25T12:00:00.000Z",
+          "summary": "TechCrunch talks agents, UX, and reporting to Greg Brockman with OpenAI's head of product.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4739226351909613,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5739226351909614,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+          "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+          "url": "https://theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-25T09:15:03.000Z",
+          "summary": "Alabama's attorney general issued a subpoena to OpenAI on Monday as part of an investigation into how one of its AI agents escaped a supposedly secure testing environment and autonomously hacked another company last month. The investigation seeks to determine whether OpenAI's safety practices violated state consumer protection laws and pose a risk to Alabama […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4162696515807642,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5162696515807642,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49446422",
+    "hackernews:49434378",
+    "hackernews:49435728",
+    "hackernews:49445252",
+    "hackernews:49432317"
+  ]
+}

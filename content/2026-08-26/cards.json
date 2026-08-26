@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T12:57:37.063Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49434378",
+      "headline": "오픈AI 자체 칩이 엔비디아를 제쳤다",
+      "highlight": [
+        "엔비디아를 제쳤다"
+      ],
+      "body": "오픈AI가 16개월 만에 자체 개발한 추론 칩 '할라페뇨'를 공개했습니다. 전력 대비 성능 측정에서 엔비디아의 차세대 칩 블랙웰을 전력 효율 면에서 제쳤습니다. 데이터센터 전력 난이 심각한 상황에서 자체 칩을 통해 서비스 운영 효율성을 극대화할 전망입니다.",
+      "sourceUrl": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!FdaK!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f308659-4472-47f2-bb48-10442949f1a6_1535x1024.png",
+      "publishedAt": "2026-08-25T14:06:02.000Z"
+    },
+    {
+      "clusterId": "hackernews:49435728",
+      "headline": "해커뉴스 게시글 60%를 AI가 채웠다",
+      "highlight": [
+        "60%를",
+        "AI가"
+      ],
+      "body": "개발자 대표 커뮤니티 해커뉴스 게시물의 60%가 AI 관련 주제거나 AI가 쓴 글로 확인됐습니다. 2026년 6월 조사에 따르면 AI 피드 비중은 지난 2월 40%에서 60%까지 뛰었습니다. 기술 공유 사이트마저 AI가 생성한 글과 댓글에 점령당하고 있다는 지적이 나옵니다.",
+      "sourceUrl": "https://blog.coredump.cx/p/how-much-of-hn-is-ai",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!uOdH!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53eb781a-accb-4de0-9d65-7cc0ea08f1b7_2437x1746.png",
+      "publishedAt": "2026-08-25T15:23:41.000Z"
+    }
+  ]
+}
