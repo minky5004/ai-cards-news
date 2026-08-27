@@ -1,0 +1,67 @@
+{
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-27T21:59:21.857Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49454314",
+      "headline": "엔비디아 허깅페이스 130억 달러 인수설",
+      "highlight": [
+        "130억 달러"
+      ],
+      "body": "엔비디아가 AI 플랫폼 허깅페이스를 130억 달러에 인수 협상 중이라는 보도가 나왔습니다. 빅테크의 자체 칩 개발에 맞서 오픈소스 생태계를 우군으로 확보하려는 전략입니다. 인수 성사 시 AI 칩 독점과 클라우드 시장 지배력을 한층 강화하게 됩니다.",
+      "sourceUrl": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
+      "publishedAt": "2026-08-26T19:15:23.000Z"
+    },
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "headline": "말실수까지 알아서 고쳐주는 구글 음성 AI",
+      "highlight": [
+        "말실수까지",
+        "구글 음성 AI"
+      ],
+      "body": "구글이 새로 공개한 '제미나이 3.5 트랜스크라이브'는 단순 음성 인식을 넘어 맥락을 이해합니다. \"화요일, 아니 수요일\"처럼 말을 중간에 고쳐도 정돈된 텍스트로 바꿔 줍니다. 기존 모델보다 처리 속도가 70% 빨라졌으며 85개 넘는 언어를 자동 감지합니다.",
+      "sourceUrl": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_3-5_transcribe.width-1300.jpg",
+      "publishedAt": "2026-08-26T17:01:00.000Z"
+    },
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "headline": "구글이 AI 영상 길이를 40초까지 늘렸다",
+      "highlight": [
+        "40초까지"
+      ],
+      "body": "구글이 개발자를 위한 제미나이 옴니 1.1 플래시를 공개했습니다. 이전 맥락을 분석해 영상을 최대 40초까지 연장하고 4K 고화질로 출력합니다. 360p 저화질 미리보기로 생성 비용을 3분의 1로 줄여 더 빠르게 비디오 앱을 개발할 수 있습니다.",
+      "sourceUrl": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Omni_1-1_Flash_hero.width-1300.png",
+      "publishedAt": "2026-08-27T16:11:32.000Z"
+    },
+    {
+      "clusterId": "hackernews:49448210",
+      "headline": "125B 성능을 6B만 써서 돌린다",
+      "highlight": [
+        "125B",
+        "6B만"
+      ],
+      "body": "Qwen이 오픈 멀티모달 모델 'Qwen3.8-Flash-Next'를 공개했습니다. 전체 1250억 파라미터 중 60억 개만 활성화해 작동 효율을 대폭 끌어올렸습니다. 출시 예정인 Qwen4의 핵심 아키텍처를 미리 경험해볼 수 있습니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next",
+      "sourceName": "Simon Willison’s Weblog",
+      "publishedAt": "2026-08-26T12:52:12.000Z"
+    },
+    {
+      "clusterId": "hackernews:49446422",
+      "headline": "차트 1위 싹쓸이하고 주가 12% 띄웠다",
+      "highlight": [
+        "주가 12%"
+      ],
+      "body": "온라인 사용량 차트 1위에 오른 AI 모델 'Ox Alpha'의 주인이 중국 Z.AI로 밝혀졌습니다. Z.AI는 이 모델을 백만 토큰당 최대 0.5달러라는 초저가로 제공하며 앤트로픽의 입지를 위협하고 있습니다. 딥시크에 이어 저비용 AI의 공세가 거세지고 있습니다.",
+      "sourceUrl": "https://bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "sourceName": "Bloomberg.com",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iWzElF7DLZ88/v1/1200x800.jpg",
+      "publishedAt": "2026-08-26T10:04:55.000Z"
+    }
+  ]
+}
