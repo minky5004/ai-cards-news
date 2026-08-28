@@ -70,8 +70,9 @@ jobs:
       # 전부였고, 2026-08-27 의 9시간 57분 지연이 그 턱을 넘었다 — 08-27 이름으로 돈 실행이
       # 없어 그날이 아카이브에서 통째로 비었다.
       #
-      # 정시 실행에서는 KST 방식과 결과가 같다. 갈리는 것은 12:00 UTC 이전에 손으로 돌린
-      # 실행뿐이고, 그 자리는 date 입력으로 날짜를 준다.
+      # 두 방식이 같은 날짜를 내는 구간은 실행 시각 12:00~15:00 UTC 뿐이다. 15:00 이후로
+      # 밀린 예약 실행이 갈리는 것이 이 전환의 목적이다. 12:00 이전에 손으로 돌린 실행은
+      # 앵커가 전날로 떨어지므로 그 자리는 date 입력으로 날짜를 준다.
       - name: 날짜 확정
         id: date
         run: |
@@ -247,12 +248,13 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-          DATE: ${{ needs.pipeline.outputs.date }}
+          DATE: ${{ needs.pipeline.outputs.date || inputs.date }}
           PIPELINE_RESULT: ${{ needs.pipeline.result }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           # 날짜 확정 단계에 닿기 전에 죽으면 출력이 비어 있다. 그대로 두면 제목이
-          # "실패 — " 로 끝나 날짜별 중복 억제가 통째로 어긋난다.
+          # "실패 — " 로 끝나 날짜별 중복 억제가 통째로 어긋난다. 손으로 준 날짜가 있으면
+          # env 가 그것을 먼저 받으므로, 여기 앵커는 예약 실행이 일찍 죽은 경우에만 쓰인다.
           [ -n "$DATE" ] || DATE=$(date -u -d '12 hours ago' +%Y-%m-%d)
 
           if [ "$PIPELINE_RESULT" = "success" ]; then
