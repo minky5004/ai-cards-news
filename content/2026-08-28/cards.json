@@ -1,0 +1,66 @@
+{
+  "date": "2026-08-28",
+  "generatedAt": "2026-08-28T21:53:32.477Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49473522",
+      "headline": "앤트로픽 차단한 트럼프 법원이 불법이라 판결",
+      "highlight": [
+        "불법이라 판결"
+      ],
+      "body": "미 연방법원이 앤트로픽을 제재한 트럼프 행정부의 조치를 불법 보복이라며 무효화했습니다. 앤트로픽이 AI의 살상용 무기 활용 제한을 풀지 않자 안보 위협이라며 블랙리스트에 올렸던 사건입니다. 이번 판결로 미 정부 기관 및 계약자들의 클로드 AI 사용 제약이 전면 해제되었습니다.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+      "publishedAt": "2026-08-28T02:03:38.000Z"
+    },
+    {
+      "clusterId": "hackernews:49479878",
+      "headline": "GLM-5.3 코딩 성능 50% 급상승",
+      "highlight": [
+        "코딩 성능 50%"
+      ],
+      "body": "GLM-5.3이 사후 학습 개선만으로 기존 모델보다 코딩 성능을 50% 올렸습니다. 동일한 베이스 모델을 쓰고도 복잡한 코딩 문제 해결과 취약점 탐지 능력이 대폭 향상되었습니다. 오픈소스 최고 수준의 성능으로 로컬 환경에서도 고성능 AI 개발이 가능해집니다.",
+      "sourceUrl": "https://huggingface.co/zai-org/GLM-5.3",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/GLM-5.3.png",
+      "publishedAt": "2026-08-28T15:20:13.000Z"
+    },
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "headline": "구글이 AI 영상 길이를 40초로 늘렸다",
+      "highlight": [
+        "40초로"
+      ],
+      "body": "구글이 개발자용 영상 AI 모델 '제미나이 옴니 1.1 플래시'를 발표했습니다. 맥락을 10초까지 분석해 기존 영상을 최대 40초까지 자연스럽게 이어줍니다. 360p 미리보기로 제작 속도를 60% 올리고 최종본은 4K로 출력해 작업 효율을 높였습니다.",
+      "sourceUrl": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Omni_1-1_Flash_hero.width-1300.png",
+      "publishedAt": "2026-08-27T16:11:32.000Z"
+    },
+    {
+      "clusterId": "hackernews:49468834",
+      "headline": "앤트로픽이 장비 연동을 몇 분 만에 끝냈다",
+      "highlight": [
+        "몇 분 만에"
+      ],
+      "body": "앤트로픽이 AI 에이전트가 실험 장비를 제어하는 표준 규격 'MHS'를 공개했습니다. 기존에는 수개월 걸리던 연결 작업을 몇 시간이나 몇 분 만에 끝낼 수 있게 됐습니다. 이로써 연구원들은 AI로 24시간 멈추지 않는 자율 실험을 수행할 수 있습니다.",
+      "sourceUrl": "https://anthropic.com/news/model-hardware-standard-research-preview",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn.sanity.io/images/4zrzovbb/website/5008271abbababe59f4fbb01998697f7dd0b5b60-1280x720.jpg",
+      "publishedAt": "2026-08-27T18:04:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:49475079",
+      "headline": "AI 단속 로봇에 구글서 쫓겨난 게임",
+      "highlight": [
+        "AI 단속 로봇"
+      ],
+      "body": "마이크로소프트를 대행하는 Tracer.AI가 오픈소스 게임 '루안티'를 마인크래프트 저작권 침해로 오인해 구글 플레이에서 삭제시켰습니다. 루안티 측은 침해 자산이 없다고 반박 통지를 제출했습니다. 사람의 검증 없는 AI 단속의 폐해가 드러나고 있습니다.",
+      "sourceUrl": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
+      "sourceName": "Luanti Blog",
+      "imageUrl": "https://blog.luanti.org/static/blog/2026_dmca/cover.webp",
+      "publishedAt": "2026-08-28T06:33:57.000Z"
+    }
+  ]
+}
