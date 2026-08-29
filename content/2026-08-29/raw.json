@@ -1,0 +1,605 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T16:24:14.561Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 18,
+      "filtered": 8
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49479878",
+      "representativeId": "hackernews:49479878",
+      "items": [
+        {
+          "id": "hackernews:49479878",
+          "title": "GLM-5.3 is now open-weight",
+          "url": "https://huggingface.co/zai-org/GLM-5.3",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T15:20:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 752,
+            "comments": 260,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49479878"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
+          "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+          "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-28T18:19:40.000Z",
+          "summary": "There's a lot of capital pouring into the business of giving models away.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.674380860018276,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6410475266849435,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49489982",
+      "representativeId": "hackernews:49489982",
+      "items": [
+        {
+          "id": "hackernews:49489982",
+          "title": "Debian votes to allow \"responsible use of generative AI\"",
+          "url": "https://lwn.net/Articles/1091231",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T14:02:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 254,
+            "comments": 198,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49489982"
+          }
+        }
+      ],
+      "score": 5.350117361429006,
+      "breakdown": {
+        "hnPoints": 1.7827295006487272,
+        "hnComments": 0.9981143676428283,
+        "mentions": 0.0,
+        "recency": 1.3692734931374504,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "representativeId": "openai:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "title": "Our decision on Cursor following its acquisition by SpaceX",
+          "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+          "source": "openai",
+          "publishedAt": "2026-08-28T06:00:00.000Z",
+          "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+          "trust": 1.0,
+          "signals": {
+            "points": 695,
+            "comments": 414,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49486172"
+          }
+        }
+      ],
+      "score": 4.898769419482129,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.39876941948212824,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49477055",
+      "representativeId": "hackernews:49477055",
+      "items": [
+        {
+          "id": "hackernews:49477055",
+          "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+          "url": "https://reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T11:25:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 325,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49477055"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+          "title": "Trump blacklisting of \"woke\" Anthropic deemed illegal by federal judge",
+          "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-28T18:07:55.000Z",
+          "summary": "Anthropic refused to support lethal autonomous warfare and mass surveillance.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 4.7927213175836245,
+      "breakdown": {
+        "hnPoints": 1.861754561015803,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6362314512277056,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49475079",
+      "representativeId": "hackernews:49475079",
+      "items": [
+        {
+          "id": "hackernews:49475079",
+          "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+          "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T06:33:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 499,
+            "comments": 150,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49475079"
+          }
+        }
+      ],
+      "score": 4.5529774844061865,
+      "breakdown": {
+        "hnPoints": 1.9993572046772194,
+        "hnComments": 0.9460666365214079,
+        "mentions": 0.0,
+        "recency": 0.4075536432075594,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49485416",
+      "representativeId": "hackernews:49485416",
+      "items": [
+        {
+          "id": "hackernews:49485416",
+          "title": "I accidentally turned LLM memory into program analysis",
+          "url": "https://pwning.systems/posts/llm-memory-program-analysis",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T23:27:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 223,
+            "comments": 65,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49485416"
+          }
+        }
+      ],
+      "score": 4.512238297666315,
+      "breakdown": {
+        "hnPoints": 1.7410290965389135,
+        "hnComments": 0.7900082711932495,
+        "mentions": 0.0,
+        "recency": 0.781200929934152,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49486081",
+      "representativeId": "hackernews:49486081",
+      "items": [
+        {
+          "id": "hackernews:49486081",
+          "title": "StemDeck, a free, open-source and local AI stem separator",
+          "url": "https://github.com/stemdeckapp/stemdeck",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T01:24:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 169,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49486081"
+          }
+        }
+      ],
+      "score": 4.41605116444765,
+      "breakdown": {
+        "hnPoints": 1.6522836909850247,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.841832479555153,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49477212",
+      "representativeId": "hackernews:49477212",
+      "items": [
+        {
+          "id": "hackernews:49477212",
+          "title": "Migrating to HTTPX2",
+          "url": "https://github.com/openai/openai-python/blob/main/httpx2.md",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T11:51:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 206,
+            "comments": 93,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49477212"
+          }
+        }
+      ],
+      "score": 4.271959075190942,
+      "breakdown": {
+        "hnPoints": 1.7156367016191527,
+        "hnComments": 0.8566912257611031,
+        "mentions": 0.0,
+        "recency": 0.4996311478106862,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49484925",
+      "representativeId": "hackernews:49484925",
+      "items": [
+        {
+          "id": "hackernews:49484925",
+          "title": "Identifying fake cosmetics using AI",
+          "url": "https://groverlab.org/hnbfpr/2026-08-26-ai-counterfeit-cosmetics.html",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T22:18:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49484925"
+          }
+        }
+      ],
+      "score": 3.8659945119834678,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.7472168558214828,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49486494",
+      "representativeId": "hackernews:49486494",
+      "items": [
+        {
+          "id": "hackernews:49486494",
+          "title": "I'm the Guy Who Destroys Antique Books After We Scan Them into Our Company's AI",
+          "url": "https://mcsweeneys.net/articles/im-the-guy-who-destroys-antique-books-after-we-scan-them-into-our-companys-insatiable-ai-platform",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T02:58:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49486494"
+          }
+        }
+      ],
+      "score": 3.8628308017265987,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.894173492156966,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49480449",
+      "representativeId": "hackernews:49480449",
+      "items": [
+        {
+          "id": "hackernews:49480449",
+          "title": "Nvidia Insists It Can Keep Printing Money to Fund the AI Boom",
+          "url": "https://wsj.com/tech/ai/nvidia-insists-it-can-keep-printing-money-to-fund-the-ai-boom-195e7d5e",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T15:57:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49480449"
+          }
+        }
+      ],
+      "score": 3.7538336982329237,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 0.5852081410287914,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49477311",
+      "representativeId": "hackernews:49477311",
+      "items": [
+        {
+          "id": "hackernews:49477311",
+          "title": "AI Agent Has Root",
+          "url": "https://infernalcode.com/posts/your-ai-agent-has-root",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T12:03:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49477311"
+          }
+        }
+      ],
+      "score": 3.6937986503040086,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.5034347411201243,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49482925",
+      "representativeId": "hackernews:49482925",
+      "items": [
+        {
+          "id": "hackernews:49482925",
+          "title": "The Analytical AI Handbook",
+          "url": "https://handbook.sutro.sh",
+          "source": "hackernews",
+          "publishedAt": "2026-08-28T19:01:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49482925"
+          }
+        }
+      ],
+      "score": 3.311206636562679,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.6586117426284085,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+          "title": "Nvidia’s AI advantage is moving beyond the GPU",
+          "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-29T13:00:00.000Z",
+          "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2157167214270874,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3157167214270875,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+          "title": "Musicians-turned-detectives are hunting for AI grifters",
+          "url": "https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-29T12:00:00.000Z",
+          "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.166013991957357,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2660139919573572,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
+          "title": "Just a rumour of a bug is enough to find a security exploit these days",
+          "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-28T22:12:02.000Z",
+          "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe. rclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem: In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review. The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...] GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal. Via Hacker News Tags: open-source , security , ai , generative-ai , llms , coding-agents , ocaml , ai-security-research",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7941459684511245,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7441459684511247,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+          "title": "Meta makes AI glasses slightly less creepy with limit on nonconsensual recording",
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-tweaks-ai-glasses-to-block-some-creepy-recordings-but-privacy-risks-remain",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-28T15:42:24.000Z",
+          "summary": "Meta fixes AI glasses to stop recording any time users cover up the safety light.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6295021593226773,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5795021593226773,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+          "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+          "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-28T19:30:38.000Z",
+          "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.570920207717337,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6709202077173371,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+          "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+          "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-28T12:46:12.000Z",
+          "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4175383921166391,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5175383921166392,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+          "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+          "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-28T12:21:06.000Z",
+          "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4092680282922476,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5092680282922476,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49479878",
+    "hackernews:49489982",
+    "openai:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "hackernews:49477055",
+    "hackernews:49475079"
+  ]
+}

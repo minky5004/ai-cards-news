@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026-08-29T16:26:33.684Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49479878",
+      "headline": "해킹 성능 2배 뛴 오픈소스 AI",
+      "highlight": [
+        "해킹 성능 2배"
+      ],
+      "body": "GLM-5.3이 사후 학습만으로 해킹 벤치마크 성적을 이전 대비 2배 이상 올려놓았습니다. 취약점 공격 평가인 ExploitBench에서 54.4점을 얻어 GLM-5.2를 대폭 제쳤습니다. 베이스 모델 변경 없이 사후 고도화만으로 AI 보안 역량을 극대화한 결과입니다.",
+      "sourceUrl": "https://huggingface.co/zai-org/GLM-5.3",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/zai-org/GLM-5.3.png",
+      "publishedAt": "2026-08-28T15:20:13.000Z"
+    },
+    {
+      "clusterId": "hackernews:49489982",
+      "headline": "데비안이 개발자의 AI 사용을 공식 허용했다",
+      "highlight": [
+        "공식 허용했다"
+      ],
+      "body": "데비안 프로젝트가 투표를 거쳐 생성형 AI의 책임 있는 사용을 공식 허용하기로 결정했습니다. AI가 기여자의 생산성을 높일 수 있음을 인정하면서도 기존과 동일한 품질 및 법적 기준을 적용합니다. AI를 써도 최종 검토와 코드 책임은 오롯이 기여자에게 남습니다.",
+      "sourceUrl": "https://lwn.net/Articles/1091231",
+      "sourceName": "LWN.net",
+      "publishedAt": "2026-08-29T14:02:10.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "headline": "오픈AI, 스페이스X가 인수한 커서 손절한다",
+      "highlight": [
+        "스페이스X가",
+        "손절한다"
+      ],
+      "body": "오픈AI가 스페이스X에 인수된 커서에 AI 모델 제공 계약 해지를 통보했습니다. 과거 일론 머스크 측의 약관 위반 이력으로 신뢰할 수 없다는 것이 이유입니다. 이에 따라 개발자들은 11월 12일부터 커서에서 오픈AI 모델을 쓸 수 없게 됩니다.",
+      "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6RFKP8tysuxOLxVaiCRlu/ac31b03c2aeb6e3da620f2db89c7b6e9/index-our-decision-on-cursor-following-its-acquisition-by-spacex.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-08-28T06:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49477055",
+      "headline": "살상용 AI 거부한 앤트로픽 금지는 위법",
+      "highlight": [
+        "살상용 AI",
+        "위법"
+      ],
+      "body": "미 연방법원이 앤트로픽 제품의 사용을 전면 금지한 트럼프 정부의 조치를 위법으로 판결했습니다. AI의 살상용 무기 및 감시 활용 거부에 대한 정부의 제재는 위헌적 보복이라는 설명입니다. 이에 따라 연방 기관과 방산 업체의 앤트로픽 거래 금지 명령은 무효화됩니다.",
+      "sourceUrl": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/03/claude-app-1152x648.jpg",
+      "publishedAt": "2026-08-28T11:25:30.000Z"
+    },
+    {
+      "clusterId": "hackernews:49475079",
+      "headline": "AI의 잘못된 저작권 신고로 구글서 삭제됐다",
+      "highlight": [
+        "저작권 신고로",
+        "삭제됐다"
+      ],
+      "body": "오픈소스 게임 루안티가 트레이서AI의 무분별한 저작권 신고로 구글 플레이에서 삭제됐습니다. 마인크래프트를 무단 도용했다는 주장과 달리 루안티에는 관련 자산이나 코드가 전혀 없습니다. 검증 없는 AI 자동 단속 시스템이 무고한 게임 생태계를 위협하고 있다는 지적이 나옵니다.",
+      "sourceUrl": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai",
+      "sourceName": "Luanti Blog",
+      "imageUrl": "https://blog.luanti.org/static/blog/2026_dmca/cover.webp",
+      "publishedAt": "2026-08-28T06:33:57.000Z"
+    }
+  ]
+}
