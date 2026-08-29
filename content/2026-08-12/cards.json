@@ -1,0 +1,68 @@
+{
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T13:17:19.174Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49257876",
+      "headline": "오픈AI·구글 AI 속생각 통째로 뚫렸다",
+      "highlight": [
+        "속생각",
+        "뚫렸다"
+      ],
+      "body": "오픈AI와 구글 모델의 암호화된 AI 추론 기록이 뚫렸습니다. 연구진이 약한 모델에 암호 블록을 재주입해 31만 개의 속생각을 복원했습니다. 이로 인해 비밀번호와 API 키 등 700개가 넘는 개인정보가 노출됐습니다.",
+      "sourceUrl": "https://stolen-thoughts.com",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-11T13:22:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49259339",
+      "headline": "맥 가상머신 LLM 속도가 16배 빨라졌다",
+      "highlight": [
+        "16배 빨라졌다"
+      ],
+      "body": "쿠아 팀이 맥OS 가상머신에서 AI 모델을 최대 16배 빠르게 돌리는 기술을 공개했다. 기존 가상환경이 그래픽 성능을 제한하던 문제를 호환성 레이어로 해결했다. M1 울트라 환경에서 llama.cpp 기반 추론 속도가 실물 기기의 98% 수준까지 올라섰다.",
+      "sourceUrl": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/cd831ac511183cbabd8d9359bbf0cdbd499329fb0257b497795ad7c264beec61/trycua/cua",
+      "publishedAt": "2026-08-11T14:50:33.000Z"
+    },
+    {
+      "clusterId": "hackernews:49270022",
+      "headline": "오픈AI가 수학 난제 10개를 풀었다",
+      "highlight": [
+        "오픈AI가",
+        "수학 난제 10개"
+      ],
+      "body": "오픈AI가 수학과 컴퓨터과학의 10대 난제를 해결했다고 발표했습니다. 인공지능은 복잡한 증명보다 문제의 빈틈인 반례를 찾아내는 데 뛰어난 성능을 보였습니다. 이처럼 AI는 수학자의 시각을 넓히는 강력한 도구로 자리잡고 있습니다.",
+      "sourceUrl": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at",
+      "sourceName": "Gowers's Weblog",
+      "imageUrl": "https://s0.wp.com/i/blank.jpg?m=1383295312i",
+      "publishedAt": "2026-08-12T10:04:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49261133",
+      "headline": "AI 코딩 시대에 Go 언어가 완벽한 이유",
+      "highlight": [
+        "Go 언어"
+      ],
+      "body": "AI가 순식간에 코드를 작성하는 시대에는 검증과 유지가 핵심입니다. 구글이 만든 Go 언어는 통일된 문법과 빠른 컴파일로 AI의 오류를 즉시 잡아냅니다. 이는 복잡한 코드 대신 표준화된 구조를 제공해 장기적인 코드 유지보수 부담을 줄여줍니다.",
+      "sourceUrl": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering",
+      "sourceName": "hackernews",
+      "imageUrl": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/Go_Logo_-_Blue.2e16d0ba.fill-1200x600.png",
+      "publishedAt": "2026-08-11T16:57:09.000Z"
+    },
+    {
+      "clusterId": "hackernews:49257160",
+      "headline": "오픈AI 윤리 책임자 퇴사, 후임도 없다",
+      "highlight": [
+        "윤리 책임자",
+        "후임도 없다"
+      ],
+      "body": "오픈AI의 유일한 전담 윤리학자인 클로에 바칼라가 입사 1년도 안 돼 사임했습니다. 그녀는 AI의 윤리적 개발을 담당했으나 회사는 후임 채용 계획이 없다고 밝혔습니다. 최근 핵심 안전 인력의 연쇄 이탈이 이어지며 오픈AI의 윤리 공백 우려가 커지고 있습니다.",
+      "sourceUrl": "https://aimagazine.com/news/why-did-openai-head-of-ethics-chloe-bakalar-leave",
+      "sourceName": "hackernews",
+      "imageUrl": "https://assets.bizclikmedia.net/1200/e8c61fb615f15dbfa62e70e827a0b105:df20956d2a1cd9bdb647e65ac005c721/screenshot-2026-08-11-104141.png.jpg",
+      "publishedAt": "2026-08-11T12:23:07.000Z"
+    }
+  ]
+}
