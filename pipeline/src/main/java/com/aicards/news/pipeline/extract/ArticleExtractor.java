@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline.extract;
 
 import com.aicards.news.pipeline.Http;
+import com.aicards.news.pipeline.Secrets;
 import com.aicards.news.pipeline.ingest.Text;
 import java.util.Arrays;
 import java.util.List;
@@ -89,14 +90,23 @@ public final class ArticleExtractor {
         return content == null ? "" : content.wholeText();
     }
 
-    /** 문단 사이 빈 줄은 남기고 과한 공백만 정리한다. */
-    private static String normalizeBody(String raw) {
+    /**
+     * 문단 사이 빈 줄은 남기고 과한 공백만 정리한다.
+     *
+     * <p>본문은 {@code Text.clean} 을 타지 않는 유일한 남의 텍스트라 — 문단 구분을 살려야 해서
+     * 공백 처리가 다르다 — 비밀 형태 문자열을 여기서 따로 가린다. 이유는 {@link Secrets}.
+     * 자르기 전에 가리는 것은, 잘린 뒤에 하면 경계에 걸친 값이 조각으로 남기 때문이다.
+     *
+     * <p>패키지 접근으로 열어 둔 것은 테스트가 부르기 위해서다. 본문 정리를 실제 추출로 확인하려
+     * 들면 매번 남의 사이트를 때려야 하고, 그 사이트가 무엇을 줄지는 우리가 못 정한다.
+     */
+    static String normalizeBody(String raw) {
         String lines =
                 Arrays.stream(raw.split("\n", -1))
                         .map(ArticleExtractor::trim)
                         .collect(Collectors.joining("\n"));
 
-        String collapsed = trim(BLANK_LINES.matcher(lines).replaceAll("\n\n"));
+        String collapsed = Secrets.redact(trim(BLANK_LINES.matcher(lines).replaceAll("\n\n")));
         return collapsed.length() > MAX_TEXT_LENGTH
                 ? collapsed.substring(0, MAX_TEXT_LENGTH)
                 : collapsed;
