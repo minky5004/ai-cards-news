@@ -1,5 +1,6 @@
 package com.aicards.news.pipeline.ingest;
 
+import com.aicards.news.pipeline.Secrets;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -83,8 +84,13 @@ public final class Text {
         }
     }
 
-    /** 제목·요약에 공통으로 적용하는 정리 */
+    /**
+     * 제목·요약에 공통으로 적용하는 정리.
+     *
+     * <p>남의 텍스트가 들어오는 관문이라 비밀 형태 문자열도 여기서 가린다 — 이유는 {@link Secrets}.
+     * 관문을 넓히지 않고 여기 둔 것은, 호출처마다 따로 부르면 새 소스를 붙일 때 빠뜨리기 때문이다.
+     */
     public static String clean(String text) {
-        return WHITESPACE.matcher(decodeEntities(text)).replaceAll(" ").trim();
+        return Secrets.redact(WHITESPACE.matcher(decodeEntities(text)).replaceAll(" ").trim());
     }
 }
