@@ -25,7 +25,7 @@ class TextTest {
     @DisplayName("제목에 섞인 비밀 형태 문자열은 가린다")
     void redactsSecrets() {
         // 접두사와 몸통을 나눠 조립하는 이유는 SecretsTest 참고 — 통째로 적으면 이 파일이 막힌다.
-        String secret = "hf_" + "oCfFIJsVdYHmydnCHMExjTYiNVDCzMtqKF";
+        String secret = "hf_" + "AbCdEfGhIjKlMnOpQrStUvWxYz01234567";
 
         String cleaned = Text.clean("Leaked " + secret + " in a public repo");
 
