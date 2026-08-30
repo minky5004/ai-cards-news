@@ -298,8 +298,11 @@ public final class Run {
 
         long succeeded = articles.stream().filter(ArticlesResult.Article::ok).count();
         long withImage = articles.stream().filter(a -> a.imageUrl() != null).count();
+        // 백필이 붙은 뒤로 시도 건수가 선정 건수보다 클 수 있다. "성공 5/9건" 으로 찍으면 9 를
+        // 선정 수로 읽게 되므로 깔때기를 세 값으로 늘어놓는다.
         System.out.printf(
-                "%n추출 성공 %d/%d건 · 썸네일 확보 %d건%n", succeeded, articles.size(), withImage);
+                "%n선정 %d건 · 시도 %d건 · 성공 %d건 · 썸네일 확보 %d건%n",
+                raw.selectedIds().size(), articles.size(), succeeded, withImage);
 
         Json.write(output, new ArticlesResult(date, Times.iso(Instant.now()), articles));
         System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
@@ -404,7 +407,7 @@ public final class Run {
           호출 횟수를 먼저 찍는다. 건너뛴 기사는 호출하지 않았으므로 여기 들어가지 않는다.
         */
         System.out.printf(
-                "카드 %d/%d장 (건너뜀 %d · 실패 %d) · 호출 %d회 · 토큰 입력 %d 출력 %d%n",
+                "카드 %d장 · 후보 %d건 (건너뜀 %d · 실패 %d) · 호출 %d회 · 토큰 입력 %d 출력 %d%n",
                 cards.size(),
                 tally.total(),
                 tally.skipped(),

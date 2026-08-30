@@ -24,6 +24,14 @@ public record PipelineConfig(
         Check.required(extract, "extract");
         Check.required(copy, "copy");
         Check.required(scoring, "scoring");
+
+        // 두 값이 서로를 모르면 조용히 어긋난다. maxAttempts 는 백필 몫이 아니라 선정분 시도까지
+        // 포함한 총량이라, maxCards 보다 작으면 선정 5건이 전부 성공하는 날에도 그 수에서 멈춘다.
+        // 카드가 줄어든 것이 실패로 보이지 않아 로그만 봐서는 안 잡히는 자리다.
+        Check.that(
+                extract.maxAttempts() >= scoring.maxCards(),
+                "extract.maxAttempts(%d) 는 scoring.maxCards(%d) 보다 작을 수 없다 — 시도 상한은 선정분까지 포함한 총량이다"
+                        .formatted(extract.maxAttempts(), scoring.maxCards()));
     }
 
     /** @param lookbackHours 이 시간 안에 나온 것만 후보로 본다. */
