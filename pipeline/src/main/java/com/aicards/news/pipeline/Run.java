@@ -133,6 +133,8 @@ public final class Run {
                 "클러스터링     최소 공유 토큰 %d · overlap %.2f · 자카드 %.2f%n",
                 dedup.minSharedTokens(), dedup.titleOverlap(), dedup.titleSimilarity());
 
+        System.out.printf("본문 추출      최대 %d개 클러스터까지 시도%n", config.extract().maxAttempts());
+
         PipelineConfig.Copy copy = config.copy();
         System.out.printf(
                 "카피라이팅     %s · 최대 %d 토큰 · 사고 예산 %s%n",
@@ -260,10 +262,16 @@ public final class Run {
         // 단계 간 계약을 파일 읽는 시점에 검증한다. 깨진 산출물을 조용히 물고 가지 않는다.
         IngestResult raw = Json.read(rawPath, IngestResult.class);
 
+        PipelineConfig config = ConfigLoader.loadPipelineConfig();
+
         System.out.printf("본문 추출 시작 — %s (선정 %d건)%n%n", date, raw.selectedIds().size());
 
         List<ArticlesResult.Article> articles =
-                Extractor.extractSelected(raw.clusters(), raw.selectedIds());
+                Extractor.extractSelected(
+                        raw.clusters(),
+                        raw.selectedIds(),
+                        config.scoring().minScore(),
+                        config.extract().maxAttempts());
 
         for (ArticlesResult.Article article : articles) {
             String mark = article.ok() ? "✓" : "✗";

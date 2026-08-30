@@ -10,12 +10,18 @@ import java.util.List;
  * 각 값의 의미와 조정 이력은 YAML 주석에 있다.
  */
 public record PipelineConfig(
-        Ingest ingest, Relevance relevance, Dedup dedup, Copy copy, Scoring scoring) {
+        Ingest ingest,
+        Relevance relevance,
+        Dedup dedup,
+        Extract extract,
+        Copy copy,
+        Scoring scoring) {
 
     public PipelineConfig {
         Check.required(ingest, "ingest");
         Check.required(relevance, "relevance");
         Check.required(dedup, "dedup");
+        Check.required(extract, "extract");
         Check.required(copy, "copy");
         Check.required(scoring, "scoring");
     }
@@ -55,6 +61,19 @@ public record PipelineConfig(
             Check.positive(minSharedTokens, "dedup.minSharedTokens");
             Check.range(titleOverlap, 0, 1, "dedup.titleOverlap");
             Check.range(titleSimilarity, 0, 1, "dedup.titleSimilarity");
+        }
+    }
+
+    /**
+     * 본문 추출.
+     *
+     * @param maxAttempts 몇 개 클러스터까지 시도할 것인가. 선정분이 스크래핑에 막히면 그 아래
+     *     순위로 내려가 자리를 채우는데, 상한이 없으면 조용한 날 임계값 통과분을 전부 긁는다.
+     */
+    public record Extract(int maxAttempts) {
+
+        public Extract {
+            Check.positive(maxAttempts, "extract.maxAttempts");
         }
     }
 
