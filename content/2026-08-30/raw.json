@@ -1,0 +1,489 @@
+{
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T16:17:49.243Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 8
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49498095",
+      "representativeId": "hackernews:49498095",
+      "items": [
+        {
+          "id": "hackernews:49498095",
+          "title": "No AI Fridays",
+          "url": "https://noaifridays.com",
+          "source": "hackernews",
+          "publishedAt": "2026-08-30T12:31:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 213,
+            "comments": 109,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49498095"
+          }
+        }
+      ],
+      "score": 5.109524544624476,
+      "breakdown": {
+        "hnPoints": 1.7263361801499473,
+        "hnComments": 0.8863304010013479,
+        "mentions": 0.0,
+        "recency": 1.2968579634731798,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49498201",
+      "representativeId": "hackernews:49498201",
+      "items": [
+        {
+          "id": "hackernews:49498201",
+          "title": "Claude Session URL appended to commit messages and PR descriptions by default",
+          "url": "https://github.com/anthropics/claude-code/issues/66504",
+          "source": "hackernews",
+          "publishedAt": "2026-08-30T12:50:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 98,
+            "comments": 125,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49498201"
+          }
+        }
+      ],
+      "score": 4.903731757973409,
+      "breakdown": {
+        "hnPoints": 1.4783371426195693,
+        "hnComments": 0.9119373656231052,
+        "mentions": 0.0,
+        "recency": 1.3134572497307349,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49489982",
+      "representativeId": "hackernews:49489982",
+      "items": [
+        {
+          "id": "hackernews:49489982",
+          "title": "Debian votes to allow \"responsible use of generative AI\"",
+          "url": "https://lwn.net/Articles/1091231",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T14:02:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 492,
+            "comments": 459,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49489982"
+          }
+        }
+      ],
+      "score": 4.740462164663462,
+      "breakdown": {
+        "hnPoints": 1.9948213135011512,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5456408511623106,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49491568",
+      "representativeId": "hackernews:49491568",
+      "items": [
+        {
+          "id": "hackernews:49491568",
+          "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+          "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T17:19:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 423,
+            "comments": 107,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49491568"
+          }
+        }
+      ],
+      "score": 4.648609554808675,
+      "breakdown": {
+        "hnPoints": 1.9463139072543825,
+        "hnComments": 0.88287045687475,
+        "mentions": 0.0,
+        "recency": 0.6194251906795423,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49494301",
+      "representativeId": "hackernews:49494301",
+      "items": [
+        {
+          "id": "hackernews:49494301",
+          "title": "The Rise and Fall of Agent Civilizations",
+          "url": "https://dwarkesh.com/p/openai-huggingface",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T23:43:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 168,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49494301"
+          }
+        }
+      ],
+      "score": 4.507280798723679,
+      "breakdown": {
+        "hnPoints": 1.6503856385650206,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 0.7923460614064621,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49497357",
+      "representativeId": "hackernews:49497357",
+      "items": [
+        {
+          "id": "hackernews:49497357",
+          "title": "Fair Work Commission condemns 'plain wrong' AI legal advice",
+          "url": "https://abc.net.au/news/2026-08-29/fair-work-commission-condemns-ai-legal-advice/107089766",
+          "source": "hackernews",
+          "publishedAt": "2026-08-30T10:20:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49497357"
+          }
+        }
+      ],
+      "score": 4.282645781376178,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 1.1923574314052319,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49492184",
+      "representativeId": "hackernews:49492184",
+      "items": [
+        {
+          "id": "hackernews:49492184",
+          "title": "LLMs are making me lose my savviness",
+          "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T18:38:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49492184"
+          }
+        }
+      ],
+      "score": 3.993297437259783,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.6516762258249102,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49491113",
+      "representativeId": "hackernews:49491113",
+      "items": [
+        {
+          "id": "hackernews:49491113",
+          "title": "The growing divide between AI hype and software engineering reality",
+          "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T16:16:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 85,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49491113"
+          }
+        }
+      ],
+      "score": 3.9776823910442154,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.8399191397584053,
+        "mentions": 0.0,
+        "recency": 0.5947837534639482,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49492432",
+      "representativeId": "hackernews:49492432",
+      "items": [
+        {
+          "id": "hackernews:49492432",
+          "title": "Warp builds self-improving agents on Claude",
+          "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+          "source": "hackernews",
+          "publishedAt": "2026-08-29T19:09:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49492432"
+          }
+        }
+      ],
+      "score": 3.94210161918836,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.6646366538355829,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49497227",
+      "representativeId": "hackernews:49497227",
+      "items": [
+        {
+          "id": "hackernews:49497227",
+          "title": "Show HN: Bolnee-Chat – Self Hosted Chatbot Integration in Your Business Website",
+          "url": "https://github.com/AniketWathore/bolnee-chat",
+          "source": "hackernews",
+          "publishedAt": "2026-08-30T09:56:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49497227"
+          }
+        }
+      ],
+      "score": 3.4890495224072344,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1740565997593222,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+          "title": "Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft",
+          "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-29T18:41:59.000Z",
+          "summary": "This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+          "title": "Sony Music and Warner Chappell are suing Anthropic",
+          "url": "https://theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-29T18:19:53.000Z",
+          "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3863144024831158,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6529810691497828,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+          "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+          "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-30T15:00:00.000Z",
+          "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.32692180893192,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4269218089319204,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+          "title": "Inside Meta’s push to put robots to work in data centers",
+          "url": "https://arstechnica.com/ai/2026/08/inside-metas-push-to-put-robots-to-work-in-data-centers",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-08-30T11:03:47.000Z",
+          "summary": "The company is testing robots on tasks that can performed by technicians.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.276193911085958,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2261939110859583,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Aug/29/hy4",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Aug/29/hy4",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Aug/29/hy4",
+          "title": "Introducing Hy4 Preview",
+          "url": "https://simonwillison.net/2026/Aug/29/hy4",
+          "source": "simonwillison",
+          "publishedAt": "2026-08-29T23:53:13.000Z",
+          "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. Here's Hy4's chat_template.jinja on Hugging Face, which includes this section: {% - if not reasoning_effort is defined %} {% - set reasoning_effort = 'high' %} {% - elif reasoning_effort not in [ 'high' , 'no_think' ] %} {% - if reasoning_effort is none %} {{- raise_exception('reasoning_effort error : None, should be no_think/high') }} {% - else %} {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }} {% - endif %} {% - endif %} So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled). I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning via OpenRouter and got this : Quoting the reasoning trace: [...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no. Maybe add sunglasses? no. Maybe add water? no. It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text. Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-reasoning , llm-release , ai-in-china",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8473538902673103,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7973538902673105,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+          "title": "Nvidia’s AI advantage is moving beyond the GPU",
+          "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-08-29T13:00:00.000Z",
+          "summary": "The new generation of data center systems is increasing efficiency with smarter traffic control instead of just more processor cycles.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4242990500918837,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5242990500918838,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+          "title": "Musicians-turned-detectives are hunting for AI grifters",
+          "url": "https://theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-08-29T12:00:00.000Z",
+          "summary": "As audio-focused generative tools and platforms have gotten more sophisticated, the internet has become increasingly filled with AI-generated music whose melodies and vocals are algorithmically derived from the work of human artists. While some of the people pumping out this kind of content immediately own up to using AI, others have denied using the technology […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.404493043659368,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.504493043659368,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49498095",
+    "hackernews:49498201",
+    "hackernews:49489982",
+    "hackernews:49491568",
+    "hackernews:49494301"
+  ]
+}
