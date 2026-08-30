@@ -10,14 +10,28 @@ import java.util.List;
  * 각 값의 의미와 조정 이력은 YAML 주석에 있다.
  */
 public record PipelineConfig(
-        Ingest ingest, Relevance relevance, Dedup dedup, Copy copy, Scoring scoring) {
+        Ingest ingest,
+        Relevance relevance,
+        Dedup dedup,
+        Extract extract,
+        Copy copy,
+        Scoring scoring) {
 
     public PipelineConfig {
         Check.required(ingest, "ingest");
         Check.required(relevance, "relevance");
         Check.required(dedup, "dedup");
+        Check.required(extract, "extract");
         Check.required(copy, "copy");
         Check.required(scoring, "scoring");
+
+        // 두 값이 서로를 모르면 조용히 어긋난다. maxAttempts 는 백필 몫이 아니라 선정분 시도까지
+        // 포함한 총량이라, maxCards 보다 작으면 선정 5건이 전부 성공하는 날에도 그 수에서 멈춘다.
+        // 카드가 줄어든 것이 실패로 보이지 않아 로그만 봐서는 안 잡히는 자리다.
+        Check.that(
+                extract.maxAttempts() >= scoring.maxCards(),
+                "extract.maxAttempts(%d) 는 scoring.maxCards(%d) 보다 작을 수 없다 — 시도 상한은 선정분까지 포함한 총량이다"
+                        .formatted(extract.maxAttempts(), scoring.maxCards()));
     }
 
     /** @param lookbackHours 이 시간 안에 나온 것만 후보로 본다. */
@@ -55,6 +69,19 @@ public record PipelineConfig(
             Check.positive(minSharedTokens, "dedup.minSharedTokens");
             Check.range(titleOverlap, 0, 1, "dedup.titleOverlap");
             Check.range(titleSimilarity, 0, 1, "dedup.titleSimilarity");
+        }
+    }
+
+    /**
+     * 본문 추출.
+     *
+     * @param maxAttempts 몇 개 클러스터까지 시도할 것인가. 선정분이 스크래핑에 막히면 그 아래
+     *     순위로 내려가 자리를 채우는데, 상한이 없으면 조용한 날 임계값 통과분을 전부 긁는다.
+     */
+    public record Extract(int maxAttempts) {
+
+        public Extract {
+            Check.positive(maxAttempts, "extract.maxAttempts");
         }
     }
 
