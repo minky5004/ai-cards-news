@@ -15,6 +15,7 @@ public record PipelineConfig(
         Dedup dedup,
         Extract extract,
         Copy copy,
+        Idea idea,
         Scoring scoring) {
 
     public PipelineConfig {
@@ -23,6 +24,7 @@ public record PipelineConfig(
         Check.required(dedup, "dedup");
         Check.required(extract, "extract");
         Check.required(copy, "copy");
+        Check.required(idea, "idea");
         Check.required(scoring, "scoring");
 
         // 두 값이 서로를 모르면 조용히 어긋난다. maxAttempts 는 백필 몫이 아니라 선정분 시도까지
@@ -32,6 +34,14 @@ public record PipelineConfig(
                 extract.maxAttempts() >= scoring.maxCards(),
                 "extract.maxAttempts(%d) 는 scoring.maxCards(%d) 보다 작을 수 없다 — 시도 상한은 선정분까지 포함한 총량이다"
                         .formatted(extract.maxAttempts(), scoring.maxCards()));
+
+        // 같은 종류의 조용한 어긋남이다. 후보 상한이 카드 수보다 작으면 본문을 가진 선정분조차
+        // 다 못 들어가, 아이디어가 그날 기사 일부만 보고 만들어진다. 장수처럼 눈에 띄는 손실이
+        // 아니라 재료가 줄어드는 형태라 로그로는 안 잡힌다.
+        Check.that(
+                idea.maxCandidates() >= scoring.maxCards(),
+                "idea.maxCandidates(%d) 는 scoring.maxCards(%d) 보다 작을 수 없다 — 본문을 가진 선정분이 먼저 잘린다"
+                        .formatted(idea.maxCandidates(), scoring.maxCards()));
     }
 
     /** @param lookbackHours 이 시간 안에 나온 것만 후보로 본다. */
@@ -98,6 +108,41 @@ public record PipelineConfig(
                 Check.that(
                         thinkingBudget >= 0, "copy.thinkingBudget 는 음수일 수 없다: " + thinkingBudget);
             }
+        }
+    }
+
+    /**
+     * 아이디어 카드.
+     *
+     * <p>재료는 그날 이미 모아 둔 기사다. 새 소스도 새 시크릿도 늘리지 않는다 — 무인 운영에서
+     * 실패 지점 하나가 곧 그날을 잃을 확률이라, 얹는 단계는 기존 산출물만 읽는 편이 맞다.
+     *
+     * @param maxCandidates 재료로 넣을 후보 상한. 카드가 된 선정분 아래의 대기 후보까지 넣는다.
+     * @param bodyExcerpt 후보 하나당 본문에서 잘라 넣을 글자 수. 긴 기사 하나가 프롬프트를
+     *     독차지하는 것을 막는다.
+     * @param verifyHits 중복 판정에 쓸 HN 검색 결과 상한.
+     * @param crowdedPoints 유사 사례의 최고 점수가 이 값 이상이면 이미 널리 다뤄진 주제로 본다.
+     */
+    public record Idea(
+            String model,
+            int maxTokens,
+            Integer thinkingBudget,
+            int maxCandidates,
+            int bodyExcerpt,
+            int verifyHits,
+            int crowdedPoints) {
+
+        public Idea {
+            Check.required(model, "idea.model");
+            Check.positive(maxTokens, "idea.maxTokens");
+            if (thinkingBudget != null) {
+                Check.that(
+                        thinkingBudget >= 0, "idea.thinkingBudget 는 음수일 수 없다: " + thinkingBudget);
+            }
+            Check.positive(maxCandidates, "idea.maxCandidates");
+            Check.positive(bodyExcerpt, "idea.bodyExcerpt");
+            Check.positive(verifyHits, "idea.verifyHits");
+            Check.positive(crowdedPoints, "idea.crowdedPoints");
         }
     }
 
