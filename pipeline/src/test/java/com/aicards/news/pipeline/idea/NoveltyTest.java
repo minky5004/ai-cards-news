@@ -39,6 +39,27 @@ class NoveltyTest {
         }
 
         @Test
+        @DisplayName("hits 자체가 없으면 NONE 이 아니라 UNKNOWN")
+        void unknownWhenHitsFieldMissing() {
+            // 빈 배열은 "찾았는데 없다" 고, 필드 부재는 "응답을 이해하지 못했다" 다. lenient 파서가
+            // 빠진 필드에 실패하지 않으므로, 200 으로 온 오류 페이로드가 여기서 유리한 쪽으로
+            // 승격될 수 있다.
+            IdeasResult.Novelty judged = Novelty.judge(null, 5, CROWDED_AT);
+
+            assertEquals(Novelty.UNKNOWN, judged.verdict());
+            assertNotEquals(Novelty.NONE, judged.verdict());
+        }
+
+        @Test
+        @DisplayName("hits 가 빠진 응답도 UNKNOWN 으로 떨어진다")
+        void unknownWhenResponseHasNoHitsKey() {
+            IdeasResult.Novelty judged =
+                    Novelty.check("q", 5, CROWDED_AT, url -> "{\"nbHits\":0,\"page\":0}");
+
+            assertEquals(Novelty.UNKNOWN, judged.verdict());
+        }
+
+        @Test
         @DisplayName("임계값 미만이면 SIMILAR")
         void similarBelowThreshold() {
             IdeasResult.Novelty judged =
@@ -102,6 +123,26 @@ class NoveltyTest {
             assertEquals(2, judged.evidence().size());
             assertEquals(50, judged.evidence().get(0).points());
             assertEquals(30, judged.evidence().get(1).points());
+        }
+
+        @Test
+        @DisplayName("찾은 건수와 싣는 건수를 함께 적는다")
+        void reasonStatesBothCounts() {
+            // 앞엣것만 쓰면 "8건" 옆에 5건이 놓여, ideas.json 을 읽는 사람이 나머지가 어디 갔는지
+            // 알 수 없다.
+            IdeasResult.Novelty judged =
+                    Novelty.judge(
+                            List.of(
+                                    hit("1", "글", 9),
+                                    hit("2", "글", 8),
+                                    hit("3", "글", 7),
+                                    hit("4", "글", 6)),
+                            2,
+                            CROWDED_AT);
+
+            assertEquals(2, judged.evidence().size());
+            assertTrue(judged.reason().contains("4건"));
+            assertTrue(judged.reason().contains("상위 2건"));
         }
 
         @Test

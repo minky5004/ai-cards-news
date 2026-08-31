@@ -121,14 +121,23 @@ public final class Novelty {
      * 내던 것이 이 자리에서 반복되면 판정이 장식이 된다.
      */
     static IdeasResult.Novelty judge(List<Hit> hits, int maxHits, int crowdedPoints) {
+        /*
+          hits 자체가 없는 것과 빈 배열은 뜻이 다르다. 앞은 "응답을 이해하지 못했다" 고 뒤는
+          "찾았는데 없다" 다. Json.lenient() 는 빠진 필드에 실패하지 않으므로, 200 으로 온 오류
+          페이로드나 바뀐 응답 형태가 여기서 조용히 NONE 이 된다 — 이 클래스가 UNKNOWN 을 따로
+          둔 이유가 정확히 그 승격을 막기 위해서인데, 정작 이 갈래가 유리한 쪽으로 떨어졌다.
+        */
+        if (hits == null) {
+            return new IdeasResult.Novelty(
+                    UNKNOWN, "HN 응답에 hits 가 없어 판정하지 못했다", List.of());
+        }
+
         List<Hit> usable =
-                hits == null
-                        ? List.of()
-                        : hits.stream()
-                                .filter(hit -> hit.title() != null && !hit.title().isBlank())
-                                .filter(hit -> hit.objectID() != null)
-                                .sorted(Comparator.comparingInt(Hit::pointsOrZero).reversed())
-                                .toList();
+                hits.stream()
+                        .filter(hit -> hit.title() != null && !hit.title().isBlank())
+                        .filter(hit -> hit.objectID() != null)
+                        .sorted(Comparator.comparingInt(Hit::pointsOrZero).reversed())
+                        .toList();
 
         if (usable.isEmpty()) {
             return new IdeasResult.Novelty(
@@ -145,13 +154,18 @@ public final class Novelty {
                                                 hit.title(), hit.link(), hit.pointsOrZero()))
                         .toList();
 
+        // 찾은 건수와 싣는 건수를 함께 적는다. 앞엣것만 쓰면 "8건" 옆에 5건이 놓여, 읽는 사람이
+        // 나머지가 어디 갔는지 알 수 없다.
         String verdict = top >= crowdedPoints ? CROWDED : SIMILAR;
         String reason =
-                verdict.equals(CROWDED)
-                        ? "HN 에서 비슷한 글 %d건 — 최고 %d점으로 이미 널리 다뤄진 주제다"
-                                .formatted(usable.size(), top)
-                        : "HN 에서 비슷한 글 %d건 — 최고 %d점으로 크게 화제가 되지는 않았다"
-                                .formatted(usable.size(), top);
+                "HN 에서 비슷한 글 %d건 · 근거는 상위 %d건 — 최고 %d점으로 %s"
+                        .formatted(
+                                usable.size(),
+                                evidence.size(),
+                                top,
+                                verdict.equals(CROWDED)
+                                        ? "이미 널리 다뤄진 주제다"
+                                        : "크게 화제가 되지는 않았다");
 
         return new IdeasResult.Novelty(verdict, reason, evidence);
     }

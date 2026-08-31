@@ -120,7 +120,8 @@ public record PipelineConfig(
      * @param maxCandidates 재료로 넣을 후보 상한. 카드가 된 선정분 아래의 대기 후보까지 넣는다.
      * @param bodyExcerpt 후보 하나당 본문에서 잘라 넣을 글자 수. 긴 기사 하나가 프롬프트를
      *     독차지하는 것을 막는다.
-     * @param verifyHits 중복 판정에 쓸 HN 검색 결과 상한.
+     * @param verifyHits 근거로 실을 유사 사례 건수. 검색은 이 값과 무관하게 더 넓게 가져온다 —
+     *     판정이 최고 점수 기준이라 좁게 가져오면 화제작을 놓친다.
      * @param crowdedPoints 유사 사례의 최고 점수가 이 값 이상이면 이미 널리 다뤄진 주제로 본다.
      */
     public record Idea(

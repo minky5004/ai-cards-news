@@ -18,13 +18,14 @@ public record IdeaResult(
         return new IdeaResult(true, idea, null, inputTokens, outputTokens);
     }
 
-    /** 응답은 받았는데 쓸 수 없었다. 토큰은 이미 소모됐다. */
+    /**
+     * 쓸 수 없었다.
+     *
+     * <p>응답 자체를 못 받은 경우도 이리로 온다 — 그때는 토큰이 둘 다 0 이라 같은 값이 된다.
+     * 갈래를 나누지 않는 이유는, 나누면 "응답은 왔는데 파싱에서 죽은" 경로가 0 을 쓰는 쪽으로
+     * 붙기 쉽기 때문이다. 실제로 한 번 그렇게 붙어 있었다.
+     */
     static IdeaResult unusable(String error, int inputTokens, int outputTokens) {
         return new IdeaResult(false, null, error, inputTokens, outputTokens);
-    }
-
-    /** 응답 자체를 못 받았다. 토큰을 알 길이 없어 호출 횟수로만 잡힌다. */
-    static IdeaResult failed(String error) {
-        return new IdeaResult(false, null, error, 0, 0);
     }
 }

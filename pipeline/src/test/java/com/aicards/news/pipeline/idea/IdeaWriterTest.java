@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline.idea;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -99,6 +100,70 @@ class IdeaWriterTest {
 
             assertNotNull(reason);
             assertTrue(reason.contains("검색어"));
+        }
+    }
+
+    @Nested
+    @DisplayName("응답 해석")
+    class Interpret {
+
+        @Test
+        @DisplayName("잘린 JSON 이어도 이미 나간 토큰을 남긴다")
+        void keepsTokensWhenJsonIsTruncated() {
+            // 사고 토큰이 maxOutputTokens 를 함께 먹어 JSON 이 닫히지 못한 채 오는 자리다. 응답은
+            // 이미 왔으므로 토큰은 전액 소모된 뒤인데, 0 으로 기록하면 남은 한도를 실제보다
+            // 낙관적으로 보게 된다 — 무인 재시도에서 정확히 최악의 오차다.
+            IdeaResult result = IdeaWriter.interpret("{\"productName\":\"Patch", 3778, 15997);
+
+            assertFalse(result.ok());
+            assertEquals(3778, result.inputTokens());
+            assertEquals(15997, result.outputTokens());
+        }
+
+        @Test
+        @DisplayName("빈 응답도 토큰을 남긴다")
+        void keepsTokensWhenResponseIsEmpty() {
+            IdeaResult result = IdeaWriter.interpret("  ", 3778, 12);
+
+            assertFalse(result.ok());
+            assertEquals(3778, result.inputTokens());
+            assertEquals(12, result.outputTokens());
+        }
+
+        @Test
+        @DisplayName("망가진 응답도 토큰을 남긴다")
+        void keepsTokensWhenIdeaIsBroken() {
+            IdeaResult result =
+                    IdeaWriter.interpret(
+                            "{\"productName\":\"\",\"tagline\":\"\",\"problem\":\"\",\"searchQuery\":\"\"}",
+                            100,
+                            200);
+
+            assertFalse(result.ok());
+            assertEquals(100, result.inputTokens());
+            assertEquals(200, result.outputTokens());
+        }
+
+        @Test
+        @DisplayName("멀쩡한 응답은 아이디어와 토큰을 함께 돌려준다")
+        void returnsIdeaWithTokens() {
+            String body =
+                    """
+                    {"productName":"Nudgeling","tagline":"프롬프트 변경을 되짚는다",
+                     "oneLineSummary":"요약","problem":"%s","productDescription":"설명",
+                     "keyFeatures":["기능"],"persona":"페르소나","businessModel":"수익",
+                     "marketStats":"기사에 규모 근거 없음","goToMarket":"GTM","unfairAdvantage":"우위",
+                     "competitors":["대안"],"risks":["위험"],"actionPlan":["할 일"],
+                     "recommendation":"평가","searchQuery":"llm prompt version control"}
+                    """
+                            .formatted(OK_PROBLEM);
+
+            IdeaResult result = IdeaWriter.interpret(body, 3778, 3353);
+
+            assertTrue(result.ok());
+            assertEquals("Nudgeling", result.idea().productName());
+            assertEquals(3778, result.inputTokens());
+            assertEquals(3353, result.outputTokens());
         }
     }
 

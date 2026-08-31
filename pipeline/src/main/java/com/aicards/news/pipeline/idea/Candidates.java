@@ -150,6 +150,19 @@ public final class Candidates {
         if (text == null || text.isBlank()) return null;
 
         String stripped = text.strip();
-        return stripped.length() <= limit ? stripped : stripped.substring(0, limit);
+        return stripped.length() <= limit ? stripped : stripped.substring(0, safeEnd(stripped, limit));
+    }
+
+    /**
+     * 서러게이트 쌍을 반으로 자르지 않는 끝 위치.
+     *
+     * <p>{@code substring} 은 코드 단위로 자르므로 이모지 하나가 경계에 걸치면 짝 없는 상위
+     * 서러게이트로 끝난다. 그 문자열은 유효한 UTF-8 로 인코딩할 수 없어서, 프롬프트를 JSON 으로
+     * 직렬화하는 자리에서 터진다 — 본문은 남의 글이고 이모지가 오는 것이 정상이다.
+     *
+     * <p>한 글자를 더 버리는 쪽을 택한다. 1500자 중 하나이고, 반대쪽 대가는 그날 아이디어 전부다.
+     */
+    private static int safeEnd(String text, int limit) {
+        return Character.isHighSurrogate(text.charAt(limit - 1)) ? limit - 1 : limit;
     }
 }

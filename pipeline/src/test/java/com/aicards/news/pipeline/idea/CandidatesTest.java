@@ -129,6 +129,28 @@ class CandidatesTest {
         }
 
         @Test
+        @DisplayName("이모지가 경계에 걸려도 서러게이트 쌍을 반으로 자르지 않는다")
+        void neverSplitsSurrogatePair() {
+            // 짝 없는 상위 서러게이트는 유효한 UTF-8 로 인코딩할 수 없어, 프롬프트를 JSON 으로
+            // 직렬화하는 자리에서 터진다. 본문은 남의 글이라 이모지가 오는 것이 정상이다.
+            String body = "가".repeat(99) + "🚀" + "나".repeat(50);
+
+            String excerpt =
+                    Candidates.select(
+                                    List.of(cluster("a", "A", 5.0)),
+                                    List.of("a"),
+                                    List.of(article("a", body)),
+                                    2.5,
+                                    config(10, 100))
+                            .getFirst()
+                            .body();
+
+            assertFalse(Character.isHighSurrogate(excerpt.charAt(excerpt.length() - 1)));
+            assertEquals(99, excerpt.length());
+            assertEquals(body.substring(0, 99), excerpt);
+        }
+
+        @Test
         @DisplayName("추출에 실패한 후보는 제목만 남는다")
         void keepsTitleOnlyWhenExtractionFailed() {
             List<Candidates.Candidate> picked =

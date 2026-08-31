@@ -111,6 +111,15 @@ public final class IdeaWriter {
         // 키가 없으면 첫 호출에서야 알게 되는 것보다 시작 시점에 터지는 게 낫다.
         String apiKey = Env.require(API_KEY);
 
+        /*
+          토큰 집계를 try 밖에 둔다. 안에 두면 응답이 온 뒤에 던지는 예외(잘린 JSON 의 파싱
+          실패가 대표적이다 — 사고 토큰이 maxOutputTokens 를 함께 먹으므로 실제로 닿는 자리다)
+          에서 catch 가 이 값을 못 봐 0 으로 기록된다. 최대 16000 출력 토큰을 쓰고 0 으로 남기는
+          것은 IdeaResult 가 하지 말라고 적어 둔 바로 그 방향이다.
+        */
+        int inputTokens = 0;
+        int outputTokens = 0;
+
         try (Client client = Client.builder().apiKey(apiKey).build()) {
             String prompt =
                     Templates.render(
@@ -120,25 +129,14 @@ public final class IdeaWriter {
             GenerateContentResponse response =
                     client.models.generateContent(config.model(), prompt, requestConfig(config));
 
-            int inputTokens = inputTokens(response.usageMetadata());
-            int outputTokens = outputTokens(response.usageMetadata());
+            inputTokens = inputTokens(response.usageMetadata());
+            outputTokens = outputTokens(response.usageMetadata());
 
-            String text = response.text();
-            if (text == null || text.isBlank()) {
-                return IdeaResult.unusable("빈 응답을 받았다", inputTokens, outputTokens);
-            }
-
-            IdeaOutput parsed = Json.lenient().readValue(text, IdeaOutput.class);
-            IdeasResult.Idea idea = toIdea(parsed);
-
-            String broken = brokenReason(idea);
-            if (broken != null) {
-                return IdeaResult.unusable(broken, inputTokens, outputTokens);
-            }
-
-            return IdeaResult.ok(idea, inputTokens, outputTokens);
+            return interpret(response.text(), inputTokens, outputTokens);
         } catch (Exception e) {
-            return IdeaResult.failed(message(e));
+            // 응답 전에 죽었으면 두 값이 0 이라 예전의 failed 와 같고, 응답 뒤에 죽었으면 실제로
+            // 나간 토큰이 남는다.
+            return IdeaResult.unusable(message(e), inputTokens, outputTokens);
         }
     }
 
@@ -154,6 +152,36 @@ public final class IdeaWriter {
                     ThinkingConfig.builder().thinkingBudget(config.thinkingBudget()).build());
         }
         return builder.build();
+    }
+
+    /**
+     * 응답 본문을 결과로 옮긴다.
+     *
+     * <p>파싱 실패를 여기서 잡는 이유는 <b>그 자리가 토큰을 잃기 가장 쉬운 곳</b>이기 때문이다 —
+     * 사고 토큰이 {@code maxOutputTokens} 를 함께 먹어 JSON 이 닫히지 못한 채 잘려 오는 일이
+     * 실제로 있고, 그때 응답은 이미 왔으므로 토큰은 전액 소모된 뒤다. 예외를 바깥으로 던지면
+     * 호출 기록이 0 으로 남아 남은 한도를 실제보다 낙관적으로 보게 된다.
+     *
+     * <p>패키지 접근인 것은 테스트가 부르기 위해서다. 잘린 응답을 실제 호출로 받아내려면 모델이
+     * 그렇게 줄 때까지 하루 한도를 태워야 한다.
+     */
+    static IdeaResult interpret(String text, int inputTokens, int outputTokens) {
+        if (text == null || text.isBlank()) {
+            return IdeaResult.unusable("빈 응답을 받았다", inputTokens, outputTokens);
+        }
+
+        IdeasResult.Idea idea;
+        try {
+            idea = toIdea(Json.lenient().readValue(text, IdeaOutput.class));
+        } catch (Exception e) {
+            return IdeaResult.unusable(
+                    "응답을 읽지 못했다 — %s".formatted(message(e)), inputTokens, outputTokens);
+        }
+
+        String broken = brokenReason(idea);
+        return broken != null
+                ? IdeaResult.unusable(broken, inputTokens, outputTokens)
+                : IdeaResult.ok(idea, inputTokens, outputTokens);
     }
 
     /**
