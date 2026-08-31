@@ -2,10 +2,13 @@ package com.aicards.news.pipeline;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import com.aicards.news.pipeline.render.RenderResult;
+import com.aicards.news.pipeline.schema.IdeasResult;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -171,6 +174,54 @@ class RunTest {
             Run.removeStaleCards(dir, List.of(wrote(1), failed));
 
             assertFalse(Files.exists(dir.resolve("02.webp")));
+        }
+    }
+
+    @Nested
+    @DisplayName("아이디어 읽기")
+    class Ideas {
+
+        private static final String OK_JSON =
+                """
+                {"date":"2026-08-31","generatedAt":"2026-08-31T12:00:00.000Z",
+                 "idea":{"productName":"Nudgeling","tagline":"태그라인","problem":"문제"}}
+                """;
+
+        private Path ideas(String body) throws IOException {
+            Path path = dir.resolve("ideas.json");
+            Files.writeString(path, body);
+            return path;
+        }
+
+        @Test
+        @DisplayName("없으면 null — 아이디어 없는 날의 정상 경로")
+        void nullWhenAbsent() {
+            assertNull(Run.readIdeas("2026-08-31", dir.resolve("없다.json")));
+        }
+
+        @Test
+        @DisplayName("멀쩡하면 읽는다")
+        void readsUsableFile() throws IOException {
+            IdeasResult result = Run.readIdeas("2026-08-31", ideas(OK_JSON));
+
+            assertNotNull(result);
+            assertEquals("Nudgeling", result.idea().productName());
+        }
+
+        @Test
+        @DisplayName("깨진 파일에 던지지 않는다 — 뉴스 카드 다섯 장이 여기 걸려 있다")
+        void survivesBrokenFile() throws IOException {
+            // 이 호출은 카드를 한 장도 그리기 전에 온다. 던지면 그날 발행이 통째로 사라진다 —
+            // idea 실행이 중간에 죽어 반쯤 쓰인 파일이 남는 것이 실제로 닿는 경로다.
+            Path broken = ideas("{\"date\":\"2026-08-31\",\"idea\":{\"productN");
+
+            assertNull(Run.readIdeas("2026-08-31", broken));
+        }
+
+        @Test
+        @DisplayName("날짜가 어긋나면 버린다 — 어제 아이디어가 오늘 카드로 나가는 자리")
+        void dropsMismatchedDate() throws IOException {
+            assertNull(Run.readIdeas("2026-09-01", ideas(OK_JSON)));
         }
     }
 }

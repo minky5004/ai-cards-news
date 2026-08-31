@@ -4,6 +4,7 @@ import com.aicards.news.pipeline.Http;
 import com.aicards.news.pipeline.Paths;
 import com.aicards.news.pipeline.Templates;
 import com.aicards.news.pipeline.schema.CardsResult;
+import com.aicards.news.pipeline.schema.IdeasResult;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
@@ -38,6 +39,16 @@ import com.luciad.imageio.webp.WebPWriteParam;
 public final class CardRenderer implements AutoCloseable {
 
     private static final String TEMPLATE = "card.html";
+
+    private static final String IDEA_TEMPLATE = "idea-card.html";
+
+    /**
+     * 아이디어 카드의 자리 번호.
+     *
+     * <p>뉴스 카드가 1부터 쓰므로 0 을 준다. 파일명 규칙({@code NN.webp})과 섞이지 않는 곳에
+     * 쓰이므로({@link Paths#ideaImage}) 번호는 로그와 판정에만 남는다.
+     */
+    private static final int IDEA_INDEX = 0;
 
     /** 인스타 세로 규격. 카드 디자인의 모든 치수가 여기서 나온다. */
     private static final int WIDTH = 1080;
@@ -123,6 +134,58 @@ public final class CardRenderer implements AutoCloseable {
             }
         }
         return results;
+    }
+
+    /**
+     * 아이디어 카드 한 장.
+     *
+     * <p>뉴스 카드와 브라우저·폰트를 공유한다. 기동이 렌더링보다 몇 배 비싸므로 한 실행 안에서
+     * 다시 띄울 이유가 없다.
+     *
+     * <p>실패해도 던지지 않는 것은 {@link #renderAll} 과 같은 이유다 — 아이디어 한 장 때문에 그날
+     * 뉴스 카드 다섯 장을 잃는 것이 최악이다.
+     */
+    public RenderResult renderIdea(IdeasResult ideas) {
+        try {
+            return drawIdea(ideas);
+        } catch (Exception e) {
+            return RenderResult.failed(
+                    IDEA_INDEX,
+                    e.getMessage() == null || e.getMessage().isBlank()
+                            ? e.toString()
+                            : e.getMessage());
+        }
+    }
+
+    private RenderResult drawIdea(IdeasResult ideas) throws IOException {
+        IdeasResult.Idea idea = ideas.idea();
+
+        Map<String, String> values = new HashMap<>(fonts);
+        values.put("date", ideas.date().replace('-', '.'));
+        values.put("productName", Markup.escape(idea.productName()));
+        values.put("tagline", Markup.escape(idea.tagline()));
+        values.put("problem", Markup.escape(idea.problem()));
+        String features = IdeaMarkup.features(idea.keyFeatures());
+        values.put("features", features);
+        // 항목이 없으면 머리글도 없앤다. 판정은 뉴스 카드와 같이 템플릿의 CSS 가 한다.
+        values.put("variant", features.isEmpty() ? "no-features" : "");
+        values.put(
+                "verdict",
+                IdeaMarkup.verdictLabel(idea.novelty() == null ? null : idea.novelty().verdict()));
+        values.put("verdictNote", IdeaMarkup.verdictNote(idea.novelty()));
+        values.put("sourceNote", IdeaMarkup.sourceNote(idea));
+
+        page.setContent(Templates.render(Paths.templatesDir().resolve(IDEA_TEMPLATE), values));
+        page.evaluate("() => document.fonts.ready");
+
+        int overflow = overflowPx();
+        byte[] png = page.screenshot();
+
+        Path output = Paths.ideaImage(ideas.date());
+        writeWebp(png, output);
+
+        // 붙이는 이미지가 없는 카드라 imageOk 는 뜻이 없다. 폴백을 썼다는 표시로 오해되지 않게 true.
+        return RenderResult.ok(IDEA_INDEX, output, true, overflow, Files.size(output));
     }
 
     private RenderResult render(String date, CardsResult.Card card, int index, int total)
