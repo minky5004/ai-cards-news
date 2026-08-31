@@ -94,6 +94,20 @@ public final class Paths {
         return cardsDir(date).resolve("%02d.webp".formatted(index));
     }
 
+    /**
+     * 아이디어 카드 이미지.
+     *
+     * <p><b>{@link #cardsDir} 밖에 둔다.</b> 웹은 그 디렉터리의 {@code .webp} 를 전부 세어
+     * {@code cards.json} 의 장수와 견주고, 어긋나면 <b>그날을 통째로 건너뛴다</b>
+     * ({@code web/src/lib/content.ts}). 안에 한 장을 더 넣으면 아이디어가 붙은 날마다 사이트에서
+     * 그날이 사라진다 — 카드가 하나 늘어나는 게 아니라 여섯 장이 다 없어지는 거래다.
+     *
+     * <p>{@code render} 의 옛 카드 청소도 그 디렉터리만 훑으므로, 밖에 있으면 지워지지도 않는다.
+     */
+    public static Path ideaImage(String date) {
+        return dateDir(date).resolve("idea.webp");
+    }
+
     /** 로그에 절대 경로를 그대로 뱉으면 읽기 어렵다. 리포 루트 기준 상대 경로로 줄인다. */
     public static String relative(Path path) {
         return REPO_ROOT.relativize(path).toString().replace('\\', '/');

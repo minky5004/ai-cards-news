@@ -652,10 +652,18 @@ public final class Run {
 
         // 장수를 세고 나서 판정한다. 첫 장만 보고 건너뛰면 중간에 죽은 렌더가 그대로 굳는다
         // — 무인 재시도에서는 그게 곧 그날을 통째로 잃는다는 뜻이다.
+        // 아이디어 카드가 있어야 하는 날인가. 아래 건너뜀 판정과 렌더 양쪽이 이 값을 본다.
+        IdeasResult ideas = readIdeas(renderDate);
+
         if (!force) {
             int rendered = renderedCount(expected, i -> Paths.cardImage(renderDate, i));
 
-            if (rendered == expected) {
+            // 뉴스 카드가 다 있어도 아이디어 카드가 비어 있으면 건너뛰지 않는다. idea 단계가
+            // render 뒤에 돌면 정확히 그 상태가 되는데, 여기서 빠져나가면 --force 없이는 영영
+            // 안 그려진다 — 무인 운영에서 --force 를 붙여 줄 사람이 없다.
+            boolean ideaMissing = ideas != null && !Files.exists(Paths.ideaImage(renderDate));
+
+            if (rendered == expected && !ideaMissing) {
                 System.out.printf(
                         "%s 에 카드 %d장이 이미 다 있다. 다시 만들려면 --force 를 붙여라.%n",
                         Paths.relative(Paths.cardsDir(renderDate)), expected);
@@ -672,8 +680,13 @@ public final class Run {
         System.out.printf("카드 렌더링 시작 — %s (%d장, 1080x1350)%n%n", renderDate, expected);
 
         List<RenderResult> results;
+        // 아이디어 카드는 있으면 같은 브라우저로 함께 그린다. 기동이 렌더링보다 몇 배 비싸서
+        // 한 실행에 두 번 띄울 이유가 없다. 없는 날에는 null 로 남고 아래 보고에서 빠진다.
+        RenderResult idea = null;
+
         try (CardRenderer renderer = new CardRenderer()) {
             results = renderer.renderAll(cards);
+            if (ideas != null) idea = renderer.renderIdea(ideas);
         }
 
         int overflowed = 0;
@@ -708,6 +721,9 @@ public final class Run {
             System.out.printf("텍스트가 넘친 카드 %d장 — 카피 길이 규격을 손봐야 한다.%n", overflowed);
         }
 
+        // 아래 판정은 던진다. 아이디어 카드는 이미 파일로 나가 있으므로 그 전에 찍어야 남는다.
+        reportIdea(idea);
+
         /*
           한 장이라도 못 그리면 그날 전체를 실패로 본다.
 
@@ -737,6 +753,45 @@ public final class Run {
 
         // 전부 성공했을 때만 치운다. 실패한 실행에서 파일을 지우면 무엇이 남았는지 볼 수 없다.
         removeStaleCards(Paths.cardsDir(renderDate), results);
+    }
+
+    /**
+     * 그날 아이디어. 없으면 {@code null} 이고 렌더는 뉴스 카드만으로 끝난다.
+     *
+     * <p>날짜가 어긋나면 읽지 않는다. {@code cards.json} 쪽({@link #requireSameDate})만큼 대가가
+     * 크지는 않지만 — 여기는 지우는 경로가 없다 — 어긋난 날짜로 그리면 <b>어제 아이디어가 오늘
+     * 카드로 발행된다.</b> 2026-08-27 을 통째로 잃은 것이 정확히 날짜 라벨이 어긋난 사고였다.
+     */
+    private static IdeasResult readIdeas(String date) throws IOException {
+        Path path = Paths.ideasJson(date);
+        if (!Files.exists(path)) return null;
+
+        IdeasResult ideas = Json.read(path, IdeasResult.class);
+        if (!date.equals(ideas.date())) {
+            throw new IllegalStateException(
+                    "--date %s 와 %s 의 date %s 가 다르다. 그대로 그리면 다른 날 아이디어가 오늘 카드로 나간다."
+                            .formatted(date, Paths.relative(path), ideas.date()));
+        }
+        return ideas;
+    }
+
+    /** 아이디어 카드 결과를 화면에 남긴다. 이 단계의 성패 판정은 뉴스 카드에서 이미 끝났다. */
+    private static void reportIdea(RenderResult idea) {
+        if (idea == null) return;
+
+        if (!idea.ok()) {
+            // 얹은 것이 본체를 죽이지 않는다. 뉴스 카드 다섯 장은 이미 파일로 나가 있다.
+            System.out.printf("%n✗ 아이디어 카드 실패 — %s%n", idea.error());
+            return;
+        }
+
+        System.out.printf(
+                "%n✓ %s  %d KB%n", Paths.relative(idea.path()), idea.bytes() / 1024);
+        if (idea.overflowPx() > 0) {
+            System.out.printf(
+                    "     ⚠ 텍스트가 %dpx 넘쳤다 — 태그라인·문제가 카드 규격을 초과한다%n",
+                    idea.overflowPx());
+        }
     }
 
     /**
