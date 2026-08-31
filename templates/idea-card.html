@@ -160,6 +160,17 @@
         align-self: stretch;
       }
 
+      /*
+        항목이 하나도 없는 날.
+
+        머리글만 남으면 600px 짜리 빈 종이 위에 "핵심 기능" 네 글자가 떠 있게 되는데, 넘침
+        감지는 넘친 것이 없으므로 0 을 돌려준다 — 지표가 통과시키는 사고다. 뉴스 카드가
+        붙일 이미지 없는 날을 bare 로 가르는 것과 같은 자리다.
+      */
+      .no-features .features {
+        display: none;
+      }
+
       .features h2 {
         font-size: 25px;
         font-weight: 900;
@@ -245,7 +256,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="{{variant}}">
     <div class="grain"></div>
 
     <div class="sheet">

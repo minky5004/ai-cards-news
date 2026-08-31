@@ -658,9 +658,7 @@ public final class Run {
         if (!force) {
             int rendered = renderedCount(expected, i -> Paths.cardImage(renderDate, i));
 
-            // 뉴스 카드가 다 있어도 아이디어 카드가 비어 있으면 건너뛰지 않는다. idea 단계가
-            // render 뒤에 돌면 정확히 그 상태가 되는데, 여기서 빠져나가면 --force 없이는 영영
-            // 안 그려진다 — 무인 운영에서 --force 를 붙여 줄 사람이 없다.
+            // 아이디어 카드만 비어 있는 날. idea 단계가 render 뒤에 돌면 정확히 그 상태가 된다.
             boolean ideaMissing = ideas != null && !Files.exists(Paths.ideaImage(renderDate));
 
             if (rendered == expected && !ideaMissing) {
@@ -669,6 +667,24 @@ public final class Run {
                         Paths.relative(Paths.cardsDir(renderDate)), expected);
                 return;
             }
+
+            /*
+              뉴스 카드가 멀쩡한데 아이디어만 없으면 아이디어만 그린다.
+
+              같이 그리면 손댈 이유가 없는 다섯 장이 함께 바뀐다 — 렌더 결과는 실행 사이에
+              바이트가 같지 않아서(폰트 래스터화), 워크플로의 `git add content/<date>` 가 그
+              다섯 장을 전부 커밋한다. 그러면 그날 diff 에서 <b>무엇을 실제로 고쳤는지가
+              사라진다.</b> 발행분 재렌더에서 손대지 않은 카드를 손으로 되돌렸던 것(#56)이
+              바로 이 비용이고, 무인 실행에는 되돌려 줄 사람이 없다.
+            */
+            if (rendered == expected) {
+                System.out.printf(
+                        "카드 %d장은 그대로 두고 아이디어 카드만 그린다 — 재렌더는 바이트가 달라져 손대지 않은 카드까지 커밋된다.%n",
+                        expected);
+                reportIdea(renderIdeaOnly(ideas));
+                return;
+            }
+
             if (rendered > 0) {
                 // 없는 것만 그리지 않는다. 렌더는 API 를 쓰지 않아 다시 그리는 값이 싸고,
                 // 부분만 채우면 "렌더가 쓴 경로" 기준의 청소와 얽혀 규칙이 흐려진다.
@@ -756,23 +772,58 @@ public final class Run {
     }
 
     /**
-     * 그날 아이디어. 없으면 {@code null} 이고 렌더는 뉴스 카드만으로 끝난다.
+     * 그날 아이디어. 없거나 쓸 수 없으면 {@code null} 이고 렌더는 뉴스 카드만으로 끝난다.
      *
-     * <p>날짜가 어긋나면 읽지 않는다. {@code cards.json} 쪽({@link #requireSameDate})만큼 대가가
-     * 크지는 않지만 — 여기는 지우는 경로가 없다 — 어긋난 날짜로 그리면 <b>어제 아이디어가 오늘
-     * 카드로 발행된다.</b> 2026-08-27 을 통째로 잃은 것이 정확히 날짜 라벨이 어긋난 사고였다.
+     * <p><b>여기서 던지지 않는다.</b> 이 호출은 뉴스 카드를 한 장도 그리기 전에 오므로, 던지면
+     * 그날 카드 다섯 장이 아예 안 그려지고 발행도 없다 — {@link
+     * com.aicards.news.pipeline.render.CardRenderer#renderIdea} 가 스스로 "최악" 이라고 적어 둔
+     * 결과를 이 자리가 만들어 낸다. 얹은 것이 본체를 죽이지 않는다는 이 단계의 전제가 여기서도
+     * 그대로다.
+     *
+     * <p>실패는 둘이고 둘 다 아이디어만 버린다.
+     *
+     * <ul>
+     *   <li><b>읽지 못함</b> — {@code idea} 실행이 중간에 죽어 반쯤 쓰인 파일 · 옛 스키마로 쓰인
+     *       과거 날짜. {@link #readUsage} 가 이미 같은 모양의 관용 경로를 쓴다.
+     *   <li><b>날짜 어긋남</b> — 그대로 그리면 <b>어제 아이디어가 오늘 카드로 발행된다.</b>
+     *       2026-08-27 을 통째로 잃은 것이 정확히 날짜 라벨이 어긋난 사고였다.
+     * </ul>
+     *
+     * <p>조용히 넘어가지는 않는다. 사유를 화면에 남기고 그날 {@code idea.webp} 가 없는 것이 곧
+     * 신호다.
      */
-    private static IdeasResult readIdeas(String date) throws IOException {
-        Path path = Paths.ideasJson(date);
+    private static IdeasResult readIdeas(String date) {
+        return readIdeas(date, Paths.ideasJson(date));
+    }
+
+    /** 경로를 받는 것은 테스트가 임시 파일로 두 실패 갈래를 밟기 위해서다. */
+    static IdeasResult readIdeas(String date, Path path) {
         if (!Files.exists(path)) return null;
 
-        IdeasResult ideas = Json.read(path, IdeasResult.class);
+        IdeasResult ideas;
+        try {
+            ideas = Json.read(path, IdeasResult.class);
+        } catch (IOException e) {
+            System.out.printf(
+                    "%s 를 읽지 못해 아이디어 카드를 건너뛴다 — %s%n",
+                    Paths.relative(path), e.getMessage());
+            return null;
+        }
+
         if (!date.equals(ideas.date())) {
-            throw new IllegalStateException(
-                    "--date %s 와 %s 의 date %s 가 다르다. 그대로 그리면 다른 날 아이디어가 오늘 카드로 나간다."
-                            .formatted(date, Paths.relative(path), ideas.date()));
+            System.out.printf(
+                    "--date %s 와 %s 의 date %s 가 달라 아이디어 카드를 건너뛴다 — 그대로 그리면 다른 날 아이디어가 오늘 카드로 나간다.%n",
+                    date, Paths.relative(path), ideas.date());
+            return null;
         }
         return ideas;
+    }
+
+    /** 뉴스 카드를 건드리지 않고 아이디어 카드만 그린다. 브라우저는 이 한 장을 위해서만 뜬다. */
+    private static RenderResult renderIdeaOnly(IdeasResult ideas) {
+        try (CardRenderer renderer = new CardRenderer()) {
+            return renderer.renderIdea(ideas);
+        }
     }
 
     /** 아이디어 카드 결과를 화면에 남긴다. 이 단계의 성패 판정은 뉴스 카드에서 이미 끝났다. */

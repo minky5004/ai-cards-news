@@ -165,7 +165,10 @@ public final class CardRenderer implements AutoCloseable {
         values.put("productName", Markup.escape(idea.productName()));
         values.put("tagline", Markup.escape(idea.tagline()));
         values.put("problem", Markup.escape(idea.problem()));
-        values.put("features", IdeaMarkup.features(idea.keyFeatures()));
+        String features = IdeaMarkup.features(idea.keyFeatures());
+        values.put("features", features);
+        // 항목이 없으면 머리글도 없앤다. 판정은 뉴스 카드와 같이 템플릿의 CSS 가 한다.
+        values.put("variant", features.isEmpty() ? "no-features" : "");
         values.put(
                 "verdict",
                 IdeaMarkup.verdictLabel(idea.novelty() == null ? null : idea.novelty().verdict()));
