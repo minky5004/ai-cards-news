@@ -7,6 +7,10 @@ import com.aicards.news.pipeline.copy.CopyResult;
 import com.aicards.news.pipeline.copy.CopyTally;
 import com.aicards.news.pipeline.copy.Copywriter;
 import com.aicards.news.pipeline.copy.UsageLog;
+import com.aicards.news.pipeline.idea.Candidates;
+import com.aicards.news.pipeline.idea.IdeaResult;
+import com.aicards.news.pipeline.idea.IdeaWriter;
+import com.aicards.news.pipeline.idea.Novelty;
 import com.aicards.news.pipeline.ingest.Collector;
 import com.aicards.news.pipeline.ingest.Dedup;
 import com.aicards.news.pipeline.extract.Extractor;
@@ -16,6 +20,7 @@ import com.aicards.news.pipeline.render.RenderResult;
 import com.aicards.news.pipeline.schema.ArticlesResult;
 import com.aicards.news.pipeline.schema.CardsResult;
 import com.aicards.news.pipeline.schema.Cluster;
+import com.aicards.news.pipeline.schema.IdeasResult;
 import com.aicards.news.pipeline.schema.IngestResult;
 import com.aicards.news.pipeline.schema.ItemCluster;
 import com.aicards.news.pipeline.schema.RawItem;
@@ -45,7 +50,7 @@ import java.util.stream.Stream;
 public final class Run {
 
     private static final List<String> STAGES =
-            List.of("config", "ingest", "extract", "copy", "render", "run");
+            List.of("config", "ingest", "extract", "copy", "idea", "render", "run");
 
     private static final Pattern DATE = Pattern.compile("\\d{4}-\\d{2}-\\d{2}");
 
@@ -96,6 +101,7 @@ public final class Run {
             case "ingest" -> runIngest(args.date(), args.force());
             case "extract" -> runExtract(args.date(), args.force());
             case "copy" -> runCopy(args.date(), args.force());
+            case "idea" -> runIdea(args.date(), args.force());
             case "render" -> runRender(args.date(), args.force());
             default -> System.out.printf("[%s] 아직 구현되지 않았다.%n", args.stage());
         }
@@ -141,6 +147,16 @@ public final class Run {
                 copy.model(),
                 copy.maxTokens(),
                 copy.thinkingBudget() == null ? "모델 기본값" : copy.thinkingBudget().toString());
+
+        PipelineConfig.Idea idea = config.idea();
+        System.out.printf(
+                "아이디어       %s · 최대 %d 토큰 · 재료 %d건 · 발췌 %d자 · 근거 %d건 · %d점 이상이면 CROWDED%n",
+                idea.model(),
+                idea.maxTokens(),
+                idea.maxCandidates(),
+                idea.bodyExcerpt(),
+                idea.verifyHits(),
+                idea.crowdedPoints());
 
         PipelineConfig.Scoring scoring = config.scoring();
         PipelineConfig.Scoring.Weights weights = scoring.weights();
@@ -450,6 +466,140 @@ public final class Run {
 
         Json.write(output, new CardsResult(date, Times.iso(Instant.now()), cards));
         System.out.printf("%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    /**
+     * 그날 기사에서 사업 아이디어 1건을 만든다.
+     *
+     * <p>{@code copy} 와 형제 단계다 — 같은 {@code articles.json} 을 읽고 각자의 산출물을 쓴다.
+     * 순서 의존이 없어 어느 쪽을 먼저 돌려도 되고, 한쪽이 실패해도 다른 쪽은 이미 쓴 파일을 잃지
+     * 않는다. 이 단계를 {@code copy} 안에 넣지 않은 이유가 그것이다.
+     */
+    private static void runIdea(String date, boolean force) throws Exception {
+        Path output = Paths.ideasJson(date);
+
+        if (!force && Files.exists(output)) {
+            System.out.printf(
+                    "%s 가 이미 있다. 다시 만들려면 --force 를 붙여라.%n", Paths.relative(output));
+            return;
+        }
+
+        Path rawPath = Paths.rawJson(date);
+        if (!Files.exists(rawPath)) {
+            throw new IllegalStateException(
+                    "%s 가 없다. 먼저 ingest 단계를 실행해라.".formatted(Paths.relative(rawPath)));
+        }
+
+        Path articlesPath = Paths.articlesJson(date);
+        if (!Files.exists(articlesPath)) {
+            throw new IllegalStateException(
+                    "%s 가 없다. 먼저 extract 단계를 실행해라.".formatted(Paths.relative(articlesPath)));
+        }
+
+        PipelineConfig config = ConfigLoader.loadPipelineConfig();
+        IngestResult raw = Json.read(rawPath, IngestResult.class);
+        ArticlesResult articles = Json.read(articlesPath, ArticlesResult.class);
+
+        List<Candidates.Candidate> candidates =
+                Candidates.select(
+                        raw.clusters(),
+                        raw.selectedIds(),
+                        articles.articles(),
+                        config.scoring().minScore(),
+                        config.idea());
+
+        long withBody = candidates.stream().filter(Candidates.Candidate::hasBody).count();
+        System.out.printf(
+                "아이디어 생성 시작 — %s (재료 %d건 · 본문 있음 %d건, %s)%n%n",
+                date, candidates.size(), withBody, config.idea().model());
+
+        for (Candidates.Candidate candidate : candidates) {
+            System.out.printf(
+                    "%s %s%n",
+                    candidate.selected() ? "●" : "○", truncate(candidate.title(), 68));
+            System.out.printf(
+                    "     %s · %s%n",
+                    candidate.source(),
+                    candidate.hasBody() ? "본문 %d자".formatted(candidate.body().length()) : "제목만");
+        }
+        System.out.println();
+
+        // 제목만 있는 재료로는 만들지 않는다. 근거가 제목의 낱말뿐인 아이디어는 지어낸 것과 구분되지
+        // 않는다 — Copywriter 가 본문 없는 기사를 건너뛰는 것과 같은 판단이다.
+        if (!Candidates.grounded(candidates)) {
+            throw new IllegalStateException(
+                    "본문을 가진 재료가 하나도 없다 (후보 %d건). %s 는 쓰지 않았다."
+                            .formatted(candidates.size(), Paths.relative(output)));
+        }
+
+        UsageLog previous = readUsage(date);
+        if (previous.totalCalls() > 0) {
+            System.out.printf(
+                    "오늘 이미 %d회 호출했다 (%s, %d회 실행)%n%n",
+                    previous.totalCalls(),
+                    Paths.relative(Paths.usageJson(date)),
+                    previous.runs().size());
+        }
+
+        IdeaResult result = IdeaWriter.write(date, candidates, config.idea());
+
+        /*
+          판정보다 기록이 먼저다. copy 와 같은 이유로, 실패한 실행의 호출이 누락되면 남은 여유를
+          실제보다 낙관적으로 보게 된다.
+
+          프롬프트 렌더링에서 죽은 경우처럼 실제로는 안 나간 호출도 1 로 센다. 한도 기록에서
+          많이 세는 쪽의 대가는 여유를 적게 보는 것뿐이고, 적게 세는 쪽의 대가는 한도를 넘겨
+          그날을 잃는 것이다.
+        */
+        UsageLog updated =
+                previous.plus(
+                        new UsageLog.Entry(
+                                Times.iso(Instant.now()),
+                                1,
+                                result.inputTokens(),
+                                result.outputTokens()));
+        Json.write(Paths.usageJson(date), updated);
+        System.out.printf(
+                "호출 1회 · 토큰 입력 %d 출력 %d%n오늘 누적 %d회 · 토큰 입력 %d 출력 %d%n%n",
+                result.inputTokens(),
+                result.outputTokens(),
+                updated.totalCalls(),
+                updated.totalInputTokens(),
+                updated.totalOutputTokens());
+
+        if (!result.ok()) {
+            throw new IllegalStateException(
+                    "아이디어를 만들지 못했다 — %s. %s 는 쓰지 않았다."
+                            .formatted(result.error(), Paths.relative(output)));
+        }
+
+        IdeasResult.Idea idea = result.idea();
+
+        // 검증은 LLM 이 아니라 HN 검색이다. 한도를 먹지 않으므로 아이디어가 나온 뒤에 돌린다.
+        System.out.printf("중복 확인 — \"%s\"%n", idea.searchQuery());
+        IdeasResult.Novelty novelty =
+                Novelty.check(
+                        idea.searchQuery(),
+                        config.idea().verifyHits(),
+                        config.idea().crowdedPoints());
+
+        System.out.printf("  %s — %s%n", novelty.verdict(), novelty.reason());
+        for (IdeasResult.Evidence evidence : novelty.evidence()) {
+            System.out.printf(
+                    "  · %4d점  %s%n", evidence.points(), truncate(evidence.title(), 62));
+            System.out.printf("            %s%n", evidence.url());
+        }
+
+        IdeasResult.Idea finished =
+                idea.withNovelty(novelty)
+                        .withSources(candidates.stream().map(Candidates.Candidate::toSource).toList());
+
+        System.out.printf("%n%s — %s%n", finished.productName(), finished.tagline());
+        System.out.printf("%s%n", finished.oneLineSummary());
+        System.out.printf("%n%s%n", finished.problem());
+
+        Json.write(output, new IdeasResult(date, Times.iso(Instant.now()), finished));
+        System.out.printf("%n%s 에 기록했다.%n", Paths.relative(output));
     }
 
     /**

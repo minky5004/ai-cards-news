@@ -34,6 +34,11 @@ class ConfigLoaderTest {
             assertTrue(config.scoring().maxCards() > 0);
             assertTrue(!config.copy().model().isBlank());
             assertTrue(!config.relevance().terms().isEmpty());
+            assertTrue(!config.idea().model().isBlank());
+            assertTrue(config.idea().maxCandidates() > 0);
+            assertTrue(config.idea().bodyExcerpt() > 0);
+            assertTrue(config.idea().verifyHits() > 0);
+            assertTrue(config.idea().crowdedPoints() > 0);
         }
 
         @Test
@@ -60,12 +65,18 @@ class ConfigLoaderTest {
         }
 
         private static PipelineConfig config(int maxAttempts, int maxCards) {
+            return config(maxAttempts, maxCards, maxCards);
+        }
+
+        private static PipelineConfig config(int maxAttempts, int maxCards, int maxCandidates) {
             return new PipelineConfig(
                     new PipelineConfig.Ingest(36),
                     new PipelineConfig.Relevance(java.util.List.of("llm"), java.util.List.of("AI")),
                     new PipelineConfig.Dedup(2, 0.5, 0.2),
                     new PipelineConfig.Extract(maxAttempts),
                     new PipelineConfig.Copy("gemini-3.6-flash", 4000, null),
+                    new PipelineConfig.Idea(
+                            "gemini-3.6-flash", 16000, null, maxCandidates, 1500, 5, 300),
                     scoring(maxCards));
         }
 
@@ -85,6 +96,18 @@ class ConfigLoaderTest {
         @DisplayName("같으면 통과한다 — 백필 없이 선정분만 도는 설정")
         void allowsAttemptsEqualToMaxCards() {
             assertEquals(5, config(5, 5).extract().maxAttempts());
+        }
+
+        @Test
+        @DisplayName("재료 상한이 최대 장수보다 작으면 로딩 시점에 터진다")
+        void rejectsCandidatesBelowMaxCards() {
+            // 본문을 가진 선정분이 먼저 잘린다. 카드 장수처럼 눈에 띄는 손실이 아니라 아이디어의
+            // 근거가 조용히 얇아지는 형태라, 로그만 봐서는 끝까지 안 잡힌다.
+            IllegalArgumentException thrown =
+                    assertThrows(IllegalArgumentException.class, () -> config(10, 5, 3));
+
+            assertTrue(thrown.getMessage().contains("maxCandidates"));
+            assertTrue(thrown.getMessage().contains("maxCards"));
         }
     }
 }

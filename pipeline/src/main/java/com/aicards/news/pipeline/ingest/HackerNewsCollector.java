@@ -27,7 +27,13 @@ import java.util.concurrent.Future;
  */
 public final class HackerNewsCollector {
 
-    private static final String SEARCH_ENDPOINT = "https://hn.algolia.com/api/v1/search";
+    /**
+     * Algolia 검색 API. 인증도 승인도 필요 없고 무료다.
+     *
+     * <p>아이디어 단계의 중복 판정({@link com.aicards.news.pipeline.idea.Novelty})도 같은 곳을
+     * 쓴다. 주소를 두 곳에 적으면 한쪽만 옮겨 가는 날이 온다.
+     */
+    public static final String SEARCH_ENDPOINT = "https://hn.algolia.com/api/v1/search";
     private static final String NAME = "hackernews";
 
     private static final ObjectMapper MAPPER = Json.lenient();
