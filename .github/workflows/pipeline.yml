@@ -157,12 +157,29 @@ jobs:
       # 실패가 이슈를 만들지 않는 자리이기도 하다. 사유는 이 단계 로그에 남고, 그날
       # idea.webp 가 없는 것이 곧 그 판정이다.
       - name: 아이디어
+        id: idea
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DATE_ARG: --date ${{ steps.date.outputs.date }}
           FORCE_ARG: ${{ inputs.force && '--force' || '' }}
         run: ./gradlew run --args="idea $DATE_ARG $FORCE_ARG" -x installChromium
+
+      # continue-on-error 는 실패를 삼키는 데서 그치지 않고 초록으로 덮는다 — step conclusion 이
+      # success 로 찍히고, 남는 것은 제목도 단계 이름도 없는 `Process completed with exit code 1`
+      # 주석 하나뿐이다(2026-09-01 실행 33483021793 에서 실제로 그렇게 나왔다). 어느 단계가
+      # 죽었는지는 로그를 열어야 나온다. outcome 만이 진짜 결과를 들고 있으므로 그것으로
+      # 이름 붙은 경고를 남긴다.
+      #
+      # 이슈로 올리지는 않는다. 카드 다섯 장이 살아서 나간 실행이라, 매일 열리는 이슈는
+      # 알림이 아니라 소음이 된다 — deploy 잡의 조용한 건너뜀과 같은 자리를 만들지 않으면서
+      # 알림의 무게는 본체 실패에만 남긴다.
+      - name: 아이디어 실패 표시
+        if: steps.idea.outcome == 'failure'
+        env:
+          DATE: ${{ steps.date.outputs.date }}
+        run: |
+          echo "::warning title=아이디어 카드 없음::$DATE — 아이디어 단계가 실패했다. 카드는 그대로 발행됐다. 사유는 '아이디어' 단계 로그에."
 
       # 여기는 -x 를 붙이지 않는다. 렌더가 실제로 Chromium 을 쓰는 단계다.
       - name: 카드 렌더링
