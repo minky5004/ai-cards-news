@@ -179,7 +179,7 @@ jobs:
         env:
           DATE: ${{ steps.date.outputs.date }}
         run: |
-          echo "::warning title=아이디어 카드 없음::$DATE — 아이디어 단계가 실패했다. 카드는 그대로 발행됐다. 사유는 '아이디어' 단계 로그에."
+          echo "::warning title=아이디어 카드 없음::$DATE — 아이디어 단계가 실패했다. 뒤의 뉴스 카드 단계들은 이 실패에 걸리지 않는다. 사유는 '아이디어' 단계 로그에."
 
       # 여기는 -x 를 붙이지 않는다. 렌더가 실제로 Chromium 을 쓰는 단계다.
       - name: 카드 렌더링
@@ -298,8 +298,9 @@ jobs:
           if [ "$PIPELINE_RESULT" = "success" ]; then
             STAGE="배포"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
-          산출물이 이미 리포에 있으면 여섯 단계는 전부 건너뛰고 배포만 다시 돈다 —
-          Gemini 는 한 번도 부르지 않는다."
+          산출물이 이미 리포에 있는 단계는 전부 건너뛰므로 대개 배포만 다시 돈다.
+          예외는 아이디어 하나다 — 그 단계가 죽은 채 발행된 날이면 \`ideas.json\` 이 없어
+          다시 돌고, Gemini 를 1회 쓰면서 아이디어 카드까지 새 커밋으로 얹는다."
           else
             STAGE="파이프라인"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
