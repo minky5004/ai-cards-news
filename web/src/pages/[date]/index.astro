@@ -3,7 +3,7 @@ import type { GetStaticPaths } from "astro";
 import ArchiveGrid from "../../components/ArchiveGrid.astro";
 import CardDeck from "../../components/CardDeck.astro";
 import Layout from "../../layouts/Layout.astro";
-import { formatDate, listDays, type Day } from "../../lib/content";
+import { formatDate, listDays, slides, type Day } from "../../lib/content";
 
 export const getStaticPaths = (() => {
   const days = listDays();
@@ -42,7 +42,7 @@ const short = (d: string) => d.slice(5).replace("-", ".");
 
 <Layout
   title={`${formatDate(day.date)} AI 뉴스 카드`}
-  description={day.cards.map((card) => card.headline).join(" · ")}
+  description={slides(day).map((slide) => slide.title).join(" · ")}
 >
   <section class="day">
     <p class="eyebrow">발행 기록</p>
@@ -57,7 +57,7 @@ const short = (d: string) => d.slice(5).replace("-", ".");
   </section>
 
   {/* 홈 아카이브 더미의 표지와 짝이 되는 이름. 더미에서 이 페이지로 이어진다. */}
-  <CardDeck cards={day.cards} coverName={`cover-${day.date}`} />
+  <CardDeck slides={slides(day)} coverName={`cover-${day.date}`} />
 
   <nav class="pager" aria-label="다른 발행일">
     {

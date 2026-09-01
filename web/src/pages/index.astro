@@ -2,7 +2,7 @@
 import ArchiveGrid from "../components/ArchiveGrid.astro";
 import CardDeck from "../components/CardDeck.astro";
 import Layout from "../layouts/Layout.astro";
-import { listDays } from "../lib/content";
+import { listDays, slides } from "../lib/content";
 
 const days = listDays();
 const [latest, ...past] = days;
@@ -34,7 +34,7 @@ const parts = latest ? latest.date.split("-") : null;
           </div>
         </section>
 
-        <CardDeck cards={latest.cards} />
+        <CardDeck slides={slides(latest)} />
 
         {past.length > 0 && (
           <section class="archive">

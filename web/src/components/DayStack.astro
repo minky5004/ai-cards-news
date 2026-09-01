@@ -1,5 +1,5 @@
 ---
-import type { Day } from "../lib/content";
+import { slides, type Day } from "../lib/content";
 
 interface Props {
   day: Day;
@@ -14,17 +14,22 @@ const weekday = ["일", "월", "화", "수", "목", "금", "토"][
   new Date(`${day.date}T00:00:00Z`).getUTCDay()
 ];
 
-const cover = day.cards[0];
+/*
+  덱과 같은 순서다. 표지가 곧 덱의 첫 장이어야 더미를 눌러 들어갈 때 표지가 그대로
+  첫 카드가 된다 — 둘이 갈리면 view transition 의 짝이 화면 밖 카드로 날아간다.
+*/
+const deck = slides(day);
+const cover = deck[0];
 
 /*
   표지 뒤에 깔릴 층. 카드가 5장이면 4겹이 뒤에 쌓여 더미가 5장 두께로 보인다.
   두께가 곧 그날 발행한 장수라, 아카이브를 훑기만 해도 조용한 날과 그렇지 않은
   날이 구분된다 — 장식이 아니라 정보다.
 */
-const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) => i + 1);
+const leaves = Array.from({ length: Math.max(0, deck.length - 1) }, (_, i) => i + 1);
 ---
 
-<a class="stack" href={`${base}${day.date}/`} aria-label={`${month}월 ${dayOfMonth}일 발행 카드 ${day.cards.length}장 보기`}>
+<a class="stack" href={`${base}${day.date}/`} aria-label={`${month}월 ${dayOfMonth}일 발행 카드 ${deck.length}장 보기`}>
   <span class="pile">
     {leaves.map((i) => <span class="leaf" style={`--i:${i}`} aria-hidden="true" />)}
 
@@ -53,7 +58,7 @@ const leaves = Array.from({ length: Math.max(0, day.cards.length - 1) }, (_, i) 
     <span class="date">
       <span class="mm">{month}</span><span class="sep">.</span><span class="dd">{dayOfMonth}</span>
     </span>
-    <span class="meta">{weekday}요일 · {day.cards.length}장</span>
+    <span class="meta">{weekday}요일 · {deck.length}장</span>
   </span>
 </a>
 
