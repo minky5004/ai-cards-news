@@ -3,7 +3,7 @@
 # M5 를 한 번에 올리지 않고 쪼개 밟는 중이다. 로컬에는 있고 러너에는 없는 것이 셋
 # (JDK 25 · GEMINI_API_KEY · Chromium)인데 전부 한 워크플로에 넣으면 어디서 죽었는지
 # 가리기 어렵다. JDK 25 와 Gradle wrapper 는 M5-2 에서, Chromium 은 M5-4 에서 밟았고,
-# 여기서 마지막 하나인 API 키를 붙인다. 이제 파이프라인 다섯 단계가 전부 러너에서 돈다.
+# 여기서 마지막 하나인 API 키를 붙인다. 이제 파이프라인 여섯 단계가 전부 러너에서 돈다.
 #
 # 단계를 한 잡에 몰아 넣는 이유는 단계끼리 content/<date>/ 를 파일로 주고받기 때문이다.
 # 잡을 나누면 그 사이마다 artifact 업로드·다운로드가 필요해진다 — 수집부터 커밋까지가
@@ -146,6 +146,41 @@ jobs:
           FORCE_ARG: ${{ inputs.force && '--force' || '' }}
         run: ./gradlew run --args="copy $DATE_ARG $FORCE_ARG" -x installChromium
 
+      # 아이디어 카드는 그날 발행의 필수 부품이 아니다. continue-on-error 를 붙인 이유가
+      # 그것이다 — 재료에 본문이 하나도 없거나 Gemini 가 거절한 날에 카드 다섯 장까지 함께
+      # 죽으면, 곁가지 하나 때문에 본체를 잃는다.
+      #
+      # 자리는 copy 와 render 사이다. render 뒤에 두면 그날 실행은 ideas.json 만 남기고
+      # idea.webp 는 다음 재실행까지 밀린다. 앞에 두면 render 가 같은 브라우저로 이어 그리고,
+      # 없는 날에는 그냥 건너뛴다 — 그 갈래는 Run 의 readIdeas 가 이미 판정한다.
+      #
+      # 실패가 이슈를 만들지 않는 자리이기도 하다. 사유는 이 단계 로그에 남고, 그날
+      # idea.webp 가 없는 것이 곧 그 판정이다.
+      - name: 아이디어
+        id: idea
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DATE_ARG: --date ${{ steps.date.outputs.date }}
+          FORCE_ARG: ${{ inputs.force && '--force' || '' }}
+        run: ./gradlew run --args="idea $DATE_ARG $FORCE_ARG" -x installChromium
+
+      # continue-on-error 는 실패를 삼키는 데서 그치지 않고 초록으로 덮는다 — step conclusion 이
+      # success 로 찍히고, 남는 것은 제목도 단계 이름도 없는 `Process completed with exit code 1`
+      # 주석 하나뿐이다(2026-09-01 실행 33483021793 에서 실제로 그렇게 나왔다). 어느 단계가
+      # 죽었는지는 로그를 열어야 나온다. outcome 만이 진짜 결과를 들고 있으므로 그것으로
+      # 이름 붙은 경고를 남긴다.
+      #
+      # 이슈로 올리지는 않는다. 카드 다섯 장이 살아서 나간 실행이라, 매일 열리는 이슈는
+      # 알림이 아니라 소음이 된다 — deploy 잡의 조용한 건너뜀과 같은 자리를 만들지 않으면서
+      # 알림의 무게는 본체 실패에만 남긴다.
+      - name: 아이디어 실패 표시
+        if: steps.idea.outcome == 'failure'
+        env:
+          DATE: ${{ steps.date.outputs.date }}
+        run: |
+          echo "::warning title=아이디어 카드 없음::$DATE — 아이디어 단계가 실패했다. 뒤의 뉴스 카드 단계들은 이 실패에 걸리지 않는다. 사유는 '아이디어' 단계 로그에."
+
       # 여기는 -x 를 붙이지 않는다. 렌더가 실제로 Chromium 을 쓰는 단계다.
       - name: 카드 렌더링
         env:
@@ -163,6 +198,9 @@ jobs:
       # 여기까지 왔다는 것이 곧 완성 판정이다. 앞 단계들이 부분 실패에서 종료 1 로 죽으므로
       # (카피는 절반 규칙, 렌더는 한 장이라도 실패하면) 미완성인 날짜는 이 단계에 닿지 못한다.
       # 셸에서 장수를 다시 세지 않는 이유가 그것이다 — 판정이 두 곳에 있으면 어긋난다.
+      #
+      # 예외는 아이디어 하나뿐이다. 그 단계는 죽어도 여기까지 오므로, 아이디어 없는 날도
+      # 완성으로 센다 — 뉴스 카드가 그날 발행의 본체라는 판단이 여기에도 그대로 걸린다.
       #
       # 푸시 대상은 github.ref_name 이다. cron 은 기본 브랜치(main)에서만 발화하고,
       # 작업 브랜치로 검증할 때는 그 브랜치에 쌓인다. main 으로 못박으면 검증 실행이
@@ -260,8 +298,9 @@ jobs:
           if [ "$PIPELINE_RESULT" = "success" ]; then
             STAGE="배포"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
-          산출물이 이미 리포에 있으면 다섯 단계는 전부 건너뛰고 배포만 다시 돈다 —
-          Gemini 는 한 번도 부르지 않는다."
+          산출물이 이미 리포에 있는 단계는 전부 건너뛰므로 대개 배포만 다시 돈다.
+          예외는 아이디어 하나다 — 그 단계가 죽은 채 발행된 날이면 \`ideas.json\` 이 없어
+          다시 돌고, Gemini 를 1회 쓰면서 아이디어 카드까지 새 커밋으로 얹는다."
           else
             STAGE="파이프라인"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.

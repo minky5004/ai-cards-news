@@ -34,7 +34,7 @@
 - **주제 필터** — 약어는 대소문자 + 양쪽 경계. 느슨하면 AirPods 통과
 - **본문 추출** — 대표 기사의 스크래핑 차단 시 같은 클러스터의 다른 매체로 폴백
 - **배포 호출** — `GITHUB_TOKEN` 푸시의 워크플로 미발화(재귀 방지) · 호출부가 발행 커밋 SHA 전달로 그 사이 다른 푸시와 무관한 그날 카드 게시
-- **아이디어 카드는 CLI 까지** — 야간 워크플로·사이트 노출 밖 · 산출물은 `cards/` 밖 `idea.webp`(그 디렉터리의 `.webp` 수를 `cards.json` 장수와 견주는 웹)
+- **아이디어 카드는 야간 실행까지** — 사이트 노출 밖 · 실패해도 카드 다섯 장이 나가는 곁가지 · 산출물은 `cards/` 밖 `idea.webp`(그 디렉터리의 `.webp` 수를 `cards.json` 장수와 견주는 웹)
 
 ## 설계 판단
 
@@ -50,7 +50,7 @@
 | `content/` 를 리포에 커밋 | 아카이브 보존 · 정적 빌드 입력 |
 
 - 유사도 하나로는 분간 불가 — `Gemini 3.6 Flash` 는 자카드로 어디에도 미달. 그래서 공유 내용어 하한 + overlap(짧은 제목) OR 자카드(긴 제목)
-- 재실행은 실패한 단계부터 이어서 · 끝난 날짜에는 Gemini 0회
+- 재실행은 실패한 단계부터 이어서 · 끝난 날짜에는 Gemini 0회 — 아이디어가 빠진 채 끝난 날만 1회
 - 한도 누적(`usage.json`)의 리포 존치 — 러너의 새 체크아웃을 넘어 살아남는 유일한 자리
 
 **감수한 것**
@@ -93,7 +93,7 @@ JDK 25 필요 · Gradle 은 wrapper 동봉.
 ./gradlew run --args="ingest  --date 2026-07-30"       # --date 생략 시 KST 오늘
 ./gradlew run --args="extract --date 2026-07-30"
 ./gradlew run --args="copy    --date 2026-07-30"
-./gradlew run --args="idea    --date 2026-07-30"       # 아이디어 카드 (야간 실행에는 미포함)
+./gradlew run --args="idea    --date 2026-07-30"
 ./gradlew run --args="render  --date 2026-07-30"
 ```
 
