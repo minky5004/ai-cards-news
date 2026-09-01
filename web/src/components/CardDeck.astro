@@ -1,8 +1,8 @@
 ---
-import type { RenderedCard } from "../lib/content";
+import type { Slide } from "../lib/content";
 
 interface Props {
-  cards: RenderedCard[];
+  slides: Slide[];
   /**
    * 첫 카드에 붙일 view transition 이름. 아카이브 더미의 표지와 같은 이름을 주면
    * 더미를 눌러 들어올 때 표지가 그대로 첫 카드가 된다. 홈의 오늘 발행처럼 이어질
@@ -11,7 +11,7 @@ interface Props {
   coverName?: string;
 }
 
-const { cards, coverName } = Astro.props;
+const { slides, coverName } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const imageBase = base.replace(/\/$/, "");
 ---
@@ -37,7 +37,7 @@ const imageBase = base.replace(/\/$/, "");
 >
   <div class="stage">
     {
-      cards.length > 1 && (
+      slides.length > 1 && (
         <button class="arrow arrow-prev" type="button" data-prev aria-label="이전 카드" hidden>
           <span aria-hidden="true">←</span>
         </button>
@@ -46,20 +46,25 @@ const imageBase = base.replace(/\/$/, "");
 
     <ol class="track" data-track tabindex="0">
       {
-        cards.map((card, i) => (
+        slides.map((slide, i) => (
           <li
             class:list={["slide", { "is-active": i === 0 }]}
             style={`--n: ${i}`}
             data-slide
             aria-roledescription="슬라이드"
-            aria-label={`${i + 1} / ${cards.length}`}
+            aria-label={`${i + 1} / ${slides.length}`}
           >
             {/*
               스크립트가 붙으면 이 링크가 확대 뷰를 연다. 붙기 전이거나 실패하면
               원문으로 나가는 원래 동작이 그대로 산다 — 카드 이미지에는 헤드라인밖에
               없으므로 어느 쪽이든 막다른 길이 되면 안 된다.
             */}
-            <a class="shot" href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
+            <a
+              class="shot"
+              href={slide.origin?.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {/*
                 1080x1350 을 명시해 이미지가 늦게 와도 레이아웃이 밀리지 않게 한다.
                 앞 두 장만 eager 로 받는다 — 가로 스크롤에서도 lazy 는 트랙 기준으로
@@ -74,18 +79,27 @@ const imageBase = base.replace(/\/$/, "");
               <img
                 data-vt={i === 0 && coverName ? coverName : undefined}
                 style={i === 0 && coverName ? `view-transition-name: ${coverName}` : undefined}
-                src={`${imageBase}${card.image}`}
+                src={`${imageBase}${slide.image}`}
                 width="1080"
                 height="1350"
-                alt={`${card.headline} — ${card.body}`}
+                alt={slide.alt}
                 loading={i < 2 ? "eager" : "lazy"}
                 decoding="async"
               />
             </a>
+            {/*
+              아이디어의 재료는 그날 후보 전량이라 열 건을 넘긴다. 여기 늘어놓으면 카드
+              아래 한 줄이 목록이 되므로 건수만 적고 링크는 확대 뷰에 둔다 — 카드 도장
+              아래에 찍힌 "오늘 기사 N건에서" 와 같은 말이다.
+            */}
             <p class="meta">
-              <a href={card.sourceUrl} target="_blank" rel="noopener noreferrer">
-                {card.sourceName} 원문 보기 →
-              </a>
+              {slide.kind === "idea" ? (
+                <span>오늘 기사 {slide.materials.length}건에서</span>
+              ) : (
+                <a href={slide.origin!.url} target="_blank" rel="noopener noreferrer">
+                  {slide.origin!.label} →
+                </a>
+              )}
             </p>
 
             {/*
@@ -94,7 +108,7 @@ const imageBase = base.replace(/\/$/, "");
               그 글이 아예 존재하지 않는 것이 된다. 닫혀 있는 dialog 라도 마크업에는
               남아 있다.
             */}
-            <dialog class="expand" data-expand aria-label={`${card.headline} 자세히`}>
+            <dialog class="expand" data-expand aria-label={`${slide.title} 자세히`}>
               {/*
                 `method="dialog"` 인 폼의 제출 버튼은 스크립트 없이 dialog 를 닫는다.
                 닫기 동작을 우리가 붙이지 않으므로 스크립트가 죽어도 열린 확대 뷰에
@@ -109,25 +123,60 @@ const imageBase = base.replace(/\/$/, "");
               <div class="expand-inner">
                 <img
                   class="expand-shot"
-                  src={`${imageBase}${card.image}`}
+                  src={`${imageBase}${slide.image}`}
                   width="1080"
                   height="1350"
-                  alt={card.headline}
+                  alt={slide.title}
                   loading="lazy"
                   decoding="async"
                 />
 
+                {/*
+                  카드에 구워진 글의 유일하게 읽히는 사본이다. 아이디어 카드는 뉴스보다
+                  실린 글이 많아(제품명·문제·기능 셋·판정) 그만큼 여기도 길다 — 카드에
+                  있는데 여기 없으면 그 줄은 선택도 검색도 낭독도 되지 않는다.
+                */}
                 <div class="detail">
-                  <h2>{card.headline}</h2>
-                  <p class="body">{card.body}</p>
-                  <a
-                    class="origin"
-                    href={card.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {card.sourceName} 원문 보기 ↗
-                  </a>
+                  {slide.kind === "idea" && <p class="name">{slide.productName}</p>}
+
+                  <h2>{slide.title}</h2>
+                  <p class="body">{slide.body}</p>
+
+                  {slide.kind === "idea" && (
+                    <>
+                      <p class="problem">{slide.problem}</p>
+
+                      <ol class="features">
+                        {slide.features.map((feature) => (
+                          <li>{feature}</li>
+                        ))}
+                      </ol>
+
+                      {slide.verdict && <p class="verdict">{slide.verdict}</p>}
+
+                      <p class="materials-label">재료가 된 오늘 기사</p>
+                      <ul class="materials">
+                        {slide.materials.map((material) => (
+                          <li>
+                            <a href={material.url} target="_blank" rel="noopener noreferrer">
+                              {material.title}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+
+                  {slide.kind === "news" && (
+                    <a
+                      class="origin"
+                      href={slide.origin!.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {slide.origin!.label} ↗
+                    </a>
+                  )}
                 </div>
               </div>
             </dialog>
@@ -137,7 +186,7 @@ const imageBase = base.replace(/\/$/, "");
     </ol>
 
     {
-      cards.length > 1 && (
+      slides.length > 1 && (
         <button class="arrow arrow-next" type="button" data-next aria-label="다음 카드" hidden>
           <span aria-hidden="true">→</span>
         </button>
@@ -146,9 +195,9 @@ const imageBase = base.replace(/\/$/, "");
   </div>
 
   {
-    cards.length > 1 && (
+    slides.length > 1 && (
       <ol class="dots" data-dots hidden>
-        {cards.map((_, i) => (
+        {slides.map((_, i) => (
           <li>
             <button type="button" data-dot aria-label={`${i + 1}번째 카드로 이동`} />
           </li>
@@ -519,6 +568,98 @@ const imageBase = base.replace(/\/$/, "");
 
   .detail .origin:hover {
     border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  /* 카드의 제품명 칩과 같은 자리·같은 크기. 조어를 크게 세우지 않는 것도 카드와 같다. */
+  .detail .name {
+    display: inline-block;
+    margin: 0 0 12px;
+    padding: 4px 11px;
+    border-radius: 4px;
+    background: var(--accent);
+    color: var(--paper);
+    font-size: 12.5px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+
+  .detail .problem {
+    margin: 18px 0 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--rule);
+    font-size: clamp(14px, 2.1vw, 15.5px);
+    line-height: 1.75;
+    color: var(--text-soft);
+    word-break: keep-all;
+  }
+
+  /*
+    번호는 CSS 가 붙인다. 카드가 01·02·03 으로 세는 것과 같은 표기이고, 마크업에
+    번호를 적으면 항목 수가 바뀔 때 두 곳을 고쳐야 한다.
+  */
+  .detail .features {
+    margin: 16px 0 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: feature;
+  }
+
+  .detail .features li {
+    counter-increment: feature;
+    display: flex;
+    gap: 12px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--rule-soft);
+    font-size: clamp(13.5px, 2vw, 15px);
+    color: var(--text);
+    word-break: keep-all;
+  }
+
+  .detail .features li::before {
+    content: counter(feature, decimal-leading-zero);
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 카드 도장의 근거를 글로 옮긴 자리. 판정 자체는 도장이 이미 찍어 두었다. */
+  .detail .verdict {
+    margin: 16px 0 0;
+    font-size: 12.5px;
+    line-height: 1.7;
+    color: var(--text-faint);
+    word-break: keep-all;
+  }
+
+  .detail .materials-label {
+    margin: 26px 0 10px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    color: var(--text-faint);
+  }
+
+  .detail .materials {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .detail .materials li {
+    padding: 7px 0;
+    border-top: 1px solid var(--rule-soft);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .detail .materials a {
+    color: var(--text-soft);
+    text-decoration: none;
+    transition: color 0.18s ease;
+  }
+
+  .detail .materials a:hover {
     color: var(--accent);
   }
 

@@ -1,5 +1,5 @@
 /**
- * `content/<date>/cards/*.webp` → `web/public/cards/<date>/`.
+ * `content/<date>/cards/*.webp` + `idea.webp` → `web/public/cards/<date>/`.
  *
  * 카드 이미지는 파이프라인이 리포 루트 `content/` 에 쌓는데, Astro 가 정적
  * 자산으로 내보내는 것은 `public/` 뿐이다. 빌드·개발 서버를 띄우기 전에
@@ -9,7 +9,7 @@
  * `public/cards/` 는 통째로 파생물이라 매번 지우고 다시 만든다. 남겨 두면
  * 파이프라인에서 지워진 날짜가 사이트에 계속 살아 있게 된다.
  */
-import { cp, mkdir, readdir, rm } from "node:fs/promises";
+import { copyFile, cp, mkdir, readdir, rm } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
@@ -29,6 +29,7 @@ await mkdir(TARGET_DIR, { recursive: true });
 
 let days = 0;
 let images = 0;
+let ideas = 0;
 for (const date of await readdir(CONTENT_DIR)) {
   if (!DATE_DIR.test(date)) continue;
 
@@ -41,6 +42,18 @@ for (const date of await readdir(CONTENT_DIR)) {
   await cp(source, `${TARGET_DIR}${date}`, { recursive: true });
   days += 1;
   images += webp.length;
+
+  /*
+    아이디어 카드는 `cards/` 밖에 홀로 있다. 그 디렉터리의 `.webp` 수를 `cards.json`
+    장수와 견주는 판정이 있어서, 안에 넣으면 아이디어가 있는 날마다 하루가 통째로
+    빠진다(#81). 여기서는 같은 자리로 합쳐 사이트가 한 경로만 알게 한다.
+  */
+  const idea = `${CONTENT_DIR}${date}/idea.webp`;
+  if (existsSync(idea)) {
+    await copyFile(idea, `${TARGET_DIR}${date}/idea.webp`);
+    ideas += 1;
+    images += 1;
+  }
 }
 
-console.log(`[sync-cards] ${days}일치 카드 이미지 ${images}장 복사`);
+console.log(`[sync-cards] ${days}일치 카드 이미지 ${images}장 복사 (아이디어 ${ideas}장)`);
