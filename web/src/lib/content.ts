@@ -145,7 +145,18 @@ function loadIdea(date: string): RenderedIdea | null {
     return null;
   }
 
-  const parsed = JSON.parse(readFileSync(ideasJson, "utf8")) as IdeasFile;
+  /*
+    읽지 못하는 파일. 중간에 죽은 실행이 남긴 조각이거나, 파이프라인이 필드를 갈아 스키마가
+    어긋난 경우다. 던지게 두면 loadDay → listDays → astro build 로 올라가 그날 하나가 아니라
+    사이트 전체가 빌드되지 않는다 — 위 두 갈래와 같은 값으로 아이디어만 뺀다.
+  */
+  let parsed: IdeasFile;
+  try {
+    parsed = JSON.parse(readFileSync(ideasJson, "utf8")) as IdeasFile;
+  } catch (error) {
+    console.warn(`[content] ${date}: ideas.json 을 읽지 못해 아이디어를 뺀다 — ${error}`);
+    return null;
+  }
 
   // 파일 안의 날짜가 디렉터리 이름과 다르면 남의 날 아이디어다. 그림에는 날짜가 구워져
   // 있어서, 그대로 실으면 카드에 찍힌 날짜와 페이지 날짜가 어긋난 채로 아카이브에 남는다.
@@ -193,7 +204,13 @@ export interface IdeaSlide extends Common {
   problem: string;
   /** 카드에 실린 셋. JSON 에는 다섯까지 있지만 카드가 발췌라 확대 뷰도 같은 셋을 보인다. */
   features: string[];
-  /** 중복 판정의 근거 한 줄. 카드 도장에 찍힌 것과 같은 판정이다. */
+  /**
+   * 중복 판정의 근거 한 줄. 판정이 선 날에만 있다.
+   *
+   * <p>확인에 실패한 날은 비운다 — 그 자리의 `reason` 은 사람이 쓴 문장이 아니라 Java 예외
+   * 메시지라(`Novelty.check` 의 catch), 그대로 실으면 스택 조각이 아카이브에 영구히 남는다.
+   * 카드 도장이 이미 "확인 못 함" 을 찍어 두었으므로 비어도 정보가 사라지지 않는다.
+   */
   verdict: string | null;
   materials: { title: string; url: string }[];
 }
@@ -224,7 +241,17 @@ export function slides(day: Day): Slide[] {
     {
       kind: "idea",
       image: idea.image,
-      alt: `${idea.tagline} — ${idea.problem}`,
+      // 카드에 구워진 글을 전부 옮긴다. 확대 뷰는 닫힌 dialog 라 스크립트가 붙기 전에는
+      // 화면에도 보조기기에도 없고, 그 사이 이 카드의 글을 읽을 수 있는 곳은 여기뿐이다.
+      // 도장 문구만 빼는 것은 그 말이 렌더러(IdeaMarkup.verdictLabel)의 것이라서다 — 여기
+      // 옮겨 적으면 같은 라벨이 두 곳에 살아 조용히 갈린다.
+      alt: [
+        idea.productName,
+        idea.tagline,
+        idea.problem,
+        ...idea.keyFeatures.slice(0, 3),
+        `오늘 기사 ${materials.length}건에서`,
+      ].join(" — "),
       title: idea.tagline,
       body: idea.oneLineSummary,
       // 재료는 점수순이라 첫 건이 그날 1순위 기사다. 아이디어에는 원문이 하나로 정해지지
@@ -233,7 +260,7 @@ export function slides(day: Day): Slide[] {
       productName: idea.productName,
       problem: idea.problem,
       features: idea.keyFeatures.slice(0, 3),
-      verdict: idea.novelty?.reason ?? null,
+      verdict: idea.novelty && idea.novelty.verdict !== "UNKNOWN" ? idea.novelty.reason : null,
       materials,
     },
     ...news,
