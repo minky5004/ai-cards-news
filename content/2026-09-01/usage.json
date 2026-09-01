@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-01",
+  "runs": [
+    {
+      "at": "2026-09-01T16:18:10.577Z",
+      "calls": 5,
+      "inputTokens": 11074,
+      "outputTokens": 10757
+    },
+    {
+      "at": "2026-09-01T16:18:37.426Z",
+      "calls": 1,
+      "inputTokens": 3664,
+      "outputTokens": 2686
+    }
+  ]
+}

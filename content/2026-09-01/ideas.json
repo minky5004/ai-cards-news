@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T16:18:37.777Z",
+  "idea": {
+    "productName": "MacNode",
+    "tagline": "기업용 맥 스튜디오 클러스터 AI 인프라 관리 플랫폼",
+    "oneLineSummary": "여러 대의 맥 스튜디오와 맥 미니를 하나의 AI 연산 클러스터로 묶어 관리하는 B2B 인프라 소프트웨어",
+    "problem": "기업들이 로컬 AI 모델 운용을 위해 맥 스튜디오 다수를 묶어 쓰지만 애플의 엔터프라이즈 관리 도구 부재로 노드 통합과 리소스 관리에 차질을 겪는다.",
+    "productDescription": "여러 대의 Mac Studio 및 Mac Mini를 단일 AI 연산 클러스터로 연결하는 온프레미스 오케스트레이션 플랫폼입니다. Mac의 Unified Memory 자원을 자동 풀링하고 대형 프론티어 LLM의 추론 부하를 효율적으로 분산시킵니다. 실시간 GPU 및 NPU 사용량 모니터링과 동적 노드 추가 기능으로 기업의 맥 기반 AI 인프라운영을 단순화합니다.",
+    "keyFeatures": [
+      "Multi-Mac 메모리 풀링",
+      "분산 AI 추론 로드밸런싱",
+      "실시간 GPU NPU 모니터링",
+      "원클릭 노드 추가 및 동기화"
+    ],
+    "persona": "맥 스튜디오 클러스터를 자체 AI 추론 인프라로 도입했으나 관리에 난항을 겪는 기업의 DevOps 엔지니어 및 인프라 팀장",
+    "businessModel": "클러스터에 연결된 Mac 노드당 월 29달러의 구독형 B2B SaaS (엔터프라이즈 전용 보안 플랜은 노드당 월 49달러)",
+    "marketStats": "전체 시장 규모 근거는 기사에 없음. 단, OpenAI가 1만 대 이상의 맥을 구매했고 기업들의 수요가 폭증했으나 애플 내부에 기업 전담 엔지니어링 팀이나 AI 전략이 없다고 기사에 명시됨.",
+    "goToMarket": "맥 기반 AI 인프라를 구축 중인 AI 스타트업 개발자 커뮤니티와 Hacker News에 오픈소스 라이트 버전을 공개하여 초기 유저 100명 확보",
+    "unfairAdvantage": "애플이 엔터프라이즈 AI 전담 지원팀과 관리 솔루션을 제공하지 못해 발생한 명확한 시장 공백을 선점함",
+    "competitors": [
+      "Ray",
+      "Kubernetes",
+      "직접 경쟁 미확인"
+    ],
+    "risks": [
+      "애플이 자체 맥 클러스터용 엔터프라이즈 관리 도구를 직접 출시할 위험",
+      "macOS의 폐쇄적인 네트워킹 및 하드웨어 접근 제약"
+    ],
+    "actionPlan": [
+      "Mac Studio 2대를 잇는 초간단 통합 메모리 추론 분산 PoC 구축",
+      "맥 AI 클러스터링 전용 대기열 수집 랜딩페이지 오픈",
+      "맥 인프라를 도입한 기업 개발자 10명 대상 현장 페인포인트 인터뷰"
+    ],
+    "recommendation": "애플의 엔터프라이즈 대응 부재라는 실제 기사 기반 공백을 정확히 겨냥한 아이디어입니다. 애플의 추후 자체 솔루션 출시 리스크가 있으므로 빠른 MVP 검증과 고객 확보가 필수적입니다.",
+    "searchQuery": "mac studio cluster ai inference",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49521315",
+        "title": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
+        "url": "https://eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype"
+      },
+      {
+        "clusterId": "hackernews:49517584",
+        "title": "GPU World",
+        "url": "https://gpuworld.org"
+      },
+      {
+        "clusterId": "hackernews:49519939",
+        "title": "44% on ARC-AGI-1 in 67 cents",
+        "url": "https://mvakde.github.io/blog/44-on-arc-1"
+      },
+      {
+        "clusterId": "hackernews:49508664",
+        "title": "AI-written code is still your code",
+        "url": "https://martiansoftware.com/articles/ai-written-code-is-still-yours"
+      },
+      {
+        "clusterId": "hackernews:49508982",
+        "title": "Apple caught off guard by AI demand for Mac Mini and Mac Studio",
+        "url": "https://macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand"
+      },
+      {
+        "clusterId": "hackernews:49518316",
+        "title": "AI Can Make You Suck Faster Too",
+        "url": "https://hermit-tech.com/blog/ai-can-make-you-suck-faster-too"
+      },
+      {
+        "clusterId": "hackernews:49506819",
+        "title": "Breaking Claude Code Opus 5 Auto Mode",
+        "url": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode"
+      },
+      {
+        "clusterId": "hackernews:49512856",
+        "title": "The safest job from AI may be writing",
+        "url": "https://muratbuffalo.blogspot.com/2026/08/the-safest-job-from-ai-may-be-writing.html"
+      },
+      {
+        "clusterId": "hackernews:49510302",
+        "title": "Marx, Keynes, and AI",
+        "url": "https://unpopularfront.news/p/marx-keynes-and-ai"
+      },
+      {
+        "clusterId": "hackernews:49511007",
+        "title": "Launch HN: Almanac (YC S26) – AI that knows your company",
+        "url": "https://usealmanac.com"
+      },
+      {
+        "clusterId": "hackernews:49506655",
+        "title": "Meta Security Researcher's AI Agent Accidentally Deleted Her Emails",
+        "url": "https://au.pcmag.com/ai/116091/meta-security-researchers-ai-agent-accidentally-deleted-her-emails"
+      },
+      {
+        "clusterId": "hackernews:49506519",
+        "title": "Claude Code reduces it's weekly limit by 17% – compared to today",
+        "url": "https://twitter.com/ClaudeDevs/status/2093742322525810912"
+      },
+      {
+        "clusterId": "hackernews:49511824",
+        "title": "Apple Is Suddenly an AI Infra Stock as OpenAI Buys 10k+ Macs",
+        "url": "https://247wallst.com/investing/2026/08/31/apple-is-suddenly-an-ai-infrastructure-stock-as-openai-buys-macs-by-the-tens-of-thousands"
+      },
+      {
+        "clusterId": "hackernews:49516354",
+        "title": "Apple Says OpenAI Is Destroying Evidence in Trade Secrets Case",
+        "url": "https://bloomberg.com/news/articles/2026-08-31/apple-says-openai-is-destroying-evidence-in-trade-secrets-case"
+      }
+    ]
+  }
+}

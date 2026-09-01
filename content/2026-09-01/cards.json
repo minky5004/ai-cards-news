@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026-09-01T16:18:10.582Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49521315",
+      "headline": "AI 공포에 낚여 저작권법 바꾸지 마라",
+      "highlight": [
+        "저작권법"
+      ],
+      "body": "전자프론티어재단(EFF)은 AI가 창작을 망친다는 주장이 비디오나 카메라 때의 과장된 공포와 같다고 지적했습니다. 저작권법의 목적은 독점이 아닌 창작 장려입니다. 앤트로픽 소송 등에서 보듯 AI는 인간의 새로운 창작을 돕는 도구입니다.",
+      "sourceUrl": "https://eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+      "sourceName": "Electronic Frontier Foundation",
+      "imageUrl": "https://www.eff.org/files/banner_library/ai-robot-warhol-2.png",
+      "publishedAt": "2026-09-01T12:53:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:49517584",
+      "headline": "모든 인류가 GPU 1대를 갖게 된다면",
+      "highlight": [
+        "GPU 1대"
+      ],
+      "body": "현재는 GPU 부족으로 일부만 최첨단 AI를 쓰지만 2040년에는 1인당 B300급 성능이 제공될 수 있습니다. 페이블이나 솔 같은 모델을 24시간 쓰는 미래를 상상하는 공모전이 열렸습니다. 의료와 교육 등 일상의 변화를 묻습니다.",
+      "sourceUrl": "https://gpuworld.org",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.gpuworld.org/open-graph/1200-630.png?v=o02lds",
+      "publishedAt": "2026-09-01T03:16:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:49519939",
+      "headline": "단 67센트로 대형 LLM 제친 AI 등장",
+      "highlight": [
+        "67센트로",
+        "대형 LLM"
+      ],
+      "body": "RTX 5090에서 1.5시간 만에 학습한 소형 모델이 단 67센트로 ARC-AGI 벤치마크 44%를 기록했습니다. 수많은 대형 언어모델을 제치고 기존 전문 모델과 동등한 성능을 냈습니다. 거대 자본 없이도 극단적인 데이터 효율을 낼 수 있음을 증명했습니다.",
+      "sourceUrl": "https://mvakde.github.io/blog/44-on-arc-1",
+      "sourceName": "Mithil Vakde's Homepage",
+      "publishedAt": "2026-09-01T09:52:45.000Z"
+    },
+    {
+      "clusterId": "hackernews:49508664",
+      "headline": "AI가 짠 코드는 결국 내 책임이 된다",
+      "highlight": [
+        "내 책임이"
+      ],
+      "body": "AI 에이전트 덕분에 코드 작성 비용은 0에 가까워졌지만, 작성자가 이해하지 못한 코드가 늘고 있습니다. 이제 기술 한계보다 인간의 코드 이해력이 새로운 병목으로 떠올랐습니다. 만드는 것보다 버그나 보안 문제까지 책임질 수 있는지 판단해야 합니다.",
+      "sourceUrl": "https://martiansoftware.com/articles/ai-written-code-is-still-yours",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-08-31T12:08:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49508982",
+      "headline": "AI 수요 폭주에 애플 맥 미니 품절 대란",
+      "highlight": [
+        "품절 대란"
+      ],
+      "body": "기업들의 AI 모델 구동 수요가 폭증하며 맥 미니와 맥 스튜디오가 수개월간 품절 상태입니다. 애플은 신제품 발표까지 앞당겼으나 메모리 부족으로 공급을 맞추지 못하고 있습니다. 이에 기업 고객들이 엔비디아의 DGX 스파크 등 대체 하드웨어로 이탈하기 시작했습니다.",
+      "sourceUrl": "https://macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand",
+      "sourceName": "MacRumors",
+      "imageUrl": "https://images.macrumors.com/t/OsRlBLMFhQf-DlTIBvCnu2Opj54=/2500x/article-new/2026/04/Mac-mini-vs-Studio-Feature-Sans-Text-1.jpg",
+      "publishedAt": "2026-08-31T12:41:22.000Z"
+    }
+  ]
+}
