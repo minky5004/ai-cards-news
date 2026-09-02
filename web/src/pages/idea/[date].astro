@@ -1,0 +1,426 @@
+---
+import type { GetStaticPaths } from "astro";
+import Layout from "../../layouts/Layout.astro";
+import {
+  formatDate,
+  listDays,
+  verdictReason,
+  type Day,
+  type RenderedIdea,
+} from "../../lib/content";
+
+/*
+  아이디어가 있는 날짜만 라우트를 낸다. 배선(2026-09-01) 이전 날짜에는 `ideas.json`
+  자체가 없어서, 전량으로 돌리면 본문이 빈 상세 페이지가 서른 장 넘게 생긴다.
+*/
+export const getStaticPaths = (() => {
+  return listDays()
+    .filter((day) => day.idea)
+    .map((day) => ({ params: { date: day.date }, props: { day, idea: day.idea! } }));
+}) satisfies GetStaticPaths;
+
+const { day, idea } = Astro.props as { day: Day; idea: RenderedIdea };
+const base = import.meta.env.BASE_URL;
+const imageBase = base.replace(/\/$/, "");
+
+/*
+  상세 절은 전부 optional 이다(`Idea`). 값이 없는 행은 목록에서 뺀다 — 라벨만 남겨 두면
+  "파이프라인이 답을 못 냈다" 가 아니라 "우리가 자리를 비워 뒀다" 로 읽힌다.
+*/
+const prose = (
+  [
+    ["무엇에 막혀 있나", idea.problem],
+    ["무엇을 만드나", idea.productDescription],
+    ["누가 먼저 사나", idea.persona],
+    ["어떻게 버나", idea.businessModel],
+    ["시장 근거", idea.marketStats],
+    ["초기 고객 100명", idea.goToMarket],
+    ["지금 하는 쪽이 유리한 이유", idea.unfairAdvantage],
+  ] as [string, string | undefined][]
+).filter((row): row is [string, string] => Boolean(row[1]?.trim()));
+
+/* 기능은 카드가 셋까지만 실은 발췌다. 여기서는 자르지 않는다 — 그 차이가 이 페이지의 몫이다. */
+const lists = (
+  [
+    ["핵심 기능", idea.keyFeatures],
+    ["이미 있는 대안", idea.competitors],
+    ["이 사업을 죽이는 것", idea.risks],
+  ] as [string, string[] | undefined][]
+)
+  .map(([label, items]) => [label, items?.filter((item) => item.trim()) ?? []] as [string, string[]])
+  .filter((row) => row[1].length > 0);
+
+const plan = idea.actionPlan?.filter((step) => step.trim()) ?? [];
+const materials = idea.sources ?? [];
+
+/* 판정이 선 날에만 선다. 실패한 날을 가리는 판단은 `verdictReason` 한 곳에 있다. */
+const verdict = verdictReason(idea);
+---
+
+<Layout
+  title={`${idea.productName} — ${formatDate(day.date)} 사업 아이디어`}
+  description={idea.oneLineSummary}
+>
+  <article class="idea">
+    <header class="head">
+      <p class="eyebrow">
+        <a href={`${base}${day.date}/`}>{formatDate(day.date)}</a> · 오늘의 사업 아이디어
+      </p>
+
+      <p class="name">{idea.productName}</p>
+      <h1>{idea.tagline}</h1>
+      <p class="summary">{idea.oneLineSummary}</p>
+    </header>
+
+    <div class="split">
+      {/* 카드가 곧 이 페이지의 요약본이다. 따라오게 두면 절을 읽는 내내 옆에 남는다. */}
+      <figure class="shot">
+        <img
+          src={`${imageBase}${idea.image}`}
+          width="1080"
+          height="1350"
+          alt={idea.tagline}
+          loading="eager"
+          decoding="async"
+        />
+        <figcaption>{formatDate(day.date)} 발행 카드</figcaption>
+      </figure>
+
+      <div class="body">
+        <dl class="rows">
+          {
+            prose.map(([label, text]) => (
+              <div class="row">
+                <dt>{label}</dt>
+                <dd>{text}</dd>
+              </div>
+            ))
+          }
+
+          {
+            lists.map(([label, items]) => (
+              <div class="row">
+                <dt>{label}</dt>
+                <dd>
+                  <ul class="items">
+                    {items.map((item) => (
+                      <li>{item}</li>
+                    ))}
+                  </ul>
+                </dd>
+              </div>
+            ))
+          }
+
+          {
+            plan.length > 0 && (
+              <div class="row">
+                <dt>첫 2주에 할 일</dt>
+                <dd>
+                  <ol class="plan">
+                    {plan.map((step) => (
+                      <li>{step}</li>
+                    ))}
+                  </ol>
+                </dd>
+              </div>
+            )
+          }
+        </dl>
+
+        {
+          idea.recommendation && (
+            <section class="closing">
+              <p class="eyebrow">최종 평가</p>
+              <p>{idea.recommendation}</p>
+            </section>
+          )
+        }
+
+        {verdict && <p class="verdict">중복 확인 — {verdict}</p>}
+
+        {
+          materials.length > 0 && (
+            <section class="materials">
+              <p class="eyebrow">재료가 된 오늘 기사 {materials.length}건</p>
+              <ul>
+                {materials.map((material) => (
+                  <li>
+                    <a href={material.url} target="_blank" rel="noopener noreferrer">
+                      {material.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )
+        }
+      </div>
+    </div>
+
+    <nav class="back">
+      <a href={`${base}${day.date}/`}>← {formatDate(day.date)} 카드로</a>
+      <a class="home" href={base}>전체 보기</a>
+    </nav>
+  </article>
+</Layout>
+
+<style>
+  /*
+    이 페이지에서만 액센트를 아이디어 카드의 자주로 바꾼다. 사이트의 네이비는 뉴스 카드에서
+    빌려 온 색인데 여기 서 있는 그림은 분홍 종이의 서류라, 괘선과 라벨이 네이비면 카드와
+    페이지가 서로 다른 인쇄물로 갈린다. 바꾸는 것은 이 한 토큰뿐이고 종이색은 사이트 그대로다.
+  */
+  .idea {
+    --accent: #b0184e;
+    padding: clamp(28px, 6vw, 56px) 0 0;
+  }
+
+  .head {
+    border-bottom: 1.5px solid var(--text);
+    padding-bottom: clamp(16px, 2.5vw, 24px);
+  }
+
+  .eyebrow a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .eyebrow a:hover {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  /* 카드의 제품명 칩과 같은 자리·같은 지위. 조어를 크게 세우지 않는 것도 카드와 같다. */
+  .name {
+    display: inline-block;
+    margin: 18px 0 0;
+    padding: 5px 13px;
+    border-radius: 5px;
+    background: var(--accent);
+    color: var(--paper);
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .head h1 {
+    margin: 14px 0 0;
+    font-size: clamp(30px, 6vw, 54px);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.035em;
+    word-break: keep-all;
+    text-wrap: balance;
+  }
+
+  .summary {
+    margin: 14px 0 0;
+    max-width: 62ch;
+    font-size: clamp(15px, 2.2vw, 18px);
+    line-height: 1.7;
+    color: var(--text-soft);
+    word-break: keep-all;
+  }
+
+  .split {
+    display: grid;
+    gap: clamp(24px, 4vw, 44px);
+    padding-top: clamp(24px, 4vw, 40px);
+  }
+
+  @media (min-width: 860px) {
+    .split {
+      grid-template-columns: minmax(0, 300px) minmax(0, 1fr);
+      align-items: start;
+    }
+
+    .shot {
+      position: sticky;
+      top: 24px;
+    }
+  }
+
+  /*
+    한 열로 접히는 폭에서 상한이 없으면 768px 화면에서 카드가 704px 로 서서, 첫 문장이
+    한 화면 아래로 밀린다. 이 페이지는 글을 읽는 자리다 — 덱의 슬라이드와 같은 420px 로 묶는다.
+  */
+  .shot {
+    margin: 0;
+    max-width: 420px;
+  }
+
+  .shot img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    /* 종이 위에 종이가 놓인 그림자. 아카이브 더미와 같은 처방이다. */
+    box-shadow: 0 12px 28px rgba(22, 24, 29, 0.16);
+  }
+
+  .shot figcaption {
+    margin-top: 10px;
+    font-size: 11.5px;
+    letter-spacing: 0.08em;
+    color: var(--text-faint);
+  }
+
+  /*
+    라벨과 값을 두 열로 세운다. 서류의 항목처럼 왼쪽이 무엇을 묻는 자리인지 먼저 읽히고,
+    좁은 화면에서는 위아래로 접힌다.
+  */
+  .rows {
+    margin: 0;
+  }
+
+  .row {
+    display: grid;
+    gap: 6px 24px;
+    padding: clamp(14px, 2vw, 18px) 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  .row:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  @media (min-width: 620px) {
+    .row {
+      grid-template-columns: minmax(0, 150px) minmax(0, 1fr);
+    }
+  }
+
+  .row dt {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    line-height: 1.6;
+  }
+
+  .row dd {
+    margin: 0;
+    font-size: clamp(14.5px, 2vw, 16px);
+    line-height: 1.75;
+    color: var(--text);
+    word-break: keep-all;
+  }
+
+  .items,
+  .plan {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .items li {
+    position: relative;
+    padding-left: 16px;
+  }
+
+  .items li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.72em;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* 번호는 CSS 가 붙인다. 카드와 확대 뷰가 01·02 로 세는 것과 같은 표기다. */
+  .plan {
+    counter-reset: step;
+  }
+
+  .plan li {
+    counter-increment: step;
+    display: flex;
+    gap: 12px;
+  }
+
+  .plan li::before {
+    content: counter(step, decimal-leading-zero);
+    color: var(--accent);
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 평가는 항목이 아니라 결론이다. 종이를 한 겹 얹어 표의 행들과 지위를 가른다. */
+  .closing {
+    margin-top: clamp(20px, 3vw, 28px);
+    padding: clamp(18px, 3vw, 24px);
+    background: var(--paper-raised);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+  }
+
+  .closing p:last-child {
+    margin: 10px 0 0;
+    font-size: clamp(14.5px, 2vw, 16px);
+    line-height: 1.75;
+    word-break: keep-all;
+  }
+
+  .verdict {
+    margin: 18px 0 0;
+    font-size: 12.5px;
+    line-height: 1.7;
+    color: var(--text-faint);
+    word-break: keep-all;
+  }
+
+  .materials {
+    margin-top: clamp(28px, 4vw, 40px);
+  }
+
+  .materials ul {
+    margin: 12px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .materials li {
+    padding: 8px 0;
+    border-top: 1px solid var(--rule-soft);
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
+
+  .materials a {
+    color: var(--text-soft);
+    text-decoration: none;
+  }
+
+  .materials a:hover {
+    color: var(--accent);
+  }
+
+  .back {
+    margin-top: clamp(40px, 6vw, 64px);
+    border-top: 1px solid var(--rule);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 13px;
+  }
+
+  .back a {
+    color: var(--text-soft);
+    text-decoration: none;
+  }
+
+  .back a:hover {
+    color: var(--accent);
+  }
+
+  .back .home {
+    letter-spacing: 0.08em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 2px;
+  }
+</style>
