@@ -219,13 +219,7 @@ export interface IdeaSlide extends Common {
   problem: string;
   /** 카드에 실린 셋. JSON 에는 다섯까지 있지만 카드가 발췌라 확대 뷰도 같은 셋을 보인다. */
   features: string[];
-  /**
-   * 중복 판정의 근거 한 줄. 판정이 선 날에만 있다.
-   *
-   * <p>확인에 실패한 날은 비운다 — 그 자리의 `reason` 은 사람이 쓴 문장이 아니라 Java 예외
-   * 메시지라(`Novelty.check` 의 catch), 그대로 실으면 스택 조각이 아카이브에 영구히 남는다.
-   * 카드 도장이 이미 "확인 못 함" 을 찍어 두었으므로 비어도 정보가 사라지지 않는다.
-   */
+  /** 중복 판정의 근거 한 줄. 판정이 선 날에만 있다 — 판단은 `verdictReason` 하나뿐이다. */
   verdict: string | null;
   materials: { title: string; url: string }[];
 }
@@ -276,11 +270,22 @@ export function slides(day: Day): Slide[] {
       productName: idea.productName,
       problem: idea.problem,
       features: idea.keyFeatures.slice(0, 3),
-      verdict: idea.novelty && idea.novelty.verdict !== "UNKNOWN" ? idea.novelty.reason : null,
+      verdict: verdictReason(idea),
       materials,
     },
     ...news,
   ];
+}
+
+/**
+ * 화면에 실을 수 있는 중복 판정의 근거 한 줄. 판정이 못 선 날은 `null`.
+ *
+ * <p>덱과 상세 페이지가 같은 값을 쓰므로 판단은 여기 한 곳에만 둔다. 두 벌로 두면 실패
+ * 사정이 하나 늘 때 한쪽을 빠뜨리게 되고, 그 순간 `Novelty.check` 의 catch 가 만든 Java
+ * 예외 문자열이 아카이브에 영구히 실린다.
+ */
+export function verdictReason(idea: Idea): string | null {
+  return idea.novelty && idea.novelty.verdict !== "UNKNOWN" ? idea.novelty.reason : null;
 }
 
 /** `2026-07-22` → `2026.07.22 (수)`. 구분자는 카드 헤더와 맞추고 요일을 덧붙인다. */

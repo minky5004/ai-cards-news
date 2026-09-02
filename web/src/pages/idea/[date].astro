@@ -1,7 +1,13 @@
 ---
 import type { GetStaticPaths } from "astro";
 import Layout from "../../layouts/Layout.astro";
-import { formatDate, listDays, type Day, type RenderedIdea } from "../../lib/content";
+import {
+  formatDate,
+  listDays,
+  verdictReason,
+  type Day,
+  type RenderedIdea,
+} from "../../lib/content";
 
 /*
   아이디어가 있는 날짜만 라우트를 낸다. 배선(2026-09-01) 이전 날짜에는 `ideas.json`
@@ -40,16 +46,15 @@ const lists = (
     ["이미 있는 대안", idea.competitors],
     ["이 사업을 죽이는 것", idea.risks],
   ] as [string, string[] | undefined][]
-).filter((row): row is [string, string[]] => Boolean(row[1]?.length));
+)
+  .map(([label, items]) => [label, items?.filter((item) => item.trim()) ?? []] as [string, string[]])
+  .filter((row) => row[1].length > 0);
 
 const plan = idea.actionPlan?.filter((step) => step.trim()) ?? [];
 const materials = idea.sources ?? [];
 
-/*
-  판정이 선 날에만 싣는다. 실패한 날의 `reason` 은 사람이 쓴 문장이 아니라 Java 예외
-  메시지라(`Novelty.check` 의 catch), 그대로 실으면 스택 조각이 아카이브에 영구히 남는다.
-*/
-const verdict = idea.novelty && idea.novelty.verdict !== "UNKNOWN" ? idea.novelty.reason : null;
+/* 판정이 선 날에만 선다. 실패한 날을 가리는 판단은 `verdictReason` 한 곳에 있다. */
+const verdict = verdictReason(idea);
 ---
 
 <Layout
@@ -236,8 +241,13 @@ const verdict = idea.novelty && idea.novelty.verdict !== "UNKNOWN" ? idea.novelt
     }
   }
 
+  /*
+    한 열로 접히는 폭에서 상한이 없으면 768px 화면에서 카드가 704px 로 서서, 첫 문장이
+    한 화면 아래로 밀린다. 이 페이지는 글을 읽는 자리다 — 덱의 슬라이드와 같은 420px 로 묶는다.
+  */
   .shot {
     margin: 0;
+    max-width: 420px;
   }
 
   .shot img {

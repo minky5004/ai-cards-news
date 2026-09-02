@@ -88,13 +88,16 @@ const imageBase = base.replace(/\/$/, "");
               />
             </a>
             {/*
-              아이디어의 재료는 그날 후보 전량이라 열 건을 넘긴다. 여기 늘어놓으면 카드
-              아래 한 줄이 목록이 되므로 건수만 적고 링크는 확대 뷰에 둔다 — 카드 도장
-              아래에 찍힌 "오늘 기사 N건에서" 와 같은 말이다.
+              뉴스가 원문으로 나가는 자리에서 아이디어는 상세 페이지로 나간다. 확대 뷰에도
+              같은 입구가 있지만 그쪽은 닫힌 `dialog` 안이라 스크립트가 붙기 전에는 UA 의
+              `display:none` 에 걸려 닿을 수 없다 — 항상 보이는 링크는 여기 하나뿐이다.
+
+              재료는 그날 후보 전량이라 열 건을 넘긴다. 늘어놓으면 카드 아래 한 줄이 목록이
+              되므로 건수만 적는다 — 카드 도장 아래에 찍힌 "오늘 기사 N건에서" 와 같은 말이다.
             */}
             <p class="meta">
               {slide.kind === "idea" ? (
-                <span>오늘 기사 {slide.materials.length}건에서</span>
+                <a href={`${base}idea/${slide.date}/`}>오늘 기사 {slide.materials.length}건에서 →</a>
               ) : (
                 <a href={slide.origin!.url} target="_blank" rel="noopener noreferrer">
                   {slide.origin!.label} →
@@ -159,7 +162,7 @@ const imageBase = base.replace(/\/$/, "");
                         여기까지 옮겨 오면 확대 뷰가 그 페이지의 사본이 되고, 카드 글의 유일한
                         사본이라는 이 자리의 몫과도 갈린다.
                       */}
-                      <a class="more" href={`${base}idea/${slide.date}/`}>
+                      <a class="more" data-more href={`${base}idea/${slide.date}/`}>
                         아이디어 자세히 보기 →
                       </a>
 
@@ -650,7 +653,11 @@ const imageBase = base.replace(/\/$/, "");
     word-break: keep-all;
   }
 
-  /* 상세로 나가는 입구. 원문으로 나가는 뉴스 쪽 `.origin` 과 같은 모양이라 지위가 같아 보인다. */
+  /*
+    상세로 나가는 입구. 뉴스 쪽 `.origin` 과 같은 자리·같은 형태지만 액센트로 칠한다 —
+    원문은 남의 글로 나가는 문이고 이쪽은 우리 글이 이어지는 문이라, 확대 뷰에서 읽기를
+    멈추지 말아야 할 쪽이 여기다.
+  */
   .detail .more {
     display: inline-block;
     margin-top: 22px;
@@ -1073,6 +1080,18 @@ const imageBase = base.replace(/\/$/, "");
       event.preventDefault();
       close();
     }, { signal });
+
+    /*
+      상세로 나가는 링크는 모달을 먼저 닫고 보낸다. 열린 dialog 는 top layer 라 view
+      transition 의 이전 화면 스냅샷에 담기지 않아, 그대로 두면 전환 첫 프레임에서 모달만
+      사라지고 뒤에 있던 날짜 페이지가 페이드한다 — 방금 읽던 화면이 아닌 것이 페이드된다.
+
+      되돌리는 연출(`close()`)은 쓰지 않는다. 곧 다른 페이지로 갈아치울 화면이고, 연출이
+      끝나기 전에 이동이 시작돼 어차피 중간에 끊긴다.
+    */
+    expand.querySelector("[data-more]")?.addEventListener("click", () => expand.close(), {
+      signal,
+    });
   }
 
   for (const deck of document.querySelectorAll<HTMLElement>("[data-carousel]")) {
