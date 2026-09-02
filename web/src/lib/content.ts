@@ -41,9 +41,10 @@ export interface RenderedCard extends Card {
 /**
  * `content/<date>/ideas.json` 의 아이디어 한 건. 파이프라인 `idea` 단계의 출력이다.
  *
- * JSON 에는 페르소나·수익모델·경쟁·리스크까지 열한 절이 더 들어 있다. 여기 적는 것은
- * 사이트가 실제로 쓰는 몫뿐이다 — 다 옮겨 적으면 쓰지도 않는 필드가 타입에 굳어, 나중에
- * 파이프라인이 절을 하나 바꿀 때마다 웹이 함께 깨진다.
+ * <p>앞의 다섯은 카드에 구워진 것이라 없으면 그날 아이디어가 성립하지 않고, 상세 절은
+ * 전부 optional 이다. 배선(2026-09-01) 이전 산출물에도 없고 프롬프트가 절을 하나 바꾸는
+ * 것만으로 37일 전체가 빌드에서 떨어지면 안 되기 때문이다 — 없는 절은 화면에서 그 자리가
+ * 통째로 빠진다.
  */
 export interface Idea {
   productName: string;
@@ -54,6 +55,18 @@ export interface Idea {
   novelty?: { verdict: string; reason: string };
   /** 그날 아이디어의 재료로 넣은 기사 전량. 선정분과 대기 후보가 함께 들어 있다. */
   sources?: { clusterId: string; title: string; url: string }[];
+
+  /* 아래는 카드에 실리지 않는 절. 상세 페이지에서만 쓴다. */
+  productDescription?: string;
+  persona?: string;
+  businessModel?: string;
+  marketStats?: string;
+  goToMarket?: string;
+  unfairAdvantage?: string;
+  competitors?: string[];
+  risks?: string[];
+  actionPlan?: string[];
+  recommendation?: string;
 }
 
 /** 아이디어 + 렌더된 이미지의 사이트 내 경로. */
@@ -200,6 +213,8 @@ export interface NewsSlide extends Common {
 
 export interface IdeaSlide extends Common {
   kind: "idea";
+  /** 상세 페이지(`/idea/<date>/`)로 가는 링크를 만드는 데 쓴다. */
+  date: string;
   productName: string;
   problem: string;
   /** 카드에 실린 셋. JSON 에는 다섯까지 있지만 카드가 발췌라 확대 뷰도 같은 셋을 보인다. */
@@ -257,6 +272,7 @@ export function slides(day: Day): Slide[] {
       // 재료는 점수순이라 첫 건이 그날 1순위 기사다. 아이디어에는 원문이 하나로 정해지지
       // 않으므로, 스크립트 없이 눌렀을 때 나갈 곳으로 그 한 건을 준다.
       origin: materials[0] ? { label: "재료가 된 기사", url: materials[0].url } : null,
+      date: day.date,
       productName: idea.productName,
       problem: idea.problem,
       features: idea.keyFeatures.slice(0, 3),
