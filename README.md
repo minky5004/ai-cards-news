@@ -3,12 +3,12 @@
 > 매일 밤 · 수집부터 게시까지 **사람 손이 개입하지 않는** AI 뉴스 카드 파이프라인
 
 <p>
-  <img src="content/2026-08-28/cards/01.webp" width="215" alt="발행 카드 1">
-  <img src="content/2026-08-28/cards/02.webp" width="215" alt="발행 카드 2">
-  <img src="content/2026-08-28/cards/03.webp" width="215" alt="발행 카드 3">
+  <img src="content/2026-09-01/idea.webp" width="215" alt="오늘의 아이디어 카드">
+  <img src="content/2026-09-01/cards/01.webp" width="215" alt="발행 카드 1">
+  <img src="content/2026-09-01/cards/02.webp" width="215" alt="발행 카드 2">
 </p>
 
-<sub>2026-08-28 발행분 · 2026-07-26 이후 전량 → <b><a href="https://minky5004.github.io/ai-cards-news/">사이트</a></b></sub>
+<sub>2026-09-01 발행분 · 2026-07-26 이후 전량 → <b><a href="https://minky5004.github.io/ai-cards-news/">사이트</a></b></sub>
 
 <p>
   <img src="docs/screenshots/home.webp" width="430" alt="홈 — 오늘 발행 캐러셀">
