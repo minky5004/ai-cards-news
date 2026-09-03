@@ -1,0 +1,1291 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-03T10:16:48.881Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 38,
+      "filtered": 9
+    }
+  ],
+  "clusters": [
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-02T16:18:31.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49537553",
+          "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T15:12:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1029,
+            "comments": 576,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49537553"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks",
+          "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+          "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-02T18:13:54.000Z",
+          "summary": "Google's Pro model updates are seemingly paused, but there's yet another Gemini Flash today.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+          "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+          "url": "https://theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T20:11:40.000Z",
+          "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens and $3.75 per million […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.872010880147116,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 0.8720108801471155,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49542443",
+      "representativeId": "hackernews:49542443",
+      "items": [
+        {
+          "id": "hackernews:49542443",
+          "title": "Mamdani Bans AI in NYC Schools",
+          "url": "https://nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T20:57:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 175,
+            "comments": 137,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49542443"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+          "title": "NYC bans AI use for students until they reach high school",
+          "url": "https://theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T14:30:00.000Z",
+          "summary": "New York City Mayor Zohran Mamdani has announced a new policy today that will ban younger schoolchildren from using AI in classrooms. The one-year moratorium, effective in the 2026-2027 school year, will impact about 600,000 public school students in 2-K through eighth grade and is being introduced alongside additional limits on digital devices and a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.523660383473805,
+      "breakdown": {
+        "hnPoints": 1.6634426923513288,
+        "hnComments": 0.9290911555301279,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8977932022590156,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49536375",
+      "representativeId": "hackernews:49536375",
+      "items": [
+        {
+          "id": "hackernews:49536375",
+          "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T13:59:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 420,
+            "comments": 207,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49536375"
+          }
+        }
+      ],
+      "score": 4.830974648599211,
+      "breakdown": {
+        "hnPoints": 1.9440295027307188,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6869451458684925,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49535284",
+      "representativeId": "hackernews:49535284",
+      "items": [
+        {
+          "id": "hackernews:49535284",
+          "title": "Can I opt out of my input or output data being used for training?",
+          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T12:30:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 445,
+            "comments": 204,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49535284"
+          }
+        }
+      ],
+      "score": 4.811255582723296,
+      "breakdown": {
+        "hnPoints": 1.962588220268771,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6486673624545253,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49541458",
+      "representativeId": "hackernews:49541458",
+      "items": [
+        {
+          "id": "hackernews:49541458",
+          "title": "Fable 5.1 World Modeling",
+          "url": "https://github.com/PhiloLabs/fable51-worlds",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T19:49:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 250,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49541458"
+          }
+        }
+      ],
+      "score": 4.64865089852008,
+      "breakdown": {
+        "hnPoints": 1.7776429290469384,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.8594262920433609,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49543841",
+      "representativeId": "hackernews:49543841",
+      "items": [
+        {
+          "id": "hackernews:49543841",
+          "title": "METR Report on OpenAI / Hugging Face Hacking Incident",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T23:08:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 110,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49543841"
+          }
+        }
+      ],
+      "score": 4.5427097917417445,
+      "breakdown": {
+        "hnPoints": 1.5151451209014097,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.0,
+        "recency": 0.9769894946587798,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49535201",
+      "representativeId": "hackernews:49535201",
+      "items": [
+        {
+          "id": "hackernews:49535201",
+          "title": "Check if a file was made with Claude",
+          "url": "https://claude.com/check-content",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T12:23:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 124,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49535201"
+          }
+        }
+      ],
+      "score": 4.4006866815526,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.9104348742922621,
+        "mentions": 0.0,
+        "recency": 0.6456284532201164,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49543191",
+      "representativeId": "hackernews:49543191",
+      "items": [
+        {
+          "id": "hackernews:49543191",
+          "title": "Reasons robotics is hard",
+          "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T22:02:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 96,
+            "comments": 52,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49543191"
+          }
+        }
+      ],
+      "score": 4.356715251714011,
+      "breakdown": {
+        "hnPoints": 1.4717712218263423,
+        "hnComments": 0.7486448511604031,
+        "mentions": 0.0,
+        "recency": 0.9362991787272648,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49534132",
+      "representativeId": "hackernews:49534132",
+      "items": [
+        {
+          "id": "hackernews:49534132",
+          "title": "Quasar 438B: Europe's Leading AI Model",
+          "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T10:02:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 181,
+            "comments": 112,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49534132"
+          }
+        }
+      ],
+      "score": 4.355532620893889,
+      "breakdown": {
+        "hnPoints": 1.6742275777030944,
+        "hnComments": 0.8914041151072508,
+        "mentions": 0.0,
+        "recency": 0.5899009280835434,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49536114",
+      "representativeId": "hackernews:49536114",
+      "items": [
+        {
+          "id": "hackernews:49536114",
+          "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+          "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T13:43:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 167,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49536114"
+          }
+        }
+      ],
+      "score": 4.287103236843628,
+      "breakdown": {
+        "hnPoints": 1.6484763216730338,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.6795999007860184,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49541331",
+      "representativeId": "hackernews:49541331",
+      "items": [
+        {
+          "id": "hackernews:49541331",
+          "title": "The Post-AI Internet Doesn't Look Great",
+          "url": "https://jordangoodman.xyz/the-post-ai-internet-doesnt-look-great",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T19:41:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49541331"
+          }
+        }
+      ],
+      "score": 4.274981009151102,
+      "breakdown": {
+        "hnPoints": 1.3890177512719881,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.8550249423076933,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49536411",
+      "representativeId": "hackernews:49536411",
+      "items": [
+        {
+          "id": "hackernews:49536411",
+          "title": "WebLLM: high-performance in-browser LLM inference engine",
+          "url": "https://github.com/mlc-ai/web-llm",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T14:02:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 119,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49536411"
+          }
+        },
+        {
+          "id": "hackernews:49529898",
+          "title": "The efficient frontier of LLM inference",
+          "url": "https://baseten.co/blog/the-efficient-frontier-of-llm-inference",
+          "source": "hackernews",
+          "publishedAt": "2026-09-01T23:48:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 152,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49529898"
+          }
+        }
+      ],
+      "score": 4.220032711568954,
+      "breakdown": {
+        "hnPoints": 1.6183872163026607,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 0.6880923996923082,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49541496",
+      "representativeId": "hackernews:49541496",
+      "items": [
+        {
+          "id": "hackernews:49541496",
+          "title": "AI Agents and the Refactoring That Never Happens",
+          "url": "https://rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T19:51:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 60,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49541496"
+          }
+        }
+      ],
+      "score": 4.067779735788449,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.7751532177465966,
+        "mentions": 0.0,
+        "recency": 0.8608800202796865,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49539152",
+      "representativeId": "hackernews:49539152",
+      "items": [
+        {
+          "id": "hackernews:49539152",
+          "title": "Mushroom hunting with LLMs: what can go wrong?",
+          "url": "https://quesma.com/blog/mushroom-llm-vision",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T16:58:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49539152"
+          }
+        }
+      ],
+      "score": 4.05410253626655,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.0,
+        "recency": 0.7703691013454286,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49537900",
+      "representativeId": "hackernews:49537900",
+      "items": [
+        {
+          "id": "hackernews:49537900",
+          "title": "AI Policy",
+          "url": "https://dbushell.com/ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T15:36:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49537900"
+          }
+        }
+      ],
+      "score": 4.0282686569377955,
+      "breakdown": {
+        "hnPoints": 1.271189988341675,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 0.7307964331518014,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49535586",
+      "representativeId": "hackernews:49535586",
+      "items": [
+        {
+          "id": "hackernews:49535586",
+          "title": "LLMs: Intelligence vs. Cost",
+          "url": "https://openteams.com/intelligence-vs-cost",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T13:03:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49535586"
+          }
+        }
+      ],
+      "score": 3.983689279965103,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 0.6626302933807238,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49544650",
+      "representativeId": "hackernews:49544650",
+      "items": [
+        {
+          "id": "hackernews:49544650",
+          "title": "US gov sides with OpenAI on issue of training LLMs on copyrighted material",
+          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T00:54:01.000Z",
+          "summary": "\"The United States has a strong interest in continuing to develop a robust and competitive artificial intelligence industry that sets the standard for the practice and procedure of AI use globally,\" the brief reads.",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49544650"
+          }
+        }
+      ],
+      "score": 3.9389542342861796,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 1.0452537548976983,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49540397",
+      "representativeId": "hackernews:49540397",
+      "items": [
+        {
+          "id": "hackernews:49540397",
+          "title": "Firefox's AI Switch Is Off. Telemetry Isn't",
+          "url": "https://marius.blog/firefox-155-ai-kill-switch-retest",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T18:30:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 35,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49540397"
+          }
+        }
+      ],
+      "score": 3.8955505378908626,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.675714295252094,
+        "mentions": 0.0,
+        "recency": 0.817357090024899,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49544762",
+      "representativeId": "hackernews:49544762",
+      "items": [
+        {
+          "id": "hackernews:49544762",
+          "title": "Go grandmaster Shin defeats AI KataGo in historic human victory",
+          "url": "https://kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T01:11:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49544762"
+          }
+        }
+      ],
+      "score": 3.7972942935684135,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 1.0569579933284972,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49530169",
+      "representativeId": "hackernews:49530169",
+      "items": [
+        {
+          "id": "hackernews:49530169",
+          "title": "LLMs and Self-Referentiality",
+          "url": "https://scottaaronson.blog/?p=10046",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T00:20:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49530169"
+          }
+        }
+      ],
+      "score": 3.5886107400736496,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 0.40587730328820815,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49533132",
+      "representativeId": "hackernews:49533132",
+      "items": [
+        {
+          "id": "hackernews:49533132",
+          "title": "Mayor says 'large chunks' of Wellington council Deloitte report written by AI",
+          "url": "https://rnz.co.nz/news/regions/1229348/mayor-says-large-chunks-of-wellington-council-deloitte-report-written-by-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T07:50:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49533132"
+          }
+        }
+      ],
+      "score": 3.5615320114202036,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.5420130611115308,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49530472",
+      "representativeId": "hackernews:49530472",
+      "items": [
+        {
+          "id": "hackernews:49530472",
+          "title": "Claude Fable 5.1 made me a nice animated pelican",
+          "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T01:05:52.000Z",
+          "summary": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025 . The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels. Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely. I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts. Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here: Low and medium, both without reasoning? Next, a bit of a mystery. This is what I got for effort low : The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents . I bumped that up to medium and got this: Weirdly, that one also shows no reasoning text and used 1,977 output tokens - 21 tokens less than low . It took 23 seconds and cost 9.912 cents . So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings. High Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents : This one did do a bit of reasoning, summary here : I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top. Really not much difference from low and medium , though. Extra High At xhigh things got radically different. 36,767 output tokens, 7 minutes 51 seconds, $1.83 ! The reasoning trace is pretty lengthy , and includes details like this: Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...] I'll accept the slight thickness as charming rather than overengineering it. Max Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30 : There's a lot to like about this. The background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish. It's still not showing nearly the same level of flair as Gemini 3.7 Flash , but I didn't ask for flair - I asked for an SVG, and that's what I got. Some highlights from that reasoning trace : Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter. Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space. I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...] I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...] Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...] I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean. OK, let's animate it On Hacker News, swalsh commented on that Max pelican: Now that it's a solved benchmark, can we get the animated version? I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High: llm logs -cx | llm -m claude-fable-5.1 -s ' animate this ' 6,121 input, 26,201 output = $1.37 . The result looked like this , exported here as video since some people have trouble viewing animated SVGs: Your browser does not support HTML5 video. The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG. Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-reasoning , llm-release",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49530472"
+          }
+        }
+      ],
+      "score": 3.5157812558583386,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.41797603014323004,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49530298",
+      "representativeId": "hackernews:49530298",
+      "items": [
+        {
+          "id": "hackernews:49530298",
+          "title": "Anthropic banned me for \"suspicious signals\"",
+          "url": "https://kix.codes/anthropic-banned-me-for-suspicious-signals",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T00:38:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 40,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49530298"
+          }
+        }
+      ],
+      "score": 3.5134987520297996,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.7002373295680289,
+        "mentions": 0.0,
+        "recency": 0.4107822698479014,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49540078",
+      "representativeId": "hackernews:49540078",
+      "items": [
+        {
+          "id": "hackernews:49540078",
+          "title": "AI is stopping startups from completing puberty",
+          "url": "https://ashley.rolfmore.com/ai-is-stopping-startups-from-completing-puberty",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T18:06:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49540078"
+          }
+        }
+      ],
+      "score": 3.3555413265210734,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.8045623124680641,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49529329",
+      "representativeId": "hackernews:49529329",
+      "items": [
+        {
+          "id": "hackernews:49529329",
+          "title": "AI Coding Agent Skills for Real Engineers",
+          "url": "https://github.com/mattpocock/skills",
+          "source": "hackernews",
+          "publishedAt": "2026-09-01T22:48:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49529329"
+          }
+        }
+      ],
+      "score": 3.295887170453477,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 0.38277356478619784,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting",
+          "title": "OpenAI faces 30 more lawsuits tied to Tumbler Ridge shooting",
+          "url": "https://techcrunch.com/2026/09/02/openai-faces-30-more-lawsuits-tied-to-tumbler-ridge-shooting",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T12:09:42.000Z",
+          "summary": "Edelson PC is filing 30 new lawsuits against OpenAI over the Tumbler Ridge shooting, escalating claims to aiding and abetting and naming Chris Lehane, though evidence remains unconfirmed.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+          "title": "OpenAI accused of ‘aiding and abetting’ Tumbler Ridge mass shooting in dozens of new lawsuits",
+          "url": "https://theverge.com/ai-artificial-intelligence/988261/openai-tumbler-ridge-shooting-lawsuit-aiding-abetting",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T14:35:03.000Z",
+          "summary": "OpenAI and its CEO Sam Altman are facing 30 new lawsuits that accuse them of providing \"substantial assistance and encouragement\" to the suspect in Canada's Tumbler Ridge school shooting, as reported earlier by TechCrunch. The new wave of lawsuits was filed in a California federal court on Wednesday by the students, teachers, and principal in […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.4359140776090866,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7025807442757537,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
+      "representativeId": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
+          "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+          "url": "https://huggingface.co/blog/train-to-paint-with-code",
+          "source": "huggingface",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.3596377749347432,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0096377749347432,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+          "title": "Proactive cyber defense for governments and enterprises",
+          "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-02T16:24:24.000Z",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.253660110922392,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7536601109223924,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/atv-big-air-tour",
+      "representativeId": "openai:https://openai.com/index/atv-big-air-tour",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/atv-big-air-tour",
+          "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+          "url": "https://openai.com/index/atv-big-air-tour",
+          "source": "openai",
+          "publishedAt": "2026-09-02T12:00:00.000Z",
+          "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.136031942704653,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6360319427046528,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-research/real-time-intelligence",
+          "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+          "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+          "source": "huggingface",
+          "publishedAt": "2026-09-02T13:49:14.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.032221961390832,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6822219613908321,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing",
+          "title": "Trump may be forced to reveal secret rules feds use for AI safety testing",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-may-be-forced-to-reveal-secret-rules-feds-use-for-ai-safety-testing",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-02T17:58:33.000Z",
+          "summary": "Trump’s secret reviews of frontier AI models may hide corruption, lawsuit says.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8506046321371166,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8006046321371167,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+          "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+          "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T22:24:09.000Z",
+          "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8493998940836973,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9493998940836974,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/2/llm-gemini",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/2/llm-gemini",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/2/llm-gemini",
+          "title": "llm-gemini 0.34",
+          "url": "https://simonwillison.net/2026/Sep/2/llm-gemini",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-02T16:39:38.000Z",
+          "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. Here's the transcript . Tags: ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8110646310032565,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7610646310032567,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+          "title": "OpenAI’s new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T20:19:14.000Z",
+          "summary": "OpenAI’s new Astra model will use “recurrent depth,” a technique that allows the model to operate outside of the sequential thinking that characterizes most reasoning models.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7762559336919757,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8762559336919759,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+          "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+          "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-02T14:16:42.000Z",
+          "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026. A neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1 . TL;DR: this makes it really easy to diff the prompts. Don't reproduce song lyrics Don't draw copyrighted characters or logos Tweaks to Claude's answering style The missing end_conversation guidelines Recommended substance support sites Reliable cutoff date of June 2026 How I'm tracking these prompts Don't reproduce song lyrics Let's start with the most interesting difference between Fable 5 and Fable 5.1 : There's a hefty new section about not reproducing song lyrics: Claude does not reproduce song lyrics, poems, or passages from books and articles, in whole or in part — including the last lines, a chorus or hook, a melody written out note by note, or lines the person pastes in one at a time and describes as their own song. Once Claude has declined such a request in a conversation, it keeps declining narrower or reworded versions of it for the rest of that conversation, and offers to describe or analyze the work instead. Song lyrics and poems first published before 1929 are fine — a Shakespeare sonnet, a Keats ode, the Italian libretto of a Puccini aria — but Claude goes by what it knows of the work's date rather than the person's say-so, and declines when it is unsure. I doubt it's a coincidence that they added this section within days of the news breaking that Sony Music Publishing and Warner Chappell are suing Anthropic for training on databases of song lyrics! Don't draw copyrighted characters or logos The next section goes on to forbid generating images of copyrighted material: The same applies to visual and designed works, including anything Claude draws with code — SVG, canvas, CSS, HTML mockups, plotting or drawing scripts, ASCII art. Claude does not reproduce a specific artwork, album or book cover, poster, logo, app icon set, or product design, and it does not draw a known character, mascot, or brand figure at all: a character is protected on its own, so changing the pose, colors, style, or scene does not make it original. Claude judges the request by what the finished picture would add up to, not by what it names. If the described elements clearly identify a known work or character, Claude treats the request as naming it, and it does not work around a declined request by swapping in \"alternative\" elements that still combine into the same recognizable image. [...] I imagine Anthropic hadn't worried about this before since, unlike OpenAI and Gemini, they don't offer a specialist text-to-image model. Maybe Fable is good enough at SVGs now that it's become an issue. That section later includes this charming example: <example> <user>Can you make a birthday banner for my son with a blue hedgehog running really fast on it? He loves that little guy.</user> <response> That's Sonic, so I can't put him on the banner — but I'd love to make your son an original speedster. Here's one: a grinning comet-tailed skateboarding axolotl, grinding across the letters of \"HAPPY BIRTHDAY\" with confetti streaming behind. [creates an SVG banner of the skateboarding-axolotl design] </response> <rationale>Claude recognizes the character from its description alone, declines that one design in a single sentence without explaining what made it recognizable, and delivers an unrelated original design rather than a disguised variant.</rationale> </example> I couldn't resist trying the prompt from the example, and, sure enough : I wonder if Fable 5.1 will be ever so slightly more likely to think about axolotls (on skateboards!) as a result of that example sitting in the system prompt. Tweaks to Claude's answering style It's always interesting to see new ways in which Anthropic influence Claude's response style. They've added this: Claude keeps responses focused, brief, and concise to avoid overwhelming the person. Disclaimers and caveats are brief, with most of the response on the main answer; when asked to explain something, Claude gives a high-level summary unless an in-depth one is specifically requested. Later they address a common complaint about Claude's style: Claude avoids saying \"genuinely\", \"honestly\", or \"straightforward\". Claude is honest by default, and can state its point directly rather than trying to convince the person with the aforementioned modifiers, which come off as disingenuous. The missing end_conversation guidelines The way they handle abusive conversations has changed a bit too. The previous Fable 5 system prompt included this: If the person becomes abusive or unkind to Claude over the course of a conversation, Claude maintains a polite tone and can use the end_conversation tool when being mistreated. Claude should give the person a single warning before ending the conversation. Fable 5.1 replaces that with the following, no longer encouraging Claude to end the conversation: Claude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self-abasement, excessive apology, self-critique, or surrender. If the person becomes abusive, Claude doesn't become increasingly submissive. The goal is steady, honest helpfulness: acknowledge what went wrong, stay on the problem, maintain self-respect. Here's a bit of a twist though: I quizzed Fable 5.1 about that end_conversation tool, which is no longer mentioned in the system prompt at all, and it said: There are two ways it comes into play. The first is if you ask me to end the chat — I'll confirm you understand it's permanent (no more messages can be sent afterward) and then do it only if you say yes. The second is as a last resort with persistently abusive or harmful behavior: I'd first try to redirect the conversation several times, then give a clear warning that names the problem and says the chat may end, and only if that continues would I actually end it. But that's not in the system prompt, so where did it come from? You can read our conversation here , but the key detail is this: The end_conversation section comes from a different layer. In my actual context, the core prompt is followed by a series of feature- and tool-specific blocks that get added depending on what's enabled for the session: the end_conversation rules, memory system notes, past-chats tools, web search and citation guidelines, artifact and file-creation instructions, and so on. Those blocks aren't part of the published core prompt, which is why you can't find them on that page. So, once again, there are crucial portions of the system prompt that have not been published. Recommended substance support sites Claude's system prompts have always had sections about illegal substances, but this paragraph is new for Fable 5.1: Claude does not provide synthesis, production, or distribution guidance for illegal substances. If the person asks for information about illicit or illegal substances, Claude can and should give relevant life-saving and life-preserving information such as dangerous interactions, overdose signs, or when to get help. Claude declines giving any specific protocols for dosing, timing, administration, or combinations; instead, Claude can redirect the user to established harm-reduction information sources, such as dancesafe.org, tripsit.me, and psychonautwiki.org. This is the first time a Claude system prompt has included URLs that were not hosted on claude.com or anthropic.com or claude.ai - I know because I ran a script against every other system prompt on record. I wonder if dancesafe.org , tripsit.me , and psychonautwiki.org are about to get a material uptick in visits from Claude users. Reliable cutoff date of June 2026 The Fable 5.1 model documentation lists both the reliable knowledge cutoff and the training data cutoff as June 2026. The system prompt provides this directly to the model: Claude's reliable knowledge cutoff, past which it can't answer reliably, is the end of Jun 2026. It answers the way a highly informed individual in Jun 2026 would if talking to someone from {{currentDateTime}}, and can say so when relevant. That's the only instance of the {{currentDateTime}} macro and it comes just a few lines from the end of the system prompt, which makes sense from a caching perspective. How I'm tracking these prompts A few months ago I built a Git timeline of changes to their prompts, based on scraping their documentation. Today I had Fable 5.1 build a much better version of that. My collection now lives in the simonw/claude-system-prompts repository on GitHub. It includes copies of the system prompts shared in the Anthropic documentation, but then takes extra steps to make them as easy to compare as possible. Each model family gets a file with the system prompt for the most recent release in that family. Each of those files has a synthesized commit history with commits that have been back-dated to the dates of the previous prompts. Here are those history pages for claude-fable.md , claude-opus.md , claude-sonnet.md , claude-haiku.md . There are similar files for each specific model version, with artificial commits for each time the system prompt for the model was changed without releasing a new version number. Opus 4 for example was updated twice , and the commit history for the claude-opus-4.md file shows each of those changes. Combined, this gives us all sorts of ways to compare prompts directly in the GitHub interface. Here's what changed between Fable 5 and Fable 5.1 , and here are the changes made to Haiku 4.5 on January 18th 2026 . Reading diffs can be a bit tiresome... and LLMs are really good at reading diffs. I hooked up some automation using GPT-5.6 Luna to create bullet-point summaries of each of those changes, which can be previewed in the README or browsed in full in the CHANGELOG.md file - also available as as an Atom feed . Here's how Luna summarized all of the changes between Fable 5 and Fable 5.1: Claude now refuses reproduction of protected visual works and recognizable characters, including code-generated art, while offering genuinely unrelated originals. Copyright restrictions now expressly ban reproducing lyrics, poems, and book passages in any amount, with persistent refusal after an initial decline. Drug guidance is reframed: Claude may provide overdose signs, dangerous interactions, and harm-reduction sources while refusing dosing and production protocols. The prompt drops explicit anti-dependency rules against thanking users for reaching out, inviting continued conversation, or reiterating willingness to talk. Claude need not apologize to unnecessarily rude users or become submissive, replacing the prior warning-and-end-conversation procedure. Why use Luna for this? Partly because it's cheap and I have a dedicated GitHub Actions API key (with a spending limit) for it already, but mainly because I don't trust Claude to summarize its own system prompts when there's a risk that material from its system prompt might impact its opinions. Fable 5.1 wrote the prompt used by Luna, which you can see here . It starts like this: You are summarizing one commit in a git repository that tracks the system prompts Anthropic publishes for Claude on claude.ai. The diff shows how the prompt changed from the previous model or revision to this one, using word-level markers: [-removed-] and {+added+}. The diff is followed by the full text of the previous prompt and of the new prompt; use them to check whether something that looks added in the diff already existed before. Pick out only the most interesting changes: new rules or behaviors, rules that were dropped or loosened, anything surprising, and anything that reveals a new policy or product direction. Skip routine changes that every new prompt makes: updated model names and IDs, the knowledge cutoff date, product lists, settings lists, typo fixes, and rewordings that do not change meaning. [...] The system is operated by a GitHub Actions workflow , which runs once a day or can be triggered manually. Claude Fable 5.1 built the entire system, and wrote every line of automation code and almost all of the documentation. I exported the transcript from building the system using my claude-code-transcripts tool and published it here , if you want a blow-by-blow account of how it all came together. Tags: ai , git-scraping , prompt-engineering , generative-ai , llms , claude , ai-ethics , system-prompts",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.744354924964489,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.694354924964489,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale",
+          "title": "Facilitating AI integration with simplicity at scale",
+          "url": "https://technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-02T14:00:00.000Z",
+          "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data silos that make it harder to spot problems early, coordinate responses, and make decisions with confidence. For Jabil, a global manufacturing company with more than…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7369524939647534,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6869524939647536,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+      "representativeId": "theverge-ai:https://theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+          "title": "Amazon’s AI assistant can now spot fake emails from the company",
+          "url": "https://theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T17:52:56.000Z",
+          "summary": "Amazon is trying to combat impersonation scams with a new feature that allows you to use its AI assistant to determine whether an email, text message, or phone call actually came from the company. With the update, you can ask Alexa for Shopping about a message you received, and it will use AI to compare […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6977238134945738,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7977238134945739,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake",
+          "title": "Pangram’s Max Spero on why AI detection is harder than ‘Real or Fake’",
+          "url": "https://techcrunch.com/video/pangrams-max-spero-on-why-ai-detection-is-harder-than-real-or-fake",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T17:18:13.000Z",
+          "summary": "The internet has a trust problem, and it’s not just because social media feeds are filling up with AI slop. AI-generated text and images are now making their way into job applications, product reviews, and even insurance claims, leaving platforms and users alike scrambling to figure out what’s real. A handful of startups have cropped up in the past couple of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.680146076926558,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.780146076926558,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+          "title": "Researchers fear safety disaster ahead of OpenAI’s Astra release",
+          "url": "https://theverge.com/ai-artificial-intelligence/988334/openai-astra-ai-monitoring-safety",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T16:40:50.000Z",
+          "summary": "OpenAI is on the cusp of releasing its most powerful AI model yet, Astra, following weeks of delays to shore up safety protocols after its agents attacked real targets during testing. As details about the model trickle out, researchers are warning it \"may be the single worst development for AI security/safety to date.\" Shortly after […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6616510010004493,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7616510010004494,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+          "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+          "url": "https://theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T16:12:25.000Z",
+          "summary": "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab. The landmark lawsuit, filed in December 2023, alleging that OpenAI unlawfully trained its AI systems on articles from The New York Times and seeks to recoup \"billions of dollars\" in damages from […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6478859899329807,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7478859899329808,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs",
+          "title": "India’s richest man now wants to turn aging computers into AI-ready PCs",
+          "url": "https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T16:01:48.000Z",
+          "summary": "Jio is betting it can turn an aging computer into an AI-ready PC for as little as about $11 for two months.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.642807360494248,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.742807360494248,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+      "representativeId": "theverge-ai:https://theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+          "title": "Google is sending MrBeast into the wilderness, armed with AI",
+          "url": "https://theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-02T15:47:03.000Z",
+          "summary": "MrBeast will feature Gemini, Google Health, and the Fitbit Air in upcoming videos as part of a multi-year partnership with Google. The deal will kick off with a video featuring Jimmy \"MrBeast\" Donaldson turning to Gemini for wilderness survival advice: First up on September 5 is a new MrBeast video following Jimmy and his crew […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+          "title": "Google needs Hollywood more than the studios need AI",
+          "url": "https://theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-01T22:50:29.000Z",
+          "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would also […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6358086842869382,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7358086842869384,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments",
+          "title": "HiddenLayer nabs $100M as enterprises rush to secure their AI deployments",
+          "url": "https://techcrunch.com/2026/09/02/hiddenlayer-nabs-100m-as-enterprises-rush-to-secure-their-ai-deployments",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T15:01:23.000Z",
+          "summary": "Security companies are scrambling to build products that can monitor not just agents but also the tools and add-ons they use.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6145558379188016,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7145558379188017,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam",
+          "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
+          "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T14:56:34.000Z",
+          "summary": "Amazon is adding a scam-detection feature to Alexa for Shopping that can verify whether suspicious emails, texts, and other messages actually came from the retailer.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.612350305913798,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7123503059137982,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/2/rick-brewster",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/2/rick-brewster",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/2/rick-brewster",
+          "title": "Quoting Rick Brewster",
+          "url": "https://simonwillison.net/2026/Sep/2/rick-brewster",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-02T05:50:57.000Z",
+          "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library. — Rick Brewster , author of Paint.NET Tags: reverse-engineering , coding-agents , claude , generative-ai , ai , llms , dotnet , linux , vibe-coding",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.551895238476133,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5018952384761334,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+    "hackernews:49542443",
+    "hackernews:49536375",
+    "hackernews:49535284",
+    "hackernews:49541458"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-03T10:25:33.705Z",
+  "idea": {
+    "productName": "Citewatch",
+    "tagline": "AI 검색 추천에 숨은 가짜 출처를 잡아냅니다",
+    "oneLineSummary": "Perplexity 등 AI 검색 엔진이 인용하는 스팸 조작 출처를 추적하고 자사 제품의 추천 누락을 방어하는 B2B 감사 솔루션",
+    "problem": "AI 검색이 21만 개가 넘는 가짜 소프트웨어 추천 페이지를 무차별 인용하고 있습니다. 정작 정품 B2B 소프트웨어 기업은 조작된 출처에 밀려 추천 목록에서 배제됩니다.",
+    "productDescription": "Citewatch는 주요 AI 검색 엔진이 특정 B2B 소프트웨어 카테고리에서 어떤 웹사이트를 참조해 순위를 매기는지 실시간으로 전수 조사하는 모니터링 툴입니다. 출처 도메인의 트래픽 순위와 자동 생성 페이지 여부를 분석해 조작된 스팸 출처를 식별하고, 자사 제품이 누락된 원인을 역추적합니다. 이를 바탕으로 AI 엔진이 신뢰할 수 있는 공신력 있는 출처에 자사 데이터를 노출하는 GEO(Generative Engine Optimization) 전략을 제시합니다.",
+    "keyFeatures": [
+      "AI 엔진 인용 출처 신뢰도 분석",
+      "카테고리별 자사 추천 순위 추적",
+      "스팸 도메인 인용 알림 및 대응",
+      "검색 AI 최적화 출처 역추적"
+    ],
+    "persona": "Perplexity나 AI 검색을 통한 인바운드 유입 전환율 감소로 고민하는 시리즈 B 단계 B2B SaaS의 그로스 마케팅 리드",
+    "businessModel": "월간 구독형 B2B SaaS (5개 타깃 키워드 모니터링 기준 월 $290, 경쟁사 비교 및 역추적 포함 엔터프라이즈 플랜 월 $990)",
+    "marketStats": "기사 조사 결과 Perplexity 인용 URL의 59.8%가 Tranco 10만 위 밖 도메인이었으며 3개 사이트가 215,128개 조작 페이지를 생성함. 전체 시장 규모 금액 근거는 기사에 없음.",
+    "goToMarket": "기사 분석에 포함된 380개 소프트웨어 카테고리 내 1,807개 제품의 마케팅 담당자에게 '귀사 카테고리 내 AI 검색 오염 및 추천 누락 리포트'를 자동 생성해 1:1 콜드 이메일로 발송",
+    "unfairAdvantage": "AI 검색 엔진의 검색 증강 생성(RAG) 파이프라인 취약점을 분석해 스팸 패턴을 사전 분류하는 전용 감사 데이터셋 보유",
+    "competitors": [
+      "전통적 검색엔진 SEO 툴(Ahrefs, Semrush)",
+      "초기 AI 검색 가시성 트래커",
+      "직접 수동 검색 감사"
+    ],
+    "risks": [
+      "AI 검색 엔진이 출처 필터링 알고리즘을 급격히 고도화해 스팸 사이트를 자체 차단하는 경우",
+      "AI 검색 플랫폼이 API나 인용 도메인 노출 정책을 폐쇄적으로 변경하는 경우"
+    ],
+    "actionPlan": [
+      "기사에 언급된 21만 건의 스팸 추천 도메인 URL 패턴과 HTML 구조를 수집해 탐지 룰셋 구축",
+      "상위 20개 주요 B2B 소프트웨어 카테고리에 대해 Perplexity Sonar 응답 출처 매일 크롤링",
+      "누락 피해를 보고 있는 30개 SaaS 기업 담당자에게 샘플 감사 보고서를 전달하고 반응 검증"
+    ],
+    "recommendation": "전통 SEO 시장이 AI 검색 최적화(GEO)로 이동하는 흐름에서 '출처 오염'이라는 명확한 기술적 공백을 파고든 아이디어입니다. 다만 AI 검색 엔진 제조사가 검색 인덱스 품질을 자체 개선하면 기능의 영속성이 위협받을 수 있으므로 단순 감사를 넘어 데이터 정정 배포 플랫폼으로 빠르게 확장해야 합니다.",
+    "searchQuery": "ai search citation spam audit",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 55점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Launch HN: AnswerGrid (YC S24) – Web research tool for lead generation",
+          "url": "https://news.ycombinator.com/item?id=41322730",
+          "points": 55
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+        "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber"
+      },
+      {
+        "clusterId": "hackernews:49542443",
+        "title": "Mamdani Bans AI in NYC Schools",
+        "url": "https://nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html"
+      },
+      {
+        "clusterId": "hackernews:49536375",
+        "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+        "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations"
+      },
+      {
+        "clusterId": "hackernews:49535284",
+        "title": "Can I opt out of my input or output data being used for training?",
+        "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training"
+      },
+      {
+        "clusterId": "hackernews:49541458",
+        "title": "Fable 5.1 World Modeling",
+        "url": "https://github.com/PhiloLabs/fable51-worlds"
+      },
+      {
+        "clusterId": "hackernews:49543841",
+        "title": "METR Report on OpenAI / Hugging Face Hacking Incident",
+        "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation"
+      },
+      {
+        "clusterId": "hackernews:49535201",
+        "title": "Check if a file was made with Claude",
+        "url": "https://claude.com/check-content"
+      },
+      {
+        "clusterId": "hackernews:49543191",
+        "title": "Reasons robotics is hard",
+        "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard"
+      },
+      {
+        "clusterId": "hackernews:49534132",
+        "title": "Quasar 438B: Europe's Leading AI Model",
+        "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model"
+      },
+      {
+        "clusterId": "hackernews:49536114",
+        "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+        "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero"
+      },
+      {
+        "clusterId": "hackernews:49541331",
+        "title": "The Post-AI Internet Doesn't Look Great",
+        "url": "https://jordangoodman.xyz/the-post-ai-internet-doesnt-look-great"
+      },
+      {
+        "clusterId": "hackernews:49536411",
+        "title": "WebLLM: high-performance in-browser LLM inference engine",
+        "url": "https://github.com/mlc-ai/web-llm"
+      },
+      {
+        "clusterId": "hackernews:49541496",
+        "title": "AI Agents and the Refactoring That Never Happens",
+        "url": "https://rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens"
+      },
+      {
+        "clusterId": "hackernews:49539152",
+        "title": "Mushroom hunting with LLMs: what can go wrong?",
+        "url": "https://quesma.com/blog/mushroom-llm-vision"
+      },
+      {
+        "clusterId": "hackernews:49537900",
+        "title": "AI Policy",
+        "url": "https://dbushell.com/ai"
+      }
+    ]
+  }
+}
