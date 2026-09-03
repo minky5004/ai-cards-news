@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline.copy;
 
 import com.aicards.news.pipeline.Env;
+import com.aicards.news.pipeline.Gemini;
 import com.aicards.news.pipeline.Json;
 import com.aicards.news.pipeline.Paths;
 import com.aicards.news.pipeline.Templates;
@@ -96,7 +97,7 @@ public final class Copywriter {
         GenerateContentConfig requestConfig = requestConfig(config);
 
         List<CopyResult> results = new ArrayList<>();
-        try (Client client = Client.builder().apiKey(apiKey).build()) {
+        try (Client client = Gemini.client(apiKey)) {
             for (ArticlesResult.Article article : articles) {
                 // 본문이 없으면 시도하지 않는다. 이유는 hasBody 참고.
                 if (!hasBody(article)) {
