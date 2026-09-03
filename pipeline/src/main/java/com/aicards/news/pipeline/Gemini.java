@@ -30,9 +30,11 @@ public final class Gemini {
     /**
      * 다시 던져 볼 상태 코드.
      *
-     * <p>SDK 기본 목록에서 <b>429 만 뺐다</b>. 한도 초과에 재시도하는 것은 실패가 확정된 요청으로
-     * 남은 한도를 깎는 일이다 — 무료 티어에서 429 는 거의 하루 한도(RPD)이고, 그것은 다음
-     * 리셋까지 몇 초를 기다려도 풀리지 않는다.
+     * <p>SDK 기본 목록에서 <b>429 만 뺐다</b>. 무료 티어의 429 는 두 갈래이고 어느 쪽이든 재시도가
+     * 값을 못 한다 — 하루 한도(RPD)는 다음 리셋까지 풀리지 않고, 분당 한도(RPM)는 응답이
+     * {@code retryDelay} 로 57초를 요구하는데 SDK 백오프는 1초에서 시작한다. 남는 것은 실패가
+     * 확정된 요청으로 한도를 한 번 더 깎는 일뿐이다. RPM 은 재시도가 아니라
+     * {@code copy.requestIntervalSeconds} 로 애초에 닿지 않게 한다.
      */
     private static final List<Integer> RETRY_STATUS_CODES = List.of(408, 500, 502, 503, 504);
 

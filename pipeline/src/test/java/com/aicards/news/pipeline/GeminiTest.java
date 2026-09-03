@@ -6,7 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import com.aicards.news.pipeline.config.ConfigLoader;
 import com.aicards.news.pipeline.config.PipelineConfig;
+import com.google.genai.Client;
+import com.google.genai.types.HttpOptions;
 import com.google.genai.types.HttpRetryOptions;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -69,11 +73,19 @@ class GeminiTest {
             PipelineConfig config = ConfigLoader.loadPipelineConfig();
             int interval = config.copy().requestIntervalSeconds();
 
-            // 간격 없이 던지면 1분 안에 RPM 을 넘긴다. 09-02 백필이 3장에서 멈춘 자리다.
+            /*
+              503 이 뜬 기사는 재시도까지 요청 두 건이므로 간격만 보면 모자란다. 60초 창에
+              들어가는 기사가 floor(60/간격) + 1 이고 각자 attempts 회를 던진다 — 이 곱이
+              RPM 을 넘으면 마지막 기사가 429 로 사라지고, 그 429 는 재시도 대상에서 뺀
+              코드라 그대로 카드 한 장이 빈다. 과부하한 날에만 발화해 평소에는 안 보인다.
+            */
+            int articlesPerMinute = 60 / interval + 1;
+            int worstCase = articlesPerMinute * attempts();
+
             assertTrue(
-                    interval * Gemini.FREE_TIER_RPM >= 60,
-                    "간격 %d초로는 분당 %d회를 넘는다 — 최소 %d초가 필요하다"
-                            .formatted(interval, Gemini.FREE_TIER_RPM, 60 / Gemini.FREE_TIER_RPM));
+                    worstCase <= Gemini.FREE_TIER_RPM,
+                    "간격 %d초에서 1분 최악 %d회가 분당 한도 %d회를 넘는다"
+                            .formatted(interval, worstCase, Gemini.FREE_TIER_RPM));
         }
 
         @Test
@@ -93,11 +105,32 @@ class GeminiTest {
 
         @Test
         @DisplayName("만들어진 클라이언트가 이 정책을 싣는다")
-        void carriesRetryOptions() {
-            HttpRetryOptions options = Gemini.retryOptions();
+        void carriesRetryOptions() throws Exception {
+            /*
+              클라이언트 안을 리플렉션으로 연다. retryOptions() 를 그냥 자기와 비교하면 어떤
+              client() 구현에도 통과하는 단언이 된다 — 실제로 그렇게 썼다가 client() 를 SDK
+              기본 빌더로 되돌려도 이 클래스가 전부 초록인 것을 리뷰에서 봤다. 이 PR 이 고치는
+              것이 바로 그 기본값이므로, 정책이 클라이언트까지 닿았는지를 봐야 한다.
+            */
+            HttpOptions options;
+            try (Client client = Gemini.client("test-key-not-used")) {
+                Field field = Client.class.getDeclaredField("apiClient");
+                field.setAccessible(true);
+                Object apiClient = field.get(client);
 
-            // client() 가 retryOptions() 를 우회해 SDK 기본값으로 만들어지면 여기가 어긋난다.
-            assertEquals(attempts(), options.attempts().orElseThrow());
+                Method httpOptions = apiClient.getClass().getMethod("httpOptions");
+                httpOptions.setAccessible(true);
+                options = (HttpOptions) httpOptions.invoke(apiClient);
+            }
+
+            HttpRetryOptions retry =
+                    options.retryOptions()
+                            .orElseThrow(() -> new AssertionError("클라이언트에 재시도 정책이 없다"));
+
+            assertEquals(attempts(), retry.attempts().orElseThrow());
+            assertEquals(
+                    Gemini.retryOptions().httpStatusCodes().orElseThrow(),
+                    retry.httpStatusCodes().orElseThrow());
         }
     }
 

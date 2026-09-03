@@ -33,6 +33,7 @@ class ConfigLoaderTest {
             assertTrue(config.dedup().minSharedTokens() > 0);
             assertTrue(config.scoring().maxCards() > 0);
             assertTrue(!config.copy().model().isBlank());
+            assertTrue(config.copy().requestIntervalSeconds() > 0);
             assertTrue(!config.relevance().terms().isEmpty());
             assertTrue(!config.idea().model().isBlank());
             assertTrue(config.idea().maxCandidates() > 0);
