@@ -15,6 +15,7 @@ import com.google.genai.types.GenerateContentResponseUsageMetadata;
 import com.google.genai.types.Schema;
 import com.google.genai.types.ThinkingConfig;
 import com.google.genai.types.Type;
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
@@ -98,12 +99,17 @@ public final class Copywriter {
 
         List<CopyResult> results = new ArrayList<>();
         try (Client client = Gemini.client(apiKey)) {
+            boolean called = false;
             for (ArticlesResult.Article article : articles) {
                 // 본문이 없으면 시도하지 않는다. 이유는 hasBody 참고.
                 if (!hasBody(article)) {
                     results.add(CopyResult.skipped(article.clusterId(), NO_BODY));
                     continue;
                 }
+
+                // 건너뛴 기사는 호출이 아니므로 간격을 두지 않는다. 첫 호출 앞도 마찬가지다.
+                if (called) pause(config.requestIntervalSeconds());
+                called = true;
 
                 Cluster cluster =
                         clusters.stream()
@@ -114,6 +120,22 @@ public final class Copywriter {
             }
         }
         return results;
+    }
+
+    /**
+     * 다음 호출까지 기다린다.
+     *
+     * <p>인터럽트를 삼키지 않고 플래그를 되돌린다 — 여기서 멈추라는 신호를 지우면 남은 기사를
+     * 끝까지 돌고 나서야 죽는다.
+     */
+    private static void pause(int seconds) {
+        if (seconds <= 0) return;
+        try {
+            Thread.sleep(Duration.ofSeconds(seconds));
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new IllegalStateException("카피라이팅이 대기 중에 중단됐다", e);
+        }
     }
 
     private static GenerateContentConfig requestConfig(PipelineConfig.Copy config) {

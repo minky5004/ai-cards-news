@@ -64,6 +64,19 @@ class GeminiTest {
         }
 
         @Test
+        @DisplayName("카피 호출 간격이 분당 한도 안에 든다")
+        void copyIntervalRespectsRequestsPerMinute() {
+            PipelineConfig config = ConfigLoader.loadPipelineConfig();
+            int interval = config.copy().requestIntervalSeconds();
+
+            // 간격 없이 던지면 1분 안에 RPM 을 넘긴다. 09-02 백필이 3장에서 멈춘 자리다.
+            assertTrue(
+                    interval * Gemini.FREE_TIER_RPM >= 60,
+                    "간격 %d초로는 분당 %d회를 넘는다 — 최소 %d초가 필요하다"
+                            .formatted(interval, Gemini.FREE_TIER_RPM, 60 / Gemini.FREE_TIER_RPM));
+        }
+
+        @Test
         @DisplayName("SDK 기본값보다 적게 시도한다")
         void triesFewerTimesThanSdkDefault() {
             // SDK 의 RetryInterceptor 기본값이 5 다. 그대로 두면 한 호출이 5회로 불어난다.

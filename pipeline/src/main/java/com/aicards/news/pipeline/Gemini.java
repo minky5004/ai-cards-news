@@ -42,6 +42,12 @@ public final class Gemini {
      */
     public static final int FREE_TIER_DAILY_LIMIT = 20;
 
+    /**
+     * 분당 한도. 하루 한도와 <b>별개로</b> 걸리는 {@code GenerateRequestsPerMinutePerProjectPerModel}
+     * 이고, 이쪽이 훨씬 먼저 닿는다 — 하루 예산을 다 지켜도 5건을 쉬지 않고 던지면 여기서 막힌다.
+     */
+    public static final int FREE_TIER_RPM = 5;
+
     /** 한도 초과. 재시도 목록에서 이것을 빼는 것이 {@link #RETRY_STATUS_CODES} 의 요점이다. */
     public static final int TOO_MANY_REQUESTS = 429;
 
