@@ -33,6 +33,7 @@ class ConfigLoaderTest {
             assertTrue(config.dedup().minSharedTokens() > 0);
             assertTrue(config.scoring().maxCards() > 0);
             assertTrue(!config.copy().model().isBlank());
+            assertTrue(config.copy().requestIntervalSeconds() > 0);
             assertTrue(!config.relevance().terms().isEmpty());
             assertTrue(!config.idea().model().isBlank());
             assertTrue(config.idea().maxCandidates() > 0);
@@ -74,7 +75,7 @@ class ConfigLoaderTest {
                     new PipelineConfig.Relevance(java.util.List.of("llm"), java.util.List.of("AI")),
                     new PipelineConfig.Dedup(2, 0.5, 0.2),
                     new PipelineConfig.Extract(maxAttempts),
-                    new PipelineConfig.Copy("gemini-3.6-flash", 4000, null),
+                    new PipelineConfig.Copy("gemini-3.6-flash", 4000, null, 14),
                     new PipelineConfig.Idea(
                             "gemini-3.6-flash", 16000, null, maxCandidates, 1500, 5, 300),
                     scoring(maxCards));

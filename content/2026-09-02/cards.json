@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026-09-03T10:24:53.773Z",
+  "cards": [
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "headline": "몇 달 걸릴 취약점을 2시간 만에 잡았다",
+      "highlight": [
+        "2시간 만에"
+      ],
+      "body": "구글이 3주 만에 신형 AI 제미나이 3.8 플래시를 공개했습니다. 사이버 특화 모델은 연구에 수개월 걸리던 핵심 취약점을 2시간 만에 찾아냈습니다. 가격은 이전 버전과 똑같이 100만 입력 토큰당 0.75달러에 제공됩니다.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png",
+      "publishedAt": "2026-09-02T16:18:31.000Z"
+    },
+    {
+      "clusterId": "hackernews:49536375",
+      "headline": "퍼플렉시티 AI, 21만 개 가짜 문서에 낚였다",
+      "highlight": [
+        "퍼플렉시티 AI",
+        "21만 개"
+      ],
+      "body": "트렐너 리서치 분석 결과, 퍼플렉시티가 소프트웨어 추천에 인용한 출처 상당수가 기계로 찍어낸 사이트였습니다. 단 3개 사이트가 만든 21만여 개의 자동 생성 페이지가 AI 검색 근거로 쓰였습니다. AI가 긁어온 정보를 맹신하면 조작된 추천에 그대로 노출될 수 있습니다.",
+      "sourceUrl": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations",
+      "sourceName": "Trellner Research",
+      "imageUrl": "https://trellner.com/og.png",
+      "publishedAt": "2026-09-02T13:59:59.000Z"
+    },
+    {
+      "clusterId": "hackernews:49535284",
+      "headline": "미스트랄이 내 대화를 AI 학습에 쓴다",
+      "highlight": [
+        "미스트랄이",
+        "AI 학습에"
+      ],
+      "body": "미스트랄이 사용자가 입력하거나 생성한 대화 및 문서 데이터를 자사 AI 모델 학습에 활용할 수 있다고 밝혔습니다. Vibe 앱과 미스트랄 스튜디오, API 서비스 전반에서 사용자가 직접 데이터 학습 제외를 신청할 수 있습니다.",
+      "sourceUrl": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "sourceName": "hackernews",
+      "imageUrl": "https://downloads.intercomcdn.eu/i/o/xel0jpx9/32959/6f6f05e6d9a783dd3709d1d20210/22053698b6d3506b0b89d174c8404652.png",
+      "publishedAt": "2026-09-02T12:30:39.000Z"
+    }
+  ]
+}

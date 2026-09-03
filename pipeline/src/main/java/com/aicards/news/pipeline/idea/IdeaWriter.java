@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline.idea;
 
 import com.aicards.news.pipeline.Env;
+import com.aicards.news.pipeline.Gemini;
 import com.aicards.news.pipeline.Json;
 import com.aicards.news.pipeline.Paths;
 import com.aicards.news.pipeline.Templates;
@@ -120,7 +121,7 @@ public final class IdeaWriter {
         int inputTokens = 0;
         int outputTokens = 0;
 
-        try (Client client = Client.builder().apiKey(apiKey).build()) {
+        try (Client client = Gemini.client(apiKey)) {
             String prompt =
                     Templates.render(
                             Paths.promptsDir().resolve(PROMPT_FILE),

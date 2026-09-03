@@ -99,11 +99,15 @@ public record PipelineConfig(
      * @param maxTokens 출력 상한. 카피는 짧지만 사고 토큰이 포함될 수 있어 여유를 둔다.
      * @param thinkingBudget 사고 토큰 예산. 비워 두면 모델 기본값을 쓰고, 0 이면 사고를 끈다.
      */
-    public record Copy(String model, int maxTokens, Integer thinkingBudget) {
+    public record Copy(
+            String model, int maxTokens, Integer thinkingBudget, int requestIntervalSeconds) {
 
         public Copy {
             Check.required(model, "copy.model");
             Check.positive(maxTokens, "copy.maxTokens");
+            Check.that(
+                    requestIntervalSeconds >= 0,
+                    "copy.requestIntervalSeconds 는 음수일 수 없다: " + requestIntervalSeconds);
             if (thinkingBudget != null) {
                 Check.that(
                         thinkingBudget >= 0, "copy.thinkingBudget 는 음수일 수 없다: " + thinkingBudget);
