@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-04T08:31:05.930Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+      "headline": "서류 41건 대조를 단 몇 분 만에 끝냈다",
+      "highlight": [
+        "서류 41건",
+        "단 몇 분 만에"
+      ],
+      "body": "법률 AI 레고라가 GPT-6 아스트라를 활용해 재무제표 서류 41건의 대조를 몇 분 만에 마쳤습니다. 며칠씩 걸리던 복잡한 수치 검토는 물론 숨겨진 오류까지 정확히 찾아냈습니다. 전문가는 반복 작업 대신 최종 판단에만 집중하게 됩니다.",
+      "sourceUrl": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/3tumELHx5xEpvmjgMZ41FN/e05ac82314544e6f43955a3e17160862/legora-seo-image.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-09-03T12:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49554520",
+      "headline": "세레브라스가 초당 3000토큰을 쏜다",
+      "highlight": [
+        "초당 3000토큰을"
+      ],
+      "body": "세레브라스가 1200억 개 매개변수의 GPT 오픈소스 모델을 초당 약 3000토큰 속도로 서비스합니다. 모델 가지치기 없이 원본 품질을 유지하며 최대 131k 컨텍스트를 지원합니다. 개발자는 무료 체험과 종량제로 바로 쓸 수 있습니다.",
+      "sourceUrl": "https://inference-docs.cerebras.ai/models/overview",
+      "sourceName": "Cerebras Inference",
+      "imageUrl": "https://cerebras-inference.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DDocumentation%26title%3DModel%2BCatalog%26description%3DBrowse%2Ball%2Bmodels%2Bavailable%2Bon%2BCerebras%2Bpublic%2Bendpoints.%26theme%3D0d969de00f05bf51f42e2bb2&w=1200&q=100",
+      "publishedAt": "2026-09-03T18:32:13.000Z"
+    },
+    {
+      "clusterId": "hackernews:49557206",
+      "headline": "코딩 AI는 139번 언급된 페이팔을 버렸다",
+      "highlight": [
+        "139번",
+        "페이팔을 버렸다"
+      ],
+      "body": "아마추어가 약 1.7만 번의 세션으로 코딩 에이전트들을 분석한 결과, 유명 도구도 AI의 최종 선택은 받지 못했습니다. 결제 분야에서 페이팔은 139번 언급됐으나 0번 선택됐고 스트라이프가 독식했습니다. 세 에이전트가 같은 도구를 고른 비율도 42%에 그쳤습니다.",
+      "sourceUrl": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "sourceName": "Armature",
+      "imageUrl": "https://armature.tech/assets/blog/coding-agents-tool-choice-3.png",
+      "publishedAt": "2026-09-03T21:20:34.000Z"
+    },
+    {
+      "clusterId": "hackernews:49551760",
+      "headline": "AI 훈련 데이터와 코드를 통째로 풀었다",
+      "highlight": [
+        "통째로 풀었다"
+      ],
+      "body": "IFM이 0.9B부터 375B까지 6개 모델로 구성된 'K2 호라이즌'을 공개했습니다. 최종 가중치뿐 아니라 훈련 데이터, 체크포인트, 전체 코드를 아파치 2.0 라이선스로 전면 개방했습니다. 개발자는 모델의 성장 과정을 확인하며 자유롭게 수정하고 재현할 수 있습니다.",
+      "sourceUrl": "https://ifm.ai/blog/k2",
+      "sourceName": "Institute of Foundation Models",
+      "imageUrl": "https://ifm.ai/blog/k2/assets/k2-horizon-social.webp",
+      "publishedAt": "2026-09-03T15:36:43.000Z"
+    }
+  ]
+}

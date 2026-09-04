@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-04T08:31:57.836Z",
+  "idea": {
+    "productName": "AgentPick",
+    "tagline": "코딩 에이전트가 자사 SaaS를 추천하게 만드는 진단 도구",
+    "oneLineSummary": "코딩 에이전트가 개발자에게 자사 개발 도구를 우선 추천하도록 진단하고 문서를 최적화해 주는 B2B 솔루션",
+    "problem": "개발자가 코딩 에이전트에게 라이브러리 선택을 위임하면서 B2B 개발 툴 기업의 기존 SEO 마케팅이 무력화되고 있습니다. 에이전트가 어떤 기준으로 경쟁사를 추천하는지 파악할 방법이 없습니다.",
+    "productDescription": "Claude Code, Cursor, Codex 등 주요 코딩 에이전트가 특정 개발 상황에서 어떤 서드파티 서비스를 추천하는지 대규모 시뮬레이션을 돌려 분석합니다. 자사 제품이 경쟁사에 밀려 추천에서 제외되는 구체적인 이유를 리포트로 제공합니다. 에이전트가 맥락을 정확히 읽고 자사 도구를 선택할 수 있도록 공식 문서 구조와 설치 스크립트 최적화 가이드를 생성합니다.",
+    "keyFeatures": [
+      "에이전트 추천률 모의 진단",
+      "경쟁사 대비 탈락 원인 분석",
+      "에이전트 맞춤 문서 최적화"
+    ],
+    "persona": "개발자 유입 감소로 고민 중인 클라우드 인프라 또는 B2B 개발 툴 스타트업의 DevRel(개발자 관계) 팀장",
+    "businessModel": "월간 구독형 SaaS (월 499달러부터 시작, 모의 시뮬레이션 쿼리 수 및 경쟁사 추적 수에 따라 과금)",
+    "marketStats": "기사에 규모 근거 없음 (단, 16,893건의 에이전트 세션 분석 결과 개발자들이 DB 및 도구 선택을 에이전트에 위임하는 현상이 확인됨)",
+    "goToMarket": "Neon, Supabase 등 최근 코딩 에이전트 추천 사례에 언급된 오픈소스 및 DevTool 커뮤니티 담당자에게 모의 진단 샘플 리포트를 콜드메일로 발송",
+    "unfairAdvantage": "전통적인 검색엔진 SEO와 달리 LLM 코딩 에이전트의 컨텍스트 윈도우와 문서 파싱 메커니즘에 특화된 프롬프트-문서 변환 벤치마크 데이터를 선점할 수 있음",
+    "competitors": [
+      "Armature",
+      "전통적 개발자 대상 SEO 컨설팅사"
+    ],
+    "risks": [
+      "LLM 모델 제공업체가 추천 알고리즘 및 훈련 데이터를 비공개로 변경할 경우 벤치마크 일관성이 흔들릴 위험",
+      "코딩 에이전트 제조사가 자체 스폰서십 광고를 모델 추천 결과에 직접 도입할 위험"
+    ],
+    "actionPlan": [
+      "Cursor와 Claude Code 환경에서 주요 DB 5개 사에 대한 추천 유도 프롬프트 100건 수동 테스트",
+      "추천 실패 원인(문서 모호성, 설치 복잡도 등) 분석 템플릿 제작",
+      "초기 타깃 개발 도구 스타트업 10곳에 무료 진단 보고서 전달 및 인터뷰 진행"
+    ],
+    "recommendation": "코딩 에이전트가 개발 생태계의 새로운 게이트키퍼로 부상하면서 DevTool 기업들에게 에이전트 최적화(AEO)는 생존 문제가 되었습니다. 다만 LLM 엔진의 블랙박스 특성으로 인해 최적화의 인과관계를 고객에게 명확히 입증하는 지표를 정교하게 설계해야 합니다.",
+    "searchQuery": "coding agent tool recommendation benchmark",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 103점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
+          "url": "https://news.ycombinator.com/item?id=48356312",
+          "points": 103
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+        "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
+      },
+      {
+        "clusterId": "hackernews:49548952",
+        "title": "Nvidia to acquire Hugging Face",
+        "url": "https://cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+      },
+      {
+        "clusterId": "hackernews:49554520",
+        "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+        "url": "https://inference-docs.cerebras.ai/models/overview"
+      },
+      {
+        "clusterId": "hackernews:49542443",
+        "title": "Mamdani bans AI in NYC schools",
+        "url": "https://nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html"
+      },
+      {
+        "clusterId": "hackernews:49557206",
+        "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+        "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+      },
+      {
+        "clusterId": "hackernews:49551760",
+        "title": "K2 Horizon: A connected fleet of six open models",
+        "url": "https://ifm.ai/blog/k2"
+      },
+      {
+        "clusterId": "hackernews:49550375",
+        "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+        "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot"
+      },
+      {
+        "clusterId": "hackernews:49549676",
+        "title": "Claude outage – Resolved",
+        "url": "https://status.claude.com/incidents/461yvfrzpwtt"
+      },
+      {
+        "clusterId": "hackernews:49551589",
+        "title": "Grok outage",
+        "url": "https://status.x.ai"
+      },
+      {
+        "clusterId": "hackernews:49551658",
+        "title": "ChatGPT, Claude, and Grok Are Down",
+        "url": "https://macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down"
+      },
+      {
+        "clusterId": "hackernews:49544762",
+        "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+        "url": "https://kedglobal.com/artificial-intelligence/newsView/ked202607210007"
+      },
+      {
+        "clusterId": "hackernews:49553463",
+        "title": "Sanders introduces bill to ban artificial superintelligence and pause AI",
+        "url": "https://sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development"
+      },
+      {
+        "clusterId": "hackernews:49558302",
+        "title": "Protecting Engineers' Skills in the AI Era",
+        "url": "https://spectrum.ieee.org/ai-engineer-skills"
+      },
+      {
+        "clusterId": "hackernews:49543191",
+        "title": "Reasons robotics is hard",
+        "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard"
+      },
+      {
+        "clusterId": "hackernews:49547888",
+        "title": "Claude for Commerce Agents",
+        "url": "https://claude.com/blog/claude-for-commerce-agents"
+      }
+    ]
+  }
+}
