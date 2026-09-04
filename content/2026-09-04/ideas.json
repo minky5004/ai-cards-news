@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026-09-04T16:03:27.723Z",
+  "idea": {
+    "productName": "PriceWall",
+    "tagline": "AI 검색이 부풀린 21퍼센트 가격 인상을 막는다",
+    "oneLineSummary": "Google AI Mode 검색 시 부풀려진 상품 가격을 감지하여 전통적 검색의 저렴한 최저가를 찾아주는 쇼핑 알림 서비스를 알뜰 소비자에 제공합니다.",
+    "problem": "구글 AI Mode 이용자는 동일 상품임에도 전통적 검색보다 평균 21.6% 높은 가격을 제안받고 있습니다. 매칭 상품 중 49.6%는 판매자마자 달라 소비자들의 합리적 구매를 방해합니다.",
+    "productDescription": "구글 AI Mode 쇼핑 검색 결과를 실시간으로 스캔하여 동일 상품의 일반 검색 가격과 비교하는 크롬 확장프로그램을 제공합니다. 가격 차이가 발생하거나 더 저렴한 원본 판매자가 존재할 경우 즉시 팝업 알림을 띄워줍니다. 소비자가 AI 검색의 가격 부풀리기 노출에 속지 않고 최저가로 구매할 수 있도록 보장합니다.",
+    "keyFeatures": [
+      "AI 검색 상품 가격 비교",
+      "21% 가격 인상 감지 알림",
+      "동일 상품 원본 판매자 연결",
+      "실시간 가격 차액 계산"
+    ],
+    "persona": "구글 AI 검색을 자주 활용해 전자제품과 생필품을 구매하지만, AI 추론 결과의 가격 프리미엄 오차로 손해를 보고 싶지 않은 알뜰한 온라인 쇼핑 이용자입니다.",
+    "businessModel": "기초 가격 비교는 무료로 제공하며, 원본 최저가 판매자 사이트 이동 후 결제 발생 시 수수료 2~3%를 받거나 프리미엄 구독자에게 월 2.99달러의 차액 절약 리포트를 제공합니다.",
+    "marketStats": "2026년 8월 100,000개 이상의 SERP와 2,000,000개 이상의 상품 리스팅 조사에 따르면 AI Mode의 상품 가격이 일반 검색보다 평균 21.6% 높으며 전체 리스팅 기준으로는 49% 더 비쌉니다. 전체 시장 규모에 관한 직접적 수치는 기사에 근거가 없습니다.",
+    "goToMarket": "Google AI Mode의 가격 부풀림 문제를 최초 분석한 ProductRise 블로그 기사 및 해커뉴스 스레드에 상주하는 이커머스 관심 사용자 및 기술 얼리답터를 대상으로 확장프로그램을 배포합니다.",
+    "unfairAdvantage": "2026년 8월 실증 데이터로 Google AI Mode와 전통 검색 간의 21.6% 가격 격차가 밝혀진 직후이므로, AI 쇼핑의 편향성을 자각하기 시작한 소비자를 선점할 수 있는 적기입니다.",
+    "competitors": [
+      "Honey — 일반 쇼핑 쿠폰 자동 적용 중심 · AI 검색 전용 가격 비교 미지원",
+      "CamelCamelCamel — 아마존 단일 플랫폼 가격 추적 · 구글 AI Mode 실시간 비교 불가능"
+    ],
+    "risks": [
+      "구글의 AI Mode 쇼핑 검색 알고리즘 수정 및 가격 산정 왜곡 해소",
+      "구글의 웹 스크래핑 제어 및 크롬 확장프로그램 차단 정책 강화"
+    ],
+    "actionPlan": [
+      "Google AI Mode 및 일반 검색 SERP 가격 비교 크롬 확장프로그램 MVP 개발",
+      "ProductRise 실증 조사 대상 키워드 100개 기반 실시간 가격 감지 테스트",
+      "Hacker News 및 Reddit 쇼핑 커뮤니티에 Beta 테스트 유저 100명 모집"
+    ],
+    "recommendation": "AI 검색이 가져온 가격 왜곡이라는 기사의 구체적 부작용 데이터를 기반으로 하여 매우 명확한 사용자 가치를 제공합니다. 다만 구글이 검색 파이프라인의 가격 알고리즘을 즉시 교정하거나 AI Mode 내 상품 노출 방식을 변경할 경우 서비스의 존립 자체가 흔들릴 수 있는 구조적 위험이 존재합니다.",
+    "searchQuery": "google ai price comparison",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 5건 · 근거는 상위 5건 — 최고 2점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Walmart and Wayfair price comparison and price history with the power of AI",
+          "url": "https://chrome.google.com/webstore/detail/misabel-compare-prices-tr/cjaiblgaejjfahakpjcibnjmgfdmanae",
+          "points": 2
+        },
+        {
+          "title": "Comprehensive Large Language Model API Price Summary",
+          "url": "https://news.ycombinator.com/item?id=40464869",
+          "points": 2
+        },
+        {
+          "title": "AI based price comparison and price tracker you can try now",
+          "url": "https://chrome.google.com/webstore/detail/misabel-compare-prices-tr/cjaiblgaejjfahakpjcibnjmgfdmanae",
+          "points": 1
+        },
+        {
+          "title": "Price history and price comparison with the power of AI",
+          "url": "https://chrome.google.com/webstore/detail/misabel-compare-prices-tr/cjaiblgaejjfahakpjcibnjmgfdmanae",
+          "points": 1
+        },
+        {
+          "title": "Seeking Co-Founder for Declarative Application Editor",
+          "url": "https://news.ycombinator.com/item?id=46727071",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+        "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "url": "https://openai.com/index/legora-financial-statement-review-with-astra"
+      },
+      {
+        "clusterId": "hackernews:49548952",
+        "title": "Nvidia to acquire Hugging Face",
+        "url": "https://cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+      },
+      {
+        "clusterId": "hackernews:49563355",
+        "title": "Discovery of a new OpenAI agent message board",
+        "url": "https://collusion.wiki"
+      },
+      {
+        "clusterId": "hackernews:49563386",
+        "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+        "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+      },
+      {
+        "clusterId": "hackernews:49554520",
+        "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+        "url": "https://inference-docs.cerebras.ai/models/overview"
+      },
+      {
+        "clusterId": "hackernews:49557206",
+        "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+        "url": "https://armature.tech/blog/which-tools-coding-agents-install"
+      },
+      {
+        "clusterId": "hackernews:49562744",
+        "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+        "url": "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04"
+      },
+      {
+        "clusterId": "hackernews:49551760",
+        "title": "K2 Horizon: A connected fleet of six open models",
+        "url": "https://ifm.ai/blog/k2"
+      },
+      {
+        "clusterId": "hackernews:49550375",
+        "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+        "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot"
+      },
+      {
+        "clusterId": "hackernews:49549676",
+        "title": "Claude outage – Resolved",
+        "url": "https://status.claude.com/incidents/461yvfrzpwtt"
+      },
+      {
+        "clusterId": "hackernews:49551589",
+        "title": "Grok outage",
+        "url": "https://status.x.ai"
+      },
+      {
+        "clusterId": "hackernews:49551658",
+        "title": "ChatGPT, Claude, and Grok Are Down",
+        "url": "https://macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down"
+      },
+      {
+        "clusterId": "hackernews:49553463",
+        "title": "Sanders introduces bill to ban artificial superintelligence and pause AI",
+        "url": "https://sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development"
+      },
+      {
+        "clusterId": "hackernews:49547888",
+        "title": "Claude for Commerce Agents",
+        "url": "https://claude.com/blog/claude-for-commerce-agents"
+      },
+      {
+        "clusterId": "hackernews:49558302",
+        "title": "Protecting Engineers' Skills in the AI Era",
+        "url": "https://spectrum.ieee.org/ai-engineer-skills"
+      }
+    ]
+  }
+}
