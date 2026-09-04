@@ -1,0 +1,1240 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-04T08:27:30.268Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 41,
+      "filtered": 8
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+      "representativeId": "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+          "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+          "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "openai:https://openai.com/index/safety-overview-gpt-6-astra",
+          "title": "Safety overview: GPT-6 Astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49554273",
+          "title": "OpenAI begins rolling out GPT-6 Astra",
+          "url": "https://cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T18:18:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 262,
+            "comments": 242,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49554273"
+          }
+        },
+        {
+          "id": "hackernews:49555691",
+          "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+          "url": "https://arcprize.org/blog/astra",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T19:45:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 204,
+            "comments": 123,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49555691"
+          }
+        },
+        {
+          "id": "hackernews:49554048",
+          "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
+          "url": "https://axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T18:01:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49554048"
+          }
+        },
+        {
+          "id": "hackernews:49554643",
+          "title": "GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T18:41:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1729,
+            "comments": 1523,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49554643"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "title": "GPT‑6 Astra",
+          "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-03T20:18:41.000Z",
+          "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%. It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing. It doesn't win at everything though. Artificial Analysis note that Astra is still beaten by Fable on their Intelligence Index: Sits beside GPT-5.6 Sol in Intelligence : GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max). It did better on their Coding Agent Index: Leads Coding Agent Index cost efficiency frontier : At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score. I'll write more about Astra once I get access to it. The API model label once it rolls out will be gpt-6-astra . OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070). --> Via Hacker News Tags: ai , openai , generative-ai , llms , llm-release",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
+          "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+          "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-03T18:01:45.000Z",
+          "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+          "url": "https://theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-03T18:00:00.000Z",
+          "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI announced earlier this week, it's also the first model designated as meeting OpenAI's \"critical cybersecurity capability threshold\" - but the company promises that won't […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+          "title": "Google says its AI weather model is getting better",
+          "url": "https://theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-03T15:00:00.000Z",
+          "summary": "Google is rolling out an updated AI weather model that's supposed to be more accurate, especially when it comes to predicting rain and snowfall. In the announcement today, the company says it's now able to make forecasts with \"unprecedented resolution\" using its new WeatherNext 3 AI model. It can produce a global picture that's five […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.9396061868926795,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 0.9396061868926795,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49548952",
+      "representativeId": "hackernews:49548952",
+      "items": [
+        {
+          "id": "hackernews:49548952",
+          "title": "Nvidia to acquire Hugging Face",
+          "url": "https://cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T12:10:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 311,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49548952"
+          }
+        },
+        {
+          "id": "hackernews:49543841",
+          "title": "METR Report on OpenAI / Hugging Face Hacking Incident",
+          "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T23:08:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 122,
+            "comments": 100,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49543841"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion",
+          "title": "Nvidia buys Hugging Face, the GitHub of AI, for $13 billion",
+          "url": "https://arstechnica.com/ai/2026/09/nvidia-buys-hugging-face-the-github-of-ai-for-13-billion",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-03T13:34:13.000Z",
+          "summary": "Nvidia says Hugging Face will stay open even as the chipmaker takes control of a key AI hub.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion",
+          "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+          "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-03T12:42:45.000Z",
+          "summary": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+          "title": "Nvidia is buying Hugging Face for almost $13 billion",
+          "url": "https://theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-03T12:12:06.000Z",
+          "summary": "Nvidia has agreed to buy Hugging Face for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker. Hugging Face is an online platform founded in 2016 that gives AI developers a space to share their projects and data […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.142651236633446,
+      "breakdown": {
+        "hnPoints": 1.8476329670645424,
+        "hnComments": 0.8702348058147612,
+        "mentions": 2.5,
+        "recency": 0.7247834637541423,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49554520",
+      "representativeId": "hackernews:49554520",
+      "items": [
+        {
+          "id": "hackernews:49554520",
+          "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T18:32:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 540,
+            "comments": 172,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49554520"
+          }
+        }
+      ],
+      "score": 5.049259978411342,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.971713239920765,
+        "mentions": 0.0,
+        "recency": 0.8775467384905766,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49542443",
+      "representativeId": "hackernews:49542443",
+      "items": [
+        {
+          "id": "hackernews:49542443",
+          "title": "Mamdani bans AI in NYC schools",
+          "url": "https://nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T20:57:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 212,
+            "comments": 168,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49542443"
+          }
+        },
+        {
+          "id": "hackernews:49558433",
+          "title": "NYC mayor Mamdani imposes 1 year ban on AI for schools through 8th grade",
+          "url": "https://nyc.gov/mayors-office/news/2026/09/mayor-mamdani-and-chancellor-samuels-put-students-first-with-nat",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T23:14:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49558433"
+          }
+        }
+      ],
+      "score": 4.943638471537956,
+      "breakdown": {
+        "hnPoints": 1.7248292970577057,
+        "hnComments": 0.9673022396143038,
+        "mentions": 0.0,
+        "recency": 1.0515069348659465,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49557206",
+      "representativeId": "hackernews:49557206",
+      "items": [
+        {
+          "id": "hackernews:49557206",
+          "title": "Which tools do Claude, Codex and Cursor choose? We measured 17k runs to find out",
+          "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T21:20:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 202,
+            "comments": 91,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49557206"
+          }
+        }
+      ],
+      "score": 4.739670468561244,
+      "breakdown": {
+        "hnPoints": 1.7093590594760621,
+        "hnComments": 0.8526359799108633,
+        "mentions": 0.0,
+        "recency": 0.9776754291743186,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49551760",
+      "representativeId": "hackernews:49551760",
+      "items": [
+        {
+          "id": "hackernews:49551760",
+          "title": "K2 Horizon: A connected fleet of six open models",
+          "url": "https://ifm.ai/blog/k2",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T15:36:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 292,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49551760"
+          }
+        }
+      ],
+      "score": 4.676034748164458,
+      "breakdown": {
+        "hnPoints": 1.8274191791002543,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 0.784066470312007,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49550375",
+      "representativeId": "hackernews:49550375",
+      "items": [
+        {
+          "id": "hackernews:49550375",
+          "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+          "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T14:28:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 284,
+            "comments": 85,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49550375"
+          }
+        }
+      ],
+      "score": 4.608815064674787,
+      "breakdown": {
+        "hnPoints": 1.8185128954148246,
+        "hnComments": 0.8399191397584053,
+        "mentions": 0.0,
+        "recency": 0.750383029501557,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49549676",
+      "representativeId": "hackernews:49549676",
+      "items": [
+        {
+          "id": "hackernews:49549676",
+          "title": "Claude outage – Resolved",
+          "url": "https://status.claude.com/incidents/461yvfrzpwtt",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T13:29:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 205,
+            "comments": 151,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49549676"
+          }
+        }
+      ],
+      "score": 4.583843632900275,
+      "breakdown": {
+        "hnPoints": 1.7140787375477464,
+        "hnComments": 0.9473112724881844,
+        "mentions": 0.0,
+        "recency": 0.7224536228643443,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49551589",
+      "representativeId": "hackernews:49551589",
+      "items": [
+        {
+          "id": "hackernews:49551589",
+          "title": "Grok outage",
+          "url": "https://status.x.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T15:26:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 158,
+            "comments": 154,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49551589"
+          }
+        }
+      ],
+      "score": 4.5604596851261405,
+      "breakdown": {
+        "hnPoints": 1.6307625478589205,
+        "hnComments": 0.9509966340526815,
+        "mentions": 0.0,
+        "recency": 0.778700503214538,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49551658",
+      "representativeId": "hackernews:49551658",
+      "items": [
+        {
+          "id": "hackernews:49551658",
+          "title": "ChatGPT, Claude, and Grok Are Down",
+          "url": "https://macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T15:30:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49551658"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+          "title": "ChatGPT, Grok, and Claude all went down at the same time",
+          "url": "https://theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-03T15:35:14.000Z",
+          "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its status page saying there were \"elevated errors across ChatGPT and Codex.\" In addition to preventing […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.34063369926602,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7833203881879423,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49544762",
+      "representativeId": "hackernews:49544762",
+      "items": [
+        {
+          "id": "hackernews:49544762",
+          "title": "Go grandmaster Shin defeats AI KataGo with a two-stone handicap",
+          "url": "https://kedglobal.com/artificial-intelligence/newsView/ked202607210007",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T01:11:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 284,
+            "comments": 95,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49544762"
+          }
+        }
+      ],
+      "score": 4.329111908945074,
+      "breakdown": {
+        "hnPoints": 1.8185128954148246,
+        "hnComments": 0.860661091639612,
+        "mentions": 0.0,
+        "recency": 0.44993792189063697,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49553463",
+      "representativeId": "hackernews:49553463",
+      "items": [
+        {
+          "id": "hackernews:49553463",
+          "title": "Sanders introduces bill to ban artificial superintelligence and pause AI",
+          "url": "https://sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-ban-artificial-superintelligence-and-temporarily-pause-advanced-ai-development",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T17:20:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49553463"
+          }
+        }
+      ],
+      "score": 4.137226863605134,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 0.8380615551131465,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49558302",
+      "representativeId": "hackernews:49558302",
+      "items": [
+        {
+          "id": "hackernews:49558302",
+          "title": "Protecting Engineers' Skills in the AI Era",
+          "url": "https://spectrum.ieee.org/ai-engineer-skills",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T23:00:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49558302"
+          }
+        }
+      ],
+      "score": 3.9691119756694455,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 1.0421458002266526,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49543191",
+      "representativeId": "hackernews:49543191",
+      "items": [
+        {
+          "id": "hackernews:49543191",
+          "title": "Reasons robotics is hard",
+          "url": "https://secondthoughts.ai/p/14-reasons-robotics-is-hard",
+          "source": "hackernews",
+          "publishedAt": "2026-09-02T22:02:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 122,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49543191"
+          }
+        }
+      ],
+      "score": 3.965820590577476,
+      "breakdown": {
+        "hnPoints": 1.548170907766744,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.3985745028691269,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49547888",
+      "representativeId": "hackernews:49547888",
+      "items": [
+        {
+          "id": "hackernews:49547888",
+          "title": "Claude for Commerce Agents",
+          "url": "https://claude.com/blog/claude-for-commerce-agents",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T09:37:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 59,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49547888"
+          }
+        }
+      ],
+      "score": 3.917375894583617,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.7720364250601922,
+        "mentions": 0.0,
+        "recency": 0.6227934380301569,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49555257",
+      "representativeId": "hackernews:49555257",
+      "items": [
+        {
+          "id": "hackernews:49555257",
+          "title": "Prime Gaps at Most 186",
+          "url": "https://github.com/openai/PrimeGaps186",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T19:18:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49555257"
+          }
+        }
+      ],
+      "score": 3.831386622548676,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.9042565473109516,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49548530",
+      "representativeId": "hackernews:49548530",
+      "items": [
+        {
+          "id": "hackernews:49548530",
+          "title": "A dark horse enters China's AI race: StartLux",
+          "url": "https://chinaonchina.com/article/chen-dawei-returns-enters-the-large-model-sector",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T11:12:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 28,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49548530"
+          }
+        }
+      ],
+      "score": 3.7861395577902366,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.6349429060489095,
+        "mentions": 0.0,
+        "recency": 0.661961618968976,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49552395",
+      "representativeId": "hackernews:49552395",
+      "items": [
+        {
+          "id": "hackernews:49552395",
+          "title": "OpenAI's new reasoning technique alarms AI safety experts",
+          "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T16:11:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49552395"
+          }
+        }
+      ],
+      "score": 3.753378082535578,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.8017153869699428,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49550769",
+      "representativeId": "hackernews:49550769",
+      "items": [
+        {
+          "id": "hackernews:49550769",
+          "title": "Codex outage",
+          "url": "https://github.com/openai/codex/issues/28756",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T14:54:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 102,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49550769"
+          }
+        }
+      ],
+      "score": 3.584896883268348,
+      "breakdown": {
+        "hnPoints": 1.491080153018164,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.7631157442467925,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49553350",
+      "representativeId": "hackernews:49553350",
+      "items": [
+        {
+          "id": "hackernews:49553350",
+          "title": "Yes, no (built-in) AI is now a feature – LibreOffice blog",
+          "url": "https://blog.documentfoundation.org/blog/2026/09/03/yes-no-ai-is-now-a-feature",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T17:12:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49553350"
+          }
+        }
+      ],
+      "score": 3.5257737362226145,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.8339569314219278,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49545411",
+      "representativeId": "hackernews:49545411",
+      "items": [
+        {
+          "id": "hackernews:49545411",
+          "title": "Show HN: The cheapest GPU cloud – H100s at $2.04/HR, H200s at $3/HR",
+          "url": "https://compute.cheap",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T02:50:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49545411"
+          }
+        }
+      ],
+      "score": 3.5186053471186924,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.4795823070122584,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49554469",
+      "representativeId": "hackernews:49554469",
+      "items": [
+        {
+          "id": "hackernews:49554469",
+          "title": "GoPro acquired, getting into 'defense, government, robotics and aerospace'",
+          "url": "https://theverge.com/news/987494/gopro-starman-holding-merger-aquisition",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T18:29:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49554469"
+          }
+        }
+      ],
+      "score": 3.48128969037592,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 0.876064865938784,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49544650",
+      "representativeId": "hackernews:49544650",
+      "items": [
+        {
+          "id": "hackernews:49544650",
+          "title": "US gov sides with OpenAI on issue of training LLMs on copyrighted material",
+          "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material",
+          "source": "hackernews",
+          "publishedAt": "2026-09-03T00:54:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49544650"
+          }
+        }
+      ],
+      "score": 3.47760768791922,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.44495552831387586,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+          "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-03T15:02:08.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella",
+          "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+          "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-03T15:00:00.000Z",
+          "summary": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.100188624648,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7668552913146669,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/4/august-newsletter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/4/august-newsletter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/4/august-newsletter",
+          "title": "August newsletter is out",
+          "url": "https://simonwillison.net/2026/Sep/4/august-newsletter",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-04T05:54:40.000Z",
+          "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4098485836068715,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3598485836068714,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/daybreak-for-frontline-defenders",
+      "representativeId": "openai:https://openai.com/index/daybreak-for-frontline-defenders",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/daybreak-for-frontline-defenders",
+          "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "source": "openai",
+          "publishedAt": "2026-09-03T13:15:00.000Z",
+          "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.215899379958265,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7158993799582654,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/playco-game-prototyping-with-astra",
+      "representativeId": "openai:https://openai.com/index/playco-game-prototyping-with-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/playco-game-prototyping-with-astra",
+          "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+          "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-03T12:00:00.000Z",
+          "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.182255625747574,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6822556257475739,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+          "title": "The sameness problem behind those unappetizing AI-generated menus",
+          "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T04:21:03.000Z",
+          "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1805502976766182,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2805502976766183,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
+      "representativeId": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/Hcompany/neomme",
+          "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "source": "huggingface",
+          "publishedAt": "2026-09-03T13:13:48.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0653482326258716,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7153482326258715,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+          "title": "Four major AI models suffer rare overlapping downtime",
+          "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-03T18:10:19.000Z",
+          "summary": "Service interruptions hit ChatGPT, Claude, Grok, and Gemini practically simultaneously.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9152986718099336,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8652986718099338,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+          "title": "Abliteration.ai is making a business out of removing AI guardrails",
+          "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-03T18:37:57.000Z",
+          "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7807817693621075,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8807817693621076,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "representativeId": "huggingface:https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/grpo-with-trl-ifstruct",
+          "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+          "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+          "source": "huggingface",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.7797941121442835,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.42979411214428354,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/funes",
+      "representativeId": "huggingface:https://huggingface.co/blog/funes",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/funes",
+          "title": "Give Your Coding Agents a Memory You Own",
+          "url": "https://huggingface.co/blog/funes",
+          "source": "huggingface",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.7797941121442835,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.42979411214428354,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
+      "representativeId": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/train-to-paint-with-code",
+          "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+          "url": "https://huggingface.co/blog/train-to-paint-with-code",
+          "source": "huggingface",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.7797941121442835,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.42979411214428354,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model",
+          "title": "Meta is paying to peek at how you use their latest AI model",
+          "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-03T18:19:56.000Z",
+          "summary": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7706558146780988,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8706558146780989,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race",
+          "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+          "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-03T16:09:01.000Z",
+          "summary": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7004899962166111,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8004899962166111,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+          "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
+          "url": "https://theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-03T16:00:00.000Z",
+          "summary": "Nvidia is announcing its new Personal AI Router (PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio. Let's get the obvious thing out of the way, despite what its name might imply: PAIR is not a hardware router. It's open-source software […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6958709998487198,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7958709998487199,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "representativeId": "theverge-ai:https://theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+          "title": "Google now lets you chat with Gmail, Docs, and Keep",
+          "url": "https://theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-03T16:00:00.000Z",
+          "summary": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them. The real time conversational capabilities are called Gmail Live, Docs Live, and Keep Live, and like the Gemini Live experience for Google's chatbot, aim to make it easier to note down […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6958709998487198,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7958709998487199,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+          "title": "TechCrunch Disrupt 2026’s new Real World AI Stage features Nvidia, robots, and extinct animals",
+          "url": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-02T22:24:09.000Z",
+          "summary": "On our new Real World AI stage, we’ll be focusing on the intersection between the digital and physical, and all the ways we’ll continue to see a blending of the two.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3041513646554608,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.40415136465546087,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/legora-financial-statement-review-with-astra",
+    "hackernews:49548952",
+    "hackernews:49554520",
+    "hackernews:49542443",
+    "hackernews:49557206"
+  ]
+}
