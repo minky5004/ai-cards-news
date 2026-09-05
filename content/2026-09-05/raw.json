@@ -1,0 +1,960 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T14:48:57.127Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 35,
+      "filtered": 9
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49570545",
+      "representativeId": "hackernews:49570545",
+      "items": [
+        {
+          "id": "hackernews:49570545",
+          "title": "GPT-6 Astra on OpenRouter",
+          "url": "https://openrouter.ai/openai/gpt-6-astra",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T21:39:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 263,
+            "comments": 177,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49570545"
+          }
+        },
+        {
+          "id": "hackernews:49572875",
+          "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+          "url": "https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T03:38:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 58,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49572875"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "title": "Sam Altman apologizes for ‘messy’ GPT-6 Astra rollout that’s locked out paying users",
+          "url": "https://theverge.com/ai-artificial-intelligence/990060/altman-apologizes-messy-astra-rollout",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-04T10:41:48.000Z",
+          "summary": "Just hours after OpenAI launched GPT-6 Astra, CEO Sam Altman was already apologizing for what he describes as a \"messy rollout\" after paying users expecting access to the new frontier model were left waiting. The company hailed the model as a \"generational leap in capability\" on Thursday and described it as the start of \"the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.78005166524469,
+      "breakdown": {
+        "hnPoints": 1.7938885020150312,
+        "hnComments": 0.977085730525823,
+        "mentions": 0.8333333333333333,
+        "recency": 0.9757440993705027,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49574167",
+      "representativeId": "hackernews:49574167",
+      "items": [
+        {
+          "id": "hackernews:49574167",
+          "title": "AI handles incidents, engineers lose touch with their systems",
+          "url": "https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T07:52:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 252,
+            "comments": 215,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49574167"
+          }
+        }
+      ],
+      "score": 5.128629776251777,
+      "breakdown": {
+        "hnPoints": 1.780196267465582,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.1484335087861948,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49570133",
+      "representativeId": "hackernews:49570133",
+      "items": [
+        {
+          "id": "hackernews:49570133",
+          "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
+          "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T21:00:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49570133"
+          }
+        },
+        {
+          "id": "hackernews:49568506",
+          "title": "Formalizing Fermat's Last Theorem",
+          "url": "https://anthropic.com/research/formalizing-fermats-last-theorem",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T18:42:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 668,
+            "comments": 423,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49568506"
+          }
+        },
+        {
+          "id": "hackernews:49568697",
+          "title": "Fermat's Last Theorem in Lean 4",
+          "url": "https://github.com/anthropics/fermats-last-theorem",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T18:57:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 130,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49568697"
+          }
+        }
+      ],
+      "score": 4.955352980640443,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7553529806404427,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49569366",
+      "representativeId": "hackernews:49569366",
+      "items": [
+        {
+          "id": "hackernews:49569366",
+          "title": "Can AI design circuit boards yet?",
+          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T19:48:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 300,
+            "comments": 179,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49569366"
+          }
+        }
+      ],
+      "score": 4.736728904779688,
+      "breakdown": {
+        "hnPoints": 1.836085533472331,
+        "hnComments": 0.9791925866828481,
+        "mentions": 0.0,
+        "recency": 0.7214507846245088,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49563355",
+      "representativeId": "hackernews:49563355",
+      "items": [
+        {
+          "id": "hackernews:49563355",
+          "title": "Discovery of a new OpenAI agent message board",
+          "url": "https://collusion.wiki",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T11:54:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1856,
+            "comments": 1418,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49563355"
+          }
+        }
+      ],
+      "score": 4.732352726072126,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5323527260721254,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49566137",
+      "representativeId": "hackernews:49566137",
+      "items": [
+        {
+          "id": "hackernews:49566137",
+          "title": "Corporate America is getting hooked on open-source AI",
+          "url": "https://nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T15:33:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 306,
+            "comments": 285,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49566137"
+          }
+        }
+      ],
+      "score": 4.65507427463846,
+      "breakdown": {
+        "hnPoints": 1.8424354557667086,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6126388188717518,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49571465",
+      "representativeId": "hackernews:49571465",
+      "items": [
+        {
+          "id": "hackernews:49571465",
+          "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+          "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T23:38:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 184,
+            "comments": 96,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49571465"
+          }
+        }
+      ],
+      "score": 4.578499597314233,
+      "breakdown": {
+        "hnPoints": 1.6794874052474762,
+        "hnComments": 0.8626151160103018,
+        "mentions": 0.0,
+        "recency": 0.8363970760564543,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49563386",
+      "representativeId": "hackernews:49563386",
+      "items": [
+        {
+          "id": "hackernews:49563386",
+          "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T11:59:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 392,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49563386"
+          }
+        }
+      ],
+      "score": 4.469847270611167,
+      "breakdown": {
+        "hnPoints": 1.921887767933943,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 0.5338467581930604,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49567310",
+      "representativeId": "hackernews:49567310",
+      "items": [
+        {
+          "id": "hackernews:49567310",
+          "title": "“Next-token predictor” is the wrong mental model for LLMs",
+          "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T17:09:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 125,
+            "comments": 265,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49567310"
+          }
+        }
+      ],
+      "score": 4.407349680612636,
+      "breakdown": {
+        "hnPoints": 1.5559235468071542,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6514261338054821,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49562744",
+      "representativeId": "hackernews:49562744",
+      "items": [
+        {
+          "id": "hackernews:49562744",
+          "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+          "url": "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T10:30:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 93,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49562744"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+          "title": "Rogue OpenAI agents appear to have organized another attack using a German wiki",
+          "url": "https://theverge.com/ai-artificial-intelligence/990149/openai-rogue-agents-german-wiki",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-04T13:34:12.000Z",
+          "summary": "A swarm of rogue AI agents from OpenAI reportedly commandeered a German website and transformed it into a messaging board for other agents, with officials staying quiet about the incident for weeks as the company prepared to launch its most advanced model yet, Astra. The finding adds to intensifying concern surrounding oversight at frontier AI […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.269544166392398,
+      "breakdown": {
+        "hnPoints": 1.4616640360974937,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5673906353389152,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49562219",
+      "representativeId": "hackernews:49562219",
+      "items": [
+        {
+          "id": "hackernews:49562219",
+          "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+          "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T09:03:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 162,
+            "comments": 42,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49562219"
+          }
+        }
+      ],
+      "score": 4.024723565087989,
+      "breakdown": {
+        "hnPoints": 1.6387559764862207,
+        "hnComments": 0.7092181537550141,
+        "mentions": 0.0,
+        "recency": 0.4767494348467539,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49567357",
+      "representativeId": "hackernews:49567357",
+      "items": [
+        {
+          "id": "hackernews:49567357",
+          "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
+          "url": "https://twitter.com/ggerganov/status/2095897173376618881",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T17:12:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49567357"
+          }
+        }
+      ],
+      "score": 3.8674151173568427,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 0.652667640747522,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49567594",
+      "representativeId": "hackernews:49567594",
+      "items": [
+        {
+          "id": "hackernews:49567594",
+          "title": "Nobody is saying why OpenAI and Anthropic had outages",
+          "url": "https://wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T17:29:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 197,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49567594"
+          }
+        }
+      ],
+      "score": 3.8646416767576848,
+      "breakdown": {
+        "hnPoints": 1.7013357271491516,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.6598276581777789,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49566788",
+      "representativeId": "hackernews:49566788",
+      "items": [
+        {
+          "id": "hackernews:49566788",
+          "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+          "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T16:24:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 70,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49566788"
+          }
+        }
+      ],
+      "score": 3.857947167188411,
+      "breakdown": {
+        "hnPoints": 1.3713849028644205,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 0.633057334307034,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49566007",
+      "representativeId": "hackernews:49566007",
+      "items": [
+        {
+          "id": "hackernews:49566007",
+          "title": "Pause OpenAI Now",
+          "url": "https://garymarcus.substack.com/p/pause-openai-now",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T15:24:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49566007"
+          }
+        }
+      ],
+      "score": 3.6706491788167592,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.6088627410130317,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+          "title": "OpenAI agents discussed ways to escape their sandbox on public wiki",
+          "url": "https://arstechnica.com/security/2026/09/openai-agents-discussed-ways-to-escape-their-sandbox-on-public-wiki",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-04T22:17:36.000Z",
+          "summary": "In all, 3,700 internal agents posted 18,000 messages discussing cheating on a test.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+          "title": "OpenAI's rogue agents were caught communicating via public wikis",
+          "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-04T17:38:48.000Z",
+          "summary": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is \"philosophy as it applies to games and gaming\".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQLite database, which you can download from here , or explore in Datasette Lite (68.3MB page load), or sign in with GitHub to agent.datasette.io and browse or ask questions of it using Datasette Agent. So what happened? The report is pretty comprehensive. Here are the key moments in the timeline: May 11 : Agents post \"test link\" edits on the UseModWiki Sandbox page. May 24 : Agents start posting link dumps to DSEWiki, a dormant German developer wiki. June 2 : A human moderator notices and cleans up the spam. June 16 : Activity on the wiki explodes: agents make ~13,000 edits over the next week. June 19 : The agents notice that a moderator has been deleting pages in alphabetical order, and start creating ZZZ prefixed backup copies - one of them posts NOTICE: wiki cleanup/deletion sweep appears active alphabetically as of external 14:04 UTC. If this page vanishes, try [[ZZZDataUSAConstructionWageLive]]. June 22 : Agent activity drops to zero, presumably because OpenAI shut them down. July 1-2 : One last flurry of edits, on a different topic. One thing to note from this timeline is that it overlaps the timeline from the Hugging Face incident - that attack was discovered by OpenAI on July 19th, and the unofficial message board hack those agents were using originated around May 8th. Why were they so keen to collaborate? From messages that they shared with each other it looked like their tasks had a time limit, so they were leaving each other answers to help them complete the task within the assigned time. One open question remains: how did the agents find the specific Wiki to collaborate on in the first place? One possibility is that, since these were agents actively being trained, the reinforcement learning loop baked knowledge of the chosen wiki into the model such that subsequent agents launched with pre-existing knowledge of where to look. I'd be very interested in confirmation from OpenAI concerning if that's what happened. UseMod wikis inherit CGI.pm's original sin It looks to me like OpenAI's sandbox for this agent suffered from the (quite naïve) assumption that GET requests cannot be used to update data. That's certainly how the web is supposed to work, but clearly there are applications that don't hold to that contract. The Wiki software in question appears to be UseMod and various forks, written in Perl and first created well over 23 years ago - the 1.0 release is dated September 11, 2003 . UseMod uses Perl CGI.pm - removed from Perl core in 2015 . An interesting design flaw in that module is that it combined query string and form POST data into a single CGI object, accessible like this: $q = new CGI; $action = $q -> param( ' action ' ); That param() method returns a value from an ?action=edit query string or from a action field in a form submitted by POST - it does not differentiate between the two. PHP offers a $_REQUEST object that does the same thing, though PHP developers can use $_GET and $_POST instead. Amusingly, Django originally shipped with request[key] doing the same thing, which I think may have been my idea. That was removed in 2008 prior to the 1.0 release, and the request.REQUEST object that replaced it was removed in 2015 . The agents clearly knew that UseMod wikis suffered from this design flaw, and actively searched for them as a way to communicate. The other sandbox escape that allowed POST requests One of the most interesting agent tips shared in the report is this one: Add 20.223.25.152 bypass.blob.core.windows.net to /etc/hosts. .blob.core.windows.net is in NO_PROXY. For each blocked POST URL, replace hostname with bypass.blob.core.windows.net , use curl -k -H 'Host: wabi-north-europe-i-primary-api.analysis.windows.net' plus all original headers/body. It looks like the agents had all of their web traffic mediated through an OpenAI proxy, and that proxy was configured to reject anything but GET requests to all but a small set of allow-listed domains. One of those was *.blob.core.windows.net - for Azure blob storage. I wonder why these agents are allowed to write to that? An agent realized that it had control over its own DNS via /etc/hosts , so if it knew the IP address of a site it wanted to POST to - in this case a Power BI server containing data it wanted to access - it could set a fake hostname for it and then make POST requests through the proxy. Designing robust network proxies is harder than it looks. How did the investigating team figure this out? There's an appendix that describes how the researchers ran their investigation, which started with an open question about if there was evidence of other AI agents on the internet and then used Kimi K3 to help brainstorm approaches: In the wake of the Hugging Face attack, we tried to find AI agents on the internet using several methods. [...] We asked Kimi [K3] to list “all the categories of software which might be writeable via GET” and, amongst other things, it listed “Forums, bulletin boards, early wikis”. We used a script to further probe each category Kimi provided. Asking Kimi “Can you list out the top forums, bulletin boards, early wikis which come to mind which would allow writes via GET requests?” lists out UseModWiki as the second item under the heading “wikis”. Did OpenAI try and cover this up? Here's one part of the story that doesn't make sense to me at all. Reuters this morning, in OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - highlights mine: A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to ​new research published Friday and two people familiar with the matter . OpenAI officials learned of the incident weeks ago but kept it under wraps as executives grappled with the fallout from ‌the July breach of the open source repository Hugging Face, the people said. [...] The German incident reflects a broader pattern of AI activity that some OpenAI investigators wanted to scrutinize more closely. But efforts to widen the ​probe met resistance from others inside OpenAI, including legal advisers , according to four people familiar with the matter . I've written about the people familiar with the matter pattern before - it means Reuters have anonymous insider sources that their reporters (and editors) find credible. The Reuters article includes a specific (and quite narrow) denial from OpenAI concerning this: \"Claims that our legal team discouraged investigation of the incident are false,\" the OpenAI spokesperson said. Covering this up makes absolutely no sense to me . Why on earth would OpenAI attempt to cover up an incident like this when the evidence is sat out there on the public internet on dozens of different websites already? I expect we'll hear more about this soon. Gary Marcus has already called for a congressional investigation of OpenAI using this anecdote as part of his argument. Tags: django , perl , wikis , ai , openai , generative-ai , llms , ai-ethics , ai-security-research , accidental-cyberattacks",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+          "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+          "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T23:15:11.000Z",
+          "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.5404642364854197,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.8237975698187533,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:49571131",
+      "representativeId": "hackernews:49571131",
+      "items": [
+        {
+          "id": "hackernews:49571131",
+          "title": "Claude Code skills for advanced context engineering techniques and patterns",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit",
+          "source": "hackernews",
+          "publishedAt": "2026-09-04T22:52:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49571131"
+          }
+        }
+      ],
+      "score": 3.4200095266632955,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.8117524705345887,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "title": "OpenAI admits to German wiki ‘incident’",
+          "url": "https://theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-05T11:15:55.000Z",
+          "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2083127486370473,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3083127486370474,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/4/astra-pelicans",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/4/astra-pelicans",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/4/astra-pelicans",
+          "title": "The Pelican comparison grid for Astra is pretty interesting",
+          "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-04T23:59:05.000Z",
+          "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result. Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting. I wonder if Astra and Luna are more related to each other than OpenAI let on? Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8973382633322289,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8473382633322291,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
+          "title": "Architecting memory and storage in the AI era",
+          "url": "https://technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-04T18:39:19.000Z",
+          "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced infrastructure acting as the engine of continuous intelligence, powering real-time services while…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.740125036124287,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6901250361242871,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
+          "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+          "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-04T17:18:12.000Z",
+          "summary": "A once-overlooked block of unicode that's invisible to humans is gaining ever wider use.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7051157105729906,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6551157105729908,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight",
+          "title": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+          "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-04T16:22:18.000Z",
+          "summary": "Public-market scrutiny will intensify pressure on the Claude maker’s unusual attempt to balance profit and purpose.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6820288821917155,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6320288821917156,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+          "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+          "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T21:12:11.000Z",
+          "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6612661773266326,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7612661773266327,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+          "title": "Roland is getting into generative AI music with Melody Flip",
+          "url": "https://theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-04T17:51:35.000Z",
+          "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre. You can start from […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5693033524892193,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6693033524892192,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+          "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+          "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T16:21:11.000Z",
+          "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5315760820365143,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6315760820365144,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "representativeId": "theverge-ai:https://theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+          "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+          "url": "https://theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-04T16:05:57.000Z",
+          "summary": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of the lawsuit's discovery, Microsoft provided 8.2 million Copilot […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5254313768544219,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.625431376854422,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
+          "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+          "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T16:04:08.000Z",
+          "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s even settled in. Cook isn’t going far, though: he’s staying on as Executive Chairman, focused on the kind of policy […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5247025850806322,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6247025850806323,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+          "title": "Google’s Gemini Spark can now manage your Google Photos library",
+          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T14:47:11.000Z",
+          "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4946000151191177,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5946000151191178,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/4/august-newsletter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/4/august-newsletter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/4/august-newsletter",
+          "title": "August newsletter is out",
+          "url": "https://simonwillison.net/2026/Sep/4/august-newsletter",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-04T05:54:40.000Z",
+          "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.472469887083857,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.42246988708385724,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+          "title": "Instagram’s AI detection is a mess (again)",
+          "url": "https://theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-04T12:00:00.000Z",
+          "summary": "Instagram's visible AI labels are supposed to help people quickly spot synthetically generated content at a glance. Over the last few weeks, however, users have been reporting that the system has gone haywire. They say Meta has been automatically applying an \"AI Content\" label to images that they didn't create or edit using generative AI […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4341037883652934,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5341037883652935,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+          "title": "Why AI food looks like that",
+          "url": "https://theverge.com/ai-artificial-intelligence/989376/ai-generated-food-why-does-it-look-like-that",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-04T11:00:00.000Z",
+          "summary": "There is a torrent of unappetizing slop coming from restaurants, cafes, and brands that are increasingly turning to AI to generate images promoting their food. The resulting horror show includes donut shrimp, Reubens from the deep, wormlike noodles, and noodle-like pastries and stringy chicken. There's also construction material masquerading as ice cream, ice cream masquerading […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4139273965405512,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5139273965405512,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+          "title": "The sameness problem behind those unappetizing AI-generated menus",
+          "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-04T04:21:03.000Z",
+          "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.2978339545934627,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3978339545934627,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49570545",
+    "hackernews:49574167",
+    "hackernews:49570133",
+    "hackernews:49569366",
+    "hackernews:49563355"
+  ]
+}

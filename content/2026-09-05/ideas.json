@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026-09-05T14:53:59.824Z",
+  "idea": {
+    "productName": "TokRoute",
+    "tagline": "개발자 토큰 비용을 90% 줄여주는 AI 라우터",
+    "oneLineSummary": "AI 코딩 에이전트의 단순 파일 읽기와 문서 작성 요청을 저비용 모델로 자동 분기하여 기업의 API 과금을 절감해 주는 프록시 라우팅 솔루션을 제공합니다.",
+    "problem": "개발자당 월 200~500달러에 달하는 AI 코딩 비용은 대부분 파일 읽기 등 단순 I/O 작업에서 발생하여 토큰 남용이 심합니다. 고성능 프론티어 모델이 불필요하게 소모됩니다.",
+    "productDescription": "Claude Code나 Cursor 등 AI 개발 도구와 프론티어 모델 API 사이에서 작동하는 드롭인 프록시 라우터입니다. 요청을 실시간으로 분석하여 단순 파일 탐색이나 문서 업데이터는 저렴한 모델로 보내고 complex 추론에만 프론티어 모델을 사용합니다. 이를 통해 기존 개발 프로세스 수정 없이 AI 코딩 토큰 사용량을 대폭 절감합니다. API Base URL 연결만 바꾸면 즉시 작동합니다.",
+    "keyFeatures": [
+      "I/O와 추론 요청 실시간 분류",
+      "단순 작업 저비용 모델 분기",
+      "기존 API URL 원클릭 교체",
+      "개발자별 토큰 소모량 감시"
+    ],
+    "persona": "소속 개발자 20명 이상을 보유하고 AI 코딩 도구 비용으로 월 5,000달러 이상을 지출하고 있는 엔지니어링 리드입니다.",
+    "businessModel": "개발자 1인당 월 15달러의 SaaS 구독 요금을 부과합니다. 기업용 엔터프라이즈의 경우 절감된 토큰 비용의 15%를 성과 기반으로 공유받는 모델을 운영합니다.",
+    "marketStats": "기사에 직접적인 시장 전체 규모 근거는 기재되어 있지 않습니다. 다만 기사에 따르면 엔지니어링 리더의 25%가 개발자 1인당 월 200~500달러의 토큰을 소비 중이며, 2028년에는 AI 코딩 비용이 평균 개발자 연봉을 넘어설 것으로 전망됩니다.",
+    "goToMarket": "Claude Code 및 OpenRouter 사용자들이 모인 오픈소스 커뮤니티에 Spotify 사례 분석 리포트와 함께 무료 CLI 프록시 도구를 공개하여 초기 개발자 100명을 확보합니다.",
+    "unfairAdvantage": "OpenAI 호환 API 규격을 유지하여 기존 개발 환경의 코드 수정이나 모듈 재설치 없이 Base URL 변경만으로 즉시 적용 가능한 점입니다.",
+    "competitors": [
+      "OpenRouter — 모델별 라우팅 옵션을 제공하나 코딩 I/O와 추론 자동 판별 기능 미지원",
+      "Spotify Portal — 기업 내부용 에이전트 모드 프레임워크로 일반 기업 대상 단독 SaaS 서비스 미제공"
+    ],
+    "risks": [
+      "프론티어 모델의 기본 토큰 단가 급낙 시 라우팅으로 인한 비용 절감 유인 감소",
+      "단순 I/O 분기 분류 오류 발생 시 코드 생성 정확도 하락 가능성"
+    ],
+    "actionPlan": [
+      "Claude Code 프롬프트 요청 유형별(I/O vs 복잡 추론) 토큰 소모 패턴 데이터 수집",
+      "OpenAI 호환 API 게이트웨이 형태의 오픈소스 프록시 PoC 제작",
+      "저비용 모델 라우팅 시 개발 작업 성공률 유지 여부 벤치마크 수행"
+    ],
+    "recommendation": "개발팀의 AI 토큰 과금 폭증이라는 명확하고 실제적인 통증을 즉시 해결해 주는 실용적인 아이디어입니다. 그러나 프론티어 모델 자체의 가격 경쟁이나 AI 개발 도구의 자체 라우팅 내장 리스크가 존재하므로 빠르게 초기 시장을 선점해야 합니다.",
+    "searchQuery": "ai coding token router",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 216점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Smart model routing directly in Claude, Codex and Cursor",
+          "url": "https://github.com/workweave/router",
+          "points": 216
+        },
+        {
+          "title": "Launch HN: Tokenless (YC S26) – Automatic model switching to save money",
+          "url": "https://usetokenless.com/",
+          "points": 71
+        },
+        {
+          "title": "Show HN: InsForge – Open-source Heroku for coding agents",
+          "url": "https://github.com/InsForge/InsForge",
+          "points": 62
+        },
+        {
+          "title": "Show HN: I nerfed our coding agents on purpose",
+          "url": "https://news.ycombinator.com/item?id=48419614",
+          "points": 27
+        },
+        {
+          "title": "Show HN: I shrank DeepSeek V4 Flash to 57GB and it wrote a compiler on my Mac",
+          "url": "https://huggingface.co/steadfastgaze/DeepSeek-V4-Flash-0731-Coder-56.8GB-MoEspressoV2",
+          "points": 21
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49570545",
+        "title": "GPT-6 Astra on OpenRouter",
+        "url": "https://openrouter.ai/openai/gpt-6-astra"
+      },
+      {
+        "clusterId": "hackernews:49574167",
+        "title": "AI handles incidents, engineers lose touch with their systems",
+        "url": "https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems"
+      },
+      {
+        "clusterId": "hackernews:49570133",
+        "title": "Fermat's Last Theorem: Anthropic has beaten me to it",
+        "url": "https://xenaproject.wordpress.com/2026/09/04/flt-anthropic-has-beaten-me-to-it"
+      },
+      {
+        "clusterId": "hackernews:49569366",
+        "title": "Can AI design circuit boards yet?",
+        "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet"
+      },
+      {
+        "clusterId": "hackernews:49563355",
+        "title": "Discovery of a new OpenAI agent message board",
+        "url": "https://collusion.wiki"
+      },
+      {
+        "clusterId": "hackernews:49566137",
+        "title": "Corporate America is getting hooked on open-source AI",
+        "url": "https://nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html"
+      },
+      {
+        "clusterId": "hackernews:49571465",
+        "title": "Portal by Spotify cut my Claude Code token usage by 90%",
+        "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90"
+      },
+      {
+        "clusterId": "hackernews:49563386",
+        "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+        "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products"
+      },
+      {
+        "clusterId": "hackernews:49567310",
+        "title": "“Next-token predictor” is the wrong mental model for LLMs",
+        "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html"
+      },
+      {
+        "clusterId": "hackernews:49562744",
+        "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+        "url": "https://reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04"
+      },
+      {
+        "clusterId": "hackernews:49562219",
+        "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+        "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
+      },
+      {
+        "clusterId": "hackernews:49567357",
+        "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
+        "url": "https://twitter.com/ggerganov/status/2095897173376618881"
+      },
+      {
+        "clusterId": "hackernews:49567594",
+        "title": "Nobody is saying why OpenAI and Anthropic had outages",
+        "url": "https://wired.com/story/nobody-is-saying-why-openai-and-anthropic-had-outages-today"
+      },
+      {
+        "clusterId": "hackernews:49566788",
+        "title": "Project HydraFusion: Frontier quality via multi-model orchestration",
+        "url": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration"
+      },
+      {
+        "clusterId": "hackernews:49566007",
+        "title": "Pause OpenAI Now",
+        "url": "https://garymarcus.substack.com/p/pause-openai-now"
+      }
+    ]
+  }
+}
