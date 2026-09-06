@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T15:12:15.956Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49572875",
+      "headline": "GPT-6 아스트라, 교차 코드 리뷰 33% 우수",
+      "highlight": [
+        "33% 우수"
+      ],
+      "body": "코드래빗의 평가 결과 오픈AI의 GPT-6 아스트라는 복잡한 교차 파일 코드 리뷰에서 오푸스 5보다 33% 높은 버그 탐지율을 기록했습니다. 다만 뛰어난 추론 성능만큼 토큰 단가가 기존 모델 대비 최대 47배 비싸 실체적 비용 대비 효과 측정이 필요합니다.",
+      "sourceUrl": "https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "sourceName": "CodeRabbit",
+      "imageUrl": "https://www.coderabbit.ai/content/assets/gpt-6-astra/header.png",
+      "publishedAt": "2026-09-05T03:38:56.000Z"
+    },
+    {
+      "clusterId": "hackernews:49580164",
+      "headline": "AI는 인지 능력을 앗아가는 바이러스다",
+      "highlight": [
+        "바이러스다"
+      ],
+      "body": "최근 arXiv 논문은 AI 확산 모델을 바이러스 감염에 비유했습니다. 특정 임계점을 넘으면 AI에 과도하게 의존하게 되며 인지 능력이 급격히 상실되는 현상이 발생합니다. 연구진은 이에 대응하기 위해 인지적 면역 방안을 마련해야 한다고 지적했습니다.",
+      "sourceUrl": "https://arxiv.org/abs/2609.03344",
+      "sourceName": "arXiv.org",
+      "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "publishedAt": "2026-09-05T20:02:35.000Z"
+    },
+    {
+      "clusterId": "hackernews:49574167",
+      "headline": "AI가 장애 다 고치자 엔지니어 감이 죽었다",
+      "highlight": [
+        "장애",
+        "죽었다"
+      ],
+      "body": "AI 장애 대응 도구가 평시 복구를 다 처리하면서 엔지니어가 시스템 감각을 잃고 있습니다. 그 결과 복잡한 대형 장애가 터졌을 때 해결 시간이 폭증하는 자동화의 역설이 발생합니다. 비행기 조종사처럼 시뮬레이터를 통한 실전 훈련이 필요한 이유입니다.",
+      "sourceUrl": "https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems/opengraph-image/primary?c892ecc60b0c6273",
+      "publishedAt": "2026-09-05T07:52:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:49582656",
+      "headline": "전 직원에게 AI 줬더니 아무도 안 쓴다",
+      "highlight": [
+        "전 직원",
+        "아무도 안 쓴다"
+      ],
+      "body": "대기업이 코파일럿이나 클로드 같은 AI를 전사에 보급했지만, 실제 업무에 적극 활용하는 직원은 극소수입니다. 대다수는 거의 쓰지 않으며, AI 파일럿 프로젝트의 성공률도 절반 수준에 불과합니다. 기술 도입 자체보다 업무 절차와 조직을 바꾸는 변화 관리가 핵심입니다.",
+      "sourceUrl": "https://ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "sourceName": "Benedict Evans",
+      "publishedAt": "2026-09-06T02:12:46.000Z"
+    }
+  ]
+}

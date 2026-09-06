@@ -1,0 +1,525 @@
+{
+  "date": "2026-09-06",
+  "generatedAt": "2026-09-06T15:08:25.712Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 16,
+      "filtered": 10
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49572875",
+      "representativeId": "hackernews:49572875",
+      "items": [
+        {
+          "id": "hackernews:49572875",
+          "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+          "url": "https://coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T03:38:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49572875"
+          }
+        },
+        {
+          "id": "hackernews:49582582",
+          "title": "GPT-6 Astra on robot arms",
+          "url": "https://openai.robocurve.org/gpt-6-astra",
+          "source": "hackernews",
+          "publishedAt": "2026-09-06T01:52:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 213,
+            "comments": 171,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49582582"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers",
+          "title": "Introducing GPT-6 Astra for developers",
+          "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-05T23:27:48.000Z",
+          "summary": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.630430768355155,
+      "breakdown": {
+        "hnPoints": 1.7263361801499473,
+        "hnComments": 0.9706201257617965,
+        "mentions": 0.8333333333333333,
+        "recency": 0.9001411291100778,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49580164",
+      "representativeId": "hackernews:49580164",
+      "items": [
+        {
+          "id": "hackernews:49580164",
+          "title": "LLMs as a Cognitive Virus",
+          "url": "https://arxiv.org/abs/2609.03344",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T20:02:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 336,
+            "comments": 229,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49580164"
+          }
+        }
+      ],
+      "score": 4.791396617660636,
+      "breakdown": {
+        "hnPoints": 1.872430981057878,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7189656366027579,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49581240",
+      "representativeId": "hackernews:49581240",
+      "items": [
+        {
+          "id": "hackernews:49581240",
+          "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+          "url": "https://github.com/okf-memory/okf-agent-memory",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T22:15:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 73,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49581240"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
+          "title": "Using Blender with coding agents on macOS",
+          "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-05T15:51:09.000Z",
+          "summary": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 4.77528710189136,
+      "breakdown": {
+        "hnPoints": 1.3846993112377068,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7831742393232609,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49574167",
+      "representativeId": "hackernews:49574167",
+      "items": [
+        {
+          "id": "hackernews:49574167",
+          "title": "AI handles incidents, engineers lose touch with their systems",
+          "url": "https://sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T07:52:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 393,
+            "comments": 335,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49574167"
+          }
+        }
+      ],
+      "score": 4.572799988062726,
+      "breakdown": {
+        "hnPoints": 1.922705351479482,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4500946365832432,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49582656",
+      "representativeId": "hackernews:49582656",
+      "items": [
+        {
+          "id": "hackernews:49582656",
+          "title": "AI, Tools and Transformation",
+          "url": "https://ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-06T02:12:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 109,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49582656"
+          }
+        }
+      ],
+      "score": 4.353973343513951,
+      "breakdown": {
+        "hnPoints": 1.5122336173019333,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 0.9117796205757973,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49580980",
+      "representativeId": "hackernews:49580980",
+      "items": [
+        {
+          "id": "hackernews:49580980",
+          "title": "America's two largest school districts impose AI moratoriums",
+          "url": "https://techpolicy.press/americas-two-largest-school-districts-impose-ai-moratoriums",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T21:43:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49580980"
+          }
+        }
+      ],
+      "score": 4.098569722719169,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.8090161730336244,
+        "mentions": 0.0,
+        "recency": 0.7670075181922769,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49575143",
+      "representativeId": "hackernews:49575143",
+      "items": [
+        {
+          "id": "hackernews:49575143",
+          "title": "Claude's new system prompt doesn't want to reproduce song lyrics",
+          "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T10:32:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 93,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49575143"
+          }
+        }
+      ],
+      "score": 3.922064599464689,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.8566912257611031,
+        "mentions": 0.0,
+        "recency": 0.49855193674365,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49580687",
+      "representativeId": "hackernews:49580687",
+      "items": [
+        {
+          "id": "hackernews:49580687",
+          "title": "How AI is breaking the British state",
+          "url": "https://economist.com/leaders/2026/08/06/how-ai-is-breaking-the-british-state",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T21:05:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49580687"
+          }
+        }
+      ],
+      "score": 3.861348047438537,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.7486317063675452,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49573677",
+      "representativeId": "hackernews:49573677",
+      "items": [
+        {
+          "id": "hackernews:49573677",
+          "title": "Anthropic & friends caught paying religious NGO's 3.3M for propaganda",
+          "url": "https://effort.news/revelation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T06:31:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 23,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49573677"
+          }
+        }
+      ],
+      "score": 3.509797850323399,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.5992591196328295,
+        "mentions": 0.0,
+        "recency": 0.4272069635811322,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49577244",
+      "representativeId": "hackernews:49577244",
+      "items": [
+        {
+          "id": "hackernews:49577244",
+          "title": "Poetry book that Anthropic tried to censor",
+          "url": "https://kk.org/cooltools/the-1930-poetry-book-that-anthropic-tried-to-censor",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T15:04:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49577244"
+          }
+        }
+      ],
+      "score": 3.4530316055979675,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.5939034335680404,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49578727",
+      "representativeId": "hackernews:49578727",
+      "items": [
+        {
+          "id": "hackernews:49578727",
+          "title": "Show HN: We Beat MLPerf: Modern Storage for KV Offload and LLM Training",
+          "url": "https://theopenlake.com/blog/openlake-leads-mlperf-storage-v3-0",
+          "source": "hackernews",
+          "publishedAt": "2026-09-05T17:32:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49578727"
+          }
+        }
+      ],
+      "score": 3.136459974395161,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.6528730309460348,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+          "title": "The purpose of DNS is to spread scams",
+          "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-06T14:40:07.000Z",
+          "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.522990176925127,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4729901769251272,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+          "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+          "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-05T18:05:27.000Z",
+          "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "title": "OpenAI admits to German wiki ‘incident’",
+          "url": "https://theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-05T11:15:55.000Z",
+          "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our agents wrote to several internet sites,\" OpenAI wrote […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.400231289510555,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6668979561772216,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/6/zach-kehs",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/6/zach-kehs",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/6/zach-kehs",
+          "title": "Quoting Zach Kehs",
+          "url": "https://simonwillison.net/2026/Sep/6/zach-kehs",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-06T08:42:49.000Z",
+          "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2211407531187004,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1711407531187006,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+          "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+          "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-05T22:49:55.000Z",
+          "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7004776318975576,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8004776318975578,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
+          "title": "Hikers rescued after using Google Gemini for planning",
+          "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-05T19:35:24.000Z",
+          "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6065310992226105,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7065310992226106,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49572875",
+    "hackernews:49580164",
+    "hackernews:49581240",
+    "hackernews:49574167",
+    "hackernews:49582656"
+  ]
+}
