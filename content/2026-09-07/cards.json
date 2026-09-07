@@ -1,0 +1,65 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T17:35:19.052Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/research-acceleration-view-inside-openai",
+      "headline": "오픈AI 연구원 1명에 AI 3대가 붙는다",
+      "highlight": [
+        "AI 3대가"
+      ],
+      "body": "오픈AI 연구원들은 사람 노동 1일당 3.1일 치의 AI 에이전트를 동시 가동하고 있습니다. 상위 10% 연구자는 하루에 7천 달러 이상의 토큰을 소비하며 코딩을 맡깁니다. AI 개발의 중심이 직접 코딩에서 에이전트를 지시하고 검증하는 역할로 바뀌고 있습니다.",
+      "sourceUrl": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/CKNTAkrFq7W0JOjXP5np2/c26e2323a05dec6bd41f6515c5d6be0f/SEO_Card__11_.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-09-06T08:00:00.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/an-alien-mind",
+      "headline": "오픈AI가 AI 스케일링 중단을 언급했다",
+      "highlight": [
+        "스케일링 중단"
+      ],
+      "body": "오픈AI는 자사 AI 모델의 지능이 급격히 높아지면서 감시 능력이 점차 떨어지고 있다고 밝혔다. 이에 따라 안전을 위해 필요한 경우 독자적으로 스케일링을 중단하겠다는 입장을 냈다. GPT-6 등 기술 발전 속도에 맞춰 인류 차원의 개입이 시급한 시점이다.",
+      "sourceUrl": "https://openai.com/index/an-alien-mind",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-09-06T09:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49585644",
+      "headline": "AI로 쓴 글 티 난다 모두 읽기를 멈춘다",
+      "highlight": [
+        "티 난다"
+      ],
+      "body": "링크드인 등에 AI가 작성한 글이 넘쳐나지만 특유의 이모지 사용과 말투 때문에 티가 다 납니다. 독자들은 신뢰성을 의심하고 글 읽기를 중단하게 됩니다. AI는 브레인스토밍과 교정에만 쓰고 글은 자신의 목소리로 작성해야 합니다.",
+      "sourceUrl": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-09-06T11:56:43.000Z"
+    },
+    {
+      "clusterId": "hackernews:49593959",
+      "headline": "최저임금 20배 제안 거절한 남아공 박사",
+      "highlight": [
+        "최저임금 20배",
+        "거절한"
+      ],
+      "body": "남아공의 한 박사는 최저임금 20배인 시간당 37달러의 AI 학습 제안을 거절했습니다. 에세이 평가 등 10년간 쌓은 전문적 판단력을 넘겨 자신을 대체하는 일이었기 때문입니다. 최근 Outlier 등 AI 기업은 교사·의사의 핵심 판단력을 적극 수집하고 있습니다.",
+      "sourceUrl": "https://restofworld.org/2026/ai-training-jobs-expert-replacement",
+      "sourceName": "Rest of World",
+      "imageUrl": "https://restofworld.org/wp-content/uploads/2026/08/illo_AI_training_sketch_final-1600x900.jpg",
+      "publishedAt": "2026-09-07T04:38:22.000Z"
+    },
+    {
+      "clusterId": "hackernews:49587128",
+      "headline": "2026년 개발 방식은 영구히 바뀌었다",
+      "highlight": [
+        "영구히 바뀌었다"
+      ],
+      "body": "2026년 소프트웨어 개발 현장에 있는 한 개발자가 AI 시대를 맞이한 솔직한 감정을 밝혔다. 초지능 AI의 위협과 오픈웹 파괴, 환경 문제로 사회적 전망은 암울하다고 지적했다. 하지만 기술적 혁신으로 개인의 창작 방식이 완전히 달라진 시대라고 평가했다.",
+      "sourceUrl": "https://beza1e1.tuxen.de/ai_feelings.html",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-09-06T15:00:19.000Z"
+    }
+  ]
+}

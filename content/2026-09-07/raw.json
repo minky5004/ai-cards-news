@@ -1,0 +1,593 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026-09-07T17:31:06.651Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/research-acceleration-view-inside-openai",
+      "representativeId": "openai:https://openai.com/index/research-acceleration-view-inside-openai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/research-acceleration-view-inside-openai",
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "source": "openai",
+          "publishedAt": "2026-09-06T08:00:00.000Z",
+          "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+          "trust": 1.0,
+          "signals": {
+            "points": 197,
+            "comments": 169,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49587217"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+          "title": "Research acceleration: The view inside OpenAI",
+          "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-06T23:57:40.000Z",
+          "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.765976015665566,
+      "breakdown": {
+        "hnPoints": 1.7013357271491516,
+        "hnComments": 0.9684147010377877,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7628922541452934,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/an-alien-mind",
+      "representativeId": "openai:https://openai.com/index/an-alien-mind",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/an-alien-mind",
+          "title": "An Alien Mind",
+          "url": "https://openai.com/index/an-alien-mind",
+          "source": "openai",
+          "publishedAt": "2026-09-06T09:00:00.000Z",
+          "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
+          "trust": 1.0,
+          "signals": {
+            "points": 449,
+            "comments": 431,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49588080"
+          }
+        }
+      ],
+      "score": 4.89426119646717,
+      "breakdown": {
+        "hnPoints": 1.9654607299948557,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.42880046647231396,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49585644",
+      "representativeId": "hackernews:49585644",
+      "items": [
+        {
+          "id": "hackernews:49585644",
+          "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+          "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open",
+          "source": "hackernews",
+          "publishedAt": "2026-09-06T11:56:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 690,
+            "comments": 422,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49585644"
+          }
+        }
+      ],
+      "score": 4.680299071115649,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4802990711156488,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49593959",
+      "representativeId": "hackernews:49593959",
+      "items": [
+        {
+          "id": "hackernews:49593959",
+          "title": "I refused to train the AI that could replace me",
+          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:38:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 88,
+            "comments": 103,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49593959"
+          }
+        }
+      ],
+      "score": 4.433322065122764,
+      "breakdown": {
+        "hnPoints": 1.4440793888964025,
+        "hnComments": 0.8757540778173256,
+        "mentions": 0.0,
+        "recency": 0.9134885984090351,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49596610",
+      "representativeId": "hackernews:49596610",
+      "items": [
+        {
+          "id": "hackernews:49596610",
+          "title": "The jobs apocalypse is postponed. An AI jobs boom is here",
+          "url": "https://economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T10:38:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49596610"
+          }
+        }
+      ],
+      "score": 4.405255968794654,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 1.151046631575943,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49587128",
+      "representativeId": "hackernews:49587128",
+      "items": [
+        {
+          "id": "hackernews:49587128",
+          "title": "How I feel about AI",
+          "url": "https://beza1e1.tuxen.de/ai_feelings.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-06T15:00:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 162,
+            "comments": 256,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49587128"
+          }
+        }
+      ],
+      "score": 4.379120521633036,
+      "breakdown": {
+        "hnPoints": 1.6387559764862207,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5403645451468146,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49594008",
+      "representativeId": "hackernews:49594008",
+      "items": [
+        {
+          "id": "hackernews:49594008",
+          "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+          "url": "https://github.com/timgordontg/engrim",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:49:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 41,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49594008"
+          }
+        }
+      ],
+      "score": 4.222364003396903,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.7047812040004495,
+        "mentions": 0.0,
+        "recency": 0.9200982712724524,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49594189",
+      "representativeId": "hackernews:49594189",
+      "items": [
+        {
+          "id": "hackernews:49594189",
+          "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+          "url": "https://businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T05:23:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49594189"
+          }
+        }
+      ],
+      "score": 4.139617082662953,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.9403463806947865,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49588214",
+      "representativeId": "hackernews:49588214",
+      "items": [
+        {
+          "id": "hackernews:49588214",
+          "title": "How we monitor internal coding agents for misalignment",
+          "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+          "source": "hackernews",
+          "publishedAt": "2026-09-06T16:37:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49588214"
+          }
+        }
+      ],
+      "score": 3.742669307331576,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.5752955811124897,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49593842",
+      "representativeId": "hackernews:49593842",
+      "items": [
+        {
+          "id": "hackernews:49593842",
+          "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+          "url": "https://github.com/trailofbits/coop",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:18:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49593842"
+          }
+        }
+      ],
+      "score": 3.7243273520582987,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 0.9018958212793258,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49594296",
+      "representativeId": "hackernews:49594296",
+      "items": [
+        {
+          "id": "hackernews:49594296",
+          "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
+          "url": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T05:41:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49594296"
+          }
+        }
+      ],
+      "score": 3.5937254504019367,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.9510895380779367,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49593776",
+      "representativeId": "hackernews:49593776",
+      "items": [
+        {
+          "id": "hackernews:49593776",
+          "title": "US Republicans revolt against Flock AI surveillance as backlash intensifies",
+          "url": "https://ft.com/content/b207536e-6def-4080-878f-d0eba61d11e0",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:07:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49593776"
+          }
+        }
+      ],
+      "score": 3.5517141138677,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.8953498649912115,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "representativeId": "openai:https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "title": "Supporting independent journalism in Ukraine",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "source": "openai",
+          "publishedAt": "2026-09-07T00:00:00.000Z",
+          "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.2640355718363283,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7640355718363281,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+          "title": "The complex corporate web behind a $3.2 billion AI data center",
+          "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-07T11:00:03.000Z",
+          "summary": "When multiple companies are behind one project, who bears responsibility for problems?",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.217052223968084,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1670522239680838,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+          "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+          "url": "https://theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-06T23:36:04.000Z",
+          "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries. This is similar to lawsuits filed by […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6523892910427476,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7523892910427478,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+          "title": "The purpose of DNS is to spread scams",
+          "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-06T14:40:07.000Z",
+          "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5834042481003574,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5334042481003576,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
+          "title": "Authors push back as publishers and agents make claims on Anthropic settlement",
+          "url": "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-06T20:47:37.000Z",
+          "summary": "Authors say publishers seem to be claiming more than their fair share of settlement payments.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5752899526925208,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6752899526925209,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get",
+          "title": "There's No Limit to How Bad Code Can Get",
+          "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-06T09:08:06.000Z",
+          "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount. Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all... After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system. ... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually. If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one. The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson. If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement. Tags: migrations , technical-debt",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4810354345534176,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.43103543455341786,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
+          "title": "Travis Kalanick’s Atoms might be getting into the robotaxi business",
+          "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-06T16:45:00.000Z",
+          "summary": "The Uber founder has said that Atoms will allow him to complete \"unfinished business.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4779168886202474,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5779168886202475,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/6/zach-kehs",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/6/zach-kehs",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/6/zach-kehs",
+          "title": "Quoting Zach Kehs",
+          "url": "https://simonwillison.net/2026/Sep/6/zach-kehs",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-06T08:42:49.000Z",
+          "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. — Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.474097500867937,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.42409750086793707,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/research-acceleration-view-inside-openai",
+    "openai:https://openai.com/index/an-alien-mind",
+    "hackernews:49585644",
+    "hackernews:49593959",
+    "hackernews:49596610"
+  ]
+}
