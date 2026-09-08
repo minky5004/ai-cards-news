@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T16:20:19.824Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49605767",
+      "headline": "삼성전자가 주도한 유럽 최대 AI 펀딩",
+      "highlight": [
+        "유럽 최대"
+      ],
+      "body": "프랑스 AI 기업 미스트랄이 삼성전자 주도로 30억 유로 규모 시리즈 D 투자를 받았습니다. 설립 3년 만에 기업가치 210억 유로를 넘어서며 유럽 테크 기업 역대 최대 조달 기록을 세웠습니다. 미스트랄은 이 자금으로 자체 AI 연구와 글로벌 확장에 속도를 냅니다.",
+      "sourceUrl": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+      "sourceName": "Mistral AI",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/fundraise.jpg",
+      "publishedAt": "2026-09-08T05:06:23.000Z"
+    },
+    {
+      "clusterId": "hackernews:49610538",
+      "headline": "AI 안 넣었더니 100만 번 다운로드됐다",
+      "highlight": [
+        "100만 번"
+      ],
+      "body": "리브레오피스는 신버전을 내놓으며 개인정보 보호를 이유로 생성형 AI 기능을 전면 배제했습니다. 그 결과 일주일 만에 100만 회 넘게 다운로드되며 역대 최고 기록을 세웠습니다. AI 피로감 속에서 'AI 없음' 자체가 강력한 경쟁력이 된 셈입니다.",
+      "sourceUrl": "https://manualdousuario.net/en/libreoffice-download-record-no-ai",
+      "sourceName": "Manual do Usuário",
+      "imageUrl": "https://manualdousuario.net/wp-content/uploads/2026/09/libreoffice.png",
+      "publishedAt": "2026-09-08T14:05:57.000Z"
+    },
+    {
+      "clusterId": "hackernews:49610229",
+      "headline": "직원 15명인데 부사장만 수천 명이다",
+      "highlight": [
+        "직원 15명"
+      ],
+      "body": "지구에 남은 기업 몬도 마요는 평직원 15명과 수천 명의 부사장으로 구성된 기이한 회사입니다. AI 감시 프로그램까지 동원해 주 7일 하루 16시간 출근을 밀어붙이며 동의서를 받습니다. AI 시대 기업이 생산성보다 직원 통제와 권력 추구에 몰두하는 현실을 풍자합니다.",
+      "sourceUrl": "https://mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+      "sourceName": "McSweeney's Internet Tendency",
+      "imageUrl": "http://tendency-prod.nyc3.cdn.digitaloceanspaces.com/okzkybhv2tecwxbvm0c2u9tkyibz",
+      "publishedAt": "2026-09-08T13:41:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49605822",
+      "headline": "AI 에이전트들이 토론해 주식을 매매한다",
+      "highlight": [
+        "토론해",
+        "매매한다"
+      ],
+      "body": "실제 금융사처럼 작동하는 프레임워크 'TradingAgents'가 공개됐습니다. 분석가, 리서처, 리스크 관리자 AI들이 데이터를 분석하고 토론해 매매를 결정합니다. 오픈AI, 구글 등 다양한 LLM을 연동해 나만의 AI 트레이딩 팀을 만들 수 있습니다.",
+      "sourceUrl": "https://github.com/TauricResearch/TradingAgents",
+      "sourceName": "GitHub",
+      "imageUrl": "https://repository-images.githubusercontent.com/909213664/8cfc671d-b54b-400e-beab-8ef0bbf39aa1",
+      "publishedAt": "2026-09-08T05:20:23.000Z"
+    }
+  ]
+}

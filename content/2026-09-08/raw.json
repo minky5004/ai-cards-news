@@ -1,0 +1,804 @@
+{
+  "date": "2026-09-08",
+  "generatedAt": "2026-09-08T16:15:45.587Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 25,
+      "filtered": 17
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49605767",
+      "representativeId": "hackernews:49605767",
+      "items": [
+        {
+          "id": "hackernews:49605767",
+          "title": "Mistral raises €3B",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T05:06:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 695,
+            "comments": 505,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49605767"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business",
+          "title": "Mistral raises €3B as sovereign AI becomes big business",
+          "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-08T14:17:48.000Z",
+          "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe and PSG Equity.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.423965127116501,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.390631793783168,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-08T14:00:15.000Z",
+          "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49611251",
+          "title": "Google DeepMind Releases AlphaGenome Atlas",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T14:55:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49611251"
+          }
+        }
+      ],
+      "score": 5.85036252691369,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4249184635739678,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49610538",
+      "representativeId": "hackernews:49610538",
+      "items": [
+        {
+          "id": "hackernews:49610538",
+          "title": "LibreOffice breaks download records after declaring it has no AI features",
+          "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T14:05:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 434,
+            "comments": 135,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49610538"
+          }
+        }
+      ],
+      "score": 5.460987987886839,
+      "breakdown": {
+        "hnPoints": 1.9545539583176972,
+        "hnComments": 0.9263383816138162,
+        "mentions": 0.0,
+        "recency": 1.380095647955326,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49610229",
+      "representativeId": "hackernews:49610229",
+      "items": [
+        {
+          "id": "hackernews:49610229",
+          "title": "We Must Return to the Office to Use AI in Person",
+          "url": "https://mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T13:41:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 300,
+            "comments": 37,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49610229"
+          }
+        }
+      ],
+      "score": 5.080530279599996,
+      "breakdown": {
+        "hnPoints": 1.836085533472331,
+        "hnComments": 0.6859093004814019,
+        "mentions": 0.0,
+        "recency": 1.3585354456462628,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49605822",
+      "representativeId": "hackernews:49605822",
+      "items": [
+        {
+          "id": "hackernews:49605822",
+          "title": "Multi-Agents LLM Financial Trading Framework",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T05:20:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49605822"
+          }
+        }
+      ],
+      "score": 4.478744777225403,
+      "breakdown": {
+        "hnPoints": 1.484771736152262,
+        "hnComments": 0.8090161730336244,
+        "mentions": 0.0,
+        "recency": 0.9849568680395164,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49605511",
+      "representativeId": "hackernews:49605511",
+      "items": [
+        {
+          "id": "hackernews:49605511",
+          "title": "Arm Mali G2-Ultra NX GPU: desktop-class mobile gameplay with AI-native graphics",
+          "url": "https://newsroom.arm.com/blog/arm-mali-g2-ultra-nx-ai-native-mobile-graphics",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T04:06:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49605511"
+          }
+        }
+      ],
+      "score": 4.294884694247665,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 0.9392412264056461,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49601338",
+      "representativeId": "hackernews:49601338",
+      "items": [
+        {
+          "id": "hackernews:49601338",
+          "title": "AI models ran real businesses: They sent $12,431 in fake invoices, lost $3,200",
+          "url": "https://bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T18:24:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 118,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49601338"
+          }
+        }
+      ],
+      "score": 4.232494700216751,
+      "breakdown": {
+        "hnPoints": 1.484771736152262,
+        "hnComments": 0.9011594799780448,
+        "mentions": 0.0,
+        "recency": 0.6465634840864438,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49605644",
+      "representativeId": "hackernews:49605644",
+      "items": [
+        {
+          "id": "hackernews:49605644",
+          "title": "The VMs Powering Mobile Agents (Instinct, Claude Code)",
+          "url": "https://rohanadwankar.github.io/posts/platforms.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-08T04:36:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 61,
+            "comments": 23,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49605644"
+          }
+        }
+      ],
+      "score": 4.084598603946647,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.5992591196328295,
+        "mentions": 0.0,
+        "recency": 0.9575621350862824,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49596610",
+      "representativeId": "hackernews:49596610",
+      "items": [
+        {
+          "id": "hackernews:49596610",
+          "title": "Initial effects of AI technology on employment look positive",
+          "url": "https://economist.com/finance-and-economics/2026/09/04/the-jobs-apocalypse-is-postponed-an-ai-jobs-boom-is-here",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T10:38:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 92,
+            "comments": 147,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49596610"
+          }
+        }
+      ],
+      "score": 4.079932619430691,
+      "breakdown": {
+        "hnPoints": 1.4582231588912378,
+        "hnComments": 0.9422826634331711,
+        "mentions": 0.0,
+        "recency": 0.47942679710628194,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49593959",
+      "representativeId": "hackernews:49593959",
+      "items": [
+        {
+          "id": "hackernews:49593959",
+          "title": "I refused to train the AI that could replace me",
+          "url": "https://restofworld.org/2026/ai-training-jobs-expert-replacement",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:38:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 96,
+            "comments": 114,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49593959"
+          }
+        }
+      ],
+      "score": 3.9469641210902475,
+      "breakdown": {
+        "hnPoints": 1.4717712218263423,
+        "hnComments": 0.8947122993348348,
+        "mentions": 0.0,
+        "recency": 0.38048059992907024,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49594008",
+      "representativeId": "hackernews:49594008",
+      "items": [
+        {
+          "id": "hackernews:49594008",
+          "title": "Show HN: Engrim – A universal, local-first SQLite memory engine for AI CLIs",
+          "url": "https://github.com/timgordontg/engrim",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:49:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 90,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49594008"
+          }
+        }
+      ],
+      "score": 3.7866320838811274,
+      "breakdown": {
+        "hnPoints": 1.4512289931735118,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 0.3832336198362568,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49601810",
+      "representativeId": "hackernews:49601810",
+      "items": [
+        {
+          "id": "hackernews:49601810",
+          "title": "AI Cold Showers",
+          "url": "https://allan.reyes.sh/posts/ai-cold-showers",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T19:05:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49601810"
+          }
+        }
+      ],
+      "score": 3.7449882816808278,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.6638526337496744,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49594189",
+      "representativeId": "hackernews:49594189",
+      "items": [
+        {
+          "id": "hackernews:49594189",
+          "title": "Nvidia's Jensen Huang says 'AGI has arrived' and congratulates OpenAI",
+          "url": "https://businessinsider.com/nvidia-jensen-huang-agi-openai-astra-ai-2026-9",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T05:23:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 108,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49594189"
+          }
+        }
+      ],
+      "score": 3.6549128148462495,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.884608364701041,
+        "mentions": 0.0,
+        "recency": 0.39166723666941344,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49593842",
+      "representativeId": "hackernews:49593842",
+      "items": [
+        {
+          "id": "hackernews:49593842",
+          "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+          "url": "https://github.com/trailofbits/coop",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T04:18:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49593842"
+          }
+        }
+      ],
+      "score": 3.452866969794284,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.3756520483687795,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49602258",
+      "representativeId": "hackernews:49602258",
+      "items": [
+        {
+          "id": "hackernews:49602258",
+          "title": "El Yayster – a resident LLM that inhabits Emacs",
+          "url": "https://github.com/yayster/yayster.el",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T19:50:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49602258"
+          }
+        }
+      ],
+      "score": 3.402983463056745,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.6831734492366077,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49594296",
+      "representativeId": "hackernews:49594296",
+      "items": [
+        {
+          "id": "hackernews:49594296",
+          "title": "OpenAI 2025 financials $38.5B loss ahead of IPO",
+          "url": "https://qz.com/openai-leaked-financials-losses-revenue-ipo-061626",
+          "source": "hackernews",
+          "publishedAt": "2026-09-07T05:41:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49594296"
+          }
+        }
+      ],
+      "score": 3.0975629787075154,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.3961419098874398,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/the-work-now-within-reach",
+      "representativeId": "openai:https://openai.com/index/the-work-now-within-reach",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/the-work-now-within-reach",
+          "title": "The Work Now Within Reach",
+          "url": "https://openai.com/index/the-work-now-within-reach",
+          "source": "openai",
+          "publishedAt": "2026-09-08T13:00:00.000Z",
+          "summary": "Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.8228994790068036,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3228994790068036,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "representativeId": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "source": "huggingface",
+          "publishedAt": "2026-09-08T14:23:07.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.7453850854566215,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3953850854566214,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/teen-development-research-grants",
+      "representativeId": "openai:https://openai.com/index/teen-development-research-grants",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/teen-development-research-grants",
+          "title": "Funding grants for new research into AI and teen development",
+          "url": "https://openai.com/index/teen-development-research-grants",
+          "source": "openai",
+          "publishedAt": "2026-09-08T09:00:00.000Z",
+          "summary": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.6340476182980472,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1340476182980472,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "representativeId": "openai:https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "source": "openai",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "summary": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.301892761087003,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8018927610870028,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+          "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+          "url": "https://technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-08T10:34:00.000Z",
+          "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2545700191649596,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.20457001916496,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/7/llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/7/llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/7/llm",
+          "title": "llm 0.35",
+          "url": "https://simonwillison.net/2026/Sep/7/llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-07T23:54:54.000Z",
+          "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8492723006739686,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7992723006739688,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/7/creepy-crawlies",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/7/creepy-crawlies",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/7/creepy-crawlies",
+          "title": "Creepy crawlies",
+          "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-07T23:08:58.000Z",
+          "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8260535619603309,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.776053561960331,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/7/jakub-pachocki",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/7/jakub-pachocki",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/7/jakub-pachocki",
+          "title": "Quoting Jakub Pachocki",
+          "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-07T22:26:25.000Z",
+          "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. — Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8051472970401572,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7551472970401575,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/7/video-compressor",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/7/video-compressor",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/7/video-compressor",
+          "title": "Video compressor",
+          "url": "https://simonwillison.net/2026/Sep/7/video-compressor",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-07T18:29:07.000Z",
+          "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6984682132815396,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6484682132815397,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/7/equal-earth",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/7/equal-earth",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/7/equal-earth",
+          "title": "Mercator ↔ Equal Earth",
+          "url": "https://simonwillison.net/2026/Sep/7/equal-earth",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-07T16:24:16.000Z",
+          "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6485343334114426,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5985343334114428,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+          "title": "Opaque recurrence, and other AI terms that you should probably know",
+          "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-07T19:24:00.000Z",
+          "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5717171013557927,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6717171013557929,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+          "title": "The complex corporate web behind a $3.2 billion AI data center",
+          "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-07T11:00:03.000Z",
+          "summary": "When multiple companies are behind one project, who bears responsibility for problems?",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5360933470842324,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4860933470842326,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49605767",
+    "google-deepmind:https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+    "hackernews:49610538",
+    "hackernews:49610229",
+    "hackernews:49605822"
+  ]
+}
