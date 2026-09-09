@@ -12,6 +12,12 @@
       "calls": 1,
       "inputTokens": 0,
       "outputTokens": 0
+    },
+    {
+      "at": "2026-09-09T12:04:14.260Z",
+      "calls": 1,
+      "inputTokens": 4668,
+      "outputTokens": 2712
     }
   ]
 }
