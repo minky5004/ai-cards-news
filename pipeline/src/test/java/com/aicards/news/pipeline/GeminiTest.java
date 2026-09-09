@@ -7,14 +7,13 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.aicards.news.pipeline.config.ConfigLoader;
 import com.aicards.news.pipeline.config.PipelineConfig;
 import com.google.genai.Client;
-import com.google.genai.types.HttpOptions;
 import com.google.genai.types.HttpRetryOptions;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
 
 /**
  * Gemini 클라이언트의 재시도 정책.
@@ -31,7 +30,7 @@ class GeminiTest {
         @Test
         @DisplayName("429 는 다시 던지지 않는다")
         void doesNotRetryQuotaExceeded() {
-            List<Integer> codes = Gemini.retryOptions().httpStatusCodes().orElseThrow();
+            List<Integer> codes = Gemini.copyRetry().httpStatusCodes().orElseThrow();
 
             // 한도 초과에 재시도하는 것은 실패가 확정된 요청으로 남은 한도를 깎는 일이다.
             assertFalse(codes.contains(Gemini.TOO_MANY_REQUESTS));
@@ -40,7 +39,7 @@ class GeminiTest {
         @Test
         @DisplayName("일시적 서버 오류는 다시 던진다")
         void retriesTransientServerErrors() {
-            List<Integer> codes = Gemini.retryOptions().httpStatusCodes().orElseThrow();
+            List<Integer> codes = Gemini.copyRetry().httpStatusCodes().orElseThrow();
 
             // 503 이 빠지면 과부하 한 번에 그날 카드가 통째로 사라진다.
             assertTrue(codes.contains(503));
@@ -53,18 +52,98 @@ class GeminiTest {
     class DailyBudget {
 
         @Test
-        @DisplayName("최악의 날에도 무료 티어 한도를 넘지 않는다")
-        void worstCaseFitsInFreeTierLimit() {
+        @DisplayName("최악의 날에도 카피가 자기 한도를 넘지 않는다")
+        void copyWorstCaseFitsInFreeTierLimit() {
             PipelineConfig config = ConfigLoader.loadPipelineConfig();
 
-            // 카피는 기사당 한 번, 아이디어는 하루 한 번. 각 호출이 최대 attempts 회까지 나간다.
-            int callsPerDay = config.scoring().maxCards() + 1;
-            int worstCase = callsPerDay * attempts();
+            // 카피는 기사당 한 번. 한도는 모델별로 서므로 아이디어를 여기 더하지 않는다 —
+            // 더하면 실제보다 빡빡한 예산을 재는 것이라, 언젠가 maxCards 를 못 올리게 막는다.
+            int worstCase = config.scoring().maxCards() * Gemini.COPY_MAX_ATTEMPTS;
 
             assertTrue(
                     worstCase <= Gemini.FREE_TIER_DAILY_LIMIT,
-                    "하루 최악 %d회가 한도 %d회를 넘는다 — maxCards 나 재시도 상한을 낮춰야 한다"
+                    "카피 하루 최악 %d회가 한도 %d회를 넘는다 — maxCards 나 재시도 상한을 낮춰야 한다"
                             .formatted(worstCase, Gemini.FREE_TIER_DAILY_LIMIT));
+        }
+
+        @Test
+        @DisplayName("아이디어 상한이 자기 분당 창 안에 든다")
+        void ideaAttemptsFitInRequestsPerMinute() {
+            /*
+              아이디어는 하루 한 번이라 RPD 는 3/20 으로 멀다. 실제로 닿는 벽은 분당 한도이고,
+              이 호출은 앞선 대기 없이 나가므로 재시도가 전부 한 창에 들어간다. 그 창을 혼자
+              쓰는 것이 카피와 모델을 가른 이유이고, 이 단언이 그 전제를 값으로 고정한다.
+            */
+            assertTrue(
+                    Gemini.IDEA_MAX_ATTEMPTS <= Gemini.FREE_TIER_RPM,
+                    "아이디어 1분 최악 %d회가 분당 한도 %d회를 넘는다"
+                            .formatted(Gemini.IDEA_MAX_ATTEMPTS, Gemini.FREE_TIER_RPM));
+
+            assertTrue(
+                    Gemini.IDEA_MAX_ATTEMPTS <= Gemini.FREE_TIER_DAILY_LIMIT,
+                    "아이디어 하루 최악이 한도를 넘는다");
+        }
+
+        @Test
+        @DisplayName("장부를 나눠 쓰면 아이디어가 자기 상한을 쓴다")
+        void usesIdeaBudgetOnDistinctModels() {
+            assertEquals(
+                    Gemini.IDEA_MAX_ATTEMPTS,
+                    Gemini.ideaAttempts("gemini-3.7-flash", "gemini-3.6-flash"));
+        }
+
+        @Test
+        @DisplayName("같은 모델이면 카피 상한으로 내려간다 — 터뜨리지 않는다")
+        void fallsBackToCopyBudgetOnSharedModel() {
+            /*
+              상한 3 은 아이디어가 분당 창을 혼자 쓴다는 전제 위에 선다. 설정이 둘을 같게 두면
+              그 전제가 없으므로 값을 내린다. 로딩에서 던지지 않는 이유는 폭발 반경이다 — 설정은
+              ingest·extract·copy·render 가 전부 읽어서, 거기서 터지면 아이디어 한 장을 지키려고
+              그날 전체를 잃는다.
+            */
+            assertEquals(
+                    Gemini.COPY_MAX_ATTEMPTS,
+                    Gemini.ideaAttempts("gemini-3.6-flash", "gemini-3.6-flash"));
+        }
+
+        @Test
+        @DisplayName("아이디어 재시도가 스파이크를 넘길 만큼 벌어진다")
+        void ideaRetryWaitsLongEnough() {
+            /*
+              상한만 올리면 세 번이 3초 안에 끝나 2026-09-08 의 과부하 창을 그대로 다시 맞는다.
+              간격이 이 처방의 전부라, 첫 대기가 SDK 기본값 1초보다 커야 성립한다.
+            */
+            double initialDelay = Gemini.ideaRetry(Gemini.IDEA_MAX_ATTEMPTS).initialDelay().orElseThrow();
+            assertTrue(initialDelay > 1.0, "첫 대기가 SDK 기본값 1초보다 크지 않다: " + initialDelay);
+
+            /*
+              흔들림이 1.0 이면 대기가 0배까지 내려가 간격이 없는 것과 같아진다. 그 갈래를 막는
+              것까지가 이 처방이다.
+            */
+            double jitter = Gemini.ideaRetry(Gemini.IDEA_MAX_ATTEMPTS).jitter().orElseThrow();
+            assertTrue(jitter < 1.0, "흔들림이 대기를 0 으로 만들 수 있다: " + jitter);
+
+            /*
+              벌린 간격이 자기 분당 창을 넘기면 429 로 형태만 바뀐다. 누적 최악은
+              min(4 x 2^n x (1 + jitter), maxDelay) 의 합이고, 이것이 60초 안이어야 세 요청이
+              한 창에 든다.
+            */
+            double worst = 0;
+            for (int n = 1; n < Gemini.IDEA_MAX_ATTEMPTS; n++) {
+                worst += initialDelay * Math.pow(2, n) * (1 + jitter);
+            }
+            assertTrue(worst < 60, "재시도 누적 최악 %.1f초가 분당 창을 넘는다".formatted(worst));
+        }
+
+        @Test
+        @DisplayName("표본이 1인 아이디어가 카피보다 많이 시도한다")
+        void ideaTriesHarderThanCopy() {
+            // 카피는 5건 중 일부가 떨어져도 남은 것으로 그날이 서지만, 아이디어는 한 번의 503 이
+            // 곧 그날 카드의 부재다(2026-09-08). 두 값이 같아지면 그 사고가 그대로 돌아온다.
+            assertTrue(
+                    Gemini.IDEA_MAX_ATTEMPTS > Gemini.COPY_MAX_ATTEMPTS,
+                    "아이디어 상한 %d 가 카피 상한 %d 보다 크지 않다"
+                            .formatted(Gemini.IDEA_MAX_ATTEMPTS, Gemini.COPY_MAX_ATTEMPTS));
         }
 
         @Test
@@ -80,7 +159,7 @@ class GeminiTest {
               코드라 그대로 카드 한 장이 빈다. 과부하한 날에만 발화해 평소에는 안 보인다.
             */
             int articlesPerMinute = 60 / interval + 1;
-            int worstCase = articlesPerMinute * attempts();
+            int worstCase = articlesPerMinute * Gemini.COPY_MAX_ATTEMPTS;
 
             assertTrue(
                     worstCase <= Gemini.FREE_TIER_RPM,
@@ -92,10 +171,12 @@ class GeminiTest {
         @DisplayName("SDK 기본값보다 적게 시도한다")
         void triesFewerTimesThanSdkDefault() {
             // SDK 의 RetryInterceptor 기본값이 5 다. 그대로 두면 한 호출이 5회로 불어난다.
-            assertTrue(attempts() < 5);
+            assertTrue(Gemini.COPY_MAX_ATTEMPTS < 5);
+            assertTrue(Gemini.IDEA_MAX_ATTEMPTS < 5);
 
             // 0 이나 음수면 SDK 가 Math.max(attempts, 1) 로 되돌려 의도가 조용히 사라진다.
-            assertTrue(attempts() >= 1);
+            assertTrue(Gemini.COPY_MAX_ATTEMPTS >= 1);
+            assertTrue(Gemini.IDEA_MAX_ATTEMPTS >= 1);
         }
     }
 
@@ -103,38 +184,21 @@ class GeminiTest {
     @DisplayName("클라이언트")
     class ClientBuild {
 
-        @Test
-        @DisplayName("만들어진 클라이언트가 이 정책을 싣는다")
-        void carriesRetryOptions() throws Exception {
-            /*
-              클라이언트 안을 리플렉션으로 연다. retryOptions() 를 그냥 자기와 비교하면 어떤
-              client() 구현에도 통과하는 단언이 된다 — 실제로 그렇게 썼다가 client() 를 SDK
-              기본 빌더로 되돌려도 이 클래스가 전부 초록인 것을 리뷰에서 봤다. 이 PR 이 고치는
-              것이 바로 그 기본값이므로, 정책이 클라이언트까지 닿았는지를 봐야 한다.
-            */
-            HttpOptions options;
-            try (Client client = Gemini.client("test-key-not-used")) {
-                Field field = Client.class.getDeclaredField("apiClient");
-                field.setAccessible(true);
-                Object apiClient = field.get(client);
-
-                Method httpOptions = apiClient.getClass().getMethod("httpOptions");
-                httpOptions.setAccessible(true);
-                options = (HttpOptions) httpOptions.invoke(apiClient);
+        @ParameterizedTest(name = "상한 {0}")
+        @ValueSource(ints = {Gemini.COPY_MAX_ATTEMPTS, Gemini.IDEA_MAX_ATTEMPTS})
+        @DisplayName("만들어진 클라이언트가 넘긴 정책을 싣는다")
+        void carriesRetryOptions(int attempts) throws Exception {
+            // 정책이 클라이언트까지 닿았는지를 본다. 리플렉션의 이유는 ClientRetry 참고.
+            HttpRetryOptions policy = Gemini.ideaRetry(attempts);
+            HttpRetryOptions retry;
+            try (Client client = Gemini.client("test-key-not-used", policy)) {
+                retry = ClientRetry.of(client);
             }
 
-            HttpRetryOptions retry =
-                    options.retryOptions()
-                            .orElseThrow(() -> new AssertionError("클라이언트에 재시도 정책이 없다"));
-
-            assertEquals(attempts(), retry.attempts().orElseThrow());
+            assertEquals(attempts, retry.attempts().orElseThrow());
+            assertEquals(policy.initialDelay(), retry.initialDelay());
             assertEquals(
-                    Gemini.retryOptions().httpStatusCodes().orElseThrow(),
-                    retry.httpStatusCodes().orElseThrow());
+                    policy.httpStatusCodes().orElseThrow(), retry.httpStatusCodes().orElseThrow());
         }
-    }
-
-    private static int attempts() {
-        return Gemini.retryOptions().attempts().orElseThrow();
     }
 }

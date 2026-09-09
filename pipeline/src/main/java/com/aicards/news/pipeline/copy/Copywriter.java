@@ -98,7 +98,7 @@ public final class Copywriter {
         GenerateContentConfig requestConfig = requestConfig(config);
 
         List<CopyResult> results = new ArrayList<>();
-        try (Client client = Gemini.client(apiKey)) {
+        try (Client client = client(apiKey)) {
             boolean called = false;
             for (ArticlesResult.Article article : articles) {
                 // 본문이 없으면 시도하지 않는다. 이유는 hasBody 참고.
@@ -120,6 +120,17 @@ public final class Copywriter {
             }
         }
         return results;
+    }
+
+    /**
+     * 카피가 쓰는 클라이언트.
+     *
+     * <p>상한을 이름 붙은 자리에 묶어 둔다. {@code Gemini.client} 에 숫자를 직접 넘기면 어느
+     * 단계의 예산인지가 호출부에서만 보이고 잘못 넘겨도 컴파일이 된다 — 테스트가 이 메서드를 열어
+     * 실제로 실린 상한을 본다.
+     */
+    static Client client(String apiKey) {
+        return Gemini.client(apiKey, Gemini.copyRetry());
     }
 
     /**

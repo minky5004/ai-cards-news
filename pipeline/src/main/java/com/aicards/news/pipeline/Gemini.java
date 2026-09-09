@@ -15,18 +15,60 @@ import java.util.List;
  *
  * <p>2026-09-02 발행이 이 어긋남으로 죽었다. 모델 과부하로 503 이 뜬 날이라 카피 5건이 각자
  * 재시도를 돌려 하루 20회를 자기가 넘겼고, 남은 기사는 전부 429 로 떨어져 카드가 0장이 됐다.
+ *
+ * <p><b>상한은 단계마다 다르고, 기본값을 두지 않는다.</b> 한도(RPD·RPM)가 모델별로 서고 카피와
+ * 아이디어가 서로 다른 모델을 쓰므로({@code PipelineConfig} 가 그 다름을 지킨다) 두 단계는 각자의
+ * 장부를 쓴다. 호출부가 상한을 직접 넘기게 한 것은 세 번째 호출부가 생겼을 때 남의 예산을 조용히
+ * 물려받는 자리를 만들지 않기 위해서다.
  */
 public final class Gemini {
 
     /**
-     * 한 호출이 실제로 던지는 요청의 상한.
+     * 카피 한 호출이 실제로 던지는 요청의 상한.
      *
      * <p>1 이 아닌 이유는 503 이 대개 일시적이라 한 번 더 두드릴 값이 있어서다. 3 이 아닌 이유는
-     * 하루 한도가 아니다 — 6호출 x 3 = 18 은 20 안에 든다. 막는 것은 분당 한도이고,
-     * {@code copy.requestIntervalSeconds} 31초에서 (floor(60/31) + 1) x 3 = 6 이 RPM 5 를
-     * 넘긴다. 2 에서는 하루 최악이 12회 · 1분 최악이 4회다.
+     * <b>분당 한도</b>다 — 하루는 5호출 x 3 = 15 로 20 안에 들지만,
+     * {@code copy.requestIntervalSeconds} 31초에서 (floor(60/31) + 1) x 3 = 6 이 RPM 5 를 넘겨
+     * 마지막 기사가 429 로 사라진다. 2 에서는 1분 최악이 4회 · 하루 최악이 10회다.
      */
-    private static final int MAX_ATTEMPTS = 2;
+    public static final int COPY_MAX_ATTEMPTS = 2;
+
+    /**
+     * 아이디어 한 호출이 실제로 던지는 요청의 상한.
+     *
+     * <p>카피보다 높은 이유는 표본이 1 이라는 것이다. 카피는 5건 중 일부가 떨어져도 남은 것으로
+     * 그날이 서지만, 아이디어는 503 한 번이 곧 그날 카드의 부재다 — 2026-09-08 이 그렇게 결번이
+     * 됐다(첫 요청도 재시도 1회분도 503).
+     *
+     * <p>3 이 사는 자리는 <b>모델을 가른 덕</b>이다. 이 호출은 카피 마지막 호출 직후에 앞선 대기
+     * 없이 나가므로, 같은 모델이면 카피가 재시도를 돈 날의 60초 창에 얹혀 여섯 번째 요청이 된다.
+     * 장부가 갈리면 그 창에 자기 요청 3건뿐이라 RPM 5 안이고 하루도 3/20 이다. 그 전제가 깨진
+     * 설정에서는 {@link #ideaAttempts} 가 이 값을 쓰지 않는다.
+     */
+    public static final int IDEA_MAX_ATTEMPTS = 3;
+
+    /**
+     * 아이디어 재시도의 첫 대기(초).
+     *
+     * <p>상한을 3 으로 올린 것만으로는 2026-09-08 이 안 막힌다. SDK 기본 대기가 1초에서 시작해
+     * expBase 2 로 늘어서, 세 번을 다 던져도 <b>3초 남짓</b>에 끝난다 — 그날은 첫 요청도 1초 뒤
+     * 재시도도 같은 503 이었으므로 과부하가 그 창을 이미 덮고 있었다. 스파이크를 넘기는 손잡이는
+     * 횟수가 아니라 <b>간격</b>이다.
+     *
+     * <p>4초에서 실제 대기는 {@code min(4 x 2^n x (1 + jitter x (2r - 1)), maxDelay)} 로 8초·16초
+     * 언저리이고, 아래 jitter 와 함께 누적 최악이 31초다. 60초 창에 자기 요청 3건뿐이라 RPM 5 안에
+     * 그대로 든다 — 모델을 가른 덕에 생긴 여유를 여기에 쓴다.
+     */
+    private static final double IDEA_INITIAL_DELAY_SECONDS = 4.0;
+
+    /**
+     * 아이디어 재시도 대기의 흔들림 폭.
+     *
+     * <p>SDK 기본값 1.0 은 대기를 0배~2배로 흔들어 <b>0초에 가까운 재시도</b>를 허용한다. 간격이
+     * 이 처방의 전부인 자리에서 그 갈래는 처방이 없는 것과 같다. 0.3 이면 0.7배~1.3배라 위 계산이
+     * 실제로 성립한다.
+     */
+    private static final double IDEA_JITTER = 0.3;
 
     /**
      * 다시 던져 볼 상태 코드.
@@ -35,7 +77,7 @@ public final class Gemini {
      * 값을 못 한다 — 하루 한도(RPD)는 다음 리셋까지 풀리지 않고, 분당 한도(RPM)는 응답이
      * {@code retryDelay} 로 57초를 요구하는데 SDK 백오프는 1초에서 시작한다. 남는 것은 실패가
      * 확정된 요청으로 한도를 한 번 더 깎는 일뿐이다. RPM 은 재시도가 아니라
-     * {@code copy.requestIntervalSeconds} 로 애초에 닿지 않게 한다.
+     * {@code copy.requestIntervalSeconds} 와 모델 분리로 애초에 닿지 않게 한다.
      */
     private static final List<Integer> RETRY_STATUS_CODES = List.of(408, 500, 502, 503, 504);
 
@@ -56,19 +98,47 @@ public final class Gemini {
 
     private Gemini() {}
 
-    /** 재시도 상한과 대상 코드를 우리 예산에 맞춘 클라이언트. */
-    public static Client client(String apiKey) {
-        return Client.builder()
-                .apiKey(apiKey)
-                .httpOptions(HttpOptions.builder().retryOptions(retryOptions()).build())
+    /**
+     * 아이디어가 실제로 쓸 재시도 상한.
+     *
+     * <p>{@link #IDEA_MAX_ATTEMPTS} 는 두 단계가 서로 다른 장부를 쓴다는 전제 위에 선다. 설정이
+     * 그 전제를 깨면 값을 카피 쪽으로 내린다 — <b>터뜨리지 않는 이유</b>는 폭발 반경이다.
+     * {@code ConfigLoader} 는 ingest·extract·copy·render 가 전부 부르므로 로딩에서 던지면 그날이
+     * 통째로 사라지는데, 막으려는 손해는 {@code continue-on-error} 인 아이디어 카드 한 장이다.
+     * 모델 하나가 내려간 날 운영자가 둘을 같게 두는 것은 자연스러운 응급 조치이고, 그 조치가
+     * 발행을 죽이면 안 된다.
+     *
+     * <p>문자열 비교라 {@code models/} 접두사나 {@code -latest} 별칭은 다른 모델로 본다. 그때의
+     * 대가는 아이디어 한 장이 429 로 빠지는 것뿐이라, 별칭을 실제로 쓰기 전에는 정규화를 두지
+     * 않는다.
+     */
+    public static int ideaAttempts(String ideaModel, String copyModel) {
+        return ideaModel.equals(copyModel) ? COPY_MAX_ATTEMPTS : IDEA_MAX_ATTEMPTS;
+    }
+
+    /** 카피의 재시도 정책. 간격은 SDK 기본값 — 호출 사이의 31초가 이미 창을 벌려 둔다. */
+    public static HttpRetryOptions copyRetry() {
+        return HttpRetryOptions.builder()
+                .attempts(COPY_MAX_ATTEMPTS)
+                .httpStatusCodes(RETRY_STATUS_CODES)
                 .build();
     }
 
-    /** 클라이언트에 실리는 재시도 정책. 테스트가 클라이언트를 열지 않고 볼 수 있어야 한다. */
-    public static HttpRetryOptions retryOptions() {
+    /** 아이디어의 재시도 정책. 상한은 {@link #ideaAttempts} 가 정하고, 간격은 여기서 벌린다. */
+    public static HttpRetryOptions ideaRetry(int attempts) {
         return HttpRetryOptions.builder()
-                .attempts(MAX_ATTEMPTS)
+                .attempts(attempts)
+                .initialDelay(IDEA_INITIAL_DELAY_SECONDS)
+                .jitter(IDEA_JITTER)
                 .httpStatusCodes(RETRY_STATUS_CODES)
+                .build();
+    }
+
+    /** 정책을 실은 클라이언트. */
+    public static Client client(String apiKey, HttpRetryOptions retry) {
+        return Client.builder()
+                .apiKey(apiKey)
+                .httpOptions(HttpOptions.builder().retryOptions(retry).build())
                 .build();
     }
 }

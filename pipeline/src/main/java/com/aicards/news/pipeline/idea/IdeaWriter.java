@@ -45,6 +45,16 @@ public final class IdeaWriter {
 
     private IdeaWriter() {}
 
+    /**
+     * 아이디어가 쓰는 클라이언트.
+     *
+     * <p>상한을 부르는 쪽이 정한다. 그 값은 카피와 장부를 나눠 쓰는지에 달려 있어
+     * ({@link Gemini#ideaAttempts}) 이 클래스가 혼자 알 수 없다.
+     */
+    static Client client(String apiKey, int attempts) {
+        return Gemini.client(apiKey, Gemini.ideaRetry(attempts));
+    }
+
     /** LLM 이 채우는 것만 담는다. {@code novelty}·{@code sources} 는 우리가 붙인다. */
     private static Schema ideaSchema() {
         Map<String, Schema> properties = new LinkedHashMap<>();
@@ -107,7 +117,10 @@ public final class IdeaWriter {
             String searchQuery) {}
 
     public static IdeaResult write(
-            String date, List<Candidates.Candidate> candidates, PipelineConfig.Idea config) {
+            String date,
+            List<Candidates.Candidate> candidates,
+            PipelineConfig.Idea config,
+            int attempts) {
 
         // 키가 없으면 첫 호출에서야 알게 되는 것보다 시작 시점에 터지는 게 낫다.
         String apiKey = Env.require(API_KEY);
@@ -121,7 +134,7 @@ public final class IdeaWriter {
         int inputTokens = 0;
         int outputTokens = 0;
 
-        try (Client client = Gemini.client(apiKey)) {
+        try (Client client = client(apiKey, attempts)) {
             String prompt =
                     Templates.render(
                             Paths.promptsDir().resolve(PROMPT_FILE),

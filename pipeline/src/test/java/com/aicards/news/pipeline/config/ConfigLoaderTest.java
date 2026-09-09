@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline.config;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -40,6 +41,10 @@ class ConfigLoaderTest {
             assertTrue(config.idea().bodyExcerpt() > 0);
             assertTrue(config.idea().verifyHits() > 0);
             assertTrue(config.idea().crowdedPoints() > 0);
+
+            // 갈린 장부가 아이디어 재시도 상한 3 의 전제다(Gemini.ideaAttempts). 파일이 둘을
+            // 같게 두면 상한이 카피 값으로 내려가므로 사고는 안 나지만, 그 전제는 여기서 지킨다.
+            assertNotEquals(config.copy().model(), config.idea().model());
         }
 
         @Test
@@ -77,7 +82,7 @@ class ConfigLoaderTest {
                     new PipelineConfig.Extract(maxAttempts),
                     new PipelineConfig.Copy("gemini-3.6-flash", 4000, null, 14),
                     new PipelineConfig.Idea(
-                            "gemini-3.6-flash", 16000, null, maxCandidates, 1500, 5, 300),
+                            "gemini-3.7-flash", 16000, null, maxCandidates, 1500, 5, 300),
                     scoring(maxCards));
         }
 

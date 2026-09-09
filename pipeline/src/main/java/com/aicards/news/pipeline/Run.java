@@ -344,10 +344,13 @@ public final class Run {
         IngestResult raw = Json.read(Paths.rawJson(date), IngestResult.class);
 
         UsageLog previous = readUsage(date);
-        if (previous.totalCalls() > 0) {
+        if (previous.totalCalls(config.copy().model()) > 0) {
             System.out.printf(
-                    "오늘 이미 %d회 호출했다 (%s, %d회 실행)%n",
-                    previous.totalCalls(), Paths.relative(Paths.usageJson(date)), previous.runs().size());
+                    "오늘 이미 %s 로 %d회 호출했다 (%s, %d회 실행)%n",
+                    config.copy().model(),
+                    previous.totalCalls(config.copy().model()),
+                    Paths.relative(Paths.usageJson(date)),
+                    previous.runs().size());
         }
 
         System.out.printf(
@@ -441,13 +444,18 @@ public final class Run {
                 previous.plus(
                         new UsageLog.Entry(
                                 Times.iso(Instant.now()),
+                                config.copy().model(),
                                 tally.attempted(),
                                 inputTokens,
                                 outputTokens));
         Json.write(Paths.usageJson(date), updated);
         System.out.printf(
-                "오늘 누적 %d회 · 토큰 입력 %d 출력 %d%n",
-                updated.totalCalls(), updated.totalInputTokens(), updated.totalOutputTokens());
+                "%s 누적 %d회 · 오늘 전체 %d회 · 토큰 입력 %d 출력 %d%n",
+                config.copy().model(),
+                updated.totalCalls(config.copy().model()),
+                updated.totalCalls(),
+                updated.totalInputTokens(),
+                updated.totalOutputTokens());
 
         // 한 장도 못 만들었으면 파일을 쓰지 않는다. 빈 산출물을 남기면 이전 결과를 덮어쓰고,
         // 뒤 단계가 그걸 정상으로 알고 빈 날짜를 발행한다. 실패는 실패로 드러나야 한다.
@@ -533,15 +541,18 @@ public final class Run {
         }
 
         UsageLog previous = readUsage(date);
-        if (previous.totalCalls() > 0) {
+        if (previous.totalCalls(config.idea().model()) > 0) {
             System.out.printf(
-                    "오늘 이미 %d회 호출했다 (%s, %d회 실행)%n%n",
-                    previous.totalCalls(),
+                    "오늘 이미 %s 로 %d회 호출했다 (%s, %d회 실행)%n%n",
+                    config.idea().model(),
+                    previous.totalCalls(config.idea().model()),
                     Paths.relative(Paths.usageJson(date)),
                     previous.runs().size());
         }
 
-        IdeaResult result = IdeaWriter.write(date, candidates, config.idea());
+        // 상한은 장부를 나눠 쓰는지에 달려 있다 — 설정이 두 모델을 같게 두면 카피 값으로 내려간다.
+        int attempts = Gemini.ideaAttempts(config.idea().model(), config.copy().model());
+        IdeaResult result = IdeaWriter.write(date, candidates, config.idea(), attempts);
 
         /*
           판정보다 기록이 먼저다. copy 와 같은 이유로, 실패한 실행의 호출이 누락되면 남은 여유를
@@ -555,14 +566,17 @@ public final class Run {
                 previous.plus(
                         new UsageLog.Entry(
                                 Times.iso(Instant.now()),
+                                config.idea().model(),
                                 1,
                                 result.inputTokens(),
                                 result.outputTokens()));
         Json.write(Paths.usageJson(date), updated);
         System.out.printf(
-                "호출 1회 · 토큰 입력 %d 출력 %d%n오늘 누적 %d회 · 토큰 입력 %d 출력 %d%n%n",
+                "호출 1회 · 토큰 입력 %d 출력 %d%n%s 누적 %d회 · 오늘 전체 %d회 · 토큰 입력 %d 출력 %d%n%n",
                 result.inputTokens(),
                 result.outputTokens(),
+                config.idea().model(),
+                updated.totalCalls(config.idea().model()),
                 updated.totalCalls(),
                 updated.totalInputTokens(),
                 updated.totalOutputTokens());

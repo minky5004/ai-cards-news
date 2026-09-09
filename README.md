@@ -49,10 +49,10 @@
 |---|---|
 | Language | Java 25 |
 | Pipeline | Gradle · Jackson(JSON · YAML) · Rome(RSS) · readability4j + jsoup(본문 추출) |
-| LLM | Gemini 무료 티어 — 하루 20회 한도 안에서 카피 5 + 아이디어 1 |
+| LLM | Gemini 무료 티어 — 하루 20회 한도가 모델별 · 카피 5 와 아이디어 1 을 다른 모델로 |
 | Render | Playwright 헤드리스 Chromium → WebP(webp-imageio) · 카드 규격 1080×1350 |
 | Web | Astro 7 정적 빌드 · 캐러셀 · 확대 · View Transitions 전부 라이브러리 없이 |
-| Test | JUnit 5 · 228개 — 넣은 테스트는 코드를 일부러 깨뜨려 실패 확인 |
+| Test | JUnit 5 · 238개 — 넣은 테스트는 코드를 일부러 깨뜨려 실패 확인 |
 | Build · CI | Gradle wrapper · GitHub Actions · GitHub Pages |
 
 ## 실행
