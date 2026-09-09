@@ -46,6 +46,16 @@ public final class IdeaWriter {
     private IdeaWriter() {}
 
     /** LLM 이 채우는 것만 담는다. {@code novelty}·{@code sources} 는 우리가 붙인다. */
+    /**
+     * 아이디어가 쓰는 클라이언트.
+     *
+     * <p>카피보다 상한이 높다 — 표본이 1 이라 503 한 번이 곧 그날 카드의 부재이고, 모델이 갈려
+     * 분당 창을 혼자 쓰므로 3 이 산다. 근거는 {@link Gemini#IDEA_MAX_ATTEMPTS}.
+     */
+    static Client client(String apiKey) {
+        return Gemini.client(apiKey, Gemini.IDEA_MAX_ATTEMPTS);
+    }
+
     private static Schema ideaSchema() {
         Map<String, Schema> properties = new LinkedHashMap<>();
         text(properties, "productName", "영어 조어 제품명");
@@ -121,7 +131,7 @@ public final class IdeaWriter {
         int inputTokens = 0;
         int outputTokens = 0;
 
-        try (Client client = Gemini.client(apiKey)) {
+        try (Client client = client(apiKey)) {
             String prompt =
                     Templates.render(
                             Paths.promptsDir().resolve(PROMPT_FILE),

@@ -1,6 +1,7 @@
 package com.aicards.news.pipeline.config;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -40,6 +41,9 @@ class ConfigLoaderTest {
             assertTrue(config.idea().bodyExcerpt() > 0);
             assertTrue(config.idea().verifyHits() > 0);
             assertTrue(config.idea().crowdedPoints() > 0);
+
+            // 갈린 장부가 아이디어 재시도 상한 3 의 전제다. 파일에서 도로 합치면 여기서 잡는다.
+            assertNotEquals(config.copy().model(), config.idea().model());
         }
 
         @Test
@@ -70,6 +74,11 @@ class ConfigLoaderTest {
         }
 
         private static PipelineConfig config(int maxAttempts, int maxCards, int maxCandidates) {
+            return config(maxAttempts, maxCards, maxCandidates, "gemini-3.7-flash");
+        }
+
+        private static PipelineConfig config(
+                int maxAttempts, int maxCards, int maxCandidates, String ideaModel) {
             return new PipelineConfig(
                     new PipelineConfig.Ingest(36),
                     new PipelineConfig.Relevance(java.util.List.of("llm"), java.util.List.of("AI")),
@@ -77,7 +86,7 @@ class ConfigLoaderTest {
                     new PipelineConfig.Extract(maxAttempts),
                     new PipelineConfig.Copy("gemini-3.6-flash", 4000, null, 14),
                     new PipelineConfig.Idea(
-                            "gemini-3.6-flash", 16000, null, maxCandidates, 1500, 5, 300),
+                            ideaModel, 16000, null, maxCandidates, 1500, 5, 300),
                     scoring(maxCards));
         }
 
@@ -109,6 +118,30 @@ class ConfigLoaderTest {
 
             assertTrue(thrown.getMessage().contains("maxCandidates"));
             assertTrue(thrown.getMessage().contains("maxCards"));
+        }
+
+        @Test
+        @DisplayName("두 단계가 같은 모델이면 로딩 시점에 터진다")
+        void rejectsSharedModel() {
+            /*
+              한도가 모델별 장부라, 같은 모델은 곧 아이디어 호출이 카피의 60초 창에 얹힌다는
+              뜻이다. 아이디어 재시도 상한 3 은 그 창을 혼자 쓴다는 전제 위에 서 있어서, 모델을
+              도로 합치면 그 값이 그대로 429 의 원인이 된다. 실행은 continue-on-error 라 초록이고
+              결번만 남으므로 사후에는 안 잡힌다 — 첫 단계에서 터뜨리는 것이 그 답이다.
+            */
+            IllegalArgumentException thrown =
+                    assertThrows(
+                            IllegalArgumentException.class,
+                            () -> config(10, 5, 5, "gemini-3.6-flash"));
+
+            assertTrue(thrown.getMessage().contains("idea.model"));
+            assertTrue(thrown.getMessage().contains("gemini-3.6-flash"));
+        }
+
+        @Test
+        @DisplayName("다른 모델이면 통과한다")
+        void allowsDistinctModels() {
+            assertEquals("gemini-3.7-flash", config(10, 5).idea().model());
         }
     }
 }

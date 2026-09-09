@@ -6,7 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.aicards.news.pipeline.ClientRetry;
+import com.aicards.news.pipeline.Gemini;
 import com.aicards.news.pipeline.schema.IdeasResult;
+import com.google.genai.Client;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
@@ -237,6 +240,15 @@ class IdeaWriterTest {
             assertEquals(idea.productName(), finished.productName());
             assertEquals(idea.searchQuery(), finished.searchQuery());
             assertEquals(idea.actionPlan(), finished.actionPlan());
+        }
+    }
+
+    @Test
+    @DisplayName("IdeaWriter 가 자기 단계의 재시도 예산을 싣는다")
+    void carriesOwnRetryBudget() throws Exception {
+        // 상한은 인자로 넘어가므로 잘못 넘겨도 컴파일이 된다. 아이디어가 카피의 2 를 받으면 2026-09-08 결번이 그대로 돌아온다 — 503 한 번에 그날 카드가 사라지고 실행은 초록이다.
+        try (Client client = IdeaWriter.client("test-key-not-used")) {
+            assertEquals(Gemini.IDEA_MAX_ATTEMPTS, ClientRetry.attemptsOf(client));
         }
     }
 }

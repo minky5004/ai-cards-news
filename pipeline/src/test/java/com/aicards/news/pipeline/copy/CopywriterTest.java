@@ -1,9 +1,13 @@
 package com.aicards.news.pipeline.copy;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import com.aicards.news.pipeline.ClientRetry;
+import com.aicards.news.pipeline.Gemini;
+import com.google.genai.Client;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -77,5 +81,14 @@ class CopywriterTest {
         assertTrue(
                 bodyBelowSpec.length() < 110 && bodyBelowSpec.length() >= 50,
                 "픽스처가 규격 미달 구간에 있지 않다: " + bodyBelowSpec.length() + "자");
+    }
+
+    @Test
+    @DisplayName("Copywriter 가 자기 단계의 재시도 예산을 싣는다")
+    void carriesOwnRetryBudget() throws Exception {
+        // 상한은 인자로 넘어가므로 잘못 넘겨도 컴파일이 된다. 카피가 아이디어의 3 을 받으면 31초 간격에서 1분 최악이 6회가 되어 마지막 기사가 429 로 사라진다.
+        try (Client client = Copywriter.client("test-key-not-used")) {
+            assertEquals(Gemini.COPY_MAX_ATTEMPTS, ClientRetry.attemptsOf(client));
+        }
     }
 }
