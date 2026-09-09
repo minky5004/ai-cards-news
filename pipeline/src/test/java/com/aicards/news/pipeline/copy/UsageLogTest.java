@@ -14,8 +14,15 @@ import org.junit.jupiter.api.Test;
  */
 class UsageLogTest {
 
+    private static final String COPY_MODEL = "gemini-3.6-flash";
+    private static final String IDEA_MODEL = "gemini-3.7-flash";
+
     private static UsageLog.Entry entry(int calls, int in, int out) {
-        return new UsageLog.Entry("2026-07-27T12:00:00.000Z", calls, in, out);
+        return entry(COPY_MODEL, calls, in, out);
+    }
+
+    private static UsageLog.Entry entry(String model, int calls, int in, int out) {
+        return new UsageLog.Entry("2026-07-27T12:00:00.000Z", model, calls, in, out);
     }
 
     @Test
@@ -77,5 +84,35 @@ class UsageLogTest {
 
         assertEquals(4, log.totalCalls());
         assertEquals(List.of(4), log.runs().stream().map(UsageLog.Entry::calls).toList());
+    }
+
+    @Test
+    @DisplayName("모델별로 따로 센다 — 한도의 단위가 모델이다")
+    void countsPerModel() {
+        /*
+          카피와 아이디어가 다른 모델을 쓰는 뒤로 합계는 어느 쪽의 여유도 아니다. 합계만 보면
+          카피 모델에 5회를 쓰고도 6회를 쓴 것으로 읽어, 남은 여유를 실제와 다르게 판단한다.
+        */
+        UsageLog log =
+                UsageLog.empty("2026-09-08")
+                        .plus(entry(COPY_MODEL, 5, 100, 200))
+                        .plus(entry(IDEA_MODEL, 1, 50, 60));
+
+        assertEquals(6, log.totalCalls());
+        assertEquals(5, log.totalCalls(COPY_MODEL));
+        assertEquals(1, log.totalCalls(IDEA_MODEL));
+    }
+
+    @Test
+    @DisplayName("모델이 없는 옛 기록은 어느 쪽을 물어도 센다")
+    void legacyEntriesCountForEveryModel() {
+        /*
+          분리 이전에 쓰인 줄은 어느 장부의 것인지 파일만 봐서는 모른다. 많이 세는 쪽의 대가는
+          여유를 실제보다 적게 보는 것뿐이고, 적게 세는 쪽의 대가는 한도를 넘겨 그날을 잃는 것이다.
+        */
+        UsageLog log = UsageLog.empty("2026-09-01").plus(entry(null, 5, 100, 200));
+
+        assertEquals(5, log.totalCalls(COPY_MODEL));
+        assertEquals(5, log.totalCalls(IDEA_MODEL));
     }
 }

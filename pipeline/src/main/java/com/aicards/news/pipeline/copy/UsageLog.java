@@ -24,9 +24,11 @@ import java.util.List;
 public record UsageLog(String date, List<Entry> runs) {
 
     /**
+     * @param model 이 실행이 부른 모델. 한도가 모델별로 서므로 이것이 없으면 남은 여유를 물을 수
+     *     없다 — 카피와 아이디어가 다른 모델을 쓰는 뒤로는 합계가 어느 쪽의 여유도 아니다.
      * @param calls 실제로 보낸 요청 수. 건너뛴 기사는 호출하지 않았으므로 들어가지 않는다.
      */
-    public record Entry(String at, int calls, int inputTokens, int outputTokens) {}
+    public record Entry(String at, String model, int calls, int inputTokens, int outputTokens) {}
 
     public static UsageLog empty(String date) {
         return new UsageLog(date, List.of());
@@ -42,6 +44,17 @@ public record UsageLog(String date, List<Entry> runs) {
 
     public int totalCalls() {
         return sum(Entry::calls);
+    }
+
+    /**
+     * 그 모델로 나간 요청 수. 한도의 단위가 모델이라 여유를 묻는 자리는 이쪽이다.
+     *
+     * <p>모델이 없는 줄은 <b>어느 모델을 물어도 센다</b>. 카피와 아이디어를 가르기 전에 쓰인
+     * 기록이라 어느 장부의 것인지 파일만 봐서는 모르고, 많이 세는 쪽의 대가는 여유를 실제보다
+     * 적게 보는 것뿐이다.
+     */
+    public int totalCalls(String model) {
+        return sum(entry -> entry.model() == null || entry.model().equals(model) ? entry.calls() : 0);
     }
 
     public int totalInputTokens() {

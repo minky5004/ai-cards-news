@@ -246,8 +246,9 @@ class IdeaWriterTest {
     @Test
     @DisplayName("IdeaWriter 가 자기 단계의 재시도 예산을 싣는다")
     void carriesOwnRetryBudget() throws Exception {
-        // 상한은 인자로 넘어가므로 잘못 넘겨도 컴파일이 된다. 아이디어가 카피의 2 를 받으면 2026-09-08 결번이 그대로 돌아온다 — 503 한 번에 그날 카드가 사라지고 실행은 초록이다.
-        try (Client client = IdeaWriter.client("test-key-not-used")) {
+        // 상한은 인자로 넘어가므로 잘못 넘겨도 컴파일이 된다. 아이디어가 카피의 2 를 받으면
+        // 2026-09-08 결번이 그대로 돌아온다 — 503 한 번에 그날 카드가 사라지고 실행은 초록이다.
+        try (Client client = IdeaWriter.client("test-key-not-used", Gemini.IDEA_MAX_ATTEMPTS)) {
             assertEquals(Gemini.IDEA_MAX_ATTEMPTS, ClientRetry.attemptsOf(client));
         }
     }

@@ -42,16 +42,6 @@ public record PipelineConfig(
                 idea.maxCandidates() >= scoring.maxCards(),
                 "idea.maxCandidates(%d) 는 scoring.maxCards(%d) 보다 작을 수 없다 — 본문을 가진 선정분이 먼저 잘린다"
                         .formatted(idea.maxCandidates(), scoring.maxCards()));
-
-        // 아이디어의 재시도 상한 3(Gemini.IDEA_MAX_ATTEMPTS)이 서는 자리가 이 다름이다. 한도는
-        // RPD·RPM 둘 다 모델별 장부라, 모델이 갈려야 아이디어가 자기 분당 창을 통째로 쓴다.
-        // 같은 모델로 되돌리면 카피 마지막 호출 직후에 대기 없이 나가는 이 호출이 카피가 재시도를
-        // 돈 날의 60초 창에 얹혀 여섯 번째 요청이 되고, 429 는 재시도 대상 밖이라 그날 아이디어가
-        // 통째로 사라진다. 단계가 continue-on-error 라 실행은 초록이고 결번만 남는다.
-        Check.that(
-                !idea.model().equals(copy.model()),
-                "idea.model 은 copy.model(%s) 과 달라야 한다 — 한도가 모델별로 서므로 같은 모델이면 아이디어 호출이 카피의 분당 창에 얹힌다"
-                        .formatted(copy.model()));
     }
 
     /** @param lookbackHours 이 시간 안에 나온 것만 후보로 본다. */

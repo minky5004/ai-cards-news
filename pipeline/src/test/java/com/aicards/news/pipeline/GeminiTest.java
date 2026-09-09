@@ -30,10 +30,7 @@ class GeminiTest {
         @Test
         @DisplayName("429 는 다시 던지지 않는다")
         void doesNotRetryQuotaExceeded() {
-            List<Integer> codes =
-                    Gemini.retryOptions(Gemini.COPY_MAX_ATTEMPTS)
-                            .httpStatusCodes()
-                            .orElseThrow();
+            List<Integer> codes = Gemini.copyRetry().httpStatusCodes().orElseThrow();
 
             // 한도 초과에 재시도하는 것은 실패가 확정된 요청으로 남은 한도를 깎는 일이다.
             assertFalse(codes.contains(Gemini.TOO_MANY_REQUESTS));
@@ -42,10 +39,7 @@ class GeminiTest {
         @Test
         @DisplayName("일시적 서버 오류는 다시 던진다")
         void retriesTransientServerErrors() {
-            List<Integer> codes =
-                    Gemini.retryOptions(Gemini.COPY_MAX_ATTEMPTS)
-                            .httpStatusCodes()
-                            .orElseThrow();
+            List<Integer> codes = Gemini.copyRetry().httpStatusCodes().orElseThrow();
 
             // 503 이 빠지면 과부하 한 번에 그날 카드가 통째로 사라진다.
             assertTrue(codes.contains(503));
@@ -88,6 +82,57 @@ class GeminiTest {
             assertTrue(
                     Gemini.IDEA_MAX_ATTEMPTS <= Gemini.FREE_TIER_DAILY_LIMIT,
                     "아이디어 하루 최악이 한도를 넘는다");
+        }
+
+        @Test
+        @DisplayName("장부를 나눠 쓰면 아이디어가 자기 상한을 쓴다")
+        void usesIdeaBudgetOnDistinctModels() {
+            assertEquals(
+                    Gemini.IDEA_MAX_ATTEMPTS,
+                    Gemini.ideaAttempts("gemini-3.7-flash", "gemini-3.6-flash"));
+        }
+
+        @Test
+        @DisplayName("같은 모델이면 카피 상한으로 내려간다 — 터뜨리지 않는다")
+        void fallsBackToCopyBudgetOnSharedModel() {
+            /*
+              상한 3 은 아이디어가 분당 창을 혼자 쓴다는 전제 위에 선다. 설정이 둘을 같게 두면
+              그 전제가 없으므로 값을 내린다. 로딩에서 던지지 않는 이유는 폭발 반경이다 — 설정은
+              ingest·extract·copy·render 가 전부 읽어서, 거기서 터지면 아이디어 한 장을 지키려고
+              그날 전체를 잃는다.
+            */
+            assertEquals(
+                    Gemini.COPY_MAX_ATTEMPTS,
+                    Gemini.ideaAttempts("gemini-3.6-flash", "gemini-3.6-flash"));
+        }
+
+        @Test
+        @DisplayName("아이디어 재시도가 스파이크를 넘길 만큼 벌어진다")
+        void ideaRetryWaitsLongEnough() {
+            /*
+              상한만 올리면 세 번이 3초 안에 끝나 2026-09-08 의 과부하 창을 그대로 다시 맞는다.
+              간격이 이 처방의 전부라, 첫 대기가 SDK 기본값 1초보다 커야 성립한다.
+            */
+            double initialDelay = Gemini.ideaRetry(Gemini.IDEA_MAX_ATTEMPTS).initialDelay().orElseThrow();
+            assertTrue(initialDelay > 1.0, "첫 대기가 SDK 기본값 1초보다 크지 않다: " + initialDelay);
+
+            /*
+              흔들림이 1.0 이면 대기가 0배까지 내려가 간격이 없는 것과 같아진다. 그 갈래를 막는
+              것까지가 이 처방이다.
+            */
+            double jitter = Gemini.ideaRetry(Gemini.IDEA_MAX_ATTEMPTS).jitter().orElseThrow();
+            assertTrue(jitter < 1.0, "흔들림이 대기를 0 으로 만들 수 있다: " + jitter);
+
+            /*
+              벌린 간격이 자기 분당 창을 넘기면 429 로 형태만 바뀐다. 누적 최악은
+              min(4 x 2^n x (1 + jitter), maxDelay) 의 합이고, 이것이 60초 안이어야 세 요청이
+              한 창에 든다.
+            */
+            double worst = 0;
+            for (int n = 1; n < Gemini.IDEA_MAX_ATTEMPTS; n++) {
+                worst += initialDelay * Math.pow(2, n) * (1 + jitter);
+            }
+            assertTrue(worst < 60, "재시도 누적 최악 %.1f초가 분당 창을 넘는다".formatted(worst));
         }
 
         @Test
@@ -141,18 +186,19 @@ class GeminiTest {
 
         @ParameterizedTest(name = "상한 {0}")
         @ValueSource(ints = {Gemini.COPY_MAX_ATTEMPTS, Gemini.IDEA_MAX_ATTEMPTS})
-        @DisplayName("만들어진 클라이언트가 넘긴 상한을 싣는다")
+        @DisplayName("만들어진 클라이언트가 넘긴 정책을 싣는다")
         void carriesRetryOptions(int attempts) throws Exception {
             // 정책이 클라이언트까지 닿았는지를 본다. 리플렉션의 이유는 ClientRetry 참고.
+            HttpRetryOptions policy = Gemini.ideaRetry(attempts);
             HttpRetryOptions retry;
-            try (Client client = Gemini.client("test-key-not-used", attempts)) {
+            try (Client client = Gemini.client("test-key-not-used", policy)) {
                 retry = ClientRetry.of(client);
             }
 
             assertEquals(attempts, retry.attempts().orElseThrow());
+            assertEquals(policy.initialDelay(), retry.initialDelay());
             assertEquals(
-                    Gemini.retryOptions(attempts).httpStatusCodes().orElseThrow(),
-                    retry.httpStatusCodes().orElseThrow());
+                    policy.httpStatusCodes().orElseThrow(), retry.httpStatusCodes().orElseThrow());
         }
     }
 }

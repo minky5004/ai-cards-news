@@ -130,7 +130,7 @@ public final class Copywriter {
      * 실제로 실린 상한을 본다.
      */
     static Client client(String apiKey) {
-        return Gemini.client(apiKey, Gemini.COPY_MAX_ATTEMPTS);
+        return Gemini.client(apiKey, Gemini.copyRetry());
     }
 
     /**
