@@ -73,7 +73,12 @@ jobs:
       date: ${{ steps.date.outputs.date }}
       sha: ${{ steps.publish.outputs.sha }}
     steps:
+      # 브랜치 헤드를 시작 시점에 받는다. 기본값은 실행이 만들어진 순간의 커밋이라, 앞 실행이
+      # 도는 동안 줄 선 실행(concurrency)은 그사이 올라온 발행 커밋을 못 보고 전 단계를 다시
+      # 돌다가 산출물 커밋의 rebase 에서 부딪힌다 — 백업 발화가 1차 뒤에 줄 서는 날이 그 자리다.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref_name }}
 
       # 날짜를 여기서 한 번 확정한다. 각 단계가 따로 계산하면 자정을 넘기는 순간
       # 단계마다 다른 날짜를 쓰게 된다 — 21:00 KST 정시 실행에서는 안 겪지만
