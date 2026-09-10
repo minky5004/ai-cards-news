@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-10T11:03:35.149Z",
+  "idea": {
+    "productName": "ProofSeal",
+    "tagline": "내 미발표 연구가 AI 성과로 둔갑하기 전에 지킨다",
+    "oneLineSummary": "연구자의 미발표 연구 초안과 비공개 논의를 암호학적으로 공증하고 AI 모델 출력과의 출처 유사도를 추적해 학술 저작권을 증명하는 플랫폼입니다.",
+    "problem": "미발표 수학 연구가 AI 학습에 무단 도용되어 모델의 성과로 둔갑하고 있습니다. 연구자는 자기 아이디어의 최초 도출 시점과 출처를 증명하기 어렵습니다.",
+    "productDescription": "수학자와 과학자의 미발표 연구 노트, 수식 유도 과정, 비공개 공동연구 대화를 블록체인 타임스탬프와 해시로 즉시 공증합니다. 프론티어 AI 모델이 발표하는 문제 해결 증명 논문과 출력물을 역추적 분석해 연구자의 고유 증명 경로와의 유사도를 탐지합니다. 저작권 분쟁이나 우선권 분쟁 발생 시 학술기관과 법원에 제출할 수 있는 공인된 타임라인 증명 보고서를 생성합니다.",
+    "keyFeatures": [
+      "연구 초안 암호학적 타임스탬프 공증",
+      "AI 모델 출력물 내 고유 증명 탐지",
+      "학술 우선권 입증 리포트 자동 발급",
+      "공동연구 대화 비공개 암호화 저장"
+    ],
+    "persona": "수학 난제를 연구 중이며 비공개 연구 대화나 초안이 AI 모델 학습에 유출되어 연구 성과를 빼앗길까 봐 불안해하는 대학 순수수학 연구원입니다.",
+    "businessModel": "연구자 개인용 월 19달러 구독제와 대학 연구소 및 학술 협회 대상 연간 라이선스(연구실당 연 1,200달러) 모델로 운영합니다.",
+    "marketStats": "기사에 규모 근거 없음",
+    "goToMarket": "안드레아스 톰 등 저작권 침해 의혹이 제기된 마스토돈 수학 연구 커뮤니티와 arXiv 프리프린트 저자들을 대상으로 초기 무료 공증 캠페인을 진행합니다.",
+    "unfairAdvantage": "GPT-6 Astra의 수학 난제 해결 논란과 미발표 연구 도용 의혹으로 연구자 사회의 출처 증명 수요가 지금 가장 높습니다.",
+    "competitors": [
+      "arXiv — 공개 프리프린트만 등록 가능 · 비공개 진행 중 연구 보호 불가",
+      "Git 커밋 히스토리 — 로컬 기록 위변조 가능 · 제3자 법적 공증력 부족",
+      "일반 특허/공증 사무소 — 비용이 높고 수식 유도 과정 추적 미지원"
+    ],
+    "risks": [
+      "AI 기업의 모델 추론 과정 비공개로 인한 직접적 학습 데이터 침해 입증 한계",
+      "순수 수학계 연구자들의 보수적인 신규 도구 도입 속도",
+      "독립적으로 동일한 결론에 도달한 AI와 도용 사이의 모호한 경계"
+    ],
+    "actionPlan": [
+      "마스토돈과 X의 수학 연구자 커뮤니티에서 연구 유출 불안 사례 인터뷰 20건 진행",
+      "논문 및 수식 텍스트의 해시 타임스탬프 생성 웹 프로토타입 배포",
+      "공개된 AI 수학 증명 텍스트와 연구 초안 간 수식 트리 유사도 비교 알고리즘 검증"
+    ],
+    "recommendation": "최근 프론티어 AI가 복잡한 수학 난제를 풀면서 미발표 연구 도용 논란이 폭발한 명확한 문제에 집중하고 있습니다. 다만 AI 기업이 CoT와 학습 데이터를 비공개할 경우 법적 침해 입증의 난도가 매우 높으므로 단순 고발보다는 연구자의 사전 우선권 확보 수단으로 포지셔닝해야 합니다.",
+    "searchQuery": "academic intellectual property ai proof timestamp attribution",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49619639",
+        "title": "AI Responsibility – OpenAI and Anthropic",
+        "url": "https://twitter.com/hilbertspaess/status/2097476196791709843"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/gpt-6-astra-next-generation-work",
+        "title": "GPT-6 Astra: The next generation in intelligence for work",
+        "url": "https://openai.com/index/gpt-6-astra-next-generation-work"
+      },
+      {
+        "clusterId": "hackernews:49639090",
+        "title": "DeepSeek v4.1 Flash",
+        "url": "https://twitter.com/deepseek_ai/status/2097930608790167907"
+      },
+      {
+        "clusterId": "hackernews:49624163",
+        "title": "How An AI math breakthrough ignited a controversy",
+        "url": "https://science.org/content/article/how-ai-math-breakthrough-ignited-controversy"
+      },
+      {
+        "clusterId": "hackernews:49638353",
+        "title": "OpenAI might have stolen another major proof",
+        "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996"
+      },
+      {
+        "clusterId": "hackernews:49629935",
+        "title": "My Mental Model of AI Broke on September 8",
+        "url": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8"
+      },
+      {
+        "clusterId": "hackernews:49623754",
+        "title": "Claude, change the “Add to Cart” button to blue",
+        "url": "https://opusfived.dev"
+      },
+      {
+        "clusterId": "hackernews:49628704",
+        "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+        "url": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists"
+      },
+      {
+        "clusterId": "hackernews:49636345",
+        "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
+        "url": "https://engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent"
+      },
+      {
+        "clusterId": "hackernews:49626373",
+        "title": "What will our economic future look like?",
+        "url": "https://anthropic.com/institute/econ-scenarios"
+      },
+      {
+        "clusterId": "hackernews:49636906",
+        "title": "I'm sorry, you're not going to die from an AI-engineered supervirus",
+        "url": "https://blog.genesmindsmachines.com/p/im-sorry-youre-not-going-to-die-from"
+      },
+      {
+        "clusterId": "hackernews:49637395",
+        "title": "A Stupid Idea for AI Alignment We Came with by Looking at Specification Gaming",
+        "url": "https://slimemoldtimemold.com/2026/08/05/a-stupid-idea-for-ai-alignment-we-came-up-with-by-looking-at-the-list-of-specification-gaming-behaviours"
+      },
+      {
+        "clusterId": "hackernews:49638622",
+        "title": "OpenAI have no mathematicians capable of understanding what they put out",
+        "url": "https://mastodon.social/@tristanbuckmaster/117237555794407063"
+      },
+      {
+        "clusterId": "hackernews:49622561",
+        "title": "How GPT‑5.6 Sol helps run quantum computing experiments",
+        "url": "https://openai.com/index/codex-quantum-computing-experiments"
+      },
+      {
+        "clusterId": "hackernews:49637435",
+        "title": "Training a 3.8B LLM to 0.384 CORE for $998",
+        "url": "https://hugovergnes.github.io/little-lm-3-8b"
+      }
+    ]
+  }
+}

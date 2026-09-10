@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-10T11:03:24.904Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49619639",
+      "headline": "10년 안에 AI가 인류를 죽일 수 있다",
+      "highlight": [
+        "인류를 죽일 수"
+      ],
+      "body": "오픈AI와 앤트로픽의 연구원 제이콥 콕슨이 두 공룡 기업의 위험한 초지능 경쟁을 비판하며 사직했습니다. 그는 개발자들이 10년 내 AI가 인류를 죽일 수 있다고 믿으면서도 경쟁에 눈이 멀었다고 폭로했습니다. AI 기술의 안전장치 없는 질주에 경종을 울린 것입니다.",
+      "sourceUrl": "https://twitter.com/hilbertspaess/status/2097476196791709843",
+      "sourceName": "X (formerly Twitter)",
+      "imageUrl": "https://pbs.twimg.com/profile_images/2097232673865601024/d6H8UbQJ_400x400.jpg",
+      "publishedAt": "2026-09-09T01:32:49.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/gpt-6-astra-next-generation-work",
+      "headline": "오픈AI가 맥미니 수만 대를 사들인 이유",
+      "highlight": [
+        "맥미니 수만 대"
+      ],
+      "body": "오픈AI가 신형 모델 GPT-6 아스트라 학습에 맥미니와 맥스튜디오 수만 대를 투입했습니다. GPU 대신 맥OS 환경을 직접 조작하며 PC 사용법을 배우게 만들기 위해서입니다. 앞으로 AI가 사람처럼 컴퓨터 화면과 앱을 제어하는 능력이 대폭 강화됩니다.",
+      "sourceUrl": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!bGKc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d2ac2ec-ab80-43a8-aa93-a33a846dda43_1564x874.png",
+      "publishedAt": "2026-09-09T11:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49638353",
+      "headline": "오픈AI가 인간 수학자의 발견을 훔쳤나",
+      "highlight": [
+        "발견을 훔쳤나"
+      ],
+      "body": "오픈AI 모델 아스트라가 해결한 수학 난제가 인간 수학자의 미공개 연구를 무단 학습해 빼돌린 것이라는 의혹이 제기됐습니다. 사실로 확인될 경우 AI의 자체 발견이 아닌 인간 성과의 도용이라는 비판이 나옵니다. 과학계 역사상 거대한 지적 스캔들로 번질 조짐입니다.",
+      "sourceUrl": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
+      "sourceName": "X (formerly Twitter)",
+      "imageUrl": "https://pbs.twimg.com/media/HRzajb0boAAstCJ?format=webp&name=large",
+      "publishedAt": "2026-09-10T04:19:48.000Z"
+    },
+    {
+      "clusterId": "hackernews:49629935",
+      "headline": "인류가 못 푼 수학 난제를 AI가 풀어냈다",
+      "highlight": [
+        "수학 난제를"
+      ],
+      "body": "2026년 9월 8일, AI가 인류 미답의 밀레니엄 문제 수학적 증명을 제시했습니다. 단순 토큰 예측을 넘어 인류에 없던 새로운 지식을 창조한 셈입니다. AI가 단순한 소프트웨어 도구를 넘어 인간 고유의 지적 영토까지 뒤흔들기 시작했습니다.",
+      "sourceUrl": "https://rough-ideas.bearblog.dev/my-mental-model-of-ai-broke-on-september-8",
+      "sourceName": "Rough Ideas",
+      "imageUrl": "https://rough-ideas.bearblog.dev/static/og-image.png",
+      "publishedAt": "2026-09-09T17:18:29.000Z"
+    },
+    {
+      "clusterId": "hackernews:49628704",
+      "headline": "앤트로픽이 AI 반대 시위대를 사전 추적한다",
+      "highlight": [
+        "사전 추적한다"
+      ],
+      "body": "앤트로픽이 AI 반대 활동가를 추적하고 범죄 발생 전 경찰에 신고하는 예방 감시 시스템을 구축 중입니다. 위험 감지 업체 샘디스크와 협력해 시위 동향을 미리 파악하며 전담 인력도 채용하고 있습니다. 안보를 명목으로 테크 기업이 민간인을 사전 감시한다는 논란이 커지고 있습니다.",
+      "sourceUrl": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists",
+      "sourceName": "The American Prospect",
+      "imageUrl": "https://i0.wp.com/prospect.org/wp-content/uploads/2026/09/Boguslaw-Anthropic-090926.jpg?fit=2000%2C1333&ssl=1",
+      "publishedAt": "2026-09-09T16:01:41.000Z"
+    }
+  ]
+}
