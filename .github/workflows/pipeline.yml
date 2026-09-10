@@ -312,7 +312,9 @@ jobs:
 
           TITLE="$STAGE 실패 — $DATE"
 
-          if [ -n "$(gh issue list --state open --search "$TITLE in:title" --json number --jq '.[].number')" ]; then
+          # 검색은 후보를 좁히는 데만 쓰고 중복 판정은 제목 완전 일치로 한다. 검색은 낱말 단위라
+          # 날짜가 `2026` `09` `09` 로 쪼개져, 열린 `2026-09-02` 이슈가 2026-09-09 의 알림을 삼켰다.
+          if gh issue list --state open --search "$TITLE in:title" --json title --jq '.[].title' | grep -Fxq -- "$TITLE"; then
             echo "$TITLE 이슈가 이미 열려 있다 — 새로 만들지 않는다"
             exit 0
           fi
