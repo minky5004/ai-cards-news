@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T16:05:49.961Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49636345",
+      "headline": "메타가 AI 위해 록밴드 계정을 빼앗았다",
+      "highlight": [
+        "록밴드 계정을"
+      ],
+      "body": "메타가 신규 AI 에이전트 '뮤즈'를 공개하며 영국 록밴드 뮤즈의 인스타그램 계정을 강제로 가져갔습니다. 밴드 계정은 '@museband'로 변경됐으며 메타는 과거 스레드 출시 때도 타인의 계정을 회수한 전력이 있습니다. 빅테크의 일방적인 계정 회수 논란이 다시 불붙고 있습니다.",
+      "sourceUrl": "https://engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent",
+      "sourceName": "Engadget",
+      "imageUrl": "https://www.engadget.com/img/gallery/muse-the-band-lost-its-social-media-handles-to-muse-metas-new-ai-agent/l-intro-1788993799.jpg",
+      "publishedAt": "2026-09-09T23:57:29.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/gpt-6-astra-next-generation-work",
+      "headline": "오픈AI가 맥미니 수만 대를 사들인 이유",
+      "highlight": [
+        "맥미니 수만 대"
+      ],
+      "body": "오픈AI가 GPT-6 Astra에 맥OS 조작법을 가르치려 맥미니 수만 대를 매입했습니다. 맥 화면을 보며 마우스와 키보드를 제어하는 강화학습 환경으로 쓰기 위해서입니다. 이제 AI는 단순 대화를 넘어 PC 프로그램을 직접 움직이는 단계로 진화하고 있습니다.",
+      "sourceUrl": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!bGKc!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3d2ac2ec-ab80-43a8-aa93-a33a846dda43_1564x874.png",
+      "publishedAt": "2026-09-09T11:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49623306",
+      "headline": "EU 새 규제에서 챗GPT 핵심이 빠졌다",
+      "highlight": [
+        "챗GPT",
+        "빠졌다"
+      ],
+      "body": "유럽연합이 챗GPT를 엄격한 규제 대상에 올렸지만 핵심인 대화 기능은 망을 피했습니다. 챗GPT를 검색엔진으로 분류하면서 정작 주요 채팅 기능 다수가 규제 대상에서 빠졌기 때문입니다. 강력한 규칙을 만들고도 정작 챗봇의 본질을 놓쳤다는 비판이 나옵니다.",
+      "sourceUrl": "https://politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans",
+      "sourceName": "POLITICO",
+      "imageUrl": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/09/09/GettyImages-2280226508-scaled.jpg",
+      "publishedAt": "2026-09-09T08:43:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:49641792",
+      "headline": "수학자들이 오픈AI에 \"연구 훔쳤나\" 따졌다",
+      "highlight": [
+        "연구 훔쳤나"
+      ],
+      "body": "수학자 안드레아스 톰은 오픈AI의 수학적 성과가 챗GPT 대화 등 미공개 연구 데이터를 무단 활용한 결과일 수 있다고 지적했습니다. 이에 오픈AI는 직접적인 사용자 데이터 사용을 부인했으나 간접적 영향은 배제하지 못했습니다. 수학계는 검증을 위한 데이터 공개를 촉구했습니다.",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2236544323.jpg?quality=90&strip=all&crop=0%2C10.54557577814%2C100%2C78.90884844372&w=1200",
+      "publishedAt": "2026-09-10T11:18:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:49621223",
+      "headline": "AI 능력이 빈 프롬프트 창에 갇혔다",
+      "highlight": [
+        "빈 프롬프트 창에"
+      ],
+      "body": "AI는 수많은 일을 할 수 있지만, 사용자는 빈 프롬프트 창을 보며 무엇을 질문해야 할지조차 모릅니다. 무엇이 가능한지 알지 못해 AI의 능력이 상자 뒤에 잠겨 있는 '발견 문제'에 막힌 것입니다. 이제는 사용자가 아닌 시스템이 먼저 능력을 보여줄 수 있어야 합니다.",
+      "sourceUrl": "https://mhacevedo.com/posts/the-discovery-problem",
+      "sourceName": "Miguel Acevedo",
+      "imageUrl": "https://mhacevedo.com/posts/ant-rim.png",
+      "publishedAt": "2026-09-09T04:59:26.000Z"
+    }
+  ]
+}
