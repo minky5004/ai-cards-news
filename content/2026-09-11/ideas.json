@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T21:15:39.872Z",
+  "idea": {
+    "productName": "MathVault",
+    "tagline": "미발표 연구 초고를 노출 없이 AI로 검증",
+    "oneLineSummary": "수학 및 과학 연구자가 미발표 논문을 AI 모델에 유출 없이 검증할 수 있도록 돕는 클라이언트 보안 프록시 솔루션입니다.",
+    "problem": "수학 연구자들은 미발표 논문이 AI 학습 데이터로 무단 수집되거나 유출될 것을 우려하여 AI 활용을 주저합니다. 외부 서버에 아이디어가 기록되지 않는 안전한 검증 환경이 부족합니다.",
+    "productDescription": "MathVault는 연구자의 단말에서 미발표 수식과 명제를 국소 암호화하고 난독화하여 AI API로 전송하는 보안 프록시입니다. Lean 4 공식 증명 코드 변환 시 민감한 독자 연구 데이터를 로컬 환경에서 분리 처리합니다. API 응답 완료 즉시 전송 로그와 임시 데이터를 완전히 파기하여 모델 학습용 수집을 원천 차단합니다.",
+    "keyFeatures": [
+      "수식 기호 로컬 난독화 처리",
+      "외부 프롬프트 저장 원천 차단",
+      "Lean4 코드 로컬 검증 연동",
+      "학습 수집 여부 감사 리포트"
+    ],
+    "persona": "OpenAI나 외부 AI 모델에 연구 노하우 유출을 두려워하는 대학 및 연구소 소속의 수학·물리학 연구원입니다.",
+    "businessModel": "연구실 단위 월 구독형 SaaS로 연 1,200달러(월 100달러)에 표준 엔터프라이즈 보안 게이트웨이 요금을 책정합니다.",
+    "marketStats": "기사에 규모 근거 없음.",
+    "goToMarket": "Mathstodon 등 학술 소셜 네트워크 및 대학 수학과 연구실 커뮤니티를 대상으로 로컬 보안 도구를 직접 홍보하여 100명의 초기 연구자 사용자를 확보합니다.",
+    "unfairAdvantage": "최근 수학자들의 OpenAI 무단 학습 의구심과 미발표 수식 유출 불안이 극대화된 시점에 맞춰 로컬 난독화 및 Lean 4 자동 연결 보안 기술을 제안합니다.",
+    "competitors": [
+      "일반 LLM API 게이트웨이 — 학술 수식 난독화 및 formal proof 통합 미지원",
+      "로컬 LLM (Ollama) — 최신 고성능 추론 모델 성능 대비 부족"
+    ],
+    "risks": [
+      "LLM API의 난독화 수식 이해도 저하로 인한 답변 정확도 감소",
+      "OpenAI 등 빅테크의 연구자 전용 Zero-Data-Retention 요금제 자체 출시"
+    ],
+    "actionPlan": [
+      "Mathstodon 활동 연구자 대상 데이터 유출 우려 설문 실시",
+      "Lean 4 기반 수식 난독화 로컬 프록시 MVP 개발",
+      "수학자 10명 대상 테스트 진행 및 수식 복원율 평가"
+    ],
+    "recommendation": "수학자들의 AI 무단 데이터 학습 피로감과 보안 수요를 정확히 겨냥한 아이디어입니다. 다만 수식 난독화 시 AI의 수학적 추론 능력이 떨어질 수 있어 실용성 검증이 필수적입니다.",
+    "searchQuery": "academic research privacy llm",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 4건 · 근거는 상위 4건 — 최고 119점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+          "url": "https://www.context.dev",
+          "points": 119
+        },
+        {
+          "title": "Launch HN: Risely (YC S25) – AI Agents for Universities",
+          "url": "https://news.ycombinator.com/item?id=45116859",
+          "points": 45
+        },
+        {
+          "title": "Show HN: PaperDebugger – An Overleaf companion for revising LaTeX papers",
+          "url": "https://github.com/PaperDebugger/paperdebugger",
+          "points": 4
+        },
+        {
+          "title": "Zeron: A new programming language forged from Python and Zig",
+          "url": "https://blue-bergamot-b17.notion.site/Zeron-Programming-Language-23b107b4d76480239536c4f042185d48?source",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49656496",
+        "title": "The Waymo effect: how AI is quietly making research less collaborative",
+        "url": "https://researchagenda.news/articles/the-waymo-effect.html"
+      },
+      {
+        "clusterId": "hackernews:49656225",
+        "title": "Claude is only available to people over 18 years",
+        "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude"
+      },
+      {
+        "clusterId": "hackernews:49645443",
+        "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+        "url": "https://cognition.com/blog/swe-2"
+      },
+      {
+        "clusterId": "hackernews:49649213",
+        "title": "OpenAI Agents API",
+        "url": "https://developers.openai.com/api/docs/guides/agents-api/overview"
+      },
+      {
+        "clusterId": "hackernews:49656033",
+        "title": "Resist \"AI\"",
+        "url": "https://ronjeffries.com/articles/-v026/x/t"
+      },
+      {
+        "clusterId": "hackernews:49659647",
+        "title": "Show HN: Hacker News, without AI",
+        "url": "https://hcker.news/?ai=exclude"
+      },
+      {
+        "clusterId": "hackernews:49639408",
+        "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+        "url": "https://mathstodon.xyz/@andreasthom/117240535270608201"
+      },
+      {
+        "clusterId": "hackernews:49639090",
+        "title": "DeepSeek v4.1 Flash",
+        "url": "https://twitter.com/deepseek_ai/status/2097930608790167907"
+      },
+      {
+        "clusterId": "hackernews:49650326",
+        "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+        "url": "https://johndcook.com/blog/2026/09/09/formal-method-revolution"
+      },
+      {
+        "clusterId": "hackernews:49647300",
+        "title": "Detecting and countering misuse of AI: September 2026",
+        "url": "https://anthropic.com/threat-intelligence-report-september-2026"
+      },
+      {
+        "clusterId": "hackernews:49656698",
+        "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
+        "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449"
+      },
+      {
+        "clusterId": "hackernews:49651372",
+        "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+        "url": "https://system76.com/workstations/thelio-mira-ai"
+      },
+      {
+        "clusterId": "hackernews:49641792",
+        "title": "Mathematicians want proof OpenAI didn't use their work",
+        "url": "https://theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data"
+      },
+      {
+        "clusterId": "hackernews:49653985",
+        "title": "GPT‑Live‑1 in the API",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+      },
+      {
+        "clusterId": "hackernews:49653699",
+        "title": "The Gemini app is now available for Windows",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows"
+      }
+    ]
+  }
+}
