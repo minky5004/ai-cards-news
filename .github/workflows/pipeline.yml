@@ -71,11 +71,12 @@ concurrency:
 jobs:
   pipeline:
     runs-on: ubuntu-latest
-    # 알림 잡이 이슈 제목에 쓸 날짜, 배포 잡이 빌드할 발행 커밋이다.
+    # 알림 잡이 이슈 제목에 쓸 날짜와 결번을 가를 아이디어 결과, 배포 잡이 빌드할 발행 커밋이다.
     # 잡이 나뉘면 steps 출력에 닿지 못한다.
     outputs:
       date: ${{ steps.date.outputs.date }}
       sha: ${{ steps.publish.outputs.sha }}
+      idea: ${{ steps.idea.outcome }}
     steps:
       # 브랜치 헤드를 시작 시점에 받는다. 기본값은 실행이 만들어진 순간의 커밋이라, 앞 실행이
       # 도는 동안 줄 선 실행(concurrency)은 그사이 올라온 발행 커밋을 못 보고 전 단계를 다시
@@ -178,8 +179,7 @@ jobs:
       # idea.webp 는 다음 재실행까지 밀린다. 앞에 두면 render 가 같은 브라우저로 이어 그리고,
       # 없는 날에는 그냥 건너뛴다 — 그 갈래는 Run 의 readIdeas 가 이미 판정한다.
       #
-      # 실패가 이슈를 만들지 않는 자리이기도 하다. 사유는 이 단계 로그에 남고, 그날
-      # idea.webp 가 없는 것이 곧 그 판정이다.
+      # 실패는 잡을 죽이지 않고 outcome 에만 남는다. 이슈를 열지는 alert 잡이 그 값으로 정한다.
       - name: 아이디어
         id: idea
         continue-on-error: true
@@ -195,9 +195,8 @@ jobs:
       # 죽었는지는 로그를 열어야 나온다. outcome 만이 진짜 결과를 들고 있으므로 그것으로
       # 이름 붙은 경고를 남긴다.
       #
-      # 이슈로 올리지는 않는다. 카드 다섯 장이 살아서 나간 실행이라, 매일 열리는 이슈는
-      # 알림이 아니라 소음이 된다 — deploy 잡의 조용한 건너뜀과 같은 자리를 만들지 않으면서
-      # 알림의 무게는 본체 실패에만 남긴다.
+      # 이슈는 여기서 열지 않는다. 1차에서 죽은 날은 백업 발화가 아이디어만 다시 돌므로 그 이슈는
+      # 대개 몇 시간 뒤 스스로 풀리는 소음이다. 백업·수동 실행까지 빠진 결번만 alert 잡이 올린다.
       - name: 아이디어 실패 표시
         if: steps.idea.outcome == 'failure'
         env:
@@ -295,9 +294,13 @@ jobs:
   #
   # if: failure() 는 needs 중 하나라도 실패했을 때 참이다. pipeline 이 죽어 deploy 가
   # 건너뛰어진 경우에도 발화한다.
+  #
+  # 아이디어 결번은 따로 건다. 그 단계는 continue-on-error 라 잡이 초록으로 끝나 failure() 에
+  # 안 걸린다 — 2026-09-10 은 1차·백업이 둘 다 아이디어에서 죽고도 알림이 없어, 사이트를 본
+  # 사람이 찾았다.
   alert:
     needs: [pipeline, deploy]
-    if: failure()
+    if: failure() || needs.pipeline.outputs.idea == 'failure'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -312,6 +315,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           DATE: ${{ needs.pipeline.outputs.date || inputs.date }}
           PIPELINE_RESULT: ${{ needs.pipeline.result }}
+          DEPLOY_RESULT: ${{ needs.deploy.result }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           SCHEDULE: ${{ github.event.schedule }}
         run: |
@@ -320,7 +324,24 @@ jobs:
           # env 가 그것을 먼저 받으므로, 여기 앵커는 예약 실행이 일찍 죽은 경우에만 쓰인다.
           [ -n "$DATE" ] || DATE=$(date -u -d '12 hours ago' +%Y-%m-%d)
 
-          if [ "$PIPELINE_RESULT" = "success" ]; then
+          # SCHEDULE 은 발화한 cron 문자열 그대로라 위 schedule 의 1차 값과 같아야 한다.
+          FIRST_SCHEDULE="0 12 * * *"
+
+          # 둘 다 살았는데 여기 닿았다면 아이디어만 빠진 실행이다. 1차에서는 이슈를 열지 않는다 —
+          # 백업 발화가 아이디어만 다시 돌아 대개 몇 시간 뒤 풀린다. 결번이 확정되는 것은 백업이나
+          # 손으로 돌린 실행까지 빠진 때다.
+          if [ "$PIPELINE_RESULT" = "success" ] && [ "$DEPLOY_RESULT" != "failure" ]; then
+            if [ "$SCHEDULE" = "$FIRST_SCHEDULE" ]; then
+              echo "$DATE 아이디어가 1차에서 빠졌다 — 백업 발화가 다시 돈다. 이슈는 열지 않는다"
+              exit 0
+            fi
+            STAGE="아이디어"
+            HOWTO="뉴스 카드는 발행됐다 — 빠진 것은 아이디어 카드 한 장이다. 사유는 실행 로그의 \`아이디어\` 단계에.
+
+          Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
+          끝난 단계는 전부 건너뛰고 아이디어만 다시 돈다 — Gemini 는 아이디어 모델 1회, 막히면 카피 모델 1회.
+          사유가 503 high demand 면 과부하가 풀린 뒤에 돌린다 — 2026-09-10 은 약 15시간 이어졌다."
+          elif [ "$PIPELINE_RESULT" = "success" ]; then
             STAGE="배포"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
           산출물이 이미 리포에 있는 단계는 전부 건너뛰므로 대개 배포만 다시 돈다.
@@ -336,8 +357,7 @@ jobs:
 
             # 1차가 죽은 날에는 백업 발화가 아직 남아 있다. 그걸 모르고 손으로 먼저 돌리면 1차·수동·
             # 백업 셋이 같은 Pacific 하루 한도를 나눠 써, 카피 모델이 최악 30회로 20 을 넘긴다.
-            # SCHEDULE 은 발화한 cron 문자열 그대로라 위 schedule 의 1차 값과 같아야 한다.
-            if [ "$SCHEDULE" = "0 12 * * *" ]; then
+            if [ "$SCHEDULE" = "$FIRST_SCHEDULE" ]; then
               HOWTO="백업 발화(18:37 UTC 예약 · 실제로는 몇 시간 늦게 뜬다)가 같은 날짜를 이어서 돈다.
           그 결과를 먼저 본다 — 손으로 먼저 돌리면 1차·수동·백업 셋이 하루 한도(20회)를 나눠 쓴다.
 
