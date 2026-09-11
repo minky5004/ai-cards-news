@@ -9,6 +9,7 @@ import com.aicards.news.pipeline.config.PipelineConfig;
 import com.google.genai.Client;
 import com.google.genai.types.HttpRetryOptions;
 import java.util.List;
+import java.util.Optional;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -58,7 +59,10 @@ class GeminiTest {
 
             // 카피는 기사당 한 번. 한도는 모델별로 서므로 아이디어를 여기 더하지 않는다 —
             // 더하면 실제보다 빡빡한 예산을 재는 것이라, 언젠가 maxCards 를 못 올리게 막는다.
-            int worstCase = config.scoring().maxCards() * Gemini.COPY_MAX_ATTEMPTS;
+            // 폴백만은 더한다. 아이디어 모델이 막힌 날 이 장부로 넘어오는 요청이다.
+            int worstCase =
+                    config.scoring().maxCards() * Gemini.COPY_MAX_ATTEMPTS
+                            + Gemini.IDEA_FALLBACK_ATTEMPTS;
 
             assertTrue(
                     worstCase <= Gemini.FREE_TIER_DAILY_LIMIT,
@@ -168,6 +172,26 @@ class GeminiTest {
         }
 
         @Test
+        @DisplayName("폴백이 카피의 마지막 분당 창에 얹혀도 한도 안에 든다")
+        void ideaFallbackFitsInCopyWindow() {
+            /*
+              폴백은 카피 모델로 나가고, 아이디어 단계는 카피 직후에 돈다. 아이디어 재시도 대기의
+              합이 60초 미만이라 폴백 요청은 카피 마지막 기사들의 분당 창 안에 떨어질 수 있다 —
+              그 창의 카피 최악(재시도 포함)에 폴백을 더한 값이 RPM 안이어야 한다. 넘치면 폴백이
+              429 로 떨어져 형태만 바뀐 결번이 된다.
+            */
+            PipelineConfig config = ConfigLoader.loadPipelineConfig();
+            int copyInWindow =
+                    (60 / config.copy().requestIntervalSeconds() + 1) * Gemini.COPY_MAX_ATTEMPTS;
+            int worstCase = copyInWindow + Gemini.IDEA_FALLBACK_ATTEMPTS;
+
+            assertTrue(
+                    worstCase <= Gemini.FREE_TIER_RPM,
+                    "카피 창 %d회 + 폴백 %d회가 분당 한도 %d회를 넘는다"
+                            .formatted(copyInWindow, Gemini.IDEA_FALLBACK_ATTEMPTS, Gemini.FREE_TIER_RPM));
+        }
+
+        @Test
         @DisplayName("SDK 기본값보다 적게 시도한다")
         void triesFewerTimesThanSdkDefault() {
             // SDK 의 RetryInterceptor 기본값이 5 다. 그대로 두면 한 호출이 5회로 불어난다.
@@ -177,6 +201,42 @@ class GeminiTest {
             // 0 이나 음수면 SDK 가 Math.max(attempts, 1) 로 되돌려 의도가 조용히 사라진다.
             assertTrue(Gemini.COPY_MAX_ATTEMPTS >= 1);
             assertTrue(Gemini.IDEA_MAX_ATTEMPTS >= 1);
+        }
+    }
+
+    @Nested
+    @DisplayName("아이디어 폴백")
+    class IdeaFallback {
+
+        @ParameterizedTest(name = "상태 {0}")
+        @ValueSource(ints = {503, 500, Gemini.TOO_MANY_REQUESTS})
+        @DisplayName("아이디어 모델 쪽 사정으로 막히면 카피 모델로 넘어간다")
+        void fallsBackToCopyModel(int status) {
+            // 2026-09-10 은 3.7 이 1차·백업 둘 다 503 이었고 같은 날 3.6 은 카피 5/5 였다. 같은
+            // 벽을 두 번 두드린 백업이 아니라 다른 모델이 그날을 살렸을 자리다. 429 도 같다 —
+            // 장부가 모델별이라 아이디어 모델의 장부가 찬 것은 카피 모델과 무관하다.
+            assertEquals(
+                    Optional.of("gemini-3.6-flash"),
+                    Gemini.ideaFallback("gemini-3.7-flash", "gemini-3.6-flash", status));
+        }
+
+        @Test
+        @DisplayName("같은 모델이면 넘어갈 곳이 없다")
+        void noFallbackOnSharedModel() {
+            assertEquals(
+                    Optional.empty(),
+                    Gemini.ideaFallback("gemini-3.6-flash", "gemini-3.6-flash", 503));
+        }
+
+        @ParameterizedTest(name = "상태 {0}")
+        @ValueSource(ints = {0, 400, 404})
+        @DisplayName("모델을 바꿔도 같을 실패는 넘어가지 않는다")
+        void noFallbackOnRequestFailures(int status) {
+            // 0 은 응답을 받은 뒤 파싱에서 죽은 경우다 — 토큰은 이미 나갔고, 같은 프롬프트로 한 번
+            // 더 부르면 같은 잘림을 한 번 더 산다. 400·404 는 요청 자체의 문제다.
+            assertEquals(
+                    Optional.empty(),
+                    Gemini.ideaFallback("gemini-3.7-flash", "gemini-3.6-flash", status));
         }
     }
 
