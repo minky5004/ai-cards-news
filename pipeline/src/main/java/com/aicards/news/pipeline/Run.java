@@ -34,6 +34,7 @@ import java.util.ArrayList;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.function.IntFunction;
 import java.util.regex.Pattern;
@@ -552,34 +553,26 @@ public final class Run {
 
         // 상한은 장부를 나눠 쓰는지에 달려 있다 — 설정이 두 모델을 같게 두면 카피 값으로 내려간다.
         int attempts = Gemini.ideaAttempts(config.idea().model(), config.copy().model());
-        IdeaResult result = IdeaWriter.write(date, candidates, config.idea(), attempts);
+        IdeaResult result =
+                IdeaWriter.write(date, candidates, config.idea(), config.idea().model(), attempts);
+        UsageLog usage = recordIdeaCall(date, previous, config.idea().model(), result);
 
-        /*
-          판정보다 기록이 먼저다. copy 와 같은 이유로, 실패한 실행의 호출이 누락되면 남은 여유를
-          실제보다 낙관적으로 보게 된다.
-
-          프롬프트 렌더링에서 죽은 경우처럼 실제로는 안 나간 호출도 1 로 센다. 한도 기록에서
-          많이 세는 쪽의 대가는 여유를 적게 보는 것뿐이고, 적게 세는 쪽의 대가는 한도를 넘겨
-          그날을 잃는 것이다.
-        */
-        UsageLog updated =
-                previous.plus(
-                        new UsageLog.Entry(
-                                Times.iso(Instant.now()),
-                                config.idea().model(),
-                                1,
-                                result.inputTokens(),
-                                result.outputTokens()));
-        Json.write(Paths.usageJson(date), updated);
-        System.out.printf(
-                "호출 1회 · 토큰 입력 %d 출력 %d%n%s 누적 %d회 · 오늘 전체 %d회 · 토큰 입력 %d 출력 %d%n%n",
-                result.inputTokens(),
-                result.outputTokens(),
-                config.idea().model(),
-                updated.totalCalls(config.idea().model()),
-                updated.totalCalls(),
-                updated.totalInputTokens(),
-                updated.totalOutputTokens());
+        // 재시도도 백업 발화도 같은 모델을 두드린다. 넘어갈지와 몇 번 던질지는 Gemini 가 정한다.
+        Optional<String> fallback =
+                Gemini.ideaFallback(config.idea().model(), config.copy().model(), result.status());
+        if (!result.ok() && fallback.isPresent()) {
+            System.out.printf(
+                    "%s 가 막혔다 — %s%n%s 로 한 번 더 던진다%n%n",
+                    config.idea().model(), result.error(), fallback.get());
+            result =
+                    IdeaWriter.write(
+                            date,
+                            candidates,
+                            config.idea(),
+                            fallback.get(),
+                            Gemini.IDEA_FALLBACK_ATTEMPTS);
+            recordIdeaCall(date, usage, fallback.get(), result);
+        }
 
         if (!result.ok()) {
             throw new IllegalStateException(
@@ -614,6 +607,39 @@ public final class Run {
 
         Json.write(output, new IdeasResult(date, Times.iso(Instant.now()), finished));
         System.out.printf("%n%s 에 기록했다.%n", Paths.relative(output));
+    }
+
+    /**
+     * 아이디어 호출 한 번을 그날 장부에 적는다. 폴백이 돈 날은 두 모델에 한 줄씩 남는다.
+     *
+     * <p>판정보다 기록이 먼저다. copy 와 같은 이유로, 실패한 실행의 호출이 누락되면 남은 여유를
+     * 실제보다 낙관적으로 보게 된다.
+     *
+     * <p>프롬프트 렌더링에서 죽은 경우처럼 실제로는 안 나간 호출도 1 로 센다. 한도 기록에서
+     * 많이 세는 쪽의 대가는 여유를 적게 보는 것뿐이고, 적게 세는 쪽의 대가는 한도를 넘겨
+     * 그날을 잃는 것이다.
+     */
+    private static UsageLog recordIdeaCall(
+            String date, UsageLog previous, String model, IdeaResult result) throws IOException {
+        UsageLog updated =
+                previous.plus(
+                        new UsageLog.Entry(
+                                Times.iso(Instant.now()),
+                                model,
+                                1,
+                                result.inputTokens(),
+                                result.outputTokens()));
+        Json.write(Paths.usageJson(date), updated);
+        System.out.printf(
+                "호출 1회 · 토큰 입력 %d 출력 %d%n%s 누적 %d회 · 오늘 전체 %d회 · 토큰 입력 %d 출력 %d%n%n",
+                result.inputTokens(),
+                result.outputTokens(),
+                model,
+                updated.totalCalls(model),
+                updated.totalCalls(),
+                updated.totalInputTokens(),
+                updated.totalOutputTokens());
+        return updated;
     }
 
     /**

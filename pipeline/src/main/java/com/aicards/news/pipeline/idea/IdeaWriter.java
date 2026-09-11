@@ -8,6 +8,7 @@ import com.aicards.news.pipeline.Templates;
 import com.aicards.news.pipeline.config.PipelineConfig;
 import com.aicards.news.pipeline.schema.IdeasResult;
 import com.google.genai.Client;
+import com.google.genai.errors.ApiException;
 import com.google.genai.types.GenerateContentConfig;
 import com.google.genai.types.GenerateContentResponse;
 import com.google.genai.types.GenerateContentResponseUsageMetadata;
@@ -116,10 +117,15 @@ public final class IdeaWriter {
             String recommendation,
             String searchQuery) {}
 
+    /**
+     * 모델은 설정이 아니라 부르는 쪽이 정한다 — 폴백이 같은 설정으로 카피 모델을 부른다
+     * ({@link Gemini#ideaFallback}).
+     */
     public static IdeaResult write(
             String date,
             List<Candidates.Candidate> candidates,
             PipelineConfig.Idea config,
+            String model,
             int attempts) {
 
         // 키가 없으면 첫 호출에서야 알게 되는 것보다 시작 시점에 터지는 게 낫다.
@@ -141,7 +147,7 @@ public final class IdeaWriter {
                             Map.of("date", date, "candidates", Candidates.asPrompt(candidates)));
 
             GenerateContentResponse response =
-                    client.models.generateContent(config.model(), prompt, requestConfig(config));
+                    client.models.generateContent(model, prompt, requestConfig(config));
 
             inputTokens = inputTokens(response.usageMetadata());
             outputTokens = outputTokens(response.usageMetadata());
@@ -150,7 +156,7 @@ public final class IdeaWriter {
         } catch (Exception e) {
             // 응답 전에 죽었으면 두 값이 0 이라 예전의 failed 와 같고, 응답 뒤에 죽었으면 실제로
             // 나간 토큰이 남는다.
-            return IdeaResult.unusable(message(e), inputTokens, outputTokens);
+            return IdeaResult.unusable(message(e), statusOf(e), inputTokens, outputTokens);
         }
     }
 
@@ -278,6 +284,16 @@ public final class IdeaWriter {
                                 used.candidatesTokenCount().orElse(0)
                                         + used.thoughtsTokenCount().orElse(0))
                 .orElse(0);
+    }
+
+    /**
+     * API 가 돌려준 HTTP 상태. API 밖의 실패는 0.
+     *
+     * <p>패키지 접근인 것은 테스트가 부르기 위해서다. 503 을 실제 호출로 받아내려면 모델이 과부하일
+     * 때까지 기다려야 한다.
+     */
+    static int statusOf(Exception e) {
+        return e instanceof ApiException api ? api.code() : 0;
     }
 
     /** SDK 예외는 메시지가 비는 것들이 있다. 그때 클래스 이름이라도 남아야 무엇이 터졌는지 안다. */

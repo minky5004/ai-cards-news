@@ -10,12 +10,18 @@ import com.aicards.news.pipeline.schema.IdeasResult;
  * 빼면 남은 한도를 실제보다 낙관적으로 보게 된다.
  *
  * @param idea 실패했으면 {@code null}
+ * @param status API 가 돌려준 HTTP 상태. 성공과 API 밖의 실패는 0 — 폴백이 이 값으로 갈린다
  */
 public record IdeaResult(
-        boolean ok, IdeasResult.Idea idea, String error, int inputTokens, int outputTokens) {
+        boolean ok,
+        IdeasResult.Idea idea,
+        String error,
+        int status,
+        int inputTokens,
+        int outputTokens) {
 
     static IdeaResult ok(IdeasResult.Idea idea, int inputTokens, int outputTokens) {
-        return new IdeaResult(true, idea, null, inputTokens, outputTokens);
+        return new IdeaResult(true, idea, null, 0, inputTokens, outputTokens);
     }
 
     /**
@@ -26,6 +32,10 @@ public record IdeaResult(
      * 붙기 쉽기 때문이다. 실제로 한 번 그렇게 붙어 있었다.
      */
     static IdeaResult unusable(String error, int inputTokens, int outputTokens) {
-        return new IdeaResult(false, null, error, inputTokens, outputTokens);
+        return unusable(error, 0, inputTokens, outputTokens);
+    }
+
+    static IdeaResult unusable(String error, int status, int inputTokens, int outputTokens) {
+        return new IdeaResult(false, null, error, status, inputTokens, outputTokens);
     }
 }

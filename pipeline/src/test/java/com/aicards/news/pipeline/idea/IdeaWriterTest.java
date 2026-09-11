@@ -10,6 +10,7 @@ import com.aicards.news.pipeline.ClientRetry;
 import com.aicards.news.pipeline.Gemini;
 import com.aicards.news.pipeline.schema.IdeasResult;
 import com.google.genai.Client;
+import com.google.genai.errors.ServerException;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.DisplayName;
@@ -240,6 +241,25 @@ class IdeaWriterTest {
             assertEquals(idea.productName(), finished.productName());
             assertEquals(idea.searchQuery(), finished.searchQuery());
             assertEquals(idea.actionPlan(), finished.actionPlan());
+        }
+    }
+
+    @Nested
+    @DisplayName("실패 상태")
+    class Status {
+
+        @Test
+        @DisplayName("API 실패의 상태 코드를 남긴다 — 폴백은 이 값으로 갈린다")
+        void keepsStatusOfApiFailure() {
+            // 사유 문자열에서 숫자를 오려 내면 SDK 가 메시지 형식을 바꾸는 날 폴백이 조용히 죽는다.
+            assertEquals(
+                    503, IdeaWriter.statusOf(new ServerException(503, "", "high demand")));
+        }
+
+        @Test
+        @DisplayName("API 밖의 실패는 0 이다")
+        void zeroOutsideApi() {
+            assertEquals(0, IdeaWriter.statusOf(new IllegalStateException("미치환 자리표시자")));
         }
     }
 
