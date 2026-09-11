@@ -1,0 +1,1162 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T16:05:52.025Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 3
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 33,
+      "filtered": 16
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49656496",
+      "representativeId": "hackernews:49656496",
+      "items": [
+        {
+          "id": "hackernews:49656496",
+          "title": "The Waymo effect: how AI is quietly making research less collaborative",
+          "url": "https://researchagenda.news/articles/the-waymo-effect.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T11:17:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 302,
+            "comments": 238,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49656496"
+          }
+        }
+      ],
+      "score": 5.285045966873918,
+      "breakdown": {
+        "hnPoints": 1.8382161303455469,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.246829836528371,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49656225",
+      "representativeId": "hackernews:49656225",
+      "items": [
+        {
+          "id": "hackernews:49656225",
+          "title": "Claude is only available to people over 18 years",
+          "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T10:48:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 298,
+            "comments": 374,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49656225"
+          }
+        }
+      ],
+      "score": 5.2571244668586745,
+      "breakdown": {
+        "hnPoints": 1.833940732515093,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.2231837343435812,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49645443",
+      "representativeId": "hackernews:49645443",
+      "items": [
+        {
+          "id": "hackernews:49645443",
+          "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+          "url": "https://cognition.com/blog/swe-2",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T15:29:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 433,
+            "comments": 186,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49645443"
+          }
+        }
+      ],
+      "score": 4.721848090975971,
+      "breakdown": {
+        "hnPoints": 1.953813523118537,
+        "hnComments": 0.986386547170845,
+        "mentions": 0.0,
+        "recency": 0.5816480206865895,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49649213",
+      "representativeId": "hackernews:49649213",
+      "items": [
+        {
+          "id": "hackernews:49649213",
+          "title": "OpenAI Agents API",
+          "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T19:43:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 317,
+            "comments": 166,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49649213"
+          }
+        }
+      ],
+      "score": 4.70326885357792,
+      "breakdown": {
+        "hnPoints": 1.8537611323885028,
+        "hnComments": 0.9650574313838309,
+        "mentions": 0.0,
+        "recency": 0.6844502898055862,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49656033",
+      "representativeId": "hackernews:49656033",
+      "items": [
+        {
+          "id": "hackernews:49656033",
+          "title": "Resist \"AI\"",
+          "url": "https://ronjeffries.com/articles/-v026/x/t",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T10:19:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 153,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49656033"
+          }
+        }
+      ],
+      "score": 4.668390417886995,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.9497761659449963,
+        "mentions": 0.0,
+        "recency": 1.2013860101501965,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49659647",
+      "representativeId": "hackernews:49659647",
+      "items": [
+        {
+          "id": "hackernews:49659647",
+          "title": "Show HN: Hacker News, without AI",
+          "url": "https://hcker.news/?ai=exclude",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T15:01:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 37,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49659647"
+          }
+        }
+      ],
+      "score": 4.631357455209733,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.6859093004814019,
+        "mentions": 0.0,
+        "recency": 1.4391266846136888,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49639408",
+      "representativeId": "hackernews:49639408",
+      "items": [
+        {
+          "id": "hackernews:49639408",
+          "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+          "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T06:49:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 850,
+            "comments": 787,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49639408"
+          }
+        }
+      ],
+      "score": 4.616582770720892,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.41658277072089167,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49639090",
+      "representativeId": "hackernews:49639090",
+      "items": [
+        {
+          "id": "hackernews:49639090",
+          "title": "DeepSeek v4.1 Flash",
+          "url": "https://twitter.com/deepseek_ai/status/2097930608790167907",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T06:11:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 980,
+            "comments": 558,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49639090"
+          }
+        }
+      ],
+      "score": 4.606380610189276,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4063806101892755,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49650326",
+      "representativeId": "hackernews:49650326",
+      "items": [
+        {
+          "id": "hackernews:49650326",
+          "title": "OpenAI’s Navier-Stokes release included a Lean 4 formal proof",
+          "url": "https://johndcook.com/blog/2026/09/09/formal-method-revolution",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T21:22:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 172,
+            "comments": 174,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49650326"
+          }
+        }
+      ],
+      "score": 4.561431501052492,
+      "breakdown": {
+        "hnPoints": 1.6579115712666674,
+        "hnComments": 0.9738806392359105,
+        "mentions": 0.0,
+        "recency": 0.7296392905499135,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49647300",
+      "representativeId": "hackernews:49647300",
+      "items": [
+        {
+          "id": "hackernews:49647300",
+          "title": "Detecting and countering misuse of AI: September 2026",
+          "url": "https://anthropic.com/threat-intelligence-report-september-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T17:23:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 159,
+            "comments": 223,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49647300"
+          }
+        }
+      ],
+      "score": 4.458546253344417,
+      "breakdown": {
+        "hnPoints": 1.6327796011872633,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6257666521571531,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49656698",
+      "representativeId": "hackernews:49656698",
+      "items": [
+        {
+          "id": "hackernews:49656698",
+          "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
+          "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T11:36:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49656698"
+          }
+        }
+      ],
+      "score": 4.445692079830774,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 1.26177611119725,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49651372",
+      "representativeId": "hackernews:49651372",
+      "items": [
+        {
+          "id": "hackernews:49651372",
+          "title": "Thelio Mira AI Linux Workstation: 192 GB GPU Memory",
+          "url": "https://system76.com/workstations/thelio-mira-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T23:10:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 116,
+            "comments": 118,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49651372"
+          }
+        }
+      ],
+      "score": 4.414805901496533,
+      "breakdown": {
+        "hnPoints": 1.5320816076690804,
+        "hnComments": 0.9011594799780448,
+        "mentions": 0.0,
+        "recency": 0.7815648138494076,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49641792",
+      "representativeId": "hackernews:49641792",
+      "items": [
+        {
+          "id": "hackernews:49641792",
+          "title": "Mathematicians want proof OpenAI didn't use their work",
+          "url": "https://theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T11:18:58.000Z",
+          "summary": "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries. Just days after a bitter row erupted over whether the company's models benefited from unpublished work, a second mathematician has come forward accusing the AI giant of unethical and \"dishonest\" behavior and a lack of transparency about the origins […]",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49641792"
+          }
+        },
+        {
+          "id": "hackernews:49638353",
+          "title": "OpenAI might have stolen another major proof",
+          "url": "https://twitter.com/ValerioCapraro/status/2097791836269977996",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T04:19:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 294,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49638353"
+          }
+        },
+        {
+          "id": "hackernews:49643112",
+          "title": "Another researcher says OpenAI trained on conversations, then claimed breakthrou",
+          "url": "https://bsky.app/profile/did:plc:ckaz32jwl6t2cno6fmuw2nhn/post/3mv4mt4ikss2d",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T13:07:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 259,
+            "comments": 15,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49643112"
+          }
+        },
+        {
+          "id": "hackernews:49638622",
+          "title": "OpenAI have no mathematicians capable of understanding what they put out",
+          "url": "https://mastodon.social/@tristanbuckmaster/117237555794407063",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T05:01:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 97,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49638622"
+          }
+        }
+      ],
+      "score": 4.406787813169492,
+      "breakdown": {
+        "hnPoints": 1.8296077518398284,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.5307953168072324,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49653985",
+      "representativeId": "hackernews:49653985",
+      "items": [
+        {
+          "id": "hackernews:49653985",
+          "title": "GPT‑Live‑1 in the API",
+          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T05:45:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49653985"
+          }
+        }
+      ],
+      "score": 4.236707586880358,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 1.0072199623433635,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49653699",
+      "representativeId": "hackernews:49653699",
+      "items": [
+        {
+          "id": "hackernews:49653699",
+          "title": "The Gemini app is now available for Windows",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T04:52:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 42,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49653699"
+          }
+        }
+      ],
+      "score": 4.1660953045415265,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.7092181537550141,
+        "mentions": 0.0,
+        "recency": 0.9735453836770754,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49644179",
+      "representativeId": "hackernews:49644179",
+      "items": [
+        {
+          "id": "hackernews:49644179",
+          "title": "AI Is Breaking This Thing We Call Trust",
+          "url": "https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T14:21:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 105,
+            "comments": 46,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49644179"
+          }
+        }
+      ],
+      "score": 3.9829555315392917,
+      "breakdown": {
+        "hnPoints": 1.5003167381952176,
+        "hnComments": 0.7259902397577118,
+        "mentions": 0.0,
+        "recency": 0.5566485535863622,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49644294",
+      "representativeId": "hackernews:49644294",
+      "items": [
+        {
+          "id": "hackernews:49644294",
+          "title": "AI 2027 (2025)",
+          "url": "https://ai-2027.com",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T14:27:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49644294"
+          }
+        }
+      ],
+      "score": 3.8765798528298525,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.5586767052854296,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49646123",
+      "representativeId": "hackernews:49646123",
+      "items": [
+        {
+          "id": "hackernews:49646123",
+          "title": "One resignation turned the embers of AI fear into a wildfire",
+          "url": "https://interconnects.ai/p/one-resignation-turned-the-embers",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T16:09:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49646123"
+          }
+        }
+      ],
+      "score": 3.847569621930404,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.5967479442266339,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49652475",
+      "representativeId": "hackernews:49652475",
+      "items": [
+        {
+          "id": "hackernews:49652475",
+          "title": "How My Students Think About AI",
+          "url": "https://lesswrong.com/posts/ySXuvJcqRindQwAk7/how-my-students-think-about-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-11T01:33:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49652475"
+          }
+        }
+      ],
+      "score": 3.708589566422669,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.8569647656963597,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49651084",
+      "representativeId": "hackernews:49651084",
+      "items": [
+        {
+          "id": "hackernews:49651084",
+          "title": "Anthropic CEOs wife once asked Epstein to fund porn venture – now steers Claude",
+          "url": "https://nypost.com/2026/08/14/business/anthropic-ceos-wife-once-asked-jeffrey-epstein-to-fund-porn-venture-now-she-helps-steer-the-claude-ai-empire",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T22:38:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49651084"
+          }
+        }
+      ],
+      "score": 3.334484731365196,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.7656278430344154,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49646988",
+      "representativeId": "hackernews:49646988",
+      "items": [
+        {
+          "id": "hackernews:49646988",
+          "title": "Anthropic says it blocked possible efforts to build biological weapons",
+          "url": "https://nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-10T17:04:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 67,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49646988"
+          }
+        }
+      ],
+      "score": 3.306325915690432,
+      "breakdown": {
+        "hnPoints": 1.3574955969752556,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.6181293327117852,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match",
+          "title": "Soft-deprecating re.match()",
+          "url": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-11T14:47:57.000Z",
+          "summary": "Soft-deprecating re.match() Python has a concept of soft deprecation , where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future. Python 3.15 release manager Hugo van Kemenade describes how in the upcoming 3.15 release soft deprecation has come for the venerable but deeply confusing re.match() function. It's now available with the much clearer alternative re.prefixmatch() name - reflecting how it anchors at the beginning of the string but not the end. Most of the time you probably want re.search() (match this pattern anywhere in the string) or re.fullmatch() (match the entire string) instead. Via Lobste.rs Tags: python , regular-expressions",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.476833558815276,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.426833558815276,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/11/wrapture",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/11/wrapture",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/11/wrapture",
+          "title": "Don't sleep on wrapture",
+          "url": "https://simonwillison.net/2026/Sep/11/wrapture",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-11T13:51:32.000Z",
+          "summary": "Graham Dumpleton's new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it! Graham has been posting new tutorials for it almost daily since the initial release on August 31st. Here's everything he's published so far: Introducing wrapture - a new monkey patching library that serves both testing and observability (think New Relic style tracing) at the same time. Unit testing with wrapture - how to use it for the same kinds of thing as unittest.mock . Recording calls with wrapture - recording method calls as timelines and processing and displaying them as trees. Phased behaviour in wrapture - arranging patched methods to change behavior across multiple calls. Beyond callables in wrapture - monkey patching attributes, dictionaries, generators. Live tracing with wrapture - tracing a live application to see exactly how it works. Zero-code tracing with wrapture - configuring tracing in a separate TOML file without modifying Python code at all. Tracing Flask with wrapture - using the separate wrapture-instrumenation package to instrument a Flask application. That package also provides instrumentation for aiohttp.client , aiohttp.web , django , fastapi , flask , grpc , http.client , httpx , jinja2 , requests , sqlalchemy , sqlite3 , starlette , urllib.request , urllib3 , uvicorn , werkzeug.serving , wsgiref.simple_server , xmlrpc.client , xmlrpc.server . Finding slow code with wrapture - wrapture's tools for recording timing information, both individually and aggregated across multiple calls. OpenTelemetry export in wrapture - exporting traces to OpenTelemetry. Graham also has a set of interactive workshops for wrapture, implemented as JupyterLab notebooks. Wrapture is still alpha software but it's already very usable - especially given you can configure and try it out with a TOML file without modifying any Python code at all. This feels like one of those Swiss Army Knife packages that, once mastered, will provide value against all sorts of problems for years to come. Tags: graham-dumpleton , open-source , testing , python , observability , monkey-patching",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.426094358636157,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3760943586361574,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us",
+          "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+          "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T19:50:04.000Z",
+          "summary": "Meta's newest app Muse is off to a slower start than the company's other apps, like Meta AI or Threads.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/993391/meta-muse-ai-hands-on",
+          "title": "Meta’s Muse AI works and creeps me out",
+          "url": "https://theverge.com/tech/993391/meta-muse-ai-hands-on",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-10T15:00:00.000Z",
+          "summary": "Meta has launched its new Muse assistant, marking the company's first real foray into AI-powered productivity tools. The company says its AI agent can \"take the busywork off your plate\" by helping you with online shopping, emails, trip-planning, and more. I decided to try out the new tool and see how well it performed - […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.4207331510147814,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6873998176814482,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research",
+          "title": "Claude users found ways around safeguards for bioweapons research",
+          "url": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-11T13:02:35.000Z",
+          "summary": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.3835346620551565,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3335346620551567,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "representativeId": "theverge-ai:https://theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+          "title": "Meta says it’s changing AI suggestions after posing invasive personal questions",
+          "url": "https://theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-11T14:25:21.000Z",
+          "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters, as reported earlier by Futurism. In a statement to The Verge, Meta spokesperson Dina El-Kassaby says the company \"missed the mark,\" adding that \"the feature never should […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.306287070694296,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.406287070694296,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "representativeId": "openai:https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+          "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+          "source": "openai",
+          "publishedAt": "2026-09-10T16:00:00.000Z",
+          "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.093038093162156,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5930380931621564,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/put-data-to-work",
+      "representativeId": "openai:https://openai.com/index/put-data-to-work",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/put-data-to-work",
+          "title": "Now everyone can put data to work",
+          "url": "https://openai.com/index/put-data-to-work",
+          "source": "openai",
+          "publishedAt": "2026-09-10T15:00:00.000Z",
+          "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0706353894268776,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5706353894268776,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/11/datasette-security",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/11/datasette-security",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/11/datasette-security",
+          "title": "Datasette 1.0a39 and 0.65.4 security releases",
+          "url": "https://simonwillison.net/2026/Sep/11/datasette-security",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-11T03:27:16.000Z",
+          "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are security fixes which you should apply if you are running a Datasette instance on the public web - in particular if that instance mixes both public and private tables. Following issues reported by Sevban Dönmez , Alex Garcia and I ran an extensive audit of Datasette using Claude Fable 5.1, GPT-5.6, and GPT-6 Astra. We then spent almost a week collaborating on and reviewing the fixes. They helped find some very subtle bugs. We'll be incorporating security audits by frontier models into all of our development work going forward. Alex came up with a way of splitting the work which I found extremely productive: Alex Garcia and I worked together running and then responding to the audit, working in a shared private repository. For most of the issues we split the work: one of us would create the automated tests highlighting the issue, then the other would implement the fix. This ensured that two separate humans had eyes on each of the issues, in addition to our coding agents running different models. Tags: releases , security , ai , datasette , generative-ai , llms , agentic-engineering , ai-security-research",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9718185517224496,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9218185517224498,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-chatgpt-financial-services",
+      "representativeId": "openai:https://openai.com/index/introducing-chatgpt-financial-services",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-chatgpt-financial-services",
+          "title": "Introducing ChatGPT for Financial Services",
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "source": "openai",
+          "publishedAt": "2026-09-10T07:00:00.000Z",
+          "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9193412571769004,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4193412571769003,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/expanding-ai-access-us-government",
+      "representativeId": "openai:https://openai.com/index/expanding-ai-access-us-government",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/expanding-ai-access-us-government",
+          "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+          "url": "https://openai.com/index/expanding-ai-access-us-government",
+          "source": "openai",
+          "publishedAt": "2026-09-10T07:00:00.000Z",
+          "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9193412571769004,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4193412571769003,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/10/trynix",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/10/trynix",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/10/trynix",
+          "title": "Any Nix package, live in your browser",
+          "url": "https://simonwillison.net/2026/Sep/10/trynix",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-10T23:44:15.000Z",
+          "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser through WebAssembly. That VM can then be booted with any Nix package from the past 13 years. They are URL addressable, so you can navigate to this page: https://trynix.dev/?pkg=python3%403.6.2 Then click \"Load\" and get an interactive shell against a virtual machine running Python 3.6.2 from 2017. Farid is building all sorts of neat things on top of this. One recent example: Review a pull request by booting it introduces trynix-preview , described like this: GitHub action that comments a link on a pull request which lets you boot the PR’s build in the browser using https://trynix.dev . No servers, just browsers. Via Lobste.rs Tags: code-review , linux , webassembly , github-actions",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8488839188585429,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7988839188585432,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/10/shopify-react-native",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/10/shopify-react-native",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/10/shopify-react-native",
+          "title": "Native is now the future of mobile at Shopify",
+          "url": "https://simonwillison.net/2026/Sep/10/shopify-react-native",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-10T21:11:15.000Z",
+          "summary": "Native is now the future of mobile at Shopify Shopify are moving from React Native back to separate Swift and Kotlin codebases for their native apps, for the exact reason you would expect: We decided to switch from native to React Native in 2020 for three reasons: Stop building the same features twice Allow developers to work across the stack Spend less time chasing feature parity and more time shipping value [...] Native still means building and maintaining software on two platforms, that cost has not disappeared. What changed is that agents can now do enough of the implementation, translation, testing, and review work that it’s no longer the deciding factor it was in 2020. It's a well-written post, which gives full credit to React Native as a great platform for the six years they were using it. Shopify are the maintainers of three significant React Native libraries: react-native-skia , flash-list , and restyle . The first two are finding new homes; the third \"has a smaller user base than our other libraries\" and will be archived at the end of 2026. Via Hacker News Tags: android , mobile , open-source , ios , ai , react , generative-ai , llms , ai-assisted-search , coding-agents , swift , shopify",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7741653871596563,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7241653871596564,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
+          "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+          "url": "https://techcrunch.com/2026/09/10/openai-puts-pro-subscriptions-on-hold-due-to-astra-demand",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T20:59:51.000Z",
+          "summary": "The company said Pro subscriptions put the most strain on its systems, so it's pausing sign-ups while adding more capacity.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6188863281180839,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.718886328118084,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+          "title": "Anthropic details distillation campaigns from Alibaba, Moonshot AI, and DeepSeek",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T20:57:30.000Z",
+          "summary": "A new report released Thursday by Anthropic alleges persistent distillation attacks by China-based AI companies, which have escalated in recent months as competition in the space has intensified.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6178028944589602,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7178028944589603,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
+          "title": "Powering AI is an architecture problem",
+          "url": "https://technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-10T11:00:00.000Z",
+          "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two years earlier, a single failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts at once. No…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5391737539892105,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4891737539892107,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you",
+          "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+          "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T17:54:44.000Z",
+          "summary": "Come inside the mind of a bot trying to convince the internet it's human.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.538355173167496,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6383551731674961,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
+          "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+          "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T17:45:00.000Z",
+          "summary": "Pocket FM uses AI to produce 99% of its new content, helping make content production about 80 times cheaper.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5343798732703307,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6343798732703306,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+          "title": "Universal Music is launching an AI music platform with ElevenLabs",
+          "url": "https://theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-10T15:38:19.000Z",
+          "summary": "Universal Music Group is launching a new AI-powered platform that will allow users to draw from its catalog of licensed music to create song remixes, mashups, and new takes on tracks, according to an announcement on Thursday. The record label is developing the platform through a multiyear licensing agreement with ElevenLabs, a company that specializes […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4848422821921603,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5848422821921603,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
+          "title": "AI agents are flooding public services with new requests",
+          "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T14:53:50.000Z",
+          "summary": "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4683814006841405,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5683814006841404,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal",
+          "title": "Maven Robotics wants to steal your robot deployment deal",
+          "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-10T14:17:37.000Z",
+          "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.455322324556047,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.555322324556047,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49656496",
+    "hackernews:49656225",
+    "hackernews:49645443",
+    "hackernews:49649213",
+    "hackernews:49656033"
+  ]
+}

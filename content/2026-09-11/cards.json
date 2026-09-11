@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026-09-11T16:11:59.136Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49656496",
+      "headline": "AI는 저자 순서로 싸우지 않는다",
+      "highlight": [
+        "저자 순서"
+      ],
+      "body": "AI는 새벽 2시에도 응답하며 논문 저자 순서로 갈등을 일으키지 않습니다. 이처럼 편리함에 이끌려 인간 동료 대신 AI를 택하는 연구자가 늘면서 공동연구가 줄고 있습니다. 개인의 성과 속도는 빨라졌지만 연구 아이디어의 다양성은 감소한다는 분석입니다.",
+      "sourceUrl": "https://researchagenda.news/articles/the-waymo-effect.html",
+      "sourceName": "Research Agenda",
+      "imageUrl": "https://www.researchagenda.news/assets/cards/the-waymo-effect-d66b2c0d.png",
+      "publishedAt": "2026-09-11T11:17:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:49656225",
+      "headline": "18세 미만 감지 시 클로드 계정 묶인다",
+      "highlight": [
+        "18세 미만",
+        "계정 묶인다"
+      ],
+      "body": "앤트로픽이 AI '클로드'에 만 18세 이용 제한을 두고 미성년자 감지 시 계정을 비활성화합니다. 계정을 다시 쓰려면 신원 인증 플랫폼 요티(Yoti)로 성인 인증을 마쳐야 합니다. 개인정보는 요티가 즉시 삭제하며 앤트로픽에는 합격 여부만 전달됩니다.",
+      "sourceUrl": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+      "sourceName": "hackernews",
+      "imageUrl": "https://downloads.intercomcdn.com/i/o/lupk8zyo/792494/717b10d3ebd874823db64841659b/76f3062d78ebbb04863fb1de3ef9cca0.png",
+      "publishedAt": "2026-09-11T10:48:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49645443",
+      "headline": "GPT-6급 성능인데 비용은 4분의 1",
+      "highlight": [
+        "비용은 4분의 1"
+      ],
+      "body": "Cognition이 신형 코딩 AI 모델 SWE-2를 공개했습니다. SWE-2는 벤치마크에서 GPT-6 Astra에 육박하는 성능을 내면서도 비용은 4분의 1 수준으로 줄였습니다. 개발자들은 훨씬 더 적은 비용으로 고성능 코딩 에이전트를 실무에 활용할 수 있게 됩니다.",
+      "sourceUrl": "https://cognition.com/blog/swe-2",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cognition.com/images/swe-2/cover.jpg",
+      "publishedAt": "2026-09-10T15:29:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:49649213",
+      "headline": "오픈AI가 에이전트 관리를 직접 맡는다",
+      "highlight": [
+        "에이전트 관리를",
+        "직접 맡는다"
+      ],
+      "body": "오픈AI가 개발자를 위한 Agents API를 공개했습니다. 세션 관리, 컨텍스트 압축, 샌드박스 실행까지 오픈AI가 직접 처리합니다. 개발자는 툴 설정만 하면 복잡한 에이전트 시스템을 바로 구축할 수 있습니다.",
+      "sourceUrl": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "sourceName": "OpenAI Developers",
+      "imageUrl": "https://developers.openai.com/og/api/docs/guides/agents-api/overview.png",
+      "publishedAt": "2026-09-10T19:43:22.000Z"
+    },
+    {
+      "clusterId": "hackernews:49656033",
+      "headline": "AI 데이터센터 1곳 전력이 10만 가구급",
+      "highlight": [
+        "10만 가구급"
+      ],
+      "body": "AI 데이터센터 1곳의 전력 소비는 10만 가구, 하루 물 소비는 5만 가구급에 달합니다. 모델 훈련에도 1억 달러와 10억 와트시 이상의 전력이 소모됩니다. 무분별한 사용이 환경과 일자리를 위협하는 만큼 AI 도입에 적극 저항해야 한다는 지적입니다.",
+      "sourceUrl": "https://ronjeffries.com/articles/-v026/x/t",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-09-11T10:19:59.000Z"
+    }
+  ]
+}
