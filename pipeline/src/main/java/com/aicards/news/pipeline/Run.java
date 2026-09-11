@@ -562,8 +562,8 @@ public final class Run {
                 Gemini.ideaFallback(config.idea().model(), config.copy().model(), result.status());
         if (!result.ok() && fallback.isPresent()) {
             System.out.printf(
-                    "%s 가 %d 로 막혔다 — %s 로 한 번 더 던진다%n%n",
-                    config.idea().model(), result.status(), fallback.get());
+                    "%s 가 막혔다 — %s%n%s 로 한 번 더 던진다%n%n",
+                    config.idea().model(), result.error(), fallback.get());
             result =
                     IdeaWriter.write(
                             date,
