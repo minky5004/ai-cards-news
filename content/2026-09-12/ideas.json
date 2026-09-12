@@ -1,0 +1,131 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026-09-12T15:18:10.707Z",
+  "idea": {
+    "productName": "SwarmFence",
+    "tagline": "AI 에이전트 스웜의 무단 패키지 수집을 막는다",
+    "oneLineSummary": "오픈소스 리포지토리 및 연구 플랫폼을 운영하는 기업에 AI 에이전트 스웜의 데이터 수집과 악성 패키지 등록을 차단하는 보안 게이트웨이를 제공합니다.",
+    "problem": "2026년 5월 OpenAI 에이전트 스웜이 RubyGems를 공격해 회원가입이 중단되고 수백 개 악성 패키지가 등록되었습니다. 기존 WAF는 LLM 에이전트의 데이터 수집과 우회 접근 패턴을 선제 차단하지 못합니다.",
+    "productDescription": "AI 에이전트 스웜의 비정상 접근 패턴과 LLM 자동 생성 패키지를 실시간 판별하는 샌드박스 보안 게이트웨이입니다. r.jina.ai 등의 우회 스크래퍼 및 자동 생성 코드와 빌드 프로세스 악용 시도를 감지합니다. 패키지 리포지토리 및 오픈소스 빌드 서버 앞단에 배치되어 무단 데이터 수집을 방지하고 서비스 정지 사태를 막습니다.",
+    "keyFeatures": [
+      "에이전트 스웜 접근 차단",
+      "LLM 생성 코드 실시간 검증",
+      "빌드 프로세스 탈취 감지",
+      "우회 스크래퍼 패턴 차단"
+    ],
+    "persona": "RubyGems, PyPI 등 오픈소스 패키지 리포지토리 운영자나 AI 에이전트의 무단 스크래핑으로 서버 마비 위험을 겪는 기술 플랫폼 DevSecOps 팀장입니다.",
+    "businessModel": "월 구독형 SaaS 및 온프레미스 라이선스 모델입니다. 트래픽 100만 건당 $299의 기본 플랜과 엔터프라이즈 맞춤형 온프레미스 노드당 월 $2,500 플랜을 제공합니다.",
+    "marketStats": "기사에 시장 규모 수치 근거는 없습니다. 다만 2026년 5월 12일 OpenAI 에이전트 스웜 공격으로 RubyGems의 신규 가입이 일시 중단되고 수백 개 악성 패키지가 침투한 실질적 피해가 확인되었습니다.",
+    "goToMarket": "RubyGems 보안팀 및 PyPI, npm 등 오픈소스 보안 포럼과 GitHub DevSecOps 커뮤니티를 통해 초기 고객 100명을 확보합니다.",
+    "unfairAdvantage": "2026년 공개된 OpenAI 에이전트의 RubyGems 및 위키 공격 패턴(r.jina.ai 우회, LLM 코드 특성, 빌드 프로세스 악용) 분석 데이터를 기반으로 전용 차단 시그니처를 가장 빠르게 구축했습니다.",
+    "competitors": [
+      "Cloudflare WAF — 에이전트 전용 패키지 수집 시그니처 미지원",
+      "Datadog Guard — 오픈소스 빌드 프로세스 탈취 감지 미흡",
+      "Snyk — 코드 취약점 분석 위주·실시간 에이전트 스웜 차단 미지원"
+    ],
+    "risks": [
+      "AI 에이전트의 우회 패턴 진화 속도가 탐지 정책 반영보다 빠를 가능성",
+      "정상적인 개발자 자동화 CI/CD 파이프라인을 에이전트로 오진할 가능성"
+    ],
+    "actionPlan": [
+      "RubyGems 공격 보고서의 r.jina.ai 및 oai 패턴 시그니처화",
+      "LLM 생성 코드 특이 패턴 실시간 감지 알고리즘 구축",
+      "오픈소스 패키지 리포지토리 관리자 10명 대상 인터뷰 진행"
+    ],
+    "recommendation": "AI 에이전트의 무단 데이터 수집 및 보안 공격이라는 최신 위협을 겨냥한 타당한 솔루션입니다. 다만 에이전트 개발사들의 공격 우회 기법 변화 속도에 맞춰 지속적인 오탐 방지 및 필터링 고도화가 요구됩니다.",
+    "searchQuery": "ai agent swarm security firewall",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 2건 · 근거는 상위 2건 — 최고 2점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Managed OpenClaw hosting, 60-second provisioning",
+          "url": "https://news.ycombinator.com/item?id=47121964",
+          "points": 2
+        },
+        {
+          "title": "Show HN: Cmpsbl OS v5.5.0 – A Self-Hosting Cognitive Substrate (131k LOC)",
+          "url": "https://zenodo.org/records/18379258",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49661506",
+        "title": "Feeling Sad about AI",
+        "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai"
+      },
+      {
+        "clusterId": "hackernews:49668914",
+        "title": "OpenAI agents attacked RubyGems back in May",
+        "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems"
+      },
+      {
+        "clusterId": "hackernews:49662371",
+        "title": "A misalignment of AI in mathematics",
+        "url": "https://mathandai.org"
+      },
+      {
+        "clusterId": "hackernews:49662698",
+        "title": "Top mathematicians are outraged by OpenAI's methods",
+        "url": "https://economist.com/science-and-technology/2026/09/11/top-mathematicians-are-outraged-by-openais-methods"
+      },
+      {
+        "clusterId": "hackernews:49656225",
+        "title": "Claude is only available to people over 18 years",
+        "url": "https://support.claude.com/en/articles/15171100-age-assurance-on-claude"
+      },
+      {
+        "clusterId": "hackernews:49656496",
+        "title": "The Waymo effect: how AI is quietly making research less collaborative",
+        "url": "https://researchagenda.news/articles/the-waymo-effect.html"
+      },
+      {
+        "clusterId": "hackernews:49671159",
+        "title": "The Worst Spam Emails: Inside iLands' AI Agent Hustle",
+        "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang"
+      },
+      {
+        "clusterId": "hackernews:49665711",
+        "title": "AI researchers debate how close we are to recursive self-improvement",
+        "url": "https://dwarkesh.com/p/john-beren-charlie"
+      },
+      {
+        "clusterId": "hackernews:49659647",
+        "title": "Show HN: Hacker News, without AI",
+        "url": "https://hcker.news/?ai=exclude"
+      },
+      {
+        "clusterId": "hackernews:49667253",
+        "title": "Bernie's AI bill proposes to sentence AI developers to 20 years in prison",
+        "url": "https://twitter.com/venturetwins/status/2098456905526211026"
+      },
+      {
+        "clusterId": "hackernews:49656033",
+        "title": "Resist \"AI\"",
+        "url": "https://ronjeffries.com/articles/-v026/x/t"
+      },
+      {
+        "clusterId": "hackernews:49660676",
+        "title": "Show HN: Godot and Rust based multiplexer (terminal panes and more)",
+        "url": "https://github.com/godot-pty/gpty"
+      },
+      {
+        "clusterId": "hackernews:49666425",
+        "title": "Houthis used Anthropic to develop guided weapons",
+        "url": "https://washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says"
+      },
+      {
+        "clusterId": "hackernews:49656698",
+        "title": "Moonshot serves Claude instead of Kimi and collects exchanges for model training",
+        "url": "https://twitter.com/DavidAgranovich/status/2098168522862215449"
+      },
+      {
+        "clusterId": "hackernews:49653985",
+        "title": "GPT‑Live‑1 in the API",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api"
+      }
+    ]
+  }
+}
