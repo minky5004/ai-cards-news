@@ -1,0 +1,640 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T15:49:31.393Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 25,
+      "filtered": 8
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49678683",
+      "representativeId": "hackernews:49678683",
+      "items": [
+        {
+          "id": "hackernews:49678683",
+          "title": "Everyone should slow down AI development except for me",
+          "url": "https://xeiaso.net/notes/2026/everyone-slowdown-but-me",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T00:30:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 657,
+            "comments": 384,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49678683"
+          }
+        },
+        {
+          "id": "hackernews:49674395",
+          "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+          "url": "https://bbc.com/news/articles/c14dpgm0rg4o",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T16:56:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 107,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49674395"
+          }
+        },
+        {
+          "id": "hackernews:49675247",
+          "title": "Anthropic CEO Says It's Time to Slow AI Model Advances",
+          "url": "https://bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T18:07:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49675247"
+          }
+        },
+        {
+          "id": "hackernews:49679685",
+          "title": "Anthropic CEO says AI swarm could 'take over the Internet' in 6-12 months",
+          "url": "https://venturebeat.com/security/anthropic-ceo-says-ai-swarm-could-take-over-the-entire-internet-in-6-12-months-commits-to-ai-slowdown-plan",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T03:25:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49679685"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+          "title": "Anthropic CEO outlines plan to slow AI development",
+          "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-12T19:34:44.000Z",
+          "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+          "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+          "url": "https://theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-12T16:23:40.000Z",
+          "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like METR access to its models to help ensure its \"adherence to safety practices and commitments.\" In a winding essay, Amodei proposed a three-step plan to \"pace the frontier\" - jargon that simply means to slow […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.797169842340223,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.9305031756735558,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49676849",
+      "representativeId": "hackernews:49676849",
+      "items": [
+        {
+          "id": "hackernews:49676849",
+          "title": "OpenAI's Sam Altman says it would be 'ill-advised' to go public in 2026",
+          "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T20:28:29.000Z",
+          "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+          "trust": 0.8,
+          "signals": {
+            "points": 94,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49676849"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+          "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+          "url": "https://theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-12T21:16:28.000Z",
+          "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an interview with Fortune. Over the course of 45 minutes, Altman discussed a variety of subjects including the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an AI that was beyond human control. On the latter, he […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.019787006235207,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7342557604424276,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49678969",
+      "representativeId": "hackernews:49678969",
+      "items": [
+        {
+          "id": "hackernews:49678969",
+          "title": "Why are AI agents lying, cheating and coordinating?",
+          "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T01:22:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 434,
+            "comments": 508,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49678969"
+          }
+        }
+      ],
+      "score": 5.014416920282654,
+      "breakdown": {
+        "hnPoints": 1.9545539583176972,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8598629619649567,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49673098",
+      "representativeId": "hackernews:49673098",
+      "items": [
+        {
+          "id": "hackernews:49673098",
+          "title": "Nvidia is the central bank of AI",
+          "url": "https://economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T15:08:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 530,
+            "comments": 382,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49673098"
+          }
+        }
+      ],
+      "score": 4.779788414807482,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5797884148074814,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49676820",
+      "representativeId": "hackernews:49676820",
+      "items": [
+        {
+          "id": "hackernews:49676820",
+          "title": "Real-SWE: Benchmarking AI models on private, real-world, enterprise codebases",
+          "url": "https://withspecific.com/benchmarks/real-swe",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T20:25:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 256,
+            "comments": 140,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49676820"
+          }
+        },
+        {
+          "id": "hackernews:49672281",
+          "title": "LLMs are real, AI is fake",
+          "url": "https://pluralistic.net/2026/09/12/god-in-the-box",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T13:47:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 36,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49672281"
+          }
+        }
+      ],
+      "score": 4.629152599012586,
+      "breakdown": {
+        "hnPoints": 1.7852429427455108,
+        "hnComments": 0.9331464013803678,
+        "mentions": 0.0,
+        "recency": 0.7107632548867071,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49676085",
+      "representativeId": "hackernews:49676085",
+      "items": [
+        {
+          "id": "hackernews:49676085",
+          "title": "An open letter to Dario: if you mean it, open the weights",
+          "url": "https://jacob.gold/posts/open-letter-to-dario-amodei-about-open-weights",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T19:15:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 291,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49676085"
+          }
+        }
+      ],
+      "score": 4.570290117408093,
+      "breakdown": {
+        "hnPoints": 1.826319284175855,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 0.6794217344800414,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49683834",
+      "representativeId": "hackernews:49683834",
+      "items": [
+        {
+          "id": "hackernews:49683834",
+          "title": "AI models don't kill people – people kill people",
+          "url": "https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T13:33:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49683834"
+          }
+        }
+      ],
+      "score": 4.512326105807839,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 1.374661877947467,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49684266",
+      "representativeId": "hackernews:49684266",
+      "items": [
+        {
+          "id": "hackernews:49684266",
+          "title": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
+          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T14:15:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49684266"
+          }
+        }
+      ],
+      "score": 4.464030305168271,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 1.4123114634331386,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49678435",
+      "representativeId": "hackernews:49678435",
+      "items": [
+        {
+          "id": "hackernews:49678435",
+          "title": "AgentsDock: An IDE designed for agentic AI research",
+          "url": "https://agentsdock.net",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T23:45:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49678435"
+          }
+        }
+      ],
+      "score": 4.050720582410514,
+      "breakdown": {
+        "hnPoints": 1.3890177512719881,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 0.8081979011215694,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49671159",
+      "representativeId": "hackernews:49671159",
+      "items": [
+        {
+          "id": "hackernews:49671159",
+          "title": "The worst spam emails: iLands AI agent hustle",
+          "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T11:13:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 117,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49671159"
+          }
+        }
+      ],
+      "score": 3.992522981626334,
+      "breakdown": {
+        "hnPoints": 1.5348196578300592,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.49867630941169877,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49678783",
+      "representativeId": "hackernews:49678783",
+      "items": [
+        {
+          "id": "hackernews:49678783",
+          "title": "Align AI and Mathematics–To Something Else",
+          "url": "https://liorpachter.wordpress.com/2026/09/12/align-ai-and-mathematics-to-something-else",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T00:47:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49678783"
+          }
+        }
+      ],
+      "score": 3.7968814949604557,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 0.840915997646815,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "representativeId": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 3.0,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.5,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49668914",
+      "representativeId": "hackernews:49668914",
+      "items": [
+        {
+          "id": "hackernews:49668914",
+          "title": "OpenAI agents attacked RubyGems back in May",
+          "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems",
+          "source": "hackernews",
+          "publishedAt": "2026-09-12T04:46:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49668914"
+          }
+        }
+      ],
+      "score": 2.881422566391344,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.3890208536798279,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/12/astra-running-routes",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/12/astra-running-routes",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/12/astra-running-routes",
+          "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+          "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-12T23:56:42.000Z",
+          "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When I asked it how it had created the route, it replied: I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails , then calculated the loops locally. Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature. By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem. As for displaying the map to me, that used the visualize skill . It created a file called /workspace/el-granada-5k-share.html to embed directly into the ChatGPT UI. Here's a copy of that HTML , which starts like this: < div id =\" eg-share-loop \" > < div class =\" viz-row \" > < h3 > El Granada harbor loop </ h3 > < span class =\" text-small \" > 5.1 km </ span > </ div > < div id =\" eg-share-stage \" > </ div > < div class =\" text-small text-muted \" > Map data © < a href =\" https://www.openstreetmap.org/copyright \" target =\" _blank \" rel =\" noopener \" > OpenStreetMap contributors </ a > </ div > < style > # eg-share-loop { width : 100 % ; } # eg-share-loop # eg-share-stage { width : 100 % ; margin : 8 px 0 ; } # eg-share-loop . eg-share-map { display : block; width : 100 % ; touch-action : none; } # eg-share-loop . eg-share-map text { fill : var ( --foreground ); font-size : 12 px ; font-weight : 400 ; } # eg-share-loop . eg-share-label { paint-order : stroke; stroke : var ( --background ); stroke-width : 3 px ; stroke-linejoin : round; } </ style > < script type =\" application/json \" id =\" eg-share-data \" > { \"route\" : { \"type\" : \"LineString\" , \"coordinates\" : [ [ - 122.467425 , 37.4997753 ] . . . </ script > < script src =\" https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js \" > </ script > < script > (() => { const root=document.getElementById('eg-share-loop'); The <script type=\"application/json\"> element contains the full geometry needed to render both the running route and the map itself, using D3, which is loaded from an allow-listed CDN location described in this section of the visualize skill : External resources The CSP allows only cdnjs.cloudflare.com , esm.sh , cdn.jsdelivr.net , unpkg.com , fonts.googleapis.com , fonts.gstatic.com , and fonts.bunny.net . Other origins are blocked and fail silently. Tags: geospatial , ai , d3 , openai , generative-ai , chatgpt , llms , skills , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8637845420459307,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8137845420459309,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/12/sighting-399708714",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/12/sighting-399708714",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/12/sighting-399708714",
+          "title": "California Brown Pelican",
+          "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-12T21:16:09.000Z",
+          "summary": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7841065472278297,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7341065472278299,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/12/paul-ford",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/12/paul-ford",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/12/paul-ford",
+          "title": "Quoting Paul Ford",
+          "url": "https://simonwillison.net/2026/Sep/12/paul-ford",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-12T18:00:21.000Z",
+          "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t. — Paul Ford , A.I. Was Supposed to Give Us New Killer Apps. What Happened? Tags: paul-ford , generative-ai , deep-blue , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6974160684569504,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6474160684569505,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+          "title": "OpenAI’s rogue AI tried to hack another company in May",
+          "url": "https://theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-12T21:41:36.000Z",
+          "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API keys. At the time, RubyGems described it as a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.64619582274906,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7461958227490602,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china",
+          "title": "I spent $4,000 on a robot dog from China",
+          "url": "https://arstechnica.com/gadgets/2026/09/i-spent-4000-on-a-robot-dog-from-china",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-12T11:00:53.000Z",
+          "summary": "Unitree might be the world’s most important robotics company.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.544612297936405,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4946122979364052,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+          "title": "OpenAI just wants to win",
+          "url": "https://theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-12T11:00:00.000Z",
+          "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement. Instead, many mathematicians have watched OpenAI's relentless advance with […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3943319688674929,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4943319688674929,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49678683",
+    "hackernews:49676849",
+    "hackernews:49678969",
+    "hackernews:49673098",
+    "hackernews:49676820"
+  ]
+}
