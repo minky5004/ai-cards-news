@@ -1,0 +1,1140 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T17:54:05.940Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 45,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/fyxer",
+      "representativeId": "openai:https://openai.com/index/fyxer",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/fyxer",
+          "title": "How Fyxer built an AI executive assistant people trust",
+          "url": "https://openai.com/index/fyxer",
+          "source": "openai",
+          "publishedAt": "2026-09-14T12:00:00.000Z",
+          "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49687869",
+          "title": "There Is No AI (It's Just People) with Jaron Lanier",
+          "url": "https://singjupost.com/startalk-there-is-no-ai-really-its-just-people-w-jaron-lanier-transcript",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T19:41:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 108,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49687869"
+          }
+        },
+        {
+          "id": "hackernews:49683834",
+          "title": "AI models don't kill people – people kill people",
+          "url": "https://theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T13:33:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 69,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49683834"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+          "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+          "url": "https://theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-14T13:00:00.000Z",
+          "summary": "Microsoft is publishing a 37-page \"humanist AI code of conduct\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei called for a coordinated slow down of AI development over the weekend, after researchers warned recently that AI model progress could outpace our ability to safely deploy increasingly complex systems and verify […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.690745301769043,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.884608364701041,
+        "mentions": 1.6666666666666665,
+        "recency": 1.2419857422773348,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49699384",
+      "representativeId": "hackernews:49699384",
+      "items": [
+        {
+          "id": "hackernews:49699384",
+          "title": "For AI leaders Doom is a form of hype",
+          "url": "https://erkansaka.net/2026/09/10/ai-doom-rhetoric-safety-hype",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T16:15:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 117,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49699384"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom",
+          "title": "What’s behind the AI industry’s latest warnings of doom?",
+          "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-13T19:40:15.000Z",
+          "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.858574919413174,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.8995682328609801,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4076428412095292,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49696867",
+      "representativeId": "hackernews:49696867",
+      "items": [
+        {
+          "id": "hackernews:49696867",
+          "title": "The AI job market in 2026",
+          "url": "https://ilinmaks.com/blog/en/ai-jobs-market-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T13:49:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49696867"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026",
+          "title": "Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-14T14:30:00.000Z",
+          "summary": "Not long ago, bringing an extinct species back to life belonged to science fiction. Today, it's the mission of a billion-dollar startup. Join the conversation with one of tech's most unconventional founders. Secure your Disrupt pass today.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.466302269294523,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3158380576632713,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49695876",
+      "representativeId": "hackernews:49695876",
+      "items": [
+        {
+          "id": "hackernews:49695876",
+          "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+          "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T12:40:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 170,
+            "comments": 193,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49695876"
+          }
+        }
+      ],
+      "score": 5.074379958870509,
+      "breakdown": {
+        "hnPoints": 1.6541706110687582,
+        "hnComments": 0.9933161020136931,
+        "mentions": 0.0,
+        "recency": 1.2268932457880575,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49695409",
+      "representativeId": "hackernews:49695409",
+      "items": [
+        {
+          "id": "hackernews:49695409",
+          "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+          "url": "https://macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T12:01:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 204,
+            "comments": 133,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49695409"
+          }
+        }
+      ],
+      "score": 5.03230294579632,
+      "breakdown": {
+        "hnPoints": 1.712513192112811,
+        "hnComments": 0.9235448243807354,
+        "mentions": 0.0,
+        "recency": 1.1962449293027733,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49685253",
+      "representativeId": "hackernews:49685253",
+      "items": [
+        {
+          "id": "hackernews:49685253",
+          "title": "Garry Tan wants US open-weight AI labs to 'distill' frontier models, too",
+          "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T15:44:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 402,
+            "comments": 223,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49685253"
+          }
+        },
+        {
+          "id": "hackernews:49690260",
+          "title": "Open-source AI and open models reading list",
+          "url": "https://interconnects.ai/p/open-source-ai-reading-list",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T00:22:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 145,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49690260"
+          }
+        }
+      ],
+      "score": 4.893939415547243,
+      "breakdown": {
+        "hnPoints": 1.9299715839804628,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7639678315667803,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49699526",
+      "representativeId": "hackernews:49699526",
+      "items": [
+        {
+          "id": "hackernews:49699526",
+          "title": "Hacking AI customer service agents",
+          "url": "https://intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T16:26:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49699526"
+          }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
+          "title": "AI agents blew the whistle on their cheating colleagues",
+          "url": "https://technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-14T16:00:00.000Z",
+          "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep swarms of autonomous AI agents in…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 4.888894035634181,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4175853984244204,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49688695",
+      "representativeId": "hackernews:49688695",
+      "items": [
+        {
+          "id": "hackernews:49688695",
+          "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+          "url": "https://vals.ai/blogs/fable-solves-cyphral-distich",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T21:06:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1155,
+            "comments": 527,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49688695"
+          }
+        }
+      ],
+      "score": 4.873390790552187,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6733907905521868,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49699373",
+      "representativeId": "hackernews:49699373",
+      "items": [
+        {
+          "id": "hackernews:49699373",
+          "title": "Claude is a Contrarian",
+          "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T16:14:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 73,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49699373"
+          }
+        }
+      ],
+      "score": 4.815635303766783,
+      "breakdown": {
+        "hnPoints": 1.3846993112377068,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 1.4070256331931335,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49685991",
+      "representativeId": "hackernews:49685991",
+      "items": [
+        {
+          "id": "hackernews:49685991",
+          "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+          "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T16:52:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 317,
+            "comments": 245,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49685991"
+          }
+        }
+      ],
+      "score": 4.625980150497197,
+      "breakdown": {
+        "hnPoints": 1.8537611323885028,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5722190181086937,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49698936",
+      "representativeId": "hackernews:49698936",
+      "items": [
+        {
+          "id": "hackernews:49698936",
+          "title": "Anthropic tells investors it will be profitable for second straight quarter",
+          "url": "https://reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T15:47:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49698936"
+          }
+        }
+      ],
+      "score": 4.606585797866947,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 1.3829277369300135,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49694596",
+      "representativeId": "hackernews:49694596",
+      "items": [
+        {
+          "id": "hackernews:49694596",
+          "title": "Big AI sets out its terms for regulatory capture",
+          "url": "https://theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T10:28:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 103,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49694596"
+          }
+        }
+      ],
+      "score": 4.602309699132705,
+      "breakdown": {
+        "hnPoints": 1.4941885728712574,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 1.1268847466417329,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49697014",
+      "representativeId": "hackernews:49697014",
+      "items": [
+        {
+          "id": "hackernews:49697014",
+          "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
+          "url": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T13:59:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 84,
+            "comments": 35,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49697014"
+          }
+        }
+      ],
+      "score": 4.595040591572976,
+      "breakdown": {
+        "hnPoints": 1.4292851064554424,
+        "hnComments": 0.675714295252094,
+        "mentions": 0.0,
+        "recency": 1.2900411898654398,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49693384",
+      "representativeId": "hackernews:49693384",
+      "items": [
+        {
+          "id": "hackernews:49693384",
+          "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+          "url": "https://github.com/anuj0456/OpenArch",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T07:55:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 122,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49693384"
+          }
+        }
+      ],
+      "score": 4.4108967538304205,
+      "breakdown": {
+        "hnPoints": 1.548170907766744,
+        "hnComments": 0.6413354390568011,
+        "mentions": 0.0,
+        "recency": 1.021390407006875,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49698664",
+      "representativeId": "hackernews:49698664",
+      "items": [
+        {
+          "id": "hackernews:49698664",
+          "title": "China's Regulators Take Aim at \"AI Boyfriends\"",
+          "url": "https://spectrum.ieee.org/china-ai-chatbot-regulation",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T15:30:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49698664"
+          }
+        }
+      ],
+      "score": 4.407343812118656,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 1.368316239382191,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49697094",
+      "representativeId": "hackernews:49697094",
+      "items": [
+        {
+          "id": "hackernews:49697094",
+          "title": "Adversarial Fashion Makes a Statement on AI Panopticon",
+          "url": "https://spectrum.ieee.org/adversarial-fashion",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T14:04:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49697094"
+          }
+        }
+      ],
+      "score": 4.360325384764754,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 1.2947968602949598,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49694871",
+      "representativeId": "hackernews:49694871",
+      "items": [
+        {
+          "id": "hackernews:49694871",
+          "title": "Watch AI materials-science and bioscience abilities closely",
+          "url": "https://lesswrong.com/posts/SCtkSz4nQ9icLZ4uq/watch-ai-materials-science-and-bioscience-abilities-closely",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T11:01:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49694871"
+          }
+        }
+      ],
+      "score": 4.271291997647516,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 1.1506614527706125,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49697666",
+      "representativeId": "hackernews:49697666",
+      "items": [
+        {
+          "id": "hackernews:49697666",
+          "title": "RubyGems Open Source Supply Chain Security and OpenAI",
+          "url": "https://rietta.com/blog/rubygems-supply-chain-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T14:39:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49697666"
+          }
+        }
+      ],
+      "score": 4.1078443664106,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 1.3234747867440333,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49684266",
+      "representativeId": "hackernews:49684266",
+      "items": [
+        {
+          "id": "hackernews:49684266",
+          "title": "Houthis used Claude Code to develop missile guidance software: Anthropic",
+          "url": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T14:15:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49684266"
+          }
+        }
+      ],
+      "score": 4.05275589539849,
+      "breakdown": {
+        "hnPoints": 1.484771736152262,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.0,
+        "recency": 0.5174089830646732,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49687334",
+      "representativeId": "hackernews:49687334",
+      "items": [
+        {
+          "id": "hackernews:49687334",
+          "title": "AI recursive self-improvement might not come so quickly after all",
+          "url": "https://technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T18:49:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49687334"
+          }
+        }
+      ],
+      "score": 4.0334741986631215,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.6169144905975149,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49692118",
+      "representativeId": "hackernews:49692118",
+      "items": [
+        {
+          "id": "hackernews:49692118",
+          "title": "Who gets to define the rules for AI?",
+          "url": "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T04:49:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 36,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49692118"
+          }
+        }
+      ],
+      "score": 4.0263145421749496,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.6808806914263887,
+        "mentions": 0.0,
+        "recency": 0.906768399180649,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49689706",
+      "representativeId": "hackernews:49689706",
+      "items": [
+        {
+          "id": "hackernews:49689706",
+          "title": "Due to concerns about malicious applications, GPT2 will not be released (2019)",
+          "url": "https://openai.com/index/better-language-models",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T23:11:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 73,
+            "comments": 34,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49689706"
+          }
+        }
+      ],
+      "score": 3.9847728326689644,
+      "breakdown": {
+        "hnPoints": 1.3846993112377068,
+        "hnComments": 0.6704023478051564,
+        "mentions": 0.0,
+        "recency": 0.7296711736261012,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49690529",
+      "representativeId": "hackernews:49690529",
+      "items": [
+        {
+          "id": "hackernews:49690529",
+          "title": "AI is not a normal technology",
+          "url": "https://12gramsofcarbon.com/p/ai-is-not-a-normal-technology",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T01:00:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49690529"
+          }
+        }
+      ],
+      "score": 3.983372492605507,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 0.7824773159932445,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49698603",
+      "representativeId": "hackernews:49698603",
+      "items": [
+        {
+          "id": "hackernews:49698603",
+          "title": "Foundation Model Engineering: From Theory to Production",
+          "url": "https://sungeuns.github.io/foundation-model-engineering",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T15:27:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49698603"
+          }
+        }
+      ],
+      "score": 3.979855273656059,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 1.3655673442035416,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49690411",
+      "representativeId": "hackernews:49690411",
+      "items": [
+        {
+          "id": "hackernews:49690411",
+          "title": "AI Robots – When will they be in our homes",
+          "url": "https://spectrum.ieee.org/ai-robots",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T00:44:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49690411"
+          }
+        }
+      ],
+      "score": 3.9065836351781815,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.7745992816893799,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49690139",
+      "representativeId": "hackernews:49690139",
+      "items": [
+        {
+          "id": "hackernews:49690139",
+          "title": "“Chilling” warning or overreaction? AI bioweapons report divides experts",
+          "url": "https://science.org/content/article/chilling-warning-or-overreaction-ai-bioweapons-report-divides-experts",
+          "source": "hackernews",
+          "publishedAt": "2026-09-14T00:07:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 23,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49690139"
+          }
+        }
+      ],
+      "score": 3.6900646434532978,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.5992591196328295,
+        "mentions": 0.0,
+        "recency": 0.7563085113747949,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49681276",
+      "representativeId": "hackernews:49681276",
+      "items": [
+        {
+          "id": "hackernews:49681276",
+          "title": "Dramatic insider warnings over AI fall flat with some in Silicon Valley",
+          "url": "https://bbc.co.uk/news/articles/cq635037g18o",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T08:07:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49681276"
+          }
+        }
+      ],
+      "score": 3.5520603481482893,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.8090161730336244,
+        "mentions": 0.0,
+        "recency": 0.40854716266899166,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49688681",
+      "representativeId": "hackernews:49688681",
+      "items": [
+        {
+          "id": "hackernews:49688681",
+          "title": "AI Is Destroying the World",
+          "url": "https://gornak40.org/blog/ai-is-destroying-the-world.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T21:04:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49688681"
+          }
+        }
+      ],
+      "score": 3.389767317819971,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.6727716113835133,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49682465",
+      "representativeId": "hackernews:49682465",
+      "items": [
+        {
+          "id": "hackernews:49682465",
+          "title": "GCC AI Policy Announcement",
+          "url": "https://gcc.gnu.org/pipermail/gcc/2026-July/248628.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-13T10:50:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49682465"
+          }
+        }
+      ],
+      "score": 2.768668198949687,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.45367527630177495,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/14/laurie-voss",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/14/laurie-voss",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/14/laurie-voss",
+          "title": "Quoting Laurie Voss",
+          "url": "https://simonwillison.net/2026/Sep/14/laurie-voss",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-14T14:34:29.000Z",
+          "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job. — Laurie Voss , We are all Product Engineers now Tags: laurie-voss , generative-ai , agentic-engineering , ai , llms , deep-blue , careers",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.3696297243359505,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3196297243359507,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
+          "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+          "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-14T16:27:53.000Z",
+          "summary": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.319254366004131,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4192543660041312,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "representativeId": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+          "url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.252845844986791,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.752845844986791,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
+          "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+          "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-14T15:00:00.000Z",
+          "summary": "If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.241418796512025,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3414187965120252,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work",
+          "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+          "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-14T14:45:44.000Z",
+          "summary": "Fathom said that it has over 400,000 monthly active users.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2291923053011415,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3291923053011416,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/14/commit-rewriter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/14/commit-rewriter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/14/commit-rewriter",
+          "title": "commit-rewriter 0.1",
+          "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-14T00:28:10.000Z",
+          "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent. Tags: git , projects , python , ai-assisted-programming",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.816579135255367,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7665791352553672,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/13/shot-scraper",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/13/shot-scraper",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/13/shot-scraper",
+          "title": "shot-scraper 1.12",
+          "url": "https://simonwillison.net/2026/Sep/13/shot-scraper",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-13T23:58:14.000Z",
+          "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples. I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool . Tags: playwright , shot-scraper",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.801992713072065,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7519927130720652,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+          "title": "Trump and Mike Johnson think the AI industry is overreacting",
+          "url": "https://theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-13T19:41:48.000Z",
+          "summary": "Yesterday, Anthropic CEO Dario Amodei published a lengthy open letter saying it was time to \"pace the frontier\" and slow down AI development. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X. Even Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump and House Speaker Mike Johnson, however, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5378779507751275,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6378779507751277,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+          "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+          "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-13T16:30:00.000Z",
+          "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.463997128670457,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.563997128670457,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/fyxer",
+    "hackernews:49699384",
+    "hackernews:49696867",
+    "hackernews:49695876",
+    "hackernews:49695409"
+  ]
+}
