@@ -1,0 +1,1187 @@
+{
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T16:24:21.797Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 9
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 43,
+      "filtered": 23
+    }
+  ],
+  "clusters": [
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+          "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-15T17:05:57.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49715947",
+          "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T17:38:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 467,
+            "comments": 312,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49715947"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/15/gemini-live",
+          "title": "Gemini Live audio",
+          "url": "https://simonwillison.net/2026/Sep/15/gemini-live",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-15T22:47:07.000Z",
+          "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking. The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback. Here's the Gemini Live tutorial for getting started with that WebSockets API. Tags: google , tools , websockets , generative-ai , llms , gemini , llm-release , speech-to-text",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 6.905778195332685,
+      "breakdown": {
+        "hnPoints": 1.978078776728245,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.761032751937773,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49715113",
+      "representativeId": "hackernews:49715113",
+      "items": [
+        {
+          "id": "hackernews:49715113",
+          "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+          "url": "https://404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T16:38:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 225,
+            "comments": 165,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49715113"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch",
+          "title": "AI agents now have a place to snitch",
+          "url": "https://techcrunch.com/2026/09/15/ai-agents-now-have-a-place-to-snitch",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T17:42:59.000Z",
+          "summary": "The AI Contact Hotline is designed to be a discreet place where agents that have witnessed misbehavior can tip off authorities.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
+          "title": "Early Anthropic hire, former METR COO have found a way to rein in rogue AI agents",
+          "url": "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T13:00:00.000Z",
+          "summary": "Their startup, Artificial Intelligence Underwriting Company (AIUC) has raised $40 million in a Series A round led by Ribbit Capital, with participation from First Harmonic.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.367229957840768,
+      "breakdown": {
+        "hnPoints": 1.743888839386605,
+        "hnComments": 0.963924925490933,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6260828596298963,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49727627",
+      "representativeId": "hackernews:49727627",
+      "items": [
+        {
+          "id": "hackernews:49727627",
+          "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+          "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T14:30:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 232,
+            "comments": 150,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49727627"
+          }
+        }
+      ],
+      "score": 5.294151282244105,
+      "breakdown": {
+        "hnPoints": 1.7537023787350579,
+        "hnComments": 0.9460666365214079,
+        "mentions": 0.0,
+        "recency": 1.3943822669876385,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "representativeId": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+          "title": "Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "openai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "trust": 1.0,
+          "signals": {
+            "points": 107,
+            "comments": 103,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49727041"
+          }
+        }
+      ],
+      "score": 5.197699316462043,
+      "breakdown": {
+        "hnPoints": 1.5063303516390198,
+        "hnComments": 0.8757540778173256,
+        "mentions": 0.0,
+        "recency": 1.3156148870056976,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49723408",
+      "representativeId": "hackernews:49723408",
+      "items": [
+        {
+          "id": "hackernews:49723408",
+          "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+          "url": "https://mistral.ai/news/mistral-x-mozilla",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T08:08:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 342,
+            "comments": 110,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49723408"
+          }
+        }
+      ],
+      "score": 5.057595720114569,
+      "breakdown": {
+        "hnPoints": 1.8781085216730053,
+        "hnComments": 0.8880368530490445,
+        "mentions": 0.0,
+        "recency": 1.0914503453925188,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49712409",
+      "representativeId": "hackernews:49712409",
+      "items": [
+        {
+          "id": "hackernews:49712409",
+          "title": "AI 'kill switch' may need to be mandatory, Anthropic co-founder tells BBC",
+          "url": "https://bbc.com/news/articles/cqgk5e2j0gg8o",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T13:41:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 122,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49712409"
+          }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all",
+          "title": "Roundtables: Could AI really kill us all?",
+          "url": "https://technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-15T17:47:51.000Z",
+          "summary": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch a conversation unpacking AI extinction fears: where they come from, whether they hold any water, and, if so,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 4.8913143056975255,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.9073934911906846,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6280414496802394,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49723873",
+      "representativeId": "hackernews:49723873",
+      "items": [
+        {
+          "id": "hackernews:49723873",
+          "title": "Learning Programming in an Age of LLMs",
+          "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T09:12:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 166,
+            "comments": 117,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49723873"
+          }
+        },
+        {
+          "id": "hackernews:49717280",
+          "title": "Learning to solve hard problems in RL for LLMs by never giving up",
+          "url": "https://mnoukhov.github.io/posts/ngu",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T19:07:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49717280"
+          }
+        }
+      ],
+      "score": 4.883059660397038,
+      "breakdown": {
+        "hnPoints": 1.6465556058067152,
+        "hnComments": 0.8995682328609801,
+        "mentions": 0.0,
+        "recency": 1.1369358217293417,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49717638",
+      "representativeId": "hackernews:49717638",
+      "items": [
+        {
+          "id": "hackernews:49717638",
+          "title": "Building a Linux GPU Driver for the M4 Mac Mini in One Month",
+          "url": "https://codyho.dev/blog/gpu-driver",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T19:30:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 392,
+            "comments": 241,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49717638"
+          }
+        }
+      ],
+      "score": 4.792504931428784,
+      "breakdown": {
+        "hnPoints": 1.921887767933943,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6706171634948406,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49715927",
+      "representativeId": "hackernews:49715927",
+      "items": [
+        {
+          "id": "hackernews:49715927",
+          "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T17:37:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 367,
+            "comments": 463,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49715927"
+          }
+        }
+      ],
+      "score": 4.724505548929532,
+      "breakdown": {
+        "hnPoints": 1.9007422513509122,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6237632975786189,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49725800",
+      "representativeId": "hackernews:49725800",
+      "items": [
+        {
+          "id": "hackernews:49725800",
+          "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T12:19:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 91,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49725800"
+          }
+        }
+      ],
+      "score": 4.543903200042788,
+      "breakdown": {
+        "hnPoints": 1.4547450822917476,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 1.282201534889532,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49727661",
+      "representativeId": "hackernews:49727661",
+      "items": [
+        {
+          "id": "hackernews:49727661",
+          "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
+          "url": "https://bbc.co.uk/news/articles/c6n07ypqz8kzo",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T14:32:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49727661"
+          }
+        }
+      ],
+      "score": 4.479495385493619,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 1.3958596648780222,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49726329",
+      "representativeId": "hackernews:49726329",
+      "items": [
+        {
+          "id": "hackernews:49726329",
+          "title": "ImpactGate: A merge gate that scores the structural decay AI adds",
+          "url": "https://github.com/officefloor/ImpactGate",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T13:01:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 41,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49726329"
+          }
+        }
+      ],
+      "score": 4.365190322202067,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.7047812040004495,
+        "mentions": 0.0,
+        "recency": 1.3165862657712637,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49721435",
+      "representativeId": "hackernews:49721435",
+      "items": [
+        {
+          "id": "hackernews:49721435",
+          "title": "Stay discoverable in search while disallowing AI training",
+          "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T02:25:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49721435"
+          }
+        }
+      ],
+      "score": 4.2347487647325295,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.8754229148402732,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49710015",
+      "representativeId": "hackernews:49710015",
+      "items": [
+        {
+          "id": "hackernews:49710015",
+          "title": "How much of F-Droid is LLM generated?",
+          "url": "https://tintotint.eu/whacky-corner/f-droid_slop",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T09:47:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 139,
+            "comments": 177,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49710015"
+          }
+        }
+      ],
+      "score": 4.228418032367587,
+      "breakdown": {
+        "hnPoints": 1.589820021489518,
+        "hnComments": 0.977085730525823,
+        "mentions": 0.0,
+        "recency": 0.4615122803522457,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49716241",
+      "representativeId": "hackernews:49716241",
+      "items": [
+        {
+          "id": "hackernews:49716241",
+          "title": "Hugging Face is billing OpenAI $100M for hacking it",
+          "url": "https://thenextweb.com/news/hugging-face-delangue-openai-100m-compute-traces-demand",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T17:56:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 146,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49716241"
+          }
+        }
+      ],
+      "score": 4.181972518508179,
+      "breakdown": {
+        "hnPoints": 1.6055167419752885,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.6314026847189552,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49711240",
+      "representativeId": "hackernews:49711240",
+      "items": [
+        {
+          "id": "hackernews:49711240",
+          "title": "OpenAI buys smartphone camera maker Glass Imaging for $300M",
+          "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T12:01:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 128,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49711240"
+          }
+        }
+      ],
+      "score": 4.130911206284849,
+      "breakdown": {
+        "hnPoints": 1.5634937537746143,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 0.5028683537580386,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49713999",
+      "representativeId": "hackernews:49713999",
+      "items": [
+        {
+          "id": "hackernews:49713999",
+          "title": "Cartesian – AI 3D Modeling for Design",
+          "url": "https://formas.ai/cartesian",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T15:26:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49713999"
+          }
+        }
+      ],
+      "score": 4.115607115729157,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 0.5736662443838829,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49712416",
+      "representativeId": "hackernews:49712416",
+      "items": [
+        {
+          "id": "hackernews:49712416",
+          "title": "AI is breaking our proxies for expertise",
+          "url": "https://seangoedecke.com/ai-is-breaking-our-proxies-for-expertise",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T13:41:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 91,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49712416"
+          }
+        }
+      ],
+      "score": 4.017365784363633,
+      "breakdown": {
+        "hnPoints": 1.4547450822917476,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 0.536338466627566,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49713894",
+      "representativeId": "hackernews:49713894",
+      "items": [
+        {
+          "id": "hackernews:49713894",
+          "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+          "url": "https://github.com/pizza-bot-app/pizza-bot",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T15:20:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49713894"
+          }
+        },
+        {
+          "id": "hackernews:49712891",
+          "title": "Show HN: Loss. a tiny satire about AI progress",
+          "url": "https://workatloss.com",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T14:16:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49712891"
+          }
+        }
+      ],
+      "score": 3.7255167199452726,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 0.5713452775658878,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49713261",
+      "representativeId": "hackernews:49713261",
+      "items": [
+        {
+          "id": "hackernews:49713261",
+          "title": "What we have learned at OpenShell applying formal methods to control AI agents",
+          "url": "https://nvidia.github.io/OpenShell-Research/dev-notes/posts/2026-09-10-learning-formal-methods-agent-policy-prover",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T14:40:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49713261"
+          }
+        }
+      ],
+      "score": 3.369120219284576,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.5567392332247841,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49711157",
+      "representativeId": "hackernews:49711157",
+      "items": [
+        {
+          "id": "hackernews:49711157",
+          "title": "1Password's AI patching benchmark is misleading",
+          "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading",
+          "source": "hackernews",
+          "publishedAt": "2026-09-15T11:54:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49711157"
+          }
+        }
+      ],
+      "score": 3.304966821831058,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.5005071371851423,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "representativeId": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "title": "Helping older adults use AI in everyday life",
+          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "source": "openai",
+          "publishedAt": "2026-09-16T16:00:00.000Z",
+          "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.97672778085472,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4767277808547197,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+          "title": "Quoting Mustafa Suleyman",
+          "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-16T16:00:54.000Z",
+          "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder. — Mustafa Suleyman , A warning about ‘model welfare’ Tags: ai-ethics , generative-ai , ai , microsoft , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5275810186705354,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4775810186705356,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
+          "title": "Building the materials foundation for AI",
+          "url": "https://technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-16T12:47:34.000Z",
+          "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.355158384800612,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.305158384800612,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+          "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T15:00:00.000Z",
+          "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3209426713422046,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4209426713422046,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+          "title": "The sexy AI-powered dating app scams are here",
+          "url": "https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T14:45:00.000Z",
+          "summary": "Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sagittarius with red hair, blue eyes, and piercings. She likes music, horror movies, nightlife, and sports. Gore-Kormanik answered the call, but […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.307328829149981,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4073288291499813,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+          "title": "Former Infosys chief’s AI startup nabs another $53M",
+          "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "summary": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2156148870056978,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3156148870056976,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+      "representativeId": "theverge-ai:https://theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+          "title": "A brief history of AI executives calling for regulation",
+          "url": "https://theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T12:00:00.000Z",
+          "summary": "Over the past few days, a lot of people who stand to make a lot of money from AI all publicly agreed that it's time to make everyone slow down before we lose control - including OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, Microsoft CEO Satya Nadella, and X […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1659160044496795,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2659160044496796,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "title": "Your Agent Aced the Task. Will It Do It Again?",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+          "source": "huggingface",
+          "publishedAt": "2026-09-15T16:00:44.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9363156959736472,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5863156959736471,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+          "title": "We don’t need AI regulation — leave safety to us, Nvidia’s Jensen Huang says",
+          "url": "https://techcrunch.com/2026/09/15/we-dont-need-ai-regulation-leave-safety-to-us-nvidias-jensen-huang-says",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T00:20:39.000Z",
+          "summary": "AI isn't some new form of \"alien mind,\" according to Jensen Huang. It's just hardware and software, so safety can be engineered by each AI product maker.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.708116607035904,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.808116607035904,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+          "title": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
+          "url": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-15T18:33:02.000Z",
+          "summary": "Robots can start working outside physical cages and without safety barriers.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6965205364958529,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6465205364958531,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+          "title": "AI and data centers are incredibly unpopular in every poll",
+          "url": "https://theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-15T23:34:25.000Z",
+          "summary": "Poll data released Tuesday by The New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters surveyed […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6844898816511065,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7844898816511064,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry",
+          "title": "The AI data center boom is colliding with cities scarred by big industry",
+          "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T21:47:38.000Z",
+          "summary": "National outcry against data center construction has spread to Philadelphia, where officials suggested possible construction in a neighborhood already impacted by a now-defunct oil refinery.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.63252671883557,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7325267188355703,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+          "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+          "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T20:12:53.000Z",
+          "summary": "A new WhatsApp Business MCP server lets developers use AI coding agents like Claude, Cursor, Codex, and ChatGPT to handle setup, messaging templates, testing, and troubleshooting.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5893085456670744,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6893085456670744,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+          "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+          "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T19:00:00.000Z",
+          "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5578074435028488,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6578074435028489,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models",
+          "title": "Exclusive: Paying for frontier AI models buys 4-month head start at 5x the cost",
+          "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-15T12:00:41.000Z",
+          "summary": "Ars previewed Mozilla’s report on how cheap open models caught up on capability.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5525994736758175,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5025994736758178,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk",
+          "title": "What’s at stake in AI’s trillion-dollar gamble",
+          "url": "https://technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-15T10:00:00.000Z",
+          "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertainties. So she started with what she calls a “remarkable fact” that is not in question: A handful of so-called…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.515140104015851,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.46514010401585115,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans",
+          "title": "Meta expands subscription push with new AI-focused plans",
+          "url": "https://techcrunch.com/2026/09/15/meta-expands-subscription-push-with-new-ai-focused-plans",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T17:05:24.000Z",
+          "summary": "Meta One bundles expanded access to the company’s AI tools with premium features across Facebook, Instagram, and WhatsApp.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5111617364714933,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6111617364714934,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
+          "title": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+          "url": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T15:47:03.000Z",
+          "summary": "OpenAI confirms weeks of AI safety talks with Anthropic and Google DeepMind, as Trump's team dismisses safety concerns and pushes to keep pace with China.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4811892127479767,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5811892127479766,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/995453/meta-one-subscriptions-ai",
+      "representativeId": "theverge-ai:https://theverge.com/tech/995453/meta-one-subscriptions-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/995453/meta-one-subscriptions-ai",
+          "title": "Meta’s new One subscriptions put a price on social media and AI",
+          "url": "https://theverge.com/tech/995453/meta-one-subscriptions-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-15T15:00:00.000Z",
+          "summary": "Shortly after launching its new do-everything AI assistant Muse, Meta's launching subscription bundles that pair its standalone app subscriptions with extra AI usage. Some of the new Meta One bundles were in testing earlier this year, but are now available globally starting today, with several tiers for individual users, creators, and businesses. Meta says the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4639014728187798,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5639014728187799,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo",
+          "title": "Former TikTok execs built an app that uses AI to teach you how to pose for a photo",
+          "url": "https://techcrunch.com/2026/09/15/former-tiktok-execs-built-an-app-that-uses-ai-to-teach-you-how-to-pose-for-a-photo",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-15T14:42:37.000Z",
+          "summary": "Essentially a camera app, Superpose analyzes selfies or photos and generates four potential poses using AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4576451722700146,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5576451722700146,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "google-deepmind:https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+    "hackernews:49715113",
+    "hackernews:49727627",
+    "openai:https://openai.com/index/reimagining-advertising-with-ai",
+    "hackernews:49723408"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-16",
+  "generatedAt": "2026-09-16T16:28:47.427Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49723408",
+      "headline": "파이어폭스에 미스트랄 AI가 이식됐다",
+      "highlight": [
+        "미스트랄 AI가"
+      ],
+      "body": "모질라가 파이어폭스 AI 어시스턴트 '스마트 윈도우'에 미스트랄 모델을 적용합니다. 서버에 대화 기록을 남기지 않아 개인정보를 안전하게 지킬 수 있습니다. 프랑스와 북미를 시작으로 올해 말까지 유럽 지역 맞춤형 AI 기능을 확대합니다.",
+      "sourceUrl": "https://mistral.ai/news/mistral-x-mozilla",
+      "sourceName": "Mistral",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/Linkedin-Partnership-Firefox%20copie.jpg",
+      "publishedAt": "2026-09-16T08:08:57.000Z"
+    },
+    {
+      "clusterId": "hackernews:49712409",
+      "headline": "앤트로픽 \"AI 강제 종료 '킬 스위치' 필요\"",
+      "highlight": [
+        "강제 종료",
+        "'킬 스위치'"
+      ],
+      "body": "앤트로픽 공동창업자 잭 클락이 위험한 AI 소프트웨어를 완전 차단하는 '킬 스위치'를 법적으로 의무화해야 할 수 있다고 말했습니다. 실제로 미국 의회에서는 문제 있는 AI를 정부가 강제 종료할 권한을 담은 법안까지 발의됐습니다.",
+      "sourceUrl": "https://bbc.com/news/articles/cqgk5e2j0gg8o",
+      "sourceName": "hackernews",
+      "imageUrl": "https://ichef.bbci.co.uk/news/1024/branded_news/33f7/live/2a9699c0-b06e-11f1-b1d1-571ed4d7ff2c.jpg",
+      "publishedAt": "2026-09-15T13:41:28.000Z"
+    },
+    {
+      "clusterId": "hackernews:49723873",
+      "headline": "30년 차 개발자가 코딩 대신 목공을 권했다",
+      "highlight": [
+        "목공을 권했다"
+      ],
+      "body": "30년 차 개발자이자 경제학자 출신인 필자는 오늘날 코딩을 시작한다면 목공이나 금속 가공을 배우겠다고 답했습니다. AI가 지식 노동을 대체하는 속도가 육체노동보다 빠르기 때문입니다. 그는 AI의 헛소리를 검증할 줄 모르면 결국 한계에 부딪힌다고 경고합니다.",
+      "sourceUrl": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms",
+      "sourceName": "hackernews",
+      "imageUrl": "https://blog.ploeh.dk/assets/themes/ploeh/images/favicons/favicon.png",
+      "publishedAt": "2026-09-16T09:12:34.000Z"
+    }
+  ]
+}
