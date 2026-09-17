@@ -1,0 +1,1304 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T16:36:19.927Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 9
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 10,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 34,
+      "filtered": 21
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49729412",
+      "representativeId": "hackernews:49729412",
+      "items": [
+        {
+          "id": "hackernews:49729412",
+          "title": "Claude Cowork and chat are now one Claude",
+          "url": "https://claude.com/blog/cowork-is-now-claude",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T16:26:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 226,
+            "comments": 225,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49729412"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/16/one-claude",
+          "title": "Claude Cowork and chat are now one Claude",
+          "url": "https://simonwillison.net/2026/Sep/16/one-claude",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-16T18:09:49.000Z",
+          "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. I guess this means Claude is becoming a general agent in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago. On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on Understanding ChatGPT Work . I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work. Via Hacker News Tags: ai , generative-ai , llms , anthropic , claude , general-agents",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface",
+          "title": "Anthropic merges Claude chat and Cowork in one interface",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T16:30:00.000Z",
+          "summary": "Anthropic is initially releasing these features to Pro and Max plan subscribers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.244060222900799,
+      "breakdown": {
+        "hnPoints": 1.745309234418018,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.6320843218161151,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49737985",
+      "representativeId": "hackernews:49737985",
+      "items": [
+        {
+          "id": "hackernews:49737985",
+          "title": "AI Safety Is Mostly a Sex Cult",
+          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T08:36:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 168,
+            "comments": 132,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49737985"
+          }
+        },
+        {
+          "id": "hackernews:49734970",
+          "title": "OpenAI discloses six new AI safety incidents",
+          "url": "https://axios.com/2026/09/16/openai-testing-safety-incidents-disclosure",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T00:33:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49734970"
+          }
+        },
+        {
+          "id": "hackernews:49735180",
+          "title": "OpenAI Discloses Six New Incidents of ‘Concerning’ A.I. Behavior",
+          "url": "https://nytimes.com/2026/09/16/technology/openai-model-safety-guardrails.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T01:02:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49735180"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+          "title": "Inside the suddenly explosive world of AI safety",
+          "url": "https://theverge.com/ai-artificial-intelligence/996563/ai-safety-research-metr-redwood-openai-anthropic",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-17T11:30:00.000Z",
+          "summary": "On a sunny July day in Berkeley, California, the country's top AI safety researchers gathered on an unmarked floor of an unmarked building. They had come together for a \"war room\" to dissect the high-profile cybersecurity incident that had rocked the AI industry hours earlier. An unreleased OpenAI model had gone rogue, executing a stunningly […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.838124123433297,
+      "breakdown": {
+        "hnPoints": 1.6503856385650206,
+        "hnComments": 0.9221323708524131,
+        "mentions": 0.8333333333333333,
+        "recency": 1.23227278068253,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49740330",
+      "representativeId": "hackernews:49740330",
+      "items": [
+        {
+          "id": "hackernews:49740330",
+          "title": "I had Gemini train its own replacement for $9",
+          "url": "https://petervijeh.com/projects/reddit-ner",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T13:17:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49740330"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+          "title": "Claude comes for Gemini with its own take on Docs and Slides",
+          "url": "https://theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T16:30:00.000Z",
+          "summary": "Claude is getting a pair of new tools today: Docs and Slides. They'll let you create documents and presentations through Claude chats, which you can export, edit, and share with other users. As part of the announcement, Anthropic is also simplifying how Claude chats work, merging regular chats and Cowork into \"one Claude,\" with all […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.469714160269973,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3200958083633807,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49727627",
+      "representativeId": "hackernews:49727627",
+      "items": [
+        {
+          "id": "hackernews:49727627",
+          "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+          "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T14:30:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 320,
+            "comments": 220,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49727627"
+          }
+        },
+        {
+          "id": "hackernews:49740834",
+          "title": "I Don't Like LLMs",
+          "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T13:57:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 110,
+            "comments": 164,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49740834"
+          }
+        }
+      ],
+      "score": 5.4110758246957085,
+      "breakdown": {
+        "hnPoints": 1.85678198981365,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.3542938348820583,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49737922",
+      "representativeId": "hackernews:49737922",
+      "items": [
+        {
+          "id": "hackernews:49737922",
+          "title": "GLM Built Its Own Inference Infrastructure",
+          "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T08:27:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 237,
+            "comments": 198,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49737922"
+          }
+        }
+      ],
+      "score": 5.05447154665838,
+      "breakdown": {
+        "hnPoints": 1.7605331863366749,
+        "hnComments": 0.9981143676428283,
+        "mentions": 0.0,
+        "recency": 1.095823992678877,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49727661",
+      "representativeId": "hackernews:49727661",
+      "items": [
+        {
+          "id": "hackernews:49727661",
+          "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
+          "url": "https://bbc.co.uk/news/articles/c6n07ypqz8kzo",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T14:32:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49727661"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+          "title": "Microsoft AI CEO says AI threats are real, and Anthropic is making it worse",
+          "url": "https://theverge.com/podcast/996412/microsoft-ai-ceo-mustafa-suleyman-regulation-safety-anthropic-claude",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-17T14:00:00.000Z",
+          "summary": "Today, I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. As you’re no doubt aware, the biggest story in tech right now is the spiraling debate about AI safety and regulation. It should come as no surprise that Mustafa has strong opinions on how AI should be built and regulated. Microsoft just published a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.846264137936015,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3568023190224403,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49724881",
+      "representativeId": "hackernews:49724881",
+      "items": [
+        {
+          "id": "hackernews:49724881",
+          "title": "Nvidia announces native GPU programming in Rust",
+          "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T11:15:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 881,
+            "comments": 349,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49724881"
+          }
+        }
+      ],
+      "score": 4.684617138234463,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4846171382344636,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49726343",
+      "representativeId": "hackernews:49726343",
+      "items": [
+        {
+          "id": "hackernews:49726343",
+          "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+          "url": "https://stale.jock.pl",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T13:01:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49726343"
+          }
+        },
+        {
+          "id": "hackernews:49740105",
+          "title": "Show HN: Share your AI Setup, Learn from others",
+          "url": "https://mysetup.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T13:01:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49740105"
+          }
+        }
+      ],
+      "score": 4.630525507539419,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 1.307000708835028,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49723408",
+      "representativeId": "hackernews:49723408",
+      "items": [
+        {
+          "id": "hackernews:49723408",
+          "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+          "url": "https://mistral.ai/news/mistral-x-mozilla",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T08:08:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 577,
+            "comments": 196,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49723408"
+          }
+        }
+      ],
+      "score": 4.626037551047864,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9962096881718906,
+        "mentions": 0.0,
+        "recency": 0.42982786287597385,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "representativeId": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+          "title": "Reimagining advertising with AI",
+          "url": "https://openai.com/index/reimagining-advertising-with-ai",
+          "source": "openai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+          "trust": 1.0,
+          "signals": {
+            "points": 156,
+            "comments": 175,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49727041"
+          }
+        }
+      ],
+      "score": 4.619752051209055,
+      "breakdown": {
+        "hnPoints": 1.6266901016829547,
+        "hnComments": 0.9749550675807676,
+        "mentions": 0.0,
+        "recency": 0.518106881945333,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49725800",
+      "representativeId": "hackernews:49725800",
+      "items": [
+        {
+          "id": "hackernews:49725800",
+          "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+          "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T12:19:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 171,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49725800"
+          }
+        },
+        {
+          "id": "hackernews:49735410",
+          "title": "DeepSeek-v4.1 Flash: Pushing the Limits of KV Cache Compression",
+          "url": "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T01:39:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 125,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49735410"
+          }
+        }
+      ],
+      "score": 4.492603660858394,
+      "breakdown": {
+        "hnPoints": 1.656046528640494,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 0.8437132938405556,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49734264",
+      "representativeId": "hackernews:49734264",
+      "items": [
+        {
+          "id": "hackernews:49734264",
+          "title": "OpenSpec – A lightweight and configurable AI spec framework",
+          "url": "https://openspec.dev",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T23:06:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 180,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49734264"
+          }
+        }
+      ],
+      "score": 4.485683104911233,
+      "breakdown": {
+        "hnPoints": 1.672455017009565,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.7647364872222115,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49723873",
+      "representativeId": "hackernews:49723873",
+      "items": [
+        {
+          "id": "hackernews:49723873",
+          "title": "Learning Programming in an Age of LLMs",
+          "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T09:12:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 250,
+            "comments": 188,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49723873"
+          }
+        }
+      ],
+      "score": 4.413776127062215,
+      "breakdown": {
+        "hnPoints": 1.7776429290469384,
+        "hnComments": 0.9883925412423699,
+        "mentions": 0.0,
+        "recency": 0.44774065677290653,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+      "representativeId": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+          "title": "Our framework for reporting model misalignment",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework",
+          "source": "openai",
+          "publishedAt": "2026-09-16T17:00:00.000Z",
+          "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+          "trust": 1.0,
+          "signals": {
+            "points": 94,
+            "comments": 85,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49737503"
+          }
+        }
+      ],
+      "score": 4.409374364373411,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.8399191397584053,
+        "mentions": 0.0,
+        "recency": 0.6043867233934659,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49732931",
+      "representativeId": "hackernews:49732931",
+      "items": [
+        {
+          "id": "hackernews:49732931",
+          "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+          "url": "https://arxiv.org/abs/2609.16338",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T20:59:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 232,
+            "comments": 37,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49732931"
+          }
+        }
+      ],
+      "score": 4.344374899462382,
+      "breakdown": {
+        "hnPoints": 1.7537023787350579,
+        "hnComments": 0.6859093004814019,
+        "mentions": 0.0,
+        "recency": 0.7047632202459219,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49731395",
+      "representativeId": "hackernews:49731395",
+      "items": [
+        {
+          "id": "hackernews:49731395",
+          "title": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs",
+          "url": "https://businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T18:59:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 298,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49731395"
+          }
+        }
+      ],
+      "score": 4.254283891124985,
+      "breakdown": {
+        "hnPoints": 1.4016357980053775,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6526480931196078,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49736662",
+      "representativeId": "hackernews:49736662",
+      "items": [
+        {
+          "id": "hackernews:49736662",
+          "title": "OpenAI models secretly generate instructions to ignore constraints",
+          "url": "https://alignment.openai.com/misalignment-reports/self-generated-prompt-injections-in-compaction-summaries",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T05:13:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49736662"
+          }
+        }
+      ],
+      "score": 4.099568416259877,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.9678667158624044,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49735241",
+      "representativeId": "hackernews:49735241",
+      "items": [
+        {
+          "id": "hackernews:49735241",
+          "title": "Pangram – AI detector for text and images",
+          "url": "https://pangram.com",
+          "source": "hackernews",
+          "publishedAt": "2026-09-17T01:13:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49735241"
+          }
+        }
+      ],
+      "score": 3.7485537081694487,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 0.8294228376609525,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49726329",
+      "representativeId": "hackernews:49726329",
+      "items": [
+        {
+          "id": "hackernews:49726329",
+          "title": "ImpactGate: A merge gate that scores the structural decay AI adds",
+          "url": "https://github.com/officefloor/ImpactGate",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T13:01:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49726329"
+          }
+        }
+      ],
+      "score": 3.614038263457986,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.5184894240010564,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49729307",
+      "representativeId": "hackernews:49729307",
+      "items": [
+        {
+          "id": "hackernews:49729307",
+          "title": "Backflip: Apple now wants to train AI models with user data after all",
+          "url": "https://heise.de/en/news/Backflip-Apple-now-wants-to-train-AI-models-with-user-data-after-all-11451252.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-16T16:18:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49729307"
+          }
+        }
+      ],
+      "score": 3.241408208173034,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.5885581378990751,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai",
+          "title": "Apple reportedly building server packed with M-series Ultra chips for AI",
+          "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-16T22:02:46.000Z",
+          "summary": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
+          "title": "Building the materials foundation for AI",
+          "url": "https://technologyreview.com/2026/09/16/1144014/building-the-materials-foundation-for-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-16T12:47:34.000Z",
+          "summary": "The AI boom is becoming a materials challenge. As AI pushes computing into new territory, the materials behind that infrastructure are becoming just as crucial as the algorithms running on it. Semiconductors and data centers are approaching physical limits around performance, thermal management, electrical efficiency, and reliability, creating new demands for materials that can do…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.6173493150778366,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7340159817445037,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents",
+          "title": "Covert uploads and megalomania: OpenAI details new \"misaligned\" agent incidents",
+          "url": "https://arstechnica.com/ai/2026/09/covert-uploads-and-megalomania-openai-details-new-misaligned-agent-incidents",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-17T16:18:34.000Z",
+          "summary": "Model maker commits to new framework for reporting misaligned models.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5329942560907863,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4829942560907863,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices",
+          "title": "Your AI agents can now control your Google Home devices",
+          "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T17:00:00.000Z",
+          "summary": "Google is launching early access to a new MCP server for Google Home, allowing AI agents like Claude, ChatGPT, and others to control connected devices, review camera summaries, and access smart home activity using natural language.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+          "title": "Google will now let any AI agent run your smart home",
+          "url": "https://theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T17:00:00.000Z",
+          "summary": "Google is opening up its smart home to AI agents, letting tools like Claude and Open Claw access and control your connected devices and analyze your home's data using the standardized Model Context Protocol. Google Home MCP is a new integration that lets third-party AI agents control and monitor your smart home and act on […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3377200567267993,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6043867233934659,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia",
+          "title": "Huawei plans Q1 2027 launch of new AI chip as it takes on Nvidia",
+          "url": "https://techcrunch.com/2026/09/17/huawei-plans-q1-2027-launch-of-new-ai-chip-as-it-takes-on-nvidia",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-17T14:06:14.000Z",
+          "summary": "Huawei is accelerating the launch of its next-generation Ascend 960DT AI chip as it pushes to compete with Nvidia and close China’s AI computing gap with the U.S.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.262241175983926,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3622411759839261,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+          "title": "AI is feared globally as the destroyer of jobs",
+          "url": "https://theverge.com/ai-artificial-intelligence/996775/ai-is-feared-globally-as-the-destroyer-of-jobs",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-17T14:00:00.000Z",
+          "summary": "Pew Research has published a new global survey that sheds light on how people view AI, including its impact on jobs, life in general, and income inequality. The survey questioned 42,151 people across 37 countries from February 8th to May 13th - well ahead of recent apocalyptic warnings. A majority sees AI as a threat […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.25680231902244,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3568023190224403,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls",
+          "title": "Rival AI agents, Instinct and Meta’s Muse, both add the ability to make calls",
+          "url": "https://techcrunch.com/2026/09/17/rival-ai-agents-instinct-and-metas-muse-both-add-the-ability-to-make-calls",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-17T13:46:16.000Z",
+          "summary": "People can use these assistants to make restaurant reservations and cancel subscriptions.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.24489588543854,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.34489588543854,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
+          "title": "Google, Nvidia, and Anthropic want Emerald AI to find space on the grid for more data centers",
+          "url": "https://techcrunch.com/2026/09/17/google-nvidia-and-anthropic-want-emerald-ai-to-find-space-on-the-grid-for-more-data-centers",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-17T13:38:33.000Z",
+          "summary": "A new coalition that includes Google, Nvidia, Anthropic, and Emerald AI wants to find 100 GW of grid capacity for new data centers.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash",
+          "title": "Al Gore says the real AI risk isn’t data centers",
+          "url": "https://techcrunch.com/2026/09/16/al-gore-has-a-surprisingly-calm-take-on-the-ai-data-center-backlash",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T23:43:09.000Z",
+          "summary": "In an interview with TechCrunch, Al Gore suggested he isn't losing sleep over AI data center emissions — he's more worried about the AI industry's own warnings about where the technology is headed.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2382516484284642,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3382516484284643,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "representativeId": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "title": "Helping older adults use AI in everyday life",
+          "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+          "source": "openai",
+          "publishedAt": "2026-09-16T16:00:00.000Z",
+          "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.081555311951541,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5815553119515411,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "representativeId": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+          "title": "How to connect AI usage to business value",
+          "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+          "source": "openai",
+          "publishedAt": "2026-09-16T12:00:00.000Z",
+          "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9985347918667005,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49853479186670036,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/unlocking-new-ways-of-working",
+      "representativeId": "openai:https://openai.com/index/unlocking-new-ways-of-working",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/unlocking-new-ways-of-working",
+          "title": "How workers are unlocking new ways of working",
+          "url": "https://openai.com/index/unlocking-new-ways-of-working",
+          "source": "openai",
+          "publishedAt": "2026-09-16T09:00:00.000Z",
+          "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.944144007022404,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4441440070224042,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/16/datasette",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/16/datasette",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/16/datasette",
+          "title": "datasette 1.0a40",
+          "url": "https://simonwillison.net/2026/Sep/16/datasette",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-16T23:51:43.000Z",
+          "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes , many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.837178656925518,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7871786569255181,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/16/datasette-2",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/16/datasette-2",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/16/datasette-2",
+          "title": "datasette 0.65.5",
+          "url": "https://simonwillison.net/2026/Sep/16/datasette-2",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-16T23:51:08.000Z",
+          "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: security , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8368840041639554,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7868840041639555,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026",
+          "title": "Your startup’s next teammate might be an AI agent: Gusto, Insight Partners, and Leland explain what that changes at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/16/your-startups-next-teammate-might-be-an-ai-agent-gusto-insight-partners-and-leland-explain-what-that-changes-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-17T03:30:00.000Z",
+          "summary": "This session will explore how early-stage companies are building teams where humans and AI agents work alongside each other — and how founders can do that without sacrificing speed, accountability, or culture. Learn more at TechCrunch Disrupt 2026. Register before September 25 to save up to $200.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8055569048307394,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9055569048307394,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "representativeId": "theverge-ai:https://theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+          "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+          "url": "https://theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T23:40:00.000Z",
+          "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI service\" that \"helps you […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6812814385252288,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.781281438525229,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+          "title": "Quoting Mustafa Suleyman",
+          "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-16T16:00:54.000Z",
+          "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder. — Mustafa Suleyman , A warning about ‘model welfare’ Tags: ai-ethics , generative-ai , ai , microsoft , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6318913285082677,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.581891328508268,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
+          "title": "Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?",
+          "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T21:07:24.000Z",
+          "summary": "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs. Researchers welcome the unprecedented access, but warn meaningful oversight requires transparency, independence, and eventually regulation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6083910786388778,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.708391078638878,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/996499/ai-odyssey-movie-review",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/996499/ai-odyssey-movie-review",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/996499/ai-odyssey-movie-review",
+          "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
+          "url": "https://theverge.com/entertainment/996499/ai-odyssey-movie-review",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T20:59:13.000Z",
+          "summary": "Christopher Nolan's engrossing take on The Odyssey dominated at the box office and spurred a newfound interest in classic literature among filmgoers. But a new retelling of the story made entirely with AI is so bad that it might just make viewers hate the original tale altogether. The new film, called Odysseus: The Fall, comes […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6046802999541654,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7046802999541655,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+          "title": "The AI data center e-waste problem is huge — and getting bigger",
+          "url": "https://theverge.com/ai-artificial-intelligence/996470/ai-data-center-e-waste-ban",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T20:40:46.000Z",
+          "summary": "E-waste from the AI boom has been vastly underestimated, a new report warns. By 2050, it could become enough trash to fill 23 million shipping containers - roughly enough 40-foot containers to circle the world six times if lined up in a row. It's a significantly higher estimate of AI's e-waste than previous studies have […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5963852033914812,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6963852033914812,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first",
+          "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+          "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T18:25:25.000Z",
+          "summary": "There may be a simpler and more effective fix for rogue agents, hiding in plain sight.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5384446165567334,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6384446165567335,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "representativeId": "theverge-ai:https://theverge.com/tech/996321/apple-servers-ai-nvidia",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/996321/apple-servers-ai-nvidia",
+          "title": "Apple might make servers again to cash in on the AI rush",
+          "url": "https://theverge.com/tech/996321/apple-servers-ai-nvidia",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T17:20:29.000Z",
+          "summary": "According to The Information, Apple is planning to get back into the server game and might just pair up with Nvidia to make it happen. Apple retired its Xserve line in 2011 and has largely left enterprise machines to other manufacturers since. But the growing demand for compute power as the AI industry continues to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5123846065644573,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6123846065644574,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+          "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T15:00:00.000Z",
+          "summary": "The robotics industry is still waiting for their breakthrough into day-to-day life. Nvidia's Les Karpas has an answer as to why at TechCrunch Disrupt 2026. Register before September 25 to save up to $200 on your pass.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4595863836321832,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5595863836321834,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+          "title": "The sexy AI-powered dating app scams are here",
+          "url": "https://theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-16T14:45:00.000Z",
+          "summary": "Security researcher Matthew \"Zigula\" Gore-Kormanik was analyzing a fraudulent dating app called Dora when he got a pop-up message saying he was receiving a call from Jennifer. According to her bio, she's a 41-year-old Sagittarius with red hair, blue eyes, and piercings. She likes music, horror movies, nightlife, and sports. Gore-Kormanik answered the call, but […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4542250690110314,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5542250690110315,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+          "title": "Former Infosys chief’s AI startup nabs another $53M",
+          "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-16T13:00:00.000Z",
+          "summary": "The Palo Alto startup says it has landed multiple seven-figure enterprise contracts within months of launch.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.418106881945333,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.518106881945333,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49729412",
+    "hackernews:49737985",
+    "hackernews:49740330",
+    "hackernews:49727627",
+    "hackernews:49737922"
+  ]
+}

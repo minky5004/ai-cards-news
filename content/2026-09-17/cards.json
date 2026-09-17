@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T16:40:03.794Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49729412",
+      "headline": "노트북 닫아도 클로드가 일을 끝낸다",
+      "highlight": [
+        "노트북 닫아도"
+      ],
+      "body": "클로드의 채팅과 코워크, 디자인 기능이 하나로 합쳐집니다. 질문을 남기고 노트북을 닫아도 클로드가 보고서와 발표 슬라이드를 스스로 완성합니다. 이 기능은 몇 주 안에 프로와 맥스 요금제 사용자에게 우선 제공됩니다.",
+      "sourceUrl": "https://claude.com/blog/cowork-is-now-claude",
+      "sourceName": "Claude",
+      "imageUrl": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6aaaa16ed688635ea2b10fa1_tn-artifacts.jpg",
+      "publishedAt": "2026-09-16T16:26:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49727627",
+      "headline": "AI 초보들 때문에 PS5 해킹이 중단됐다",
+      "highlight": [
+        "AI 초보들",
+        "중단됐다"
+      ],
+      "body": "해커 앤디 응우옌이 AI를 악용하는 초보자들 때문에 PS5 리눅스 프로젝트를 중단했습니다. AI로 찾은 취약점을 소니에 제보해 포상금을 챙기는 행동 등이 원인입니다. 2027년 목표던 PS5 프로 지원까지 취소되며 최신 기기 해킹길이 막혔습니다.",
+      "sourceUrl": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand",
+      "sourceName": "FRVR",
+      "imageUrl": "https://frvr.com/wp-content/uploads/2026/09/ps5-linux-lead-leavs.jpg",
+      "publishedAt": "2026-09-16T14:30:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:49727661",
+      "headline": "스스로 돈 버는 AI는 실리콘 종이 된다",
+      "highlight": [
+        "돈 버는",
+        "실리콘 종이"
+      ],
+      "body": "마이크로소프트의 무스타파 술레이만은 스스로 돈을 버는 AI가 인간과 자원을 다툴 종이 될 수 있다고 경고했습니다. 앤트로픽의 클로드처럼 AI에 인간성을 부여하면 통제가 불가능해진다는 지적입니다. AI를 인간처럼 다루는 개발 방식이 인류를 위협할 수 있습니다.",
+      "sourceUrl": "https://bbc.co.uk/news/articles/c6n07ypqz8kzo",
+      "sourceName": "BBC News",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/c4c4/live/26db17d0-b270-11f1-a430-4d16ee157c41.jpg",
+      "publishedAt": "2026-09-16T14:32:15.000Z"
+    }
+  ]
+}
