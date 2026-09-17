@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T21:44:35.405Z",
+  "idea": {
+    "productName": "VibeGate",
+    "tagline": "AI가 짠 코드의 작성자 이해도를 퀴즈로 시험한다",
+    "oneLineSummary": "오픈소스 프로젝트에 제출된 PR 코드의 작성자 이해도를 자동 퀴즈로 검증해 메인테이너의 검수 피로를 줄여주는 AI 게이트키퍼 솔루션입니다.",
+    "problem": "오픈소스 메인테이너들이 AI 바이브코더의 이해 없는 코드 제출로 검수 피로에 시달려 개발을 포기합니다. 코드 작성자의 실제 이해도를 자동으로 검증하는 장치가 부족합니다.",
+    "productDescription": "GitHub PR이 제출되면 AI가 코드 핵심 변경 사항을 분석하여 작성자만 풀 수 있는 2~3개의 이해도 검증 질문을 자동 생성합니다. 제출자는 이 질문에 정확히 답변해야만 PR 검수 대기열에 등록됩니다. 기사 3처럼 소형 AI 모델을 활용해 저비용으로 코드를 파싱하고 질문을 만듭니다. 이를 통해 이해 없이 LLM이 낸 저품질 코드 제출을 원천 차단합니다.",
+    "keyFeatures": [
+      "제출 코드 기반 작성자 이해도 퀴즈 생성",
+      "퀴즈 통과 시에만 메인테이너 검수 등록",
+      "소형 파인튜닝 모델 활용 저비용 코드 분석",
+      "AI 생성 스팸 PR 자동 감지 및 차단"
+    ],
+    "persona": "RPCS3나 PS5 Linux 프로젝트처럼 이해 없는 LLM 코드 기여 폭주로 검수 피로를 겪고 프로젝트 중단을 고민하는 오픈소스 메인테이너입니다.",
+    "businessModel": "퍼블릭 오픈소스 리포지토리에는 무료로 제공하며, 기업용 프라이빗 리포지토리는 저장소당 월 $29를 받는 구독형 SaaS 모델입니다.",
+    "marketStats": "기사에 규모 근거 없습니다. 다만 기사 4에 따르면 PS5 Linux 핵심 개발자가 AI 바이브코더들의 코드 기여 문제로 프로젝트를 중단했고 RPCS3도 유사 정책을 도입했습니다.",
+    "goToMarket": "기사 4에서 AI 바이브코더 참가를 금지한 RPCS3 커뮤니티와 개발자 소셜 미디어를 통해 초기 메인테이너 100명을 확보합니다.",
+    "unfairAdvantage": "기사 4에서 수면 위로 올라온 오픈소스 관리자의 AI 피로 문제를 가장 먼저 정면으로 해결하며 작성자 검증이라는 차별화된 게이팅 방식을 적용합니다.",
+    "competitors": [
+      "GitHub Copilot Code Review — AI 코드 검수만 수행하며 작성자의 이해도 검증 부재",
+      "CodeRabbit — 자동 PR 리뷰 도구이며 AI 바이브코더 필터링 기능 없음"
+    ],
+    "risks": [
+      "작성자가 검증 질문 답변까지 LLM으로 생성해 우회할 위험",
+      "진짜 기여자의 진입 장벽 상승으로 인한 PR 제출 감소"
+    ],
+    "actionPlan": [
+      "GitHub Action으로 PR 제출 시 이해도 질문을 생성하는 봇 프로토타입 제작",
+      "기사 4의 RPCS3 등 AI PR 제한 선언 프로젝트 관리자 10명에게 피드백 수집",
+      "기사 3 기법을 참조해 $10 미만 예산으로 코드 분석용 소형 모델 파인튜닝 진행"
+    ],
+    "recommendation": "오픈소스 생태계가 직면한 AI 바이브코딩 부작용을 정확히 겨냥한 타당성 높은 사업 아이디어입니다. 다만 퀴즈 답변마저 LLM으로 우회하려는 사용자와의 숨바꼭질 및 기여 진입장벽 상승 문제를 해결하지 못하면 외면받을 위험이 있습니다.",
+    "searchQuery": "open source ai pr gatekeeper vibe coding",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49729412",
+        "title": "Claude Cowork and chat are now one Claude",
+        "url": "https://claude.com/blog/cowork-is-now-claude"
+      },
+      {
+        "clusterId": "hackernews:49737985",
+        "title": "AI Safety Is Mostly a Sex Cult",
+        "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q"
+      },
+      {
+        "clusterId": "hackernews:49740330",
+        "title": "I had Gemini train its own replacement for $9",
+        "url": "https://petervijeh.com/projects/reddit-ner"
+      },
+      {
+        "clusterId": "hackernews:49727627",
+        "title": "PS5 Linux lead quits: \"a bunch of noobs using LLMs\" that \"they don't understand\"",
+        "url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand"
+      },
+      {
+        "clusterId": "hackernews:49737922",
+        "title": "GLM Built Its Own Inference Infrastructure",
+        "url": "https://z.ai/blog/glm-built-its-inference-infrastructure"
+      },
+      {
+        "clusterId": "hackernews:49727661",
+        "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
+        "url": "https://bbc.co.uk/news/articles/c6n07ypqz8kzo"
+      },
+      {
+        "clusterId": "hackernews:49724881",
+        "title": "Nvidia announces native GPU programming in Rust",
+        "url": "https://developer.nvidia.com/blog/introducing-cuda-rust-two-tracks-for-writing-gpu-kernels"
+      },
+      {
+        "clusterId": "hackernews:49726343",
+        "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+        "url": "https://stale.jock.pl"
+      },
+      {
+        "clusterId": "hackernews:49723408",
+        "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+        "url": "https://mistral.ai/news/mistral-x-mozilla"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/reimagining-advertising-with-ai",
+        "title": "Reimagining advertising with AI",
+        "url": "https://openai.com/index/reimagining-advertising-with-ai"
+      },
+      {
+        "clusterId": "hackernews:49725800",
+        "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+        "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model"
+      },
+      {
+        "clusterId": "hackernews:49734264",
+        "title": "OpenSpec – A lightweight and configurable AI spec framework",
+        "url": "https://openspec.dev"
+      },
+      {
+        "clusterId": "hackernews:49723873",
+        "title": "Learning Programming in an Age of LLMs",
+        "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/model-misalignment-reporting-framework",
+        "title": "Our framework for reporting model misalignment",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework"
+      },
+      {
+        "clusterId": "hackernews:49732931",
+        "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+        "url": "https://arxiv.org/abs/2609.16338"
+      }
+    ]
+  }
+}

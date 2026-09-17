@@ -21,6 +21,20 @@
       "calls": 1,
       "inputTokens": 0,
       "outputTokens": 0
+    },
+    {
+      "at": "2026-09-17T21:44:14.106Z",
+      "model": "gemini-3.7-flash",
+      "calls": 1,
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    {
+      "at": "2026-09-17T21:44:34.872Z",
+      "model": "gemini-3.6-flash",
+      "calls": 1,
+      "inputTokens": 4522,
+      "outputTokens": 3769
     }
   ]
 }
