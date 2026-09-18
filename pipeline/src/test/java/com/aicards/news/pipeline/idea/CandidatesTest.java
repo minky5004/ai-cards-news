@@ -26,7 +26,7 @@ class CandidatesTest {
 
     private static PipelineConfig.Idea config(int maxCandidates, int bodyExcerpt) {
         return new PipelineConfig.Idea(
-                "gemini-3.6-flash", 16000, null, maxCandidates, bodyExcerpt, 5, 300);
+                "gemini-3.7-flash", "gemini-2.5-flash", 16000, null, maxCandidates, bodyExcerpt, 5, 300);
     }
 
     private static Cluster cluster(String id, String title, double score) {

@@ -37,6 +37,7 @@ class ConfigLoaderTest {
             assertTrue(config.copy().requestIntervalSeconds() > 0);
             assertTrue(!config.relevance().terms().isEmpty());
             assertTrue(!config.idea().model().isBlank());
+            assertTrue(!config.idea().fallbackModel().isBlank());
             assertTrue(config.idea().maxCandidates() > 0);
             assertTrue(config.idea().bodyExcerpt() > 0);
             assertTrue(config.idea().verifyHits() > 0);
@@ -82,7 +83,7 @@ class ConfigLoaderTest {
                     new PipelineConfig.Extract(maxAttempts),
                     new PipelineConfig.Copy("gemini-3.6-flash", 4000, null, 14),
                     new PipelineConfig.Idea(
-                            "gemini-3.7-flash", 16000, null, maxCandidates, 1500, 5, 300),
+                            "gemini-3.7-flash", "gemini-2.5-flash", 16000, null, maxCandidates, 1500, 5, 300),
                     scoring(maxCards));
         }
 

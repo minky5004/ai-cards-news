@@ -151,8 +151,9 @@ public final class Run {
 
         PipelineConfig.Idea idea = config.idea();
         System.out.printf(
-                "아이디어       %s · 최대 %d 토큰 · 재료 %d건 · 발췌 %d자 · 근거 %d건 · %d점 이상이면 CROWDED%n",
+                "아이디어       %s(막힌 날 %s) · 최대 %d 토큰 · 재료 %d건 · 발췌 %d자 · 근거 %d건 · %d점 이상이면 CROWDED%n",
                 idea.model(),
+                idea.fallbackModel() == null || idea.fallbackModel().isBlank() ? "폴백 없음" : idea.fallbackModel(),
                 idea.maxTokens(),
                 idea.maxCandidates(),
                 idea.bodyExcerpt(),
@@ -559,7 +560,7 @@ public final class Run {
 
         // 재시도도 백업 발화도 같은 모델을 두드린다. 넘어갈지와 몇 번 던질지는 Gemini 가 정한다.
         Optional<String> fallback =
-                Gemini.ideaFallback(config.idea().model(), config.copy().model(), result.status());
+                Gemini.ideaFallback(config.idea().model(), config.idea().fallbackModel(), result.status());
         if (!result.ok() && fallback.isPresent()) {
             System.out.printf(
                     "%s 가 막혔다 — %s%n%s 로 한 번 더 던진다%n%n",

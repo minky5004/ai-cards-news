@@ -118,11 +118,14 @@ public final class Gemini {
     }
 
     /**
-     * 아이디어 모델이 막혔을 때 카피 모델로 한 번 더 던지는 요청의 상한.
+     * 아이디어 모델이 막혔을 때 폴백 모델로 한 번 더 던지는 요청의 상한.
      *
-     * <p>1 인 이유는 <b>카피의 분당 창</b>이다. 아이디어는 카피 직후에 돌고 자기 재시도 대기의 합이
-     * 60초 미만이라, 폴백 요청은 카피 마지막 두 기사의 창에 떨어질 수 있다. 그 창의 카피 최악이
-     * 2기사 x {@link #COPY_MAX_ATTEMPTS} = 4 라 RPM 5 에 남는 자리가 하나다.
+     * <p>1 인 이유는 폴백이 도는 날이 이미 아이디어 재시도 3회를 다 쓴 날이라서다. 폴백 모델은 그
+     * 시각에 열려 있을 쪽으로 고른 모델이라 한 번에 갈리고, 거기서도 막히면 백업 발화가 처음부터
+     * 다시 돈다. 설정이 폴백 모델을 카피와 다르게 두는 동안은 장부를 혼자 써서 분당 · 하루 어느
+     * 쪽에도 닿지 않는다({@code GeminiTest.ideaFallbackHasItsOwnLedger} 가 커밋된 설정을 본다).
+     * 카피 모델로 되돌리면 그 창에 얹히는 옛 동작으로 돌아갈 뿐이다 — 그 429 가 가져가는 것은
+     * 어차피 빠질 아이디어 카드 한 장이다.
      */
     public static final int IDEA_FALLBACK_ATTEMPTS = 1;
 
@@ -130,17 +133,19 @@ public final class Gemini {
      * 아이디어가 실패했을 때 넘어갈 모델. 넘어가지 않으면 비어 있다.
      *
      * <p>재시도와 백업 발화는 둘 다 같은 모델을 두드린다. 2026-09-10 은 3.7 이 1차·백업 둘 다 503
-     * 이었고 같은 날 3.6 은 카피 5/5 였다 — 반나절짜리 과부하 앞에서 바꿀 수 있는 것은 모델뿐이다.
-     * 넘어가는 곳이 카피 모델인 이유는 <b>그날 카드를 낸 모델</b>이라서다. 아이디어 단계는 카피가
-     * 끝난 뒤에 돈다.
+     * 이었다 — 반나절짜리 과부하 앞에서 바꿀 수 있는 것은 모델뿐이다. 어느 모델로 가는지는
+     * {@code idea.fallbackModel} 이 정한다.
      *
      * <p>넘어가는 것은 아이디어 모델 쪽 사정으로 막힌 실패뿐이다 — 재시도 대상 코드와 429(장부가
-     * 모델별이라 아이디어 모델의 장부가 찬 것은 카피 모델과 무관하다). 파싱 실패(0)와 400 은 모델을
+     * 모델별이라 아이디어 모델의 장부가 찬 것은 폴백 모델과 무관하다). 파싱 실패(0)와 400 은 모델을
      * 바꿔도 같다.
      */
-    public static Optional<String> ideaFallback(String ideaModel, String copyModel, int status) {
+    public static Optional<String> ideaFallback(String ideaModel, String fallbackModel, int status) {
         boolean blocked = RETRY_STATUS_CODES.contains(status) || status == TOO_MANY_REQUESTS;
-        return blocked && !ideaModel.equals(copyModel) ? Optional.of(copyModel) : Optional.empty();
+        boolean set = fallbackModel != null && !fallbackModel.isBlank();
+        return blocked && set && !ideaModel.equals(fallbackModel)
+                ? Optional.of(fallbackModel)
+                : Optional.empty();
     }
 
     /** 카피의 재시도 정책. 간격은 SDK 기본값 — 호출 사이의 31초가 이미 창을 벌려 둔다. */
