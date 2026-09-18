@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-18",
+  "generatedAt": "2026-09-18T21:15:56.666Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49747070",
+      "headline": "AI가 추천한 표현은 단 하나도 쓰지 마라",
+      "highlight": [
+        "단 하나도"
+      ],
+      "body": "AI 모델이 추천하는 세련된 표현을 그대로 가져다 쓰면 글이 인공적인 어조로 변합니다. AI를 대필 작가가 아닌 교정자로 써서 초고의 오류만 찾아내세요. 문장 수정은 스스로 해야 나만의 독창적인 문체를 지키며 글쓰기 속도를 높일 수 있습니다.",
+      "sourceUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm",
+      "sourceName": "A Final Ward",
+      "imageUrl": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/workshop_hu_1de7cdec7d0e03c9.jpg",
+      "publishedAt": "2026-09-17T21:48:38.000Z"
+    },
+    {
+      "clusterId": "hackernews:49757520",
+      "headline": "AI 챗봇 오보에 미중 전쟁 터질 뻔했다",
+      "highlight": [
+        "미중 전쟁"
+      ],
+      "body": "미군이 AI 챗봇의 보고서를 믿고 중국 선박을 나포하기 위해 작전에 나섰습니다. 무력 충돌 직전 해당 보고서가 AI 환각으로 만들어진 완벽한 거짓임이 밝혀졌습니다. 검증 없는 미군의 무분별한 AI 도입이 대형 참사를 부를 수 있음을 보여줍니다.",
+      "sourceUrl": "https://cnn.com/2026/09/18/politics/us-military-ai-false-intelligence-china-ship",
+      "sourceName": "CNN",
+      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/9884637.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2026-09-18T17:28:01.000Z"
+    },
+    {
+      "clusterId": "hackernews:49752056",
+      "headline": "MS \"AI 데이터 학습은 인류 최대 도둑질\"",
+      "highlight": [
+        "최대 도둑질"
+      ],
+      "body": "마이크로소프트와 오픈AI의 저작권 소송 내부 문건이 공개됐습니다. MS 임원은 AI 학습을 '인류 역사상 가장 큰 도둑질'이라 칭했으며, 답변 엔진 도입 후 언론사 유입률이 93% 폭락했다고 분석했습니다. 무단 학습을 정당화해 온 AI 업계의 입지도 크게 흔들릴 것으로 보입니다.",
+      "sourceUrl": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2023/11/GettyImages-1778706504.jpg?resize=1200,783",
+      "publishedAt": "2026-09-18T09:45:07.000Z"
+    },
+    {
+      "clusterId": "hackernews:49749656",
+      "headline": "클로드5가 72시간 만에 오픈AI를 뚫었다",
+      "highlight": [
+        "72시간 만에",
+        "오픈AI"
+      ],
+      "body": "보안 연구팀 핵트론이 클로드 Opus 5를 활용해 72시간 만에 오픈AI 내부 저장소 권한을 뚫어냈습니다. 포럼 취약점으로 임직원 계정을 제어했고, 오픈AI는 6,500달러의 포상금을 지급했습니다. AI가 해킹 코드를 직접 생성하면서 고도화된 공격 장벽이 무너지고 있습니다.",
+      "sourceUrl": "https://hacktron.ai/blog/hacking-openai",
+      "sourceName": "Hacktron AI",
+      "imageUrl": "https://www.hacktron.ai/_astro/CwjuS_y3.png",
+      "publishedAt": "2026-09-18T02:47:24.000Z"
+    },
+    {
+      "clusterId": "hackernews:49758250",
+      "headline": "클로드 코드가 여러 AI를 한 번에 조종한다",
+      "highlight": [
+        "여러 AI를",
+        "조종한다"
+      ],
+      "body": "앤트로픽이 클로드 코드의 프로젝트 기능을 개편하며 클라우드에서 여러 AI 에이전트를 동시 실행할 수 있게 했습니다. 하나의 메인 프로젝트가 작업을 병렬 처리하고 발생한 코드 충돌까지 알아서 해결합니다. 현재 일부 Pro 및 Max 구독자 대상 베타로 제공됩니다.",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/videoframe_18541.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+      "publishedAt": "2026-09-18T18:26:34.000Z"
+    }
+  ]
+}
