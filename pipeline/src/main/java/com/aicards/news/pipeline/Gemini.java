@@ -122,7 +122,10 @@ public final class Gemini {
      *
      * <p>1 인 이유는 폴백이 도는 날이 이미 아이디어 재시도 3회를 다 쓴 날이라서다. 폴백 모델은 그
      * 시각에 열려 있을 쪽으로 고른 모델이라 한 번에 갈리고, 거기서도 막히면 백업 발화가 처음부터
-     * 다시 돈다. 장부는 폴백 모델 혼자 써서 분당 · 하루 어느 쪽에도 닿지 않는다.
+     * 다시 돈다. 설정이 폴백 모델을 카피와 다르게 두는 동안은 장부를 혼자 써서 분당 · 하루 어느
+     * 쪽에도 닿지 않는다({@code GeminiTest.ideaFallbackHasItsOwnLedger} 가 커밋된 설정을 본다).
+     * 카피 모델로 되돌리면 그 창에 얹히는 옛 동작으로 돌아갈 뿐이다 — 그 429 가 가져가는 것은
+     * 어차피 빠질 아이디어 카드 한 장이다.
      */
     public static final int IDEA_FALLBACK_ATTEMPTS = 1;
 
@@ -139,7 +142,8 @@ public final class Gemini {
      */
     public static Optional<String> ideaFallback(String ideaModel, String fallbackModel, int status) {
         boolean blocked = RETRY_STATUS_CODES.contains(status) || status == TOO_MANY_REQUESTS;
-        return blocked && !ideaModel.equals(fallbackModel)
+        boolean set = fallbackModel != null && !fallbackModel.isBlank();
+        return blocked && set && !ideaModel.equals(fallbackModel)
                 ? Optional.of(fallbackModel)
                 : Optional.empty();
     }

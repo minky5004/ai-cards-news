@@ -153,7 +153,7 @@ public final class Run {
         System.out.printf(
                 "아이디어       %s(막힌 날 %s) · 최대 %d 토큰 · 재료 %d건 · 발췌 %d자 · 근거 %d건 · %d점 이상이면 CROWDED%n",
                 idea.model(),
-                idea.fallbackModel(),
+                idea.fallbackModel() == null || idea.fallbackModel().isBlank() ? "폴백 없음" : idea.fallbackModel(),
                 idea.maxTokens(),
                 idea.maxCandidates(),
                 idea.bodyExcerpt(),

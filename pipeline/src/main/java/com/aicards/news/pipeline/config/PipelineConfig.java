@@ -121,7 +121,9 @@ public record PipelineConfig(
      * <p>재료는 그날 이미 모아 둔 기사다. 새 소스도 새 시크릿도 늘리지 않는다 — 무인 운영에서
      * 실패 지점 하나가 곧 그날을 잃을 확률이라, 얹는 단계는 기존 산출물만 읽는 편이 맞다.
      *
-     * @param fallbackModel 아이디어 모델이 재시도 끝까지 막힌 날 한 번 더 던질 모델.
+     * @param fallbackModel 아이디어 모델이 재시도 끝까지 막힌 날 한 번 더 던질 모델. 비우면 폴백
+     *     없음 — 필수로 두지 않는 것은 이 설정을 전 단계가 읽어서다({@code Gemini.ideaAttempts} 와
+     *     같은 이유).
      * @param maxCandidates 재료로 넣을 후보 상한. 카드가 된 선정분 아래의 대기 후보까지 넣는다.
      * @param bodyExcerpt 후보 하나당 본문에서 잘라 넣을 글자 수. 긴 기사 하나가 프롬프트를
      *     독차지하는 것을 막는다.
@@ -141,7 +143,6 @@ public record PipelineConfig(
 
         public Idea {
             Check.required(model, "idea.model");
-            Check.required(fallbackModel, "idea.fallbackModel");
             Check.positive(maxTokens, "idea.maxTokens");
             if (thinkingBudget != null) {
                 Check.that(

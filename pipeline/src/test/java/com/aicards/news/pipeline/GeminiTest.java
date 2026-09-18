@@ -212,6 +212,15 @@ class GeminiTest {
         }
 
         @Test
+        @DisplayName("폴백 모델이 비어 있으면 넘어가지 않는다 — 로딩에서 터뜨리지 않는다")
+        void noFallbackWhenUnset() {
+            // 설정은 ingest·extract·copy·render 가 전부 읽는다. continue-on-error 인 아이디어 한 장의
+            // 폴백을 지키려고 그날 전체를 잃지 않는다(ideaAttempts 와 같은 이유).
+            assertEquals(Optional.empty(), Gemini.ideaFallback("gemini-3.7-flash", null, 503));
+            assertEquals(Optional.empty(), Gemini.ideaFallback("gemini-3.7-flash", " ", 503));
+        }
+
+        @Test
         @DisplayName("같은 모델이면 넘어갈 곳이 없다")
         void noFallbackOnSharedModel() {
             assertEquals(
