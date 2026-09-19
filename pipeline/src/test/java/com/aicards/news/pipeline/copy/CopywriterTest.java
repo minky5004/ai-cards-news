@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import com.aicards.news.pipeline.ClientRetry;
 import com.aicards.news.pipeline.Gemini;
 import com.google.genai.Client;
+import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -90,5 +91,49 @@ class CopywriterTest {
         try (Client client = Copywriter.client("test-key-not-used")) {
             assertEquals(Gemini.COPY_MAX_ATTEMPTS, ClientRetry.attemptsOf(client));
         }
+    }
+
+    @Test
+    @DisplayName("폴백 클라이언트는 한 번만 던진다")
+    void fallbackClientTriesOnce() throws Exception {
+        // 폴백이 도는 기사는 이미 주 모델 재시도를 다 쓴 기사다. 폴백까지 재시도하면 기사 하나가
+        // 폴백 장부의 분당 창을 혼자 채워, 같은 모델로 가는 아이디어 폴백이 429 로 떨어진다.
+        try (Client client = Copywriter.fallbackClient("test-key-not-used")) {
+            assertEquals(Gemini.FALLBACK_ATTEMPTS, ClientRetry.attemptsOf(client));
+        }
+    }
+
+    @Test
+    @DisplayName("폴백이 돈 기사는 두 모델 장부에 한 번씩 적힌다")
+    void splitsUsageByModel() {
+        String primary = "gemini-3.6-flash";
+        String fallback = "gemini-2.5-flash";
+        List<CopyResult> results =
+                List.of(
+                        CopyResult.ok("a", primary, "헤드라인", List.of(), "본문", new CopyResult.Usage(10, 20)),
+                        CopyResult.ok("b", fallback, "헤드라인", List.of(), "본문", new CopyResult.Usage(5, 7)),
+                        CopyResult.failed("c", fallback, "503", 503),
+                        CopyResult.skipped("d", "본문 없음"));
+
+        List<UsageLog.Entry> entries = Copywriter.usageEntries(results, primary, "t");
+
+        // 주 모델은 시도한 기사 전부가 한 번씩 두드렸다 — 폴백으로 넘어간 둘도 먼저 503 을 받았다.
+        // 토큰은 응답을 준 모델의 것이다. 폴백으로 넘어가는 실패는 응답이 없어 토큰이 0 이다.
+        assertEquals(
+                List.of(
+                        new UsageLog.Entry("t", primary, 3, 10, 20),
+                        new UsageLog.Entry("t", fallback, 2, 5, 7)),
+                entries);
+    }
+
+    @Test
+    @DisplayName("폴백이 안 돈 날은 한 줄이다")
+    void singleEntryWithoutFallback() {
+        List<CopyResult> results =
+                List.of(CopyResult.ok("a", "m", "헤드라인", List.of(), "본문", new CopyResult.Usage(1, 2)));
+
+        assertEquals(
+                List.of(new UsageLog.Entry("t", "m", 1, 1, 2)),
+                Copywriter.usageEntries(results, "m", "t"));
     }
 }
