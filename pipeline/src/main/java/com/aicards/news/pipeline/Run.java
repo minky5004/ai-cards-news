@@ -425,16 +425,16 @@ public final class Run {
           무료 티어라 비용은 없지만 사용량은 남긴다. 한도에 얼마나 여유가 있는지 봐야 한다.
 
           한도의 단위는 토큰이 아니라 요청 수다 — 초과하면 quotaId 가
-          GenerateRequestsPerDayPerProjectPerModel-FreeTier, quotaValue 가 20 으로 온다. 그래서
-          호출 횟수를 먼저 찍는다. 건너뛴 기사는 호출하지 않았으므로 여기 들어가지 않는다.
+          GenerateRequestsPerDayPerProjectPerModel-FreeTier, quotaValue 가 20 으로 온다. 호출 횟수는
+          이 줄이 아니라 바로 아래 모델별 줄이 찍는다 — 폴백이 돈 기사는 두 모델에 한 번씩이라
+          기사 수로는 요청 수가 안 나온다.
         */
         System.out.printf(
-                "카드 %d장 · 후보 %d건 (건너뜀 %d · 실패 %d) · 호출 %d회 · 토큰 입력 %d 출력 %d%n",
+                "카드 %d장 · 후보 %d건 (건너뜀 %d · 실패 %d) · 토큰 입력 %d 출력 %d%n",
                 cards.size(),
                 tally.total(),
                 tally.skipped(),
                 tally.failed(),
-                tally.attempted(),
                 inputTokens,
                 outputTokens);
 
