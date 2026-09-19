@@ -341,14 +341,15 @@ jobs:
 
           Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
           끝난 단계는 전부 건너뛰고 아이디어만 다시 돈다 — Gemini 요청은 아이디어 모델에 재시도 포함 최대 3번,
-          막히면 카피 모델에 1번 더 나간다. 한도는 실패한 요청도 센다.
+          막히면 폴백 모델(설정 \`idea.fallbackModel\`)에 1번 더 나간다. 한도는 실패한 요청도 센다.
           사유가 503 high demand 면 과부하가 풀린 뒤에 돌린다 — 2026-09-10 은 약 15시간 이어졌다."
           elif [ "$PIPELINE_RESULT" = "success" ]; then
             STAGE="배포"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
           산출물이 이미 리포에 있는 단계는 전부 건너뛰므로 대개 배포만 다시 돈다.
           예외는 아이디어 하나다 — 그 단계가 죽은 채 발행된 날이면 \`ideas.json\` 이 없어
-          다시 돌고, Gemini 를 1회 쓰면서 아이디어 카드까지 새 커밋으로 얹는다."
+          다시 돌고, 아이디어 카드까지 새 커밋으로 얹는다. 그때 Gemini 요청은 아이디어 모델에 재시도 포함
+          최대 3번, 막히면 폴백 모델에 1번 더 나간다."
           else
             STAGE="파이프라인"
             HOWTO="Actions → 파이프라인 → Run workflow. 날짜를 \`$DATE\` 로 준다.
