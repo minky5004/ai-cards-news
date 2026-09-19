@@ -384,3 +384,43 @@ jobs:
           ## 다시 돌리려면
 
           $HOWTO"
+
+  # 살린 날의 실패 이슈를 닫는다. 1차가 연 "파이프라인 실패 — date" 는 몇 시간 뒤 백업이 살려도
+  # 열린 채 남아, 2026-09-15 · 09-18 · 09-19 에 날마다 실패한 것처럼 보였다 — 결번이 0 인 주에.
+  # 열린 이슈가 사실이 아니면 진짜 결번의 이슈도 같이 안 읽힌다.
+  #
+  # 조건은 기본값 그대로다 — pipeline · deploy 둘 다 success 일 때만 돈다. 작업 브랜치 검증
+  # 실행은 deploy 가 건너뛰어져 여기도 건너뛴다. 발행 브랜치에 나가지 않은 성공이 main 의
+  # 결번을 닫으면 안 된다.
+  #
+  # 아이디어 이슈는 이 실행에서 아이디어까지 살았을 때만 닫는다 — 그 단계는 continue-on-error 라
+  # 잡이 success 여도 outcome 이 failure 일 수 있고, 그날은 alert 가 같은 이슈를 붙든다.
+  resolve:
+    needs: [pipeline, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: 살린 날의 실패 이슈 닫기
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DATE: ${{ needs.pipeline.outputs.date }}
+          IDEA: ${{ needs.pipeline.outputs.idea }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          STAGES="파이프라인 배포"
+          [ "$IDEA" = "success" ] && STAGES="$STAGES 아이디어"
+
+          for STAGE in $STAGES; do
+            TITLE="$STAGE 실패 — $DATE"
+            # 판정은 alert 와 같은 제목 완전 일치다. 검색은 낱말 단위라 2026-09-09 가 열린
+            # 2026-09-02 이슈에 걸린다 — 여기서 그 오판은 알림 누락이 아니라 남의 날짜를 닫는 일이다.
+            gh issue list --state open --search "$TITLE in:title" --json number,title \
+                --jq '.[] | "\(.number)\t\(.title)"' |
+              awk -F'\t' -v t="$TITLE" '$2 == t { print $1 }' |
+              while read -r NUMBER; do
+                gh issue close "$NUMBER" --comment "$DATE 를 이 실행이 살렸다 — $RUN_URL"
+                echo "#$NUMBER $TITLE 닫음"
+              done
+          done
