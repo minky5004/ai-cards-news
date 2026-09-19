@@ -81,7 +81,7 @@ class ConfigLoaderTest {
                     new PipelineConfig.Relevance(java.util.List.of("llm"), java.util.List.of("AI")),
                     new PipelineConfig.Dedup(2, 0.5, 0.2),
                     new PipelineConfig.Extract(maxAttempts),
-                    new PipelineConfig.Copy("gemini-3.6-flash", 4000, null, 14),
+                    new PipelineConfig.Copy("gemini-3.6-flash", "gemini-2.5-flash", 4000, null, 14),
                     new PipelineConfig.Idea(
                             "gemini-3.7-flash", "gemini-2.5-flash", 16000, null, maxCandidates, 1500, 5, 300),
                     scoring(maxCards));

@@ -98,7 +98,8 @@ public final class Copywriter {
         GenerateContentConfig requestConfig = requestConfig(config);
 
         List<CopyResult> results = new ArrayList<>();
-        try (Client client = client(apiKey)) {
+        try (Client client = client(apiKey);
+                Client fallbackClient = fallbackClient(apiKey)) {
             boolean called = false;
             for (ArticlesResult.Article article : articles) {
                 // 본문이 없으면 시도하지 않는다. 이유는 hasBody 참고.
@@ -116,7 +117,20 @@ public final class Copywriter {
                                 .filter(candidate -> candidate.id().equals(article.clusterId()))
                                 .findFirst()
                                 .orElse(null);
-                results.add(writeCopy(client, article, cluster, config, requestConfig));
+                CopyResult result =
+                        writeCopy(client, config.model(), article, cluster, requestConfig);
+
+                // 재시도도 백업 발화도 같은 모델을 두드린다. 3.6 이 반나절 붐비는 날(09-15 · 09-18 ·
+                // 09-19)은 모델을 바꾸는 것 말고 그 기사를 살릴 길이 없다. 넘어갈지는 Gemini 가 정한다.
+                Optional<String> fallback =
+                        Gemini.fallback(config.model(), config.fallbackModel(), result.httpStatus());
+                if (!result.ok() && fallback.isPresent()) {
+                    System.out.printf(
+                            "  %s 가 막혔다 — %s%n  %s 로 한 번 더 던진다%n",
+                            config.model(), result.error(), fallback.get());
+                    result = writeCopy(fallbackClient, fallback.get(), article, cluster, requestConfig);
+                }
+                results.add(result);
             }
         }
         return results;
@@ -131,6 +145,53 @@ public final class Copywriter {
      */
     static Client client(String apiKey) {
         return Gemini.client(apiKey, Gemini.copyRetry());
+    }
+
+    /** 폴백이 쓰는 클라이언트. 상한이 {@link Gemini#FALLBACK_ATTEMPTS} 인 이유는 거기 적혀 있다. */
+    static Client fallbackClient(String apiKey) {
+        return Gemini.client(apiKey, Gemini.copyRetry(Gemini.FALLBACK_ATTEMPTS));
+    }
+
+    /**
+     * 카피 결과를 모델별 장부 줄로 옮긴다. 폴백이 안 돈 날은 한 줄이다.
+     *
+     * <p>주 모델 줄은 시도한 기사 전부를 센다 — 폴백으로 넘어간 기사도 먼저 주 모델을 두드렸다.
+     * 폴백 줄은 폴백 모델이 낸 결과만 센다. 토큰은 응답을 준 모델의 것이고, 폴백으로 넘어가는
+     * 실패는 응답을 못 받은 실패라 주 모델 쪽 토큰이 0 이다.
+     *
+     * <p>{@code Run} 밖에 둔 것은 테스트가 부르기 위해서다. 폴백이 도는 날을 실제 호출로 만들려면
+     * 모델이 과부하일 때까지 기다려야 한다.
+     */
+    public static List<UsageLog.Entry> usageEntries(
+            List<CopyResult> results, String primaryModel, String at) {
+        List<CopyResult> attempted = results.stream().filter(result -> !result.skipped()).toList();
+        List<UsageLog.Entry> entries = new ArrayList<>();
+        entries.add(entry(at, primaryModel, attempted.size(), attempted));
+
+        attempted.stream()
+                .map(CopyResult::model)
+                .filter(model -> !primaryModel.equals(model))
+                .distinct()
+                .forEach(
+                        model -> {
+                            long calls =
+                                    attempted.stream().filter(r -> model.equals(r.model())).count();
+                            entries.add(entry(at, model, (int) calls, attempted));
+                        });
+        return entries;
+    }
+
+    /** 토큰은 그 모델이 낸 결과의 것만 싣는다. */
+    private static UsageLog.Entry entry(
+            String at, String model, int calls, List<CopyResult> attempted) {
+        List<CopyResult> answered =
+                attempted.stream().filter(r -> model.equals(r.model())).toList();
+        return new UsageLog.Entry(
+                at,
+                model,
+                calls,
+                answered.stream().mapToInt(CopyResult::inputTokens).sum(),
+                answered.stream().mapToInt(CopyResult::outputTokens).sum());
     }
 
     /**
@@ -166,9 +227,9 @@ public final class Copywriter {
 
     private static CopyResult writeCopy(
             Client client,
+            String model,
             ArticlesResult.Article article,
             Cluster cluster,
-            PipelineConfig.Copy config,
             GenerateContentConfig requestConfig) {
 
         try {
@@ -192,14 +253,14 @@ public final class Copywriter {
                                     article.text()));
 
             GenerateContentResponse response =
-                    client.models.generateContent(config.model(), prompt, requestConfig);
+                    client.models.generateContent(model, prompt, requestConfig);
 
             // 응답을 받은 시점에 토큰은 이미 나갔다. 카드가 되든 안 되든 사용량에 싣는다.
             CopyResult.Usage usage = usage(response.usageMetadata());
 
             String text = response.text();
             if (text == null || text.isBlank()) {
-                return CopyResult.failed(article.clusterId(), "빈 응답을 받았다", usage);
+                return CopyResult.failed(article.clusterId(), model, "빈 응답을 받았다", usage);
             }
 
             CopyOutput parsed = Json.lenient().readValue(text, CopyOutput.class);
@@ -208,11 +269,12 @@ public final class Copywriter {
 
             String broken = brokenReason(headline, body);
             if (broken != null) {
-                return CopyResult.failed(article.clusterId(), broken, usage);
+                return CopyResult.failed(article.clusterId(), model, broken, usage);
             }
 
             return CopyResult.ok(
                     article.clusterId(),
+                    model,
                     headline,
                     cleanHighlight(headline, parsed.highlight()),
                     body,
@@ -220,7 +282,7 @@ public final class Copywriter {
         } catch (Exception e) {
             // 카드 하나가 실패해도 나머지는 내보낸다. 그날 카드가 통째로 없어지는 게 최악이다.
             // 여기는 응답 자체를 못 받은 자리라 토큰을 알 길이 없다. 호출 횟수로만 잡힌다.
-            return CopyResult.failed(article.clusterId(), message(e));
+            return CopyResult.failed(article.clusterId(), model, message(e), Gemini.statusOf(e));
         }
     }
 

@@ -9,6 +9,8 @@ import java.util.List;
  * 기사가 왜 실패했는지 화면에 같이 찍어야 한다.
  *
  * @param usage 호출 비용·사용량 추적용. 카드가 안 나왔으면 null 이다.
+ * @param httpStatus 응답을 못 받은 실패의 HTTP 상태. 그 밖에는 0 — 폴백으로 넘어갈지를 이것이 정한다.
+ * @param model 이 결과를 낸 모델. 폴백이 돈 기사는 폴백 모델이다. 호출하지 않았으면 null.
  */
 public record CopyResult(
         String clusterId,
@@ -17,7 +19,9 @@ public record CopyResult(
         List<String> highlight,
         String body,
         String error,
-        Usage usage) {
+        Usage usage,
+        int httpStatus,
+        String model) {
 
     /**
      * 카드가 안 나온 이유는 두 가지고, 뜻이 정반대다.
@@ -38,18 +42,23 @@ public record CopyResult(
     public record Usage(int inputTokens, int outputTokens) {}
 
     static CopyResult ok(
-            String clusterId, String headline, List<String> highlight, String body, Usage usage) {
-        return new CopyResult(clusterId, Status.OK, headline, highlight, body, null, usage);
+            String clusterId,
+            String model,
+            String headline,
+            List<String> highlight,
+            String body,
+            Usage usage) {
+        return new CopyResult(clusterId, Status.OK, headline, highlight, body, null, usage, 0, model);
     }
 
     /** 넣을 본문이 없어 호출하지 않았다. */
     static CopyResult skipped(String clusterId, String reason) {
-        return new CopyResult(clusterId, Status.SKIPPED, null, null, null, reason, null);
+        return new CopyResult(clusterId, Status.SKIPPED, null, null, null, reason, null, 0, null);
     }
 
     /** 호출했지만 응답을 받지 못했다. 토큰을 알 길이 없다. */
-    static CopyResult failed(String clusterId, String error) {
-        return new CopyResult(clusterId, Status.FAILED, null, null, null, error, null);
+    static CopyResult failed(String clusterId, String model, String error, int status) {
+        return new CopyResult(clusterId, Status.FAILED, null, null, null, error, null, status, model);
     }
 
     /**
@@ -58,8 +67,8 @@ public record CopyResult(
      * <p>이때도 토큰은 이미 소모됐다. 카드가 안 나왔다고 사용량에서 빼면 한도에 얼마나 남았는지를
      * 실제보다 낙관적으로 보게 된다.
      */
-    static CopyResult failed(String clusterId, String error, Usage usage) {
-        return new CopyResult(clusterId, Status.FAILED, null, null, null, error, usage);
+    static CopyResult failed(String clusterId, String model, String error, Usage usage) {
+        return new CopyResult(clusterId, Status.FAILED, null, null, null, error, usage, 0, model);
     }
 
     public boolean ok() {

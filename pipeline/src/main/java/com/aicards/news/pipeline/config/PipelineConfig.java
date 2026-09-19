@@ -97,10 +97,16 @@ public record PipelineConfig(
 
     /**
      * @param maxTokens 출력 상한. 카피는 짧지만 사고 토큰이 포함될 수 있어 여유를 둔다.
+     * @param fallbackModel 카피 모델이 재시도 끝까지 막힌 기사를 한 번 더 던질 모델. 비우면 폴백
+     *     없음 — {@code Idea.fallbackModel} 과 같은 이유로 필수가 아니다.
      * @param thinkingBudget 사고 토큰 예산. 비워 두면 모델 기본값을 쓰고, 0 이면 사고를 끈다.
      */
     public record Copy(
-            String model, int maxTokens, Integer thinkingBudget, int requestIntervalSeconds) {
+            String model,
+            String fallbackModel,
+            int maxTokens,
+            Integer thinkingBudget,
+            int requestIntervalSeconds) {
 
         public Copy {
             Check.required(model, "copy.model");

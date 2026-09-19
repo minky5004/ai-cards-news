@@ -144,8 +144,9 @@ public final class Run {
 
         PipelineConfig.Copy copy = config.copy();
         System.out.printf(
-                "카피라이팅     %s · 최대 %d 토큰 · 사고 예산 %s%n",
+                "카피라이팅     %s(막힌 기사 %s) · 최대 %d 토큰 · 사고 예산 %s%n",
                 copy.model(),
+                copy.fallbackModel() == null || copy.fallbackModel().isBlank() ? "폴백 없음" : copy.fallbackModel(),
                 copy.maxTokens(),
                 copy.thinkingBudget() == null ? "모델 기본값" : copy.thinkingBudget().toString());
 
@@ -442,19 +443,18 @@ public final class Run {
           누락되면 남은 여유를 실제보다 낙관적으로 보게 되고, 그건 한도를 재시도로 태우는 무인
           실행에서 정확히 최악의 오차다. PR #27 에서 토큰 집계에 대해 배운 것과 같은 얘기다.
         */
-        UsageLog updated =
-                previous.plus(
-                        new UsageLog.Entry(
-                                Times.iso(Instant.now()),
-                                config.copy().model(),
-                                tally.attempted(),
-                                inputTokens,
-                                outputTokens));
+        // 폴백이 돈 기사는 두 모델에 한 번씩 적힌다 — 한도가 모델별이다.
+        UsageLog updated = previous;
+        for (UsageLog.Entry entry :
+                Copywriter.usageEntries(results, config.copy().model(), Times.iso(Instant.now()))) {
+            updated = updated.plus(entry);
+            System.out.printf(
+                    "%s 이번 %d회 · 누적 %d회%n",
+                    entry.model(), entry.calls(), updated.totalCalls(entry.model()));
+        }
         Json.write(Paths.usageJson(date), updated);
         System.out.printf(
-                "%s 누적 %d회 · 오늘 전체 %d회 · 토큰 입력 %d 출력 %d%n",
-                config.copy().model(),
-                updated.totalCalls(config.copy().model()),
+                "오늘 전체 %d회 · 토큰 입력 %d 출력 %d%n",
                 updated.totalCalls(),
                 updated.totalInputTokens(),
                 updated.totalOutputTokens());
@@ -560,7 +560,7 @@ public final class Run {
 
         // 재시도도 백업 발화도 같은 모델을 두드린다. 넘어갈지와 몇 번 던질지는 Gemini 가 정한다.
         Optional<String> fallback =
-                Gemini.ideaFallback(config.idea().model(), config.idea().fallbackModel(), result.status());
+                Gemini.fallback(config.idea().model(), config.idea().fallbackModel(), result.status());
         if (!result.ok() && fallback.isPresent()) {
             System.out.printf(
                     "%s 가 막혔다 — %s%n%s 로 한 번 더 던진다%n%n",
@@ -571,7 +571,7 @@ public final class Run {
                             candidates,
                             config.idea(),
                             fallback.get(),
-                            Gemini.IDEA_FALLBACK_ATTEMPTS);
+                            Gemini.FALLBACK_ATTEMPTS);
             recordIdeaCall(date, usage, fallback.get(), result);
         }
 

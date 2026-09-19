@@ -253,13 +253,13 @@ class IdeaWriterTest {
         void keepsStatusOfApiFailure() {
             // 사유 문자열에서 숫자를 오려 내면 SDK 가 메시지 형식을 바꾸는 날 폴백이 조용히 죽는다.
             assertEquals(
-                    503, IdeaWriter.statusOf(new ServerException(503, "", "high demand")));
+                    503, Gemini.statusOf(new ServerException(503, "", "high demand")));
         }
 
         @Test
         @DisplayName("API 밖의 실패는 0 이다")
         void zeroOutsideApi() {
-            assertEquals(0, IdeaWriter.statusOf(new IllegalStateException("미치환 자리표시자")));
+            assertEquals(0, Gemini.statusOf(new IllegalStateException("미치환 자리표시자")));
         }
     }
 

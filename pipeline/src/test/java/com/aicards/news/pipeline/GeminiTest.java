@@ -181,6 +181,31 @@ class GeminiTest {
 
             assertNotEquals(copy.model(), idea.fallbackModel());
             assertNotEquals(idea.model(), idea.fallbackModel());
+            assertNotEquals(copy.model(), copy.fallbackModel());
+            assertNotEquals(idea.model(), copy.fallbackModel());
+        }
+
+        @Test
+        @DisplayName("카피 폴백과 아이디어 폴백을 합쳐도 폴백 모델 한도 안에 든다")
+        void sharedFallbackLedgerFitsInLimits() {
+            /*
+              두 폴백은 같은 모델(2.5)로 간다. 카피 폴백은 기사마다 한 번이라 한 창에 간격만큼
+              들어가고, 아이디어 폴백은 카피 직후에 나가 그 창에 얹힐 수 있다. 서로 다른 모델로
+              갈라 두는 설정이면 이 합은 실제보다 빡빡한 값일 뿐이다.
+            */
+            PipelineConfig config = ConfigLoader.loadPipelineConfig();
+            int copyPerMinute =
+                    (60 / config.copy().requestIntervalSeconds() + 1) * Gemini.FALLBACK_ATTEMPTS;
+            int copyPerDay = config.scoring().maxCards() * Gemini.FALLBACK_ATTEMPTS;
+
+            assertTrue(
+                    copyPerMinute + Gemini.FALLBACK_ATTEMPTS <= Gemini.FREE_TIER_RPM,
+                    "폴백 1분 최악 %d회가 분당 한도를 넘는다"
+                            .formatted(copyPerMinute + Gemini.FALLBACK_ATTEMPTS));
+            assertTrue(
+                    copyPerDay + Gemini.FALLBACK_ATTEMPTS <= Gemini.FREE_TIER_DAILY_LIMIT,
+                    "폴백 하루 최악 %d회가 한도를 넘는다"
+                            .formatted(copyPerDay + Gemini.FALLBACK_ATTEMPTS));
         }
 
         @Test
@@ -197,18 +222,18 @@ class GeminiTest {
     }
 
     @Nested
-    @DisplayName("아이디어 폴백")
-    class IdeaFallback {
+    @DisplayName("폴백")
+    class Fallback {
 
         @ParameterizedTest(name = "상태 {0}")
         @ValueSource(ints = {503, 500, Gemini.TOO_MANY_REQUESTS})
-        @DisplayName("아이디어 모델 쪽 사정으로 막히면 폴백 모델로 넘어간다")
+        @DisplayName("주 모델 쪽 사정으로 막히면 폴백 모델로 넘어간다")
         void fallsBackToFallbackModel(int status) {
             // 3.7 은 2026-09-14~09-17 여덟 실행 중 여섯이 503 이었다. 같은 벽을 두 번 두드린 백업이
             // 아니라 다른 모델이 그날을 살리는 자리다. 429 도 같다 — 장부가 모델별이다.
             assertEquals(
                     Optional.of("gemini-2.5-flash"),
-                    Gemini.ideaFallback("gemini-3.7-flash", "gemini-2.5-flash", status));
+                    Gemini.fallback("gemini-3.7-flash", "gemini-2.5-flash", status));
         }
 
         @Test
@@ -216,8 +241,8 @@ class GeminiTest {
         void noFallbackWhenUnset() {
             // 설정은 ingest·extract·copy·render 가 전부 읽는다. continue-on-error 인 아이디어 한 장의
             // 폴백을 지키려고 그날 전체를 잃지 않는다(ideaAttempts 와 같은 이유).
-            assertEquals(Optional.empty(), Gemini.ideaFallback("gemini-3.7-flash", null, 503));
-            assertEquals(Optional.empty(), Gemini.ideaFallback("gemini-3.7-flash", " ", 503));
+            assertEquals(Optional.empty(), Gemini.fallback("gemini-3.7-flash", null, 503));
+            assertEquals(Optional.empty(), Gemini.fallback("gemini-3.7-flash", " ", 503));
         }
 
         @Test
@@ -225,7 +250,7 @@ class GeminiTest {
         void noFallbackOnSharedModel() {
             assertEquals(
                     Optional.empty(),
-                    Gemini.ideaFallback("gemini-2.5-flash", "gemini-2.5-flash", 503));
+                    Gemini.fallback("gemini-2.5-flash", "gemini-2.5-flash", 503));
         }
 
         @ParameterizedTest(name = "상태 {0}")
@@ -236,7 +261,7 @@ class GeminiTest {
             // 더 부르면 같은 잘림을 한 번 더 산다. 400·404 는 요청 자체의 문제다.
             assertEquals(
                     Optional.empty(),
-                    Gemini.ideaFallback("gemini-3.7-flash", "gemini-2.5-flash", status));
+                    Gemini.fallback("gemini-3.7-flash", "gemini-2.5-flash", status));
         }
     }
 
