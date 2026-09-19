@@ -384,3 +384,47 @@ jobs:
           ## 다시 돌리려면
 
           $HOWTO"
+
+  # 살린 날의 실패 이슈를 닫는다. 1차가 연 "파이프라인 실패 — date" 는 몇 시간 뒤 백업이 살려도
+  # 열린 채 남아, 2026-09-15 · 09-18 · 09-19 에 날마다 실패한 것처럼 보였다 — 결번이 0 인 주에.
+  # 열린 이슈가 사실이 아니면 진짜 결번의 이슈도 같이 안 읽힌다.
+  #
+  # 조건은 기본값 그대로다 — pipeline · deploy 둘 다 success 일 때만 돈다. 작업 브랜치 검증
+  # 실행은 deploy 가 건너뛰어져 여기도 건너뛴다. 발행 브랜치에 나가지 않은 성공이 main 의
+  # 결번을 닫으면 안 된다.
+  #
+  # 아이디어 이슈는 이 실행에서 아이디어까지 살았을 때만 닫는다 — 그 단계는 continue-on-error 라
+  # 잡이 success 여도 outcome 이 failure 일 수 있고, 그날은 alert 가 같은 이슈를 붙든다.
+  resolve:
+    needs: [pipeline, deploy]
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: 살린 날의 실패 이슈 닫기
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          DATE: ${{ needs.pipeline.outputs.date }}
+          IDEA: ${{ needs.pipeline.outputs.idea }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          # 제목이 패턴에 맞는 열린 이슈를 닫는다. 판정은 alert 와 같은 제목 대조다 — 검색은 낱말
+          # 단위라 2026-09-09 가 열린 2026-09-02 이슈에 걸리고, 여기서 그 오판은 알림 누락이 아니라
+          # 남의 날짜를 닫는 일이다. 검색이 다른 날짜까지 물어오므로 기본 30건에서 자르지 않는다.
+          close_matching() {
+            gh issue list --state open --limit 100 --search "$1 in:title" --json number,title \
+                --jq '.[] | "\(.number)\t\(.title)"' |
+              awk -F'\t' -v p="$2" '$2 ~ p { print $1 "\t" $2 }' |
+              while IFS=$'\t' read -r NUMBER TITLE; do
+                gh issue close "$NUMBER" --comment "이 실행이 살렸다 — $RUN_URL"
+                echo "#$NUMBER $TITLE 닫음"
+              done
+          }
+
+          close_matching "파이프라인 실패 — $DATE" "^파이프라인 실패 — $DATE\$"
+          [ "$IDEA" = "success" ] && close_matching "아이디어 실패 — $DATE" "^아이디어 실패 — $DATE\$"
+
+          # 배포는 날짜를 가리지 않는다. 사이트를 통째로 다시 올리므로 이 배포가 성공했으면
+          # Pages 잠금에 막혔던 지난 날짜(08-06 · 09-09)까지 이미 실렸다.
+          close_matching "배포 실패" "^배포 실패 — [0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]\$"
