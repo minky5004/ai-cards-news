@@ -1,0 +1,769 @@
+{
+  "date": "2026-09-20",
+  "generatedAt": "2026-09-20T15:41:04.792Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 26,
+      "filtered": 14
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49774329",
+      "representativeId": "hackernews:49774329",
+      "items": [
+        {
+          "id": "hackernews:49774329",
+          "title": "AI and the Destruction of the Creative Commons",
+          "url": "https://chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T10:07:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 200,
+            "comments": 219,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774329"
+          }
+        }
+      ],
+      "score": 5.117356249638126,
+      "breakdown": {
+        "hnPoints": 1.7061736972955683,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.211182552342558,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49775499",
+      "representativeId": "hackernews:49775499",
+      "items": [
+        {
+          "id": "hackernews:49775499",
+          "title": "Qwen-Image-2.1: Compact, efficient, and unified image creation",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T13:09:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 169,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49775499"
+          }
+        }
+      ],
+      "score": 5.011547968440063,
+      "breakdown": {
+        "hnPoints": 1.6522836909850247,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 1.360874107928301,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49764791",
+      "representativeId": "hackernews:49764791",
+      "items": [
+        {
+          "id": "hackernews:49764791",
+          "title": "AI-generated posters don’t have to be horrible",
+          "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T09:20:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1707,
+            "comments": 885,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49764791"
+          }
+        },
+        {
+          "id": "hackernews:49770847",
+          "title": "Can you tell which images are AI-generated?",
+          "url": "https://slop-sense.labtoagi.com/games/is-this-image-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T23:02:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49770847"
+          }
+        }
+      ],
+      "score": 4.990267641461507,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7902676414615066,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49775104",
+      "representativeId": "hackernews:49775104",
+      "items": [
+        {
+          "id": "hackernews:49775104",
+          "title": "Chat-based Large Language Models replicate the mechanisms of a psychic's con",
+          "url": "https://softwarecrisis.dev/letters/llmentalist",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T12:20:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49775104"
+          }
+        }
+      ],
+      "score": 4.940906317676573,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 1.3185735585328364,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49766911",
+      "representativeId": "hackernews:49766911",
+      "items": [
+        {
+          "id": "hackernews:49766911",
+          "title": "AI Safety Is Mostly a Sex Cult",
+          "url": "https://bsky.app/profile/segyges.bsky.social/post/3mvom4b4dn22q",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T14:36:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49766911"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+          "title": "AI safety conversations have gotten unbelievable",
+          "url": "https://techcrunch.com/2026/09/19/ai-safety-conversations-have-gotten-unbelievable",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-19T15:00:00.000Z",
+          "summary": "This week two conversations about AI safety went viral that demonstrate just how hard it is to discern AI fact from fiction.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.706994484305856,
+      "breakdown": {
+        "hnPoints": 1.3803221151166902,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5797859402818467,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49774795",
+      "representativeId": "hackernews:49774795",
+      "items": [
+        {
+          "id": "hackernews:49774795",
+          "title": "If AI coding is lowering your code quality, you're not managing quality right",
+          "url": "https://i-kh.net/p/if-ai-coding-is-lowering-your-code",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T11:37:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 96,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774795"
+          }
+        }
+      ],
+      "score": 4.6515771557896075,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.8626151160103018,
+        "mentions": 0.0,
+        "recency": 1.2826405696646628,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49767937",
+      "representativeId": "hackernews:49767937",
+      "items": [
+        {
+          "id": "hackernews:49767937",
+          "title": "I think you should almost never use AI to write",
+          "url": "https://erichgrunewald.substack.com/p/why-you-should-almost-never-use-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T16:35:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 321,
+            "comments": 156,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49767937"
+          }
+        }
+      ],
+      "score": 4.627591164921782,
+      "breakdown": {
+        "hnPoints": 1.857782671653167,
+        "hnComments": 0.9534141244009318,
+        "mentions": 0.0,
+        "recency": 0.6163943688676834,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49763987",
+      "representativeId": "hackernews:49763987",
+      "items": [
+        {
+          "id": "hackernews:49763987",
+          "title": "GPT-6 Astra Solves a WWI German Radio Cipher",
+          "url": "https://prinzai.com/p/gpt-6-astra-solves-a-wwi-german-radio",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T06:41:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 385,
+            "comments": 175,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49763987"
+          }
+        }
+      ],
+      "score": 4.51216066354765,
+      "breakdown": {
+        "hnPoints": 1.916105756942031,
+        "hnComments": 0.9749550675807676,
+        "mentions": 0.0,
+        "recency": 0.4210998390248515,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49774665",
+      "representativeId": "hackernews:49774665",
+      "items": [
+        {
+          "id": "hackernews:49774665",
+          "title": "I'm Tired of the AI Tone",
+          "url": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T11:18:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774665"
+          }
+        }
+      ],
+      "score": 4.4070911840312466,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 1.2673115786438522,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49768921",
+      "representativeId": "hackernews:49768921",
+      "items": [
+        {
+          "id": "hackernews:49768921",
+          "title": "Microsoft director: AI scraping 'the largest theft of labor in human history'",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/microsoft-director-called-ai-scraping-the-largest-theft-of-labor-in-human-history-while-openai-head-brands-chatgpt-an-existential-threat-to-publishers-revelations-come-from-legal-briefs-filed-in-nyt-lawsuit",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T18:21:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 176,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49768921"
+          }
+        }
+      ],
+      "score": 4.2550555957382805,
+      "breakdown": {
+        "hnPoints": 1.6652654674937617,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 0.6598300226082978,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49773439",
+      "representativeId": "hackernews:49773439",
+      "items": [
+        {
+          "id": "hackernews:49773439",
+          "title": "KDE turns 30 and someone's brought an AI-native desktop proposal",
+          "url": "https://theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T07:38:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49773439"
+          }
+        }
+      ],
+      "score": 4.22058842928965,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 1.100559630587557,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49772544",
+      "representativeId": "hackernews:49772544",
+      "items": [
+        {
+          "id": "hackernews:49772544",
+          "title": "Google AI Studio fakes data deletion. VRP auto-banned me in 60s for reporting it",
+          "url": "https://medium.com/@istokovicsgyorgy79/google-ai-studio-fakes-data-deletion-vrp-auto-banned-me-in-60s-for-reporting-it-ea68e06f9bc2",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T04:39:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 41,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49772544"
+          }
+        }
+      ],
+      "score": 4.150578338697615,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.7047812040004495,
+        "mentions": 0.0,
+        "recency": 0.9808543125877895,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49769050",
+      "representativeId": "hackernews:49769050",
+      "items": [
+        {
+          "id": "hackernews:49769050",
+          "title": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
+          "url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T18:36:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49769050"
+          }
+        },
+        {
+          "id": "hackernews:49769668",
+          "title": "OpenAI and Anthropic oversold AI security breaches",
+          "url": "https://nypost.com/2026/09/19/us-news/openai-anthropic-oversold-security-breaches-to-pressure-feds-into-protecting-turf-insiders",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T19:59:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49769668"
+          }
+        }
+      ],
+      "score": 3.786923790744366,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.7026490542172219,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49773511",
+      "representativeId": "hackernews:49773511",
+      "items": [
+        {
+          "id": "hackernews:49773511",
+          "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
+          "url": "https://xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T07:50:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49773511"
+          }
+        }
+      ],
+      "score": 3.4622035800583495,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1093176226126147,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49763379",
+      "representativeId": "hackernews:49763379",
+      "items": [
+        {
+          "id": "hackernews:49763379",
+          "title": "NASA-IBM Lunar Foundation open-Source Geospatial AI Model",
+          "url": "https://newsroom.usra.edu/usra-contributes-planetary-science-expertise-to-nasa-ibm-lunar-foundation-model",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T04:44:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49763379"
+          }
+        }
+      ],
+      "score": 3.2408553233012727,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.3905994998174329,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+          "title": "Trump says it’s time to rebrand AI with a new name — and he’s also creating an AI Force",
+          "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-19T19:57:47.000Z",
+          "summary": "Trump claimed, without evidence, that the AI backlash is a Democratic hoax.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "title": "Trump now says he wants to form an ‘AI Force’",
+          "url": "https://theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-20T15:39:22.000Z",
+          "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.231684934529019,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4983516011956857,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "hackernews:49769183",
+      "representativeId": "hackernews:49769183",
+      "items": [
+        {
+          "id": "hackernews:49769183",
+          "title": "Open Weights Are Good. Open Source Is Better",
+          "url": "https://opensource.org/blog/open-weights-are-good-open-source-is-better",
+          "source": "hackernews",
+          "publishedAt": "2026-09-19T18:50:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49769183"
+          }
+        }
+      ],
+      "score": 3.1977253774214236,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.6722978778445731,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+          "title": "Google’s Gemini is the latest AI model to hack other companies",
+          "url": "https://techcrunch.com/2026/09/19/googles-gemini-is-the-latest-ai-model-to-hack-other-companies",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-19T17:30:00.000Z",
+          "summary": "Google said Gemini had \"acted appropriately\" by ending each hack immediately.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "title": "Gemini went rogue, hacked three companies, and Google hid it",
+          "url": "https://theverge.com/ai-artificial-intelligence/997795/google-gemini-rogue-ai-hack",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-19T15:25:03.000Z",
+          "summary": "In May, Gemini broke containment and hacked three different companies, but Google didn't disclose the incident until the Wall Street Journal approached the company. The hacks happened during a test of the model's cybersecurity capabilities run by third-party Irregular, which was also involved in similar incidents involving Meta and OpenAI. According to WSJ, Google didn't […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3717105827888507,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6383772494555175,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "representativeId": "theverge-ai:https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "url": "https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-20T12:00:00.000Z",
+          "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2015754282194746,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3015754282194747,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/19/datasette-auth-github",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/19/datasette-auth-github",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/19/datasette-auth-github",
+          "title": "datasette-auth-github 1.0",
+          "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-19T19:52:02.000Z",
+          "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.) I fixed that in #80 and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I'm trying to get better at promoting stable plugins to 1.0. Tags: github , plugins , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7493048850395936,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6993048850395936,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/19/sighting-401567341",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/19/sighting-401567341",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/19/sighting-401567341",
+          "title": "California Sea Lion, Brandt's Cormorant",
+          "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-19T17:10:08.000Z",
+          "summary": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6802893020028797,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6302893020028799,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+          "title": "Petlibro’s new AI-powered feeder is a game changer for multi-cat homes",
+          "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-19T15:00:00.000Z",
+          "summary": "Petlibro's new Granary 2 smart feeders use a built-in scale and (on pricier models) an AI camera to track exactly how much your cat is eating and when — though the fanciest health-monitoring features will cost you an extra subscription.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4797859402818467,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5797859402818467,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+          "title": "Does AI need an antitrust exemption so it doesn’t kill everyone????",
+          "url": "https://theverge.com/podcast/997382/openai-microsoft-anthropic-elon-musk-cartel-ai-competition",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-19T14:00:00.000Z",
+          "summary": "Today on Decoder, we’ve got the first of a two-part series on the future of business, and I’m talking with Jonathan Kanter, the former antitrust chief for the US Department of Justice in the Biden administration. These days, he’s both a professor of law at WashU and professor of technology policy at Carnegie Mellon. The […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4578838520352781,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5578838520352782,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking",
+          "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+          "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-19T13:00:00.000Z",
+          "summary": "Vals AI is hoping to make AI benchmarking a more neutral and trustworthy resource in a world increasingly inundated by AI models.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4368091406466708,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5368091406466708,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+          "title": "The AI regulation smackdown isn’t over",
+          "url": "https://theverge.com/ai-artificial-intelligence/997706/the-ai-regulation-smackdown-isnt-over",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-19T13:00:00.000Z",
+          "summary": "At the start of this week, the who's-who of AI seemed - at least tentatively - on the side of AI regulation. Over the weekend, Anthropic CEO Dario Amodei had proposed a three-step plan for slowing AI development, including by embedding third-party evaluators in labs, coordinating across the domestic industry, and forging international agreements potentially […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4368091406466708,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5368091406466708,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49774329",
+    "hackernews:49775499",
+    "hackernews:49764791",
+    "hackernews:49775104",
+    "hackernews:49766911"
+  ]
+}
