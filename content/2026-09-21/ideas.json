@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T18:17:14.256Z",
+  "idea": {
+    "productName": "FlexiMod",
+    "tagline": "필요한 AI 모델만 맥에, 공간 걱정 없이",
+    "oneLineSummary": "로컬 AI 모델을 효율적으로 관리하여 맥 저장 공간을 절약하려는 개인 개발자나 기업에게 맞춤형 모델 로딩 솔루션을 제공합니다.",
+    "problem": "개인 개발자와 소규모 기업은 여러 AI 모델을 로컬 환경에서 사용하려 할 때, 각 모델이 차지하는 상당한 저장 공간 때문에 어려움을 겪습니다. 이로 인해 필요한 모델을 모두 설치하기 어렵고, 불필요한 모델이 상주하며 리소스를 낭비합니다.",
+    "productDescription": "FlexiMod는 사용자의 필요에 따라 AI 모델을 동적으로 로딩하고 언로딩하는 지능형 관리 시스템입니다. macOS 환경에 최적화되어, 필요할 때만 모델을 불러와 실행하고 사용 후에는 리소스를 즉시 반환합니다. 이를 통해 한정된 로컬 저장 공간을 효율적으로 사용하며, 여러 AI 모델을 번거로움 없이 오가며 작업할 수 있게 합니다.",
+    "keyFeatures": [
+      "모델 동적 로딩 및 해제",
+      "사용 빈도 기반 캐싱",
+      "저장 공간 최적화 추천",
+      "Qwen3.5 기반 모델 지원",
+      "Apple Silicon 최적화"
+    ],
+    "persona": "로컬 AI 개발자: 새로운 AI 모델을 맥에서 시험하고 싶지만, 모델 설치와 삭제가 번거롭고 저장 공간이 부족한 상황에 직면한 개인 또는 스타트업 개발자입니다.",
+    "businessModel": "기본 모델 관리 기능은 무료로 제공하며, 고급 캐싱, 자동 모델 추천, 엔터프라이즈급 보안 및 팀 공유 기능은 월 10,000원의 구독 모델로 제공합니다.",
+    "marketStats": "기사에 규모 근거 없음",
+    "goToMarket": "GitHub, Hacker News, Reddit의 /r/MacOSBeta, /r/LocalLLaMA와 같은 개발자 커뮤니티에서 직접 사용 사례를 공유하고 피드백을 수집하며 초기 고객 100명을 확보합니다.",
+    "unfairAdvantage": "Kev와 Mini-AGI처럼 작은 AI 모델들이 Apple Silicon 환경에서 구동 가능해지면서 로컬 모델 활용 수요가 증가하고 있습니다. macOS 사용자들의 저장 공간 부족 문제가 기사에서 언급된 지금, 이 수요를 해결할 시기적절한 솔루션입니다.",
+    "competitors": [
+      "수동 모델 설치·관리 — 설치마다 저장 공간 낭비",
+      "Docker/VM 기반 환경 — 오버헤드 크고 복잡함",
+      "클라우드 기반 모델 서비스 — 데이터 유출 우려, 높은 비용"
+    ],
+    "risks": [
+      "애플이 OS 차원에서 모델 관리 기능 통합",
+      "AI 모델의 대형화 추세로 작은 모델 지원 비중 축소",
+      "동적 로딩/언로딩 시 발생하는 성능 지연",
+      "로컬 모델 관리 시스템의 보안 취약점"
+    ],
+    "actionPlan": [
+      "MVP용 모델 로딩/언로딩 코어 기능 개발",
+      "Qwen3.5 기반 Kev 모델 연동 테스트",
+      "GitHub에 초기 버전 공개 및 피드백 수집",
+      "macOS 저장 공간 사용량 모니터링 기능 추가"
+    ],
+    "recommendation": "macOS 사용자의 로컬 AI 모델 저장 공간 문제를 해결하는 시의적절한 아이디어입니다. Kev와 Mini-AGI 같은 작은 모델의 확산과 맥 사용자의 스토리지 절약 요구를 동시에 만족시킵니다. 다만, Apple의 OS 내장 기능 강화나 대형 모델 위주의 시장 변화에 대한 대응 전략이 필요합니다.",
+    "searchQuery": "local ai model management",
+    "novelty": {
+      "verdict": "CROWDED",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 411점으로 이미 널리 다뤄진 주제다",
+      "evidence": [
+        {
+          "title": "Show HN: Reor – An AI note-taking app that runs models locally",
+          "url": "https://github.com/reorproject/reor",
+          "points": 411
+        },
+        {
+          "title": "Launch HN: Outerport (YC S24) – Instant hot-swapping for AI model weights",
+          "url": "https://news.ycombinator.com/item?id=41312079",
+          "points": 93
+        },
+        {
+          "title": "Launch HN: Screenpipe (YC S26) – Record how you work and turn that into agents",
+          "url": "https://news.ycombinator.com/item?id=49024620",
+          "points": 88
+        },
+        {
+          "title": "Show HN: Nexa SDK – Build powerful and efficient AI apps on edge devices",
+          "url": "https://github.com/NexaAI/nexa-sdk",
+          "points": 27
+        },
+        {
+          "title": "Show HN: Lemonade: Run LLMs Locally with GPU and NPU Acceleration",
+          "url": "https://github.com/lemonade-sdk/lemonade",
+          "points": 15
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49789982",
+        "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+        "url": "https://forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom"
+      },
+      {
+        "clusterId": "hackernews:49788838",
+        "title": "Grok 4.7",
+        "url": "https://x.ai/news/grok-4-7"
+      },
+      {
+        "clusterId": "hackernews:49783999",
+        "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+        "url": "https://github.com/jaredpalmer/kev/tree/main"
+      },
+      {
+        "clusterId": "hackernews:49787535",
+        "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+        "url": "https://reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and"
+      },
+      {
+        "clusterId": "hackernews:49787765",
+        "title": "The Claude Delusion",
+        "url": "https://pluralistic.net/2026/09/21/sunsetting"
+      },
+      {
+        "clusterId": "hackernews:49776729",
+        "title": "ChatGPT now knows what you do on other websites via ad collector",
+        "url": "https://buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector"
+      },
+      {
+        "clusterId": "hackernews:49775499",
+        "title": "Qwen Image 2.1",
+        "url": "https://qwen.ai/blog?id=qwen-image-2.1"
+      },
+      {
+        "clusterId": "hackernews:49776699",
+        "title": "Pirate Face Rescues LLM Models from Deletion",
+        "url": "https://pirateface.co"
+      },
+      {
+        "clusterId": "hackernews:49784816",
+        "title": "Don't Use AI to Write",
+        "url": "https://paulbakker.io/writing/no-ai-for-writing"
+      },
+      {
+        "clusterId": "hackernews:49783133",
+        "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+        "url": "https://github.com/volotat/mini-AGI"
+      },
+      {
+        "clusterId": "hackernews:49783062",
+        "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+        "url": "https://ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666"
+      },
+      {
+        "clusterId": "hackernews:49775104",
+        "title": "The LLMentalist Effect (2023)",
+        "url": "https://softwarecrisis.dev/letters/llmentalist"
+      },
+      {
+        "clusterId": "hackernews:49774329",
+        "title": "AI and the Destruction of the Creative Commons",
+        "url": "https://chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons"
+      },
+      {
+        "clusterId": "hackernews:49778162",
+        "title": "I turned Jev into a (lousy) chatbot",
+        "url": "https://github.com/kyle-pena-nlp/jevchat"
+      },
+      {
+        "clusterId": "hackernews:49784366",
+        "title": "In September, AI generated code has made up 17.25% of all Linux Kernel patches",
+        "url": "https://twitter.com/LundukeJournal/status/2101841277432070210"
+      }
+    ]
+  }
+}

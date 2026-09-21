@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T18:07:53.613Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49789982",
+      "headline": "메타 AI 뮤즈, 아마존에서 쇼핑 금지 당했다",
+      "highlight": [
+        "메타 AI 뮤즈",
+        "쇼핑 금지"
+      ],
+      "body": "메타의 AI 비서 뮤즈 사용자들이 아마존에서 물품 구매 시 오류 메시지를 받기 시작했습니다. 아마존은 승인되지 않은 AI 에이전트의 접근이 서비스 약관을 위반한다고 밝혔습니다. 메타와 아마존 간 거대 기술 기업의 주도권 다툼이자, AI의 잘못된 주문 처리 등 잠재적 문제에 대한 아마존의 우려로 해석됩니다.",
+      "sourceUrl": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/meta-muse-app-GettyImages-2293792137.jpg?w=1024",
+      "publishedAt": "2026-09-21T17:00:23.000Z"
+    },
+    {
+      "clusterId": "hackernews:49788838",
+      "headline": "Grok 4.7, 가격은 그대로 성능은 더 강력하게",
+      "highlight": [
+        "Grok 4.7",
+        "가격은 그대로"
+      ],
+      "body": "Grok 4.7은 기존과 동일한 가격으로 출시됐지만, 코딩 및 지식 작업에서 가장 강력한 성능을 자랑합니다. CursorBench 4.0에서 46.3%를 기록하며 가격 대비 성능 선두를 달리고, 안전 기능도 대폭 강화됐습니다. 위험 프롬프트는 3.3%만 허용하는 등 업무 효율과 보안을 동시에 잡았습니다.",
+      "sourceUrl": "https://x.ai/news/grok-4-7",
+      "sourceName": "hackernews",
+      "imageUrl": "https://x.ai/images/news/grok-4-7-og.webp",
+      "publishedAt": "2026-09-21T15:50:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:49783999",
+      "headline": "맥에서도 돌아가는 작은 AI 모델",
+      "highlight": [
+        "맥에서도",
+        "AI 모델"
+      ],
+      "body": "Kev는 Qwen3.5 기반의 소형 의사결정 모델입니다. 0.8B, 4B, 9B 모델을 Mac에서 직접 학습하고 실행할 수 있습니다. 이제 고객 문의, 등급 매기기 등 다양한 결정을 로컬에서 빠르게 처리하세요.",
+      "sourceUrl": "https://github.com/jaredpalmer/kev/tree/main",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/21d82b29135b53ab026559d006f329d211b27546a90e630aae30a3fb263b8169/jaredpalmer/kev",
+      "publishedAt": "2026-09-21T07:11:55.000Z"
+    },
+    {
+      "clusterId": "hackernews:49787765",
+      "headline": "AI와 대화? 사실 당신이 착각 중입니다",
+      "highlight": [
+        "착각 중입니다"
+      ],
+      "body": "AI 챗봇과 대화할 때, 우리는 상대방을 '환각'합니다. AI는 의도를 가질 수 없지만, 인간은 본능적으로 타인의 마음을 읽으려는 경향이 있기 때문입니다. 이 환각은 AI의 '오류'보다 훨씬 흔하고 중요한 문제입니다.",
+      "sourceUrl": "https://pluralistic.net/2026/09/21/sunsetting",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-09-21T14:30:24.000Z"
+    },
+    {
+      "clusterId": "hackernews:49776729",
+      "headline": "오픈AI, 챗GPT 계정으로 웹 활동 추적한다",
+      "highlight": [
+        "챗GPT 계정으로",
+        "추적한다"
+      ],
+      "body": "오픈AI의 광고 수집기는 당신의 챗GPT 계정과 다른 웹사이트 활동을 연결합니다. 방문한 사이트의 검색, 독서, 구매 행동까지 수집합니다. 이는 AI 챗봇에 대한 개인정보 보호 우려를 키울 수 있습니다.",
+      "sourceUrl": "https://buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+      "sourceName": "Buchodi's Threat Intel",
+      "publishedAt": "2026-09-20T15:18:44.000Z"
+    }
+  ]
+}

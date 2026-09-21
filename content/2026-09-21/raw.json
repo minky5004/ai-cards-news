@@ -1,0 +1,1203 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T18:00:39.313Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 7
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 4
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 35,
+      "filtered": 12
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49789982",
+      "representativeId": "hackernews:49789982",
+      "items": [
+        {
+          "id": "hackernews:49789982",
+          "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+          "url": "https://forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T17:00:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49789982"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+          "title": "Meta’s AI agent has been blocked from using Amazon.com",
+          "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-21T17:55:18.000Z",
+          "summary": "Muse isn't welcome as a shopper anymore.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+          "title": "Amazon blocks Meta’s Muse AI agent",
+          "url": "https://theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-21T09:21:47.000Z",
+          "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta didn't notify Amazon that […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.235060858128671,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.6214684848679675,
+        "mentions": 1.6666666666666665,
+        "recency": 1.494853358812033,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49788838",
+      "representativeId": "hackernews:49788838",
+      "items": [
+        {
+          "id": "hackernews:49788838",
+          "title": "Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T15:50:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 235,
+            "comments": 189,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49788838"
+          }
+        }
+      ],
+      "score": 5.326774178240159,
+      "breakdown": {
+        "hnPoints": 1.7578182423596416,
+        "hnComments": 0.9893875919121559,
+        "mentions": 0.0,
+        "recency": 1.379568343968362,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49783999",
+      "representativeId": "hackernews:49783999",
+      "items": [
+        {
+          "id": "hackernews:49783999",
+          "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+          "url": "https://github.com/jaredpalmer/kev/tree/main",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T07:11:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 317,
+            "comments": 149,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49783999"
+          }
+        }
+      ],
+      "score": 4.987736818522681,
+      "breakdown": {
+        "hnPoints": 1.8537611323885028,
+        "hnComments": 0.944813730487555,
+        "mentions": 0.0,
+        "recency": 0.9891619556466227,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49787535",
+      "representativeId": "hackernews:49787535",
+      "items": [
+        {
+          "id": "hackernews:49787535",
+          "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+          "url": "https://reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T14:10:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 126,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49787535"
+          }
+        }
+      ],
+      "score": 4.811773152188925,
+      "breakdown": {
+        "hnPoints": 1.5584667928737606,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 1.2942793449305883,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49787765",
+      "representativeId": "hackernews:49787765",
+      "items": [
+        {
+          "id": "hackernews:49787765",
+          "title": "The Claude Delusion",
+          "url": "https://pluralistic.net/2026/09/21/sunsetting",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T14:30:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 93,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49787765"
+          }
+        }
+      ],
+      "score": 4.7928182990561705,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.8566912257611031,
+        "mentions": 0.0,
+        "recency": 1.3106493361516152,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49776729",
+      "representativeId": "hackernews:49776729",
+      "items": [
+        {
+          "id": "hackernews:49776729",
+          "title": "ChatGPT now knows what you do on other websites via ad collector",
+          "url": "https://buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T15:18:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 741,
+            "comments": 388,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49776729"
+          }
+        }
+      ],
+      "score": 4.736519122647022,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5365191226470217,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49775499",
+      "representativeId": "hackernews:49775499",
+      "items": [
+        {
+          "id": "hackernews:49775499",
+          "title": "Qwen Image 2.1",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T13:09:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 712,
+            "comments": 190,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49775499"
+          }
+        }
+      ],
+      "score": 4.684165474493007,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9903774191947936,
+        "mentions": 0.0,
+        "recency": 0.4937880552982131,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49776699",
+      "representativeId": "hackernews:49776699",
+      "items": [
+        {
+          "id": "hackernews:49776699",
+          "title": "Pirate Face Rescues LLM Models from Deletion",
+          "url": "https://pirateface.co",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T15:16:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 544,
+            "comments": 144,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49776699"
+          }
+        }
+      ],
+      "score": 4.674040054454121,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9384211974796635,
+        "mentions": 0.0,
+        "recency": 0.5356188569744571,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49784816",
+      "representativeId": "hackernews:49784816",
+      "items": [
+        {
+          "id": "hackernews:49784816",
+          "title": "Don't Use AI to Write",
+          "url": "https://paulbakker.io/writing/no-ai-for-writing",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T08:54:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 114,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49784816"
+          }
+        }
+      ],
+      "score": 4.576015020753198,
+      "breakdown": {
+        "hnPoints": 1.5265345917719344,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 1.0566365906039195,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49783133",
+      "representativeId": "hackernews:49783133",
+      "items": [
+        {
+          "id": "hackernews:49783133",
+          "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+          "url": "https://github.com/volotat/mini-AGI",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T04:42:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 227,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49783133"
+          }
+        }
+      ],
+      "score": 4.567437128142799,
+      "breakdown": {
+        "hnPoints": 1.7467233859346378,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.8987787483006884,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49783062",
+      "representativeId": "hackernews:49783062",
+      "items": [
+        {
+          "id": "hackernews:49783062",
+          "title": "AI chatbots give wrong answers to financial queries 'most of the time'",
+          "url": "https://ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T04:28:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 143,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49783062"
+          }
+        }
+      ],
+      "score": 4.51597123759981,
+      "breakdown": {
+        "hnPoints": 1.5988831265048995,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 0.8908058756505908,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49775104",
+      "representativeId": "hackernews:49775104",
+      "items": [
+        {
+          "id": "hackernews:49775104",
+          "title": "The LLMentalist Effect (2023)",
+          "url": "https://softwarecrisis.dev/letters/llmentalist",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T12:20:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 217,
+            "comments": 297,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49775104"
+          }
+        }
+      ],
+      "score": 4.410733568724286,
+      "breakdown": {
+        "hnPoints": 1.732294108790144,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.47843945993414216,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49774329",
+      "representativeId": "hackernews:49774329",
+      "items": [
+        {
+          "id": "hackernews:49774329",
+          "title": "AI and the Destruction of the Creative Commons",
+          "url": "https://chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T10:07:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 233,
+            "comments": 275,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774329"
+          }
+        }
+      ],
+      "score": 4.394553229159307,
+      "breakdown": {
+        "hnPoints": 1.7550801921986627,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.43947303696064416,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49778162",
+      "representativeId": "hackernews:49778162",
+      "items": [
+        {
+          "id": "hackernews:49778162",
+          "title": "I turned Jev into a (lousy) chatbot",
+          "url": "https://github.com/kyle-pena-nlp/jevchat",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T17:51:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 167,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49778162"
+          }
+        }
+      ],
+      "score": 4.174093348701502,
+      "breakdown": {
+        "hnPoints": 1.6484763216730338,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.5917689142796632,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49784366",
+      "representativeId": "hackernews:49784366",
+      "items": [
+        {
+          "id": "hackernews:49784366",
+          "title": "In September, AI generated code has made up 17.25% of all Linux Kernel patches",
+          "url": "https://twitter.com/LundukeJournal/status/2101841277432070210",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T07:59:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49784366"
+          }
+        }
+      ],
+      "score": 4.158608475017807,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 1.0197051930339522,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49774795",
+      "representativeId": "hackernews:49774795",
+      "items": [
+        {
+          "id": "hackernews:49774795",
+          "title": "If AI coding is lowering your code quality, you're not managing quality right",
+          "url": "https://i-kh.net/p/if-ai-coding-is-lowering-your-code",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T11:37:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 112,
+            "comments": 158,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774795"
+          }
+        }
+      ],
+      "score": 4.1420925776153865,
+      "breakdown": {
+        "hnPoints": 1.5208902548570227,
+        "hnComments": 0.9558010127830588,
+        "mentions": 0.0,
+        "recency": 0.46540130997530504,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49786419",
+      "representativeId": "hackernews:49786419",
+      "items": [
+        {
+          "id": "hackernews:49786419",
+          "title": "Show HN: Lossless-memory – a personal AI memory that never summarizes",
+          "url": "https://github.com/aru-labs/lossless-memory",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T12:28:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49786419"
+          }
+        }
+      ],
+      "score": 4.126920246893186,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 1.211849681223228,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49780162",
+      "representativeId": "hackernews:49780162",
+      "items": [
+        {
+          "id": "hackernews:49780162",
+          "title": "I stopped drinking the AI Kool-Aid",
+          "url": "https://joshtronic.com/2026/09/20/i-stopped-drinking-the-ai-kool-aid",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T21:17:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49780162"
+          }
+        }
+      ],
+      "score": 3.940322470393615,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.6754079786642806,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49779802",
+      "representativeId": "hackernews:49779802",
+      "items": [
+        {
+          "id": "hackernews:49779802",
+          "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+          "url": "https://reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T20:32:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49779802"
+          }
+        }
+      ],
+      "score": 3.902001110861444,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 0.6562997580152523,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49782242",
+      "representativeId": "hackernews:49782242",
+      "items": [
+        {
+          "id": "hackernews:49782242",
+          "title": "Can I Let My AI Agent Run on Shabbat?",
+          "url": "https://chabad.org/library/article_cdo/aid/7288064/jewish/Can-I-Let-My-AI-Agent-Run-on-Shabbat.htm",
+          "source": "hackernews",
+          "publishedAt": "2026-09-21T02:05:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49782242"
+          }
+        }
+      ],
+      "score": 3.7105971285762207,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.812697861881783,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49774665",
+      "representativeId": "hackernews:49774665",
+      "items": [
+        {
+          "id": "hackernews:49774665",
+          "title": "I'm Tired of the AI Tone",
+          "url": "https://sagivo.com/blog/im-tired-of-the-ai-tone",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T11:18:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774665"
+          }
+        }
+      ],
+      "score": 3.6506127553432375,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.45983924319649583,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49774991",
+      "representativeId": "hackernews:49774991",
+      "items": [
+        {
+          "id": "hackernews:49774991",
+          "title": "Big Tech uses guarantees to keep $300B AI exposure off balance sheets",
+          "url": "https://ft.com/content/7f11afae-c4e3-4054-a65b-873f3647f563",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T12:07:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49774991"
+          }
+        }
+      ],
+      "score": 3.648723620107267,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.4744490110210464,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49773439",
+      "representativeId": "hackernews:49773439",
+      "items": [
+        {
+          "id": "hackernews:49773439",
+          "title": "KDE turns 30 and someone's brought an AI-native desktop proposal",
+          "url": "https://theregister.com/software/2026/09/18/kde-turns-30-and-someones-brought-an-ai-native-desktop-proposal/5297282",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T07:38:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49773439"
+          }
+        }
+      ],
+      "score": 3.568410299537353,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.3993339255714471,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead",
+          "title": "Trump rejects AI slowdown calls, launches \"AI Force\" instead",
+          "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-21T15:37:56.000Z",
+          "summary": "The president offered few details on what his proposed new AI Force would do.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "title": "Trump now says he wants to form an ‘AI Force’",
+          "url": "https://theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-20T15:39:22.000Z",
+          "summary": "The president posted on Truth Social that he wanted to appoint an \"AI czar\" to lead a new \"AI force.\" He made the announcement amid growing calls from across the political spectrum and even within the industry to pump the brakes on AI development. He posted that his administration \"will not in any way hinder […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.2520393540376435,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3687060207043105,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:49780849",
+      "representativeId": "hackernews:49780849",
+      "items": [
+        {
+          "id": "hackernews:49780849",
+          "title": "Show HN: jevals – replacing LLM judges with typed Jev decisions",
+          "url": "https://github.com/openlayer-ai/jevals",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T22:39:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49780849"
+          }
+        }
+      ],
+      "score": 3.1865889767612083,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.7120651383274635,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49773511",
+      "representativeId": "hackernews:49773511",
+      "items": [
+        {
+          "id": "hackernews:49773511",
+          "title": "Every Nvidia GPU has 10 to 30 RISC-V cores inside it",
+          "url": "https://xda-developers.com/your-nvidia-gpu-dozens-risc-v-cores-one-took-over-graphics-driver",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T07:50:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49773511"
+          }
+        }
+      ],
+      "score": 3.1709328436014825,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.4025117300613524,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49773624",
+      "representativeId": "hackernews:49773624",
+      "items": [
+        {
+          "id": "hackernews:49773624",
+          "title": "OpenAI and Microsoft knew they were starting a 'doom loop' for the web",
+          "url": "https://theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
+          "source": "hackernews",
+          "publishedAt": "2026-09-20T08:07:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49773624"
+          }
+        }
+      ],
+      "score": 2.9667519779241966,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.4067098588558061,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "representativeId": "openai:https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "title": "Advisory Group on Mathematics and Artificial Intelligence",
+          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+          "source": "openai",
+          "publishedAt": "2026-09-21T12:00:00.000Z",
+          "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.690050243826729,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1900502438267289,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "representativeId": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+          "source": "huggingface",
+          "publishedAt": "2026-09-21T13:44:34.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.622656849241154,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.272656849241154,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/building-standards-next-phase-ai",
+      "representativeId": "openai:https://openai.com/index/building-standards-next-phase-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/building-standards-next-phase-ai",
+          "title": "Building standards for the next phase of AI",
+          "url": "https://openai.com/index/building-standards-next-phase-ai",
+          "source": "openai",
+          "publishedAt": "2026-09-21T10:00:00.000Z",
+          "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.6018374271104925,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1018374271104925,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+          "title": "Google confirms Gemini models hacked three companies in May 2026",
+          "url": "https://arstechnica.com/google/2026/09/google-confirms-gemini-models-hacked-three-companies-in-may-2026",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-21T16:57:26.000Z",
+          "summary": "A third-party cybersecurity firm accidentally gave experimental Gemini models access to the Internet.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4903542887759533,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4403542887759533,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "representativeId": "openai:https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "title": "Expanding OpenAI Academy with new learning paths",
+          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+          "source": "openai",
+          "publishedAt": "2026-09-21T07:00:00.000Z",
+          "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.481625551411787,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9816255514117872,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+          "title": "With Tabby, a former accountant is using AI to make accountants obsolete",
+          "url": "https://techcrunch.com/2026/09/21/with-tabby-a-former-accountant-is-using-ai-to-make-accountants-obsolete",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-21T16:38:51.000Z",
+          "summary": "Tabby is designed to be a real-time bookkeeping interface, handling clients’ paperwork as it gives them up-to-the-minute data on their business’s profit and loss.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3232774551687903,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4232774551687903,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/v7",
+      "representativeId": "openai:https://openai.com/index/v7",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/v7",
+          "title": "How V7 gives AI agents institutional memory",
+          "url": "https://openai.com/index/v7",
+          "source": "openai",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.249684676314911,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.749684676314911,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+          "title": "Google’s $899 Googlebook is a bet that you’ll buy a new laptop for Gemini",
+          "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-21T14:39:22.000Z",
+          "summary": "Google’s AI-native Googlebook ties Gemini to the cursor, dictation, widgets and other parts of the desktop experience.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2182136491014983,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3182136491014986,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+      "representativeId": "theverge-ai:https://theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+          "title": "iPhone owners can now submit claims in Apple’s $250 million Siri AI settlement",
+          "url": "https://theverge.com/tech/998191/apple-siri-ai-iphone-16-class-action-lawsuit-settlement",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-21T13:36:52.000Z",
+          "summary": "Apple is paying $250 million to settle claims that it failed to deliver an AI-upgraded Siri - and now, eligible iPhone owners can submit a claim for a payout. If you live in the US and purchased an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10th, 2024, and […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.166383043379716,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.266383043379716,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/tokenizers-v1",
+      "representativeId": "huggingface:https://huggingface.co/blog/tokenizers-v1",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/tokenizers-v1",
+          "title": "tokenizers v1: encode, decode and scaling, measured",
+          "url": "https://huggingface.co/blog/tokenizers-v1",
+          "source": "huggingface",
+          "publishedAt": "2026-09-21T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.099684676314911,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.749684676314911,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+          "title": "UN says AI safeguards can’t wait for certainty",
+          "url": "https://theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-21T10:18:06.000Z",
+          "summary": "Governments need to rein in increasingly capable AI agents before their risks are fully understood, a United Nations scientific panel warned in the global organization's first major assessment of OpenAI's hack of Hugging Face earlier this year. The report cements AI's place on the global diplomatic agenda this week as leaders gather in New York […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0147117015467493,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1147117015467494,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/20/voxium",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/20/voxium",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/20/voxium",
+          "title": "Quoting voxium",
+          "url": "https://simonwillison.net/2026/Sep/20/voxium",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-20T21:06:43.000Z",
+          "summary": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. — voxium Tags: ai-misuse , llms , ai , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7207784696435358,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.670778469643536,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/20/llm-keys-ui",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/20/llm-keys-ui",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/20/llm-keys-ui",
+          "title": "llm-keys-ui 0.1",
+          "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-20T19:22:19.000Z",
+          "summary": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys. Then later it can use a command like llm keys get anthropic as part of a shell command when it needs to use a key. Tags: llm , coding-agents , codex",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6773061540570655,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6273061540570657,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down",
+          "title": "Is the AI industry really ready to slow down?",
+          "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-20T18:56:04.000Z",
+          "summary": "On Equity, we debated whether AI executives are serious about wanting to slow down.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5168262490310127,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6168262490310128,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "title": "No one is surprised that Nvidia’s Jensen Huang thinks AI fears are overblown",
+          "url": "https://theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-20T18:50:18.000Z",
+          "summary": "The man who may stand to make the most money from the AI boom seems to think he knows better than anyone else, including researchers who have studied and worked on AI for decades. In an interview with CBS Sunday Morning, he claimed there was a \"0% chance\" of AI being the end of the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5145475552193197,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6145475552193198,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "representativeId": "theverge-ai:https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+          "url": "https://theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-20T12:00:00.000Z",
+          "summary": "Before recent high-profile hacks raised the specter of AI possibly \"killing all humans,\" our energy systems were already disturbingly vulnerable to cyberattack - and the risk is growing. \"We were always prey. We were just kind of surviving at the appetite of our predators,\" Joshua Corman, executive in residence for public safety and resilience at […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3722717522363903,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4722717522363904,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49789982",
+    "hackernews:49788838",
+    "hackernews:49783999",
+    "hackernews:49787535",
+    "hackernews:49787765"
+  ]
+}
