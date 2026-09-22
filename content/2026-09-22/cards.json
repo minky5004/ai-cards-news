@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026-09-22T16:40:04.182Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49802030",
+      "headline": "메타 AI 비서 뮤즈, 0-day에 계정 탈취 우려",
+      "highlight": [
+        "0-day",
+        "계정 탈취"
+      ],
+      "body": "메타의 AI 비서 '뮤즈'에서 심각한 0-day 취약점이 발견됐습니다. 보안 전문가는 로컬 앱이 Muse 계정 토큰을 탈취, 비서를 완전히 제어할 수 있다고 경고했습니다. 아마존도 이미 뮤즈를 차단, 사용자 정보 유출에 주의가 필요합니다.",
+      "sourceUrl": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/ai-agent-hacking-1152x648.jpg",
+      "publishedAt": "2026-09-22T14:35:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:49784816",
+      "headline": "글쓰기, AI가 대신하면 생각은 누가?",
+      "highlight": [
+        "생각은 누가?"
+      ],
+      "body": "AI로 글쓰면 깊은 사고는 사라집니다. AI는 정보 수집에 강하지만, 새로운 아이디어와 통찰은 인간 고유 영역입니다. 글쓰기는 사고 도구이므로, AI를 생각의 대체가 아닌 보조 도구로 활용하세요.",
+      "sourceUrl": "https://paulbakker.io/writing/no-ai-for-writing",
+      "sourceName": "hackernews",
+      "imageUrl": "https://paulbakker.io/images/paul-bakker.jpg",
+      "publishedAt": "2026-09-21T08:54:44.000Z"
+    },
+    {
+      "clusterId": "hackernews:49801324",
+      "headline": "오픈AI GPT-6, 80년 미제 에니그마 해독",
+      "highlight": [
+        "GPT-6",
+        "80년"
+      ],
+      "body": "오픈AI GPT-6 아스트라가 2005년부터 풀리지 않던 1941년 독일군 에니그마 암호를 단 이틀 만에 해독했습니다. 스스로 Enigma Bombe 소프트웨어를 개발하며 수개월이 걸릴 법한 작업을 경이로운 속도로 완료했습니다.",
+      "sourceUrl": "https://cryptocellar.org/bgac/the-mvueh-break.html",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-09-22T13:52:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:49799965",
+      "headline": "AI 코딩 의존, 당신의 숙련도 앗아간다",
+      "highlight": [
+        "숙련도 앗아간다"
+      ],
+      "body": "AI에 코드를 전적으로 맡기면 개발자는 실수에서 배우고 성장할 기회를 놓칩니다. AI는 유지보수성과 아키텍처 등 장기적 품질을 판단 못하고, 그 결과는 수년 뒤에야 드러납니다. 결국 전문가가 되지 못해 ‘노 AI’ 기업이 경쟁력을 가질 것이라는 전망입니다.",
+      "sourceUrl": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you",
+      "sourceName": "Alexandru Nedelcu",
+      "imageUrl": "https://alexn.org/assets/logo/800px-bordered.png",
+      "publishedAt": "2026-09-22T12:11:09.000Z"
+    },
+    {
+      "clusterId": "hackernews:49797323",
+      "headline": "gzip, 신경망 없이 텍스트 생성 성공",
+      "highlight": [
+        "gzip",
+        "신경망 없이"
+      ],
+      "body": "일반 압축 프로그램 gzip이 신경망 없이 텍스트를 생성했습니다. 압축과 예측이 본질적으로 같다는 정보 이론을 활용한 실험 결과입니다. 운영체제 기본 gzip이 AI 언어 모델의 새로운 가능성을 보여줍니다.",
+      "sourceUrl": "https://nathan.rs/posts/gzip-lm",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-09-22T06:08:39.000Z"
+    }
+  ]
+}
