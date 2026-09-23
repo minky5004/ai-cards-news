@@ -1,5 +1,7 @@
 # ai-cards-news
 
+![파이프라인 테스트](https://github.com/minky5004/ai-cards-news/actions/workflows/test.yml/badge.svg)
+
 > 매일 밤 · 수집부터 게시까지 **사람 손이 개입하지 않는** AI 뉴스 카드 파이프라인
 
 **[minky5004.github.io/ai-cards-news](https://minky5004.github.io/ai-cards-news/)** — 매일 21:00 KST
@@ -11,20 +13,10 @@
 하루 밀린 날짜 라벨 · LLM 한도 소진).
 
 <p>
-  <img src="content/2026-09-01/idea.webp" width="215" alt="오늘의 아이디어 카드">
-  <img src="content/2026-09-01/cards/01.webp" width="215" alt="발행 카드 1">
-  <img src="content/2026-09-01/cards/02.webp" width="215" alt="발행 카드 2">
+  <img src="docs/screenshots/home.webp" width="520" alt="홈 — 오늘 발행 캐러셀">
 </p>
 
-<sub>화면의 카드는 샘플 아닌 실제 발행분 — 2026-09-01 자 · 07-26 이후 전량이 사이트에</sub>
-
-<p>
-  <img src="docs/screenshots/home.webp" width="430" alt="홈 — 오늘 발행 캐러셀">
-  <img src="docs/screenshots/archive.webp" width="430" alt="아카이브 — 날짜별 카드 더미">
-  <img src="docs/screenshots/mobile.webp" width="118" alt="모바일 홈">
-</p>
-
-<sub>같은 카드를 싣는 정적 사이트 · 쌓인 날짜가 곧 아카이브 · 캐러셀·확대·전환 전부 라이브러리 없이 CSS 와 스크립트로</sub>
+<sub>2026-09-01 자 실제 발행분 — 캐러셀·확대·전환 전부 라이브러리 없이 CSS 와 스크립트로</sub>
 
 ## 파이프라인
 
