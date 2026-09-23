@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T16:27:30.170Z",
+  "idea": {
+    "productName": "AgentTrust",
+    "tagline": "AI 에이전트, 개발 환경에서처럼 실전에 투입한다",
+    "oneLineSummary": "개발자가 AI 에이전트의 실행 환경을 투명하게 확인하고 로컬 지시사항의 일관된 적용을 보장하는 플랫폼을 제공합니다.",
+    "problem": "AI 에이전트는 숨겨진 원격 설정이나 텔레메트리 의존성 때문에 로컬 지시사항을 무시하고 오작동하는 경우가 잦습니다. 이로 인해 개발자는 에이전트의 예측 불가능한 동작으로 인해 신뢰성 문제와 디버깅의 어려움에 직면합니다.",
+    "productDescription": "AgentTrust는 AI 에이전트가 로컬 AGENTS.md와 같은 프로젝트 지시사항을 일관되게 읽고 실행하는지 모니터링합니다. 원격 기능 플래그나 텔레메트리 설정에 대한 의존성을 자동으로 감지하여 개발자가 예상치 못한 동작을 사전에 방지하도록 돕습니다. 에이전트의 실제 작동 방식에 대한 투명성을 제공하여 신뢰성 높은 AI 애플리케이션 개발을 지원합니다.",
+    "keyFeatures": [
+      "로컬 지시사항 누락 감지",
+      "텔레메트리 의존성 경고",
+      "에이전트 컨텍스트 시각화",
+      "실시간 명령 실행 추적",
+      "환경별 동작 비교 보고서"
+    ],
+    "persona": "내부 개발 및 운영 팀에 AI 에이전트를 도입하려는 엔터프라이즈 기업의 AI 플랫폼 엔지니어 또는 솔루션 아키텍트입니다. 특히 민감한 데이터를 다루거나 규제 준수가 필요한 환경에서 에이전트의 안정성과 투명성을 중요하게 생각합니다.",
+    "businessModel": "초기에는 사용자당 월 구독 모델을 적용하며, 에이전트 수나 처리량에 따른 계층별 가격을 제공합니다. 대규모 엔터프라이즈 고객에게는 맞춤형 통합 및 온프레미스 배포 옵션을 포함한 연간 라이선스를 제공하고, 월 500달러부터 시작합니다.",
+    "marketStats": "기사에 규모 근거 없음. 다만, Stripe가 내부적으로 AI 에이전트 프로토타이핑 도구인 'Harbor'를 개발하고 'Agent Foundation 팀'을 운영하는 것은 기업 내 AI 에이전트 개발 및 관리 도구의 수요를 시사합니다.",
+    "goToMarket": "초기 100명의 고객은 AI 에이전트 개발 커뮤니티(Hacker News, Reddit `/r/ClaudeAI` 등)의 개발자 중 AGENTS.md 문제와 유사한 에이전트 불일치 문제로 어려움을 겪는 이들을 찾아 직접 컨택하고, 기술 블로그와 오픈소스 프로젝트를 통해 도구를 공개하여 초기 사용자 피드백을 수집합니다.",
+    "unfairAdvantage": "GPT-6 Luna의 획기적인 가격 인하로 AI 에이전트 개발 및 배포 비용이 크게 낮아져 에이전트 사용이 급증할 것으로 예상됩니다. 이 시기에 맞춰 에이전트 신뢰성 문제를 해결하는 독점 솔루션을 제공하여 시장 선점 효과를 누릴 수 있습니다. 특히 Claude Code의 AGENTS.md 사례와 같은 실제 문제에서 시작하여 구체적인 해결책을 제시합니다.",
+    "competitors": [
+      "오픈소스 로깅/모니터링 도구 — AI 에이전트 실행에 특화된 컨텍스트 추적 및 설정 의존성 감지 기능 부족",
+      "LLM 제공사의 자체 관찰 도구 — 특정 모델/플랫폼에 종속적이며, 에이전트의 로컬 컨텍스트 처리 방식에 대한 투명성 제한",
+      "내부 개발된 스크립트 — 일관된 에이전트 동작 검증 및 디버깅에 필요한 전문화된 시각화 및 자동화 기능 미지원"
+    ],
+    "risks": [
+      "LLM 제공사의 자체 도구 발전: OpenAI나 Anthropic이 이와 유사한 기능을 자체적으로 제공하여 시장을 잠식할 위험이 있습니다.",
+      "문제 인식 부족: 개발자들이 에이전트의 로컬 컨텍스트 누락을 심각한 문제로 인지하지 못할 수 있습니다.",
+      "복잡한 에이전트 시스템 통합의 어려움: 다양한 에이전트 프레임워크 및 배포 환경에 대한 광범위한 호환성 확보가 어렵습니다."
+    ],
+    "actionPlan": [
+      "Claude Code AGENTS.md 문제 재현 및 검증",
+      "에이전트 컨텍스트 로딩 감지 PoC 개발",
+      "초기 사용자 5명 인터뷰 및 페인포인트 심층 분석",
+      "핵심 기능 시연 가능한 MVP 와이어프레임 설계",
+      "AI 에이전트 커뮤니티에 문제점 및 해결 아이디어 게시"
+    ],
+    "recommendation": "AI 에이전트의 신뢰성 문제는 대규모 도입의 핵심 장애물이며, GPT-6의 가격 인하로 에이전트 활용이 가속화될수록 이 문제 해결의 중요성이 커집니다. 다만, LLM 제공사들이 유사 기능을 내재화할 가능성이 있어 빠른 시장 진입과 차별화된 가치 제안이 중요합니다.",
+    "searchQuery": "ai agent reliability observability",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 10건 · 근거는 상위 5건 — 최고 94점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Launch HN: Openlayer (YC S21) – Testing and Evaluation for AI",
+          "url": "https://news.ycombinator.com/item?id=38532593",
+          "points": 94
+        },
+        {
+          "title": "Launch HN: Vocera (YC F24) – Testing and Observability for Voice AI",
+          "url": "https://news.ycombinator.com/item?id=42307393",
+          "points": 71
+        },
+        {
+          "title": "Show HN: I built an open-source AI data layer that connects any LLM to any data",
+          "url": "https://github.com/bagofwords1/bagofwords",
+          "points": 18
+        },
+        {
+          "title": "Show HN: Resolve AI – Your AI Production Engineer",
+          "url": "https://news.ycombinator.com/item?id=41712089",
+          "points": 10
+        },
+        {
+          "title": "Show HN: Kalibr – Autonomous Routing for AI Agents",
+          "url": "https://news.ycombinator.com/item?id=46782579",
+          "points": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "openai:https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "title": "Introducing GPT-6 Sol and Luna",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna"
+      },
+      {
+        "clusterId": "hackernews:49804316",
+        "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+        "url": "https://artificialanalysis.ai/models/claude-opus-5-5"
+      },
+      {
+        "clusterId": "hackernews:49815982",
+        "title": "Stripe's Knowledge AI Platform",
+        "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform"
+      },
+      {
+        "clusterId": "hackernews:49814211",
+        "title": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
+        "url": "https://technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype"
+      },
+      {
+        "clusterId": "hackernews:49814947",
+        "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+        "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on"
+      },
+      {
+        "clusterId": "hackernews:49815127",
+        "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
+        "url": "https://businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9"
+      },
+      {
+        "clusterId": "hackernews:49812975",
+        "title": "I am done with this shit",
+        "url": "https://reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit"
+      },
+      {
+        "clusterId": "hackernews:49817404",
+        "title": "GPT-6 Astra has gained the ability to drive a car",
+        "url": "https://drivingbench.com"
+      },
+      {
+        "clusterId": "hackernews:49809806",
+        "title": "The new CC, an AI agent built for families",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups"
+      },
+      {
+        "clusterId": "hackernews:49806430",
+        "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+        "url": "https://bloomberg.com/graphics/2026-iran-school-attack"
+      },
+      {
+        "clusterId": "hackernews:49801324",
+        "title": "OpenAI GPT–6 Astra breaks Enigma message that has resisted solution since 2005",
+        "url": "https://cryptocellar.org/bgac/the-mvueh-break.html"
+      },
+      {
+        "clusterId": "hackernews:49799965",
+        "title": "AI Has No Wisdom and Neither Will You",
+        "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you"
+      },
+      {
+        "clusterId": "hackernews:49802161",
+        "title": "OpenAI is well positioned to fast-follow Jev",
+        "url": "https://arcturus-labs.com/blog/2026/09/21/will-openai-eat-jevs-lunch"
+      },
+      {
+        "clusterId": "hackernews:49797323",
+        "title": "Can gzip be a language model?",
+        "url": "https://nathan.rs/posts/gzip-lm"
+      },
+      {
+        "clusterId": "hackernews:49807688",
+        "title": "LLM Ass Bench",
+        "url": "https://assbench.com"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T16:26:32.621Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "headline": "AI 가격 전쟁, GPT-6와 클로드가 주도",
+      "highlight": [
+        "가격 전쟁"
+      ],
+      "body": "오픈AI가 GPT-6 솔과 루나 모델의 가격을 절반으로 인하하며 경쟁의 포문을 열었습니다. 앤트로픽의 클로드 오푸스 5.5도 20% 가격 인하로 이에 맞섰습니다. 이로써 고성능 AI 모델의 접근성이 크게 향상될 것으로 기대됩니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna",
+      "sourceName": "Simon Willison’s Weblog",
+      "imageUrl": "https://static.simonwillison.net/static/2026/gpt-grid-card.jpg",
+      "publishedAt": "2026-09-22T18:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49804316",
+      "headline": "새 인공지능 지수, 10가지 평가 항목으로 공개",
+      "highlight": [
+        "10가지 평가 항목"
+      ],
+      "body": "새롭게 공개된 'Artificial Analysis Intelligence Index v4.3.2'는 AI 모델의 지능과 성능을 종합적으로 평가합니다. 10가지 세부 평가를 통해 에이전트 작업, 코딩, 전문 문서 처리 능력을 분석합니다. 이 지수는 모델의 실제 활용 능력을 더 정확하게 파악하는 데 도움을 줄 것입니다.",
+      "sourceUrl": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "sourceName": "hackernews",
+      "imageUrl": "https://artificialanalysis.ai/en/models/claude-opus-5-5/opengraph-image?ea6b93c60ecab06d",
+      "publishedAt": "2026-09-22T16:51:31.000Z"
+    },
+    {
+      "clusterId": "hackernews:49815982",
+      "headline": "스트라이프, AI 지식 플랫폼 베일 벗었다",
+      "highlight": [
+        "AI 지식 플랫폼"
+      ],
+      "body": "스트라이프가 개발 생산성을 혁신할 새로운 '지식 AI 플랫폼'을 공개했습니다. 이 플랫폼은 AI 에이전트용 결제 시스템 설계, AI 기반 프로토타이핑 툴 'Harbor' 등 내부 AI 프로젝트를 지원합니다. Stripe 개발팀은 이를 통해 더욱 효율적으로 AI 기능을 구축하고 차세대 제품을 빠르게 선보일 수 있게 됩니다.",
+      "sourceUrl": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+      "sourceName": "hackernews",
+      "imageUrl": "https://stripe.dev/dev_social.jpeg",
+      "publishedAt": "2026-09-23T13:38:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49814947",
+      "headline": "클로드 코드, 텔레메트리 끄면 AGENTS.md 소리 없이 무시",
+      "highlight": [
+        "AGENTS.md",
+        "소리 없이 무시"
+      ],
+      "body": "Claude Code 2.1.277, AGENTS.md는 텔레메트리 OFF 시 소리 없이 무시됩니다. 원격 플래그 탓에 중요한 지시가 누락되며, 프라이버시 사용자들은 CLAUDE.md에 @AGENTS.md 추가가 필요합니다.",
+      "sourceUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
+      "sourceName": "blog.szypowi.cz · Hitchhiking through raw bits",
+      "publishedAt": "2026-09-23T12:15:33.000Z"
+    },
+    {
+      "clusterId": "hackernews:49815127",
+      "headline": "오픈AI, 챗GPT 인플루언서 마케팅 141건 돌파",
+      "highlight": [
+        "141건"
+      ],
+      "body": "AI 안전성 논란이 커지자 오픈AI는 챗GPT를 '세상에 이로운' 도구로 알리고자 인플루언서를 적극 활용합니다. 지난 8월 한 달 인스타그램 스폰서 게시물 141건을 기록하며, 육아·피트니스 등 대중의 일상에 챗GPT를 침투시킵니다.",
+      "sourceUrl": "https://businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+      "sourceName": "Business Insider",
+      "imageUrl": "https://i.insider.com/6ab26f10d15f8a572974903e?width=1200&format=jpeg",
+      "publishedAt": "2026-09-23T12:32:00.000Z"
+    }
+  ]
+}
