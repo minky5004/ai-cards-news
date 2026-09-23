@@ -18,6 +18,23 @@
 
 <sub>2026-09-01 자 실제 발행분 — 캐러셀·확대·전환 전부 라이브러리 없이 CSS 와 스크립트로</sub>
 
+## 파이프라인
+
+| 단계 | 하는 일 | 산출물 |
+| --- | --- | --- |
+| `ingest` | RSS · Hacker News 수집 · 주제 필터 · 클러스터링 · 스코어링 | `raw.json` |
+| `extract` | 원문 본문 · og:image | `articles.json` |
+| `copy` | Gemini 카피라이팅 | `cards.json` `usage.json` |
+| `idea` | 그날 기사에서 사업 아이디어 1건 · HN 검색 중복 판정 | `ideas.json` |
+| `render` | 헤드리스 Chromium 촬영 | `cards/NN.webp` `idea.webp` |
+| `deploy` | `workflow_call` 로 직접 호출 | GitHub Pages |
+
+단계 사이의 경계는 파일뿐 — 독립 실행·테스트·교체 가능 · 완료 판정도 산출물 존재 · 재실행은 실패한
+단계부터. 파이프라인(Java)과 웹(Astro)의 언어가 달라도 이음매 없는 구조.
+
+값이 왜 그 값인지는 `config/pipeline.yaml` 주석에 — 채택값에 더해 격자 탐색에서 **기각한 값**의
+결과까지 그 자리에.
+
 ## 기술 스택
 
 | 구분 | 기술 |
