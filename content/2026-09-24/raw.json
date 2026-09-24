@@ -1,0 +1,1553 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-24T16:44:51.713Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 7
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 14,
+      "filtered": 6
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 3
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 45,
+      "filtered": 15
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49827794",
+      "representativeId": "hackernews:49827794",
+      "items": [
+        {
+          "id": "hackernews:49827794",
+          "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+          "url": "https://reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T08:23:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 544,
+            "comments": 320,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49827794"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
+          "title": "Meta puts its AI assistant on a keychain",
+          "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-24T14:03:38.000Z",
+          "summary": "Meta says the keychain-sized Muse Charm will ship in December.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse",
+          "title": "Everything new coming to Meta’s AI agent Muse",
+          "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T01:13:32.000Z",
+          "summary": "CEO Mark Zuckerberg kicked off the company’s annual Connect event in Menlo Park on Wednesday with a keynote that made one thing clear: Meta is going all-in on Muse. It's even coming to Meta's AI glasses.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent",
+          "title": "Meta made a Tamagotchi-like wearable for its Muse AI agent",
+          "url": "https://techcrunch.com/2026/09/23/meta-made-a-tamagotchi-like-wearable-for-its-muse-ai-agent",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T00:46:17.000Z",
+          "summary": "The tiny hardware device creates another mobile home for its AI agent Muse.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses",
+          "title": "Meta introduces camera-free AI glasses",
+          "url": "https://techcrunch.com/2026/09/23/meta-introduces-camera-free-ai-glasses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T23:39:44.000Z",
+          "summary": "Meta says the camera-free glasses will be lighter and have up to 12 hours of battery life.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
+          "title": "Meta’s Muse AI Charms can interact with each other",
+          "url": "https://theverge.com/tech/999944/meta-muse-charm-ai-interact-5g-modem",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T13:31:43.000Z",
+          "summary": "Meta's handheld AI gadget, called the Muse Charm, will be able to recognize and interact with other nearby Charms when it launches later this year. That's according to a report from Bloomberg, which includes more details about the device that the company teased during its Meta Connect keynote on Wednesday. The Muse Charm houses the […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+          "title": "Meta is making a standalone Muse AI gadget",
+          "url": "https://theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T00:15:20.000Z",
+          "summary": "Meta is building a dedicated hardware device for its new Muse AI agent. The product, called Muse Charm, was briefly shown off by Meta CEO Mark Zuckerberg at the end of tonight's Meta Connect presentation. It looks almost like a chunky smartwatch without the strap - just a big screen, plus a little lanyard for […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 8.052545198826857,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 1.352545198826858,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49822457",
+      "representativeId": "hackernews:49822457",
+      "items": [
+        {
+          "id": "hackernews:49822457",
+          "title": "OpenAI hacked Australian Medicare portal",
+          "url": "https://abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T20:55:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49822457"
+          }
+        },
+        {
+          "id": "hackernews:49825580",
+          "title": "OpenAI agent hacked Australian government website, PM says",
+          "url": "https://bbc.com/news/live/cvgl73pxgndwt",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T02:44:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 240,
+            "comments": 180,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49825580"
+          }
+        },
+        {
+          "id": "hackernews:49822556",
+          "title": "OpenAI breaches Medicare, Albanese reveals",
+          "url": "https://smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T21:01:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 238,
+            "comments": 247,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49822556"
+          }
+        },
+        {
+          "id": "hackernews:49825024",
+          "title": "Australia says OpenAI agent hacked into government website",
+          "url": "https://channelnewsasia.com/world/australia-openai-agent-breach-government-portal-6406411",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T01:24:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 121,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49825024"
+          }
+        },
+        {
+          "id": "hackernews:49822654",
+          "title": "OpenAI agents hacked Australian Medicare system",
+          "url": "https://reuters.com/world/asia-pacific/australia-pm-albanese-says-openai-breached-medicare-sydney-morning-herald-2026-09-23",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T21:08:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49822654"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+          "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+          "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-24T16:01:16.000Z",
+          "summary": "\"There will obviously be legal consequences,\" prime minister promises.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+          "title": "Australia to investigate if OpenAI hack of government health website broke the law",
+          "url": "https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T12:54:19.000Z",
+          "summary": "The incident is the first known breach to affect a government agency, and Australia's prime minister has vowed to hold OpenAI accountable.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+          "title": "OpenAI agents hacked an Australian government website in search of data",
+          "url": "https://theverge.com/ai-artificial-intelligence/999874/openai-agents-hacked-an-australian-government-website-in-search-for-data",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T11:52:32.000Z",
+          "summary": "OpenAI's artificial intelligence agents hacked an Australian government website and attempted to breach numerous other government and university websites. The attack appears to be the first confirmed instance of a rogue AI agent breaching a government website, adding fuel to rapidly intensifying concerns about the safety of advanced AI systems and the responsibility of the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.923175516895761,
+      "breakdown": {
+        "hnPoints": 1.764563121518508,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 1.458612395377253,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "source": "huggingface",
+          "publishedAt": "2026-09-24T14:08:57.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49826221",
+          "title": "Contrastive Language Models",
+          "url": "https://contrastive-lm.notion.site",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T04:20:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 137,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49826221"
+          }
+        }
+      ],
+      "score": 5.821273782175467,
+      "breakdown": {
+        "hnPoints": 1.5851908919554503,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3571683074457563,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+          "title": "Gemini 3.8 text-to-speech says hello",
+          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-23T15:25:14.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49817615",
+          "title": "Gemini 3.8 text-to-speech",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T15:29:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 320,
+            "comments": 144,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49817615"
+          }
+        }
+      ],
+      "score": 5.695662684758552,
+      "breakdown": {
+        "hnPoints": 1.85678198981365,
+        "hnComments": 0.9384211974796635,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5671261641319048,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49830866",
+      "representativeId": "hackernews:49830866",
+      "items": [
+        {
+          "id": "hackernews:49830866",
+          "title": "Best LLM for every budget, updated daily",
+          "url": "https://bestmodelforyourbudget.terrydjony.com",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T14:09:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 127,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49830866"
+          }
+        }
+      ],
+      "score": 4.9476543598360845,
+      "breakdown": {
+        "hnPoints": 1.5609900917070765,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 1.358039621638384,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49823582",
+      "representativeId": "hackernews:49823582",
+      "items": [
+        {
+          "id": "hackernews:49823582",
+          "title": "Linux support is coming to Snapdragon X2 Series",
+          "url": "https://qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T22:38:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 566,
+            "comments": 236,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49823582"
+          }
+        }
+      ],
+      "score": 4.946832087237679,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7468320872376784,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49824686",
+      "representativeId": "hackernews:49824686",
+      "items": [
+        {
+          "id": "hackernews:49824686",
+          "title": "Feds Target AI Critics as \"Foreign Agents\"",
+          "url": "https://kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T00:41:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 349,
+            "comments": 369,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49824686"
+          }
+        },
+        {
+          "id": "hackernews:49820267",
+          "title": "Cloud Agents Are Inevitable AI Prisons",
+          "url": "https://normanponte.io/19df691f",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T18:16:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 142,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49820267"
+          }
+        }
+      ],
+      "score": 4.89291564345687,
+      "breakdown": {
+        "hnPoints": 1.8846081154992873,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8083075279575825,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49826565",
+      "representativeId": "hackernews:49826565",
+      "items": [
+        {
+          "id": "hackernews:49826565",
+          "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+          "url": "https://transluce.org/agent-activity",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T05:21:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 199,
+            "comments": 187,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
+          }
+        }
+      ],
+      "score": 4.859178233371525,
+      "breakdown": {
+        "hnPoints": 1.70456911066745,
+        "hnComments": 0.9873922117644943,
+        "mentions": 0.0,
+        "recency": 0.9672169109395801,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49829650",
+      "representativeId": "hackernews:49829650",
+      "items": [
+        {
+          "id": "hackernews:49829650",
+          "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+          "url": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T12:23:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 88,
+            "comments": 133,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49829650"
+          }
+        }
+      ],
+      "score": 4.836130359808553,
+      "breakdown": {
+        "hnPoints": 1.4440793888964025,
+        "hnComments": 0.9235448243807354,
+        "mentions": 0.0,
+        "recency": 1.2685061465314151,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49820134",
+      "representativeId": "hackernews:49820134",
+      "items": [
+        {
+          "id": "hackernews:49820134",
+          "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+          "url": "https://anthropic.com/news/claude-discovers-novel-enzyme-system",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T18:06:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 743,
+            "comments": 745,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49820134"
+          }
+        }
+      ],
+      "score": 4.827410840594917,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6274108405949168,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49814211",
+      "representativeId": "hackernews:49814211",
+      "items": [
+        {
+          "id": "hackernews:49814211",
+          "title": "The Download: why AI's latest breakthroughs and fears may be more hype than rea",
+          "url": "https://technologyreview.com/2026/09/22/1144910/the-download-dont-believe-ai-hype",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T11:01:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 129,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49814211"
+          }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating",
+          "title": "The AI Hype Index: AI loves cheating",
+          "url": "https://technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-23T09:00:00.000Z",
+          "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two top mathematicians’ answer sheets). Anthropic’s models have also hacked into other companies’ systems four times already. And that’s…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 4.687380497365814,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.9178303972412971,
+        "mentions": 0.8333333333333333,
+        "recency": 0.47764482518289797,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49814947",
+      "representativeId": "hackernews:49814947",
+      "items": [
+        {
+          "id": "hackernews:49814947",
+          "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+          "url": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T12:15:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 476,
+            "comments": 276,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49814947"
+          }
+        }
+      ],
+      "score": 4.684993003340052,
+      "breakdown": {
+        "hnPoints": 1.9842069420522055,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5007860612878464,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49817404",
+      "representativeId": "hackernews:49817404",
+      "items": [
+        {
+          "id": "hackernews:49817404",
+          "title": "GPT-6 Astra has gained the ability to drive a car",
+          "url": "https://drivingbench.com",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T15:14:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 304,
+            "comments": 237,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49817404"
+          }
+        }
+      ],
+      "score": 4.602019313784197,
+      "breakdown": {
+        "hnPoints": 1.8403327100326192,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5616866037515778,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49829387",
+      "representativeId": "hackernews:49829387",
+      "items": [
+        {
+          "id": "hackernews:49829387",
+          "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
+          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T11:54:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 94,
+            "comments": 30,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49829387"
+          }
+        }
+      ],
+      "score": 4.557661595998534,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.6475183426219275,
+        "mentions": 0.0,
+        "recency": 1.2450747521550667,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49821196",
+      "representativeId": "hackernews:49821196",
+      "items": [
+        {
+          "id": "hackernews:49821196",
+          "title": "Once Claude can measure something, it can make it faster",
+          "url": "https://claude.dev/blog/how-we-made-claude-ai-faster",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T19:23:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 216,
+            "comments": 147,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49821196"
+          }
+        }
+      ],
+      "score": 4.532243909314166,
+      "breakdown": {
+        "hnPoints": 1.7308149385889544,
+        "hnComments": 0.9422826634331711,
+        "mentions": 0.0,
+        "recency": 0.6591463072920412,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49831690",
+      "representativeId": "hackernews:49831690",
+      "items": [
+        {
+          "id": "hackernews:49831690",
+          "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+          "url": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T15:09:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
+          }
+        }
+      ],
+      "score": 4.48632221708924,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 1.4110683948071303,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49815127",
+      "representativeId": "hackernews:49815127",
+      "items": [
+        {
+          "id": "hackernews:49815127",
+          "title": "OpenAI is enlisting an influencer army to make it look 'good for the world'",
+          "url": "https://businessinsider.com/inside-open-ai-influencer-marketing-strategy-chatgpt-ads-sponsorships-instagram-2026-9",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T12:32:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 213,
+            "comments": 205,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49815127"
+          }
+        }
+      ],
+      "score": 4.432437377954164,
+      "breakdown": {
+        "hnPoints": 1.7263361801499473,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5061011978042163,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49812975",
+      "representativeId": "hackernews:49812975",
+      "items": [
+        {
+          "id": "hackernews:49812975",
+          "title": "I am done with this shit",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1wm5c21/i_am_done_with_this_shit",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T07:59:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 250,
+            "comments": 196,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49812975"
+          }
+        }
+      ],
+      "score": 4.398676289887882,
+      "breakdown": {
+        "hnPoints": 1.7776429290469384,
+        "hnComments": 0.9962096881718906,
+        "mentions": 0.0,
+        "recency": 0.4248236726690527,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49824864",
+      "representativeId": "hackernews:49824864",
+      "items": [
+        {
+          "id": "hackernews:49824864",
+          "title": "Virtio-nvgpu: Near-native Nvidia GPU access inside a KVM guest",
+          "url": "https://github.com/nestrilabs/virtio-nvgpu",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T01:02:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 143,
+            "comments": 58,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49824864"
+          }
+        }
+      ],
+      "score": 4.386955799638939,
+      "breakdown": {
+        "hnPoints": 1.5988831265048995,
+        "hnComments": 0.7688672468575888,
+        "mentions": 0.0,
+        "recency": 0.8192054262764505,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49823348",
+      "representativeId": "hackernews:49823348",
+      "items": [
+        {
+          "id": "hackernews:49823348",
+          "title": "Mercury 2.5 LLM hits 770 tokens per second",
+          "url": "https://artificialanalysis.ai/models/mercury-2-5",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T22:16:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 141,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49823348"
+          }
+        }
+      ],
+      "score": 4.377153027659536,
+      "breakdown": {
+        "hnPoints": 1.5943834873940028,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.7363847957431009,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49828133",
+      "representativeId": "hackernews:49828133",
+      "items": [
+        {
+          "id": "hackernews:49828133",
+          "title": "AI has no intent and no motivation",
+          "url": "https://i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T09:13:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49828133"
+          }
+        }
+      ],
+      "score": 4.302498480639155,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 1.1226884812463243,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49815982",
+      "representativeId": "hackernews:49815982",
+      "items": [
+        {
+          "id": "hackernews:49815982",
+          "title": "Stripe's Knowledge AI Platform",
+          "url": "https://stripe.dev/blog/meet-stripes-knowledge-ai-platform",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T13:38:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 182,
+            "comments": 113,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49815982"
+          }
+        }
+      ],
+      "score": 4.297055547554277,
+      "breakdown": {
+        "hnPoints": 1.6759904256865528,
+        "hnComments": 0.8930654621040577,
+        "mentions": 0.0,
+        "recency": 0.5279996597636663,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49822864",
+      "representativeId": "hackernews:49822864",
+      "items": [
+        {
+          "id": "hackernews:49822864",
+          "title": "Claude's Load-Bearing Seams",
+          "url": "https://madradavid.com/claudes-load-bearing-seams",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T21:31:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 117,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49822864"
+          }
+        }
+      ],
+      "score": 4.183974339949391,
+      "breakdown": {
+        "hnPoints": 1.5348196578300592,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.7153065693705273,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49829625",
+      "representativeId": "hackernews:49829625",
+      "items": [
+        {
+          "id": "hackernews:49829625",
+          "title": "What Is RLCD? The Secret Behind Jev",
+          "url": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T12:21:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49829625"
+          }
+        }
+      ],
+      "score": 3.871765012783634,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 1.2665401883464982,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49824061",
+      "representativeId": "hackernews:49824061",
+      "items": [
+        {
+          "id": "hackernews:49824061",
+          "title": "Stanford violated AI policy after race-swapping students in ad",
+          "url": "https://sfchronicle.com/bayarea/article/stanford-ai-policy-student-photo-race-swapping-22444142.php",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T23:23:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49824061"
+          }
+        }
+      ],
+      "score": 3.648415405676794,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.768905083982418,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49822903",
+      "representativeId": "hackernews:49822903",
+      "items": [
+        {
+          "id": "hackernews:49822903",
+          "title": "Surprise, Meta's latest AI gimmick is just underpaid humans",
+          "url": "https://avclub.com/meta-muse-ai-human-labor",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T21:34:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49822903"
+          }
+        }
+      ],
+      "score": 3.59392583735662,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 0.7170992468634955,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49816553",
+      "representativeId": "hackernews:49816553",
+      "items": [
+        {
+          "id": "hackernews:49816553",
+          "title": "Community condemn Bedminster AI mural as 'insult' to artists",
+          "url": "https://bbc.co.uk/news/articles/cmlyq09jp49eo",
+          "source": "hackernews",
+          "publishedAt": "2026-09-23T14:16:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49816553"
+          }
+        }
+      ],
+      "score": 3.5328534412174393,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 0.5411045491377013,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+          "title": "Google tests letting Gemini call businesses for you",
+          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T16:00:00.000Z",
+          "summary": "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+          "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+          "url": "https://theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T16:04:31.000Z",
+          "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+          "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+          "url": "https://theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T09:04:18.000Z",
+          "summary": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement stage, and that the company is […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.1949913646162056,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4616580312828722,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+          "title": "Introducing Gemini 3.8 Live with Live Avatar",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-24T16:20:39.000Z",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.976871279937769,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4768712799377688,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+          "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T15:00:00.000Z",
+          "summary": "Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it",
+          "title": "TechCrunch Disrupt 2026: Cal AI’s Zach Yadegari on how to create viral growth and capitalize on it",
+          "url": "https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T14:30:00.000Z",
+          "summary": "Zach Yadegari joins the Builders Stage at TechCrunch Disrupt 2026 to share how he capitalized on viral growth. Save up to $200 before September 25. Save 50% on a second pass.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3023710939527975,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4023710939527974,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+          "title": "Google is sending an AI satellite into space next week",
+          "url": "https://theverge.com/tech/1000015/google-ai-satellite-space-project-suncatcher",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T14:15:17.000Z",
+          "summary": "Google is getting ready to launch a satellite with its AI processors to test how well they perform in space, as reported earlier by The New York Times. The move is part of Google's Project Suncatcher, the company's experimental initiative that could eventually put AI data centers into orbit. The satellite, equipped with Google's Tensor […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2626960869325012,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3626960869325015,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+          "title": "Advancing Private AI Compute with secure, server-side memory",
+          "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-23T16:00:57.000Z",
+          "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.078733080433814,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5787330804338139,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/two-years-of-openai-academy",
+      "representativeId": "openai:https://openai.com/index/two-years-of-openai-academy",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/two-years-of-openai-academy",
+          "title": "Two years of OpenAI Academy",
+          "url": "https://openai.com/index/two-years-of-openai-academy",
+          "source": "openai",
+          "publishedAt": "2026-09-23T16:00:00.000Z",
+          "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0783803270182766,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5783803270182764,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "representativeId": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+          "source": "openai",
+          "publishedAt": "2026-09-23T13:00:00.000Z",
+          "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0152782919381727,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5152782919381727,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
+      "representativeId": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/sam-altman-un-security-council-remarks",
+          "title": "Sam Altman’s remarks at the United Nations Security Council",
+          "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+          "source": "openai",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.99581305513701,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49581305513700996,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "representativeId": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+          "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+          "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.99581305513701,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49581305513700996,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "representativeId": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+          "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+          "source": "openai",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.99581305513701,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49581305513700996,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/ringg",
+      "representativeId": "openai:https://openai.com/index/ringg",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/ringg",
+          "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+          "url": "https://openai.com/index/ringg",
+          "source": "openai",
+          "publishedAt": "2026-09-23T12:00:00.000Z",
+          "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.99581305513701,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49581305513700996,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+          "url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+          "source": "huggingface",
+          "publishedAt": "2026-09-23T18:41:40.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9916158757674793,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6416158757674791,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-mentalhealthbench",
+      "representativeId": "openai:https://openai.com/index/introducing-mentalhealthbench",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-mentalhealthbench",
+          "title": "Introducing MentalHealthBench",
+          "url": "https://openai.com/index/introducing-mentalhealthbench",
+          "source": "openai",
+          "publishedAt": "2026-09-23T10:00:00.000Z",
+          "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9590607697732616,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4590607697732615,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+          "title": "Trump’s China rivalry and “AI race” delusion may endanger US, experts say",
+          "url": "https://arstechnica.com/tech-policy/2026/09/china-silent-as-us-touts-plan-for-ai-safety-alerts-that-omits-tech-experts",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-23T20:52:28.000Z",
+          "summary": "Trump focus on winning “AI race” may deter China from sharing safety intel.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.747803556501166,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6978035565011662,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
+          "title": "YouTube promises custom feeds and a lot more AI later this year",
+          "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-23T19:35:53.000Z",
+          "summary": "YouTube's next year could change the content you see with a big focus on AI and livestreams.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7143347849436772,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6643347849436774,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/23/gemini-tts-playground",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/23/gemini-tts-playground",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/23/gemini-tts-playground",
+          "title": "Gemini 3.8 TTS Playground",
+          "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-23T17:12:27.000Z",
+          "summary": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with different voices and voice style instructions. Here's a short demo clip of a conversation between two pelicans debating if they should move to the Pacifica Pier . I had Claude 4.5 Opus write the script and generate a URL to render it using the tool . Your browser does not support the audio element. It took ~20 seconds to generate 1m 18s of audio using Gemini 3.8 Flash TTS (not the cheaper Flash-Lite), at a cost of 2.74 cents. Tags: text-to-speech , gemini",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6559092854373967,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6059092854373967,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/23/shadow-roots",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/23/shadow-roots",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/23/shadow-roots",
+          "title": "Shadow roots, explained with live examples",
+          "url": "https://simonwillison.net/2026/Sep/23/shadow-roots",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-23T16:37:18.000Z",
+          "summary": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6423933799416732,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5923933799416734,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big",
+          "title": "Anthropic says its biology lab has already found something big",
+          "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T22:17:39.000Z",
+          "summary": "But maybe the biggest reveal is that Anthropic has not let Claude run loose in its biology lab. Humans are still, so far, in the loop.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6370152173496375,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7370152173496376,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
+          "title": "Enveda secures $311M to bring more nature-derived AI drugs into clinical trials",
+          "url": "https://techcrunch.com/2026/09/23/enveda-secures-311m-to-bring-more-nature-derived-ai-drugs-into-clinical-trials",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T19:31:28.000Z",
+          "summary": "The round valued the AI biotech at $2 billion. It is currently testing drugs that treat skin conditions and preserve weight loss after stopping GLP-1s.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5624543083356324,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6624543083356326,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
+          "title": "ChatGPT mobile app gets voice-based agentic features",
+          "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T17:00:00.000Z",
+          "summary": "Pro and Plus users will be able to use the Work tab on their phones to complete agentic tasks.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5010870910090583,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6010870910090584,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it",
+          "title": "Even Americans who use AI every day are worried about it",
+          "url": "https://techcrunch.com/2026/09/23/even-americans-who-use-ai-every-day-are-worried-about-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T16:49:58.000Z",
+          "summary": "The report suggests that greater exposure will not resolve the unease around the technology, nor reduce public support for AI regulation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4972288727233365,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5972288727233366,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features",
+          "title": "YouTube Music gets more conversational with new AI features",
+          "url": "https://techcrunch.com/2026/09/23/youtube-music-gets-more-conversational-with-new-ai-features",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T15:19:30.000Z",
+          "summary": "Built directly into the YouTube Music app, Ask Music lets users describe what they want to hear in everyday language rather than searching for individual songs or artists.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai",
+          "title": "YouTube will let you build your own algorithm with AI",
+          "url": "https://techcrunch.com/2026/09/23/youtube-will-let-you-build-your-own-algorithm-with-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T14:30:00.000Z",
+          "summary": "YouTube’s new custom feeds let users describe the videos they want to see in their own words, then use Gemini to build a personalized feed around the request.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+          "title": "YouTube releases new AI features for creators within its Studio app",
+          "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-23T14:30:00.000Z",
+          "summary": "YouTube is adding new features to generate ideas and monitor the performance of thumbnails.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.463540181660849,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5635401816608492,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49827794",
+    "hackernews:49822457",
+    "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+    "google-deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+    "hackernews:49830866"
+  ]
+}
