@@ -1,5 +1,7 @@
 # ai-cards-news
 
+📎 [Notion 정리](https://app.notion.com/p/3e47b7516d7c818bb42fc37a77e7ed06)
+
 ![파이프라인 테스트](https://github.com/minky5004/ai-cards-news/actions/workflows/test.yml/badge.svg)
 
 > 매일 밤 · 수집부터 게시까지 **사람 손이 개입하지 않는** AI 뉴스 카드 파이프라인
