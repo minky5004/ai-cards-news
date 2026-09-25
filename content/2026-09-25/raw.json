@@ -1,0 +1,1140 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T16:49:54.356Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 9,
+      "filtered": 11
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 3
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 25,
+      "filtered": 24
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49827794",
+      "representativeId": "hackernews:49827794",
+      "items": [
+        {
+          "id": "hackernews:49827794",
+          "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+          "url": "https://reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T08:23:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 620,
+            "comments": 375,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49827794"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
+          "title": "Meta puts its AI assistant on a keychain",
+          "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-24T14:03:38.000Z",
+          "summary": "Meta says the keychain-sized Muse Charm will ship in December.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off",
+          "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+          "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-25T16:16:52.000Z",
+          "summary": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agents's promotion across its own apps and beyond.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+          "title": "Meta is going to let you build games with AI right on your phone",
+          "url": "https://theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T17:52:29.000Z",
+          "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+          "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+          "url": "https://theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T17:00:00.000Z",
+          "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 8.168527810430776,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 1.4685278104307762,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49845952",
+      "representativeId": "hackernews:49845952",
+      "items": [
+        {
+          "id": "hackernews:49845952",
+          "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models",
+          "url": "https://washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+          "source": "hackernews",
+          "publishedAt": "2026-09-25T15:27:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 81,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49845952"
+          }
+        }
+      ],
+      "score": 4.69983730604571,
+      "breakdown": {
+        "hnPoints": 1.4177250981030416,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 1.4228049227528097,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49845977",
+      "representativeId": "hackernews:49845977",
+      "items": [
+        {
+          "id": "hackernews:49845977",
+          "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+          "url": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-25T15:29:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49845977"
+          }
+        }
+      ],
+      "score": 4.598677823411839,
+      "breakdown": {
+        "hnPoints": 1.3527293031022833,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 1.4244800354415879,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49830606",
+      "representativeId": "hackernews:49830606",
+      "items": [
+        {
+          "id": "hackernews:49830606",
+          "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T13:53:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 208,
+            "comments": 451,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49830606"
+          }
+        }
+      ],
+      "score": 4.4502792920824215,
+      "breakdown": {
+        "hnPoints": 1.7187301769151873,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5315491151672338,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49829650",
+      "representativeId": "hackernews:49829650",
+      "items": [
+        {
+          "id": "hackernews:49829650",
+          "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+          "url": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T12:23:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 186,
+            "comments": 278,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49829650"
+          }
+        }
+      ],
+      "score": 4.384726742521787,
+      "breakdown": {
+        "hnPoints": 1.68294678214909,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5017799603726962,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49826565",
+      "representativeId": "hackernews:49826565",
+      "items": [
+        {
+          "id": "hackernews:49826565",
+          "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+          "url": "https://transluce.org/agent-activity",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T05:21:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 263,
+            "comments": 297,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49826565"
+          }
+        }
+      ],
+      "score": 4.376488195812451,
+      "breakdown": {
+        "hnPoints": 1.7938885020150312,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.3825996937974197,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49841893",
+      "representativeId": "hackernews:49841893",
+      "items": [
+        {
+          "id": "hackernews:49841893",
+          "title": "Special Projects (2016)",
+          "url": "https://openai.com/index/special-projects",
+          "source": "hackernews",
+          "publishedAt": "2026-09-25T08:55:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 63,
+            "comments": 41,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49841893"
+          }
+        }
+      ],
+      "score": 4.349192116412836,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.7047812040004495,
+        "mentions": 0.0,
+        "recency": 1.1064194052348926,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49831690",
+      "representativeId": "hackernews:49831690",
+      "items": [
+        {
+          "id": "hackernews:49831690",
+          "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+          "url": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T15:09:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 130,
+            "comments": 203,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49831690"
+          }
+        }
+      ],
+      "score": 4.326616343706595,
+      "breakdown": {
+        "hnPoints": 1.568443373740658,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5581729699659369,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49842707",
+      "representativeId": "hackernews:49842707",
+      "items": [
+        {
+          "id": "hackernews:49842707",
+          "title": "Uproar in France over award-winning author accused of using AI",
+          "url": "https://bbc.com/news/articles/ck7v4y45893go",
+          "source": "hackernews",
+          "publishedAt": "2026-09-25T10:48:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 75,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49842707"
+          }
+        }
+      ],
+      "score": 4.321105657647683,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.8166102864847931,
+        "mentions": 0.0,
+        "recency": 1.1895024485149785,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49844896",
+      "representativeId": "hackernews:49844896",
+      "items": [
+        {
+          "id": "hackernews:49844896",
+          "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
+          "url": "https://bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+          "source": "hackernews",
+          "publishedAt": "2026-09-25T14:07:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49844896"
+          }
+        }
+      ],
+      "score": 4.309380481359799,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 1.3512055231189022,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49830866",
+      "representativeId": "hackernews:49830866",
+      "items": [
+        {
+          "id": "hackernews:49830866",
+          "title": "Best LLM for every budget, updated daily",
+          "url": "https://bestmodelforyourbudget.terrydjony.com",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T14:09:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 179,
+            "comments": 110,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49830866"
+          }
+        }
+      ],
+      "score": 4.295905993279358,
+      "breakdown": {
+        "hnPoints": 1.6706726359850863,
+        "hnComments": 0.8880368530490445,
+        "mentions": 0.0,
+        "recency": 0.5371965042452269,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49846391",
+      "representativeId": "hackernews:49846391",
+      "items": [
+        {
+          "id": "hackernews:49846391",
+          "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+          "url": "https://github.com/Avinash-jetwani/jevmem",
+          "source": "hackernews",
+          "publishedAt": "2026-09-25T16:04:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49846391"
+          }
+        }
+      ],
+      "score": 4.295527346890652,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 1.456513158589057,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49835531",
+      "representativeId": "hackernews:49835531",
+      "items": [
+        {
+          "id": "hackernews:49835531",
+          "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+          "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T19:14:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 156,
+            "comments": 35,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49835531"
+          }
+        }
+      ],
+      "score": 4.1555453456938665,
+      "breakdown": {
+        "hnPoints": 1.6266901016829547,
+        "hnComments": 0.675714295252094,
+        "mentions": 0.0,
+        "recency": 0.6531409487588177,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49829387",
+      "representativeId": "hackernews:49829387",
+      "items": [
+        {
+          "id": "hackernews:49829387",
+          "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
+          "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T11:54:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 139,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49829387"
+          }
+        }
+      ],
+      "score": 4.0273843727133745,
+      "breakdown": {
+        "hnPoints": 1.589820021489518,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.49251125940992163,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49831269",
+      "representativeId": "hackernews:49831269",
+      "items": [
+        {
+          "id": "hackernews:49831269",
+          "title": "AI safety is mostly a sex cult in Berkeley",
+          "url": "https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T14:38:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 119,
+            "comments": 30,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49831269"
+          }
+        }
+      ],
+      "score": 3.9348815670706627,
+      "breakdown": {
+        "hnPoints": 1.5402268263213836,
+        "hnComments": 0.6475183426219275,
+        "mentions": 0.0,
+        "recency": 0.5471363981273513,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49832491",
+      "representativeId": "hackernews:49832491",
+      "items": [
+        {
+          "id": "hackernews:49832491",
+          "title": "I Have a Confession: I Built This Site with AI – Please Forgive Me",
+          "url": "https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T15:54:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49832491"
+          }
+        }
+      ],
+      "score": 3.725730146305185,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.5744365102642158,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49828133",
+      "representativeId": "hackernews:49828133",
+      "items": [
+        {
+          "id": "hackernews:49828133",
+          "title": "AI has no intent and no motivation",
+          "url": "https://i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T09:13:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49828133"
+          }
+        }
+      ],
+      "score": 3.6743908896204855,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.4440992132131632,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49829625",
+      "representativeId": "hackernews:49829625",
+      "items": [
+        {
+          "id": "hackernews:49829625",
+          "title": "What Is RLCD? The Secret Behind Jev",
+          "url": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T12:21:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49829625"
+          }
+        }
+      ],
+      "score": 3.468043917315362,
+      "breakdown": {
+        "hnPoints": 1.3527293031022833,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.5010022909677672,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49831236",
+      "representativeId": "hackernews:49831236",
+      "items": [
+        {
+          "id": "hackernews:49831236",
+          "title": "Humans Are Reading Your ChatGPT Chats, Lawsuit Claims",
+          "url": "https://openclassactions.com/lawsuits/privacy/openai-chatgpt-human-review-project-lily-class-action-lawsuit.php",
+          "source": "hackernews",
+          "publishedAt": "2026-09-24T14:36:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49831236"
+          }
+        }
+      ],
+      "score": 3.4540680292805064,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 0.5463936273213834,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+          "title": "Introducing Gemini 3.8 Live with Live Avatar",
+          "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+          "source": "google-deepmind",
+          "publishedAt": "2026-09-24T16:20:39.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+          "url": "https://theverge.com/tech/1000328/google-gemini-ai-live-avatar-face",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T19:59:26.000Z",
+          "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers. As noted by Google, Live Avatar can transition between the 97 […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.00560558159063,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6722722482572969,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/proaction",
+      "representativeId": "openai:https://openai.com/index/proaction",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/proaction",
+          "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+          "url": "https://openai.com/index/proaction",
+          "source": "openai",
+          "publishedAt": "2026-09-25T19:00:00.000Z",
+          "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 3.0,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.5,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+          "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+          "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-25T15:48:14.000Z",
+          "summary": "The latest unauthorized agent swarms were discovered by researchers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3417871951662073,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4417871951662073,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+          "title": "Anthropic’s founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "summary": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.334234653423313,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.434234653423313,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+          "title": "One company is at the center of a wave of rogue AI attacks",
+          "url": "https://theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-25T15:39:48.000Z",
+          "summary": "In July, OpenAI revealed that its AI agents had attacked Hugging Face without permission, sparking widespread concerns about AI safety. Since then, a string of similar incidents involving agents from Meta, Anthropic, Google, and other companies has fueled further fears about rogue AI. As disclosures implicating numerous AI models trickled out over the past few […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.334004547878025,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.434004547878025,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+          "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
+          "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-25T15:00:00.000Z",
+          "summary": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development Save up to $200 on your pass before today ends.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2978385579572516,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3978385579572514,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+          "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+          "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-25T11:00:28.000Z",
+          "summary": "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\"",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2486476436594347,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1986476436594349,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+          "title": "Can Apple Home’s AI camera features outsmart Amazon’s and Google’s? I put them to the test",
+          "url": "https://theverge.com/tech/1000321/apple-intelligence-home-security-camera-amazon-ring-alexa-google-nest-gemini-home-review",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-25T13:00:00.000Z",
+          "summary": "A few years back, I was at a beachside Easter egg hunt, watching my kids dash through sand dunes searching for sweet treats. My phone buzzed in my pocket; I ignored it. A moment later, it buzzed again. I pulled it out, glanced down, and saw a \"motion detected\" notification from my security camera. \"Just […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1942233726727514,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2942233726727512,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+          "url": "https://technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-25T09:16:25.000Z",
+          "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.1712166173654763,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1212166173654765,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "representativeId": "theverge-ai:https://theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+          "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+          "url": "https://theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-25T12:00:00.000Z",
+          "summary": "After teasing its new Copilot \"super app\" last month, Microsoft is officially unveiling it today. The redesigned Copilot app bundles three AI capabilities into a single interface of chat, coding, and agents. As part of the launch, Microsoft is also rebranding Scout, the AI personal assistant it unveiled at Build earlier this year, as Autopilot. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1453325794512557,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2453325794512558,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/25/sighting-403293902",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/25/sighting-403293902",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/25/sighting-403293902",
+          "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+          "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-25T02:07:04.000Z",
+          "summary": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that sign in the harbor! Tags: photography , wildlife",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9011697209944833,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8511697209944835,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+          "source": "huggingface",
+          "publishedAt": "2026-09-24T14:08:57.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.886851840561693,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5368518405616929,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai",
+          "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+          "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-25T05:00:00.000Z",
+          "summary": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8510823657631994,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9510823657631995,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/24/harder",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/24/harder",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/24/harder",
+          "title": "Note on 24th September 2026",
+          "url": "https://simonwillison.net/2026/Sep/24/harder",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-24T23:31:08.000Z",
+          "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8201097778048476,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7701097778048478,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/24/commit-rewriter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/24/commit-rewriter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/24/commit-rewriter",
+          "title": "commit-rewriter 0.2",
+          "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-24T20:06:53.000Z",
+          "summary": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7254943692949944,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6754943692949945,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/24/datasette",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/24/datasette",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/24/datasette",
+          "title": "datasette 1.0a41",
+          "url": "https://simonwillison.net/2026/Sep/24/datasette",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-24T19:15:23.000Z",
+          "summary": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opentelemetry",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7035323078944198,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.65353230789442,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+          "title": "OpenAI agent “didn’t accept no for an answer” in Australian government breach",
+          "url": "https://arstechnica.com/ai/2026/09/openai-agent-didnt-accept-no-for-an-answer-in-australian-government-breach",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-24T16:01:16.000Z",
+          "summary": "\"There will obviously be legal consequences,\" prime minister promises.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6269798372304498,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5769798372304501,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
+          "title": "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses",
+          "url": "https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T19:00:42.000Z",
+          "summary": "Prism's larger goal is open-weight AI that runs on devices and makes better use of the computing power they already have.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5474024743817103,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6474024743817104,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+          "title": "Jensen Huang talks about AI and climate change like a supervillain",
+          "url": "https://theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-24T18:04:44.000Z",
+          "summary": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5245607433614912,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6245607433614914,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+          "title": "Google tests letting Gemini call businesses for you",
+          "url": "https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T16:00:00.000Z",
+          "summary": "Google says the AI-calling feature will first be available to Pixel 11 owners in the U.S. who pay for a Gemini subscription.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4765109718507103,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5765109718507103,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+          "title": "Shield AI, Waabi, and General Motors on building AI when failure is not an option at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/24/shield-ai-waabi-and-general-motors-on-building-ai-when-failure-is-not-an-option-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T15:00:00.000Z",
+          "summary": "Leaders from Waabi, Shield AI, and General Motors join the Real World AI Stage at TechCrunch Disrupt 2026 to talk building AI. Save up to $200 by September 25 at 11:59 p.m. PT. Get a second pass at 50% off.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it",
+          "title": "TechCrunch Disrupt 2026: Cal AI’s Zach Yadegari on how to create viral growth and capitalize on it",
+          "url": "https://techcrunch.com/2026/09/24/techcrunch-disrupt-2026-cal-ais-zach-yadegari-on-how-to-create-viral-growth-and-capitalize-on-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-24T14:30:00.000Z",
+          "summary": "Zach Yadegari joins the Builders Stage at TechCrunch Disrupt 2026 to share how he capitalized on viral growth. Save up to $200 before September 25. Save 50% on a second pass.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.454732599345763,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.554732599345763,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49827794",
+    "hackernews:49845952",
+    "hackernews:49845977",
+    "hackernews:49830606",
+    "hackernews:49829650"
+  ]
+}

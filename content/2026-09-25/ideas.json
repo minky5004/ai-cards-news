@@ -1,0 +1,150 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T16:54:43.325Z",
+  "idea": {
+    "productName": "VeriAI",
+    "tagline": "AI 산출물의 진실성을 검증하고 위험을 차단합니다",
+    "oneLineSummary": "정부 기관과 기업을 위해 AI 모델과 생성물의 진실성 및 보안 위험을 평가하고 인증하는 플랫폼을 제공합니다.",
+    "problem": "정부 기관과 기업은 AI 모델의 공급망 위험과 악의적 조작에 대한 우려가 큽니다. AI 산출물에 대한 대중의 불신 또한 커져, AI 도입에 대한 사회적 합의가 어렵습니다.",
+    "productDescription": "이 플랫폼은 AI 모델의 내부 작동 방식, 데이터 출처, 잠재적 편향 및 보안 취약점을 종합적으로 분석합니다. 생성형 AI의 산출물이 조작되거나 편향되지 않았는지 실시간으로 검증합니다. 국가 안보 및 공급망 위험을 선제적으로 식별하며, 모델 배포 전후 지속적인 모니터링을 제공합니다. 대중의 불신을 해소하고 AI 시스템의 신뢰도를 높여줍니다.",
+    "keyFeatures": [
+      "모델 진실성 및 편향성 검사",
+      "AI 공급망 위험 자동 식별",
+      "생성물 조작 여부 실시간 검증",
+      "국가 안보 취약점 심층 분석",
+      "규제 준수 및 인증 리포트 발행"
+    ],
+    "persona": "국가 안보와 관련된 민감한 데이터를 다루는 국방부 계약 기업의 AI 보안 책임자입니다. AI 모델 사용이 금지될 위험이나 막대한 테스트 비용을 줄이려 합니다.",
+    "businessModel": "초기에는 정부 기관 및 국방 계약 기업에 AI 모델당 월 구독료와 추가적인 심층 분석 컨설팅 비용을 청구합니다. 월 구독료는 모델 복잡성과 사용량에 따라 최소 5천 달러부터 시작합니다.",
+    "marketStats": "NSA가 AI 모델 테스트에 수십억 달러를 지출하고 있으며, AI 규제 시스템 구축에는 연간 수십억 달러가 소요될 수 있다는 추정치가 있습니다(Washington Sun). 국방부의 Anthropic 모델 블랙리스트 지정은 이러한 시장의 필요성을 입증합니다(CNBC).",
+    "goToMarket": "국방부, NSA와 같은 정부 기관 및 주요 방위 산업체 대상의 폐쇄적인 보안 컨퍼런스에 참여하여 네트워킹을 통해 초기 고객을 확보합니다. 공급망 위험을 경고받은 기업들을 직접 접촉합니다.",
+    "unfairAdvantage": "미국 항소 법원이 Anthropic의 블랙리스트 지정을 유지한 사례(CNBC)와 NSA의 막대한 테스트 비용(Washington Sun)이 AI 보안 및 신뢰성 검증에 대한 긴급한 시장 수요를 증명합니다. 기존의 일반적인 소프트웨어 보안 회사들은 AI 모델의 복잡한 내부 작동 방식과 블랙박스 특성에 대한 전문성이 부족합니다.",
+    "competitors": [
+      "Snyk — 일반 소프트웨어 보안에 특화, AI 모델 내부 로직 분석 미지원",
+      "Palantir — 정부 데이터 분석 플랫폼, AI 모델 자체의 보안 및 진실성 검증은 부수적",
+      "내부 개발팀 — 비용이 막대하고, 전문 지식 부족으로 공급망 위험 식별에 한계"
+    ],
+    "risks": [
+      "정부 기관의 느린 도입 및 예산 제약",
+      "AI 모델 개발사의 블랙박스 정책으로 인한 분석 난이도",
+      "기술 변화 속도가 빨라 검증 기준의 지속적 업데이트 부담",
+      "AI 모델 평가 결과에 대한 법적 책임 분쟁 발생 가능성"
+    ],
+    "actionPlan": [
+      "국방부 AI 보안 정책 담당자 면담 요청 이메일 발송",
+      "Anthropic과 유사한 공급망 리스크 우려 기업 목록 작성",
+      "정부 기관 대상 AI 보안 컨퍼런스 참가 신청",
+      "오픈소스 AI 모델 대상 초기 검증 프로토타입 개발 시작"
+    ],
+    "recommendation": "이 아이디어는 정부 및 대기업의 AI 보안 및 신뢰성 검증이라는 명확하고 시급한 시장 문제를 해결합니다. 초기 고객 확보가 중요하며, AI 모델의 빠른 발전 속도에 맞춰 검증 기술을 지속적으로 고도화하는 것이 핵심 과제입니다. 높은 진입 장벽이 있지만, 성공 시 상당한 규모의 시장을 선점할 수 있습니다.",
+    "searchQuery": "ai model security audit",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 163점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: The Mog Programming Language",
+          "url": "https://moglang.org",
+          "points": 163
+        },
+        {
+          "title": "Show HN: Moltis – AI assistant with memory, tools, and self-extending skills",
+          "url": "https://www.moltis.org",
+          "points": 131
+        },
+        {
+          "title": "We Built a Tool to Hack Our Own AI: Lessons Learned Securing Chatbots/Voicebots",
+          "url": "https://news.ycombinator.com/item?id=41249044",
+          "points": 16
+        },
+        {
+          "title": "Show HN: SerenDB – A Neon PostgreSQL fork optimized for AI agent workloads",
+          "url": "https://github.com/serenorg/serendb",
+          "points": 7
+        },
+        {
+          "title": "Open Source AI Infrastructure",
+          "url": "https://news.ycombinator.com/item?id=47933263",
+          "points": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49827794",
+        "title": "Meta takes down a critical video about meta AI Glasses after filming at Meta",
+        "url": "https://reddit.com/r/facebook/comments/1wotwrk/meta_takes_down_a_critical_video_about_meta_ai"
+      },
+      {
+        "clusterId": "hackernews:49845952",
+        "title": "Classified Estimates Show the NSA Is Paying Billions to Test AI Models",
+        "url": "https://washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models"
+      },
+      {
+        "clusterId": "hackernews:49845977",
+        "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+        "url": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+      },
+      {
+        "clusterId": "hackernews:49830606",
+        "title": "Google’s Project Suncatcher to put ML infrastructure in space",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts"
+      },
+      {
+        "clusterId": "hackernews:49829650",
+        "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+        "url": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us"
+      },
+      {
+        "clusterId": "hackernews:49826565",
+        "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
+        "url": "https://transluce.org/agent-activity"
+      },
+      {
+        "clusterId": "hackernews:49841893",
+        "title": "Special Projects (2016)",
+        "url": "https://openai.com/index/special-projects"
+      },
+      {
+        "clusterId": "hackernews:49831690",
+        "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+        "url": "https://afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r"
+      },
+      {
+        "clusterId": "hackernews:49842707",
+        "title": "Uproar in France over award-winning author accused of using AI",
+        "url": "https://bbc.com/news/articles/ck7v4y45893go"
+      },
+      {
+        "clusterId": "hackernews:49844896",
+        "title": "Microsoft Abandons Personal AI Chatbot Race with Copilot Reboot",
+        "url": "https://bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot"
+      },
+      {
+        "clusterId": "hackernews:49830866",
+        "title": "Best LLM for every budget, updated daily",
+        "url": "https://bestmodelforyourbudget.terrydjony.com"
+      },
+      {
+        "clusterId": "hackernews:49846391",
+        "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+        "url": "https://github.com/Avinash-jetwani/jevmem"
+      },
+      {
+        "clusterId": "hackernews:49835531",
+        "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+        "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical"
+      },
+      {
+        "clusterId": "hackernews:49829387",
+        "title": "Hackers influence ChatGPT and Gemini to direct users to scam centers",
+        "url": "https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073"
+      },
+      {
+        "clusterId": "hackernews:49831269",
+        "title": "AI safety is mostly a sex cult in Berkeley",
+        "url": "https://verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in"
+      }
+    ]
+  }
+}

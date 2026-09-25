@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T16:53:40.347Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49827794",
+      "headline": "메타, AI 뮤즈 품은 새 안경들 쏟아냈다",
+      "highlight": [
+        "AI 뮤즈"
+      ],
+      "body": "메타는 1300달러짜리 5배 가벼운 VR 안경과 카메라 없는 레이밴을 공개하며 AI 비서 뮤즈 통합을 알렸다. '뮤즈'는 개인화된 서비스가 기대되지만, 사생활 침해와 보안 논란이 끊이지 않아 사용자 설득이 관건이다.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/musecharm-1152x648.jpg",
+      "publishedAt": "2026-09-24T08:23:03.000Z"
+    },
+    {
+      "clusterId": "hackernews:49845952",
+      "headline": "美 NSA, AI 모델 시험에 수십억 달러",
+      "highlight": [
+        "수십억 달러"
+      ],
+      "body": "미 국가안보국(NSA)이 올해 인공지능(AI) 모델 평가 및 테스트에 수십억 달러의 예산을 투입하고 있습니다. 이는 기존에 알려진 것보다 훨씬 많은 금액이며, AI 규제 시스템 구축 비용에 대한 재평가를 촉발했습니다. 천문학적인 비용으로 인해 정부 역할과 비용 부담에 대한 논의가 더욱 뜨거워지고 있습니다.",
+      "sourceUrl": "https://washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "sourceName": "The Washington Sun",
+      "imageUrl": "https://static.washingtonsun.com/dims4/default/20a9fb0/2147483647/strip/true/crop/4500x2531+0+422/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk2-prod-aji.s3.us-east-1.amazonaws.com%2Fbrightspot%2F93%2F3a%2F9de8050f4750b3d0066f0092a434%2Fap25006783508147.jpg",
+      "publishedAt": "2026-09-25T15:27:35.000Z"
+    },
+    {
+      "clusterId": "hackernews:49845977",
+      "headline": "앤트로픽, 미 국방부 블랙리스트 확정",
+      "highlight": [
+        "블랙리스트"
+      ],
+      "body": "미 연방 항소법원은 국방부의 앤트로픽 '공급망 위험' 지정을 확정했습니다. 이는 두 번째 지정에 대한 법원 판결로, 미군이 앤트로픽의 클로드 모델을 사용하는 것이 영구적으로 금지됩니다. 국방부와 앤트로픽은 AI 모델 군사 활용 범위에 대한 합의에 실패했습니다.",
+      "sourceUrl": "https://cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "sourceName": "CNBC",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108285631-1774986195722-gettyimages-2268688342-raa-anthropi260331_npMR4.jpeg?v=1774986237&w=1920&h=1080",
+      "publishedAt": "2026-09-25T15:29:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49830606",
+      "headline": "구글, AI 반도체를 우주로 띄운다",
+      "highlight": [
+        "AI 반도체"
+      ],
+      "body": "구글의 '프로젝트 선캐처'가 AI 반도체 테스트 위성을 발사했습니다. 극한의 방사선, 진동, 진공 냉각 등 우주 환경에서 칩의 성능을 검증합니다. 성공하면 우주에 확장 가능한 AI 인프라 구축의 발판을 마련하게 됩니다.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Project_Suncatcher_social.width-1300.png",
+      "publishedAt": "2026-09-24T13:53:29.000Z"
+    },
+    {
+      "clusterId": "hackernews:49829650",
+      "headline": "알파세대에게 'AI'는 '쓰레기'다",
+      "highlight": [
+        "AI",
+        "쓰레기"
+      ],
+      "body": "알파세대는 진짜 AI가 아닌, 믿을 수 없거나 조악한 것을 보고 '그거 완전 AI 같아!'라고 말한다. 그들에게 'AI'는 '말도 안 되는 소리'나 '짝퉁'과 다름없이 부정적인 의미로 사용된다. 기성세대가 AI의 가능성을 논할 때, 알파세대는 이미 AI를 불신하고 있다.",
+      "sourceUrl": "https://theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/6237bf6949f5c64abe45403b03845126a726c70a/627_240_4096_3279/master/4096.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae1123278240e8431e2186869b1ee9a2",
+      "publishedAt": "2026-09-24T12:23:41.000Z"
+    }
+  ]
+}
