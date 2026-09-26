@@ -82,7 +82,8 @@ ai-cards-news/
 ├── assets/fonts/        카드에 심어 보내는 한글 폰트 (러너에 부재)
 ├── content/<날짜>/       날짜별 산출물 — 완성된 날짜만 커밋 · 정적 빌드 입력
 ├── pipeline/src/main/java/com/aicards/news/pipeline/
-│   ├── ingest/          수집 · 주제 필터 · 클러스터링 · 스코어링
+│   ├── ingest/          수집 · 주제 필터 · 클러스터링
+│   ├── score/           화제성 스코어링 · 항목별 기여도 기록
 │   ├── extract/         원문 본문 · og:image · 실패 시 같은 클러스터 다른 매체로 폴백
 │   ├── copy/  idea/     Gemini 호출 — 카드 카피 · 사업 아이디어
 │   ├── render/          헤드리스 Chromium 촬영
