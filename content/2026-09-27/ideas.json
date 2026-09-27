@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T16:44:45.902Z",
+  "idea": {
+    "productName": "CodeSage",
+    "tagline": "AI가 만든 코드를 사람의 기준으로 완성합니다",
+    "oneLineSummary": "AI 생성 코드의 품질과 윤리적 문제를 해결하려는 개발자를 위한 코드 완성 및 검증 도구입니다.",
+    "problem": "AI 코드 생성에 의존하는 개발자들은 스스로의 코딩 능력 저하와 품질 불만을 겪고 있습니다. 동시에 AI 학습 데이터의 저작권 문제로 생성 코드의 윤리적 사용에도 막혀 있습니다.",
+    "productDescription": "AI가 제안하는 코드를 무비판적으로 수용하기보다, 개발자가 직접 코드를 개선하고 숙련도를 높이도록 돕습니다. 기계가 생성한 코드와 인간이 수정한 코드 사이의 품질 격차를 해소합니다. 저작권 침해 가능성을 사전에 검토하여 윤리적인 코드 사용을 지원합니다.",
+    "keyFeatures": [
+      "코드 품질 및 개선 제안",
+      "AI 의존도 감소를 위한 가이드",
+      "저작권 침해 위험 분석",
+      "인간 기여도 분석 리포트",
+      "맞춤형 학습 경로 제공"
+    ],
+    "persona": "AI 코드 도구 사용 후 자신의 코딩 능력이 저하되었다고 느끼며, 더 나은 품질의 코드를 직접 작성하고 싶어 하는 중니어 개발자입니다.",
+    "businessModel": "개인 개발자를 위한 월 구독 모델 (Basic: 월 15달러, Pro: 월 40달러), 기업용 팀 라이선스 (사용자당 월 30달러)를 제공합니다.",
+    "marketStats": "기사에 규모 근거 없음.",
+    "goToMarket": "개발자 커뮤니티 (Hacker News, Reddit 프로그래밍 서브레딧, 개발자 컨퍼런스)에 초기 버전 공개 및 피드백을 수집합니다. 개발자 블로그 및 기술 매체에 AI 의존도 문제와 해결책 제시 글을 기고합니다. GitHub Marketplace, VS Code Marketplace 등 개발 도구 스토어에 출시합니다.",
+    "unfairAdvantage": "AI가 '생성'하는 대신 '개선'을 돕는 차별화된 접근 방식으로, 개발자의 숙련도 향상이라는 가치를 직접적으로 제공합니다. AI의 윤리적 사용 문제에 대한 명확한 해법을 제시하여 신뢰를 얻습니다.",
+    "competitors": [
+      "GitHub Copilot — 코드 생성 중심, 품질 및 윤리적 가이드 부족",
+      "Claude Code skill — 특정 도메인 특화, 범용성 부족",
+      "ReSharper/SonarQube — 코드 품질 분석, AI 기반 개선 가이드 부재",
+      "기존 코드 표절 검사 도구 — 저작권 문제에 초점, 개선 가이드 부재"
+    ],
+    "risks": [
+      "개발자들이 AI 코드 생성의 편리함에서 벗어나지 않으려 함",
+      "AI 기반 코드 개선 제안의 정확성 및 유용성 한계",
+      "저작권 침해 분석의 법적 책임 문제 발생 가능성",
+      "대기업 AI 도구에 유사 기능 통합 시 경쟁 우위 상실"
+    ],
+    "actionPlan": [
+      "개발자 10명 대상 AI 사용 경험 및 불편함 심층 인터뷰",
+      "코드 품질 및 저작권 문제 관련 오픈소스 프로젝트 조사",
+      "코드 개선 제안을 위한 초기 AI 모델 아키텍처 설계",
+      "MVP 기능 정의 및 개발 환경 구축",
+      "초기 사용자 모집을 위한 랜딩 페이지 제작"
+    ],
+    "recommendation": "AI 의존성 증가와 윤리적 문제라는 개발자의 실제 불편을 겨냥한 아이디어입니다. 편리함에 길들여진 개발자들을 설득하고, AI 개선 모델의 정확도를 확보하는 것이 중요합니다.",
+    "searchQuery": "ai code quality ethics developer skill degradation",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49863864",
+        "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+        "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal"
+      },
+      {
+        "clusterId": "hackernews:49856034",
+        "title": "CEO of Mistral: AI is software. It can be controlled",
+        "url": "https://lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html"
+      },
+      {
+        "clusterId": "hackernews:49865343",
+        "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+        "url": "https://arxiv.org/abs/2609.25021"
+      },
+      {
+        "clusterId": "hackernews:49854875",
+        "title": "How to keep enjoying programming in a world of LLMs",
+        "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705"
+      },
+      {
+        "clusterId": "hackernews:49855018",
+        "title": "One Month Without AI",
+        "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html"
+      },
+      {
+        "clusterId": "hackernews:49856665",
+        "title": "OpenAI bots meddled with multiple US Government agency sites",
+        "url": "https://bbc.com/news/articles/cw62jje658dlo"
+      },
+      {
+        "clusterId": "hackernews:49862299",
+        "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+        "url": "https://swarmcha.se/posts/openai-unctad"
+      },
+      {
+        "clusterId": "hackernews:49854945",
+        "title": "The Copilot+ PC brand is dead",
+        "url": "https://windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding"
+      },
+      {
+        "clusterId": "hackernews:49857528",
+        "title": "Show HN: A Claude Code skill to analyze your chess games",
+        "url": "https://github.com/brumar/chess-postmortem-skills"
+      },
+      {
+        "clusterId": "hackernews:49856149",
+        "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+        "url": "https://lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior"
+      },
+      {
+        "clusterId": "hackernews:49862120",
+        "title": "OpenAI (2015)",
+        "url": "https://openai.com/index/introducing-openai"
+      },
+      {
+        "clusterId": "hackernews:49861356",
+        "title": "Allegations of sexual harassment and rape at Bay Area AI party houses",
+        "url": "https://kron4.com/news/technology-ai/report-details-allegations-of-wild-parties-sexual-harassment-and-rape-at-bay-area-ai-party-houses"
+      },
+      {
+        "clusterId": "hackernews:49857805",
+        "title": "Neomacs: GPU rendered Rust hard fork of Emacs",
+        "url": "https://github.com/eval-exec/neomacs"
+      }
+    ]
+  }
+}

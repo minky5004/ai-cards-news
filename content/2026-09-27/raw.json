@@ -1,0 +1,522 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T16:37:57.828Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 17,
+      "filtered": 7
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49863864",
+      "representativeId": "hackernews:49863864",
+      "items": [
+        {
+          "id": "hackernews:49863864",
+          "title": "Unsealed Briefs in Authors’ Case v. Microsoft/OpenAI",
+          "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal",
+          "source": "hackernews",
+          "publishedAt": "2026-09-27T06:19:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 544,
+            "comments": 491,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49863864"
+          }
+        }
+      ],
+      "score": 5.208602097287009,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.0086020972870084,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49856034",
+      "representativeId": "hackernews:49856034",
+      "items": [
+        {
+          "id": "hackernews:49856034",
+          "title": "CEO of Mistral: AI is software. It can be controlled",
+          "url": "https://lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T12:52:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 96,
+            "comments": 165,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49856034"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+          "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+          "url": "https://theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-26T14:00:00.000Z",
+          "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.00691326053518,
+      "breakdown": {
+        "hnPoints": 1.4717712218263423,
+        "hnComments": 0.963924925490933,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5378837798845715,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49865343",
+      "representativeId": "hackernews:49865343",
+      "items": [
+        {
+          "id": "hackernews:49865343",
+          "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
+          "url": "https://arxiv.org/abs/2609.25021",
+          "source": "hackernews",
+          "publishedAt": "2026-09-27T10:26:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 84,
+            "comments": 93,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49865343"
+          }
+        }
+      ],
+      "score": 4.667736581639124,
+      "breakdown": {
+        "hnPoints": 1.4292851064554424,
+        "hnComments": 0.8566912257611031,
+        "mentions": 0.0,
+        "recency": 1.1817602494225778,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49854875",
+      "representativeId": "hackernews:49854875",
+      "items": [
+        {
+          "id": "hackernews:49854875",
+          "title": "How to keep enjoying programming in a world of LLMs",
+          "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T09:41:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 299,
+            "comments": 319,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49854875"
+          }
+        }
+      ],
+      "score": 4.4908066450211965,
+      "breakdown": {
+        "hnPoints": 1.835014920331153,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.45579172469004336,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49855018",
+      "representativeId": "hackernews:49855018",
+      "items": [
+        {
+          "id": "hackernews:49855018",
+          "title": "One Month Without AI",
+          "url": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T10:08:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 178,
+            "comments": 223,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49855018"
+          }
+        }
+      ],
+      "score": 4.332455639464008,
+      "breakdown": {
+        "hnPoints": 1.6688803252100854,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4635753142539228,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49856665",
+      "representativeId": "hackernews:49856665",
+      "items": [
+        {
+          "id": "hackernews:49856665",
+          "title": "OpenAI bots meddled with multiple US Government agency sites",
+          "url": "https://bbc.com/news/articles/cw62jje658dlo",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T14:03:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 124,
+            "comments": 183,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49856665"
+          }
+        }
+      ],
+      "score": 4.275928807825865,
+      "breakdown": {
+        "hnPoints": 1.553360035618055,
+        "hnComments": 0.9833369659142545,
+        "mentions": 0.0,
+        "recency": 0.539231806293556,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49862299",
+      "representativeId": "hackernews:49862299",
+      "items": [
+        {
+          "id": "hackernews:49862299",
+          "title": "OpenAI agents tried to bruteforce a UN website's API fields",
+          "url": "https://swarmcha.se/posts/openai-unctad",
+          "source": "hackernews",
+          "publishedAt": "2026-09-27T01:08:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 80,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49862299"
+          }
+        }
+      ],
+      "score": 4.258726376019393,
+      "breakdown": {
+        "hnPoints": 1.4137775767731402,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.8258736193046476,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49854945",
+      "representativeId": "hackernews:49854945",
+      "items": [
+        {
+          "id": "hackernews:49854945",
+          "title": "The Copilot+ PC brand is dead",
+          "url": "https://windowscentral.com/microsoft/windows-11/the-copilot-pc-brand-is-dead-microsoft-and-pc-makers-quietly-pull-back-on-tarnished-windows-11-ai-pc-branding",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T09:55:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 104,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49854945"
+          }
+        }
+      ],
+      "score": 3.9527118407627224,
+      "breakdown": {
+        "hnPoints": 1.4972672466236383,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.459807198528659,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49857528",
+      "representativeId": "hackernews:49857528",
+      "items": [
+        {
+          "id": "hackernews:49857528",
+          "title": "Show HN: A Claude Code skill to analyze your chess games",
+          "url": "https://github.com/brumar/chess-postmortem-skills",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T15:34:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49857528"
+          }
+        }
+      ],
+      "score": 3.917105323070933,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 0.5716568604582211,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49856149",
+      "representativeId": "hackernews:49856149",
+      "items": [
+        {
+          "id": "hackernews:49856149",
+          "title": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+          "url": "https://lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T13:05:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49856149"
+          }
+        }
+      ],
+      "score": 3.8265696165443255,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.0,
+        "recency": 0.5194281184133669,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49862120",
+      "representativeId": "hackernews:49862120",
+      "items": [
+        {
+          "id": "hackernews:49862120",
+          "title": "OpenAI (2015)",
+          "url": "https://openai.com/index/introducing-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-09-27T00:44:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 15,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49862120"
+          }
+        }
+      ],
+      "score": 3.7538561457556487,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.5228039440135649,
+        "mentions": 0.0,
+        "recency": 0.8136066784499197,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49861356",
+      "representativeId": "hackernews:49861356",
+      "items": [
+        {
+          "id": "hackernews:49861356",
+          "title": "Allegations of sexual harassment and rape at Bay Area AI party houses",
+          "url": "https://kron4.com/news/technology-ai/report-details-allegations-of-wild-parties-sexual-harassment-and-rape-at-bay-area-ai-party-houses",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T22:54:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49861356"
+          }
+        }
+      ],
+      "score": 3.5663108933199785,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.757767025086542,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49857805",
+      "representativeId": "hackernews:49857805",
+      "items": [
+        {
+          "id": "hackernews:49857805",
+          "title": "Neomacs: GPU rendered Rust hard fork of Emacs",
+          "url": "https://github.com/eval-exec/neomacs",
+          "source": "hackernews",
+          "publishedAt": "2026-09-26T16:03:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49857805"
+          }
+        }
+      ],
+      "score": 3.3300537055347705,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.5821471983273938,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/26/kakapo-party",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/26/kakapo-party",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/26/kakapo-party",
+          "title": "Kākāpō Party",
+          "url": "https://simonwillison.net/2026/Sep/26/kakapo-party",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-26T23:39:06.000Z",
+          "summary": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them Here's the transcript , and this is the resulting page . It's pretty great! I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session: Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long don't start clicking until 3s in make sure several clicks are spread around the clickable area Claude Code used Playwright ( transcript here ) and produced this video, which was exactly what I needed for my final slide: Your browser does not support HTML5 video. Here's the full Playwright script it used, which was pleasingly short: # /// script # dependencies = [\"playwright\"] # /// import time from playwright . sync_api import sync_playwright W , H = 1280 , 720 # Canvas fills the viewport; spread clicks across corners, edges and centre clicks = [ ( 3.0 , 640 , 360 ), # centre ( 4.2 , 160 , 120 ), # top-left ( 5.4 , 1120 , 120 ), # top-right ( 6.6 , 180 , 600 ), # bottom-left ( 7.8 , 1100 , 600 ), # bottom-right ( 9.0 , 640 , 100 ), # top-centre ( 10.0 , 380 , 380 ), # mid-left ( 11.0 , 900 , 380 ), # mid-right ( 12.2 , 640 , 620 ), # bottom-centre ( 13.2 , 640 , 300 ), # finale centre ] with sync_playwright () as p : b = p . chromium . launch () ctx = b . new_context ( viewport = { \"width\" : W , \"height\" : H }, record_video_dir = \"vids\" , record_video_size = { \"width\" : W , \"height\" : H }) page = ctx . new_page () t0 = time . time () page . goto ( \"file:///Users/simon/Downloads/kakapo-party.html\" ) for t , x , y in clicks : time . sleep ( max ( 0 , t - ( time . time () - t0 ))) page . mouse . click ( x , y ) time . sleep ( max ( 0 , 16.0 - ( time . time () - t0 ))) ctx . close (); b . close () Tags: animation , speaking , ai , kakapo , playwright , generative-ai , llms , anthropic , claude , claude-code",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8300130105479449,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.780013010547945,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+          "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+          "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-27T01:30:00.000Z",
+          "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7375546759884433,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8375546759884435,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
+          "title": "Insurers claim AI is already increasing healthcare costs",
+          "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-26T21:02:06.000Z",
+          "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.605246605987545,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7052466059875451,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "title": "OpenAI pauses training of its ‘most capable models’",
+          "url": "https://theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-26T16:34:59.000Z",
+          "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access. The incident happened on September […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4941377970707581,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5941377970707582,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49863864",
+    "hackernews:49856034",
+    "hackernews:49865343",
+    "hackernews:49854875",
+    "hackernews:49855018"
+  ]
+}

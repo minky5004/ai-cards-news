@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T16:41:58.976Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49856034",
+      "headline": "미스트랄 AI, '빅테크가 AI 시장 조작'",
+      "highlight": [
+        "AI 시장 조작"
+      ],
+      "body": "프랑스 AI 스타트업 미스트랄 AI의 CEO 아서 멘쉬는 미국 빅테크 기업들이 AI 위험론을 이용해 시장을 독점하려 한다고 비판했습니다. 30억 유로를 투자받은 미스트랄 AI는 조만간 새 AI 모델을 출시합니다. 그는 개방적이고 접근성 높은 AI를 옹호합니다.",
+      "sourceUrl": "https://lemonde.fr/en/economy/article/2026/09/24/arthur-mensch-ceo-of-french-start-up-mistral-ai-ai-is-software-it-can-be-controlled_6757890_19.html",
+      "sourceName": "Le Monde.fr",
+      "imageUrl": "https://img.lemde.fr/2026/09/23/0/0/6720/4480/1440/960/60/0/480685d_upload-1-kgf7pj9zxsid-mensch-alcock-005.JPG",
+      "publishedAt": "2026-09-26T12:52:04.000Z"
+    },
+    {
+      "clusterId": "hackernews:49865343",
+      "headline": "LLM이 말하는 '나', 챗 템플릿이 만든다",
+      "highlight": [
+        "챗 템플릿이 만든다"
+      ],
+      "body": "거대 언어 모델(LLM)이 '저는 AI입니다'라 말하는 것이 모델 자체 지식이 아닌 '챗 템플릿' 때문으로 밝혀졌다. 8개 모델 실험 결과, 챗 템플릿 유무에 따라 면책성 발화가 크게 달라졌다. 앞으로 LLM 자기표현을 분석 시 챗 템플릿 영향을 반드시 고려해야 한다.",
+      "sourceUrl": "https://arxiv.org/abs/2609.25021",
+      "sourceName": "arXiv.org",
+      "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "publishedAt": "2026-09-27T10:26:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49854875",
+      "headline": "LLM, 코딩은 말고 다른 일 다 시켜라",
+      "highlight": [
+        "코딩은 말고"
+      ],
+      "body": "LLM이 코딩을 다 하면 당신은 실력과 즐거움을 잃습니다. LLM은 사람이 이해하기 어려운 코드를 만들어요. LLM을 기획, 조사 등 지루한 보조 작업에 쓰고, 코딩은 직접 해야 생산성과 역량을 지킬 수 있습니다.",
+      "sourceUrl": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "sourceName": "Haskell Community",
+      "imageUrl": "https://us1.discourse-cdn.com/flex002/uploads/haskell/original/1X/89166504e40f4869ea825dd70048017861ec8578.png",
+      "publishedAt": "2026-09-26T09:41:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:49855018",
+      "headline": "AI 코딩 중독, 한 달 끊었더니",
+      "highlight": [
+        "중독",
+        "한 달"
+      ],
+      "body": "개발자 A씨는 AI 코딩 에이전트에 의존해 몇 달간 직접 코드를 쓰지 못했습니다. 생산성 환상 속에서 통제력을 잃고 뇌 기능까지 저하됨을 깨달았죠. AI를 끊고서야 코딩의 즐거움과 주도적인 개발 역량을 되찾았다고 말합니다.",
+      "sourceUrl": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+      "sourceName": "Bustikiller's Blog",
+      "publishedAt": "2026-09-26T10:08:21.000Z"
+    }
+  ]
+}
