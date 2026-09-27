@@ -126,12 +126,13 @@ class GeminiTest {
             assertTrue(jitter < 1.0, "흔들림이 대기를 0 으로 만들 수 있다: " + jitter);
 
             /*
-              벌린 간격이 자기 분당 창을 넘기면 429 로 형태만 바뀐다. 누적 최악은
-              min(4 x 2^n x (1 + jitter), maxDelay) 의 합이고, 이것이 60초 안이어야 세 요청이
-              한 창에 든다.
+              벌린 간격이 자기 분당 창을 넘기면 429 로 형태만 바뀐다. 요청 사이의 누적 최악은
+              min(4 x 2^n x (1 + jitter), maxDelay) 를 n = 0 부터 시도 수 - 2 까지 더한 값이고,
+              이것이 60초 안이어야 세 요청이 한 창에 든다. 마지막 시도 뒤에 SDK 가 한 번 더
+              기다리는 몫(가짜 서버 실측 17초)은 요청을 만들지 않아 넣지 않는다.
             */
             double worst = 0;
-            for (int n = 1; n < Gemini.IDEA_MAX_ATTEMPTS; n++) {
+            for (int n = 0; n < Gemini.IDEA_MAX_ATTEMPTS - 1; n++) {
                 worst += initialDelay * Math.pow(2, n) * (1 + jitter);
             }
             assertTrue(worst < 60, "재시도 누적 최악 %.1f초가 분당 창을 넘는다".formatted(worst));
