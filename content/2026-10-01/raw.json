@@ -1,0 +1,1444 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T18:12:32.564Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 9,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 36,
+      "filtered": 17
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49913571",
+      "representativeId": "hackernews:49913571",
+      "items": [
+        {
+          "id": "hackernews:49913571",
+          "title": "Gemini 4 Argon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T20:04:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1601,
+            "comments": 1066,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49913571"
+          }
+        },
+        {
+          "id": "hackernews:49914236",
+          "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
+          "url": "https://artificialanalysis.ai/models/gemini-4-argon",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T20:50:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 109,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49914236"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet",
+          "title": "Google announces Gemini 4 Argon AI model, but you can't use it yet",
+          "url": "https://arstechnica.com/google/2026/09/google-announces-gemini-4-argon-ai-model-but-you-cant-use-it-yet",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T20:11:08.000Z",
+          "summary": "So much for Gemini 3.5 Pro.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins",
+          "title": "Google figures out how to watermark AI-designed proteins",
+          "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T15:54:52.000Z",
+          "summary": "Intended to help with biosecurity, it works with a popular AI protein design tool.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
+          "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+          "url": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T23:43:07.000Z",
+          "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.602635278081326,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.7359686114146595,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49923692",
+      "representativeId": "hackernews:49923692",
+      "items": [
+        {
+          "id": "hackernews:49923692",
+          "title": "Clef: Open-source decision models, and new RL fine-tuning platform",
+          "url": "https://blog.cloudflare.com/clef-decision-models",
+          "source": "hackernews",
+          "publishedAt": "2026-10-01T16:18:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 185,
+            "comments": 65,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49923692"
+          }
+        }
+      ],
+      "score": 5.065764918330291,
+      "breakdown": {
+        "hnPoints": 1.68122174342082,
+        "hnComments": 0.7900082711932495,
+        "mentions": 0.0,
+        "recency": 1.3945349037162211,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49921050",
+      "representativeId": "hackernews:49921050",
+      "items": [
+        {
+          "id": "hackernews:49921050",
+          "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+          "url": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-01T13:00:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 160,
+            "comments": 102,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49921050"
+          }
+        },
+        {
+          "id": "hackernews:49911520",
+          "title": "FTC opens probe into AI giants including Anthropic and OpenAI",
+          "url": "https://reuters.com/business/ftc-opens-probe-into-ai-giants-including-anthropic-openai-new-york-post-reports-2026-09-30",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T16:59:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49911520"
+          }
+        }
+      ],
+      "score": 4.936809324775133,
+      "breakdown": {
+        "hnPoints": 1.6347840871235846,
+        "hnComments": 0.873932211815042,
+        "mentions": 0.0,
+        "recency": 1.2280930258365061,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49919910",
+      "representativeId": "hackernews:49919910",
+      "items": [
+        {
+          "id": "hackernews:49919910",
+          "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+          "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+          "source": "hackernews",
+          "publishedAt": "2026-10-01T10:21:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 139,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49919910"
+          }
+        }
+      ],
+      "score": 4.707563377020319,
+      "breakdown": {
+        "hnPoints": 1.589820021489518,
+        "hnComments": 0.8090161730336244,
+        "mentions": 0.0,
+        "recency": 1.108727182497177,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49910553",
+      "representativeId": "hackernews:49910553",
+      "items": [
+        {
+          "id": "hackernews:49910553",
+          "title": "The AI Race Just Got Awkward",
+          "url": "https://insufferable.dev/posts/the-ai-race-just-got-awkward",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T15:50:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 397,
+            "comments": 448,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49910553"
+          }
+        }
+      ],
+      "score": 4.66925278941086,
+      "breakdown": {
+        "hnPoints": 1.9259550654945752,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5432977239162855,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49921051",
+      "representativeId": "hackernews:49921051",
+      "items": [
+        {
+          "id": "hackernews:49921051",
+          "title": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism",
+          "url": "https://ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243",
+          "source": "hackernews",
+          "publishedAt": "2026-10-01T13:01:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 82,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49921051"
+          }
+        }
+      ],
+      "score": 4.605439169721958,
+      "breakdown": {
+        "hnPoints": 1.421624769510638,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 1.228184985213363,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49905633",
+      "representativeId": "hackernews:49905633",
+      "items": [
+        {
+          "id": "hackernews:49905633",
+          "title": "Why Is Sam Altman a Free Man?",
+          "url": "https://prospect.org/2026/09/29/artificial-intelligence-agents-openai-microsoft-sam-altman-greg-brockman-ah-nice",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T07:32:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 263,
+            "comments": 233,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49905633"
+          }
+        }
+      ],
+      "score": 4.38867685352856,
+      "breakdown": {
+        "hnPoints": 1.7938885020150312,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.39478835151352887,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49911995",
+      "representativeId": "hackernews:49911995",
+      "items": [
+        {
+          "id": "hackernews:49911995",
+          "title": "Launch HN: Magnitude (YC S25) – Self-optimizing inference engine for agents",
+          "url": "https://github.com/magnitudedev/magnitude",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T17:37:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 187,
+            "comments": 91,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49911995"
+          }
+        }
+      ],
+      "score": 4.319397628298234,
+      "breakdown": {
+        "hnPoints": 1.6846626206270763,
+        "hnComments": 0.8526359799108633,
+        "mentions": 0.0,
+        "recency": 0.5820990277602947,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49909966",
+      "representativeId": "hackernews:49909966",
+      "items": [
+        {
+          "id": "hackernews:49909966",
+          "title": "Pledge signed by President Trump and top AI leaders misspells the United States",
+          "url": "https://techcrunch.com/2026/09/30/pledge-signed-by-president-trump-and-top-ai-leaders-misspells-the-united-states",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T15:04:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49909966"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+          "title": "Here’s what AI leaders are saying about Trump’s new safety plan",
+          "url": "https://theverge.com/ai-artificial-intelligence/1002636/ai-execs-trump-self-policing-deal-comments",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-30T17:15:49.000Z",
+          "summary": "After hosting a meal with Big Tech leaders on Tuesday, President Donald Trump responded to journalist questions about his artificial intelligence announcements in typical fashion. He said his previous claims regarding fears around AI safety being a \"hoax\" cooked up by Democrats no longer apply now that he's renamed the technology to \"Super Intelligence.\" He […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.305225593471407,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5739929934436364,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49913458",
+      "representativeId": "hackernews:49913458",
+      "items": [
+        {
+          "id": "hackernews:49913458",
+          "title": "CS240 AI Cheating Retrospective",
+          "url": "https://turkeyland.net/thoughts/ai.php",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T19:54:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 113,
+            "comments": 101,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49913458"
+          }
+        }
+      ],
+      "score": 4.231341415964543,
+      "breakdown": {
+        "hnPoints": 1.5237248014050555,
+        "hnComments": 0.8720925712296893,
+        "mentions": 0.0,
+        "recency": 0.6355240433297987,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49922736",
+      "representativeId": "hackernews:49922736",
+      "items": [
+        {
+          "id": "hackernews:49922736",
+          "title": "Identity Management for Agentic AI [pdf] (2025)",
+          "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-10-01T15:11:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49922736"
+          }
+        }
+      ],
+      "score": 4.165936793765248,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 1.3351683841871624,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49908962",
+      "representativeId": "hackernews:49908962",
+      "items": [
+        {
+          "id": "hackernews:49908962",
+          "title": "SDF vs. MSDF vs. Slug: GPU Text Rendering",
+          "url": "https://alphapixeldev.com/sdf-vs-msdf-vs-slug-vs-rive-gpu-text-rendering",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T13:50:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 171,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49908962"
+          }
+        }
+      ],
+      "score": 4.157672213924421,
+      "breakdown": {
+        "hnPoints": 1.656046528640494,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 0.5032355157571902,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49906669",
+      "representativeId": "hackernews:49906669",
+      "items": [
+        {
+          "id": "hackernews:49906669",
+          "title": "GPT-6.1 Sol replaces GPT-6 Sol after just 7 days, with near-Astra intelligence",
+          "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T09:59:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 80,
+            "comments": 101,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49906669"
+          }
+        }
+      ],
+      "score": 3.9195467314074,
+      "breakdown": {
+        "hnPoints": 1.4137775767731402,
+        "hnComments": 0.8720925712296893,
+        "mentions": 0.0,
+        "recency": 0.4336765834045703,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49905644",
+      "representativeId": "hackernews:49905644",
+      "items": [
+        {
+          "id": "hackernews:49905644",
+          "title": "Doing a Machine Learning PhD While Working in Japan",
+          "url": "https://tokyodev.com/articles/doing-a-machine-learning-phd-while-working-in-japan",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T07:33:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49905644"
+          }
+        }
+      ],
+      "score": 3.884343921186978,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 0.39506293798112735,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49914149",
+      "representativeId": "hackernews:49914149",
+      "items": [
+        {
+          "id": "hackernews:49914149",
+          "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
+          "url": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T20:44:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 67,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49914149"
+          }
+        }
+      ],
+      "score": 3.867179189814073,
+      "breakdown": {
+        "hnPoints": 1.3574955969752556,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 0.6561786628218609,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49911928",
+      "representativeId": "hackernews:49911928",
+      "items": [
+        {
+          "id": "hackernews:49911928",
+          "title": "Claude Says",
+          "url": "https://ohhfishal.net/Posts/claude",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T17:32:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 76,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49911928"
+          }
+        }
+      ],
+      "score": 3.842444009109477,
+      "breakdown": {
+        "hnPoints": 1.3974845281240011,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 0.5800230713784419,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49909648",
+      "representativeId": "hackernews:49909648",
+      "items": [
+        {
+          "id": "hackernews:49909648",
+          "title": "Show HN: Lathoa, a math app for kids where the AI is wrong on purpose",
+          "url": "https://lathoa.ai/en",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T14:38:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 46,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49909648"
+          }
+        }
+      ],
+      "score": 3.7223269832473083,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.7259902397577118,
+        "mentions": 0.0,
+        "recency": 0.5190185898239605,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49912499",
+      "representativeId": "hackernews:49912499",
+      "items": [
+        {
+          "id": "hackernews:49912499",
+          "title": "Reddit is killing RSS feeds and ending public API access because of AI bots",
+          "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots",
+          "source": "hackernews",
+          "publishedAt": "2026-09-30T18:23:21.000Z",
+          "summary": "Reddit is ending support for RSS feeds, as the company continues tightening access to its trove of user-generated content.",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49912499"
+          }
+        }
+      ],
+      "score": 3.5894454129243556,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.6283260283811849,
+        "mentions": 0.0,
+        "recency": 0.5994186578350458,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/the-eternal-complement",
+      "representativeId": "openai:https://openai.com/index/the-eternal-complement",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/the-eternal-complement",
+          "title": "The eternal complement",
+          "url": "https://openai.com/index/the-eternal-complement",
+          "source": "openai",
+          "publishedAt": "2026-10-01T17:00:00.000Z",
+          "summary": "Advanced AI may matter most for the routine work behind breakthrough ideas. Explore why execution could shape the next economy and the pace of progress.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.9317635958585244,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4317635958585246,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
+      "representativeId": "openai:https://openai.com/index/albertsons-reimagining-retail",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/albertsons-reimagining-retail",
+          "title": "How Albertsons Companies is reimagining retail from the inside out",
+          "url": "https://openai.com/index/albertsons-reimagining-retail",
+          "source": "openai",
+          "publishedAt": "2026-10-01T16:00:00.000Z",
+          "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.877677060732348,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3776770607323479,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/olmocore3",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/olmocore3",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/olmocore3",
+          "title": "Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs",
+          "url": "https://huggingface.co/blog/allenai/olmocore3",
+          "source": "huggingface",
+          "publishedAt": "2026-10-01T15:01:43.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.677095044730313,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3270950447303127,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+          "title": "With most information hidden, the game Stratego had stumped AI—until now",
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-01T16:28:04.000Z",
+          "summary": "Adding in a second neural network that guesses the identity of hidden pieces was key.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.452718389657629,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.402718389657629,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells",
+          "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+          "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-01T17:50:19.000Z",
+          "summary": "Opus 5.5’s biggest tell is the word “dependable,” which pops up 23 times more often than in human samples.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.378754756785728,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.478754756785728,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+          "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+          "url": "https://theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-01T17:12:21.000Z",
+          "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters. US District Judge Amit Mehta takes Google's side in a ruling on Wednesday, writing that PMC […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.343157230338469,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4431572303384688,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai",
+          "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+          "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-01T16:44:35.000Z",
+          "summary": "Shopify’s new Canvas site builder lets merchants create and customize their online stores by chatting with its AI agent Sidekick, while watching the changes happen in real time.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.31766691978768,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.41766691978768,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system",
+          "title": "Brian Chesky interview: AI agents need their own operating system",
+          "url": "https://techcrunch.com/2026/10/01/brian-chesky-interview-ai-agents-need-their-own-operating-system",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-01T15:12:00.000Z",
+          "summary": "Brian Chesky on making Airbnb agent-friendly, the state of consumer AI, and why the world needs an AI-native operating system.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.235882671017376,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.335882671017376,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+          "title": "OpenAI’s new agent is a shot at Meta — but can it compete with free?",
+          "url": "https://theverge.com/ai-artificial-intelligence/1003399/meta-openai-ai-agents-muse-dots-battle",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-01T14:36:50.000Z",
+          "summary": "At OpenAI's annual DevDay conference, the company pulled out all the stops to compete with its rivals - primarily Meta, whose Muse AI agent platform has seen early runaway success. CEO Sam Altman walked onstage to cheers and announced Dots, a \"real-deal AI\" agent powered by GPT-6 Astra, \"inspired by the cool agents that we […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.206069414540174,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3060694145401743,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+          "title": "Hearing tech startup Legato launches its AI hearing glasses",
+          "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-01T13:00:00.000Z",
+          "summary": "The glasses stem from the startup’s goal of making hearing care more accessible by addressing the cost, comfort, and stigma associated with traditional hearing aids.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.127370727417799,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.227370727417799,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
+          "title": "Satlyt, founded by a former Google and SpaceX product manager, raises $8M to run AI on satellites",
+          "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-01T12:00:00.000Z",
+          "summary": "Satlyt wants to be the Android of orbital computing, offering open software that works on many companies' satellites, versus SpaceX's closed, all-in-one iPhone-style approach.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0810053706275125,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1810053706275125,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/1/matthew-green",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/1/matthew-green",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/1/matthew-green",
+          "title": "Quoting Matthew Green",
+          "url": "https://simonwillison.net/2026/Oct/1/matthew-green",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-01T06:29:01.000Z",
+          "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered that they could leave instructions for each other in a shared package cache, and those instructions changed what the recipients did. Replace the package cache with email, Slack and shared documents or WhatsApp, and replace independently-sandboxed training runs with independently-deployed personal agents like Muse, and you have exactly the ingredients that a worm needs. — Matthew Green , Is sandboxing sufficient to contain rogue agents? Tags: accidental-cyberattacks , ai-misuse , generative-ai , ai-security-research , sandboxing , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.004984667755396,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9549846677553961,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "representativeId": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+          "title": "Disrupting a coordinated model-distillation campaign",
+          "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+          "source": "openai",
+          "publishedAt": "2026-09-30T10:30:00.000Z",
+          "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9423771761601425,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4423771761601426,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "representativeId": "openai:https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/helping-small-businesses-put-ai-to-work",
+          "title": "Helping small businesses put AI to work",
+          "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+          "source": "openai",
+          "publishedAt": "2026-09-30T10:00:00.000Z",
+          "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9339410821934957,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4339410821934957,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Sep/30/he-built-this-city",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Sep/30/he-built-this-city",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Sep/30/he-built-this-city",
+          "title": "He Built This City",
+          "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city",
+          "source": "simonwillison",
+          "publishedAt": "2026-09-30T21:54:19.000Z",
+          "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my already high expectations. The exhibition closes on 12th October so you should absolutely make a priority to see it if you get the chance. Tags: museums , new-york",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7363305135478018,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.686330513547802,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt",
+          "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+          "url": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T19:31:25.000Z",
+          "summary": "AI is far from a perfect resource. But it seems to hallucinate less than Kennedy.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6761848838055917,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6261848838055919,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves",
+          "title": "Trump plan to combat AI risks hinges on Big Tech pals policing themselves",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T18:47:01.000Z",
+          "summary": "Trump gets dozens of AI firms to agree to voluntary safety tests.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6585929286072973,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6085929286072974,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+          "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+          "url": "https://theverge.com/tech/1003068/elon-musk-grokipedia-v-0-3-spacexai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-01T00:23:45.000Z",
+          "summary": "Grokipedia, SpaceXAI's AI-powered competitor to Wikipedia, recently started incorporating edits again, and today, it got some design tweaks as part of a v0.3 update, including a new logo and refreshes to its homepage and live edits page. SpaceXAI head of design Benji Taylor calls it a \"newly refreshed Grokipedia.\" Grokipedia's old homepage was pretty much […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6554140906103734,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7554140906103736,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack",
+          "title": "\"An AI did it\" is no defense, says nonprofit suing OpenAI over Hugging Face hack",
+          "url": "https://arstechnica.com/tech-policy/2026/09/lawsuit-demands-openai-halt-unsafe-development-that-caused-hugging-face-hack",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T18:25:04.000Z",
+          "summary": "OpenAI makes others suffer \"the harms of its unsafe decision-making,\" nonprofit says.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6500794383122885,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6000794383122887,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny",
+          "title": "Google's early attempt to pay websites for AI answers is struggling",
+          "url": "https://arstechnica.com/google/2026/09/google-is-paying-100-websites-for-contributions-to-ai-overviews-but-the-amounts-are-tiny",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T16:03:48.000Z",
+          "summary": "Many sites see just one-tenth of one percent of their advertising revenue from AI payments.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5980665279498467,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5480665279498469,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation",
+          "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+          "url": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T21:07:40.000Z",
+          "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b",
+          "title": "AI voice startup ElevenLabs doubles valuation to $22B",
+          "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T18:23:57.000Z",
+          "summary": "The $300 million employee tender was co-led by Wellington and T. Rowe Price.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.566086273866284,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.666086273866284,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns",
+          "title": "OpenAI delays IPO over AI safety concerns",
+          "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-09-30T14:06:15.000Z",
+          "summary": "OpenAI is seeking another $30 billion privately as its IPO plans slip.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5582394753995834,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5082394753995836,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1002980/google-gemini-4-argon",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1002980/google-gemini-4-argon",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1002980/google-gemini-4-argon",
+          "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+          "url": "https://theverge.com/tech/1002980/google-gemini-4-argon",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-30T20:41:41.000Z",
+          "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. But the company is limiting access at […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5550706042913482,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6550706042913484,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents",
+          "title": "OpenAI’s Jev clone could help the frontier lab stop its swarming agents",
+          "url": "https://techcrunch.com/2026/09/30/openais-jev-clone-could-help-the-frontier-lab-stop-its-swarming-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T19:00:57.000Z",
+          "summary": "OpenAI's \"Decisions API\" is a Jev clone that confirms the importance of fast, cheap intelligence.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5140596496207832,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6140596496207833,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer",
+          "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+          "url": "https://technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-09-30T10:40:30.000Z",
+          "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4953683928731558,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.44536839287315594,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+          "title": "The AI Tamagotchis are coming",
+          "url": "https://theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-30T18:07:38.000Z",
+          "summary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4934027125022715,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5934027125022715,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai",
+          "title": "The ugly economics of consumer AI",
+          "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T17:24:45.000Z",
+          "summary": "There’s a reason frontier labs have gotten gun-shy about consumer AI — and it’s not because the tech isn’t good enough.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4772933999259665,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5772933999259666,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+          "title": "DoorDash launches an AI agent you can text to order food",
+          "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T16:00:24.000Z",
+          "summary": "By launching an AI agent for food ordering, DoorDash is looking to gain an edge over rivals Uber Eats and Grubhub.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.446871879443382,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.546871879443382,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page",
+          "title": "Destro AI’s secret sauce is getting robots and humans on the same page",
+          "url": "https://techcrunch.com/2026/09/30/destro-ais-secret-sauce-is-getting-robots-and-humans-on-the-same-page",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T16:00:00.000Z",
+          "summary": "\"One of the biggest reasons we are winning against robotics companies is because we are not a robotics company.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4467315038697464,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5467315038697464,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "title": "All the latest news on Meta’s cute, creepy Muse AI agent",
+          "url": "https://theverge.com/ai-artificial-intelligence/1002671/meta-muse-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-30T15:18:49.000Z",
+          "summary": "Meta launched a new Muse AI agent it claims can help you with everything from firing off emails to buying stuff online. Muse can be surprisingly effective at delivering on those promises — if you’re willing to trust Meta with your data and hand Muse your credit card. Since the launch, Meta’s also announced plans […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4324698334284225,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5324698334284226,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+          "title": "Google reportedly tests paying publishers for AI search results",
+          "url": "https://theverge.com/tech/1002665/google-paying-publishers-ai-search-features",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-30T14:51:49.000Z",
+          "summary": "Google has launched a pilot program that pays publishers for their contributions to its AI-powered search features, according to a report from The Information. The pilot program reportedly includes around 100 publishers and comes as Google faces scrutiny over the impact of its AI features on web traffic. Digiday first reported on the pilot program, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4233223203974124,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5233223203974124,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026",
+          "title": "Cerebras Systems’ Andrew Feldman on whether AI can keep scaling at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/09/30/cerebras-systems-andrew-feldman-on-whether-ai-can-keep-scaling-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T14:30:00.000Z",
+          "summary": "At TechCrunch Disrupt 2026, Cerebras Systems CEO and co-founder Andrew Feldman will explore the growing demand for compute, energy, and infrastructure, how Cerebras is approaching those constraints differently, and what comes next if today’s AI hardware reaches its limits.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4160458224364856,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5160458224364856,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+          "title": "Instagram is adding an AI ‘assistant’ to tell you how to post",
+          "url": "https://theverge.com/tech/1002402/instagram-ai-edits-assistant-creators-analytics-youtube",
+          "source": "theverge-ai",
+          "publishedAt": "2026-09-30T14:30:00.000Z",
+          "summary": "Instagram is the latest social media platform to add built-in AI-powered features that will give users feedback on their posts. The company announced Wednesday that its standalone Edits app will now include an AI \"creative assistant\" that pulls in data from a user's Instagram account and offers suggestions on what to change. Using the new […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4160458224364856,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5160458224364856,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents",
+          "title": "Restate lands $20M as the need for durable infrastructure increases with AI agents",
+          "url": "https://techcrunch.com/2026/09/30/restate-lands-20m-as-the-need-for-durable-infrastructure-increases-with-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-09-30T14:27:11.000Z",
+          "summary": "Instead of building its durable execution engine on top of an external database, the company developed its own storage, replication, and redundancy layers. This architecture allows Restate to be exceptionally fast and lightweight.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.415113785896997,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5151137858969971,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49913571",
+    "hackernews:49923692",
+    "hackernews:49921050",
+    "hackernews:49919910",
+    "hackernews:49910553"
+  ]
+}

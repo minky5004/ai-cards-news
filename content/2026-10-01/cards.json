@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026-10-01T18:16:42.875Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49913571",
+      "headline": "구글 제미나이 4 아르곤 의료 취약점 발견",
+      "highlight": [
+        "의료 취약점"
+      ],
+      "body": "구글의 새로운 AI 모델 제미나이 4 아르곤이 전 세계 병원에서 사용되는 헬스케어 소프트웨어의 치명적인 취약점을 찾아냈습니다. 이 모델은 최대 100만 토큰을 처리하며 전문 코딩, 재무, 법률 등 복잡한 작업에서 획기적인 성능을 선보입니다. 현재 사이버 보안 전문가에게 먼저 공개되었으며, 곧 더 많은 산업의 업무 방식을 변화시킬 것입니다.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+      "publishedAt": "2026-09-30T20:04:37.000Z"
+    },
+    {
+      "clusterId": "hackernews:49923692",
+      "headline": "클라우드플레어, 2배 빠른 AI 모델 공개",
+      "highlight": [
+        "2배 빠른"
+      ],
+      "body": "클라우드플레어가 의사결정 전용 AI 모델인 'Clef'를 오픈소스로 공개했습니다. 도메인 분류 처리에서 기존 LLM보다 2배 이상 빠른 2.2초의 속도를 기록했습니다. 이미지 인식과 64k 컨텍스트를 지원해 AI 에이전트의 빠른 자동 판단을 돕습니다.",
+      "sourceUrl": "https://blog.cloudflare.com/clef-decision-models",
+      "sourceName": "Cloudflare Blog",
+      "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJV43SPQCPKJ6GBXFCDKNE.01M3TJV53VYDMVNCZDPH1FBFYN.png",
+      "publishedAt": "2026-10-01T16:18:57.000Z"
+    },
+    {
+      "clusterId": "hackernews:49921050",
+      "headline": "FTC, 오픈AI 등 AI 기업 위험성 조사",
+      "highlight": [
+        "FTC",
+        "위험성 조사"
+      ],
+      "body": "미국 FTC가 오픈AI 등 AI 기업의 제품 위험성을 조사합니다. AI 모델 안전성 우려와 허깅페이스 해킹 사건 등이 배경이며, AI 산업 규제 강화로 이어질 전망입니다.",
+      "sourceUrl": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "sourceName": "CNBC",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108238255-17652000292025-12-08t080346z_276670915_rc27cia7uvdx_rtrmadp_0_usa-court-ftc-firing.jpeg?v=1765200048&w=1920&h=1080",
+      "publishedAt": "2026-10-01T13:00:55.000Z"
+    },
+    {
+      "clusterId": "hackernews:49919910",
+      "headline": "오픈AI, 반도체 설계 AI로 초고속 혁신",
+      "highlight": [
+        "초고속 혁신"
+      ],
+      "body": "오픈AI와 시놉시스, 두 회사는 손잡고 'GPT-Synopsys'라는 반도체 설계 전문 AI 모델을 개발합니다. 이 모델은 기존 EDA 도구를 전문가처럼 다루며 전력, 성능, 면적 최적화로 설계 시간을 크게 단축합니다. 엔지니어는 더 정교한 칩을 빠르게 만들어 AI 기술 발전에 기여할 수 있게 됩니다.",
+      "sourceUrl": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "sourceName": "Synopsys News Releases",
+      "imageUrl": "https://mmx.prnewswire.com/media/MS1999865/Synopsys-OpenAI.jpg?id=OA2980139&p=facebook",
+      "publishedAt": "2026-10-01T10:21:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:49910553",
+      "headline": "중국 기술이 서방 AI 비용 최대 80% 절감",
+      "highlight": [
+        "80% 절감"
+      ],
+      "body": "중국 딥시크(DeepSeek)의 KV 캐시 최적화 기술 덕분입니다. 오픈AI GPT-6.1 Sol은 캐시 읽기 비용을 80%, 앤트로픽 클로드 오푸스 5.5는 60% 절감했습니다. 이로써 서방 AI 기업들의 모델 운영 비용이 크게 줄어 수익성이 개선될 전망입니다.",
+      "sourceUrl": "https://insufferable.dev/posts/the-ai-race-just-got-awkward",
+      "sourceName": "hackernews",
+      "imageUrl": "https://insufferable.dev/insufferable-og.png",
+      "publishedAt": "2026-09-30T15:50:11.000Z"
+    }
+  ]
+}
