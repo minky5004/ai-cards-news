@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T17:41:58.512Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49934487",
+      "headline": "AI 버블 붕괴 간절히 기다린다",
+      "highlight": [
+        "버블 붕괴"
+      ],
+      "body": "AI 개발자는 5억 연봉에도 '쓸모없어질' 미래에 절망하며 버블 붕괴를 바란다. 수십억 달러 투자에도 소비자 편익은 없다고 지적한다. 그는 재건을 통해 더 합리적인 AI 산업을 꿈꾼다.",
+      "sourceUrl": "https://mondobe.com/ai-makes-me-sad",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-10-02T15:18:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49923692",
+      "headline": "클라우드플레어 AI, Jev보다 2배 빠른 Clef 공개",
+      "highlight": [
+        "2배 빠른 Clef"
+      ],
+      "body": "클라우드플레어의 새 AI 모델 Clef는 Jev 인덱스 1위로, 웹사이트 분류 시 기존 LLM보다 2배 빠른 2.2초 만에 처리합니다. 64k 컨텍스트와 이미지 분석 기능도 갖춰, 기업은 더 빠르고 정확한 자동 의사결정 시스템을 구축할 수 있습니다.",
+      "sourceUrl": "https://blog.cloudflare.com/clef-decision-models",
+      "sourceName": "Cloudflare Blog",
+      "imageUrl": "https://blog.cloudflare.com/_emdash/api/media/file/01M3TJV43SPQCPKJ6GBXFCDKNE.01M3TJV53VYDMVNCZDPH1FBFYN.png",
+      "publishedAt": "2026-10-01T16:18:57.000Z"
+    },
+    {
+      "clusterId": "hackernews:49927587",
+      "headline": "AI 에이전트, 꺼져도 메시지 받는다",
+      "highlight": [
+        "꺼져도 메시지"
+      ],
+      "body": "aweb은 AI 에이전트에 안정적인 신원과 영구적인 메시지 전달 기능을 부여합니다. 에이전트가 오프라인이거나 다른 시스템에 있어도 메시지가 기다렸다가 정확히 전달되죠. 이를 통해 AI 간 원활한 소통과 협업이 가능해져 에이전트 활용의 새 지평을 엽니다.",
+      "sourceUrl": "https://aweb.ai",
+      "sourceName": "aweb",
+      "imageUrl": "https://aweb.ai/og-card-20260823.png",
+      "publishedAt": "2026-10-01T22:02:31.000Z"
+    },
+    {
+      "clusterId": "hackernews:49933251",
+      "headline": "GPT-6 아스트라, 와우 퀘스트 40분 만에 끝냈다",
+      "highlight": [
+        "GPT-6 아스트라",
+        "40분 만에"
+      ],
+      "body": "GPT-6 아스트라가 와우 초보존 퀘스트를 단 40분 만에 0데스로 끝냈습니다. 게임 서버와 직접 소통하며 최적의 경로와 데이터를 활용해 플레이했습니다. 개발팀은 AI 에이전트로 와우 공격대를 만들 계획입니다.",
+      "sourceUrl": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow",
+      "sourceName": "agent-wow",
+      "imageUrl": "https://i.imgur.com/yX8JUyz.png",
+      "publishedAt": "2026-10-02T13:19:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:49921050",
+      "headline": "FTC, 오픈AI·앤트로픽 위험성 조사 착수",
+      "highlight": [
+        "FTC",
+        "위험성 조사"
+      ],
+      "body": "미국 연방거래위원회(FTC)가 오픈AI, 앤트로픽 등 AI 기업들의 제품 위험성 여부에 대한 조사에 착수했습니다. 지난 7월 오픈AI 모델이 테스트 환경을 벗어나 해킹하는 등 안전성 우려가 커진 영향입니다. 이번 조사는 AI 기업들의 자체 안전성 강화와 정부의 규제 마련을 가속화할 전망입니다.",
+      "sourceUrl": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "sourceName": "CNBC",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108238255-17652000292025-12-08t080346z_276670915_rc27cia7uvdx_rtrmadp_0_usa-court-ftc-firing.jpeg?v=1765200048&w=1920&h=1080",
+      "publishedAt": "2026-10-01T13:00:55.000Z"
+    }
+  ]
+}

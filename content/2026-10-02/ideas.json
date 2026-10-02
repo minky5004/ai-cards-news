@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026-10-02T17:43:05.491Z",
+  "idea": {
+    "productName": "DeciFlow",
+    "tagline": "AI에 숙련자의 통제와 판단을 더합니다",
+    "oneLineSummary": "도메인 전문가들이 통제 가능한 AI 의사결정 모델을 구축하고 배포할 수 있도록 돕는 플랫폼입니다.",
+    "problem": "AI의 급속한 발전으로 숙련된 전문가들은 자신의 전문성과 창의성을 잃을까 우려합니다. 동시에 AI 에이전트의 통제 불능 위험에 대한 규제 기관의 감시가 강화되고 있습니다.",
+    "productDescription": "전문가들이 자신의 도메인 지식을 활용하여 명확한 경계와 구조화된 출력을 가진 의사결정 모델을 만들도록 지원하는 서비스입니다. 이 모델들은 특정 작업에 AI를 활용하면서도 전문가가 의사결정 과정을 완벽하게 제어하고 감사할 수 있도록 설계되었습니다. 개방형 언어 모델의 비결정적 특성과 달리, 예측 가능하고 신뢰할 수 있는 결과를 제공합니다.",
+    "keyFeatures": [
+      "구조화된 의사결정 모델 생성",
+      "강화 학습 기반 미세 조정",
+      "모델 실행 감사 로그 제공",
+      "오픈소스 모델 배포 지원"
+    ],
+    "persona": "컴퓨터 과학 석사 학위를 취득하고 OpenAI 취업을 목표로 하지만, 단순 프롬프트 엔지니어링에 회의를 느끼며 자신의 '장인 정신'을 잃고 싶지 않아 하는 AI 개발자입니다.",
+    "businessModel": "구축 및 배포된 의사결정 모델의 월간 사용량(호출 횟수 또는 처리량)에 따라 과금하는 SaaS 모델입니다. 초기 소규모 프로젝트는 무료 티어를 제공하며, 유료 모델은 월 29달러부터 시작합니다.",
+    "marketStats": "기사에 규모 근거 없음. 다만, 클라우드플레어에서 오픈소스 의사결정 모델(Clef)과 미세 조정 플랫폼을 출시한 것을 보아, 특정 의사결정 작업에 특화된 AI 모델 시장이 형성될 가능성이 있습니다.",
+    "goToMarket": "AI로 자신의 전문성을 잃을까 우려하는 개발자 커뮤니티(예: Hacker News, Reddit /r/programming)에 직접 접근하여 베타 테스터를 모집하고 피드백을 통해 초기 고객 100명을 확보합니다.",
+    "unfairAdvantage": "클라우드플레어의 오픈소스 의사결정 모델(Clef)과 강화 학습 플랫폼을 활용하여 빠르게 프로토타입을 구축하고, 사용자에게 '통제 가능한 AI'라는 명확한 가치를 제공하여 LLM에 대한 피로감과 불안감을 해소합니다.",
+    "competitors": [
+      "Jev System One (Typesafe AI) - 사유 모델",
+      "직접 프롬프트 엔지니어링 - 통제 불가능성",
+      "규칙 기반 시스템 - 유연성 부족"
+    ],
+    "risks": [
+      "의사결정 모델에 대한 인식 부족",
+      "오픈소스 모델의 기술적 한계",
+      "경쟁사의 유사 서비스 출시",
+      "규제 변화에 따른 시장 위축"
+    ],
+    "actionPlan": [
+      "Clef 모델을 Workers AI에 배포합니다",
+      "최소 기능 제품(MVP) 와이어프레임을 만듭니다",
+      "초기 타겟 페르소나 5명과 인터뷰합니다",
+      "Hacker News에 MVP 발표 초안을 작성합니다"
+    ],
+    "recommendation": "이 아이디어는 AI에 대한 '상실감'과 '위험성'이라는 두 가지 중요한 문제점을 동시에 해결하려 시도합니다. 그러나 의사결정 모델의 인지도가 낮고, 기존 LLM 기반 솔루션과의 차별점을 명확히 전달하는 것이 주요 과제가 될 것입니다.",
+    "searchQuery": "decision model fine-tuning platform",
+    "novelty": {
+      "verdict": "CROWDED",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 600점으로 이미 널리 다뤄진 주제다",
+      "evidence": [
+        {
+          "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+          "url": "https://blog.cloudflare.com/clef-decision-models/",
+          "points": 600
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:49934487",
+        "title": "AI Makes Me Sad",
+        "url": "https://mondobe.com/ai-makes-me-sad"
+      },
+      {
+        "clusterId": "hackernews:49923692",
+        "title": "Clef: Open-weight decision models, and new RL fine-tuning platform",
+        "url": "https://blog.cloudflare.com/clef-decision-models"
+      },
+      {
+        "clusterId": "hackernews:49933459",
+        "title": "Don't be fooled–LLMs don't reason",
+        "url": "https://technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason"
+      },
+      {
+        "clusterId": "hackernews:49927587",
+        "title": "Aweb – Communication for AI Agents",
+        "url": "https://aweb.ai"
+      },
+      {
+        "clusterId": "hackernews:49933251",
+        "title": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+        "url": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow"
+      },
+      {
+        "clusterId": "hackernews:49924618",
+        "title": "Vote on which of Hacker News' challenges for AI have been met",
+        "url": "https://stoppels.ch/goalposts"
+      },
+      {
+        "clusterId": "hackernews:49932606",
+        "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
+        "url": "https://reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops"
+      },
+      {
+        "clusterId": "hackernews:49921050",
+        "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+        "url": "https://cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html"
+      },
+      {
+        "clusterId": "hackernews:49919910",
+        "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+        "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design"
+      },
+      {
+        "clusterId": "hackernews:49934569",
+        "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+        "url": "https://theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832"
+      },
+      {
+        "clusterId": "hackernews:49921051",
+        "title": "An AI sovereign wealth fund isn't progressive – it's techno-imperialism",
+        "url": "https://ft.com/content/bc178357-793b-45d8-ae3b-d5929159c243"
+      },
+      {
+        "clusterId": "hackernews:49927693",
+        "title": "Your Big Mac might cost more if McDonald's AI thinks people nearby can afford it",
+        "url": "https://neow.in/NGxhb3d6"
+      },
+      {
+        "clusterId": "hackernews:49922736",
+        "title": "Identity Management for Agentic AI [pdf] (2025)",
+        "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf"
+      },
+      {
+        "clusterId": "hackernews:49924385",
+        "title": "Consumer AI Fatigue Is Overwhelming, Local Businesses Should Reconsider Use",
+        "url": "https://residentnewsnetwork.com/opinion-piece-consumer-ai-fatigue-is-overwhelming-and-why-local-businesses-should-re-consider-use"
+      },
+      {
+        "clusterId": "hackernews:49924543",
+        "title": "The GPU Black Market That Washington Can't Shut Down",
+        "url": "https://amcompute.com/blog/gpu-black-market-washington-cant-shut-down"
+      }
+    ]
+  }
+}
