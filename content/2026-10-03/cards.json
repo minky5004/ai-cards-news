@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T15:59:23.161Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49944227",
+      "headline": "오픈AI 안전 담당자도 결국 사표 던졌다",
+      "highlight": [
+        "오픈AI",
+        "사표 던졌다"
+      ],
+      "body": "오픈AI 안전 보고서를 쓰던 데이비드 로빈슨이 퇴사 후 AI 업계의 위험성을 폭로했습니다. 그는 속도전만 치닫는 기업 문화가 위험하다며 원자력 발전소 수준의 안전 규제가 필요하다고 경고했습니다. 앤트로픽과 구글 딥마인드에서도 연구원들의 연쇄 사직이 이어지고 있습니다.",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/08/STK149_AI_01.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-10-03T13:46:34.000Z"
+    },
+    {
+      "clusterId": "hackernews:49943034",
+      "headline": "독일의 '주권 AI' 콜리브리, 3.46억 개로 780억 성능",
+      "highlight": [
+        "주권 AI",
+        "3.46억 개"
+      ],
+      "body": "콜리브리는 독일 Aleph Alpha가 개발한 개방형 LLM으로, 총 781억 개 매개변수 중 토큰당 34.6억 개만 활용합니다. 유럽 AI법을 고려해 독일 및 핀란드에서 개발되었으며, 기업은 자사 서버에서 구동해 데이터 주권과 보안을 확보할 수 있습니다.",
+      "sourceUrl": "https://tej.as/blog/aleph-alpha-kolibri",
+      "sourceName": "Tejas Kumar",
+      "imageUrl": "https://tej.as/img/og/blog/aleph-alpha-kolibri.png",
+      "publishedAt": "2026-10-03T10:43:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:49936575",
+      "headline": "초거대 AI 로컬 구동, 드디어 현실이 됐다",
+      "highlight": [
+        "초거대 AI",
+        "로컬 구동"
+      ],
+      "body": "DwarfStar 4(DS4) 엔진은 DeepSeek V4.1, GLM 5.x 등 최신 대규모 AI를 고성능 Mac, CUDA/ROCm 머신에서 로컬로 구동합니다. 2비트 비대칭 양자화로 모델을 압축해 온전히 내 컴퓨터에서 AI를 활용할 수 있도록 합니다.",
+      "sourceUrl": "https://dwarfstar.sh",
+      "sourceName": "DwarfStar 4 (ds4)",
+      "imageUrl": "https://dwarfstar.sh/og-preview-v2.png",
+      "publishedAt": "2026-10-02T18:01:16.000Z"
+    },
+    {
+      "clusterId": "hackernews:49934487",
+      "headline": "오픈AI 연봉 50만 달러, 그런데 AI 때문에 슬프다?",
+      "highlight": [
+        "50만 달러"
+      ],
+      "body": "한 TA는 오픈AI 등에서 연봉 50만 달러를 기대하는 동료들을 보며 슬픔을 느낍니다. AI가 창의성을 잃게 하고 인간을 대체할 것이라는 우려가 큽니다. 그는 지금의 AI 산업이 비합리적이라며, 거품 붕괴 후 재정립되기를 기대합니다.",
+      "sourceUrl": "https://mondobe.com/ai-makes-me-sad",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-10-02T15:18:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49933740",
+      "headline": "Ataraxos, 스트래티고 챔피언 15대1 승리",
+      "highlight": [
+        "15대1 승리"
+      ],
+      "body": "카네기멜론 등 연구팀의 AI Ataraxos가 스트래티고 최강자 핌 니마이어를 15대1로 꺾었습니다. 바둑, 체스 AI도 풀지 못했던 난제로, 40개 말의 엄청난 정보 비대칭과 블러핑이 특징입니다.",
+      "sourceUrl": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-1864707238-1152x648.jpg",
+      "publishedAt": "2026-10-02T14:11:24.000Z"
+    }
+  ]
+}

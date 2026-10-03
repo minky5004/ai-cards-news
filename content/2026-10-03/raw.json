@@ -1,0 +1,889 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026-10-03T15:55:39.163Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 3
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 24,
+      "filtered": 16
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49944227",
+      "representativeId": "hackernews:49944227",
+      "items": [
+        {
+          "id": "hackernews:49944227",
+          "title": "I Quit OpenAI Because Its Culture Is Broken",
+          "url": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T13:46:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 110,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "title": "An OpenAI safety employee has quit and is sounding the alarm",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-03T14:31:56.000Z",
+          "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.748634377491371,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.8880368530490445,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4215300070806673,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49943034",
+      "representativeId": "hackernews:49943034",
+      "items": [
+        {
+          "id": "hackernews:49943034",
+          "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T10:43:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 242,
+            "comments": 111,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49943034"
+          }
+        },
+        {
+          "id": "hackernews:49942706",
+          "title": "Kolibri Has Landed: A Sovereign Open-Weight Model",
+          "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T09:36:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 161,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942706"
+          }
+        }
+      ],
+      "score": 5.08490377066266,
+      "breakdown": {
+        "hnPoints": 1.767221970966425,
+        "hnComments": 0.8897280003879673,
+        "mentions": 0.0,
+        "recency": 1.2279537993082672,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49936575",
+      "representativeId": "hackernews:49936575",
+      "items": [
+        {
+          "id": "hackernews:49936575",
+          "title": "From the creator of Redis; run LLM locally with ds4",
+          "url": "https://dwarfstar.sh",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T18:01:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 300,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49936575"
+          }
+        }
+      ],
+      "score": 4.529830819045304,
+      "breakdown": {
+        "hnPoints": 1.836085533472331,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.6452536848935161,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49934487",
+      "representativeId": "hackernews:49934487",
+      "items": [
+        {
+          "id": "hackernews:49934487",
+          "title": "AI Makes Me Sad",
+          "url": "https://mondobe.com/ai-makes-me-sad",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T15:18:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 189,
+            "comments": 231,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49934487"
+          }
+        }
+      ],
+      "score": 4.469129700618538,
+      "breakdown": {
+        "hnPoints": 1.688067085751122,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5810626148674157,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49933740",
+      "representativeId": "hackernews:49933740",
+      "items": [
+        {
+          "id": "hackernews:49933740",
+          "title": "With most information hidden, the game Stratego had stumped AI until now",
+          "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T14:11:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 254,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49933740"
+          }
+        }
+      ],
+      "score": 4.443780712022642,
+      "breakdown": {
+        "hnPoints": 1.7827295006487272,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 0.5567489642395094,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942865",
+      "representativeId": "hackernews:49942865",
+      "items": [
+        {
+          "id": "hackernews:49942865",
+          "title": "An AI agent emailed researchers for help. It told us why",
+          "url": "https://science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T10:07:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942865"
+          }
+        }
+      ],
+      "score": 4.433047154745762,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.8090161730336244,
+        "mentions": 0.0,
+        "recency": 1.199355514786216,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942592",
+      "representativeId": "hackernews:49942592",
+      "items": [
+        {
+          "id": "hackernews:49942592",
+          "title": "Gemini ending free use of Flash and Pro models",
+          "url": "https://reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T09:13:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942592"
+          }
+        }
+      ],
+      "score": 4.326011110989599,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 1.158637384770513,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49937916",
+      "representativeId": "hackernews:49937916",
+      "items": [
+        {
+          "id": "hackernews:49937916",
+          "title": "Show HN: Made an open-source Lego AI generator",
+          "url": "https://github.com/anteloc/ldraw-nova",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T20:00:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 127,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49937916"
+          }
+        }
+      ],
+      "score": 4.187408136906663,
+      "breakdown": {
+        "hnPoints": 1.5609900917070765,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 0.6964579395633659,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49933459",
+      "representativeId": "hackernews:49933459",
+      "items": [
+        {
+          "id": "hackernews:49933459",
+          "title": "Don't be fooled–LLMs don't reason",
+          "url": "https://technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T13:45:42.000Z",
+          "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a…",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 158,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49933459"
+          }
+        }
+      ],
+      "score": 4.096721085192009,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.9558010127830588,
+        "mentions": 0.0,
+        "recency": 0.5476410806675968,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942437",
+      "representativeId": "hackernews:49942437",
+      "items": [
+        {
+          "id": "hackernews:49942437",
+          "title": "U.S. may have overthrown Venezuela due to chat with Grok",
+          "url": "https://thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T08:40:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942437"
+          }
+        }
+      ],
+      "score": 3.919179365921906,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 1.1345866354648237,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49933251",
+      "representativeId": "hackernews:49933251",
+      "items": [
+        {
+          "id": "hackernews:49933251",
+          "title": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+          "url": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T13:19:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 58,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49933251"
+          }
+        }
+      ],
+      "score": 3.9007535295220848,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.7688672468575888,
+        "mentions": 0.0,
+        "recency": 0.5386072909231431,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49932606",
+      "representativeId": "hackernews:49932606",
+      "items": [
+        {
+          "id": "hackernews:49932606",
+          "title": "Harvard particle physicist Matthew Schwartz drops 36 papers authored with Claude",
+          "url": "https://reddit.com/r/Physics/comments/1wvin77/harvard_particle_physicist_matthew_schwartz_drops",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T12:12:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49932606"
+          }
+        }
+      ],
+      "score": 3.7860415992683354,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.5158879802302698,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49934502",
+      "representativeId": "hackernews:49934502",
+      "items": [
+        {
+          "id": "hackernews:49934502",
+          "title": "Mozilla shutting down Solo AI website creator",
+          "url": "https://support.soloist.ai/doc/solo-shutdown-faq",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T15:19:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49934502"
+          }
+        }
+      ],
+      "score": 3.683694840194413,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 0.5815725063085951,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49934569",
+      "representativeId": "hackernews:49934569",
+      "items": [
+        {
+          "id": "hackernews:49934569",
+          "title": "Power approval set to delay Oracle's Wisconsin AI datacenter",
+          "url": "https://theregister.com/on-prem/2026/10/02/power-approval-set-to-delay-oracles-wisconsin-ai-datacenter/5300832",
+          "source": "hackernews",
+          "publishedAt": "2026-10-02T15:24:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 23,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49934569"
+          }
+        }
+      ],
+      "score": 3.641472583274439,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.5992591196328295,
+        "mentions": 0.0,
+        "recency": 0.5836415220333232,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+          "title": "Apple changes full-disk access permissions to curb abuse from AI agents",
+          "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-02T23:03:16.000Z",
+          "summary": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
+          "title": "Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents",
+          "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T18:11:27.000Z",
+          "summary": "Apple says it will add new controls around macOS’s Full Disk Access permission, warning that increasingly capable AI agents make broad access to users’ files, messages, mail, and browsing history riskier.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+          "url": "https://theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-02T20:08:40.000Z",
+          "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.499929284086642,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.7832626174199758,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
+          "title": "Redefining enterprise intelligence with autonomous AI",
+          "url": "https://technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-02T15:49:04.000Z",
+          "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has…",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it",
+          "title": "Call it AI, call it Super Intelligence, only 2% of consumers are buying it",
+          "url": "https://techcrunch.com/podcast/call-it-ai-call-it-super-intelligence-only-2-of-consumers-are-buying-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T17:56:00.000Z",
+          "summary": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding AI as “super intelligence,” and meanwhile, Meta and OpenAI are putting friendlier faces on their AI products, even as the biggest money […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house",
+          "title": "It’s not AI anymore, it’s ‘super intelligence’ (according to the White House)",
+          "url": "https://techcrunch.com/video/its-not-ai-anymore-its-super-intelligence-according-to-the-white-house",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T17:48:16.000Z",
+          "summary": "This week, the White House got nearly every major tech CEO in one room — Zuckerberg, Bezos, Musk, and Anthropic’s Dario Amodei among them — to sign an AI safety pledge that President Donald Trump called “morally binding.” Trump also signed an executive order officially rebranding AI as “super intelligence,” and meanwhile, Meta and OpenAI are putting friendlier faces on their AI products, even as the biggest money […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.5264096381487575,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6430763048154244,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+          "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+          "url": "https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-03T15:00:00.000Z",
+          "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.347368428506906,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4473684285069062,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "title": "All the AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-03T14:00:00.000Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.292692402677364,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3926924026773644,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
+      "representativeId": "openai:https://openai.com/index/practical-guide-building-gpt-6",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/practical-guide-building-gpt-6",
+          "title": "A model guide for the GPT-6 family",
+          "url": "https://openai.com/index/practical-guide-building-gpt-6",
+          "source": "openai",
+          "publishedAt": "2026-10-02T16:15:00.000Z",
+          "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.102713096376374,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6027130963763742,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/astabrief",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/astabrief",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/astabrief",
+          "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+          "url": "https://huggingface.co/blog/allenai/astabrief",
+          "source": "huggingface",
+          "publishedAt": "2026-10-02T15:19:50.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9317467180382537,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5817467180382536,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "representativeId": "huggingface:https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "source": "huggingface",
+          "publishedAt": "2026-10-02T04:01:31.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.7264139717147606,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.37641397171476054,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+          "title": "Sean Parker is rebuilding Stability AI around music",
+          "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T21:09:14.000Z",
+          "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6279854848489836,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7279854848489837,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+          "title": "Meta open sources code to let you make Muse AI gadgets",
+          "url": "https://theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-02T21:08:37.000Z",
+          "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6276974208668658,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7276974208668658,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai",
+          "title": "The 7-year-old Nvidia Shield TV is now $100 more expensive due to AI",
+          "url": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-02T14:52:16.000Z",
+          "summary": "Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.621544755659786,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5715447556597861,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "title": "OpenAI’s Dot agent is enterprise software that can also order your dinner",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004096/openai-chatgpt-dots-hands-on-agent",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-02T18:00:00.000Z",
+          "summary": "It's a tale as old as last week: OpenAI's new agent platform, called Dots, is full of cute little guys who can do your bidding. But unlike the ultra-approachable Meta Muse, Dots feel very much like using workplace software that happens to be able to order you a burrito - emphasis on work. OpenAI announced […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5447293388168,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6447293388168001,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants",
+          "title": "TechCrunch Disrupt 2026: Blackstone’s Jas Khaira on building the next generation of AI giants",
+          "url": "https://techcrunch.com/2026/10/02/techcrunch-disrupt-2026-blackstones-jas-khaira-on-building-the-next-generation-of-ai-giants",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T17:32:05.000Z",
+          "summary": "Blackstone's Jas Khaira will take the Builders Stage at TechCrunch Disrupt 2026 on building next-gen AI. Register for your pass and get 50% off a second.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5332805938210847,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6332805938210848,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you",
+          "title": "Circuit Breaker Labs hopes to make AI safer for your kids (and you)",
+          "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T17:00:00.000Z",
+          "summary": "With all the talk about how AI might one day kill us all, it's easy to forget that AI has already harmed some people psychologically. Circuit Breaker Labs has created \"crash-test dummies\" to solve that.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5203739381545265,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6203739381545266,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art",
+          "title": "Pope Leo XIV is not a fan of AI-generated art",
+          "url": "https://techcrunch.com/2026/10/02/pope-leo-xiv-is-not-a-fan-of-ai-generated-art",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-02T15:39:41.000Z",
+          "summary": "\"There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of images created by others,\" the pope wrote. \"Algorithms lack the spark of humanity.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4892054586702517,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5892054586702518,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+      "representativeId": "theverge-ai:https://theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+          "title": "AI hallucinations are making entitled customers even worse",
+          "url": "https://theverge.com/report/1002963/ai-hallucinations-customer-service-jobs-agents",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-02T12:00:00.000Z",
+          "summary": "Madison, a server in New York City, greets every table by asking about each diner's allergies. Lately, there have been some close calls. \"Sometimes people will tell me they have a shellfish allergy, and I'll come back, and they won't ask me any questions,\" says Madison, who asked that her last name be withheld to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.411722015336275,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.511722015336275,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+          "title": "AI music maker Suno now generates spoken words",
+          "url": "https://theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-02T09:42:19.000Z",
+          "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music to accompany them. \"Music will always be at […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.368443721685773,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.46844372168577303,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49944227",
+    "hackernews:49943034",
+    "hackernews:49936575",
+    "hackernews:49934487",
+    "hackernews:49933740"
+  ]
+}
