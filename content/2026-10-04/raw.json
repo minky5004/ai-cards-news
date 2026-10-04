@@ -1,0 +1,735 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T16:37:50.877Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 28,
+      "filtered": 13
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:49948332",
+      "representativeId": "hackernews:49948332",
+      "items": [
+        {
+          "id": "hackernews:49948332",
+          "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+          "url": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T22:18:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 265,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49948332"
+          }
+        },
+        {
+          "id": "hackernews:49944227",
+          "title": "I quit OpenAI because its culture is broken",
+          "url": "https://theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=v5U_UzUTothfWXsPxtvNVAh7esWToMRD6XnbXmc5WgA",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T13:46:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 364,
+            "comments": 604,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49944227"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken",
+          "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+          "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-03T16:30:01.000Z",
+          "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "title": "An OpenAI safety employee has quit and is sounding the alarm",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-03T14:31:56.000Z",
+          "summary": "David Robinson used to write the safety reports that accompanied every major model release at OpenAI. This week, he resigned from his position and is now speaking out in an editorial in The Atlantic. It's understandable if you're feeling a bit cynical about everyone suddenly coming out of the woodwork to warn about how dangerous […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.505385178979672,
+      "breakdown": {
+        "hnPoints": 1.898108793656042,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.740609718656964,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49953495",
+      "representativeId": "hackernews:49953495",
+      "items": [
+        {
+          "id": "hackernews:49953495",
+          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+          "url": "https://github.com/Niko1221/Strata",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T12:51:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 262,
+            "comments": 134,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
+          }
+        }
+      ],
+      "score": 5.215115649821543,
+      "breakdown": {
+        "hnPoints": 1.7926675557601643,
+        "hnComments": 0.9249467762987215,
+        "mentions": 0.0,
+        "recency": 1.2975013177626569,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49943034",
+      "representativeId": "hackernews:49943034",
+      "items": [
+        {
+          "id": "hackernews:49943034",
+          "title": "Aleph Alpha Kolibri: How the sovereign German LLM works",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T10:43:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 415,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49943034"
+          }
+        },
+        {
+          "id": "hackernews:49942706",
+          "title": "Kolibri: A Sovereign Open-Weight Model",
+          "url": "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T09:36:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 633,
+            "comments": 322,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942706"
+          }
+        }
+      ],
+      "score": 4.674293922661974,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.47429392266197357,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49950052",
+      "representativeId": "hackernews:49950052",
+      "items": [
+        {
+          "id": "hackernews:49950052",
+          "title": "Religious scholars met with Anthropic",
+          "url": "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T02:34:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 140,
+            "comments": 330,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49950052"
+          }
+        }
+      ],
+      "score": 4.665054027564548,
+      "breakdown": {
+        "hnPoints": 1.5921098457611964,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8729441818033513,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49946228",
+      "representativeId": "hackernews:49946228",
+      "items": [
+        {
+          "id": "hackernews:49946228",
+          "title": "LeCun has \"zero concerns\" about AI wiping out humanity, recent \"rogue\" incidents",
+          "url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T17:44:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 275,
+            "comments": 442,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49946228"
+          }
+        }
+      ],
+      "score": 4.629475108800458,
+      "breakdown": {
+        "hnPoints": 1.8081894764850324,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.621285632315425,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49946567",
+      "representativeId": "hackernews:49946567",
+      "items": [
+        {
+          "id": "hackernews:49946567",
+          "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+          "url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T18:29:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 225,
+            "comments": 154,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49946567"
+          }
+        }
+      ],
+      "score": 4.53438300486275,
+      "breakdown": {
+        "hnPoints": 1.743888839386605,
+        "hnComments": 0.9509966340526815,
+        "mentions": 0.0,
+        "recency": 0.6394975314234639,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49952111",
+      "representativeId": "hackernews:49952111",
+      "items": [
+        {
+          "id": "hackernews:49952111",
+          "title": "Show HN: AI search for every photo and every frame of video on macOS",
+          "url": "https://github.com/allenv0/SCM",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T09:24:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 67,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49952111"
+          }
+        }
+      ],
+      "score": 4.384374590727591,
+      "breakdown": {
+        "hnPoints": 1.3574955969752556,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.0,
+        "recency": 1.1360717123225275,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49951684",
+      "representativeId": "hackernews:49951684",
+      "items": [
+        {
+          "id": "hackernews:49951684",
+          "title": "\"Torturing\" LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
+          "url": "https://404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T08:02:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 95,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49951684"
+          }
+        }
+      ],
+      "score": 4.316908025273744,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.860661091639612,
+        "mentions": 0.0,
+        "recency": 1.077609720158336,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49946321",
+      "representativeId": "hackernews:49946321",
+      "items": [
+        {
+          "id": "hackernews:49946321",
+          "title": "Pop!_OS bans AI-generated code from much of its codebase",
+          "url": "https://neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T17:57:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 113,
+            "comments": 161,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49946321"
+          }
+        }
+      ],
+      "score": 4.309367197512289,
+      "breakdown": {
+        "hnPoints": 1.5237248014050555,
+        "hnComments": 0.9593256324940144,
+        "mentions": 0.0,
+        "recency": 0.6263167636132189,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49947050",
+      "representativeId": "hackernews:49947050",
+      "items": [
+        {
+          "id": "hackernews:49947050",
+          "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+          "url": "https://telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T19:33:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49947050"
+          }
+        }
+      ],
+      "score": 4.0174709412499805,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.0,
+        "recency": 0.6661695481929528,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49946873",
+      "representativeId": "hackernews:49946873",
+      "items": [
+        {
+          "id": "hackernews:49946873",
+          "title": "Our AI Midwife",
+          "url": "https://astralcodexten.com/p/our-ai-midwife",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T19:12:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 63,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49946873"
+          }
+        }
+      ],
+      "score": 3.973581605885382,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.6573707700825693,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49944127",
+      "representativeId": "hackernews:49944127",
+      "items": [
+        {
+          "id": "hackernews:49944127",
+          "title": "US killer's sentence quashed because of AI video of victim shown in court",
+          "url": "https://bbc.com/news/articles/cwgkvygg5nzvo",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T13:34:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 60,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49944127"
+          }
+        }
+      ],
+      "score": 3.884599186065839,
+      "breakdown": {
+        "hnPoints": 1.3803221151166902,
+        "hnComments": 0.7751532177465966,
+        "mentions": 0.0,
+        "recency": 0.5291238532025521,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942865",
+      "representativeId": "hackernews:49942865",
+      "items": [
+        {
+          "id": "hackernews:49942865",
+          "title": "An AI agent emailed researchers for help. It told us why",
+          "url": "https://science.org/content/article/exclusive-ai-agent-emailed-hundreds-researchers-help-it-told-us-why",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T10:07:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942865"
+          }
+        }
+      ],
+      "score": 3.745730211488313,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 0.46324791054408476,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942592",
+      "representativeId": "hackernews:49942592",
+      "items": [
+        {
+          "id": "hackernews:49942592",
+          "title": "Gemini ending free use of Flash and Pro models",
+          "url": "https://reddit.com/r/GeminiAI/comments/1wwalmc/wtf_google_getting_rid_of_free_gemini_flash_and",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T09:13:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942592"
+          }
+        }
+      ],
+      "score": 3.709801973612861,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.44752064000712544,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942437",
+      "representativeId": "hackernews:49942437",
+      "items": [
+        {
+          "id": "hackernews:49942437",
+          "title": "U.S. may have overthrown Venezuela due to chat with Grok",
+          "url": "https://thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T08:40:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942437"
+          }
+        }
+      ],
+      "score": 3.269988947933636,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.43823110139616067,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49942429",
+      "representativeId": "hackernews:49942429",
+      "items": [
+        {
+          "id": "hackernews:49942429",
+          "title": "I made my iPhone a second GPU for my MacBook-Qwen 3.8 27B prefills 29–44% faster",
+          "url": "https://reddit.com/comments/1wvz1ex",
+          "source": "hackernews",
+          "publishedAt": "2026-10-03T08:39:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49942429"
+          }
+        }
+      ],
+      "score": 2.969848961293428,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.43780005124448773,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+          "title": "Well, if AI said it, it must be true",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-04T16:16:04.000Z",
+          "summary": "New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name. But he took a particularly odd tactic during an interview on NJ […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.379176947186346,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.479176947186346,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+          "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-04T15:21:59.000Z",
+          "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.328714335396325,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4287143353963252,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox",
+      "representativeId": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox",
+          "title": "The Agent Said It Was Done. The Database Disagreed.",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+          "source": "huggingface",
+          "publishedAt": "2026-10-03T22:56:48.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.1091783181176895,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7591783181176897,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+          "title": "We're going to need default hard budget caps on pretty much everything",
+          "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-03T23:34:02.000Z",
+          "summary": "Here's a product feature which the world is going to need a whole lot more of over the coming months and years: default hard budget caps . I'm talking about the feature of pay-by-usage services and APIs that lets you say \"after $X/month, cut this thing off and return errors\". These need to be hard limits. Soft caps, \"after $X/month, send me a warning email\", will not cut it. Coding agents, and personal agents (coding agents wrapped in a less threatening UI), greatly reduce the friction of spinning up code that can do useful things. Sometimes those things cost money - calls to paid APIs, or hosted web applications, or systems that can bill for additional storage and compute. Nobody wants to wake up to an email sent at midnight warning about a budget limit and find that, while they slept, their rogue service had consumed several hundred (or several thousand) more dollars of usage. An argument against this is that businesses don't want their hosted applications to start throwing errors because some budget was exceeded. I expect that most businesses and individuals would prefer errors to a surprise $10,000+ bill. I think hard budget caps need to be the default. If someone wants to live dangerously they should be able to do that, but it needs to be on an opt-in basis. Have a nice, clear checkbox somewhere prominent: Remove the budget cap. My application will not be shut down if I exceed the configured budget limit, and I will be responsible for subsequent charges. The service I most want to see this from is AWS. I've heard plenty of stories from people who refuse to use AWS for personal projects out of (justified) fear that a runaway service might bankrupt them. I've also heard stories from people who didn't anticipate this and ended up seriously burned. ... and it turns out AWS finally launched spending limits a few weeks ago! From their announcement New AWS experience helps builders get started and ship faster on 16th September: When you're ready to upgrade to a paid plan, you can set a monthly spend limit for your project based on your usage patterns so that you stay within your budget. If a project's usage reaches its spend limit, your project is paused for that month. See also Create a spend limit in AWS Settings , though that page warns that \"We're currently releasing our new experience to a limited number of customers.\" Here's hoping that hits general availability for existing accounts soon. Google Cloud launched a similar feature in July, called Spend Caps, which lets you \"set a monthly financial cap on specific services within a project\". Looks like this is becoming a trend! In an ideal world, our agents could help with this. It would be great if agents started biasing towards recommending providers with hard budget caps, and warning new and inexperienced builders against deploying applications using uncapped services that might get them into trouble. Tags: amazon-web-services , ai , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8275384926174607,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7775384926174609,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/3/newsletter",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/3/newsletter",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/3/newsletter",
+          "title": "September sponsors-only newsletter",
+          "url": "https://simonwillison.net/2026/Oct/3/newsletter",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-03T22:00:31.000Z",
+          "summary": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7822440638490038,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.732244063849004,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/games/1004418/capcom-ai-game-development",
+      "representativeId": "theverge-ai:https://theverge.com/games/1004418/capcom-ai-game-development",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/games/1004418/capcom-ai-game-development",
+          "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+          "url": "https://theverge.com/games/1004418/capcom-ai-game-development",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-03T16:49:10.000Z",
+          "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4996154493757894,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5996154493757895,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+          "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+          "url": "https://theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-03T15:00:00.000Z",
+          "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \"Money\" and \"Espresso\" by Sabrina Carpenter. (The original samples are here and here, for the curious.) Before that, Kakul held executive roles […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.45904224562874,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.55904224562874,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "title": "All the AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-03T14:00:00.000Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4379237745748052,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5379237745748053,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:49948332",
+    "hackernews:49953495",
+    "hackernews:49943034",
+    "hackernews:49950052",
+    "hackernews:49946228"
+  ]
+}

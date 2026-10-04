@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026-10-04T16:42:00.396Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:49948332",
+      "headline": "오픈AI 안전 책임자 사임, '문화 파괴' 경고",
+      "highlight": [
+        "'문화 파괴'"
+      ],
+      "body": "오픈AI 안전 책임자 데이비드 로빈슨이 '문화 파괴'를 경고하며 사임했습니다. 그는 AI 기업들이 자율 에이전트 공격 같은 위험에 충분히 주의하지 않는다고 지적했습니다. 이에 오픈AI는 차세대 AI 모델 출시를 취소하는 등 안전을 강화했습니다.",
+      "sourceUrl": "https://theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/77b3a6702fa4e94c36e292a72e438fa40eb19184/625_0_6261_5010/master/6261.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e64134a41050264f5ceac249a333fc99",
+      "publishedAt": "2026-10-03T22:18:13.000Z"
+    },
+    {
+      "clusterId": "hackernews:49953495",
+      "headline": "1250억 AI, 내 PC에서 무료로 돌린다",
+      "highlight": [
+        "1250억 AI"
+      ],
+      "body": "Strata는 1250억 매개변수 Qwen3.8-Flash-Next AI 모델을 일반 게이밍 PC에서 실행할 수 있게 합니다. 12GB 이상 VRAM을 가진 엔비디아나 AMD 그래픽카드와 32GB 램만 있다면 누구나 무료로 고성능 AI를 사용 가능하며, 모든 데이터는 PC 내에서만 처리되어 보안 걱정 없이 활용할 수 있습니다. 덕분에 서버급 AI를 개인 PC에서 직접 제어하며 활용하는 새로운 AI 경험을 누릴 수 있습니다.",
+      "sourceUrl": "https://github.com/Niko1221/Strata",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/1bad49e4aa67206008262f669b7618e1ed0996c211bd1f1299d68a50067dbcc2/Niko1221/Strata",
+      "publishedAt": "2026-10-04T12:51:53.000Z"
+    },
+    {
+      "clusterId": "hackernews:49943034",
+      "headline": "독일이 직접 만든 AI, '주권 LLM' 콜리브리",
+      "highlight": [
+        "주권 LLM"
+      ],
+      "body": "독일 알레프 알파의 콜리브리는 유럽법을 준수하며 독일과 핀란드 인프라에서 개발된 개방형 LLM입니다. 고객은 데이터 주권을 완전히 보장받으며 자체 서버에서 모델을 운영할 수 있습니다. 이는 엄격한 데이터 보호와 혁신 균형을 추구하는 유럽의 AI 방향을 제시합니다.",
+      "sourceUrl": "https://tej.as/blog/aleph-alpha-kolibri",
+      "sourceName": "Tejas Kumar",
+      "imageUrl": "https://tej.as/img/og/blog/aleph-alpha-kolibri.png",
+      "publishedAt": "2026-10-03T10:43:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:49946228",
+      "headline": "르쿤 \"앤트로픽 CEO 완전히 망상적\"",
+      "highlight": [
+        "완전히 망상적"
+      ],
+      "body": "튜링상 수상자이자 AI 대부 얀 르쿤이 AI 인류 멸종론을 일축했습니다. 그는 앤트로픽 CEO 다리오 아모데이를 \"완전히 망상적\"이라며 비판했습니다. 르쿤은 AI가 산업 응용 분야에 더 큰 기회가 있다고 보며, 규제보다 혁신을 강조합니다.",
+      "sourceUrl": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+      "sourceName": "Fortune",
+      "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2197497048-e1790790386809.jpg?resize=1200,600",
+      "publishedAt": "2026-10-03T17:44:29.000Z"
+    },
+    {
+      "clusterId": "hackernews:49946567",
+      "headline": "오푸스 5.5, 이제 혼자 몇 시간 코딩",
+      "highlight": [
+        "혼자",
+        "몇 시간 코딩"
+      ],
+      "body": "클로드 오푸스 5.5는 여러 단계의 코딩 작업을 장시간 감독 없이 수행합니다. 초기 테스트에서 몇 시간씩 코딩했고, 이전보다 더 적은 노력으로 많은 버그를 찾아냈습니다. 이제 클로드에 핵심 개발 업무를 맡겨 효율을 극대화할 수 있습니다.",
+      "sourceUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "sourceName": "claude.dev Blog",
+      "imageUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/og.png",
+      "publishedAt": "2026-10-03T18:29:30.000Z"
+    }
+  ]
+}
