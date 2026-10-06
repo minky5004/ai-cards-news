@@ -1,0 +1,1096 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026-10-06T00:17:39.620Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 9,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 21,
+      "filtered": 14
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/eu-text-provenance",
+      "representativeId": "openai:https://openai.com/index/eu-text-provenance",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/eu-text-provenance",
+          "title": "Our approach to EU text provenance rules",
+          "url": "https://openai.com/index/eu-text-provenance",
+          "source": "openai",
+          "publishedAt": "2026-10-05T15:00:00.000Z",
+          "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+          "trust": 1.0,
+          "signals": {
+            "points": 61,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49966293"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+          "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+          "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T20:36:48.000Z",
+          "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T18:08:39.000Z",
+          "summary": "An invisible, machine-readable watermark in text output is rolling out to ChatGPT and Codex, but only for users in the European Union at first. OpenAI says its textGrain watermarking \"matched or exceeded\" other approaches like Google DeepMind's SynthID for text, which is also the basis for the watermarking Anthropic announced in August. Like OpenAI, Anthropic […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+          "title": "OpenAI is sticking more ads in ChatGPT",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T13:09:48.000Z",
+          "summary": "OpenAI's latest ad format will put images of sponsored products and services on your screen. The ads, which OpenAI will begin testing in the US later this month, will \"initially\" appear when you generate images with ChatGPT, according to an announcement on Monday. The company first brought ads to ChatGPT in February. Until now, ChatGPT's […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.533860414153759,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.7376575688648993,
+        "mentions": 1.6666666666666665,
+        "recency": 1.3017588293946583,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49969183",
+      "representativeId": "hackernews:49969183",
+      "items": [
+        {
+          "id": "hackernews:49969183",
+          "title": "Beam: Reflection's 501B open-weight model",
+          "url": "https://reflection.ai/blog/introducing-beam",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T19:16:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 280,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49969183"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
+          "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+          "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T19:33:53.000Z",
+          "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.9116524594844035,
+      "breakdown": {
+        "hnPoints": 1.8139655553694456,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2502408262974607,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49964248",
+      "representativeId": "hackernews:49964248",
+      "items": [
+        {
+          "id": "hackernews:49964248",
+          "title": "Accept 'bad things' in return for benefits of AI, says Sam Altman",
+          "url": "https://theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T12:56:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 113,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49964248"
+          }
+        },
+        {
+          "id": "hackernews:49965786",
+          "title": "Altman: The world should accept some bad things happening for the benefits of AI",
+          "url": "https://politico.com/news/2026/10/04/sam-altman-decoded-interview-ai-01106217",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T15:03:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 40,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49965786"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+          "title": "Sam Altman says ‘some bad things’ will happen, but AI is totally worth it",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T16:44:21.000Z",
+          "summary": "Sam Altman thinks that the benefits of AI will be so great that \"the world should accept some bad things happening\" along the way. The OpenAI CEO pointed to hacks, scams, and \"other bad things\" as costs society should expect to tolerate because \"people will do tremendously orders of magnitude more good stuff\" with AI, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.359565253946434,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.8930654621040577,
+        "mentions": 0.8333333333333333,
+        "recency": 1.1213453852085662,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49968105",
+      "representativeId": "hackernews:49968105",
+      "items": [
+        {
+          "id": "hackernews:49968105",
+          "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+          "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T17:53:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 254,
+            "comments": 171,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49968105"
+          }
+        }
+      ],
+      "score": 5.125644617558459,
+      "breakdown": {
+        "hnPoints": 1.7827295006487272,
+        "hnComments": 0.9706201257617965,
+        "mentions": 0.0,
+        "recency": 1.1722949911479348,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49961057",
+      "representativeId": "hackernews:49961057",
+      "items": [
+        {
+          "id": "hackernews:49961057",
+          "title": "Anthropic reported diary entry to police, woman faces felony charge",
+          "url": "https://techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T05:37:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 498,
+            "comments": 435,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49961057"
+          }
+        }
+      ],
+      "score": 4.929707050620863,
+      "breakdown": {
+        "hnPoints": 1.9987131224760573,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7309939281448049,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49968964",
+      "representativeId": "hackernews:49968964",
+      "items": [
+        {
+          "id": "hackernews:49968964",
+          "title": "Questions for believers in AI consciousness",
+          "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T18:59:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 188,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49968964"
+          }
+        }
+      ],
+      "score": 4.606046434092054,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.9883925412423699,
+        "mentions": 0.0,
+        "recency": 1.2229273792762247,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49953495",
+      "representativeId": "hackernews:49953495",
+      "items": [
+        {
+          "id": "hackernews:49953495",
+          "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+          "url": "https://github.com/Niko1221/Strata",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T12:51:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 910,
+            "comments": 412,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49953495"
+          }
+        }
+      ],
+      "score": 4.58332778096911,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.3833277809691098,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49969369",
+      "representativeId": "hackernews:49969369",
+      "items": [
+        {
+          "id": "hackernews:49969369",
+          "title": "AI Companies Are Parasites",
+          "url": "https://coryd.dev/posts/2026/ai-companies-are-parasites",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T19:30:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 35,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49969369"
+          }
+        }
+      ],
+      "score": 4.4402046334622645,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.675714295252094,
+        "mentions": 0.0,
+        "recency": 1.247262096418369,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49964537",
+      "representativeId": "hackernews:49964537",
+      "items": [
+        {
+          "id": "hackernews:49964537",
+          "title": "Spending on AI is becoming almost impossible for businesses to budget",
+          "url": "https://wsj.com/tech/personal-tech/ai-token-spending-businesses-431ee94a",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T13:22:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49964537"
+          }
+        }
+      ],
+      "score": 4.327863421473888,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.9851040326019904,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49965895",
+      "representativeId": "hackernews:49965895",
+      "items": [
+        {
+          "id": "hackernews:49965895",
+          "title": "Florida woman arrested for allegedly making threats in an AI chat",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004747/florida-woman-arrested-for-allegedly-making-threats-in-an-ai-chat",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T15:11:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49965895"
+          }
+        }
+      ],
+      "score": 4.326696323603045,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 1.0565427045649787,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49965833",
+      "representativeId": "hackernews:49965833",
+      "items": [
+        {
+          "id": "hackernews:49965833",
+          "title": "People are asking ChatGPT to help them decide how to vote in the midterms",
+          "url": "https://npr.org/2026/10/05/nx-s1-5977852/ai-chatbots-midterm-election",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T15:06:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49965833"
+          }
+        }
+      ],
+      "score": 4.320003294344188,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 1.0530562945993749,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49965042",
+      "representativeId": "hackernews:49965042",
+      "items": [
+        {
+          "id": "hackernews:49965042",
+          "title": "Jonathan Haidt: AI Is the 'Neutron Bomb for Education' [video]",
+          "url": "https://youtube.com/watch?v=RFTfANuLBF4",
+          "source": "hackernews",
+          "publishedAt": "2026-10-05T14:02:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49965042"
+          }
+        }
+      ],
+      "score": 4.132423261647923,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 1.0107968379643442,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49957117",
+      "representativeId": "hackernews:49957117",
+      "items": [
+        {
+          "id": "hackernews:49957117",
+          "title": "Homa: The end of TCP for AI clusters [video]",
+          "url": "https://youtube.com/watch?v=eZ8WWZzoaR0",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T19:42:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 79,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49957117"
+          }
+        }
+      ],
+      "score": 3.8500557770783232,
+      "breakdown": {
+        "hnPoints": 1.409781016657681,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 0.4988831751943438,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49957191",
+      "representativeId": "hackernews:49957191",
+      "items": [
+        {
+          "id": "hackernews:49957191",
+          "title": "I asked Claude build a physically accurate O'Neill cylinder you can walk around",
+          "url": "https://island-three.gruberbuilds.workers.dev",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T19:49:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49957191"
+          }
+        }
+      ],
+      "score": 3.4695576820096017,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 0.5010598293447334,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49956148",
+      "representativeId": "hackernews:49956148",
+      "items": [
+        {
+          "id": "hackernews:49956148",
+          "title": "Building a RAG pipeline for semantic code search",
+          "url": "https://blog.jetbrains.com/ai/2026/09/building-a-rag-pipeline-for-semantic-code-search-a-developer-diary-and-field-notes",
+          "source": "hackernews",
+          "publishedAt": "2026-10-04T17:51:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49956148"
+          }
+        }
+      ],
+      "score": 3.335126958806838,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.4646934068715872,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "representativeId": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "title": "Building advertising for the way people use AI",
+          "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+          "source": "openai",
+          "publishedAt": "2026-10-05T10:00:00.000Z",
+          "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough",
+          "title": "People really hate AI, so why can’t they get enough?",
+          "url": "https://technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-05T08:00:00.000Z",
+          "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 3.1983696229613887,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8650362896280556,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/5/felix-rieseberg",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/5/felix-rieseberg",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/5/felix-rieseberg",
+          "title": "Quoting Felix Rieseberg",
+          "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-05T23:56:47.000Z",
+          "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...] We think this solves a lot of problems we've heard about (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM) — Felix Rieseberg , Anthropic, see also this help page Tags: claude-cowork , anthropic , claude , generative-ai , ai , general-agents , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.530035668800034,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4800356688000338,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+          "title": "This startup is issuing AI-generated acne prescriptions",
+          "url": "https://theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T20:14:57.000Z",
+          "summary": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloomberg. The service is launching […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1836311548240843,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2836311548240844,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+          "title": "All the drama around AI’s takeover of mathematics",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004933/ai-math-openai-breakthrough-solution",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T19:28:59.000Z",
+          "summary": "This past year, OpenAI, Anthropic, and other labs have announced breakthroughs on numerous long-standing mathematical problems, in some cases pushing well beyond what researchers expected current systems to be capable of — including resolving one of the famous Millennium Prize problems. But in classic Silicon Valley style, AI labs are moving fast and breaking things, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1463152018555465,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2463152018555466,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
+          "title": "Connecting AI agents to enterprise knowledge",
+          "url": "https://technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-05T15:47:52.000Z",
+          "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.131423286634166,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0814232866341664,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "representativeId": "theverge-ai:https://theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+          "title": "Wikipedia operator says OpenAI’s ‘rogue’ bots may be linked to a May outage",
+          "url": "https://theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T19:05:19.000Z",
+          "summary": "Following many recent disclosures about AI agents accessing third-party websites and services, the Wikimedia Foundation, which hosts Wikipedia, says that it \"can confirm that we have discovered some activity\" by \"rogue\" OpenAI agents on Wikimedia platforms. The activity includes edits to Wikimedia wikis, \"unsuccessful attempts\" to \"exploit\" the Etherpad note-taking tool that the Wikimedia Foundation […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.127527548250103,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2275275482501031,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+          "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+          "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T18:54:30.000Z",
+          "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.119035356364965,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.219035356364965,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+          "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+          "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T18:29:00.000Z",
+          "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0992470234448595,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1992470234448596,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era",
+          "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+          "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T17:29:22.000Z",
+          "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.054215659295824,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.154215659295824,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown",
+          "title": "AI glasses face their first major government crackdown",
+          "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-05T13:39:30.000Z",
+          "summary": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.0459003534059934,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9959003534059937,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
+          "title": "Bringing predictive analytics to the agentic AI era",
+          "url": "https://technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-05T13:29:32.000Z",
+          "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.039550272564989,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9895502725649892,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+          "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user’s suicide",
+          "url": "https://theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T16:55:42.000Z",
+          "summary": "An OpenAI publicist tried to change the topic of CEO Sam Altman's interview with Vanity Fair's Mark Guiducci after the editor brought up a ChatGPT user's suicide. When Guiducci confronted Altman about the incident, the publicist warned Guiducci about running out of time, saying she'd like to \"move on\" to another topic. The interruption came […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.02954360823005,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1295436082300503,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become",
+          "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+          "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T16:43:35.000Z",
+          "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.020793764141219,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.120793764141219,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results",
+          "title": "OpenAI launches visual ads that appear alongside image generation results",
+          "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T15:14:24.000Z",
+          "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9584430697915127,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0584430697915128,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026",
+          "title": "Open or closed AI? How founders are choosing what to build on at TechCrunch Disrupt 2026",
+          "url": "https://techcrunch.com/2026/10/05/open-or-closed-ai-how-founders-are-choosing-what-to-build-on-at-techcrunch-disrupt-2026",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T15:00:00.000Z",
+          "summary": "Learn how founders are choosing between building on open or closed AI at TechCrunch Disrupt 2026. Register now to save up to $100 and get a second pass at 50% off.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9487060426557627,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0487060426557628,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+          "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+          "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T14:35:09.000Z",
+          "summary": "Independent researchers discovered an agent swarm that seems to be running on Tencent's infrastructure and targeting Alibaba's map service, Amap.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9321131068385264,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0321131068385265,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+          "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+          "url": "https://theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T14:30:00.000Z",
+          "summary": "Today, I’m talking with Sen. Adam Schiff, a Democrat from California. Schiff sits on a number of committees with oversight into tech and AI: intellectual property, antitrust, privacy and technology — it’s all there. I really wanted to ask him about how we might regulate anything related to the tech industry at this moment in […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9287073103612382,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0287073103612383,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them",
+          "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+          "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-05T12:00:00.000Z",
+          "summary": "Safeworld is building digital humans to make sure robots don't hurt the real ones.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.834290869108047,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9342908691080472,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+          "title": "Our minds aren’t equipped to handle AI",
+          "url": "https://theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-05T10:00:00.000Z",
+          "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon Musk puts it more bluntly, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7650362896280556,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8650362896280556,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything",
+          "title": "EmTech Future 2026: When AI Meets Everything",
+          "url": "https://technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-05T04:00:00.000Z",
+          "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7365797580731217,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6865797580731219,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+          "title": "Qwen3.8 27B addition in words",
+          "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-04T23:34:00.000Z",
+          "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf . Here's the result for a run of 30 attempts per combination with reasoning disabled: Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%: It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here. Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this: Wait, let me redo this more carefully. 4,299,366,105,622 6,088,794,067,970 Let me align them: 4 2 9 9 3 6 6 1 0 5 6 2 2 6 0 8 8 7 9 4 0 6 7 9 7 0 Adding from right to left: Position 1 (units): 2 + 0 = 2 Position 2 (tens): 2 + 7 = 9 Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1 Tags: mathematics , ai , generative-ai , local-llms , llms , qwen , llm-reasoning , dgx-spark",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6288265218458253,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5788265218458254,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+          "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+          "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-04T20:31:07.000Z",
+          "summary": "AI slop seems to be overwhelming bug bounty programs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.414722414260512,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5147224142605119,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem",
+          "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+          "url": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-04T20:08:34.000Z",
+          "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4073266608033481,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5073266608033482,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/eu-text-provenance",
+    "hackernews:49969183",
+    "hackernews:49964248",
+    "hackernews:49968105",
+    "hackernews:49961057"
+  ]
+}
