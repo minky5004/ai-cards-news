@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026-10-06T18:08:44.236Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/eu-text-provenance",
+      "headline": "오픈AI 챗GPT 텍스트에 '숨겨진 워터마크' 도입",
+      "highlight": [
+        "숨겨진 워터마크"
+      ],
+      "body": "오픈AI가 EU AI법 준수를 위해 챗GPT 텍스트에 보이지 않는 워터마크를 적용합니다. 독자는 볼 수 없지만, AI가 만든 콘텐츠임을 식별하는 이 워터마크는 복사해도 유지됩니다. AI 텍스트 투명성 확보와 출처 확인에 중요한 역할을 할 것입니다.",
+      "sourceUrl": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+      "publishedAt": "2026-10-05T15:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:49977979",
+      "headline": "미스트랄 AI, GPT-6 아스트라도 이겼다",
+      "highlight": [
+        "GPT-6 아스트라"
+      ],
+      "body": "미스트랄 라지 4(ML4)는 멀티모달 능력과 법률, 금융 분야에서 GPT-6 아스트라를 능가했습니다. 특히 사이버 보안 성능은 전 세계 오픈 모델 중 최고 수준입니다. 이는 중요한 엔터프라이즈 워크로드에 대한 새로운 가능성을 제시합니다.",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4",
+      "sourceName": "Mistral",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "publishedAt": "2026-10-06T13:15:49.000Z"
+    },
+    {
+      "clusterId": "hackernews:49980715",
+      "headline": "AI가 직접 만든 가속기, 오픈소스로 공개!",
+      "highlight": [
+        "AI가 직접",
+        "오픈소스"
+      ],
+      "body": "AI가 직접 설계한 오픈소스 AI 가속기 'openTPU'가 공개됐습니다. LFM2.5-230M 등 최신 LLM 10종을 초당 최대 85.8 토큰으로 구동합니다. AI의 하드웨어 설계 역량을 보여주고, 개발자에게는 가속기 작동 원리 학습 기회를 제공합니다.",
+      "sourceUrl": "https://github.com/FeSens/openTPU",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/67845fda25604fffcd07cad277b35d618a87e67b2b083b514ea2cfb4dd034319/FeSens/openTPU",
+      "publishedAt": "2026-10-06T16:23:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49964248",
+      "headline": "올트먼 \"AI 이점 위해 해킹·사기쯤 감수하자\"",
+      "highlight": [
+        "해킹·사기쯤",
+        "감수하자"
+      ],
+      "body": "샘 올트먼 오픈AI CEO가 AI 기술 이점을 위해 해킹, 사기 등 \"나쁜 일\"을 감수해야 한다고 밝혔다. 오픈AI 안전 전문가가 사임하고, 플로리다 주지사 등은 즉각 비판했다. 이 발언은 AI 안전에 대한 논란을 가속화하며 업계의 자율 규제에 압박을 더할 전망이다.",
+      "sourceUrl": "https://theguardian.com/technology/2026/oct/05/sam-altman-open-ai-chatgpt-benefits-risks",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/25a7b311b78477fb430906540593c2693953f97f/1129_0_7005_5604/master/7005.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a942335238f8a47b2c019cb9337cd56b",
+      "publishedAt": "2026-10-05T12:56:18.000Z"
+    }
+  ]
+}
