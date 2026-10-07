@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-07",
+  "runs": [
+    {
+      "at": "2026-10-07T18:42:14.574Z",
+      "model": "gemini-3.6-flash",
+      "calls": 5,
+      "inputTokens": 7068,
+      "outputTokens": 6061
+    },
+    {
+      "at": "2026-10-07T18:42:14.574Z",
+      "model": "gemini-2.5-flash",
+      "calls": 3,
+      "inputTokens": 11513,
+      "outputTokens": 7887
+    },
+    {
+      "at": "2026-10-07T18:45:06.656Z",
+      "model": "gemini-3.7-flash",
+      "calls": 1,
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    {
+      "at": "2026-10-07T18:45:29.972Z",
+      "model": "gemini-2.5-flash",
+      "calls": 1,
+      "inputTokens": 4832,
+      "outputTokens": 4683
+    }
+  ]
+}

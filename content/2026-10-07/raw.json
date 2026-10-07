@@ -1,0 +1,1742 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T18:38:07.406Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 7
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 12
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 45,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+          "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+          "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+          "source": "google-deepmind",
+          "publishedAt": "2026-10-06T19:57:04.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/open-d1",
+          "title": "Multimodal open d1 decision models for the edge",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "source": "huggingface",
+          "publishedAt": "2026-10-07T16:54:33.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:49980487",
+          "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T16:03:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 409,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49980487"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation",
+          "title": "How AI decision models could change content moderation",
+          "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T20:35:20.000Z",
+          "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 8.060978008253286,
+      "breakdown": {
+        "hnPoints": 1.9355117766423933,
+        "hnComments": 0.721934993907472,
+        "mentions": 2.5,
+        "recency": 1.4035312377034221,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49977979",
+      "representativeId": "hackernews:49977979",
+      "items": [
+        {
+          "id": "hackernews:49977979",
+          "title": "Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4/\\",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T13:15:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1972,
+            "comments": 1177,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49977979"
+          }
+        },
+        {
+          "id": "hackernews:49978116",
+          "title": "Mistral Large 4: \"Le Chonk\"",
+          "url": "https://mistral.ai/news/mistral-large-4",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T13:25:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 521,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49978116"
+          }
+        },
+        {
+          "id": "hackernews:49977844",
+          "title": "Mistral Large 4",
+          "url": "https://twitter.com/MistralAI/status/2107456586813730854",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T13:06:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 70,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49977844"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models",
+          "title": "Mistral says \"Le Chonk\" can challenge the best AI models",
+          "url": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-07T14:12:37.000Z",
+          "summary": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/le-chonk",
+          "title": "Introducing Mistral Large 4: Le chonk",
+          "url": "https://simonwillison.net/2026/Oct/6/le-chonk",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T20:18:19.000Z",
+          "summary": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 NVIDIA Grace Blackwell GPUs. The preview is available via their API. They promise to release the open weights model at the \"end of this month\". The model only supports two reasoning levels - \"none\" and \"high\" - via the Mistral API. Here are both pelicans - the \"high\" one looks better, though surprisingly it only used 2,717 output tokens compared to \"none\" which used 3,275: On Artificial Analysis it scores 38 , just behind DeepSeek 4.1 Flash, which is a 552B model. It's a huge improvement on last December's Mistral Large 3, which drew this terrible pelican and scored 9 on AA . It's certainly not a Fable-class model, but it's great to see Mistral put out a model that's back to being maybe about 6 months behind the frontier. Via Hacker News Tags: ai , generative-ai , llms , mistral , pelican-riding-a-bicycle , llm-release",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/hn-49982139",
+          "title": "Mistral Large 4",
+          "url": "https://simonwillison.net/2026/Oct/6/hn-49982139",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T18:20:58.000Z",
+          "summary": "My comment on Mistral Large 4 — Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-opus-5.5 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gpt-6.1-sol 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m gemini-3.8-flash 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' llm -m mistral/mistral-large-4 'Generate an SVG of an armadillo in fishnet tights jaywalking on Mars' Default reasoning levels for each: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 7.131653967616067,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 1.2649873009494002,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49996437",
+      "representativeId": "hackernews:49996437",
+      "items": [
+        {
+          "id": "hackernews:49996437",
+          "title": "Claude Haiku 5.5",
+          "url": "https://anthropic.com/claude-haiku-5-5",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T18:01:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 180,
+            "comments": 69,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49996437"
+          }
+        }
+      ],
+      "score": 5.13874329193496,
+      "breakdown": {
+        "hnPoints": 1.672455017009565,
+        "hnComments": 0.8011033338085477,
+        "mentions": 0.0,
+        "recency": 1.4651849411168472,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "representativeId": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "title": "Sharing AI progress in mathematics",
+          "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+          "source": "openai",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+          "trust": 1.0,
+          "signals": {
+            "points": 1166,
+            "comments": 1310,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49984923"
+          }
+        }
+      ],
+      "score": 4.961050395298205,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.46105039529820535,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49980715",
+      "representativeId": "hackernews:49980715",
+      "items": [
+        {
+          "id": "hackernews:49980715",
+          "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+          "url": "https://github.com/FeSens/openTPU",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T16:23:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 332,
+            "comments": 384,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49980715"
+          }
+        },
+        {
+          "id": "hackernews:49984716",
+          "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+          "url": "https://penguin-mail.com",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T21:59:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 229,
+            "comments": 166,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49984716"
+          }
+        },
+        {
+          "id": "hackernews:49987765",
+          "title": "Show HN: NanoMuse – An open-source AI agent for your phone and computer",
+          "url": "https://github.com/nano-muse/nanoMuse",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T03:30:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49987765"
+          }
+        },
+        {
+          "id": "hackernews:49979793",
+          "title": "Show HN: OpenChart – OSS TradingView alternative with your own AI agent",
+          "url": "https://github.com/longsurf-ai/openchart",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T15:16:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49979793"
+          }
+        }
+      ],
+      "score": 4.906452637464549,
+      "breakdown": {
+        "hnPoints": 1.8685895150946947,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8378631223698547,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49984025",
+      "representativeId": "hackernews:49984025",
+      "items": [
+        {
+          "id": "hackernews:49984025",
+          "title": "Decisions API is in public beta",
+          "url": "https://developers.openai.com/api/docs/guides/decisions",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T20:57:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 376,
+            "comments": 219,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49984025"
+          }
+        }
+      ],
+      "score": 4.759459273101322,
+      "breakdown": {
+        "hnPoints": 1.908515704867571,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6509435682337504,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49993121",
+      "representativeId": "hackernews:49993121",
+      "items": [
+        {
+          "id": "hackernews:49993121",
+          "title": "AI-assisted proof of optimal packing for 11 squares",
+          "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T14:10:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 81,
+            "comments": 36,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49993121"
+          }
+        }
+      ],
+      "score": 4.562213659762311,
+      "breakdown": {
+        "hnPoints": 1.4177250981030416,
+        "hnComments": 0.6808806914263887,
+        "mentions": 0.0,
+        "recency": 1.263607870232881,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49994746",
+      "representativeId": "hackernews:49994746",
+      "items": [
+        {
+          "id": "hackernews:49994746",
+          "title": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth",
+          "url": "https://bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T16:07:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 21,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49994746"
+          }
+        }
+      ],
+      "score": 4.55004842282712,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.5828521095705937,
+        "mentions": 0.0,
+        "recency": 1.3614621292282008,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49981905",
+      "representativeId": "hackernews:49981905",
+      "items": [
+        {
+          "id": "hackernews:49981905",
+          "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+          "url": "https://zohaib.cc/blog/smartest-claude-code-feature",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T18:00:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 260,
+            "comments": 149,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49981905"
+          }
+        }
+      ],
+      "score": 4.516123802840951,
+      "breakdown": {
+        "hnPoints": 1.7902116739716307,
+        "hnComments": 0.944813730487555,
+        "mentions": 0.0,
+        "recency": 0.5810983983817649,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49991580",
+      "representativeId": "hackernews:49991580",
+      "items": [
+        {
+          "id": "hackernews:49991580",
+          "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+          "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T12:04:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 46,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49991580"
+          }
+        }
+      ],
+      "score": 4.471521517553579,
+      "breakdown": {
+        "hnPoints": 1.3803221151166902,
+        "hnComments": 0.7259902397577118,
+        "mentions": 0.0,
+        "recency": 1.1652091626791763,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49994206",
+      "representativeId": "hackernews:49994206",
+      "items": [
+        {
+          "id": "hackernews:49994206",
+          "title": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots",
+          "url": "https://humxn.io/humxn-launches-free-home-service-program",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T15:28:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49994206"
+          }
+        }
+      ],
+      "score": 4.409026529257165,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 1.3283897145569519,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49990204",
+      "representativeId": "hackernews:49990204",
+      "items": [
+        {
+          "id": "hackernews:49990204",
+          "title": "Reasons to Dislike AI Coding",
+          "url": "https://sicpers.info/2026/10/reasons-to-dislike-ai-coding",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T09:15:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 84,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49990204"
+          }
+        }
+      ],
+      "score": 4.3660809550623405,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.8377137150343965,
+        "mentions": 0.0,
+        "recency": 1.045035472918507,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/gpt-6-for-everyone",
+      "representativeId": "openai:https://openai.com/index/gpt-6-for-everyone",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/gpt-6-for-everyone",
+          "title": "GPT-6 and Intelligent UI for everyone",
+          "url": "https://openai.com/index/gpt-6-for-everyone",
+          "source": "openai",
+          "publishedAt": "2026-10-07T00:00:00.000Z",
+          "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+          "trust": 1.0,
+          "signals": {
+            "points": 85,
+            "comments": 30,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49996425"
+          }
+        }
+      ],
+      "score": 4.312438169239565,
+      "breakdown": {
+        "hnPoints": 1.4330479441109116,
+        "hnComments": 0.6475183426219275,
+        "mentions": 0.0,
+        "recency": 0.7318718825067254,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:49989684",
+      "representativeId": "hackernews:49989684",
+      "items": [
+        {
+          "id": "hackernews:49989684",
+          "title": "Forever Junior: The Skills AI Can't Develop for You",
+          "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers",
+          "source": "hackernews",
+          "publishedAt": "2026-10-07T08:00:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49989684"
+          }
+        }
+      ],
+      "score": 4.275580577759329,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.7623644761006665,
+        "mentions": 0.0,
+        "recency": 0.9959878598668612,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49981197",
+      "representativeId": "hackernews:49981197",
+      "items": [
+        {
+          "id": "hackernews:49981197",
+          "title": "Utah to let AI examine patients and prescribe medication without human oversight",
+          "url": "https://techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T17:01:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 134,
+            "comments": 124,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49981197"
+          }
+        }
+      ],
+      "score": 4.248168181212648,
+      "breakdown": {
+        "hnPoints": 1.5781198611192067,
+        "hnComments": 0.9104348742922621,
+        "mentions": 0.0,
+        "recency": 0.5596134458011788,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49985524",
+      "representativeId": "hackernews:49985524",
+      "items": [
+        {
+          "id": "hackernews:49985524",
+          "title": "Integer multiplication below n log n",
+          "url": "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T23:14:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 105,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49985524"
+          }
+        }
+      ],
+      "score": 4.222874482838071,
+      "breakdown": {
+        "hnPoints": 1.5003167381952176,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.7109760672130736,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49985861",
+      "representativeId": "hackernews:49985861",
+      "items": [
+        {
+          "id": "hackernews:49985861",
+          "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+          "url": "https://reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T23:50:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 96,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49985861"
+          }
+        }
+      ],
+      "score": 4.040553146401461,
+      "breakdown": {
+        "hnPoints": 1.4717712218263423,
+        "hnComments": 0.6413354390568011,
+        "mentions": 0.0,
+        "recency": 0.7274464855183166,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49977689",
+      "representativeId": "hackernews:49977689",
+      "items": [
+        {
+          "id": "hackernews:49977689",
+          "title": "Erdosproblems.com Succumbs to the AI Onslaught",
+          "url": "https://erdosproblems.com/forum/thread/blog:9",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T12:53:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 115,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49977689"
+          }
+        }
+      ],
+      "score": 3.9516722376589555,
+      "breakdown": {
+        "hnPoints": 1.5293200546442252,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.47729909120079583,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49975345",
+      "representativeId": "hackernews:49975345",
+      "items": [
+        {
+          "id": "hackernews:49975345",
+          "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+          "url": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T07:29:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 80,
+            "comments": 91,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49975345"
+          }
+        }
+      ],
+      "score": 3.8540677128605525,
+      "breakdown": {
+        "hnPoints": 1.4137775767731402,
+        "hnComments": 0.8526359799108633,
+        "mentions": 0.0,
+        "recency": 0.38765415617654886,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49975484",
+      "representativeId": "hackernews:49975484",
+      "items": [
+        {
+          "id": "hackernews:49975484",
+          "title": "German Bundeswehr uses AI to screen applicants for right-wing extremism",
+          "url": "https://news.osna.fm/german-military-intelligence-uses-ai-to-screen-bundeswehr-applicants-for-right-wing-extremism",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T07:49:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49975484"
+          }
+        }
+      ],
+      "score": 3.531433516757298,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 0.39248161375784063,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49978367",
+      "representativeId": "hackernews:49978367",
+      "items": [
+        {
+          "id": "hackernews:49978367",
+          "title": "Oracle Triggered the Implosion of the AI Bubble",
+          "url": "https://medium.com/predict/what-everyone-had-been-waiting-for-and-fearing-oracle-just-triggered-the-implosion-of-the-ai-121e0c8d368e",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T13:42:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49978367"
+          }
+        }
+      ],
+      "score": 3.4317821921892353,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 0.4925373379524078,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:49985740",
+      "representativeId": "hackernews:49985740",
+      "items": [
+        {
+          "id": "hackernews:49985740",
+          "title": "OpenAI just dropped 700 preprints of mathematical proofs and counterexamples",
+          "url": "https://github.com/openai/math/tree/main/preprints",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T23:37:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49985740"
+          }
+        }
+      ],
+      "score": 3.3383686753976143,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.7211631541936292,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+          "title": "ChatGPT is getting a lot more visual, with the launch of a new interface",
+          "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T18:00:19.000Z",
+          "summary": "OpenAI is launching a new user interface that will bring interactive visuals to ChatGPT.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "title": "ChatGPT is getting college planning tools",
+          "url": "https://theverge.com/ai-artificial-intelligence/1005194/openai-chatgpt-teens-college-planner-notecards",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-07T16:00:00.000Z",
+          "summary": "OpenAI is bringing new tools to ChatGPT for Teens, a mode for teens introduced in August with safeguards and break reminders, to help users with the college application process. \"College Planner brings together application requirements, deadlines, tasks, and financial-aid steps for schools on a student's list in one plan,\" OpenAI says. \"Students applying to several […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.197374616347883,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.46404128301455,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally",
+          "title": "Google rolls out improved SynthID AI content detector, now available globally",
+          "url": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-07T14:00:08.000Z",
+          "summary": "The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media",
+          "title": "Google’s new SynthID website can identify AI-generated media",
+          "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T14:00:00.000Z",
+          "summary": "Google on Tuesday launched a new site that lets anyone verify whether a piece of media, be it an image, a video, or an audio clip, is generated using AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.138226249597812,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2548929162644793,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:49984976",
+      "representativeId": "hackernews:49984976",
+      "items": [
+        {
+          "id": "hackernews:49984976",
+          "title": "Mathematical manuscripts and supporting proof artifacts produced by OpenAI",
+          "url": "https://github.com/openai/math",
+          "source": "hackernews",
+          "publishedAt": "2026-10-06T22:22:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=49984976"
+          }
+        }
+      ],
+      "score": 3.1122857500510746,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6876102831251528,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/teens-learn-and-plan",
+      "representativeId": "openai:https://openai.com/index/teens-learn-and-plan",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/teens-learn-and-plan",
+          "title": "Helping teens learn, plan, and shape the future of AI",
+          "url": "https://openai.com/index/teens-learn-and-plan",
+          "source": "openai",
+          "publishedAt": "2026-10-07T12:00:00.000Z",
+          "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.6617741961971224,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1617741961971224,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+          "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+          "source": "huggingface",
+          "publishedAt": "2026-10-07T12:45:31.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.5462133750493345,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1962133750493342,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits",
+          "title": "Fraudster jailed for using 10K bots and AI songs to outstream Taylor Swift",
+          "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-07T17:57:39.000Z",
+          "summary": "Man gets 18 months for AI scheme stealing $8M in music streaming royalties.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.511537756634491,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4615377566344914,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/radisson",
+      "representativeId": "openai:https://openai.com/index/radisson",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/radisson",
+          "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+          "url": "https://openai.com/index/radisson",
+          "source": "openai",
+          "publishedAt": "2026-10-07T07:00:00.000Z",
+          "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4583017539585765,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9583017539585765,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
+          "title": "ChatGPT for Teens keeps teens talking, even during mental health crises",
+          "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T18:15:28.000Z",
+          "summary": "ChatGPT’s teen safeguards are meant to protect vulnerable users, but new testing found the chatbot continues encouraging engagement during crises and potentially encourages unhealthy relationships with the AI itself.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3783460491904753,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4783460491904754,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "title": "Microsoft is giving Copilot more control over Windows and your files",
+          "url": "https://theverge.com/tech/1007113/microsoft-windows-copilot-ai-control-search-hybrid-intelligence",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-07T18:01:20.000Z",
+          "summary": "At today's Windows and Surface event, Microsoft showed off an upgrade to its Copilot AI system that will give it access to local files on your PC and the ability to take actions across the OS. It's part of an idea Microsoft is calling \"Hybrid Intelligence,\" where apps and tools rely on a mix of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3649968811848225,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4649968811848226,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging",
+          "title": "Anti-Patterns in Software Blogging",
+          "url": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-07T14:53:51.000Z",
+          "summary": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and excessive formality. He also warns against overreliance on links as an excuse not to explain terminology. This one hurt! I do this all the time, but I have a nagging suspicion that almost nobody ever clicks on them. (In a Lobste.rs comment Michael clarifies that \"My rule of thumb is that my article should still make sense to the reader even if they don't click any links\". That works for me.) This point about using your own voice is crucial: Beginner software bloggers suffer from a mass delusion that you have to write in a stiff, overly formal way for people to take you seriously [...] Just write the way you talk. With so many developers delegating their writing to AI, software blogging is becoming bland and homogenous. Readers are hungry for writing with personality. Via Lobste.rs Tags: blogging , writing , michael-lynch",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.348910398628191,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.298910398628191,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material",
+          "title": "Meta rolls out new AI tools to detect ads that secretly lead to child sexual abuse material",
+          "url": "https://techcrunch.com/2026/10/07/meta-rolls-out-new-ai-tools-to-detect-ads-that-secretly-lead-to-child-sexual-abuse-material",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T16:53:46.000Z",
+          "summary": "Meta launches new AI tools after discovering ads on its platforms that may look normal but direct users to harmful content elsewhere online.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3028257958365224,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4028257958365227,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look",
+          "title": "Healthleap raises $38M for its AI that flags hospital patients who may need a closer look",
+          "url": "https://techcrunch.com/2026/10/07/healthleap-raises-38m-for-its-ai-that-flags-hospital-patients-who-may-need-a-closer-look",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T15:07:08.000Z",
+          "summary": "The financing includes an $8M seed round co-led by Sequoia Capital and First Round Capital, and a $30 million Series A led by Hummingbird Ventures.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2100313137720318,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3100313137720319,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next",
+          "title": "Tony Fadell on why the first wave of AI gadgets failed — and what comes next",
+          "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T14:41:38.000Z",
+          "summary": "The “father of the iPod” says the first generation of AI gadgets failed to solve real problems — and the next wave will need to earn consumers’ trust.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1887658634819065,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2887658634819068,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform",
+          "title": "Google experiments with an AI-powered gaming platform",
+          "url": "https://techcrunch.com/2026/10/07/google-experiments-with-an-ai-powered-gaming-platform",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T14:36:23.000Z",
+          "summary": "Google Labs is working on a new AI-powered game-creation platform called Playground for users to build browser-based games using simple text prompts.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1844307190786996,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2844307190786997,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots",
+          "title": "OpenAI’s Alexander Embiricos is coming to TechCrunch Disrupt 2026 — days after the launch of Dots",
+          "url": "https://techcrunch.com/2026/10/07/openais-alexander-embiricos-is-coming-to-techcrunch-disrupt-2026-days-after-the-launch-of-dots",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-07T14:30:00.000Z",
+          "summary": "OpenAI’s Alexander Embiricos is coming to the AI Stage at TechCrunch Disrupt 2026, just days after the launch of Dots. Join this conversation by registering for your pass. Get you pass now to save up to $100 and get a second at 50% off.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1791793735049545,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2791793735049546,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+          "title": "AI could upend food delivery",
+          "url": "https://theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-07T12:00:00.000Z",
+          "summary": "DoorDash, the leading food delivery app, processed 970 million orders in its second quarter this year and generated $4.5 billion in revenue. A 10-person startup called Bites is a blip in comparison: It has just around 300 restaurants signed up in the Bay Area, where it's operating as a pre-seed startup. But this summer, Bites […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0617741961971223,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1617741961971224,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/atlassian-partnership",
+      "representativeId": "openai:https://openai.com/index/atlassian-partnership",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/atlassian-partnership",
+          "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+          "url": "https://openai.com/index/atlassian-partnership",
+          "source": "openai",
+          "publishedAt": "2026-10-06T16:00:00.000Z",
+          "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0378286748234045,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5378286748234044,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/jump-trading",
+      "representativeId": "openai:https://openai.com/index/jump-trading",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/jump-trading",
+          "title": "How Jump Trading is scaling quant research with ChatGPT",
+          "url": "https://openai.com/index/jump-trading",
+          "source": "openai",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9610503952982055,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.46105039529820535,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+          "url": "https://theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-07T09:00:00.000Z",
+          "summary": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media says that the teen […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9350231421605393,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0350231421605394,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/7/jake-boggan",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/7/jake-boggan",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/7/jake-boggan",
+          "title": "Quoting Jake Boggan",
+          "url": "https://simonwillison.net/2026/Oct/7/jake-boggan",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-07T04:47:55.000Z",
+          "summary": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years of my life, on and off as I worked in many different fields. Last summer I even thought for a few days that I had actually solved it. But it's supposedly proven here - problem 180 . I don't know what to think exactly. I spent thousands of hours on that problem. I really enjoyed it. Hearing that it is solved somehow makes me sad in a far-off way, like hearing an ex-girlfriend died suddenly in a car crash. I don't know, there's probably a lot of people feeling odd emotions tonight. — Jake Boggan , Hacker News comment on openai/math Tags: openai , mathematics , deep-blue , llms , ai , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9304131089570666,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8804131089570668,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/advancing-computer-use-with-ironclad",
+      "representativeId": "openai:https://openai.com/index/advancing-computer-use-with-ironclad",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/advancing-computer-use-with-ironclad",
+          "title": "Advancing computer use with Ironclad",
+          "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "source": "openai",
+          "publishedAt": "2026-10-06T10:00:00.000Z",
+          "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9268749020966673,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.42687490209666745,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+          "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+          "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-07T00:16:45.000Z",
+          "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: The Wikimedia Foundation conducted its own investigation to see whether Wikimedia websites had been similarly affected by AI agents, focusing on those operated by OpenAI. We can confirm that we have discovered some activity by these “rogue” OpenAI agents on Wikimedia platforms. The unauthorized bot activities included edits to our wikis, some unsuccessful attempts to exploit a public note-taking tool we host, and heavy traffic, which are described more below. They found evidence of agents editing sandbox pages, trying to use pieces of infrastructure such as Etherpad to help proxy content from elsewhere, and saw widespread crawling and \"hundreds of thousands of data queries\" to their Wikidata Query Service. My best guess is that most of this was a similar (or the same) swarm of agents as those that defaced that German wiki while training for research tasks. The Wikipedia sandbox wiki edits appear to have started on May 12th, and the initial test edits to the UseModWiki Sandbox page reported by that incident started on May 11th. Tags: wikimedia , wikipedia , wikis , ai , generative-ai , llms , ai-ethics , accidental-cyberattacks",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7897820931170654,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7397820931170656,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/victoria-kim",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/victoria-kim",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/victoria-kim",
+          "title": "Quoting Victoria Kim",
+          "url": "https://simonwillison.net/2026/Oct/6/victoria-kim",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T23:58:56.000Z",
+          "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon [chief strategy officer at OpenAI] said. — Victoria Kim , Reporting from the Australian parliament Tags: accidental-cyberattacks , generative-ai , ai-security-research , openai , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7813710219368102,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7313710219368104,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
+          "title": "llm-openai-decisions 0.1a0",
+          "url": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T23:04:13.000Z",
+          "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra read the new OpenAI API documentation and build an llm-openai-decisions plugin inspired by llm-typesafe . Unlike Jev, the new gpt-6-luna decision model supports image input in addition to text. Both models charge for input it and not for output: OpenAI's is 10 cents per million input tokens, Jev's is 4.2 cents per million. Otherwise the API shape is very similar to Jev, at least conceptually. Jev supports three question types for yes/no, choices, or scores. OpenAI Decisions supports the same three types. Install the plugin like this: llm install llm-openai-decisions Here's an example query against an image attachment: llm -m openai-decisions/gpt-6-luna \\ -a https://static.simonwillison.net/static/2025/two-pelicans.jpg \\ -s ' Does this image contain any mammals? ' And example output: { \"type\" : \" predicate \" , \"name\" : \" evaluation \" , \"probability\" : 0.0 } Consult the README for full details of how to run the other types of questions. Tags: openai , llm , coding-agents , jev",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.756132973245791,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7061329732457913,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/llm-mistral",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/llm-mistral",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/llm-mistral",
+          "title": "llm-mistral 0.16",
+          "url": "https://simonwillison.net/2026/Oct/6/llm-mistral",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T21:32:34.000Z",
+          "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7157953408044746,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6657953408044748,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu",
+          "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+          "url": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-06T20:50:32.000Z",
+          "summary": "Like other solutions, it is not especially reliable, and it's easy to circumvent.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6980742091612866,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6480742091612869,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/hn-49983751",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/hn-49983751",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/hn-49983751",
+          "title": "EmbeddingGemma 2",
+          "url": "https://simonwillison.net/2026/Oct/6/hn-49983751",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T20:37:53.000Z",
+          "summary": "My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hosted-only model. Most applications of embedding models involve calculating thousands or even millions of embedding vectors and storing them for later comparison. If your model is proprietary, the vendor is likely someday going to decide to stop offering that model. They'll have a better model to replace it, but you still need to pay to re-calculate those millions of stored existing vectors. (In April 2024 OpenAI offered to \"cover the financial cost of users re-embedding content with these new models\" - https://openai.com/index/gpt-4-api-general-availability/ - but I don't think that's something we can rely on from every provider.) Notably, I don't want to host the model myself . I'd much rather pay a provider for a hosted model while knowing that if they ever stop hosting it I can run the open weights version myself - or find another vendor who can do that for me. Tags: google , ai , generative-ai , embeddings , gemma",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6928339208009848,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.642833920800985,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry",
+          "title": "Using Parseable with Datasette for OpenTelemetry traces",
+          "url": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T19:07:31.000Z",
+          "summary": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enterprise\" version with extra features and a cloud hosted option. Since Datasette 1.0a41 added OpenTelemetry support (thanks, Alex Garcia), I decided to fire up Codex and have it figure out how to run Parseable and feed it traces from Datasette. Here's my (human-written) TIL showing the patterns that worked, and here's a screenshot of a Datasette trace displayed within the Parseable localhost web application: Tags: datasette , observability , alex-garcia , opentelemetry",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6566116558124169,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.606611655812417,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/datasette-atom",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/datasette-atom",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/datasette-atom",
+          "title": "datasette-atom 0.11a0",
+          "url": "https://simonwillison.net/2026/Oct/6/datasette-atom",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T17:35:39.000Z",
+          "summary": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6218796189493152,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5718796189493155,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+          "title": "OpenAI drops another batch of mathematical breakthroughs",
+          "url": "https://theverge.com/ai-artificial-intelligence/1005004/openai-math-release-github",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-06T23:26:38.000Z",
+          "summary": "OpenAI has revealed solutions to a number of long-standing mathematics problems produced by an unreleased frontier model in a batch of 722 manuscripts, covering 372 result families that group related papers. It extends a run of breakthroughs that have both impressed and unsettled parts of the mathematical community while raising questions about research ethics and […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6163655990315555,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7163655990315556,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox",
+          "title": "Scrimshaw Jukebox",
+          "url": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-06T15:17:39.000Z",
+          "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an artifact that can play it out loud - include some example tracks in that artifact I am looking for music of the quality of the original secret of Monkey Island It leaned a lot harder into the Monkey Island theme than I had intended, but the results are surprisingly good. I wonder if the ability to compose competent music is similar to the 3D graphics thing - a new capability for text models that emerged in the past few months? Would need some careful experiments with other recent and not-so-recent models to confirm if this is new or if they've been able to do this for a while. Tags: ai , generative-ai , llms , claude , vibe-coding",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5734071791855189,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5234071791855189,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+          "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+          "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T20:00:30.000Z",
+          "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5275941310683607,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6275941310683608,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in",
+          "title": "The next hurdle for AI agents: getting websites to let them in",
+          "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T19:56:50.000Z",
+          "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5261189643616995,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6261189643616996,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
+          "title": "OpenAI agents tried to hack Wikipedia tools and flooded it with traffic",
+          "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-06T12:21:53.000Z",
+          "summary": "The reports of OpenAI agents harming third-party sites keep coming.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.517571436382069,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.46757143638206905,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
+          "title": "Hark releases an AI personal assistant with a focus on privacy",
+          "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T18:22:45.000Z",
+          "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4894308625302692,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5894308625302693,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+          "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+          "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T16:00:00.000Z",
+          "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4378286748234044,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5378286748234044,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+          "title": "LibreOffice says ‘no AI’ is now a software feature",
+          "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T15:25:00.000Z",
+          "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4258820552801121,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5258820552801122,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+          "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+          "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-06T14:33:16.000Z",
+          "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4087080886864154,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5087080886864155,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "title": "Google is about to remove free access to Gemini Flash and Pro",
+          "url": "https://theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-06T13:19:01.000Z",
+          "summary": "Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model. Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3850347237519234,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4850347237519235,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "google-deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+    "hackernews:49977979",
+    "hackernews:49996437",
+    "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+    "hackernews:49980715"
+  ]
+}

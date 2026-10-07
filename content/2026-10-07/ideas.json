@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T18:45:30.366Z",
+  "idea": {
+    "productName": "EdgeDecision",
+    "tagline": "온디바이스에서 실시간으로 멀티모달 의사결정 합니다",
+    "oneLineSummary": "개발자가 온디바이스에서 텍스트, 이미지, 오디오 등의 멀티모달 데이터를 기반으로 빠르고 정확한 의사결정 모델을 구축하도록 돕는 프레임워크를 제공합니다.",
+    "problem": "기업은 민감한 데이터를 클라우드에 전송하지 않고 기기 내부에서 실시간으로 분석하여 즉각적인 조치를 취하는 데 어려움을 겪고 있습니다. 기존의 온디바이스 AI 솔루션은 멀티모달 데이터 처리나 복합적인 의사결정 로직 구현에 한계가 있습니다.",
+    "productDescription": "EdgeDecision은 구글의 EmbeddingGemma 2와 같은 경량 멀티모달 임베딩 모델을 활용하여 다양한 센서 데이터를 통합 임베딩 공간으로 매핑합니다. 이 임베딩을 기반으로 개발자가 커스텀 가능한 경량 의사결정 모델을 생성하고 배포할 수 있도록 돕는 솔루션입니다. 프레임워크는 분류, 조건 확인, 점수 매기기 등 다양한 유형의 빠른 온디바이스 의사결정을 지원합니다. 이를 통해 지연 시간을 줄이고 데이터 개인 정보 보호를 강화합니다.",
+    "keyFeatures": [
+      "온디바이스 멀티모달 임베딩",
+      "초고속 의사결정 모델 배포",
+      "커스텀 가능한 분류 로직",
+      "네이티브 하드웨어 최적화",
+      "데이터 프라이버시 유지"
+    ],
+    "persona": "임베디드 시스템에서 실시간으로 AI 기반의 감지 및 분류 기능을 구현하려는 산업 자동화 엔지니어 또는 스마트 홈 기기 개발자입니다. 특히 데이터 보안과 지연 시간에 민감한 애플리케이션 개발자입니다.",
+    "businessModel": "프레임워크 사용을 위한 구독형 라이선스 모델을 제공합니다. 개발자별 또는 프로젝트별 월정액 요금제로, 모델 배포 수에 따라 요금이 차등 적용됩니다. 고급 지원 및 컨설팅 서비스도 제공합니다. (예: 월 100달러부터 시작).",
+    "marketStats": "기사에 온디바이스 AI 또는 멀티모달 의사결정 시장 규모에 대한 직접적인 근거는 없습니다. 다만, EmbeddingGemma 2가 2천만 건 이상의 다운로드를 기록하며 온디바이스 검색 및 RAG 파이프라인에 활용되었다는 점에서 온디바이스 모델에 대한 개발자 수요가 높음을 알 수 있습니다.",
+    "goToMarket": "EmbeddingGemma 2 커뮤니티 개발자 포럼과 깃허브 오픈소스 프로젝트에 아이디어와 프로토타입을 공개하여 초기 사용자 피드백을 수집합니다. AI 개발자 대상 컨퍼런스 및 온라인 커뮤니티에서 기술 세미나를 개최하여 홍보합니다.",
+    "unfairAdvantage": "구글의 EmbeddingGemma 2가 오픈소스이며 온디바이스 추론에 최적화된 경량 멀티모달 모델로 출시되어, 이를 기반으로 한 온디바이스 의사결정 솔루션을 빠르게 개발하고 배포할 수 있는 시기적 이점이 있습니다. 또한 OpenAI의 Decisions API는 클라우드 기반이므로 온디바이스 솔루션은 다른 경쟁 구도를 가집니다.",
+    "competitors": [
+      "OpenAI Decisions API — 클라우드 기반, 온디바이스 미지원",
+      "기존 온디바이스 추론 엔진 (예: ONNX Runtime) — 멀티모달 임베딩 및 고수준 의사결정 프레임워크 부족",
+      "커스텀 개발 — 시간, 비용, 전문성 필요"
+    ],
+    "risks": [
+      "경량 멀티모달 모델의 성능 한계 — 복잡한 시나리오에서 의사결정 정확도 저하 우려",
+      "하드웨어 다양성 지원 문제 — 여러 기기 아키텍처에 대한 최적화 부담",
+      "개발자 커뮤니티 형성 실패 — 얼리어답터 확보 및 성장 동력 부족"
+    ],
+    "actionPlan": [
+      "EmbeddingGemma 2를 이용한 PoC 개발",
+      "결정 모델의 온디바이스 성능 벤치마킹",
+      "산업 자동화 분야 잠재 고객 5곳 인터뷰",
+      "핵심 기능에 대한 초기 와이어프레임 설계",
+      "깃허브에 오픈소스 프로젝트 초기 버전 공개"
+    ],
+    "recommendation": "온디바이스 멀티모달 AI의 잠재력을 활용하는 아이디어입니다. 특히 데이터 주권과 실시간 처리가 중요한 니치 마켓을 공략할 수 있습니다. 하지만 경량 모델의 성능 제약과 다양한 하드웨어 호환성 확보가 사업 성패의 관건이 될 것입니다.",
+    "searchQuery": "on-device multimodal decision framework",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+        "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model"
+      },
+      {
+        "clusterId": "hackernews:49977979",
+        "title": "Mistral Large 4",
+        "url": "https://mistral.ai/news/mistral-large-4/\\"
+      },
+      {
+        "clusterId": "hackernews:49996437",
+        "title": "Claude Haiku 5.5",
+        "url": "https://anthropic.com/claude-haiku-5-5"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "title": "Sharing AI progress in mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics"
+      },
+      {
+        "clusterId": "hackernews:49980715",
+        "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+        "url": "https://github.com/FeSens/openTPU"
+      },
+      {
+        "clusterId": "hackernews:49984025",
+        "title": "Decisions API is in public beta",
+        "url": "https://developers.openai.com/api/docs/guides/decisions"
+      },
+      {
+        "clusterId": "hackernews:49993121",
+        "title": "AI-assisted proof of optimal packing for 11 squares",
+        "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized"
+      },
+      {
+        "clusterId": "hackernews:49994746",
+        "title": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth",
+        "url": "https://bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth"
+      },
+      {
+        "clusterId": "hackernews:49981905",
+        "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+        "url": "https://zohaib.cc/blog/smartest-claude-code-feature"
+      },
+      {
+        "clusterId": "hackernews:49991580",
+        "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+        "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test"
+      },
+      {
+        "clusterId": "hackernews:49994206",
+        "title": "AI firm HUMXN offers free plumbing and HVAC service in Minnesota to train robots",
+        "url": "https://humxn.io/humxn-launches-free-home-service-program"
+      },
+      {
+        "clusterId": "hackernews:49990204",
+        "title": "Reasons to Dislike AI Coding",
+        "url": "https://sicpers.info/2026/10/reasons-to-dislike-ai-coding"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/gpt-6-for-everyone",
+        "title": "GPT-6 and Intelligent UI for everyone",
+        "url": "https://openai.com/index/gpt-6-for-everyone"
+      },
+      {
+        "clusterId": "hackernews:49989684",
+        "title": "Forever Junior: The Skills AI Can't Develop for You",
+        "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers"
+      },
+      {
+        "clusterId": "hackernews:49981197",
+        "title": "Utah to let AI examine patients and prescribe medication without human oversight",
+        "url": "https://techspot.com/news/114111-utah-become-first-state-ai-examine-patients-prescribe.html"
+      }
+    ]
+  }
+}

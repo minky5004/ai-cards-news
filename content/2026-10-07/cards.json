@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T18:42:14.584Z",
+  "cards": [
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "headline": "구글, 7.4억 파라미터 AI 젬마 2 공개",
+      "highlight": [
+        "7.4억 파라미터",
+        "젬마 2"
+      ],
+      "body": "구글이 7.4억 파라미터 EmbeddingGemma 2를 공개했습니다. 텍스트, 이미지, 음성, 영상을 기기 내에서 통합 처리합니다. 개인정보 보호와 오프라인 사용 앱 개발을 돕습니다.",
+      "sourceUrl": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+      "publishedAt": "2026-10-06T19:57:04.000Z"
+    },
+    {
+      "clusterId": "hackernews:49977979",
+      "headline": "클로드 0점 맞은 시험 미스트랄은 82점",
+      "highlight": [
+        "0점",
+        "82점"
+      ],
+      "body": "미스트랄이 신형 AI 'ML4'를 공개했습니다. 소프트웨어 취약점 복구 테스트에서 클로드 등 폐쇄형 모델이 거부로 0점을 받을 때 ML4는 82%로 최고점을 올렸습니다. 가중치가 공개돼 기업이 검열 제약 없이 자체 보안망을 구축할 수 있습니다.",
+      "sourceUrl": "https://mistral.ai/news/mistral-large-4",
+      "sourceName": "Mistral",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "publishedAt": "2026-10-06T13:15:49.000Z"
+    },
+    {
+      "clusterId": "hackernews:49996437",
+      "headline": "클로드 하이쿠 5.5, 75% 싸졌다",
+      "highlight": [
+        "75% 싸졌다"
+      ],
+      "body": "앤트로픽의 클로드 하이쿠 5.5가 이전 모델보다 최대 75% 저렴해졌습니다. 가장 빠르고 유능한 소형 AI 모델로, 대량의 데이터 요약과 고객 지원에 최적화됐죠. 개발 비용 부담을 줄여 더 많은 서비스에서 AI 활용이 확산될 것으로 보입니다.",
+      "sourceUrl": "https://anthropic.com/claude-haiku-5-5",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+      "publishedAt": "2026-10-07T18:01:32.000Z"
+    },
+    {
+      "clusterId": "hackernews:49980715",
+      "headline": "AI가 만든 AI 가속기 오픈TPU, 초당 85토큰 쏜다",
+      "highlight": [
+        "AI가 만든",
+        "85토큰"
+      ],
+      "body": "AI가 직접 설계한 오픈소스 AI 가속기 openTPU가 공개됐습니다. 킨텍스-7 FPGA 카드에서 LFM2.5-230M 모델을 초당 85.8 토큰으로 처리합니다. 개발자가 AI 가속기 작동 방식을 깊이 이해할 좋은 기회입니다.",
+      "sourceUrl": "https://github.com/FeSens/openTPU",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/18c1aa870daba55531439bcbc63634215477abf765eda1ced30f64cb8da51493/FeSens/openTPU",
+      "publishedAt": "2026-10-06T16:23:25.000Z"
+    },
+    {
+      "clusterId": "hackernews:49984025",
+      "headline": "오픈AI 10배 빠른 새 API 공개",
+      "highlight": [
+        "10배 빠른"
+      ],
+      "body": "오픈AI가 기존 대비 10배 빠른 'Decisions API'를 공개했습니다. gpt-6-luna 기반으로 데이터 분류를 처리하며 출력 토큰 요금 없이 입력 토큰만 청구됩니다. 개발자는 복잡한 요청 라우팅을 기존보다 훨씬 저렴하고 빠르게 구축할 수 있습니다.",
+      "sourceUrl": "https://developers.openai.com/api/docs/guides/decisions",
+      "sourceName": "OpenAI Developers",
+      "imageUrl": "https://developers.openai.com/og/api/docs/guides/decisions.png",
+      "publishedAt": "2026-10-06T20:57:25.000Z"
+    }
+  ]
+}
