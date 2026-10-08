@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T18:42:46.330Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50008187",
+      "headline": "오픈AI 연간 매출 200억 달러 증발",
+      "highlight": [
+        "200억 달러"
+      ],
+      "body": "오픈AI는 투자자들에게 연간 매출이 기존 예상보다 200억 달러 낮은 약 500억 달러라고 밝혔습니다. 이는 투자자들의 비교 시도와 앤트로픽과의 매출 계산 방식 차이로, 기업 가치 평가에 영향을 줄 것입니다.",
+      "sourceUrl": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+      "publishedAt": "2026-10-08T16:45:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:49996437",
+      "headline": "앤스로픽, 하이쿠 5.5 75% 저렴해졌다",
+      "highlight": [
+        "75% 저렴해졌다"
+      ],
+      "body": "앤스로픽의 클로드 하이쿠 5.5는 가장 빠르고 강력한 소형 모델입니다. 이전 버전 대비 평균 75% 저렴한 비용으로 대규모 작업을 처리하며, 라이브 고객 지원 등 속도 민감 작업에 최적화되었습니다. 기업은 비용 효율적으로 AI 에이전트와 애플리케이션을 확장할 수 있습니다.",
+      "sourceUrl": "https://anthropic.com/claude-haiku-5-5",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+      "publishedAt": "2026-10-07T18:01:32.000Z"
+    },
+    {
+      "clusterId": "hackernews:49996425",
+      "headline": "ChatGPT, 똑똑한 UI로 그림·차트 생성",
+      "highlight": [
+        "그림·차트"
+      ],
+      "body": "오픈AI가 ChatGPT에 GPT-6 기반 '인텔리전트 UI'를 도입했습니다. 챗봇이 텍스트와 함께 다이어그램, 차트, 버튼 등 상호작용 가능한 시각 자료를 생성합니다. 이제 자전거 디자인을 묻거나 마작을 배울 때, 시각 자료로 훨씬 쉽고 직관적인 정보를 얻을 수 있습니다.",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/Intelligent-UI.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+      "publishedAt": "2026-10-07T18:00:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:49997161",
+      "headline": "메타의 클로드 AI 사용자가 반토막 났다",
+      "highlight": [
+        "반토막 났다"
+      ],
+      "body": "메타와 마이크로소프트가 자사 AI 툴 도입을 늘리며 직원들의 클로드 AI 사용을 줄이고 있다. 메타의 클로드 코드 사용자는 올해 초 6만 명에서 3만 명으로 절반이나 감소했다. 급증하는 AI 지출을 통제하고 자사 모델 생태계를 강화하려는 전략적 전환이다.",
+      "sourceUrl": "https://rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
+      "sourceName": "RS Web Solutions (RSWEBSOLS)",
+      "imageUrl": "https://cdn.rswebsols.com/wp-content/uploads/2025/10/otr1by4mkru.jpg",
+      "publishedAt": "2026-10-07T18:49:40.000Z"
+    }
+  ]
+}

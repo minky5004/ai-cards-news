@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T18:43:59.551Z",
+  "idea": {
+    "productName": "SpendWire",
+    "tagline": "개발자 AI 지출 한도를 묶고 저비용 모델로 넘긴다",
+    "oneLineSummary": "엔터프라이즈 엔지니어링 리드에게 팀원별 토큰 예산 초과 방지와 저비용 모델 다운그레이드 라우팅을 제공하는 내부 프록시 솔루션입니다.",
+    "problem": "마이크로소프트처럼 1인당 월 AI 지출 한도를 10만 달러에서 1만 달러로 깎아도 엔지니어들의 고비용 모델 남용을 실시간 통제하기 어렵습니다. 외부 API 사용을 강제로 막으면 개발 생산성이 급감합니다.",
+    "productDescription": "사내 API 게이트웨이 형태로 개발자의 코딩 에이전트 및 거대언어모델 호출 트래픽을 실시간 감시합니다. 개인별·팀별 월간 지출 상한선에 도달하면 Claude Haiku 5.5 등 75% 이상 저렴한 소형 모델로 자동 다운그레이드합니다. 고비용 모델 호출이 반드시 필요한 복잡한 작업에 대해서만 관리자 승인 토큰을 발급해 예산 폭증을 방어합니다. 부서별 AI 소비 패턴과 절감액을 실시간 대시보드로 시각화합니다.",
+    "keyFeatures": [
+      "개발자별 월간 AI 지출 상한선 강제",
+      "초과 시 저가 서브에이전트 자동 전환",
+      "고비용 모델 호출 승인 워크플로우",
+      "사내 도구 및 외부 API 통합 대시보드"
+    ],
+    "persona": "수백 명의 엔지니어가 쓰는 코딩 AI 도구 비용이 월 수억 원 단위로 폭증해 사내 AI 예산 긴급 삭감 지침을 받은 빅테크 엔지니어링 운영 디렉터입니다.",
+    "businessModel": "엔터프라이즈 B2B SaaS 구독 모델입니다. 모니터링 대상 엔지니어 1인당 월 15달러를 청구하며, 사내 보안 규정 준수를 위한 온프레미스 프록시 배포 시 연간 5만 달러부터 시작합니다.",
+    "marketStats": "기사에 따르면 마이크로소프트는 연간 사내 Anthropic 기술 지출 예상액을 10억 달러 이상에서 3분의 1 이상 삭감했으며, 클라우드·AI 부문 직원당 월 AI 지출 상한을 10만 달러에서 1만 달러로 축소했습니다. 전체 시장 규모 근거는 기사에 명시되지 않았습니다.",
+    "goToMarket": "외부 AI 사용 억제 공지가 내려진 실리콘밸리 개발팀 커뮤니티와 블라인드를 타깃으로 '개발 환경 차단 없이 AI 청구서 80% 줄이는 게이트웨이' 오픈소스 경량판을 배포합니다. 사내 인프라 담당자가 10분 만에 도커 컨테이너로 띄울 수 있는 엔터프라이즈 데모를 제공해 인바운드 리드를 모읍니다.",
+    "unfairAdvantage": "메타와 마이크로소프트의 내부 비용 긴축 사례가 공개되면서 일반 테크 기업도 개발자 1인당 AI 비용 거버넌스 도입을 서두르는 시점입니다. 반면 주요 클라우드 공급업체들은 자사 모델 락인을 유도하느라 다중 공급자 비용 제어 프록시 출시에 소극적입니다.",
+    "competitors": [
+      "Portkey — AI 게이트웨이 전문 · 인당 지출 상한 강제 기능 미흡",
+      "Helicone — LLM 비용 로깅 중심 · 실시간 저가 모델 우회 라우팅 부재",
+      "LiteLLM — 다중 모델 오픈소스 프록시 · 엔터프라이즈 승인 결재선 결여"
+    ],
+    "risks": [
+      "AI 모델 공급업체들의 엔터프라이즈 비용 제어 기능 기본 탑재",
+      "소형 모델 다운그레이드 시 코드 완성도 저하로 인한 개발자 반발",
+      "사내 프록시 계층 추가에 따른 네트워크 응답 지연 발생"
+    ],
+    "actionPlan": [
+      "개발자별 월 예산 초과 시 하위 모델로 우회 호출하는 PoC 프록시 구축",
+      "Haiku 5.5 전환을 통한 코딩 에이전트 비용 75% 절감 검증 리포트 작성",
+      "빅테크 엔지니어링 매니저 15명 인터뷰로 AI 지출 한도 통제 고충 검증",
+      "도커 기반 경량 게이트웨이 오픈소스 저장소 공개 및 깃허브 배포"
+    ],
+    "recommendation": "빅테크가 직원 1인당 월간 지출 한도를 10분의 1로 줄일 만큼 AI 비용 통제는 기업의 실질적 위협입니다. 다만 무조건적인 모델 격하가 엔지니어의 업무 생산성을 훼손하지 않도록 태스크 난이도에 맞춘 라우팅 정밀도를 조기에 입증해야 합니다.",
+    "searchQuery": "llm budget proxy gateway",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 6건 · 근거는 상위 5건 — 최고 8점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
+          "url": "https://news.ycombinator.com/item?id=47933355",
+          "points": 8
+        },
+        {
+          "title": "Show HN: Pangolin – SSO and WireGuard instead of API keys for LLM access",
+          "url": "https://github.com/fosrl/pangolin",
+          "points": 3
+        },
+        {
+          "title": "AI Usage Analytics – Real-time budget enforcement and PII redaction for LLM",
+          "url": "https://news.ycombinator.com/item?id=47923106",
+          "points": 3
+        },
+        {
+          "title": "Show HN: Opsmeter–attribute LLM spend to endpoints and prompt versions(no proxy)",
+          "url": "https://news.ycombinator.com/item?id=46965730",
+          "points": 2
+        },
+        {
+          "title": "Show HN: TensorWall – Open-source LLM gateway with budget controls and security",
+          "url": "https://github.com/datallmhub/TensorWall",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50003107",
+        "title": "OpenAI Withdraws 3 Math Papers",
+        "url": "https://github.com/openai/math/blob/main/history.md"
+      },
+      {
+        "clusterId": "hackernews:50008187",
+        "title": "OpenAI annualised revenues $20B less than previously signalled",
+        "url": "https://ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a"
+      },
+      {
+        "clusterId": "hackernews:49996437",
+        "title": "Claude Haiku 5.5",
+        "url": "https://anthropic.com/claude-haiku-5-5"
+      },
+      {
+        "clusterId": "hackernews:49996425",
+        "title": "GPT‑6 and Intelligent UI for everyone",
+        "url": "https://openai.com/index/gpt-6-for-everyone"
+      },
+      {
+        "clusterId": "hackernews:49997161",
+        "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+        "url": "https://rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai"
+      },
+      {
+        "clusterId": "hackernews:50008565",
+        "title": "Anthropic bans 'abusive or cruel behavior' towards Claude",
+        "url": "https://theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude"
+      },
+      {
+        "clusterId": "hackernews:50000676",
+        "title": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+        "url": "https://github.com/pingdotgg/ts-rust"
+      },
+      {
+        "clusterId": "hackernews:50005608",
+        "title": "Sub-1-Bit LLM Compression via Latent Factorization",
+        "url": "https://github.com/SamsungLabs/LittleBit"
+      },
+      {
+        "clusterId": "hackernews:50002665",
+        "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+        "url": "https://reddit.com/r/ClaudeAI/s/mbe5IY2LF9"
+      },
+      {
+        "clusterId": "hackernews:49993121",
+        "title": "AI-assisted proof of optimal packing for 11 squares",
+        "url": "https://github.com/Queuingtheorydotcom/11SquaresFormalized"
+      },
+      {
+        "clusterId": "hackernews:49994746",
+        "title": "Study: Claude, ChatGPT Offer Different Shopping Prices Based on Wealth",
+        "url": "https://bloomberg.com/news/newsletters/2026-10-07/study-claude-chatgpt-ai-bots-offer-different-shopping-prices-based-on-wealth"
+      },
+      {
+        "clusterId": "hackernews:49990204",
+        "title": "Reasons to Dislike AI Coding",
+        "url": "https://sicpers.info/2026/10/reasons-to-dislike-ai-coding"
+      },
+      {
+        "clusterId": "hackernews:49991580",
+        "title": "Write Like It's 1866: LLMs Relearn Telegraphese",
+        "url": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test"
+      },
+      {
+        "clusterId": "hackernews:49995539",
+        "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+        "url": "https://agent.reviews"
+      },
+      {
+        "clusterId": "hackernews:49989684",
+        "title": "Forever junior: Skills AI can't develop for you",
+        "url": "https://tech.criteo.com/blog/human-skills-ai-cant-develop-junior-engineers"
+      }
+    ]
+  }
+}
