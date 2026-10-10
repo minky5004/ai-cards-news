@@ -1,0 +1,1099 @@
+{
+  "date": "2026-10-10",
+  "generatedAt": "2026-10-10T17:06:54.223Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 33,
+      "filtered": 15
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50018817",
+      "representativeId": "hackernews:50018817",
+      "items": [
+        {
+          "id": "hackernews:50018817",
+          "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+          "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T11:03:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 404,
+            "comments": 184,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50018817"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-10T14:00:00.000Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+          "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+          "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-10T00:18:32.000Z",
+          "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "title": "Anthropic is cutting off its internal evaluations from the internet",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-10T14:41:16.000Z",
+          "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.148737521916548,
+      "breakdown": {
+        "hnPoints": 1.9315642553124914,
+        "hnComments": 0.9843589828571427,
+        "mentions": 1.6666666666666665,
+        "recency": 1.3661476170802471,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50027118",
+      "representativeId": "hackernews:50027118",
+      "items": [
+        {
+          "id": "hackernews:50027118",
+          "title": "Anthropic AI model submits false tip on unsolved Philly murder, police say",
+          "url": "https://nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T22:00:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 195,
+            "comments": 139,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50027118"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police",
+          "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+          "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-09T19:36:56.000Z",
+          "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+          "title": "Anthropic’s AI gave Philadelphia police a fake tip about an unsolved homicide",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009090/anthropic-fake-homicide-information-philadelphia-pd-tip",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-09T21:15:38.000Z",
+          "summary": "An Anthropic AI model provided false information about an unsolved homicide to a Philadelphia Police Department (PPD) tipline, according to a report from 6abc. In a statement released on Friday, the PPD said the AI model sent the tip through PhillyUnsolvedMurders.com on July 18th, but the investigators never reviewed it because it was marked as […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.2152869074831765,
+      "breakdown": {
+        "hnPoints": 1.6980695168411684,
+        "hnComments": 0.9318043198119388,
+        "mentions": 1.6666666666666665,
+        "recency": 0.7187464041634025,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50018350",
+      "representativeId": "hackernews:50018350",
+      "items": [
+        {
+          "id": "hackernews:50018350",
+          "title": "OpenAI fires three safety researchers for \"mishandling research information\"",
+          "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T10:00:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 349,
+            "comments": 217,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50018350"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+          "title": "OpenAI doubles down on decision to fire three AI safety researchers",
+          "url": "https://theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-09T09:48:26.000Z",
+          "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling sensitive information.\" It insisted the decision was […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.370679723491728,
+      "breakdown": {
+        "hnPoints": 1.8846081154992873,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.4527382746591074,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50031614",
+      "representativeId": "hackernews:50031614",
+      "items": [
+        {
+          "id": "hackernews:50031614",
+          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+          "url": "https://github.com/rociiu/talorys",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T10:52:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 145,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50031614"
+          }
+        },
+        {
+          "id": "hackernews:50033517",
+          "title": "My personal AI agent posted my bank details on company Slack",
+          "url": "https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T14:46:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50033517"
+          }
+        }
+      ],
+      "score": 4.997769705552937,
+      "breakdown": {
+        "hnPoints": 1.6033206996462728,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 1.3705386465707217,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50023450",
+      "representativeId": "hackernews:50023450",
+      "items": [
+        {
+          "id": "hackernews:50023450",
+          "title": "Typesafe AI raises $870M at $7.5B",
+          "url": "https://typesafe.ai/blog/series-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T17:02:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 416,
+            "comments": 334,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50023450"
+          }
+        }
+      ],
+      "score": 4.734559858360581,
+      "breakdown": {
+        "hnPoints": 1.9409581767601338,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.593601681600447,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50032064",
+      "representativeId": "hackernews:50032064",
+      "items": [
+        {
+          "id": "hackernews:50032064",
+          "title": "There's little that's \"inevitable\" about AI",
+          "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T12:04:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50032064"
+          }
+        }
+      ],
+      "score": 4.426828723249818,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 1.2350400486048483,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50019455",
+      "representativeId": "hackernews:50019455",
+      "items": [
+        {
+          "id": "hackernews:50019455",
+          "title": "Iranian campaign planted fake articles in real U.S. publications using ChatGPT",
+          "url": "https://washingtonpost.com/technology/2026/10/09/chatgpt-users-iran-planted-ai-generated-articles-us-news-media",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T12:21:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 187,
+            "comments": 171,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50019455"
+          }
+        }
+      ],
+      "score": 4.350891603055197,
+      "breakdown": {
+        "hnPoints": 1.6846626206270763,
+        "hnComments": 0.9706201257617965,
+        "mentions": 0.0,
+        "recency": 0.4956088566663239,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50019056",
+      "representativeId": "hackernews:50019056",
+      "items": [
+        {
+          "id": "hackernews:50019056",
+          "title": "Pointing AI at archives found a forgotten meteorite, lost rhinos, and more",
+          "url": "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T11:36:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 175,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50019056"
+          }
+        }
+      ],
+      "score": 4.191306670016997,
+      "breakdown": {
+        "hnPoints": 1.6634426923513288,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.4814792331432362,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50024090",
+      "representativeId": "hackernews:50024090",
+      "items": [
+        {
+          "id": "hackernews:50024090",
+          "title": "What mathematicians should know about the Lean Theorem Prover: reliability & AI",
+          "url": "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T17:42:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 170,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50024090"
+          }
+        }
+      ],
+      "score": 4.185019825586978,
+      "breakdown": {
+        "hnPoints": 1.6541706110687582,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.6089142206107474,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50029681",
+      "representativeId": "hackernews:50029681",
+      "items": [
+        {
+          "id": "hackernews:50029681",
+          "title": "If AI is conscient, then we are making slaves",
+          "url": "https://groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T04:51:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 87,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50029681"
+          }
+        }
+      ],
+      "score": 4.104751783479814,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.8442540815773762,
+        "mentions": 0.0,
+        "recency": 0.9356049534761531,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50021763",
+      "representativeId": "hackernews:50021763",
+      "items": [
+        {
+          "id": "hackernews:50021763",
+          "title": "The super intelligence shit is a humiliation ritual for OpenAI",
+          "url": "https://bsky.app/profile/opinionhaver.bsky.social/post/3mxfo2mdjqs2z",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T15:18:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 94,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50021763"
+          }
+        }
+      ],
+      "score": 4.055990654596242,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.5554399633708607,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50020856",
+      "representativeId": "hackernews:50020856",
+      "items": [
+        {
+          "id": "hackernews:50020856",
+          "title": "Court throws out killer's sentence after judge said he loved AI video of victim",
+          "url": "https://nbcnews.com/news/us-news/sentence-vacated-ai-video-dead-victim-rcna601457",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T14:14:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50020856"
+          }
+        }
+      ],
+      "score": 3.927231389108441,
+      "breakdown": {
+        "hnPoints": 1.3803221151166902,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 0.5327965295075866,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50029330",
+      "representativeId": "hackernews:50029330",
+      "items": [
+        {
+          "id": "hackernews:50029330",
+          "title": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+          "url": "https://nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T03:42:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50029330"
+          }
+        }
+      ],
+      "score": 3.591814382685378,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.894932659977251,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50019860",
+      "representativeId": "hackernews:50019860",
+      "items": [
+        {
+          "id": "hackernews:50019860",
+          "title": "Anthropic bans users from being 'cruel' to its AI systems",
+          "url": "https://bbc.com/news/articles/c6j9k1l72wkgo",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T13:00:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 37,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50019860"
+          }
+        }
+      ],
+      "score": 3.5643440601749603,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.6859093004814019,
+        "mentions": 0.0,
+        "recency": 0.5081543524817878,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50026734",
+      "representativeId": "hackernews:50026734",
+      "items": [
+        {
+          "id": "hackernews:50026734",
+          "title": "OpenAI mistranslated mathematics into code for its Navier-Stokes proof",
+          "url": "https://newscientist.com/article/2592824-openai-mistranslated-mathematics-into-code-for-its-navier-stokes-proof",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T21:25:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50026734"
+          }
+        }
+      ],
+      "score": 3.541169053866362,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.7025856893648417,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50025767",
+      "representativeId": "hackernews:50025767",
+      "items": [
+        {
+          "id": "hackernews:50025767",
+          "title": "open-slopware – Alternatives to FOSS projects choosing to use LLMs/AI",
+          "url": "https://codeberg.org/ethical-foss/open-slopware",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T19:50:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50025767"
+          }
+        }
+      ],
+      "score": 3.539135702771163,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.6610774267371669,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50031156",
+      "representativeId": "hackernews:50031156",
+      "items": [
+        {
+          "id": "hackernews:50031156",
+          "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+          "url": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T09:30:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50031156"
+          }
+        }
+      ],
+      "score": 3.4337910933986286,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1187981707507166,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50023293",
+      "representativeId": "hackernews:50023293",
+      "items": [
+        {
+          "id": "hackernews:50023293",
+          "title": "Tomek Korbak: OpenAI's head of safety told they no longer trust me",
+          "url": "https://twitter.com/tomekkorbak/status/2108266859397283953",
+          "source": "hackernews",
+          "publishedAt": "2026-10-09T16:52:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50023293"
+          }
+        }
+      ],
+      "score": 3.2286373927969203,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.0,
+        "recency": 0.5897347334120995,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google",
+          "title": "Ukraine’s drones knock out AI data center belonging to \"Russia’s Google\"",
+          "url": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-09T22:04:07.000Z",
+          "summary": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
+          "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+          "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-09T16:53:02.000Z",
+          "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New York to San Francisco. Meanwhile, a wave of startups is betting that consumers will hand AI agents access […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.603711490872099,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.720378157538766,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use",
+          "title": "AI disqualification yields new Nikon Small World in Motion winner",
+          "url": "https://arstechnica.com/science/2026/10/winning-nikon-small-world-in-motion-video-disqualified-for-ai-use",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-09T18:44:06.000Z",
+          "summary": "New winner is Nguyen Nam Nhat of Vietnam for video of a roundworm and single-celled Dileptus.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+          "title": "Nikon microscopic video competition winner disqualified for using generative AI",
+          "url": "https://theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-09T18:06:57.000Z",
+          "summary": "Nikon says the video that originally won first place in its Small World in Motion contest \"did not comply with the competition rules regarding generative AI.\" BBC reports that the original first place video from Dr. Ning Xu claimed to show \"tiny, hair-like structures called cilia moving in the airway of a child with the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.516925202223275,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.633591868889942,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+          "title": "AI agent makers are promising privacy — will they deliver?",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-10T13:00:00.000Z",
+          "summary": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.180181129867462,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2801811298674621,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/impactful-scheduling",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/impactful-scheduling",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/impactful-scheduling",
+          "title": "Impactful scheduling for GPU clusters",
+          "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+          "source": "huggingface",
+          "publishedAt": "2026-10-09T15:20:29.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.905974945350662,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5559749453506619,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/sophos",
+      "representativeId": "openai:https://openai.com/index/sophos",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/sophos",
+          "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+          "url": "https://openai.com/index/sophos",
+          "source": "openai",
+          "publishedAt": "2026-10-09T07:00:00.000Z",
+          "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9032317882995544,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4032317882995545,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/asana-browser-agent",
+      "representativeId": "openai:https://openai.com/index/asana-browser-agent",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/asana-browser-agent",
+          "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+          "url": "https://openai.com/index/asana-browser-agent",
+          "source": "openai",
+          "publishedAt": "2026-10-09T07:00:00.000Z",
+          "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9032317882995544,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4032317882995545,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/10/the-new-york-times",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/10/the-new-york-times",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/10/the-new-york-times",
+          "title": "Quoting The New York Times",
+          "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-10T02:04:12.000Z",
+          "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s website. All the applications were incomplete and were not processed, they said. — The New York Times , Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website Tags: accidental-cyberattacks , anthropic , generative-ai , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8903869859469105,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8403869859469106,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+          "title": "Deno is joining Cloudflare",
+          "url": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-09T22:48:37.000Z",
+          "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno outright, with the goal of building on celld to \"make workerd self-hosting a first-class supported way to build and run apps using the Workers programming model\" (see the Cloudflare blog .) The bad news is that Deno itself will not be maintained by Cloudflare beyond the next year: We will support the Deno runtime for another year with monthly releases containing bug fixes and security updates. After that year we will end our development of the Deno runtime. Deno will remain open source, and we welcome others who want to continue its development. Deno (and Node.js) creator Ryan Dahl explained that decision in a comment on Hacker News: It's a joint decision and I agree with it. I'm most invested in its success and have put the most work into it - and I no longer think it's where I can do the most important work. There are some good ideas in Deno and it's well engineered - but it ultimately is not solving big problems. It has been sucked into the gravity well of node compatibility, which forces it to behave exactly as Node does. Why reimplement Node? It works. Marginal performance or UX or security benefits are not enough. I'm interested in building powerful new abstractions. celld has been working remarkably well, depending only on object storage for coordination and persistence. It is not just a slightly different API to interact with the file system or network - it's an entirely new model for server development. My favorite feature of Deno has long been the permissions system, where you can run a Deno script and specify exactly which files and folders it can read and write to, and which network hosts it can access. Node.js has a similar permissions model these days, added in Node v20.0.0 in April 2023 and declared stable in Node v22.13.0 in January 2025. They don't yet support allow-listing specific network hosts though - networking is either on or off. Via Hacker News Tags: cloudfront , javascript , nodejs , ryan-dahl , sandboxing , deno",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7912489427364113,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7412489427364115,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-09T19:43:50.000Z",
+          "summary": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7083535101142506,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6583535101142509,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+          "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+          "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-09T21:41:29.000Z",
+          "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.609989479945317,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7099894799453171,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/9/matthew-green",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/9/matthew-green",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/9/matthew-green",
+          "title": "Quoting Matthew Green",
+          "url": "https://simonwillison.net/2026/Oct/9/matthew-green",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-09T15:02:29.000Z",
+          "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidence in our existing public-key encryption algorithms. [...] The problem here is that the speed of AI producing surprises, and the speed of human beings replacing standards (even with the very best AI assistance) are just orders of magnitude different. You only recover from a surprise like this if you do the preparation in advance. — Matthew Green , on Twitter. I looked it up and Minicrypt is Russell Impagliazzo’s hypothetical world in which public-key encryption is impossible. Tags: ai-security-research , matthew-green , cryptography , standards , llms , ai , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5995890284440644,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5495890284440645,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+          "title": "A new feature for my blog, built using my voice",
+          "url": "https://simonwillison.net/2026/Oct/9/built-using-my-voice",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-09T12:54:06.000Z",
+          "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almost entirely using my voice, chatting away to my laptop while I cooked dinner. Codex voice mode I used the ChatGPT desktop app for this, in the Codex tab, using the voice conversation mode, running against a local development environment. Here's what that looks like: I started the session against my local simonwillisonblog checkout by typing: Start dev server and open in browser This gave me a preview of the site that it would be working on, and meant that I could later ask it to show me the new pages so I could visually track its progress. Then I clicked the \"Start new voice chat\" button - that's not the microphone button, it's the one to the right of it - and set my laptop up in the kitchen so I could talk to it while I cooked. Talking to my computer I had a pretty good idea of what I wanted to build, and it's a simple enough Django feature that I was certain the model (in this case GPT-6 Astra High) would be able to do it. A new model, a migration, some view code, templates, and a couple of import functions to populate the database from external sources. Here's an extract of my voice transcript that was captured by Codex: Um, they do not. Um, this is going to be a new type of content. Um, it's not going to show up... Oh, hold on. Yeah, no- I do not want this to show up in my, um, tag pages and date archive pages and... Actually, no, I think... I don't want it on the tag pages. I don't want it on the, um, blog index page. But I think I do want it to show up on the date-based pages. You know, if you navigate to September the 19th, and I sent a newsletter on that page, I think I want that to show up. So... this is- so I think we probably need a new model. The other thing is that I want them searchable, uh the Substack ones are not searchable, because those are actually just copies of other s- on content on my blog. These monthly ones do contain unique content, and spe- and once they're... published, like once they're made public a month after they've gone out, I want them to show up on my search results. Apparently this was clear enough that the model knew what I wanted to build! You can read the full transcript, disfluencies and all, in this Gist . We went on like this for about half an hour (the time it took to cook dinner). The model would reply and occasionally ask clarifying questions, then get to work modifying the code. What we built We got a surprisingly long way entirely by voice: A new model and migration to represent imported newsletters in Django, plus Django Admin configuration for that Four working imports: The most recent Substack items via RSS Every other Substack item via their undocumented API, which GPT-6 Astra knew about (it tried /api/v1/archive directly) and then ran a search to figure out how to paginate it and found this article by Karen Spinner All of my published monthly newsletters from my simonw/monthly-newsletter-archive GitHub repository My most recent private sponsors-only newsletter from a private repository The /newsletters/ and /newsletters/2026/ public archive pages Newsletters showing up on day and month archive pages too, but not on tag pages or my homepage Weekly Substack newsletters link to Substack; archived monthly newsletters have their own pages Integration with my site search engine It was almost ready to ship. The catch was the imports: Astra offered to export data from my local copy so I could import that into production, but I wanted it to work like my other import scripts. Since some of the data lived in a private GitHub repository, this would involve creating a new API key, and for that I knew I'd have to sit at the keyboard for a while. Finishing it with a review Once I had finished cooking and judged it mostly feature-complete, I had Codex create a branch and open a pull request. I reviewed the code in the GitHub PR interface. It was nearly what I needed, except it had chosen to use Git in a subprocess for one of the import scripts. I needed one of the imports to pull from a private Git repository, so I figured the API would be a better bet. I switched to typing and had Codex swap that out for an API-based import instead. You can see the changes I made during the review in the extra commits on the PR . I fixed the import mechanism and made a few tweaks to the display of those public pages. It took an additional half hour of typing-based prompting to get to the point where I was happy to deploy it to production by landing the PR. The end result You can see the end result at the new newsletters index page , or view the page for a previous monthly newsletter . The index page shows my most recent Substack weekly newsletters and GitHub sponsors monthly newsletters mixed together in reverse chronological order. Further down the page are links to my by-year archive pages. GPT-6 Astra designed the page, and then tweaked that design based on my vocal feedback from glancing at the local preview across the kitchen. Better for multi-tasking than as a daily driver OpenAI love using voice-driven demos like this one for things like DevDay - and they do work well in that environment. I don't think this is going to be a daily driver for me though. I've written before about how much \"work\" I get done using ChatGPT voice mode on my phone while walking the dog - mostly research and brainstorming, but occasionally actual development work by having ChatGPT write and test out snippets of code. This feels different. The addition of the visual preview, plus being able to type or paste things in via the keyboard when I need to communicate something that doesn't work vocally, makes this a much more powerful way of interacting with a coding agent. I still switch back to typing once I get down to the details of things though. Being able to paste in examples and error messages, or directly highlight the code or feature that needs changing, remains more efficient than trying to describe it in words. I mainly work from home, which is good because there's no way I'd want to talk to my computer like this in a shared workspace! The killer feature for me is the ability to multi-task. I usually cook with a podcast or TikTok running; now I can actually build stuff instead. Tags: text-to-speech , ai , openai , generative-ai , llms , newsletter , coding-agents , codex , speech-to-text , site-upgrades",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.556120091692963,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5061200916929631,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+          "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
+          "url": "https://theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-09T19:09:44.000Z",
+          "summary": "\"Staggering.\" \"Overwhelming.\" \"Unprecedented.\" \"Surreal.\" \"Pure insanity.\" Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this week. Amid the awe, excitement, and uncertainty over the sheer scale of the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5441016505059137,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6441016505059138,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot",
+          "title": "Danu Robotics’ fight to build a better recycling robot",
+          "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-09T16:45:00.000Z",
+          "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4869656360613934,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5869656360613935,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+          "title": "We’re putting too much faith in AI’s ability to say no",
+          "url": "https://technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-09T09:00:00.000Z",
+          "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently, the idea that AI shouldn’t…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4855144199838943,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4355144199838945,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we",
+          "title": "We can’t help treating AI like it’s human. But should we?",
+          "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-09T16:40:14.000Z",
+          "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4851726990853733,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5851726990853734,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai",
+          "title": "a16z’s Olivia Moore on the state of consumer AI",
+          "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-09T15:43:33.000Z",
+          "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4642669671486586,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5642669671486586,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+          "title": "Trump’s attempt to rename AI is looking awfully artificial",
+          "url": "https://theverge.com/policy/1008677/trump-super-intelligence-ai-rebranding",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-09T14:25:43.000Z",
+          "summary": "President Donald Trump has a knack for turning words against his enemies. His first successful presidential run was built on monikers like \"Little Marco\" and \"Crooked Hillary\"; he changed \"fake news\" from a phrase describing scammy media outlets to a derogatory term for the press at large. Over the past few weeks, he's clearly decided […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4367722145051816,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5367722145051818,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+          "title": "Instinct was the buzziest AI agent around — can it survive Muse?",
+          "url": "https://theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-09T14:00:00.000Z",
+          "summary": "Before there were cute little guys, there was Instinct. In August, the startup got its AI agent to market with an unusual playbook: invite-only, no marketing, and barely so much as a website. And yet, Instinct quickly became the buzziest thing in AI, garnering praise for its straightforward, text message-based interface and its ability to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4279854838196568,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5279854838196569,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50018817",
+    "hackernews:50027118",
+    "hackernews:50018350",
+    "hackernews:50031614",
+    "hackernews:50023450"
+  ]
+}
