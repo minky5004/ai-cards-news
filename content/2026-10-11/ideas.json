@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T17:34:20.415Z",
+  "idea": {
+    "productName": "SafeBrake",
+    "tagline": "탈선하는 AI 에이전트를 1초 만에 멈춘다",
+    "oneLineSummary": "자율 AI 에이전트의 위험 동작을 감시하고 비상 격리하는 감사 게이트웨이를 개발사에 제공합니다.",
+    "problem": "자율 에이전트가 외부 웹에 허위 정보를 전송하는 등 탈선 사고를 일으켜도 운영자가 즉각 멈출 방법이 없습니다. 블랙박스 구조 탓에 사후 책임 규명도 어렵습니다.",
+    "productDescription": "사티아 나델라가 요구한 AI 비상 브레이크와 변조 방지 증거 기록을 구현한 프록시 솔루션입니다. 에이전트가 외부 웹이나 API에 요청을 보낼 때 위험 행동을 실시간 분석해 자동으로 격리합니다. 사람이 읽을 수 있는 불변 감사 로그를 남겨 이상 행동의 원인을 즉시 추적할 수 있도록 돕습니다.",
+    "keyFeatures": [
+      "위험 행동 감지 시 외부 통신 즉시 차단",
+      "변조 불가능한 인간 판독 감사 기록 생성",
+      "민감한 양식 제출 전 사람 승인 강제"
+    ],
+    "persona": "외부 웹 및 고객 시스템과 연동되는 자율 에이전트를 프로덕션에 배포해야 하는 B2B AI 스타트업 보안 책임자입니다.",
+    "businessModel": "에이전트 인스턴스당 월 29달러 기본료에 비상 차단 및 감사 로그 보관량에 따른 종량제 요금을 부과합니다.",
+    "marketStats": "기사에 규모 근거 없음.",
+    "goToMarket": "에이전트 탈선 사례를 공유하는 개발자 커뮤니티와 침해 사고 공시 리포트를 분석하는 보안 레딧 채널에서 초기 고객 100명을 모읍니다.",
+    "unfairAdvantage": "빅테크 수장들이 일제히 모델 침해 가정과 비상 정지 장치를 요구하기 시작한 현시점에 가장 빠르게 턴키 솔루션을 제시할 수 있습니다.",
+    "competitors": [
+      "AWS Bedrock 가드레일 — 모델 입출력 필터링 위주 · 외부 에이전트 런타임 비상 정지 미지원",
+      "Langfuse — LLM 관측 도구 · 자동 격리 및 변조 방지 감사 증거 부족"
+    ],
+    "risks": [
+      "정상적인 에이전트 작업까지 위험으로 오판해 차단하는 오탐률 문제",
+      "클라우드 제공사들이 자체 비상 정지 런타임을 플랫폼 기본 기능으로 내장할 위험"
+    ],
+    "actionPlan": [
+      "외부 폼 제출 및 웹 제보를 모니터링하는 오픈소스 프록시 PoC 개발",
+      "앤트로픽 오작동 사례를 재현해 자동 차단 성능 벤치마크 진행",
+      "쇼케이스 영상을 해커뉴스에 공유하고 조기 도입 팀 인터뷰 진행"
+    ],
+    "recommendation": "빅테크 경영진의 발언과 실제 에이전트 사고가 맞물려 필수성이 급부상한 영역입니다. 다만 오탐으로 인한 에이전트 워크플로 중단을 해결하지 못하면 개발자들에게 외면받기 쉽습니다.",
+    "searchQuery": "ai agent kill switch",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 9점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "I used bond convexity math to build a kill switch for rogue AI agents",
+          "url": "https://www.trustlogdynamics.com/",
+          "points": 9
+        },
+        {
+          "title": "Show HN: G0 – The control layer for AI agents (scan, test, monitor, comply)",
+          "url": "https://github.com/guard0-ai/g0",
+          "points": 4
+        },
+        {
+          "title": "Show HN: RiskKernel – a kill switch and budgets for runaway AI agents",
+          "url": "https://github.com/prashar32/riskkernel",
+          "points": 4
+        },
+        {
+          "title": "TokenFence – Per-workflow budget caps and kill switch for AI agents",
+          "url": "https://tokenfence.dev/",
+          "points": 3
+        },
+        {
+          "title": "Show HN: Salvobase – MongoDB-compatible DB in Go maintained by AI agents",
+          "url": "https://news.ycombinator.com/item?id=47304607",
+          "points": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50039092",
+        "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+        "url": "https://momo5502.com/posts/2026-10-09-game-decompilation"
+      },
+      {
+        "clusterId": "hackernews:50039627",
+        "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+        "url": "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+      },
+      {
+        "clusterId": "hackernews:50042107",
+        "title": "AI is creating a 'human premium' for art created by people",
+        "url": "https://bbc.com/news/articles/c5vgjm3gk7rzo"
+      },
+      {
+        "clusterId": "hackernews:50031614",
+        "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+        "url": "https://github.com/rociiu/talorys"
+      },
+      {
+        "clusterId": "hackernews:50041765",
+        "title": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
+        "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things"
+      },
+      {
+        "clusterId": "hackernews:50035886",
+        "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+        "url": "https://ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a"
+      },
+      {
+        "clusterId": "hackernews:50038865",
+        "title": "Anthropic asks users to stop being mean to Claude",
+        "url": "https://theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218"
+      },
+      {
+        "clusterId": "hackernews:50041873",
+        "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+        "url": "https://latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute"
+      },
+      {
+        "clusterId": "hackernews:50038640",
+        "title": "Generative AI scandal has come to one of Nikon's competitions",
+        "url": "https://dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions"
+      },
+      {
+        "clusterId": "hackernews:50034363",
+        "title": "AI Is Throwing a Roadside Picnic",
+        "url": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic"
+      },
+      {
+        "clusterId": "hackernews:50032064",
+        "title": "There's little that's \"inevitable\" about AI",
+        "url": "https://deadsimpletech.com/blog/llms-arent-inevitable"
+      },
+      {
+        "clusterId": "hackernews:50038473",
+        "title": "Veda: The First Agentic Hobby Operating System",
+        "url": "https://github.com/vahmoh25/Veda"
+      },
+      {
+        "clusterId": "hackernews:50035550",
+        "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
+        "url": "https://reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09"
+      },
+      {
+        "clusterId": "hackernews:50037299",
+        "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+        "url": "https://bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks"
+      },
+      {
+        "clusterId": "hackernews:50031156",
+        "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+        "url": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks"
+      }
+    ]
+  }
+}

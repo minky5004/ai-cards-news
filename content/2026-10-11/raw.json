@@ -1,0 +1,712 @@
+{
+  "date": "2026-10-11",
+  "generatedAt": "2026-10-11T17:30:00.810Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 31,
+      "filtered": 7
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50039092",
+      "representativeId": "hackernews:50039092",
+      "items": [
+        {
+          "id": "hackernews:50039092",
+          "title": "500B Tokens Later: Letting AI Agents Decompile a First-Person Shooter",
+          "url": "https://momo5502.com/posts/2026-10-09-game-decompilation",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T02:02:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 122,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50039092"
+          }
+        },
+        {
+          "id": "hackernews:50039630",
+          "title": "AI agents in a stand-up call",
+          "url": "https://atoll92.github.io/agent-standup",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T03:42:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50039630"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-10T14:00:00.000Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.3141760668047,
+      "breakdown": {
+        "hnPoints": 1.548170907766744,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.8333333333333333,
+        "recency": 0.8820966495230685,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50039627",
+      "representativeId": "hackernews:50039627",
+      "items": [
+        {
+          "id": "hackernews:50039627",
+          "title": "Satya Nadella says we should assume all AI models are 'compromised'",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T03:41:53.000Z",
+          "summary": "In a lengthy post on X, Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or […]",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50039627"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake",
+          "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+          "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-10T21:47:51.000Z",
+          "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.923815044847621,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.8333333333333333,
+        "recency": 0.881587277644933,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50042107",
+      "representativeId": "hackernews:50042107",
+      "items": [
+        {
+          "id": "hackernews:50042107",
+          "title": "AI is creating a 'human premium' for art created by people",
+          "url": "https://bbc.com/news/articles/c5vgjm3gk7rzo",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T11:34:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50042107"
+          }
+        }
+      ],
+      "score": 4.5776259349893555,
+      "breakdown": {
+        "hnPoints": 1.3527293031022833,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 1.193958316315652,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50031614",
+      "representativeId": "hackernews:50031614",
+      "items": [
+        {
+          "id": "hackernews:50031614",
+          "title": "Talorys – A self-hosted personal AI agent on Cloudflare's free tier",
+          "url": "https://github.com/rociiu/talorys",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T10:52:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 316,
+            "comments": 148,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50031614"
+          }
+        },
+        {
+          "id": "hackernews:50033517",
+          "title": "My personal AI agent posted my bank details on company Slack",
+          "url": "https://businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T14:46:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50033517"
+          }
+        }
+      ],
+      "score": 4.532191375309057,
+      "breakdown": {
+        "hnPoints": 1.852747843512971,
+        "hnComments": 0.9435524437490476,
+        "mentions": 0.0,
+        "recency": 0.5358910880470382,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50041765",
+      "representativeId": "hackernews:50041765",
+      "items": [
+        {
+          "id": "hackernews:50041765",
+          "title": "Using AI for Just 10 Minutes Erodes Your Ability to Persist at Hard Things",
+          "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T10:47:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50041765"
+          }
+        }
+      ],
+      "score": 4.463105552647384,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 1.158393913006005,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50035886",
+      "representativeId": "hackernews:50035886",
+      "items": [
+        {
+          "id": "hackernews:50035886",
+          "title": "Nvidia in talks to acquire US 'open' model startup Reflection AI",
+          "url": "https://ft.com/content/052610c5-22b4-4dd4-932e-b7f9f0628b6a",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T18:48:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 173,
+            "comments": 110,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50035886"
+          }
+        }
+      ],
+      "score": 4.373865399159478,
+      "breakdown": {
+        "hnPoints": 1.6597658643079278,
+        "hnComments": 0.8880368530490445,
+        "mentions": 0.0,
+        "recency": 0.6260626818025057,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50038865",
+      "representativeId": "hackernews:50038865",
+      "items": [
+        {
+          "id": "hackernews:50038865",
+          "title": "Anthropic asks users to stop being mean to Claude",
+          "url": "https://theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T01:17:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 52,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50038865"
+          }
+        },
+        {
+          "id": "hackernews:50038383",
+          "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+          "url": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T00:08:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 66,
+            "comments": 139,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50038383"
+          }
+        }
+      ],
+      "score": 4.2880300874179875,
+      "breakdown": {
+        "hnPoints": 1.3527293031022833,
+        "hnComments": 0.9318043198119388,
+        "mentions": 0.0,
+        "recency": 0.8034964645037652,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50041873",
+      "representativeId": "hackernews:50041873",
+      "items": [
+        {
+          "id": "hackernews:50041873",
+          "title": "Nicolas Cage says he won't work with Amazon again over AI dispute",
+          "url": "https://latimes.com/entertainment-arts/business/story/2026-10-10/nicolas-cage-says-he-wont-work-with-amazon-again-over-ai-dispute",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T11:03:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50041873"
+          }
+        },
+        {
+          "id": "hackernews:50036390",
+          "title": "Nicolas Cage Refused to Sign Amazon AI Waiver: 'I'm Not an AI-Friendly Actor'",
+          "url": "https://variety.com/2026/tv/news/nicolas-cage-ai-waiver-amazon-spider-noir-1236907564",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T19:39:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50036390"
+          }
+        }
+      ],
+      "score": 4.187917759181145,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 1.1703505684680653,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50038640",
+      "representativeId": "hackernews:50038640",
+      "items": [
+        {
+          "id": "hackernews:50038640",
+          "title": "Generative AI scandal has come to one of Nikon's competitions",
+          "url": "https://dpreview.com/news/generative-ai-scandal-has-come-to-one-of-nikons-competitions",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T00:47:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50038640"
+          }
+        }
+      ],
+      "score": 3.9090280716818326,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.7883003305891314,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50034363",
+      "representativeId": "hackernews:50034363",
+      "items": [
+        {
+          "id": "hackernews:50034363",
+          "title": "AI Is Throwing a Roadside Picnic",
+          "url": "https://metedata.substack.com/p/ai-is-throwing-a-roadside-picnic",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T16:19:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50034363"
+          }
+        }
+      ],
+      "score": 3.7519899441056674,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 0.5688936429291536,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50032064",
+      "representativeId": "hackernews:50032064",
+      "items": [
+        {
+          "id": "hackernews:50032064",
+          "title": "There's little that's \"inevitable\" about AI",
+          "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T12:04:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 96,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50032064"
+          }
+        }
+      ],
+      "score": 3.740251729991767,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.8626151160103018,
+        "mentions": 0.0,
+        "recency": 0.4829101004080054,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50038473",
+      "representativeId": "hackernews:50038473",
+      "items": [
+        {
+          "id": "hackernews:50038473",
+          "title": "Veda: The First Agentic Hobby Operating System",
+          "url": "https://github.com/vahmoh25/Veda",
+          "source": "hackernews",
+          "publishedAt": "2026-10-11T00:22:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50038473"
+          }
+        }
+      ],
+      "score": 3.698036305008655,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.7757197336335915,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50035550",
+      "representativeId": "hackernews:50035550",
+      "items": [
+        {
+          "id": "hackernews:50035550",
+          "title": "Anthropic discloses 2 months old fake tip to police among new rogue AI incidents",
+          "url": "https://reuters.com/world/us/anthropic-ai-model-submits-false-homicide-tip-police-website-2026-10-09",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T18:10:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 35,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50035550"
+          }
+        }
+      ],
+      "score": 3.689296265380825,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.675714295252094,
+        "mentions": 0.0,
+        "recency": 0.6111028175148615,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50037299",
+      "representativeId": "hackernews:50037299",
+      "items": [
+        {
+          "id": "hackernews:50037299",
+          "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+          "url": "https://bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T21:19:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50037299"
+          }
+        }
+      ],
+      "score": 3.4290298483248067,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.6898247766532107,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50031156",
+      "representativeId": "hackernews:50031156",
+      "items": [
+        {
+          "id": "hackernews:50031156",
+          "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+          "url": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
+          "source": "hackernews",
+          "publishedAt": "2026-10-10T09:30:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50031156"
+          }
+        }
+      ],
+      "score": 3.358092430902796,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.4374586375428413,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+          "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+          "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-11T16:52:33.000Z",
+          "summary": "On Equity, we debate the impact of data center moratoriums and whether the AI industry has a communication problem.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.364363860834065,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.464363860834065,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+          "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+          "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-11T14:00:00.000Z",
+          "summary": "Voice AI's often misses important points for its context layer, and causes the whole pipeline to break",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.210852678812106,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3108526788121062,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+          "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+          "url": "https://theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-11T11:00:00.000Z",
+          "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0678369712245352,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1678369712245353,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+          "title": "Dwarf Fortress uses version control now",
+          "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-11T00:52:37.000Z",
+          "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it.\" March 2023: \"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved\" That March 2023 quote comes from an interview about the release on Steam which made them millionaires . I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run. Tags: version-control",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.840834061172628,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7908340611726282,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/10/python-actions",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/10/python-actions",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/10/python-actions",
+          "title": "Python 3.15.0 added to actions/python-versions",
+          "url": "https://simonwillison.net/2026/Oct/10/python-actions",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-10T23:58:04.000Z",
+          "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8136257487672307,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7636257487672309,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "title": "Anthropic is cutting off its internal evaluations from the internet",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-10T14:41:16.000Z",
+          "summary": "After a recent spate of high-profile incidents in which AI agents escaped containment, Anthropic is cutting off internet access for all internal evaluations. In a report Friday, the company detailed \"unintended model actions,\" including submitting a false tip regarding an unsolved murder, that led to the decision. Although the impact of these behaviors was minimal […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4341741619485404,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5341741619485405,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+          "title": "AI agent makers are promising privacy — will they deliver?",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-10T13:00:00.000Z",
+          "summary": "At this year's OpenAI DevDay, CEO Sam Altman unveiled the company's new AI agent Dots - and told the crowd that the company wants to \"set a new standard for privacy in frontier AI.\" OpenAI would spend the day taking veiled shots at Meta's Muse, its primary competitor, for failing to keep users' data safe. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4005606082677948,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.500560608267795,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50039092",
+    "hackernews:50039627",
+    "hackernews:50042107",
+    "hackernews:50031614",
+    "hackernews:50041765"
+  ]
+}
