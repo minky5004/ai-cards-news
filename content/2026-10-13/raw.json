@@ -1,0 +1,1351 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026-10-13T19:01:46.820Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 7
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 3
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 45,
+      "filtered": 26
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50073879",
+      "representativeId": "hackernews:50073879",
+      "items": [
+        {
+          "id": "hackernews:50073879",
+          "title": "Gemini 4 Argon",
+          "url": "https://deepmind.google/models/gemini",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T16:03:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 556,
+            "comments": 432,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50073879"
+          }
+        },
+        {
+          "id": "hackernews:50074869",
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://developers.googleblog.com/gemini-4-argon-for-robotics",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T16:55:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 22,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50074869"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay",
+          "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
+          "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-13T16:00:02.000Z",
+          "summary": "Developers will get 50 percent discounted API rates through November.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+          "title": "Google finally releases Gemini 4 Argon",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009862/google-releases-gemini-4-argon",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-13T16:00:00.000Z",
+          "summary": "After months sitting on the sidelines of the frontier AI race, Google has finally launched its long-awaited Gemini 4 Argon model, claiming it can compete with the best the industry has to offer. Google says Argon delivers \"frontier reasoning and improved performance across complex workflows,\" while cutting down on hedging, repetition, and the cliches that […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.250143620801762,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 1.3834769541350949,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50062237",
+      "representativeId": "hackernews:50062237",
+      "items": [
+        {
+          "id": "hackernews:50062237",
+          "title": "Epic Games tells employees to use AI to get Disney game done",
+          "url": "https://avclub.com/epic-games-disney-ai-delay",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T20:07:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50062237"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+          "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
+          "url": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-12T20:59:50.000Z",
+          "summary": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+          "title": "Epic shifts to ‘AI-accelerated development’ for upcoming Disney game",
+          "url": "https://theverge.com/games/1010097/epic-games-disney-project-ai-coding-art",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-13T15:12:59.000Z",
+          "summary": "Epic Games plans to use AI to generate code and art for an unannounced Disney game, which is now delayed from its original March release window, according to a report from Bloomberg. The project's developers have been given an \"AI-first\" mandate directing them to use tools like Anthropic's Claude more to finish the game. According […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.396305397743447,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.8090161730336244,
+        "mentions": 1.6666666666666665,
+        "recency": 1.2951448208997047,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50065692",
+      "representativeId": "hackernews:50065692",
+      "items": [
+        {
+          "id": "hackernews:50065692",
+          "title": "AI models can provably hide arbitrary capabilities",
+          "url": "https://arxiv.org/abs/2610.13928",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T02:07:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 265,
+            "comments": 132,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50065692"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "title": "Meta has some Wonder Full new AI models",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-12T17:00:00.000Z",
+          "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark, the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse, it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.533909146806103,
+      "breakdown": {
+        "hnPoints": 1.7963165811027721,
+        "hnComments": 0.9221323708524131,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7821268615175845,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50061603",
+      "representativeId": "hackernews:50061603",
+      "items": [
+        {
+          "id": "hackernews:50061603",
+          "title": "AI models may be capable of self-replicating without access to a datacenter",
+          "url": "https://anthropic.com/research/self-replicating-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T19:25:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 95,
+            "comments": 107,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50061603"
+          }
+        },
+        {
+          "id": "hackernews:50069333",
+          "title": "AI models may soon self-replicate without access to data centers",
+          "url": "https://reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T10:08:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 56,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50069333"
+          }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models",
+          "title": "AI labs are buying data from dead startups to train their models",
+          "url": "https://technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-13T09:00:00.000Z",
+          "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.449748741317278,
+      "breakdown": {
+        "hnPoints": 1.4684373168411968,
+        "hnComments": 0.88287045687475,
+        "mentions": 0.8333333333333333,
+        "recency": 1.065107634267998,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50073633",
+      "representativeId": "hackernews:50073633",
+      "items": [
+        {
+          "id": "hackernews:50073633",
+          "title": "Redesigning source control at Anthropic",
+          "url": "https://anthropic.com/engineering/redesigning-source-control",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T15:49:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 128,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50073633"
+          }
+        }
+      ],
+      "score": 5.087223435842016,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.9163743153776699,
+        "mentions": 0.0,
+        "recency": 1.326225766424125,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50073221",
+      "representativeId": "hackernews:50073221",
+      "items": [
+        {
+          "id": "hackernews:50073221",
+          "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+          "url": "https://sammystraus.com",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T15:25:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 137,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50073221"
+          }
+        }
+      ],
+      "score": 4.91497151538331,
+      "breakdown": {
+        "hnPoints": 1.5851908919554503,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 1.3058702640919164,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50070593",
+      "representativeId": "hackernews:50070593",
+      "items": [
+        {
+          "id": "hackernews:50070593",
+          "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+          "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T12:26:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 185,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50070593"
+          }
+        }
+      ],
+      "score": 4.8714747128673785,
+      "breakdown": {
+        "hnPoints": 1.68122174342082,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 1.1639707340022398,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50063427",
+      "representativeId": "hackernews:50063427",
+      "items": [
+        {
+          "id": "hackernews:50063427",
+          "title": "AI is a tool and using it well takes skill",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T21:40:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 605,
+            "comments": 474,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50063427"
+          }
+        },
+        {
+          "id": "hackernews:50060269",
+          "title": "'AI' Is Not a Tool by Rich Hickey",
+          "url": "https://linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T18:00:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 298,
+            "comments": 168,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50060269"
+          }
+        }
+      ],
+      "score": 4.859025701990442,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.659025701990441,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50060694",
+      "representativeId": "hackernews:50060694",
+      "items": [
+        {
+          "id": "hackernews:50060694",
+          "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+          "url": "https://github.com/openai/codex/issues/48195",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T18:29:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 592,
+            "comments": 288,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50060694"
+          }
+        }
+      ],
+      "score": 4.782907445828543,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5829074458285428,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50055654",
+      "representativeId": "hackernews:50055654",
+      "items": [
+        {
+          "id": "hackernews:50055654",
+          "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+          "url": "https://theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T12:46:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 71,
+            "comments": 85,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50055654"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
+          "title": "Microsoft president says UK is best placed to drive AI regulation",
+          "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-12T15:31:19.000Z",
+          "summary": "Microsoft president Brad Smith calls for urgent AI regulation, saying milk and washing machines have more oversight than AI companies.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.769198968278156,
+      "breakdown": {
+        "hnPoints": 1.3758845419753172,
+        "hnComments": 0.8399191397584053,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5200619532110993,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50065932",
+      "representativeId": "hackernews:50065932",
+      "items": [
+        {
+          "id": "hackernews:50065932",
+          "title": "A look at the math that OpenAI claims computes faster Fourier transforms",
+          "url": "https://argmin.net/p/faster-fourier-transforms",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T02:46:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 232,
+            "comments": 150,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50065932"
+          }
+        }
+      ],
+      "score": 4.702020117795281,
+      "breakdown": {
+        "hnPoints": 1.7537023787350579,
+        "hnComments": 0.9460666365214079,
+        "mentions": 0.0,
+        "recency": 0.8022511025388155,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50069337",
+      "representativeId": "hackernews:50069337",
+      "items": [
+        {
+          "id": "hackernews:50069337",
+          "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+          "url": "https://pdftomp3.com/connect-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T10:08:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 141,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50069337"
+          }
+        }
+      ],
+      "score": 4.671255105149645,
+      "breakdown": {
+        "hnPoints": 1.5943834873940028,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 1.0652899403258618,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50063365",
+      "representativeId": "hackernews:50063365",
+      "items": [
+        {
+          "id": "hackernews:50063365",
+          "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+          "url": "https://intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T21:35:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 298,
+            "comments": 169,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50063365"
+          }
+        }
+      ],
+      "score": 4.659389168874485,
+      "breakdown": {
+        "hnPoints": 1.833940732515093,
+        "hnComments": 0.9684147010377877,
+        "mentions": 0.0,
+        "recency": 0.6570337353216037,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50059523",
+      "representativeId": "hackernews:50059523",
+      "items": [
+        {
+          "id": "hackernews:50059523",
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T17:14:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 356,
+            "comments": 295,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50059523"
+          }
+        }
+      ],
+      "score": 4.646474829009057,
+      "breakdown": {
+        "hnPoints": 1.8909789960003773,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5554958330086797,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50057278",
+      "representativeId": "hackernews:50057278",
+      "items": [
+        {
+          "id": "hackernews:50057278",
+          "title": "Why aren't AI companies being charged for hacking?",
+          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T14:52:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 329,
+            "comments": 363,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50057278"
+          }
+        }
+      ],
+      "score": 4.572981880548397,
+      "breakdown": {
+        "hnPoints": 1.8656780114952183,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5073038690531783,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50054751",
+      "representativeId": "hackernews:50054751",
+      "items": [
+        {
+          "id": "hackernews:50054751",
+          "title": "QGIS enacts moratorium on AI contributions",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T11:22:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 384,
+            "comments": 407,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50054751"
+          }
+        }
+      ],
+      "score": 4.5585471599757055,
+      "breakdown": {
+        "hnPoints": 1.9152712066633528,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4432759533123527,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50067356",
+      "representativeId": "hackernews:50067356",
+      "items": [
+        {
+          "id": "hackernews:50067356",
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "url": "https://theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T05:57:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 104,
+            "comments": 124,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50067356"
+          }
+        }
+      ],
+      "score": 4.514471684030554,
+      "breakdown": {
+        "hnPoints": 1.4972672466236383,
+        "hnComments": 0.9104348742922621,
+        "mentions": 0.0,
+        "recency": 0.906769563114654,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50063717",
+      "representativeId": "hackernews:50063717",
+      "items": [
+        {
+          "id": "hackernews:50063717",
+          "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+          "url": "https://github.com/prabanta-dev/janas",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T22:05:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 211,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50063717"
+          }
+        }
+      ],
+      "score": 4.424117852690646,
+      "breakdown": {
+        "hnPoints": 1.7233153227248001,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.669864214394425,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50060500",
+      "representativeId": "hackernews:50060500",
+      "items": [
+        {
+          "id": "hackernews:50060500",
+          "title": "Just say no to OpenAI and Anthropic",
+          "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T18:17:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 168,
+            "comments": 160,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50060500"
+          }
+        }
+      ],
+      "score": 4.3871337560709724,
+      "breakdown": {
+        "hnPoints": 1.6503856385650206,
+        "hnComments": 0.9581580642784832,
+        "mentions": 0.0,
+        "recency": 0.5785900532274684,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50064318",
+      "representativeId": "hackernews:50064318",
+      "items": [
+        {
+          "id": "hackernews:50064318",
+          "title": "I turned my unused Kindle into a photo frame with GPT-6 Astra",
+          "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T23:07:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 145,
+            "comments": 102,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50064318"
+          }
+        }
+      ],
+      "score": 4.374175449587407,
+      "breakdown": {
+        "hnPoints": 1.6033206996462728,
+        "hnComments": 0.873932211815042,
+        "mentions": 0.0,
+        "recency": 0.6969225381260917,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50068437",
+      "representativeId": "hackernews:50068437",
+      "items": [
+        {
+          "id": "hackernews:50068437",
+          "title": "DishwasherBench – Can Frontier Models Stack a Dishwasher?",
+          "url": "https://github.com/composo-ai/DishwasherBench",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T08:24:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50068437"
+          }
+        }
+      ],
+      "score": 4.35934250913107,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 0.996207203122718,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50072120",
+      "representativeId": "hackernews:50072120",
+      "items": [
+        {
+          "id": "hackernews:50072120",
+          "title": "How to engineer an AI harness for game development",
+          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T14:14:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50072120"
+          }
+        }
+      ],
+      "score": 4.322145915018396,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 1.2473394801458642,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50057668",
+      "representativeId": "hackernews:50057668",
+      "items": [
+        {
+          "id": "hackernews:50057668",
+          "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+          "url": "https://taylor.town/kk-ai-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T15:16:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 210,
+            "comments": 84,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50057668"
+          }
+        }
+      ],
+      "score": 4.274730492462746,
+      "breakdown": {
+        "hnPoints": 1.721794190094209,
+        "hnComments": 0.8377137150343965,
+        "mentions": 0.0,
+        "recency": 0.51522258733414,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech",
+          "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-13T18:23:33.000Z",
+          "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy",
+          "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-13T12:23:42.000Z",
+          "summary": "The startup will sell some of its assets to Disney for $20 million.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "title": "Character.AI files for bankruptcy",
+          "url": "https://theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-13T10:32:23.000Z",
+          "summary": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company, which builds various online bots for users to chat or roleplay with, has faced mounting scrutiny and lawsuits over the safety of its chatbots, but has continued releasing […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.180310009517262,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 1.6666666666666665,
+        "recency": 1.4636433428505957,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:50065553",
+      "representativeId": "hackernews:50065553",
+      "items": [
+        {
+          "id": "hackernews:50065553",
+          "title": "Strengthening our defenses against distillation attacks",
+          "url": "https://anthropic.com/research/distillation-defenses",
+          "source": "hackernews",
+          "publishedAt": "2026-10-13T01:46:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50065553"
+          }
+        }
+      ],
+      "score": 3.9970001218529925,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.7719781638547651,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50056063",
+      "representativeId": "hackernews:50056063",
+      "items": [
+        {
+          "id": "hackernews:50056063",
+          "title": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
+          "url": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T13:20:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 66,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50056063"
+          }
+        }
+      ],
+      "score": 3.7659238437230202,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.7928438383773442,
+        "mentions": 0.0,
+        "recency": 0.47804807786592707,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50063707",
+      "representativeId": "hackernews:50063707",
+      "items": [
+        {
+          "id": "hackernews:50063707",
+          "title": "The CEO's of Broadcom and Intel Say the Quiet Part Out Loud about AI and ROI",
+          "url": "https://wolfstreet.com/2026/10/12/ceos-of-broadcom-intel-say-the-quiet-part-out-loud-about-ai-and-roi",
+          "source": "hackernews",
+          "publishedAt": "2026-10-12T22:05:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50063707"
+          }
+        }
+      ],
+      "score": 3.4184156472501224,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.6696063115591375,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "representativeId": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+          "source": "huggingface",
+          "publishedAt": "2026-10-13T17:05:48.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.742399598518093,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.392399598518093,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads",
+          "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+          "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-13T18:30:00.000Z",
+          "summary": "Flox's edge devices can identify animals and use species-specific sounds to drive them away from critical infrastructure.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3697148414765272,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4697148414765273,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+          "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-13T17:30:00.000Z",
+          "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3141946539058145,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4141946539058143,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+          "title": "Pluto Security raises $42M as AI gives enterprise security teams a new headache",
+          "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-13T17:18:25.000Z",
+          "summary": "The problem with giving everyone in a company access to AI tools is that people will use them in unexpected ways. And that fact is steadily seeding fears that companies now have new, gaping security holes in their systems or, at least, will soon.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3037202062401585,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4037202062401588,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+          "title": "Facebook will let you customize your feed algorithm using AI",
+          "url": "https://theverge.com/tech/1010344/meta-facebook-your-algorithm-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-13T17:01:31.000Z",
+          "summary": "Facebook's new \"Your Algorithm\" feature will let you directly add and manage topics you want to see in your feed and Facebook Reels. Meta says your recommendations \"respond right away\" after you make updates using the new feature by hitting \"interested\" or \"not interested\" for different topics. Your Algorithm previously launched on Instagram earlier this […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.288577070699116,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.388577070699116,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+          "title": "Actress Mia Goth says it’s ‘incomprehensible’ that Instagram allowed an AI image of her to spread",
+          "url": "https://theverge.com/ai-artificial-intelligence/1010277/mia-goth-instagram-ai-shirt-deepfake-divorce",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-13T16:42:51.000Z",
+          "summary": "Earlier this month, news broke that actress Mia Goth had filed for divorce from actor and filmmaker Shia LaBeouf. An Instagram post from the account miagoth_ - marked with a blue verified checkmark - quickly spread. The post shows Goth in a T-shirt that reads \"MY EX IS MY BIGGEST FAN\" in bold black letters. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.272040723933076,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3720407239330763,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+          "title": "Quoting Geoffrey Huntley",
+          "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-13T13:32:00.000Z",
+          "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail the commit, inject a prompt telling the agent to use the diagnostics library. All of a sudden it's ten out of ten. — Geoffrey Huntley , nobody should type code by hand anymore. here's what's left. Tags: coding-agents , generative-ai , git , agentic-engineering , ai , geoffrey-huntley , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2638669848724717,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2138669848724717,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription",
+          "title": "SpaceXSI bundles X Premium, Grok, and Cursor into one subscription",
+          "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-13T13:50:19.000Z",
+          "summary": "The new X Subscription combines X's paid features with AI tools like Grok and Cursor, offering plans ranging from $8 to $200 per month.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1282210351677566,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2282210351677565,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks",
+          "title": "Open models have real benefits. Do they outweigh the risks?",
+          "url": "https://technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-13T10:00:00.000Z",
+          "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. The report’s core concern is that the…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.109448929014125,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0594489290141254,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases",
+          "title": "Amex introduces a framework to prevent AI agents from making unauthorized purchases",
+          "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-13T13:00:00.000Z",
+          "summary": "American Express is introducing a new framework designed to ensure AI agents only make purchases their users have authorized, potentially preventing costly mistakes and disputes as AI-powered shopping grows.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.089191214940367,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.189191214940367,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+          "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
+          "url": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-12T18:21:36.000Z",
+          "summary": "“I may have information regarding this case,\" Claude AI told Philly police.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6301207607633308,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.580120760763331,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/12/python-3-15",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/12/python-3-15",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/12/python-3-15",
+          "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+          "url": "https://simonwillison.net/2026/Oct/12/python-3-15",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-12T18:15:38.000Z",
+          "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist in lists] unpacking syntax is neat. Here's an illustration lifted from the documentation : lists = [[ 1 , 2 ], [ 3 , 4 ], [ 5 ]] [ * L for L in lists ] # [1, 2, 3, 4, 5] # equivalent to [x for L in lists for x in L] sets = [{ 1 , 2 }, { 2 , 3 }, { 3 , 4 }] { * s for s in sets } # {1, 2, 3, 4} # equivalent to {x for s in sets for x in s} dicts = [{ 'a' : 1 }, { 'b' : 2 }, { 'a' : 3 }] { ** d for d in dicts } # {'a': 3, 'b': 2} # equivalent to {k: v for d in dicts for k,v in d.items()} PEP 798: Unpacking in Comprehensions by Adam Hartz and Erik Demaine proposed this as an extension of the unpacking syntax from PEP 448 , which landed in Python 3.5 back in 2015. A sampling profiler Python's existing tracing profiler has been renamed from cProfile to profiling.tracing , and has been joined by an exciting new sampling profiler called Tachyon, aka profiling.sampling . Sampling profilers work by periodically capturing stack traces from running processes, then using those to calculate which functions have the most time spent inside of them. They're very low overhead and can provide a deep insight into running systems, without needing to instrument those systems first. I've previously used tools like py-spy for this. Now this capability is baked into the standard library. If you have the PID of an existing Python 3.15 process you can start gathering samples by running this (I had to use sudo on macOS): sudo uv run --python 3.15 python -m profiling.sampling attach 1234 Interact with the main program a bit, then hit Ctrl+C to stop gathering and see a report, which looks something like this: It can also produce flame graphs like this and heat maps like this , and can even output a format that can be viewed in the Firefox profiler UI. 3.15 isn't much faster than 3.14 Miguel Grinberg investigated How fast is Python 3.15? the other day against the 3.15.0rc3 release and found performance to be mostly the same as 3.14, with the exception of the experimental JIT. The JIT gave a 1.2x boost over the standard 3.15 interpreter (on a Fibonacci test), the first time Miguel observed a meaningful JIT performance increase. Miguel's explorations of 3.14 last year found significant boosts against Python 3.13 across many more categories. Upgrading to Python 3.15 with uv I used the following sequence of commands to get uv to use Python 3.15 on my Mac. First I had to upgrade uv itself to ensure it knew about the new release: uv self update Then I installed the stable 3.15 release: uv python install 3.15 And told uv that I wanted that to be the default for every uv run command, unless the project itself pinned a different version: uv python pin --global 3.15 Now the following reports 3.15 as the version: uv run python --version I already have a bunch of tools installed using uv tool install . I reinstalled them to use Python 3.15 like this: uv tool upgrade datasette --python 3.15 Then I can confirm the version like this: datasette --get /-/versions.json | jq Highlights from Python 3.11 The release of 3.15 means that Python 3.10 (released in 2021) is officially no longer supported . My policy for my main open source projects is to keep them working in every supported Python version. I can now drop 3.10 and start using features that were introduced in 3.11. Here's the What's new in Python 3.11 document. I finally get to rely on tomllib being available! Datasette makes extensive use of asyncio . 3.11 adds TaskGroup and timeout() , and several more new features. datetime.UTC is a new in 3.11 alias for datetime.timezone.utc . Python's SQLite support got some significant upgrades in 3.11, including: setlimit() and getlimit() expose a mechanism for setting SQLite runtime limits from Python. create_window_function() lets us create custom window functions in Python, as a class with step() , value() , inverse() , and finalize() methods. blobopen() provides an efficient mechanism for partial reads and writes of large BLOB binary values stored in a SQLite row. You can now call set_authorizer(None) to remove a SQLite authorizer. Datasette had a workaround for this! Plus a whole bunch of improvements to Python's typing system . I plan to land Python 3.11 improvements to a bunch of my projects over the next few weeks. Here's my first Datasette PR removing that set_authorizer(None) workaround. I've also updated my click-app , datasette-plugin , python-lib , and llm-plugin cookiecutter templates to test against Python 3.11 through Python 3.15. Tags: open-source , profiling , python , sqlite , uv",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6279034804240786,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5779034804240788,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/12/web-edit",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/12/web-edit",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/12/web-edit",
+          "title": "web-edit 0.1a0",
+          "url": "https://simonwillison.net/2026/Oct/12/web-edit",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-12T15:54:36.000Z",
+          "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5778917570862196,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5278917570862199,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work",
+          "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
+          "url": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-12T12:43:10.000Z",
+          "summary": "The second-largest corporate employer has bet big on robot workers to scale.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5168596980429583,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.46685969804295857,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+          "title": "Meta releases its first frontier model, Muse Wonder",
+          "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-12T17:56:56.000Z",
+          "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4710091024496088,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5710091024496089,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+          "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+          "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-12T15:45:00.000Z",
+          "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken. But could AI actually make things better?",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.424649252529406,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5246492525294062,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+          "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+          "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-12T15:27:59.000Z",
+          "summary": "Blueprints AI, a bootstrapped startup based in Santa Monica, developed software that produces code-compliant construction blueprints from a photo, PDF, or sketch.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4189505514926997,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5189505514926999,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background",
+          "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+          "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-12T12:47:59.000Z",
+          "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you'll believe the tech companies, requires apps and devices to listen, watch, or record users' activity all the time and gather all possible context.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.368305158229235,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4683051582292349,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50073879",
+    "hackernews:50062237",
+    "hackernews:50065692",
+    "hackernews:50061603",
+    "hackernews:50073633"
+  ]
+}
