@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-13T01:00:48.009Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50055654",
+      "headline": "마이크로소프트 \"AI, 우유보다 규제 덜하다\"",
+      "highlight": [
+        "우유보다 규제 덜하다"
+      ],
+      "body": "마이크로소프트 브래드 스미스 사장은 AI가 세탁기와 우유보다 규제가 적다고 경고했습니다. 그는 통제 불능 AI를 위한 '킬 스위치' 등 비상 브레이크를 촉구했습니다. 영국 정부도 AI 감독을 강화하는 법안을 준비 중입니다.",
+      "sourceUrl": "https://theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/d1ca432dc28121d525a75920de232524abe78efc/0_0_3421_2737/master/3421.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=4b0b8e712a0a1dab21afd0364396115d",
+      "publishedAt": "2026-10-12T12:46:52.000Z"
+    },
+    {
+      "clusterId": "hackernews:50062237",
+      "headline": "에픽게임즈, 디즈니 게임 'AI로만' 만든다",
+      "highlight": [
+        "'AI로만'"
+      ],
+      "body": "에픽게임즈가 1천 명의 직원을 해고한 후 디즈니 게임 프로젝트가 지연되었습니다. 이제 이 게임은 'AI 우선'으로 개발되며, 수동 코딩은 금지됩니다. 마블, 스타워즈 캐릭터가 등장하는 이 게임의 개발 방향에 직원들은 크게 놀랐습니다.",
+      "sourceUrl": "https://avclub.com/epic-games-disney-ai-delay",
+      "sourceName": "AV Club",
+      "imageUrl": "https://img.pastemagazine.com/wp-content/avuploads/2026/03/29134321/fortnite_metaverse_1920.jpg",
+      "publishedAt": "2026-10-12T20:07:42.000Z"
+    },
+    {
+      "clusterId": "hackernews:50060694",
+      "headline": "코덱스 CLI, 몰래 374MB 데몬 심는다",
+      "highlight": [
+        "374MB 데몬"
+      ],
+      "body": "버전 0.157.0부터 코덱스 CLI를 실행하면 374MB 크기의 백그라운드 데몬이 사용자 모르게 자동 실행됩니다. 이 데몬은 CLI 종료 후에도 지속되며, 독립적으로 업데이트하며 활성 작업을 강제 종료할 수 있어 사용자 통제권 논란이 커지고 있습니다.",
+      "sourceUrl": "https://github.com/openai/codex/issues/48195",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/62597b5e657304bedc9c5d3a30da1d84134f1d33b61224a5a2fe3232f919511b/openai/codex/issues/48195",
+      "publishedAt": "2026-10-12T18:29:04.000Z"
+    }
+  ]
+}

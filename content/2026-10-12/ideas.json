@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026-10-13T01:01:22.640Z",
+  "idea": {
+    "productName": "DiffSieve",
+    "tagline": "쏟아지는 AI 코드 검토 시간을 반으로 줄인다",
+    "oneLineSummary": "에이전트가 생성한 불완전한 풀 리퀘스트를 사전에 걸러내 개발팀의 리뷰 적체를 해소하는 게이트웨이입니다.",
+    "problem": "AI 코딩 에이전트 도입 후 풀 리퀘스트 리뷰 시간이 49% 급증했습니다. 검증되지 않은 대량의 생성 코드로 인해 수정 요청이 2배로 폭증하며 개발자들이 검토 병목에 갇혔습니다.",
+    "productDescription": "코딩 에이전트가 만든 풀 리퀘스트가 인간 리뷰어에게 도달하기 전에 선제적으로 품질을 통제하는 게이트웨이 소프트웨어입니다. 기본 테스트나 팀 코딩 규약을 통과하지 못한 코드를 에이전트에게 즉시 되돌려보내 불필요한 리뷰 코멘트 낭비를 막습니다. 통과된 코드에 대해서도 장황한 수정 사항을 핵심 로직 위주로 축약해 리뷰어가 빠르게 결정을 내릴 수 있도록 지원합니다.",
+    "keyFeatures": [
+      "미통과 코드 에이전트 자동 반려",
+      "장황한 AI 수정분 핵심 요약",
+      "리뷰 큐 부하 기반 PR 유입 조절",
+      "반복 결함 유형 자동 탐지 차단"
+    ],
+    "persona": "팀원들의 에이전트 도입 후 폭증한 풀 리퀘스트 때문에 본인 개발 업무를 멈춘 채 하루 4시간 이상 리뷰에 매달리는 10년 차 테크 리드입니다.",
+    "businessModel": "깃허브 및 깃랩 저장소 연동 기반 월간 구독 모델입니다. 인간 리뷰어 1인당 월 29달러를 청구하며, 고빈도 에이전트 트래픽을 처리하는 전용 게이트웨이 플랜은 팀당 월 499달러입니다.",
+    "marketStats": "기사에 따르면 2026년 3월 기준 기업의 80%가 AI 코드 리뷰 도구를 도입했으나 에이전트의 리뷰 기여도는 23.3%에 그치며, 에이전트 도입 후 풀 리퀘스트 머지 소요 시간은 평균 49%, 수정 요청 비율은 약 2배 폭증했습니다.",
+    "goToMarket": "AI 기여 모라토리엄을 선언한 QGIS 등 오픈소스 프로젝트 관리자들과 해커뉴스에서 코드 리뷰 지연을 호소하는 개발팀을 대상으로 비공개 베타를 진행합니다.",
+    "unfairAdvantage": "업계 전체가 코드 생성 자동화에만 집중하는 사이, 현장에서 막 터져 나온 49%의 검토 지연이라는 명확한 부작용을 가장 먼저 겨냥하기 때문입니다.",
+    "competitors": [
+      "GitHub Copilot — 단순 코드 리뷰 코멘트 생성 중심 · 미달 코드 자동 반려 부재",
+      "CodeRabbit — 전반적 PR 요약 제공 · 에이전트 유입 속도 조절 기능 미지원",
+      "Danger JS — 정적 CI 규칙 검증기 · AI 생성 변경점 맥락 압축 불가"
+    ],
+    "risks": [
+      "차세대 코딩 에이전트의 자체 오류율 급감으로 인한 무결성 검증 필요성 축소",
+      "에이전트와 게이트웨이 간의 무한 반려 루프로 인한 불필요한 LLM 토큰 소모",
+      "깃허브 등 주요 플랫폼의 자체 AI PR 필터링 기능 기본 탑재"
+    ],
+    "actionPlan": [
+      "기사 통계를 토대로 에이전트 PR의 빈출 반려 패턴 100건 분류",
+      "깃허브 액션 기반 자동 반려 및 핵심 diff 축약 프로토타입 개발",
+      "오픈소스 메인테이너 5팀을 섭외해 실제 리뷰 시간 단축 효과 측정"
+    ],
+    "recommendation": "코드 생성 속도 증가가 불러온 실제 현장의 리뷰 지연 병목을 정확히 짚어 B2B 도입 설득력이 높습니다. 다만 게이트웨이의 과도한 오탐지로 정상적인 코드까지 반려해 개발 워크플로가 정체되지 않도록 필터링 민감도를 정교하게 조율해야 합니다.",
+    "searchQuery": "ai generated pr review bottleneck",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 11건 · 근거는 상위 5건 — 최고 130점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Stage – Putting humans back in control of code review",
+          "url": "https://stagereview.app/",
+          "points": 130
+        },
+        {
+          "title": "Launch HN: Patched (YC S24) – AI workflows for post-code tasks",
+          "url": "https://news.ycombinator.com/item?id=42009089",
+          "points": 67
+        },
+        {
+          "title": "Show HN: Review-First AI IDE, Built on Codex and OpenCode",
+          "url": "https://handler.team/",
+          "points": 4
+        },
+        {
+          "title": "Ask HN: What's your team's SDLC look like in this AI world?",
+          "url": "https://news.ycombinator.com/item?id=49275494",
+          "points": 4
+        },
+        {
+          "title": "Ask HN: How do you manage PR review fatigue from coding agents?",
+          "url": "https://news.ycombinator.com/item?id=47418016",
+          "points": 2
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50055654",
+        "title": "AI less regulated than milk, Microsoft president says in warning over safety",
+        "url": "https://theguardian.com/technology/2026/oct/12/ai-less-regulated-than-milk-microsoft-president-calls-for-tougher-rules"
+      },
+      {
+        "clusterId": "hackernews:50062237",
+        "title": "Epic Games tells employees to use AI to get Disney game done",
+        "url": "https://avclub.com/epic-games-disney-ai-delay"
+      },
+      {
+        "clusterId": "hackernews:50060694",
+        "title": "Codex CLI installs a persistent, self-updating background daemon by default",
+        "url": "https://github.com/openai/codex/issues/48195"
+      },
+      {
+        "clusterId": "hackernews:50063427",
+        "title": "AI is a tool and using it well takes skill",
+        "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool"
+      },
+      {
+        "clusterId": "hackernews:50059523",
+        "title": "AI coding agents generate more code, but not more software",
+        "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software"
+      },
+      {
+        "clusterId": "hackernews:50057278",
+        "title": "Why aren't AI companies being charged for hacking?",
+        "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking"
+      },
+      {
+        "clusterId": "hackernews:50054751",
+        "title": "QGIS enacts moratorium on AI contributions",
+        "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387"
+      },
+      {
+        "clusterId": "hackernews:50060500",
+        "title": "Just say no to OpenAI and Anthropic",
+        "url": "https://micahflee.com/just-say-no-to-openai-and-anthropic"
+      },
+      {
+        "clusterId": "hackernews:50047422",
+        "title": "The gap in shared understanding of LLM capability is widening",
+        "url": "https://twitter.com/karpathy/status/2109361546505966046"
+      },
+      {
+        "clusterId": "hackernews:50061603",
+        "title": "AI models may be capable of self-replicating without access to a datacenter",
+        "url": "https://anthropic.com/research/self-replicating-ai"
+      },
+      {
+        "clusterId": "hackernews:50051583",
+        "title": "Research Firm Calls Anthropic's IPO 'Unprecedented Test of Investor Gullibity'",
+        "url": "https://cnbc.com/2026/10/07/anthropic-will-be-most-ridiculous-ipo-of-year-analyst-says.html"
+      },
+      {
+        "clusterId": "hackernews:50064318",
+        "title": "GPT-6 Astra Helped Me Jailbreak My Kindle",
+        "url": "https://nirajrajgor.com/blog/kindle-photo-frame-with-ai"
+      },
+      {
+        "clusterId": "hackernews:50057668",
+        "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+        "url": "https://taylor.town/kk-ai-2026"
+      },
+      {
+        "clusterId": "hackernews:50056063",
+        "title": "\"Just Ask Claude\" Is a Rare and Valuable Skill",
+        "url": "https://justismills.substack.com/p/just-ask-claude-is-a-rare-and-valuable"
+      },
+      {
+        "clusterId": "hackernews:50063365",
+        "title": "Intel D270 GPU AI Accelerator–Up to 480 GB LPDDR5X",
+        "url": "https://intel.com/content/www/us/en/products/details/discrete-gpus/data-center-gpu/d-series.html"
+      }
+    ]
+  }
+}
