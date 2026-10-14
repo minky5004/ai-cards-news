@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T16:51:27.494Z",
+  "idea": {
+    "productName": "StealthGuard",
+    "tagline": "민감한 회의실, AI 기반 도청 장치부터 자율 위협까지 막습니다",
+    "oneLineSummary": "기업의 기밀 회의실을 겨냥한 AI 기반 도청 및 데이터 유출 장치를 실시간으로 탐지하고 무력화하는 보안 시스템을 판매합니다.",
+    "problem": "기업들은 기밀 회의실에 숨겨진 암호화된 도청 장치나 물리적 위협에 노출되어 중요한 정보가 유출될 위험이 있습니다. 특히 IoT 기기를 악용하고 스스로 학습하며 진화하는 AI 기반의 자율형 스파이 장치는 기존 보안으로는 탐지하기 어렵습니다.",
+    "productDescription": "당사의 시스템은 회의실 내 비정상적인 전파, 음향, 전력 소비 패턴을 감지하여 숨겨진 AI 기반 도청 및 데이터 유출 장치를 식별합니다. 기존 보안 솔루션이 놓칠 수 있는 미묘한 위협을 인공지능이 분석하여 실시간으로 경고하고, 필요시 해당 장치의 통신을 무력화합니다. 이로써 기업의 핵심 자산인 정보가 안전하게 보호됩니다.",
+    "keyFeatures": [
+      "비정상 전파/음향 실시간 감지",
+      "암호화 통신 패턴 분석",
+      "AI 기반 위협 학습 및 예측",
+      "비인가 IoT 장치 통신 차단",
+      "자동화된 보안 위반 알림"
+    ],
+    "persona": "극비 R&D 부서, 정부 계약을 다루는 방위산업체, 민감한 인수합병 정보를 취급하는 대기업의 보안 책임자.",
+    "businessModel": "연간 구독형 서비스로 제공하며, 초기 설치 및 컨설팅 비용은 별도입니다. 회의실 규모와 필요 모듈에 따라 월 500만 원~2,000만 원.",
+    "marketStats": "기사에 규모 근거 없음. OpenAI 기사에서 \"confidential technical, commercial, and strategic information, including proprietary research, product plans, and government engagements\"가 회의실에서 다뤄진다고 명시되어 있어, 이런 정보를 다루는 기업들이 잠재 고객입니다.",
+    "goToMarket": "보안 컨퍼런스 및 산업 박람회에 참가하여 데모를 시연합니다. 초기에는 주요 방위산업체, 제약회사, 대기업 R&D 센터의 보안 책임자에게 직접 연락하여 POC(개념 증명)를 제안합니다.",
+    "unfairAdvantage": "AI 기반의 자율 학습형 위협에 특화된 유일한 물리 보안 솔루션입니다. 기존 물리 보안 시스템이 감지하지 못하는 암호화된 미묘한 신호까지 분석하여 선제적으로 대응합니다.",
+    "competitors": [
+      "기존 물리 보안 카메라 시스템 — 숨겨진 장치나 비정상 통신 탐지 불가",
+      "RF 스캐너 — 수동 작업 필요, AI 기반 학습형 위협에 한계",
+      "일반적인 네트워크 보안 솔루션 — 물리적 침투 장치 탐지 범위 외"
+    ],
+    "risks": [
+      "AI 위협의 빠른 진화 속도에 맞춰 탐지 기술을 지속적으로 업데이트하는 어려움",
+      "오탐지율을 낮추고 실제 위협만 정확히 탐지하는 기술적 난이도",
+      "고객사의 기존 보안 시스템과의 통합 및 호환 문제",
+      "프라이버시 침해 논란 발생 가능성"
+    ],
+    "actionPlan": [
+      "OpenAI 사건과 유사한 실제 사례 3건 조사 및 분석",
+      "AI 기반 도청 장치 시뮬레이션 환경 구축",
+      "비정상 전파/음향 감지 프로토타입 개발 시작",
+      "보안 전문가 5명 대상 인터뷰로 니즈 검증",
+      "고객사 보안팀 대상 잠재적 위협 사례 공유"
+    ],
+    "recommendation": "AI 기술의 발전은 새로운 형태의 보안 위협을 만들고 있으며, 물리적 공간에서의 정보 유출은 여전히 중요한 문제입니다. 이 아이디어는 이러한 미래 지향적인 위협에 선제적으로 대응하는 점에서 잠재력이 있습니다. 다만, 기술 구현의 난이도가 높고 오탐지율 관리가 핵심 성공 요인이 될 것입니다.",
+    "searchQuery": "ai espionage detection physical security",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50078141",
+        "title": "OpenAI engineer arrested in bugging of executive conference room",
+        "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room"
+      },
+      {
+        "clusterId": "hackernews:50069333",
+        "title": "AI models may soon self-replicate without access to data centers",
+        "url": "https://reuters.com/business/ai-models-may-soon-self-replicate-without-access-data-centers-anthropic-warns-2026-10-13"
+      },
+      {
+        "clusterId": "hackernews:50073633",
+        "title": "Redesigning source control at Anthropic",
+        "url": "https://anthropic.com/engineering/redesigning-source-control"
+      },
+      {
+        "clusterId": "hackernews:50088534",
+        "title": "AI is mass decompiling games. That's both awesome and scary",
+        "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary"
+      },
+      {
+        "clusterId": "hackernews:50073879",
+        "title": "Gemini 4 Argon",
+        "url": "https://deepmind.google/models/gemini"
+      },
+      {
+        "clusterId": "hackernews:50085296",
+        "title": "I let an AI run my startup for a week",
+        "url": "https://daily.tinyprojects.dev/221"
+      },
+      {
+        "clusterId": "hackernews:50088430",
+        "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+        "url": "https://reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14"
+      },
+      {
+        "clusterId": "hackernews:50081151",
+        "title": "Show HN: I built a tool to track what AI leaders say and how their views change",
+        "url": "https://blumify.io/people"
+      },
+      {
+        "clusterId": "hackernews:50089395",
+        "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+        "url": "https://404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work"
+      },
+      {
+        "clusterId": "hackernews:50085323",
+        "title": "TV4 postpones show after AI agent erases edited material",
+        "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage"
+      },
+      {
+        "clusterId": "hackernews:50073221",
+        "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+        "url": "https://sammystraus.com"
+      },
+      {
+        "clusterId": "hackernews:50082962",
+        "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
+        "url": "https://theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866"
+      },
+      {
+        "clusterId": "hackernews:50070593",
+        "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+        "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud"
+      },
+      {
+        "clusterId": "hackernews:50080275",
+        "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+        "url": "https://pulseos.finance"
+      },
+      {
+        "clusterId": "hackernews:50072120",
+        "title": "How to engineer an AI harness for game development",
+        "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code"
+      }
+    ]
+  }
+}
