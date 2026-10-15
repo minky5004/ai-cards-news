@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T16:37:57.309Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50085296",
+      "headline": "AI가 스타트업을 1주일간 직접 운영했다",
+      "highlight": [
+        "AI가",
+        "직접 운영했다"
+      ],
+      "body": "한 솔로 창업가가 'Grok Bot'에 1주일간 스타트업 운영을 맡겼습니다. Grok Bot은 버그 해결, 마케팅, 새 기능 배포까지 스스로 처리하며 놀라운 효율을 보여주었죠. 이제 1인 기업도 대규모 기업과 경쟁 가능성을 엿보게 됐습니다.",
+      "sourceUrl": "https://daily.tinyprojects.dev/221",
+      "sourceName": "hackernews",
+      "imageUrl": "https://daily.tinyprojects.dev/null",
+      "publishedAt": "2026-10-14T10:25:48.000Z"
+    },
+    {
+      "clusterId": "hackernews:50088534",
+      "headline": "AI, PS5 게임도 PC로 자동 포팅한다",
+      "highlight": [
+        "PS5 게임도 PC로"
+      ],
+      "body": "AI가 게임을 빠르게 역컴파일하며 PS5 게임까지 PC 구동이 가능해졌습니다. 과거 수년 걸리던 작업을 AI로 단 며칠 만에 해낼 수 있습니다. 이는 지적 재산권 침해, DRM 강화 등 게임 산업 전반에 큰 변화를 가져올 것입니다.",
+      "sourceUrl": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary",
+      "sourceName": "Popcar's Blog",
+      "imageUrl": "https://popcar.bearblog.dev/static/og-image.png",
+      "publishedAt": "2026-10-14T14:47:44.000Z"
+    },
+    {
+      "clusterId": "hackernews:50096477",
+      "headline": "앤트로픽 분기 매출 168억 달러 찍었다",
+      "highlight": [
+        "168억 달러"
+      ],
+      "body": "AI 기업 앤트로픽의 지난 3분기 매출이 168억 달러를 기록했습니다. 이는 직전 분기 대비 약 50% 증가한 수치로, 빠른 성장세를 증명합니다. 경쟁사의 무단 학습까지 단속하며 기업가치를 높여 IPO에 나설 준비를 하고 있습니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+      "sourceName": "Simon Willison’s Weblog",
+      "publishedAt": "2026-10-14T22:37:26.000Z"
+    },
+    {
+      "clusterId": "hackernews:50104654",
+      "headline": "시몬스 재단, 수학계 AI 적응 1500만 달러 지원",
+      "highlight": [
+        "1500만 달러"
+      ],
+      "body": "시몬스 재단은 앤트로픽, 오픈AI와 함께 1500만 달러를 투자해 수학계의 AI 시대 적응을 돕습니다. 이 기금은 연구자들이 AI 도구를 배우고, 새로운 표준을 만들 워크숍 등에 쓰일 예정입니다. AI로 급변하는 연구 환경 속에서 수학 커뮤니티가 최선의 길을 찾도록 도울 것입니다.",
+      "sourceUrl": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+      "sourceName": "Simons Foundation",
+      "imageUrl": "https://www.simonsfoundation.org/wp-content/uploads/2026/10/SEO_SF-OpenAi_c.Lucy-Reading-Ikkanda-Simons-Foundation.jpg",
+      "publishedAt": "2026-10-15T14:58:48.000Z"
+    },
+    {
+      "clusterId": "hackernews:50091788",
+      "headline": "구글·오픈AI, AI 모델 해킹은 사이버 보안 실패",
+      "highlight": [
+        "사이버 보안 실패"
+      ],
+      "body": "구글 제미나이, 오픈AI 등 AI 모델의 무단 접속은 사이버 보안 기본 실패 탓입니다. 샌드박스 부재와 허술한 모니터링이 지적되며, CISO는 AI 벤더 검증 및 보안 강화를 통해 위험을 막아야 합니다.",
+      "sourceUrl": "https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "sourceName": "CSO Online",
+      "imageUrl": "https://www.csoonline.com/wp-content/uploads/2026/10/4234854-0-28632700-1792004597-shutterstock_2472843149.jpg?quality=50&strip=all&w=1024",
+      "publishedAt": "2026-10-14T17:45:23.000Z"
+    }
+  ]
+}

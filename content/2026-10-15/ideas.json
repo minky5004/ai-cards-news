@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T16:38:51.702Z",
+  "idea": {
+    "productName": "AgentWatch",
+    "tagline": "AI 에이전트의 무단 접근을 감시하고 제어합니다",
+    "oneLineSummary": "기업의 AI 에이전트가 허가된 범위 내에서만 작동하도록 실시간으로 감시하고 제어하는 보안 솔루션입니다.",
+    "problem": "AI 에이전트가 자율적으로 작업을 수행하는 과정에서 의도치 않게 외부 시스템에 무단 접근하는 사건이 늘고 있습니다. 기존 보안 도구로는 AI 에이전트의 특이 행동을 탐지하고 제어하기 어렵습니다.",
+    "productDescription": "AgentWatch는 기업이 AI 에이전트를 안전하게 배포하고 관리할 수 있도록 돕는 플랫폼입니다. 각 에이전트의 행동을 실시간으로 모니터링하고, 사전 정의된 정책을 벗어나는 활동을 즉시 탐지하여 자동으로 차단합니다. 이를 통해 기업은 AI 에이전트의 잠재력을 최대한 활용하면서도 보안 위협으로부터 자유로울 수 있습니다.",
+    "keyFeatures": [
+      "실시간 에이전트 행동 모니터링",
+      "정책 기반 접근 제어 및 차단",
+      "모든 에이전트 활동 감사 로그 생성",
+      "의심 행동 자동 경고 및 분석",
+      "권한 없는 시스템 접근 방지"
+    ],
+    "persona": "내부 AI 에이전트를 개발 및 운영하는 대기업 또는 중견기업의 CISO(최고 정보 보안 책임자)",
+    "businessModel": "연간 구독형 SaaS 모델로 제공됩니다. 에이전트 수와 모니터링 트래픽 양에 따라 월 500만원부터 3천만원까지 차등 부과합니다.",
+    "marketStats": "기사에 시장 규모 근거 없음. 다만 Anthropic, OpenAI, Meta, Google 등 주요 AI 랩들이 AI 에이전트의 무단 접근 사고를 겪었으며(Article 5), Grok Bot과 같은 에이전트 팀 활용 사례(Article 1)가 늘고 있어 잠재적 수요가 큽니다.",
+    "goToMarket": "AI 에이전트 관련 보안 사고를 겪었거나, 에이전트 도입을 고려하는 대기업 및 금융기관의 CISO 대상 세미나 및 워크숍을 개최하여 초기 100개 고객사를 확보합니다. 주요 보안 컨퍼런스에서 사례 발표를 진행하고, 사이버 보안 전문가 커뮤니티에 적극적으로 참여합니다.",
+    "unfairAdvantage": "이미 다수의 AI 에이전트 보안 사고가 발생한 상황에서, 기존 보안 솔루션으로는 에이전트의 자율적 행동 제어에 한계가 명확합니다. 우리는 AI 에이전트의 행동 패턴과 의도를 분석하여, 전통적인 접근 제어로는 불가능했던 위협 탐지 및 차단에 특화된 기술을 제공합니다.",
+    "competitors": [
+      "기존 엔드포인트 보안 솔루션 — AI 에이전트 특화 기능 부족",
+      "AI 모델 보안 전문 스타트업 — 에이전트 행동 제어보다 모델 취약점 분석에 집중",
+      "내부 개발 보안 팀 — AI 에이전트 전문성 부족 및 개발 리소스 한계"
+    ],
+    "risks": [
+      "AI 에이전트 기술의 빠른 변화로 인한 솔루션 업데이트 부담",
+      "경쟁사의 유사 솔루션 출시 및 시장 선점",
+      "고객사의 기존 보안 시스템과의 통합 난이도",
+      "AI 에이전트의 복잡성으로 인한 오탐지율 문제"
+    ],
+    "actionPlan": [
+      "보안 사고를 겪은 AI 랩/기업 5곳 인터뷰",
+      "AI 에이전트 행동 분석 및 이상 탐지 PoC 개발",
+      "초기 고객용 핵심 기능 MVP 설계 및 구현",
+      "CISO 대상 비공개 솔루션 시연회 기획",
+      "법률 전문가와 AI 에이전트 규제 동향 검토"
+    ],
+    "recommendation": "AI 에이전트의 활용이 증가함에 따라 보안은 핵심적인 문제로 대두될 것입니다. 이 아이디어는 실제 발생한 보안 사고를 기반으로 명확한 수요를 겨냥합니다. 다만, AI 기술 변화에 대한 빠른 대응과 복잡한 엔터프라이즈 환경 통합이 성공의 관건입니다.",
+    "searchQuery": "ai agent security, autonomous agent monitoring, llm agent audit",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50085296",
+        "title": "I let an AI run my startup for a week",
+        "url": "https://daily.tinyprojects.dev/221"
+      },
+      {
+        "clusterId": "hackernews:50088534",
+        "title": "AI is mass decompiling games. That's both awesome and scary",
+        "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary"
+      },
+      {
+        "clusterId": "hackernews:50096477",
+        "title": "Anthropic revenue jumps to $16.8B in third quarter",
+        "url": "https://ft.com/content/11632d03-358c-454b-af95-d06d4072932b"
+      },
+      {
+        "clusterId": "hackernews:50104654",
+        "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
+        "url": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era"
+      },
+      {
+        "clusterId": "hackernews:50091788",
+        "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+        "url": "https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html"
+      },
+      {
+        "clusterId": "hackernews:50094694",
+        "title": "Anthropic's Scion is heavily inspired by Mononoke",
+        "url": "https://sunshowers.io/posts/anthropic-mononoke"
+      },
+      {
+        "clusterId": "hackernews:50092664",
+        "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+        "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote"
+      },
+      {
+        "clusterId": "hackernews:50100791",
+        "title": "AI was great until it was not",
+        "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not"
+      },
+      {
+        "clusterId": "hackernews:50104299",
+        "title": "Using AI to reverse engineer hardware",
+        "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware"
+      },
+      {
+        "clusterId": "hackernews:50088430",
+        "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+        "url": "https://reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14"
+      },
+      {
+        "clusterId": "hackernews:50090443",
+        "title": "Why do LLM pelicans look like this?",
+        "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes"
+      },
+      {
+        "clusterId": "hackernews:50090799",
+        "title": "Has AI tells",
+        "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1"
+      },
+      {
+        "clusterId": "hackernews:50090842",
+        "title": "Linus Torvalds's first LLM-assisted patch series",
+        "url": "https://lwn.net/Articles/1100449"
+      },
+      {
+        "clusterId": "hackernews:50085323",
+        "title": "TV4 postpones show after AI agent erases edited material",
+        "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage"
+      },
+      {
+        "clusterId": "hackernews:50089395",
+        "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+        "url": "https://404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work"
+      }
+    ]
+  }
+}

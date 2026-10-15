@@ -1,0 +1,1375 @@
+{
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T16:33:07.598Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 10,
+      "filtered": 6
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 25,
+      "filtered": 29
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50085296",
+      "representativeId": "hackernews:50085296",
+      "items": [
+        {
+          "id": "hackernews:50085296",
+          "title": "I let an AI run my startup for a week",
+          "url": "https://daily.tinyprojects.dev/221",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T10:25:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 65,
+            "comments": 70,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50085296"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music",
+          "title": "Deezer will soon let you filter out AI-generated music",
+          "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-14T15:16:04.000Z",
+          "summary": "Deezer said that the new toggle will be rolled out by the end of the year.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1011938/muse-ai-data-friends-consent",
+          "title": "Friends don’t let friends feed their data to AI agents",
+          "url": "https://theverge.com/tech/1011938/muse-ai-data-friends-consent",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-15T16:21:45.000Z",
+          "summary": "There's a growing trend in the consumer tech world: gadgets designed to spy on everything and everyone around you, regardless of whether or not anyone else actually consented to it. Now, with the advent of \"AI personal assistants\" like Meta's Muse, you're being cheerfully asked not just to give up your own data, but also […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.50742356405709,
+      "breakdown": {
+        "hnPoints": 1.3478913329558666,
+        "hnComments": 0.803778012190777,
+        "mentions": 1.6666666666666665,
+        "recency": 1.4890875522437796,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50088534",
+      "representativeId": "hackernews:50088534",
+      "items": [
+        {
+          "id": "hackernews:50088534",
+          "title": "AI is mass decompiling games. That's both awesome and scary",
+          "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T14:47:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 106,
+            "comments": 161,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50088534"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+          "title": "AI is mass decompiling games. That's both awesome and scary.",
+          "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-14T16:26:53.000Z",
+          "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to get old games working on new hardware (often in a browser using WebAssembly). I like how this piece captures both the positives and the negatives of this new development: Most people already realized the scary part by now. If AI can decompile games and software, then the entire tech industry is about to explode. Anybody can decompile other software and use it any way they'd like, and nobody can stop them. Companies can steal from competitors. Your paid game or app can be open-sourced against your will. This isn't exclusive to old video games, we can apply this to any software. [...] This is also a big win for preservation. Old games can be ported, modified, enhanced, and made much more easily accessible than before. [...[ With console makers going all in on digital and games becoming entirely unplayable due to servers shutting down, this is fantastic news. We could own software we bought regardless of what the company thinks. Via Hacker News Tags: computer-history , game-design , ai , webassembly , generative-ai , llms , ai-ethics , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.088891478718099,
+      "breakdown": {
+        "hnPoints": 1.503337595620365,
+        "hnComments": 0.9593256324940144,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5928949172703866,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50096477",
+      "representativeId": "hackernews:50096477",
+      "items": [
+        {
+          "id": "hackernews:50096477",
+          "title": "Anthropic revenue jumps to $16.8B in third quarter",
+          "url": "https://ft.com/content/11632d03-358c-454b-af95-d06d4072932b",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T22:37:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50096477"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+          "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+          "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-15T13:04:03.000Z",
+          "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is worth quoting in full (highlight mine): The start-up has also clamped down on “distillation” — a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones. When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending. Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter. Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed \"other labs\" spent over half a billion dollars distilling Anthropic's models in that quarter! Also notable: Anthropic appear to no longer be leaning on \"annualized run-rate revenue\" ( previously ) in these communications to their investors. Tags: ai , generative-ai , llms , anthropic",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.043947410041775,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.8333333333333333,
+        "recency": 1.311641110285099,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50104654",
+      "representativeId": "hackernews:50104654",
+      "items": [
+        {
+          "id": "hackernews:50104654",
+          "title": "Simons Foundation Launches $15M Effort to Help Mathematicians Navigate AI Era",
+          "url": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+          "source": "hackernews",
+          "publishedAt": "2026-10-15T14:58:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 97,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50104654"
+          }
+        }
+      ],
+      "score": 4.874085775658876,
+      "breakdown": {
+        "hnPoints": 1.475070932311586,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 1.4118854321093837,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50091788",
+      "representativeId": "hackernews:50091788",
+      "items": [
+        {
+          "id": "hackernews:50091788",
+          "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+          "url": "https://csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T17:45:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 933,
+            "comments": 588,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50091788"
+          }
+        }
+      ],
+      "score": 4.823531140909604,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.623531140909604,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50094694",
+      "representativeId": "hackernews:50094694",
+      "items": [
+        {
+          "id": "hackernews:50094694",
+          "title": "Anthropic's Scion is heavily inspired by Mononoke",
+          "url": "https://sunshowers.io/posts/anthropic-mononoke",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T20:30:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 400,
+            "comments": 147,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50094694"
+          }
+        }
+      ],
+      "score": 4.764068047481337,
+      "breakdown": {
+        "hnPoints": 1.9283709888778569,
+        "hnComments": 0.9422826634331711,
+        "mentions": 0.0,
+        "recency": 0.6934143951703089,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50092664",
+      "representativeId": "hackernews:50092664",
+      "items": [
+        {
+          "id": "hackernews:50092664",
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T18:32:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 375,
+            "comments": 264,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50092664"
+          }
+        }
+      ],
+      "score": 4.750486929565522,
+      "breakdown": {
+        "hnPoints": 1.9076612051566586,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6428257244088631,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50100791",
+      "representativeId": "hackernews:50100791",
+      "items": [
+        {
+          "id": "hackernews:50100791",
+          "title": "AI was great until it was not",
+          "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
+          "source": "hackernews",
+          "publishedAt": "2026-10-15T08:18:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50100791"
+          }
+        }
+      ],
+      "score": 4.621707169811966,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 1.0920949803728552,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50104299",
+      "representativeId": "hackernews:50104299",
+      "items": [
+        {
+          "id": "hackernews:50104299",
+          "title": "Using AI to reverse engineer hardware",
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+          "source": "hackernews",
+          "publishedAt": "2026-10-15T14:35:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 34,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50104299"
+          }
+        }
+      ],
+      "score": 4.485783822832413,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.6704023478051564,
+        "mentions": 0.0,
+        "recency": 1.3907060081013356,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50088430",
+      "representativeId": "hackernews:50088430",
+      "items": [
+        {
+          "id": "hackernews:50088430",
+          "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+          "url": "https://reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T14:38:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 172,
+            "comments": 173,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50088430"
+          }
+        }
+      ],
+      "score": 4.383913978039433,
+      "breakdown": {
+        "hnPoints": 1.6579115712666674,
+        "hnComments": 0.9728000536749565,
+        "mentions": 0.0,
+        "recency": 0.553202353097809,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50090443",
+      "representativeId": "hackernews:50090443",
+      "items": [
+        {
+          "id": "hackernews:50090443",
+          "title": "Why do LLM pelicans look like this?",
+          "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T16:33:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 163,
+            "comments": 140,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50090443"
+          }
+        }
+      ],
+      "score": 4.369313616757838,
+      "breakdown": {
+        "hnPoints": 1.640723682632624,
+        "hnComments": 0.9331464013803678,
+        "mentions": 0.0,
+        "recency": 0.5954435327448458,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50090799",
+      "representativeId": "hackernews:50090799",
+      "items": [
+        {
+          "id": "hackernews:50090799",
+          "title": "Has AI tells",
+          "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T16:52:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 131,
+            "comments": 111,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50090799"
+          }
+        }
+      ],
+      "score": 4.263418474837287,
+      "breakdown": {
+        "hnPoints": 1.570889917485449,
+        "hnComments": 0.8897280003879673,
+        "mentions": 0.0,
+        "recency": 0.6028005569638715,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50090842",
+      "representativeId": "hackernews:50090842",
+      "items": [
+        {
+          "id": "hackernews:50090842",
+          "title": "Linus Torvalds's first LLM-assisted patch series",
+          "url": "https://lwn.net/Articles/1100449",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T16:55:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 118,
+            "comments": 98,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50090842"
+          }
+        }
+      ],
+      "score": 4.207734289030194,
+      "breakdown": {
+        "hnPoints": 1.5375346018070926,
+        "hnComments": 0.8664634468125141,
+        "mentions": 0.0,
+        "recency": 0.6037362404105868,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50085323",
+      "representativeId": "hackernews:50085323",
+      "items": [
+        {
+          "id": "hackernews:50085323",
+          "title": "TV4 postpones show after AI agent erases edited material",
+          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T10:28:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 152,
+            "comments": 86,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50085323"
+          }
+        }
+      ],
+      "score": 4.1315356560182614,
+      "breakdown": {
+        "hnPoints": 1.6183872163026607,
+        "hnComments": 0.8420990676715653,
+        "mentions": 0.0,
+        "recency": 0.47104937204403474,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50089395",
+      "representativeId": "hackernews:50089395",
+      "items": [
+        {
+          "id": "hackernews:50089395",
+          "title": "Character.ai's Bankruptcy Documents Show the Economics of AI Don't Work",
+          "url": "https://404media.co/character-ais-bankruptcy-documents-show-the-economics-of-ai-dont-work",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T15:39:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 94,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50089395"
+          }
+        }
+      ],
+      "score": 3.976894323430753,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.8586866059087647,
+        "mentions": 0.0,
+        "recency": 0.5752282197001262,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50086363",
+      "representativeId": "hackernews:50086363",
+      "items": [
+        {
+          "id": "hackernews:50086363",
+          "title": "Nvidia's first GPU: GeForce 256",
+          "url": "https://dfarq.homeip.net/nvidias-first-gpu-geforce-256",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T12:05:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50086363"
+          }
+        }
+      ],
+      "score": 3.840985382009207,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.5014030852320762,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50082962",
+      "representativeId": "hackernews:50082962",
+      "items": [
+        {
+          "id": "hackernews:50082962",
+          "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
+          "url": "https://theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T05:53:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 91,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50082962"
+          }
+        }
+      ],
+      "score": 3.8365306307596336,
+      "breakdown": {
+        "hnPoints": 1.3890177512719881,
+        "hnComments": 0.8526359799108633,
+        "mentions": 0.0,
+        "recency": 0.3948768995767822,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50093857",
+      "representativeId": "hackernews:50093857",
+      "items": [
+        {
+          "id": "hackernews:50093857",
+          "title": "Bank of America hired 1000 contractors to patch software flaws exposed by Mythos",
+          "url": "https://cnbc.com/2026/10/14/anthropic-mythos-bank-of-america-hiring-cost.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T19:40:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50093857"
+          }
+        }
+      ],
+      "score": 3.5080888610798464,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.6715517838269599,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50090484",
+      "representativeId": "hackernews:50090484",
+      "items": [
+        {
+          "id": "hackernews:50090484",
+          "title": "I Deleted 168,000 Lines of Comments. My AI Agent Didn't Notice",
+          "url": "https://openstation.blog/2026/10/13/i-deleted-168000-lines-of-comments-my-ai-agent-didnt-notice",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T16:34:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50090484"
+          }
+        }
+      ],
+      "score": 3.4830683003822576,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.5959469193328804,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs",
+          "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
+          "url": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-15T15:12:58.000Z",
+          "summary": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms",
+          "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-14T18:23:46.000Z",
+          "summary": "The label will appear on the player page and include songs entirely generated by AI or partially, such as AI involved in composition and vocals.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.3081144583349458,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.424781125001613,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:50083046",
+      "representativeId": "hackernews:50083046",
+      "items": [
+        {
+          "id": "hackernews:50083046",
+          "title": "NetBSD may have found a new role: The AI-free FOSS OS",
+          "url": "https://theregister.com/os-platforms/2026/10/13/netbsd-may-have-found-a-new-role-the-ai-free-foss-os/5302818",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T06:06:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50083046"
+          }
+        }
+      ],
+      "score": 3.186555572316703,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.3981256878115984,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50085332",
+      "representativeId": "hackernews:50085332",
+      "items": [
+        {
+          "id": "hackernews:50085332",
+          "title": "Show HN: Building an LLM from Scratch in TypeScript",
+          "url": "https://book.humanexperiences.io",
+          "source": "hackernews",
+          "publishedAt": "2026-10-14T10:29:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50085332"
+          }
+        }
+      ],
+      "score": 3.057797792142698,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 0.47150307170963135,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+          "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+          "source": "google-deepmind",
+          "publishedAt": "2026-10-15T16:08:03.000Z",
+          "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.9760518451253493,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4760518451253493,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "representativeId": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+          "title": "Teaching students to think and learn through questions",
+          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+          "source": "openai",
+          "publishedAt": "2026-10-15T13:00:00.000Z",
+          "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.8082361861494824,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3082361861494827,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+          "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
+          "url": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-15T15:43:24.000Z",
+          "summary": "FTC may fine AI firms on par with companies that delay data breach reports.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5028837992333317,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.452883799233332,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "representativeId": "huggingface:https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+          "title": "Apertus 1.5 Release Notes",
+          "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+          "source": "huggingface",
+          "publishedAt": "2026-10-15T09:08:45.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.4777932825851443,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1277932825851442,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+          "title": "AI agents are coming to Rivian’s cars",
+          "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-15T15:02:36.000Z",
+          "summary": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3153330129362937,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4153330129362938,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+      "representativeId": "theverge-ai:https://theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+          "title": "Nobody is safe from celebrity AI deepfakes",
+          "url": "https://theverge.com/report/1011927/instagram-celebrity-ai-slop-likeness-taylor-swift-mia-goth",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-15T14:03:42.000Z",
+          "summary": "In hindsight, the post on Instagram should have raised more red flags. The image purported to show actress Mia Goth, just days after filing for divorce from actor and filmmaker Shia LaBeouf, posing in a T-shirt with a pointed message: MY EX IS MY BIGGEST FAN. To really drive home the point, the song \"Single […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.262828957046964,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3628289570469643,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+          "title": "Amazon’s Bee launches two new personal AI devices, starting at $75",
+          "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-15T12:00:00.000Z",
+          "summary": "Amazon-owned Bee has launched its first new AI devices since its acquisition, including an updated wearable and a credit-card-sized recorder that attaches to smartphones. The devices can summarize conversations, create to-do lists, and integrate with Alexa and Amazon shopping, with prices starting at $74.99.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1588160426005185,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2588160426005184,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/flux-3",
+      "representativeId": "huggingface:https://huggingface.co/blog/flux-3",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/flux-3",
+          "title": "Welcome FLUX.3 Image Klein in Diffusers",
+          "url": "https://huggingface.co/blog/flux-3",
+          "source": "huggingface",
+          "publishedAt": "2026-10-15T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.1430044150088774,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7930044150088773,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+          "title": "Your secrets aren’t safe with this cute robot toy — they’re on Chinese servers ready to be hacked",
+          "url": "https://theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-15T11:00:00.000Z",
+          "summary": "There's a new digital pet in town - a cute little marshmallow of a robot that can change its cartoony expressions to match your mood. But if you or your kids talk to \"Eiliko\" over Wi-Fi, it'll phone home to China. Its AI companion can store literally everything you tell it on Chinese servers, where […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1112628024549744,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2112628024549745,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/amp-beyond-coding",
+      "representativeId": "openai:https://openai.com/index/amp-beyond-coding",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/amp-beyond-coding",
+          "title": "Amp puts AI agents to work beyond code with OpenAI models",
+          "url": "https://openai.com/index/amp-beyond-coding",
+          "source": "openai",
+          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.999561477564627,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49956147756462715,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/sentinelone",
+      "representativeId": "openai:https://openai.com/index/sentinelone",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/sentinelone",
+          "title": "SentinelOne cuts malware analysis from weeks to hours",
+          "url": "https://openai.com/index/sentinelone",
+          "source": "openai",
+          "publishedAt": "2026-10-14T12:00:00.000Z",
+          "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.999561477564627,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49956147756462715,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/hiro-acev2",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/hiro-acev2",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/hiro-acev2",
+          "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+          "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+          "source": "huggingface",
+          "publishedAt": "2026-10-14T16:12:42.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.937522341226406,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5875223412264059,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/third-moment-research",
+      "representativeId": "openai:https://openai.com/index/third-moment-research",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/third-moment-research",
+          "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+          "url": "https://openai.com/index/third-moment-research",
+          "source": "openai",
+          "publishedAt": "2026-10-14T07:00:00.000Z",
+          "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9120685772909802,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.41206857729098023,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/block-ai-powered-security",
+      "representativeId": "openai:https://openai.com/index/block-ai-powered-security",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/block-ai-powered-security",
+          "title": "How Block is building AI-powered security with OpenAI technology",
+          "url": "https://openai.com/index/block-ai-powered-security",
+          "source": "openai",
+          "publishedAt": "2026-10-14T07:00:00.000Z",
+          "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9120685772909802,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.41206857729098023,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/14/tree-appreciator",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/14/tree-appreciator",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/14/tree-appreciator",
+          "title": "Tree Appreciator",
+          "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-14T21:23:01.000Z",
+          "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. Somewhat embarrassingly given my recent talk , I've found that telling Opus 5.5 \"make sure it is fun\" works uncomfortably well. In this case Claude crunched for 3 hours and 7 minutes before retuning a cosy little spot-the-difference game with music and animation and achievements that's quite compelling to play. Tags: game-design , javascript , ai , generative-ai , llms , claude , vibe-coding , three-js",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7670004179055918,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.717000417905592,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+          "title": "Ricursive Intelligence is betting on AI-designed chips to help solve the compute crisis",
+          "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-15T01:01:32.000Z",
+          "summary": "The founders detailed how their startup is developing AI that can design chips, learn from each iteration, and improve subsequent designs, all with the goal of automating and accelerating the chip design process.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7249485853811848,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.824948585381185,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt",
+          "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+          "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-15T00:00:00.000Z",
+          "summary": "Gudea, a company that tracks how stories and rumors spread online that describes itself as the “storm tracker for the internet,” is using AI to help organizations spot trouble brewing online before it turns into a crisis.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6930044150088772,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7930044150088773,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "representativeId": "theverge-ai:https://theverge.com/news/1011654/mckinsey-ai-client-interview",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/news/1011654/mckinsey-ai-client-interview",
+          "title": "McKinsey is making job applicants spar with a fake AI client",
+          "url": "https://theverge.com/news/1011654/mckinsey-ai-client-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-14T22:53:31.000Z",
+          "summary": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their day-to-day work,\" the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6598792886726628,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7598792886726627,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins",
+          "title": "Researchers use AI to design proteins that cut up other proteins",
+          "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-14T17:10:15.000Z",
+          "summary": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.659628668958081,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6096286689580812,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room",
+          "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
+          "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-14T16:41:49.000Z",
+          "summary": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6486046929886826,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5986046929886829,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+          "title": "Eight states sue OpenAI, saying ChatGPT isn’t safe for kids",
+          "url": "https://theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-14T21:11:28.000Z",
+          "summary": "OpenAI is facing a new wave of lawsuits from eight US states that accuse the company of harming children and misleading customers about the safety of ChatGPT, as reported earlier by Reuters. The lawsuits, filed separately by Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho, and Montana, allege OpenAI unlawfully put profits over safety when […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.611705070975144,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.711705070975144,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
+          "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-14T12:55:06.000Z",
+          "summary": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5675437232746072,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5175437232746074,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+          "title": "The AI race is back on",
+          "url": "https://theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-14T19:06:03.000Z",
+          "summary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5566629107805356,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6566629107805356,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say",
+          "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+          "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-14T11:00:30.000Z",
+          "summary": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.530844240576097,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.480844240576097,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
+          "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+          "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-14T18:00:00.000Z",
+          "summary": "Most companies use AI agents to ship products faster or speed up workflows. Apate.ai sends them undercover to get scammed.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.529408021300259,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6294080213002592,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace",
+          "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+          "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-14T15:08:00.000Z",
+          "summary": "Zenzap is used by organizations including Starbucks and Taco Bell.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4636252737157258,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5636252737157259,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+          "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+          "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-14T15:00:00.000Z",
+          "summary": "The problem Floqer is trying to solve is familiar to anyone who has worked in sales or revenue operations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4607387993636483,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5607387993636483,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai",
+          "title": "Scimplify raises $25M to challenge China’s grip on critical materials with AI",
+          "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-14T11:00:00.000Z",
+          "summary": "Scimplify's annualized revenue run rate has tripled to $200 million as it eyes U.S. expansion.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3806899617067439,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.48068996170674394,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50085296",
+    "hackernews:50088534",
+    "hackernews:50096477",
+    "hackernews:50104654",
+    "hackernews:50091788"
+  ]
+}
