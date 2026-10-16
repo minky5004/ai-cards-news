@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T16:22:26.562Z",
+  "idea": {
+    "productName": "HumaGuard",
+    "tagline": "사람이 직접 만든 콘텐츠, AI 없이 지켜냅니다",
+    "oneLineSummary": "콘텐츠 창작자 및 출판사를 위해 AI 생성 콘텐츠 유입을 막고 인간 창작물임을 증명하는 온디바이스 AI 검증 솔루션을 제공합니다.",
+    "problem": "미디어 슬로피피케이션으로 인해 AI가 생성한 조잡한 콘텐츠가 쏟아지고 있습니다. 특히 프리랜서 제출물 중 AI 작성 의심 사례가 많아 출판사는 진정한 인간의 창작물을 가려내기 어렵습니다.",
+    "productDescription": "HumaGuard는 강력한 온디바이스 AI 모델을 활용하여 콘텐츠가 인간에 의해 생성되었는지 심층적으로 분석합니다. 민감한 원고를 외부 클라우드에 업로드할 필요 없이 Mac Studio 같은 로컬 환경에서 직접 검증합니다. 이를 통해 출판사는 신뢰할 수 있는 인간 콘텐츠만을 게재하고, 창작자는 자신의 작품이 AI로 오인받지 않도록 보호받을 수 있습니다.",
+    "keyFeatures": [
+      "콘텐츠 AI 작성 여부 심층 분석",
+      "로컬 환경에서 민감 데이터 검증",
+      "의심 문체 및 패턴 자동 식별",
+      "인간 창작물 증명 리포트 제공",
+      "MLX 기반 Mac 최적화 검증 속도"
+    ],
+    "persona": "주요 일간지, 잡지, 온라인 미디어의 편집자 및 발행인. 이들은 \"AI 금지 정책\"을 채택하거나 고려 중이며, 제출되는 글이나 삽화가 AI로 만들어졌는지 확인해야 하는 부담을 느낍니다.",
+    "businessModel": "월간 구독 모델. 기본 기능은 월 99달러, 고급 기능(대용량 파일, API 연동 등)은 월 299달러. 연간 계약 시 20% 할인 제공합니다.",
+    "marketStats": "Current Affairs는 엄격한 AI 금지 정책을 채택하며 \"미디어 슬로피피케이션\"에 도전하고 있습니다. Business Insider CEO는 \"AI에 올인\"한다고 밝혔으나, Sports Illustrated는 AI 작성 기사로 논란이 되는 등, AI 콘텐츠에 대한 회의적 시각과 인간 창작물에 대한 수요가 동시에 존재함을 기사가 보여줍니다. 시장 규모 근거는 기사에 명시되어 있지 않습니다.",
+    "goToMarket": "Current Affairs와 같이 \"AI 금지 정책\"을 선언했거나 고려 중인 독립 출판사 및 소규모 미디어를 대상으로 초기 홍보를 진행합니다. 언론인 및 작가 커뮤니티 포럼에 참여하여 데모를 시연하고, AI 콘텐츠의 윤리적 문제점을 강조하며 공감대를 형성합니다.",
+    "unfairAdvantage": "Apple의 MLX 프레임워크와 Mac Studio의 통합 메모리 아키텍처를 활용하여, 민감한 데이터를 외부 클라우드에 전송할 필요 없이 로컬에서 강력한 LLM 기반 검증을 수행할 수 있는 독점적인 기술 스택을 제공합니다. 이는 프라이버시를 중요시하는 출판사들에게 핵심적인 차별점입니다.",
+    "competitors": [
+      "Turnitin — AI 표절/생성 감지 기능, 클라우드 기반",
+      "GPTZero — 웹 기반 AI 콘텐츠 감지, 주로 교육용",
+      "CopyLeaks — AI 콘텐츠 및 표절 감지, API 제공",
+      "내부 인력의 수동 검토 — 시간과 비용 소모, AI 패턴 식별 한계"
+    ],
+    "risks": [
+      "AI 감지 기술 우회 발전: 새로운 AI 모델이 감지 회피 기술을 개발할 수 있습니다.",
+      "오탐(False Positive) 문제: 인간이 작성한 글을 AI로 오인하여 신뢰도에 타격을 줄 수 있습니다.",
+      "Mac Studio 의존성: 특정 하드웨어에 대한 높은 의존성으로 잠재적 시장이 제한될 수 있습니다.",
+      "정책 변화: AI 콘텐츠에 대한 사회적 허용도가 높아지면 수요가 줄어들 수 있습니다."
+    ],
+    "actionPlan": [
+      "MLX 기반 AI 검증 모델의 프로토타입 개발 시작",
+      "\"Why We're Banning AI\" 기사 속 출판사 및 유사 미디어 10곳에 초기 인터뷰 요청",
+      "AI가 생성한 글과 인간이 쓴 글 데이터셋 수집 및 라벨링 계획 수립",
+      "온디바이스 AI 검증 기술 관련 특허 가능성 법률 검토"
+    ],
+    "recommendation": "AI가 미디어 콘텐츠 시장을 재편하는 시점에서, 인간 창작물의 가치를 지키려는 움직임은 더욱 커질 것입니다. HumaGuard는 이러한 수요에 부합하며, 특히 프라이버시와 성능 면에서 강력한 차별점을 가집니다. 다만, AI 감지 기술의 지속적인 발전과 오탐 문제 해결이 사업의 성패를 좌우할 핵심 과제입니다.",
+    "searchQuery": "AI content detection local MLX Mac",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50108131",
+        "title": "Why We're Banning AI",
+        "url": "https://currentaffairs.org/news/why-were-banning-ai"
+      },
+      {
+        "clusterId": "hackernews:50118320",
+        "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+      },
+      {
+        "clusterId": "hackernews:50104654",
+        "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+        "url": "https://simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era"
+      },
+      {
+        "clusterId": "hackernews:50104299",
+        "title": "Using AI to reverse engineer hardware",
+        "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware"
+      },
+      {
+        "clusterId": "hackernews:50118688",
+        "title": "Show HN: Gemini 4 Argon plays StarCraft",
+        "url": "https://starskirmish.com/bench/v0-2"
+      },
+      {
+        "clusterId": "hackernews:50106738",
+        "title": "More on Anthropic's Scion ripping off Mononoke",
+        "url": "https://sunshowers.io/posts/anthropic-mononoke-2"
+      },
+      {
+        "clusterId": "hackernews:50105900",
+        "title": "Market selloff, rising rates test AI data centre deal boom",
+        "url": "https://reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15"
+      },
+      {
+        "clusterId": "hackernews:50100791",
+        "title": "AI was great until it was not",
+        "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not"
+      },
+      {
+        "clusterId": "hackernews:50111112",
+        "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
+        "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai"
+      },
+      {
+        "clusterId": "hackernews:50106285",
+        "title": "Danish Supreme Court Finds That AI CSAM Is CSAM",
+        "url": "https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930"
+      },
+      {
+        "clusterId": "hackernews:50105791",
+        "title": "Frontier Pre-Training at Microsoft AI",
+        "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai"
+      },
+      {
+        "clusterId": "techcrunch-ai:https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+        "title": "Elorian’s first AI model wants to reason with images, not just about them",
+        "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them"
+      },
+      {
+        "clusterId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
+        "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+        "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees"
+      }
+    ]
+  }
+}

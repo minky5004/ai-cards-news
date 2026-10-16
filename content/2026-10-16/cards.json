@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026-10-16T16:21:31.307Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50108131",
+      "headline": "AI 전면 금지, 20만 일자리 지킨다",
+      "highlight": [
+        "20만 일자리"
+      ],
+      "body": "Current Affairs는 인간의 생각과 창의성 보호를 위해 AI 생성 텍스트와 그림 사용을 전면 금지했습니다. 미디어 산업에서 20만 개 일자리가 AI로 사라지는 가운데, 독자들은 진정성 있는 인간의 콘텐츠를 만나게 됩니다.",
+      "sourceUrl": "https://currentaffairs.org/news/why-were-banning-ai",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.currentaffairs.org/hubfs/smash1.png",
+      "publishedAt": "2026-10-15T18:32:29.000Z"
+    },
+    {
+      "clusterId": "hackernews:50118320",
+      "headline": "맥 스튜디오 4대로 1조 파라미터 AI 돌린다",
+      "highlight": [
+        "4대",
+        "1조 파라미터 AI"
+      ],
+      "body": "애플 MLX로 8160억 파라미터 Muse Spark Open 모델을 맥 스튜디오 4대 클러스터에서 초당 36토큰 이상 추론 가능합니다. M5 울트라의 강력한 성능과 썬더볼트 RDMA 덕분에 낮은 전력으로 초거대 AI 연구를 효율적으로 할 수 있게 됐습니다.",
+      "sourceUrl": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+      "sourceName": "Apple Machine Learning Research",
+      "imageUrl": "https://mlr.cdn-apple.com/media/MLX_icon_F001_TC_2048_2600_6439f2ba0f.png",
+      "publishedAt": "2026-10-16T13:43:48.000Z"
+    },
+    {
+      "clusterId": "hackernews:50104299",
+      "headline": "AI가 멈춘 하드웨어 드라이버를 살려냈다",
+      "highlight": [
+        "AI가"
+      ],
+      "body": "AI가 리눅스에서 지원되지 않던 스캐너와 노트북 카메라 드라이버 문제를 해결했습니다. 스캐너는 이전보다 34.6초 빨라졌고, 카메라 밝기도 90.9로 크게 개선됐습니다. 이는 AI가 복잡한 하드웨어 개발 과정을 간소화할 수 있음을 보여줍니다.",
+      "sourceUrl": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
+      "sourceName": "Christian F.K. Schaller",
+      "imageUrl": "https://blogs.gnome.org/uraeus/files/2026/10/drivercompare.png",
+      "publishedAt": "2026-10-15T14:35:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:50118688",
+      "headline": "10배 싸게 2등! GPT-6.1 Sol 가성비 주목",
+      "highlight": [
+        "10배 싸게 2등!"
+      ],
+      "body": "스타스크러미시 벤치 v0.2에서 GPT-6.1 Sol이 GPT-6 Astra에 이어 2위를 차지했습니다. 이 모델은 GPT-6 Astra 비용의 10분의 1로 탁월한 성능을 보여 독보적인 가성비를 자랑합니다. AI 봇 개발 비용을 크게 절감하며 고성능 LLM을 활용할 수 있게 됩니다.",
+      "sourceUrl": "https://starskirmish.com/bench/v0-2",
+      "sourceName": "StarSkirmish",
+      "imageUrl": "https://starskirmish.com/assets/og.png",
+      "publishedAt": "2026-10-16T14:18:44.000Z"
+    }
+  ]
+}
