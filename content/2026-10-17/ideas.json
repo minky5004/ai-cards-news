@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T15:16:53.133Z",
+  "idea": {
+    "productName": "BugSieve",
+    "tagline": "AI 리뷰어가 쏟아낸 수천 개 버그를 출시 전에 솎아낸다",
+    "oneLineSummary": "인공지능 코드 검사기가 양산한 버그 보고서 중 실제 런타임 장애 유발 건만 선별해 엔지니어링 리드에게 전달합니다.",
+    "problem": "AI 리뷰 도구의 도입으로 감당 불가능한 양의 결함 보고가 쏟아져 배포가 미뤄집니다. 개발팀은 실제 배포를 막는 치명적 문제와 사소한 이론상 결함을 일일이 가려내느라 개발을 멈춥니다.",
+    "productDescription": "Postgres 19가 AI 리뷰어의 과도한 결함 발굴로 출시를 연기한 문제와 엔트로픽 monorepo 커밋 폭증 현상을 해결하는 자동 트리아지 도구입니다. 정적 분석 및 LLM 리뷰어가 올린 모든 이슈에 대해 테스트 컨테이너를 띄워 실제 재현 가능성과 프로덕션 영향도를 즉시 검증합니다. 통과하지 못한 가상 결함이나 사소한 스타일 지적은 백로그로 격리하고 릴리스 블로커만 메인테이너 화면에 올립니다. 배포 파이프라인과 결합해 병합 지연을 방지하고 코드 리뷰 병목을 해소합니다.",
+    "keyFeatures": [
+      "실행 재현 없는 지적 자동 격리",
+      "배포 차단 결함만 즉각 상위 알림",
+      "일일 버그 리포트 80% 압축 요약",
+      "깃허브 PR 자동 라벨 및 승인"
+    ],
+    "persona": "AI 리뷰 도구를 도입했다가 하루 수백 건의 이슈 알림에 치여 정기 릴리스 일정을 놓치고 있는 시리즈 A 이상 B2B SaaS 기업의 테크 리드입니다.",
+    "businessModel": "월 구독형 SaaS 모델입니다. 월 활성 리포지토리 5개 기준 월 149달러의 팀 플랜과 실시간 재현 샌드박스를 무제한 지원하는 월 499달러의 엔터프라이즈 플랜을 제공합니다.",
+    "marketStats": "기사에 직접적인 시장 규모 근거는 없습니다. 다만 엔트로픽 내부 일일 변경 사항이 2,500건에서 30,000건으로 급증했고, Postgres 19가 AI 리뷰어의 버그 발굴 과다로 출시가 연기될 정도로 코드베이스 과부하가 현실화되었습니다.",
+    "goToMarket": "Postgres 커뮤니티 및 Hacker News의 'AI 코드 리뷰 피로도' 토론 스레드 참가자들을 대상으로 무료 오픈소스 트리아지 CLI를 먼저 배포합니다. 상위 100개 오픈소스 메인테이너에게 깃허브 액션 형태로 무상 제공하여 초기 검증 데이터를 확보합니다.",
+    "unfairAdvantage": "AI 생성 코드가 쏟아지는 시점에 단순 텍스트 리뷰가 아닌 '샌드박스 기반 결함 재현 여부'로 필터링하는 파이프라인을 먼저 표준화하는 쪽이 메인테이너 신뢰를 선점합니다.",
+    "competitors": [
+      "SonarQube — 정적 규칙 위주 검사 · AI 이슈 재현 검증 미흡",
+      "CodeRabbit — 요약 및 피드백 생성 중심 · 노이즈 억제 필터 미비",
+      "GitHub Copilot Autofix — 결함 수정 제안 집중 · 우선순위 판정 부족"
+    ],
+    "risks": [
+      "재현 환경 구성을 위한 컨테이너 실행 비용 증가",
+      "실제 버그를 엣지 케이스로 오판해 숨기는 오탐 위험",
+      "깃허브 자체 AI 리뷰 기능 고도화에 따른 기능 흡수"
+    ],
+    "actionPlan": [
+      "Postgres 19 버그 이슈 공개 스레드에서 AI가 제기한 리포트 100건 수집",
+      "도커 기반 재현 테스트 파이프라인 프로토타입 3일 내 구축",
+      "오픈소스 프로젝트 3곳의 PR에 봇을 연동해 가짜 버그 차단율 검증",
+      "초기 메인테이너 10명 대상 비공개 베타 피드백 수집"
+    ],
+    "recommendation": "AI 코딩 도구의 확산으로 코드 양과 AI 리뷰 지적량이 동반 폭증하면서 인간의 수용 한계를 넘어서는 병목이 발생했습니다. 다만 실행 환경이 복잡한 소프트웨어일수록 결함 재현 자동화 비용이 커지므로 초기 적용 대상을 표준화된 웹 백엔드 스택으로 한정해야 합니다.",
+    "searchQuery": "ai code review triage",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 45점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Tiptap AI Agent – Add AI workflows to your text editor in minutes",
+          "url": "https://news.ycombinator.com/item?id=44177964",
+          "points": 45
+        },
+        {
+          "title": "Show HN: FixBugs – Reproduce production bugs and verify fixes",
+          "url": "https://fixbugs.ai",
+          "points": 43
+        },
+        {
+          "title": "Show HN: Trust Protocols for Anthropic/OpenAI/Gemini",
+          "url": "https://www.mnemom.ai",
+          "points": 40
+        },
+        {
+          "title": "Launch HN: Sonarly (YC W26) – AI agent to triage and fix your production alerts",
+          "url": "https://sonarly.com/",
+          "points": 30
+        },
+        {
+          "title": "Show HN: Rift – Open-source AI-native language server for your personal AI SWE",
+          "url": "https://github.com/morph-labs/rift",
+          "points": 17
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50129121",
+        "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+        "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017"
+      },
+      {
+        "clusterId": "hackernews:50122800",
+        "title": "Claude reveals ECDSA curve origins",
+        "url": "https://anthropic.com/research/ecdsa-curve-origins"
+      },
+      {
+        "clusterId": "hackernews:50121179",
+        "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+        "url": "https://mercor.com/research/labor-index/benchmark-map"
+      },
+      {
+        "clusterId": "hackernews:50122951",
+        "title": "How the Claude Code team does code review",
+        "url": "https://claude.dev/blog/solving-code-review-at-anthropic"
+      },
+      {
+        "clusterId": "hackernews:50122878",
+        "title": "You could have invented transformers from memory",
+        "url": "https://alexwang.ai/posts/associative-memory"
+      },
+      {
+        "clusterId": "hackernews:50118320",
+        "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+        "url": "https://machinelearning.apple.com/research/mlx-distributed-inference"
+      },
+      {
+        "clusterId": "hackernews:50127979",
+        "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+        "url": "https://llmspeed.dev"
+      },
+      {
+        "clusterId": "hackernews:50122431",
+        "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+        "url": "https://github.com/cobanov/PS5LM"
+      },
+      {
+        "clusterId": "hackernews:50122112",
+        "title": "Anthropic assigned highest junk credit rating in June",
+        "url": "https://ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d"
+      },
+      {
+        "clusterId": "hackernews:50118688",
+        "title": "Show HN: Gemini 4 Argon plays StarCraft",
+        "url": "https://starskirmish.com/bench/v0-2"
+      },
+      {
+        "clusterId": "hackernews:50119991",
+        "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+        "url": "https://theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471"
+      },
+      {
+        "clusterId": "hackernews:50121939",
+        "title": "Designing more efficient quantum circuits with Claude",
+        "url": "https://anthropic.com/research/designing-efficient-quantum-circuits"
+      },
+      {
+        "clusterId": "hackernews:50118662",
+        "title": "How to make System 1 LLMs show System 2 competencies?",
+        "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113"
+      },
+      {
+        "clusterId": "hackernews:50118876",
+        "title": "Show HN: rStation – A shared research lab for your AI agents",
+        "url": "https://rstation.ai"
+      },
+      {
+        "clusterId": "hackernews:50118863",
+        "title": "Redesigning Source Control at Anthropic",
+        "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic"
+      }
+    ]
+  }
+}

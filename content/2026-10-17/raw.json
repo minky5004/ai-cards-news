@@ -1,0 +1,830 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026-10-17T15:12:43.626Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 25,
+      "filtered": 10
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50129121",
+      "representativeId": "hackernews:50129121",
+      "items": [
+        {
+          "id": "hackernews:50129121",
+          "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T08:37:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 435,
+            "comments": 215,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50129121"
+          }
+        },
+        {
+          "id": "hackernews:50129045",
+          "title": "DeepSeek-v4.1-Flash-1017",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T08:21:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 311,
+            "comments": 121,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+          }
+        }
+      ],
+      "score": 5.319427712976615,
+      "breakdown": {
+        "hnPoints": 1.9552926933197265,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.1641350196568878,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50122800",
+      "representativeId": "hackernews:50122800",
+      "items": [
+        {
+          "id": "hackernews:50122800",
+          "title": "Claude reveals ECDSA curve origins",
+          "url": "https://anthropic.com/research/ecdsa-curve-origins",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T18:55:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 953,
+            "comments": 343,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50122800"
+          }
+        }
+      ],
+      "score": 4.886983760993113,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6869837609931132,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50121179",
+      "representativeId": "hackernews:50121179",
+      "items": [
+        {
+          "id": "hackernews:50121179",
+          "title": "90% of US working hours are spent on tasks not covered well by AI benchmarks",
+          "url": "https://mercor.com/research/labor-index/benchmark-map",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T17:08:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 556,
+            "comments": 493,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50121179"
+          }
+        }
+      ],
+      "score": 4.841245967673405,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6412459676734046,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50122951",
+      "representativeId": "hackernews:50122951",
+      "items": [
+        {
+          "id": "hackernews:50122951",
+          "title": "How the Claude Code team does code review",
+          "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T19:04:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 417,
+            "comments": 394,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50122951"
+          }
+        }
+      ],
+      "score": 4.83260349210072,
+      "breakdown": {
+        "hnPoints": 1.9417287614447696,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6908747306559497,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50122878",
+      "representativeId": "hackernews:50122878",
+      "items": [
+        {
+          "id": "hackernews:50122878",
+          "title": "You could have invented transformers from memory",
+          "url": "https://alexwang.ai/posts/associative-memory",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T19:01:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 383,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50122878"
+          }
+        }
+      ],
+      "score": 4.652250639948641,
+      "breakdown": {
+        "hnPoints": 1.9144344859003615,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.6893245533688227,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50118320",
+      "representativeId": "hackernews:50118320",
+      "items": [
+        {
+          "id": "hackernews:50118320",
+          "title": "Apple ML Research: Muse Spark Open with MLX on Mac Studio",
+          "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T13:43:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 337,
+            "comments": 171,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50118320"
+          }
+        }
+      ],
+      "score": 4.60625653086139,
+      "breakdown": {
+        "hnPoints": 1.873384223094603,
+        "hnComments": 0.9706201257617965,
+        "mentions": 0.0,
+        "recency": 0.5622521820049898,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50127979",
+      "representativeId": "hackernews:50127979",
+      "items": [
+        {
+          "id": "hackernews:50127979",
+          "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+          "url": "https://llmspeed.dev",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T04:36:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 168,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50127979"
+          }
+        }
+      ],
+      "score": 4.603397192279022,
+      "breakdown": {
+        "hnPoints": 1.6503856385650206,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 0.9973821387160444,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50122431",
+      "representativeId": "hackernews:50122431",
+      "items": [
+        {
+          "id": "hackernews:50122431",
+          "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+          "url": "https://github.com/cobanov/PS5LM",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T18:32:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 329,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50122431"
+          }
+        }
+      ],
+      "score": 4.571046253911826,
+      "breakdown": {
+        "hnPoints": 1.8656780114952183,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 0.6767435959259838,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50122112",
+      "representativeId": "hackernews:50122112",
+      "items": [
+        {
+          "id": "hackernews:50122112",
+          "title": "Anthropic assigned highest junk credit rating in June",
+          "url": "https://ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T18:11:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 272,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50122112"
+          }
+        }
+      ],
+      "score": 4.507889303594768,
+      "breakdown": {
+        "hnPoints": 1.804673387366797,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.6677337262241303,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50118688",
+      "representativeId": "hackernews:50118688",
+      "items": [
+        {
+          "id": "hackernews:50118688",
+          "title": "Show HN: Gemini 4 Argon plays StarCraft",
+          "url": "https://starskirmish.com/bench/v0-2",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T14:18:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 232,
+            "comments": 104,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50118688"
+          }
+        }
+      ],
+      "score": 4.406261317739809,
+      "breakdown": {
+        "hnPoints": 1.7537023787350579,
+        "hnComments": 0.8775585094278122,
+        "mentions": 0.0,
+        "recency": 0.5750004295769393,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50119991",
+      "representativeId": "hackernews:50119991",
+      "items": [
+        {
+          "id": "hackernews:50119991",
+          "title": "Postgres 19 delayed after AI reviewers find more bugs than humans can fix",
+          "url": "https://theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T15:55:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 202,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50119991"
+          }
+        }
+      ],
+      "score": 4.35220595163096,
+      "breakdown": {
+        "hnPoints": 1.7093590594760621,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.611908576583478,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50121939",
+      "representativeId": "hackernews:50121939",
+      "items": [
+        {
+          "id": "hackernews:50121939",
+          "title": "Designing more efficient quantum circuits with Claude",
+          "url": "https://anthropic.com/research/designing-efficient-quantum-circuits",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T18:00:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 158,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50121939"
+          }
+        }
+      ],
+      "score": 4.158565003147368,
+      "breakdown": {
+        "hnPoints": 1.6307625478589205,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 0.662866045681413,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50118662",
+      "representativeId": "hackernews:50118662",
+      "items": [
+        {
+          "id": "hackernews:50118662",
+          "title": "How to make System 1 LLMs show System 2 competencies?",
+          "url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T14:16:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50118662"
+          }
+        }
+      ],
+      "score": 3.672988043690585,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 0.5742014051569819,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50118876",
+      "representativeId": "hackernews:50118876",
+      "items": [
+        {
+          "id": "hackernews:50118876",
+          "title": "Show HN: rStation – A shared research lab for your AI agents",
+          "url": "https://rstation.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T14:35:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50118876"
+          }
+        }
+      ],
+      "score": 3.62951422003424,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.5813021894872659,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50118863",
+      "representativeId": "hackernews:50118863",
+      "items": [
+        {
+          "id": "hackernews:50118863",
+          "title": "Redesigning Source Control at Anthropic",
+          "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic",
+          "source": "hackernews",
+          "publishedAt": "2026-10-16T14:34:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 41,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50118863"
+          }
+        }
+      ],
+      "score": 3.6007282110463255,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.7047812040004495,
+        "mentions": 0.0,
+        "recency": 0.5809540843979637,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "title": "Websites are closing their doors to AI agents",
+          "url": "https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-17T13:00:00.000Z",
+          "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2775140538871206,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3775140538871207,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/itau-generative-ai",
+      "representativeId": "openai:https://openai.com/index/itau-generative-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/itau-generative-ai",
+          "title": "How Itaú is building generative AI for its entire customer base",
+          "url": "https://openai.com/index/itau-generative-ai",
+          "source": "openai",
+          "publishedAt": "2026-10-16T19:00:00.000Z",
+          "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.18875702694356,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6887570269435603,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/16/code-review",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/16/code-review",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/16/code-review",
+          "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+          "url": "https://simonwillison.net/2026/Oct/16/code-review",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-16T22:06:37.000Z",
+          "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happens. Before, review was a gate at the end of the road: write the code, open a PR, wait for your colleague. Now, review runs continuously, more like spellcheck while you write. Most changes have been reviewed and fixed by Claude at least once before a human is asked to look. This catches most routine mistakes, and saves team attention for higher-level questions and scrutiny. — Addy Osmani, Morgan Westlee Lunt, and Qing Wang , How the Claude Code team does code review Tags: anthropic , claude , ai , claude-code , llms , addy-osmani , coding-agents , generative-ai , agentic-engineering , code-review",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8263936629131476,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7763936629131478,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
+          "title": "OpenAI models hacked a crypto wallet and breached more websites",
+          "url": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-16T20:59:01.000Z",
+          "summary": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7934294036699814,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7434294036699816,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops",
+          "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
+          "url": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-16T20:20:07.000Z",
+          "summary": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.775098621661403,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7250986216614034,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
+          "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+          "url": "https://technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-16T18:00:00.000Z",
+          "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Watch…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7127384291534367,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6627384291534367,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
+          "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
+          "url": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-16T15:41:00.000Z",
+          "summary": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6561756386467623,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6061756386467624,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+          "title": "Replit is no longer working with Anthropic, CEO says",
+          "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T21:22:28.000Z",
+          "summary": "Masad said the decision was made for a number of different reasons, including cost. Replit announced a partnership with OpenAI in August, but there was never any indication that it was no longer with Anthropic.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6547028450801111,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7547028450801113,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+          "title": "India becomes the latest country to report rogue AI agent activity",
+          "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T17:52:24.000Z",
+          "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5595136594661265,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6595136594661265,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+          "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+          "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T16:30:00.000Z",
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.525541779304945,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6255417793049451,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
+          "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+          "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T16:30:00.000Z",
+          "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who believe that robotics, powered by a general foundation model, is about to have […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.525541779304945,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6255417793049451,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+          "title": "Elorian’s first AI model wants to reason with images, not just about them",
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T16:01:37.000Z",
+          "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever",
+          "title": "Jev is Vercel’s fastest-adopted AI model ever",
+          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T15:33:49.000Z",
+          "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5142497560242765,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6142497560242767,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy",
+          "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+          "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-16T14:26:51.000Z",
+          "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.478003595046894,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.578003595046894,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+          "title": "Meta’s new terms may allow it to train AI on news sites for free",
+          "url": "https://theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-16T14:02:40.000Z",
+          "summary": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on October 30th, say Meta can use this outside content to \"develop, improve, research,\" and \"train\" […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.469101700641748,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5691017006417481,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50129121",
+    "hackernews:50122800",
+    "hackernews:50121179",
+    "hackernews:50122951",
+    "hackernews:50122878"
+  ]
+}
