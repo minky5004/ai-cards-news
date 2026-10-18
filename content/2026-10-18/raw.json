@@ -1,0 +1,478 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T15:34:13.951Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 16,
+      "filtered": 11
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50139873",
+      "representativeId": "hackernews:50139873",
+      "items": [
+        {
+          "id": "hackernews:50139873",
+          "title": "How employment is changing at Anthropic",
+          "url": "https://anthropic.com/research/employment-at-anthropic",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T10:49:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 87,
+            "comments": 166,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50139873"
+          }
+        }
+      ],
+      "score": 4.854922426155281,
+      "breakdown": {
+        "hnPoints": 1.4404441078217465,
+        "hnComments": 0.9650574313838309,
+        "mentions": 0.0,
+        "recency": 1.2494208869497037,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50137950",
+      "representativeId": "hackernews:50137950",
+      "items": [
+        {
+          "id": "hackernews:50137950",
+          "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+          "url": "https://sphinx-six-theta.vercel.app",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T04:33:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 201,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50137950"
+          }
+        }
+      ],
+      "score": 4.667766015737524,
+      "breakdown": {
+        "hnPoints": 1.7077703206818444,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.9817763664303605,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50129045",
+      "representativeId": "hackernews:50129045",
+      "items": [
+        {
+          "id": "hackernews:50129045",
+          "title": "DeepSeek-v4.1-Flash-1017",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T08:21:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 916,
+            "comments": 680,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50129045"
+          }
+        },
+        {
+          "id": "hackernews:50129121",
+          "title": "DeepSeek: DeepSeek v4.1 Flash 1017",
+          "url": "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T08:37:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 514,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50129121"
+          }
+        }
+      ],
+      "score": 4.65565463234147,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4556546323414695,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50141429",
+      "representativeId": "hackernews:50141429",
+      "items": [
+        {
+          "id": "hackernews:50141429",
+          "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T14:30:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 40,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50141429"
+          }
+        }
+      ],
+      "score": 4.617391602540155,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.7002373295680289,
+        "mentions": 0.0,
+        "recency": 1.4398361193064908,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50132502",
+      "representativeId": "hackernews:50132502",
+      "items": [
+        {
+          "id": "hackernews:50132502",
+          "title": "OpenAI discloses four more rogue incidents",
+          "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T16:31:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 129,
+            "comments": 154,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50132502"
+          }
+        }
+      ],
+      "score": 4.334417277010208,
+      "breakdown": {
+        "hnPoints": 1.5659780823514442,
+        "hnComments": 0.9509966340526815,
+        "mentions": 0.0,
+        "recency": 0.6174425606060819,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50133231",
+      "representativeId": "hackernews:50133231",
+      "items": [
+        {
+          "id": "hackernews:50133231",
+          "title": "Codex Desktop continuously generates Crashpad pending dumps",
+          "url": "https://github.com/openai/codex/issues/25921",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T17:45:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 157,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50133231"
+          }
+        }
+      ],
+      "score": 4.297687867031255,
+      "breakdown": {
+        "hnPoints": 1.628732768557908,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 0.6474468310401473,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50127979",
+      "representativeId": "hackernews:50127979",
+      "items": [
+        {
+          "id": "hackernews:50127979",
+          "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+          "url": "https://llmspeed.dev",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T04:36:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 312,
+            "comments": 86,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50127979"
+          }
+        }
+      ],
+      "score": 4.281147345507311,
+      "breakdown": {
+        "hnPoints": 1.8486624685895343,
+        "hnComments": 0.8420990676715653,
+        "mentions": 0.0,
+        "recency": 0.3903858092462108,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50132278",
+      "representativeId": "hackernews:50132278",
+      "items": [
+        {
+          "id": "hackernews:50132278",
+          "title": "Amazon uses AI to monitor union risk in UK warehouses",
+          "url": "https://opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T16:04:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 169,
+            "comments": 58,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50132278"
+          }
+        }
+      ],
+      "score": 4.228057611613647,
+      "breakdown": {
+        "hnPoints": 1.6522836909850247,
+        "hnComments": 0.7688672468575888,
+        "mentions": 0.0,
+        "recency": 0.6069066737710329,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50128468",
+      "representativeId": "hackernews:50128468",
+      "items": [
+        {
+          "id": "hackernews:50128468",
+          "title": "Why Math Dumped OpenAI",
+          "url": "https://raymyers.org/post/math-dumped-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T06:19:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50128468"
+          }
+        },
+        {
+          "id": "hackernews:50134211",
+          "title": "The math that OpenAI keeps for itself",
+          "url": "https://newsletter.danielpaleka.com/p/the-math-that-openai-keeps-for-itself",
+          "source": "hackernews",
+          "publishedAt": "2026-10-17T19:22:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50134211"
+          }
+        }
+      ],
+      "score": 3.746140480481319,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.6893590253844093,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/17/document-currentscript",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/17/document-currentscript",
+          "title": "Inline rendering with document​.currentScript",
+          "url": "https://simonwillison.net/2026/Oct/17/document-currentscript",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-17T21:11:12.000Z",
+          "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.788994789000946,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7389947890009464,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+          "title": "Meta removes language that raised scraping and AI training concerns",
+          "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-17T21:31:32.000Z",
+          "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.648701866871843,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.748701866871843,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+          "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-17T20:21:19.000Z",
+          "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.615710388118305,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7157103881183051,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/17/web-edit",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/17/web-edit",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/17/web-edit",
+          "title": "web-edit 0.1a2",
+          "url": "https://simonwillison.net/2026/Oct/17/web-edit",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-17T13:16:49.000Z",
+          "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5950242282224276,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5450242282224279,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+          "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-17T18:48:08.000Z",
+          "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5741618809407028,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6741618809407028,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "title": "Websites are closing their doors to AI agents",
+          "url": "https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-17T13:00:00.000Z",
+          "summary": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new shoes. But what happens when the rest of the internet won't play nice? In recent weeks, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4391734198960358,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5391734198960358,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50139873",
+    "hackernews:50137950",
+    "hackernews:50129045",
+    "hackernews:50141429",
+    "hackernews:50132502"
+  ]
+}
