@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T18:34:15.374Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50150434",
+      "headline": "미스트랄, 209M 파라미터로 시계열 예측 1위",
+      "highlight": [
+        "209M 파라미터",
+        "예측 1위"
+      ],
+      "body": "미스트랄의 시계열 모델 '팀스트랄'은 209M 파라미터로 3대 벤치마크에서 기존 최고 모델을 능가했습니다. GPU 없이 CPU에서도 효율적으로 구동되며, 기업의 센서 데이터, 공급망 등에서 정확하고 빠른 의사결정을 가능하게 합니다.",
+      "sourceUrl": "https://mistral.ai/news/timestral",
+      "sourceName": "Mistral",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp",
+      "publishedAt": "2026-10-19T09:59:32.000Z"
+    },
+    {
+      "clusterId": "hackernews:50153630",
+      "headline": "CERN-미스트랄, 최초 물리 AI 모델 만든다",
+      "highlight": [
+        "최초 물리 AI 모델"
+      ],
+      "body": "유럽 입자물리학연구소 CERN과 AI 기업 미스트랄이 과학 연구용 대규모 AI 모델 개발을 위한 장기 파트너십을 맺었습니다. 세계 최대 입자가속기 LHC의 수십억 개 충돌 데이터를 학습해 입자 재구성, 신호 식별 등 복잡한 분석을 돕게 됩니다.",
+      "sourceUrl": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-10-19T15:28:24.000Z"
+    },
+    {
+      "clusterId": "hackernews:50151928",
+      "headline": "AI 글쓰기 습관 지웠다! 슬롭 점수 121점 → 12.5점",
+      "highlight": [
+        "121점 → 12.5점"
+      ],
+      "body": "AI 모델 Qwen3-4B가 불필요한 글쓰기 습관을 제거했습니다. 인공지능이 쓴 글의 흔적을 측정하는 ‘슬롭 점수’를 121점에서 12.5점으로 대폭 낮췄습니다. 맥북 에어에서 파인튜닝했으며, 사람이 쓴 글과 68% 유사한 결과를 보입니다.",
+      "sourceUrl": "https://100toolkit.com/blog/deslop-model",
+      "sourceName": "hackernews",
+      "imageUrl": "https://100toolkit.com/blog/deslop-model/og.png",
+      "publishedAt": "2026-10-19T13:00:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:50145337",
+      "headline": "하이브리드 AI, 2.6배 빠르고 비용 3.7배 절감!",
+      "highlight": [
+        "2.6배",
+        "3.7배"
+      ],
+      "body": "하이브리드 추론 에이전트(HybridAgents)는 텍스트와 잠재 추론을 통합, 기존 LLM 대비 성능 10.4% 향상 및 추론 속도 2.6배, 비용 3.7배 절감을 이뤘습니다. 이로써 더욱 강력하고 효율적인 AI 에이전트 시대가 열릴 것으로 기대됩니다.",
+      "sourceUrl": "https://arxiv.org/abs/2610.18861",
+      "sourceName": "arXiv.org",
+      "imageUrl": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "publishedAt": "2026-10-18T20:48:14.000Z"
+    },
+    {
+      "clusterId": "hackernews:50143755",
+      "headline": "앤트로픽 지분 최대 20%를 공익에 내놓는다",
+      "highlight": [
+        "최대 20%"
+      ],
+      "body": "앤트로픽이 공익기금(Public Benefit Fund) 신설을 발표하며, 회사 지분 5%를 우선 출연하고 기업 가치 상승에 따라 최대 20%까지 늘릴 계획입니다. 이 기금은 AI로 인한 노동 시장 불안정 등 사회 문제 해결에 활용됩니다. 이는 공동창업자들의 기존 기부 약속을 잇는 조치입니다.",
+      "sourceUrl": "https://anthropic.com/news/public-benefit-fund",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/85648c93880ac27347f8e6a4008650a65c12ede8-1200x630.jpg",
+      "publishedAt": "2026-10-18T18:15:10.000Z"
+    }
+  ]
+}

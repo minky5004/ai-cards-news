@@ -1,0 +1,804 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T18:30:02.066Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 0
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 26,
+      "filtered": 23
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50150434",
+      "representativeId": "hackernews:50150434",
+      "items": [
+        {
+          "id": "hackernews:50150434",
+          "title": "Timestral: Mistral's time-series foundation models",
+          "url": "https://mistral.ai/news/timestral",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T09:59:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 413,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50150434"
+          }
+        }
+      ],
+      "score": 5.045849918036531,
+      "breakdown": {
+        "hnPoints": 1.938635286148735,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 1.0809323964434772,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50153630",
+      "representativeId": "hackernews:50153630",
+      "items": [
+        {
+          "id": "hackernews:50153630",
+          "title": "CERN and Mistral sign a statement of intent to establish a strategic partnership",
+          "url": "https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T15:28:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 214,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50153630"
+          }
+        }
+      ],
+      "score": 4.976336137964575,
+      "breakdown": {
+        "hnPoints": 1.7278360381206808,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 1.3349470042699094,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50151928",
+      "representativeId": "hackernews:50151928",
+      "items": [
+        {
+          "id": "hackernews:50151928",
+          "title": "Show HN: Qwen3-4B with the AI writing tics trained out",
+          "url": "https://100toolkit.com/blog/deslop-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T13:00:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 135,
+            "comments": 95,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50151928"
+          }
+        }
+      ],
+      "score": 4.855434634370626,
+      "breakdown": {
+        "hnPoints": 1.580494181504838,
+        "hnComments": 0.860661091639612,
+        "mentions": 0.0,
+        "recency": 1.2142793612261755,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50145337",
+      "representativeId": "hackernews:50145337",
+      "items": [
+        {
+          "id": "hackernews:50145337",
+          "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+          "url": "https://arxiv.org/abs/2610.18861",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T20:48:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 497,
+            "comments": 231,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50145337"
+          }
+        }
+      ],
+      "score": 4.848554289138604,
+      "breakdown": {
+        "hnPoints": 1.9980677482335052,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6504865409050986,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50143755",
+      "representativeId": "hackernews:50143755",
+      "items": [
+        {
+          "id": "hackernews:50143755",
+          "title": "Investing in the public benefit",
+          "url": "https://anthropic.com/news/public-benefit-fund",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T18:15:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50143755"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+          "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+          "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-18T20:37:40.000Z",
+          "summary": "The company offered some broad-strokes ideas for how this money might actually be used, such as “large donations to traditional nonprofits or direct distributions to specific populations.”",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.7157049585780255,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6460900494938288,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50151390",
+      "representativeId": "hackernews:50151390",
+      "items": [
+        {
+          "id": "hackernews:50151390",
+          "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
+          "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T12:07:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 126,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50151390"
+          }
+        }
+      ],
+      "score": 4.710280368844869,
+      "breakdown": {
+        "hnPoints": 1.5584667928737606,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 1.17359424734579,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50145507",
+      "representativeId": "hackernews:50145507",
+      "items": [
+        {
+          "id": "hackernews:50145507",
+          "title": "If you don't run your own LLM proxy, how do you know whats going on?",
+          "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T21:09:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 283,
+            "comments": 199,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50145507"
+          }
+        }
+      ],
+      "score": 4.675740564276903,
+      "breakdown": {
+        "hnPoints": 1.8173820719235854,
+        "hnComments": 0.9990595408716817,
+        "mentions": 0.0,
+        "recency": 0.6592989514816356,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50148452",
+      "representativeId": "hackernews:50148452",
+      "items": [
+        {
+          "id": "hackernews:50148452",
+          "title": "DeepSeek V4.1 Flash 1017 (Max)",
+          "url": "https://artificialanalysis.ai/models/deepseek-v4-1-flash-1017",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T04:41:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 181,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50148452"
+          }
+        }
+      ],
+      "score": 4.591219193978729,
+      "breakdown": {
+        "hnPoints": 1.6742275777030944,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.881509426271794,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50148855",
+      "representativeId": "hackernews:50148855",
+      "items": [
+        {
+          "id": "hackernews:50148855",
+          "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+          "url": "https://crystl.dev/guides/tmux-for-ai-agents",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T05:55:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 135,
+            "comments": 96,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50148855"
+          }
+        }
+      ],
+      "score": 4.567346417811482,
+      "breakdown": {
+        "hnPoints": 1.580494181504838,
+        "hnComments": 0.8626151160103018,
+        "mentions": 0.0,
+        "recency": 0.924237120296342,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50141429",
+      "representativeId": "hackernews:50141429",
+      "items": [
+        {
+          "id": "hackernews:50141429",
+          "title": "Anthropic's proposed AI safety bill only kicks in if 50 deaths or $1B in damages",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T14:30:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 170,
+            "comments": 166,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50141429"
+          }
+        }
+      ],
+      "score": 4.329660412757391,
+      "breakdown": {
+        "hnPoints": 1.6541706110687582,
+        "hnComments": 0.9650574313838309,
+        "mentions": 0.0,
+        "recency": 0.5104323703048024,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50141657",
+      "representativeId": "hackernews:50141657",
+      "items": [
+        {
+          "id": "hackernews:50141657",
+          "title": "Websites are closing their doors to AI agents",
+          "url": "https://theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T14:58:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 153,
+            "comments": 147,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50141657"
+          }
+        }
+      ],
+      "score": 4.282359283703432,
+      "breakdown": {
+        "hnPoints": 1.6204831126535835,
+        "hnComments": 0.9422826634331711,
+        "mentions": 0.0,
+        "recency": 0.5195935076166766,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50139873",
+      "representativeId": "hackernews:50139873",
+      "items": [
+        {
+          "id": "hackernews:50139873",
+          "title": "How employment is changing at Anthropic",
+          "url": "https://anthropic.com/research/employment-at-anthropic",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T10:49:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 144,
+            "comments": 242,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50139873"
+          }
+        }
+      ],
+      "score": 4.244038350451318,
+      "breakdown": {
+        "hnPoints": 1.6011095641244122,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4429287863269058,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50152877",
+      "representativeId": "hackernews:50152877",
+      "items": [
+        {
+          "id": "hackernews:50152877",
+          "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+          "url": "https://theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+          "source": "hackernews",
+          "publishedAt": "2026-10-19T14:23:17.000Z",
+          "summary": "A hacker broke into more than 100 websites using an army of AI agents that mostly operated on their own, according to findings from the AI security firm Norforge. Though Norforge doesn't name the targets, Reuters reports that the victims included companies like John Deere, SharkNinja, and Cummins. Concerns over AI-powered cybersecurity breaches have grown […]",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50152877"
+          }
+        }
+      ],
+      "score": 4.1010130627504235,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 1.2803065295278682,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50140462",
+      "representativeId": "hackernews:50140462",
+      "items": [
+        {
+          "id": "hackernews:50140462",
+          "title": "How Far Will AI Assistants Go for a Refund They Can't Get?",
+          "url": "https://vals.ai/blogs/impossible-refund",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T12:22:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 97,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50140462"
+          }
+        }
+      ],
+      "score": 4.049705247354545,
+      "breakdown": {
+        "hnPoints": 1.475070932311586,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 0.4703320679085536,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits",
+          "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+          "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-19T14:45:43.000Z",
+          "summary": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+          "title": "Disney agrees to hire the majority of Character AI’s workforce",
+          "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-18T16:30:00.000Z",
+          "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.182206774246964,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.298873440913631,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "hackernews:50140784",
+      "representativeId": "hackernews:50140784",
+      "items": [
+        {
+          "id": "hackernews:50140784",
+          "title": "Hyper Optimizing Kimi K3 in vLLM",
+          "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
+          "source": "hackernews",
+          "publishedAt": "2026-10-18T13:08:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50140784"
+          }
+        }
+      ],
+      "score": 2.789161967333872,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4843832026359193,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+          "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+          "url": "https://technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-19T17:45:55.000Z",
+          "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautious) celebration. Cammarata’s claim is…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5081232965358975,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.458123296535898,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work",
+          "title": "AI game clones are making indie developers afraid to show their work",
+          "url": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-19T16:59:22.000Z",
+          "summary": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.46520481817668,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4152048181766803,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+          "title": "People are using AI to make their smart TVs dumb again",
+          "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-19T16:13:22.000Z",
+          "summary": "Fed up with ads, tracking and sluggish interfaces, some smart TV owners are turning to AI agents to strip away bloatware and take back control of their TVs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2740345416672674,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3740345416672675,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+          "title": "Nvidia launches new open models to run agents in the enterprise and on PCs",
+          "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-19T15:37:09.000Z",
+          "summary": "Nvidia is leaning hard into the trend of enterprise companies wanting to run their own open models in their own data centers and also trying to make on-device, private AI agents a thing.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.242464856838269,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3424648568382689,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+          "title": "JB Pritzker thinks AI could help us live to 100 — or threaten us like nukes",
+          "url": "https://theverge.com/podcast/1012839/pritzker-ai-privacy-data-centers-flock-congress-laws",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-19T14:30:00.000Z",
+          "summary": "Today, I’m talking with Illinois Gov. JB Pritzker, who has a lot of thoughts about AI, tech, and privacy. If you’ve been listening to the show, you know that one of my running theories is that those issues are driving a big and maybe kind of unexpected political realignment — and with the midterms coming […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1858375577081417,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2858375577081418,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+          "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+          "url": "https://technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-19T09:08:05.000Z",
+          "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were able to…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.0958220607887474,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0458220607887476,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+          "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+          "url": "https://techcrunch.com/2026/10/19/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-19T12:30:00.000Z",
+          "summary": "University of Michigan spinout Laplace Intelligence uses AI agents and interactive simulation to stress-test robots and self-driving vehicles before deployment. The profitable startup is competing in Startup Battlefield at TechCrunch Disrupt, October 13-15 in San Francisco.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0905244787912176,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.190524478791218,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1013113/democrats-ai-midterms",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1013113/democrats-ai-midterms",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1013113/democrats-ai-midterms",
+          "title": "Democrats think cracking down on AI could give them an edge",
+          "url": "https://theverge.com/policy/1013113/democrats-ai-midterms",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-19T12:00:00.000Z",
+          "summary": "Democrats could win back control of Congress this November, and if they do, they'll need to decide how to approach one of the country's newest and thorniest political issues: AI. Polls predict Democrats will flip at least one chamber of Congress in the midterm elections, which would put committee leadership back in their hands. That […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.067821281352659,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1678212813526587,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+          "title": "llm-tools-datasette 0.1.1",
+          "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-18T23:43:09.000Z",
+          "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.777768235109699,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7277682351096992,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/18/llm-echo",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/18/llm-echo",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/18/llm-echo",
+          "title": "llm-echo 0.5",
+          "url": "https://simonwillison.net/2026/Oct/18/llm-echo",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-18T23:16:16.000Z",
+          "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": true, \"previous\": [] } Token usage: 2 input, 24 output Tags: llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.765319171388468,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7153191713884681,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+          "title": "Anthropic gives outside AI watchdog “employee-like” access",
+          "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-18T16:25:19.000Z",
+          "summary": "The outside watchdog can publish its findings without Anthropic's approval.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5994841430678062,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5494841430678064,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+          "title": "A woman was arrested in Philly for blocking a delivery robot",
+          "url": "https://theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-18T18:28:10.000Z",
+          "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4945622426911602,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5945622426911603,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50150434",
+    "hackernews:50153630",
+    "hackernews:50151928",
+    "hackernews:50145337",
+    "hackernews:50143755"
+  ]
+}
