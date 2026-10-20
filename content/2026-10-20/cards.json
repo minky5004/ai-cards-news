@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026-10-20T16:38:50.474Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50154244",
+      "headline": "미국, 딥시크 AI 전면 퇴출령 내렸다",
+      "highlight": [
+        "딥시크 AI"
+      ],
+      "body": "미국이 국가 안보를 이유로 중국 딥시크 AI의 연방 시스템 사용을 금지했습니다. 딥시크는 저가 모델로 오픈AI 등에 도전했으나, 미 기업 AI 모델 불법 추출 의혹을 받아왔습니다. 이번 조치는 미중 AI 경쟁을 격화시킵니다.",
+      "sourceUrl": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2195703830.jpg?w=1024",
+      "publishedAt": "2026-10-19T16:16:46.000Z"
+    },
+    {
+      "clusterId": "hackernews:50163277",
+      "headline": "딥시크, 핵심 추론 프레임워크 전격 공개",
+      "highlight": [
+        "딥시크",
+        "전격 공개"
+      ],
+      "body": "DeepSeek-AI가 자사 대규모 서비스를 구동하는 고성능 추론 프레임워크 DeepInfer를 오픈소스화했습니다. DeepInfer는 DeepSeek-V4.1-Flash 모델을 지원하며, NVIDIA와 화웨이 NPU 등 최신 하드웨어에서 최적화된 성능을 제공합니다. 이는 AI 모델 배포의 효율과 접근성을 크게 높일 것입니다.",
+      "sourceUrl": "https://github.com/deepseek-ai/DeepInfer",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/1dfaf954507e409886c60208690839560a4886d948d5beef01e9d5947448ad68/deepseek-ai/DeepInfer",
+      "publishedAt": "2026-10-20T09:08:54.000Z"
+    },
+    {
+      "clusterId": "hackernews:50165801",
+      "headline": "5만 개 가짜 통계, 챗GPT가 인용했다",
+      "highlight": [
+        "5만 개 가짜 통계",
+        "챗GPT가 인용했다"
+      ],
+      "body": "50달러로 만든 가짜 통계 5만 개를 챗GPT가 7개월간 1만 회 이상 인용했습니다. 구글은 외면했지만, 쇼피파이, DHL 등 330개 도메인이 링크했고 학술지, 은행 보고서에도 실렸죠. LLM은 통계를 선호하나 검증이 없어 잘못된 정보 확산 위험이 커집니다.",
+      "sourceUrl": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+      "sourceName": "hackernews",
+      "imageUrl": "https://framerusercontent.com/images/g61nppL2S0T51TuBYG0bTxac2U.png?width=2150&height=1126",
+      "publishedAt": "2026-10-20T13:06:22.000Z"
+    },
+    {
+      "clusterId": "hackernews:50159341",
+      "headline": "왓츠앱, AI 챗봇에 '규제기관 숨김' 명령",
+      "highlight": [
+        "'규제기관 숨김' 명령"
+      ],
+      "body": "왓츠앱 AI 챗봇 도움말 페이지에서 사용자가 변호사를 언급하거나 계정 삭제가 어려울 때 규제기관이나 관련 법 언급을 금지하는 숨겨진 지시가 발견되었습니다. 이는 왓츠앱의 공개된 개인정보 처리방침과 배치됩니다. 왓츠앱은 이를 버그로 밝히며 2026년 10월 18일 해당 지시를 삭제 조치했습니다.",
+      "sourceUrl": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+      "sourceName": "Redact",
+      "imageUrl": "https://redact.dev/blog-images/2026/10/whatsapp-hidden-ai-notes-robot-puppeteer.jpg",
+      "publishedAt": "2026-10-19T23:22:18.000Z"
+    },
+    {
+      "clusterId": "hackernews:50150434",
+      "headline": "미스트랄, 2억 파라미터로 시계열 예측 1위",
+      "highlight": [
+        "2억 파라미터",
+        "예측 1위"
+      ],
+      "body": "미스트랄의 타임스트랄은 209M 파라미터만으로 시계열 예측 3대 벤치마크에서 1위를 차지했습니다. 기존 대규모 모델보다 뛰어난 정확도와 효율을 제공하며, CPU에서도 빠르게 작동해 기업의 중요한 의사결정을 혁신할 것입니다.",
+      "sourceUrl": "https://mistral.ai/news/timestral",
+      "sourceName": "Mistral",
+      "imageUrl": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp",
+      "publishedAt": "2026-10-19T09:59:32.000Z"
+    }
+  ]
+}
