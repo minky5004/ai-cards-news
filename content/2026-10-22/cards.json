@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T16:54:14.251Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50180752",
+      "headline": "AI 에이전트 개발, 설치 5분→0.05초 끝",
+      "highlight": [
+        "5분→0.05초"
+      ],
+      "body": "LayerFS는 AI 코딩 에이전트를 위한 파일 시스템입니다. 기존 방식과 달리 설치된 의존성을 워크스페이스에 즉시 제공해, 5분 걸리던 설치를 0.05초 만에 완료합니다. 이를 통해 에이전트 개발의 병목 현상을 해결하고, 생산성을 극대화합니다.",
+      "sourceUrl": "https://layerfs.ai",
+      "sourceName": "LayerFS",
+      "imageUrl": "https://layerfs.ai/github-preview.png",
+      "publishedAt": "2026-10-21T13:37:00.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/openai-models-google-cloud",
+      "headline": "구글 클라우드에 오픈AI 모델 들어왔다",
+      "highlight": [
+        "오픈AI 모델"
+      ],
+      "body": "구글 클라우드에 오픈AI 최신 GPT 6 시리즈가 탑재됩니다. 이로써 구글은 제미나이, 클로드, GPT를 모두 제공하는 유일한 주요 클라우드 기업이 됩니다. 기업 고객은 기존 구글 인프라에서 최신 GPT 모델을 곧바로 활용할 수 있습니다.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/06/Google-cloud-IO-1152x648.jpg",
+      "publishedAt": "2026-10-21T12:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:50191507",
+      "headline": "오픈AI API, 전용 CLI로 바로 만난다",
+      "highlight": [
+        "전용 CLI"
+      ],
+      "body": "오픈AI가 REST API 공식 CLI를 공개했습니다. Go 1.26 이상 버전을 요구하며, `brew install`로 설치 가능합니다. 개발자들은 이제 이미지 생성, 파일 관리 등 API를 스크립트와 자동화에 편리하게 활용할 수 있습니다.",
+      "sourceUrl": "https://github.com/openai/openai-cli",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/2b8c8c9f67b3df3141820984548ab668dcb68d1e4481ef4852ae526f50c9d0c6/openai/openai-cli",
+      "publishedAt": "2026-10-22T05:23:11.000Z"
+    },
+    {
+      "clusterId": "hackernews:50180836",
+      "headline": "구글 AI, 웹 70% 위협 취약점 찾아냈다",
+      "highlight": [
+        "구글 AI"
+      ],
+      "body": "Wiz 연구팀은 전 세계 웹사이트 70%를 움직이는 PHP의 치명적 취약점을 발견했습니다. 지난 10년간 숨겨져 있던 문제로, 구글 제미니 AI 모델이 이를 악용하는 방법을 찾아냈습니다. 이제 복잡한 취약점도 AI로 쉽게 악용될 수 있어 사이버 보안 패러다임이 바뀔 것입니다.",
+      "sourceUrl": "https://wiz.io/blog/php2shell-php-rce",
+      "sourceName": "wiz.io",
+      "imageUrl": "https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp",
+      "publishedAt": "2026-10-21T13:43:19.000Z"
+    }
+  ]
+}

@@ -1,0 +1,1316 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T16:50:15.189Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 8
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 6
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 10,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 30,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50180752",
+      "representativeId": "hackernews:50180752",
+      "items": [
+        {
+          "id": "hackernews:50180752",
+          "title": "Using thousands of AI agents to uncover new leads in biological data",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T13:37:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 153,
+            "comments": 101,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50180752"
+          }
+        },
+        {
+          "id": "hackernews:50179857",
+          "title": "LayerFS: The filesystem for AI coding agents",
+          "url": "https://layerfs.ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T12:34:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50179857"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+          "title": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+          "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-21T20:27:41.000Z",
+          "summary": "Startup Recursive has released Flint, a free, laptop-sized coding model built largely by its own AI research system, as an early test of AI that improves itself.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+          "title": "1Password lets AI agents use your passwords without seeing them",
+          "url": "https://theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T13:00:00.000Z",
+          "summary": "1Password is introducing a new feature that allows AI agents to sign into your accounts without actually seeing or handling your passwords. The aptly named 1Password for Agents doesn't give bots free reign to access all of your connected accounts - you'll still need to grant approval for sign-in requests - but should make it […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+          "title": "AI agents are ready to shop. Some retailers are wary",
+          "url": "https://theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T12:30:00.000Z",
+          "summary": "Using an AI agent to shop for you is a strange experience. Tech companies have marketed them as personal assistants - the democratizing of labor that ordinarily would only be available to the rich and powerful. In practice, at least for buying things, it's more like sending an anxious and apologetic teenager out to the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.653177344563403,
+      "breakdown": {
+        "hnPoints": 1.6204831126535835,
+        "hnComments": 0.8720925712296893,
+        "mentions": 1.6666666666666665,
+        "recency": 1.2939349940134641,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50186037",
+      "representativeId": "hackernews:50186037",
+      "items": [
+        {
+          "id": "hackernews:50186037",
+          "title": "Claude Duet",
+          "url": "https://claude.com/product/claude-duet",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T19:14:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 509,
+            "comments": 472,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50186037"
+          }
+        },
+        {
+          "id": "hackernews:50186455",
+          "title": "Claude Duet",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T19:40:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50186455"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+          "title": "Claude Duet app is Anthropic’s bet on agents",
+          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T13:53:26.000Z",
+          "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.372411750595569,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3390784172622363,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-models-google-cloud",
+      "representativeId": "openai:https://openai.com/index/openai-models-google-cloud",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/openai-models-google-cloud",
+          "title": "OpenAI models are coming to Google Cloud",
+          "url": "https://openai.com/index/openai-models-google-cloud",
+          "source": "openai",
+          "publishedAt": "2026-10-21T12:00:00.000Z",
+          "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+          "trust": 1.0,
+          "signals": {
+            "points": 316,
+            "comments": 139,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50180079"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity",
+          "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+          "url": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-21T18:51:42.000Z",
+          "summary": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.761415783887662,
+      "breakdown": {
+        "hnPoints": 1.852747843512971,
+        "hnComments": 0.9318043198119388,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6435302872294192,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50191507",
+      "representativeId": "hackernews:50191507",
+      "items": [
+        {
+          "id": "hackernews:50191507",
+          "title": "OpenAI CLI",
+          "url": "https://github.com/openai/openai-cli",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T05:23:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 209,
+            "comments": 98,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50191507"
+          }
+        }
+      ],
+      "score": 4.751853630106037,
+      "breakdown": {
+        "hnPoints": 1.7202658311532206,
+        "hnComments": 0.8664634468125141,
+        "mentions": 0.0,
+        "recency": 0.9651243521403019,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "representativeId": "openai:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+          "source": "openai",
+          "publishedAt": "2026-10-21T07:00:00.000Z",
+          "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
+          "trust": 1.0,
+          "signals": {
+            "points": 260,
+            "comments": 182,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50181175"
+          }
+        }
+      ],
+      "score": 4.680085037379174,
+      "breakdown": {
+        "hnPoints": 1.7902116739716307,
+        "hnComments": 0.9823093793692524,
+        "mentions": 0.0,
+        "recency": 0.4075639840382901,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50180836",
+      "representativeId": "hackernews:50180836",
+      "items": [
+        {
+          "id": "hackernews:50180836",
+          "title": "PHP2Shell: AI uncovers critical RCE in PHP",
+          "url": "https://wiz.io/blog/php2shell-php-rce",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T13:43:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 445,
+            "comments": 183,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50180836"
+          }
+        }
+      ],
+      "score": 4.673899566720314,
+      "breakdown": {
+        "hnPoints": 1.962588220268771,
+        "hnComments": 0.9833369659142545,
+        "mentions": 0.0,
+        "recency": 0.5279743805372883,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50186129",
+      "representativeId": "hackernews:50186129",
+      "items": [
+        {
+          "id": "hackernews:50186129",
+          "title": "Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T19:20:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 322,
+            "comments": 102,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50186129"
+          }
+        }
+      ],
+      "score": 4.588423653845137,
+      "breakdown": {
+        "hnPoints": 1.8587802505982787,
+        "hnComments": 0.873932211815042,
+        "mentions": 0.0,
+        "recency": 0.655711191431816,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50192868",
+      "representativeId": "hackernews:50192868",
+      "items": [
+        {
+          "id": "hackernews:50192868",
+          "title": "Achieving AI-style reasoning without an LLM",
+          "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T08:46:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 30,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50192868"
+          }
+        }
+      ],
+      "score": 4.172172073806309,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.6475183426219275,
+        "mentions": 0.0,
+        "recency": 1.0999782642584597,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50186043",
+      "representativeId": "hackernews:50186043",
+      "items": [
+        {
+          "id": "hackernews:50186043",
+          "title": "Google staff resign in backlash over its AI contracts with military",
+          "url": "https://bbc.com/news/articles/cmreyvepnv0po",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T19:14:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 124,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50186043"
+          }
+        }
+      ],
+      "score": 4.027782028382589,
+      "breakdown": {
+        "hnPoints": 1.553360035618055,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 0.6529535078965668,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50183727",
+      "representativeId": "hackernews:50183727",
+      "items": [
+        {
+          "id": "hackernews:50183727",
+          "title": "Rust off Rails: The opinionated web stack for the AI era",
+          "url": "https://rustoffrails.org",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T16:34:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 73,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50183727"
+          }
+        }
+      ],
+      "score": 3.992973483455092,
+      "breakdown": {
+        "hnPoints": 1.3846993112377068,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 0.5891989922757801,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50183892",
+      "representativeId": "hackernews:50183892",
+      "items": [
+        {
+          "id": "hackernews:50183892",
+          "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+          "url": "https://github.com/omnara-ai/omnara",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T16:44:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 103,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50183892"
+          }
+        }
+      ],
+      "score": 3.9287514017488663,
+      "breakdown": {
+        "hnPoints": 1.4941885728712574,
+        "hnComments": 0.6413354390568011,
+        "mentions": 0.0,
+        "recency": 0.5932273898208078,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50185438",
+      "representativeId": "hackernews:50185438",
+      "items": [
+        {
+          "id": "hackernews:50185438",
+          "title": "Anthropic's Public Benefit Charter",
+          "url": "https://anthropic.com/public-benefit-charter",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T18:29:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50185438"
+          }
+        }
+      ],
+      "score": 3.87736701176059,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.0,
+        "recency": 0.6345891541319566,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50190357",
+      "representativeId": "hackernews:50190357",
+      "items": [
+        {
+          "id": "hackernews:50190357",
+          "title": "Claude Now Works with Google Docs, Sheets, and Slides",
+          "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T02:17:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50190357"
+          }
+        }
+      ],
+      "score": 3.857954810108166,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.8569540957140848,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/uber-chatgpt-work-rollout",
+      "representativeId": "openai:https://openai.com/index/uber-chatgpt-work-rollout",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/uber-chatgpt-work-rollout",
+          "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+          "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+          "source": "openai",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "openai:https://openai.com/index/att-legal",
+          "title": "How AT&T is rethinking in-house legal work with OpenAI",
+          "url": "https://openai.com/index/att-legal",
+          "source": "openai",
+          "publishedAt": "2026-10-21T17:00:00.000Z",
+          "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+          "title": "Uber puts all 30,000 employees on ChatGPT Work",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T16:00:00.000Z",
+          "summary": "The ride share giant previously deployed a much smaller pilot for ChatGPT Work, but is now taking the enterprise agent company-wide.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.785726257092863,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4523929237595294,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50190334",
+      "representativeId": "hackernews:50190334",
+      "items": [
+        {
+          "id": "hackernews:50190334",
+          "title": "LLM agents play Pokemon showdown",
+          "url": "https://olivergrabner.com/research/pokemon",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T02:13:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50190334"
+          }
+        }
+      ],
+      "score": 3.693679696832322,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.8546655085307268,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50183253",
+      "representativeId": "hackernews:50183253",
+      "items": [
+        {
+          "id": "hackernews:50183253",
+          "title": "AI agent fixed the bug, but what else did it change?",
+          "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change",
+          "source": "hackernews",
+          "publishedAt": "2026-10-21T16:03:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50183253"
+          }
+        }
+      ],
+      "score": 3.427946885165818,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.5776910616819781,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+          "title": "Beyond tree cover: mapping the world’s forest types",
+          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+          "source": "google-deepmind",
+          "publishedAt": "2026-10-22T14:30:24.000Z",
+          "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.8712283508327348,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3712283508327345,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/olmoearth-v1-3",
+          "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+          "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+          "source": "huggingface",
+          "publishedAt": "2026-10-22T16:11:31.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.813167957635731,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.463167957635731,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/forward-deployed-engineering-means",
+      "representativeId": "openai:https://openai.com/index/forward-deployed-engineering-means",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/forward-deployed-engineering-means",
+          "title": "What FDE means at OpenAI",
+          "url": "https://openai.com/index/forward-deployed-engineering-means",
+          "source": "openai",
+          "publishedAt": "2026-10-22T06:00:00.000Z",
+          "summary": "What forward deployed engineering means at OpenAI",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.488200883487997,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.988200883487997,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock",
+          "title": "Meta wants to pay for its broad AI buildout with a newly created class of stock",
+          "url": "https://techcrunch.com/2026/10/21/meta-wants-to-pay-for-its-broad-ai-buildout-with-a-newly-created-class-of-stock",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-21T22:45:34.000Z",
+          "summary": "The social media giant is planning a new stock strategy to help power its broad investments in AI models and services.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+          "title": "Meta to create a new class of shares to fund AI push",
+          "url": "https://theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-21T21:30:02.000Z",
+          "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday, the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.481080873400979,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7477475400676459,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/22/armin-ronacher",
+          "title": "Quoting Armin Ronacher",
+          "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-22T15:34:13.000Z",
+          "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.478556750420372,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.428556750420372,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "title": "Ensemble forecasting with IBM Granite time-series models",
+          "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "source": "huggingface",
+          "publishedAt": "2026-10-22T07:51:31.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.4115206404150227,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0615206404150226,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+          "title": "Wildwood’s director says AI is ‘antithetical to everything that we are at this studio’",
+          "url": "https://theverge.com/entertainment/1016647/wildwood-travis-knight-interview-ai-laika-stop-motion",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T16:16:15.000Z",
+          "summary": "Wildwood is the most ambitious film yet from Laika, the stop-motion studio best known for the likes of Coraline and ParaNorman. It's a sprawling fantasy adventure that took five years to complete. The process involved more 230 puppets - including 36 of the main character Prue alone - which were brought to life by a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.367619626054208,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.467619626054208,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+          "title": "OpenAI, Anthropic, and Nvidia had record lobbying quarters",
+          "url": "https://theverge.com/policy/1016585/openai-anthropic-nvidia-lobbying-records",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T15:50:30.000Z",
+          "summary": "It was a busy summer for AI lobbyists. Anthropic, OpenAI, and Nvidia each had their highest-spending lobbying quarter between July and September, federal disclosures show. Nvidia spent the most of the group at $2.2 million, followed by Anthropic's $2.1 million and OpenAI's $1.5 million. Compared to other Big Tech companies with long-established presences in Washington, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3435644397784703,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4435644397784704,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+          "title": "Spotify’s current AI bet is about being the music service that agents choose",
+          "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T15:03:58.000Z",
+          "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.301089474556048,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4010894745560483,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+          "title": "Bill Gates says to prepare for 20 years of ‘tumultuous’ AI disruption",
+          "url": "https://theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T14:00:00.000Z",
+          "summary": "Today, I’m talking to Bill Gates, cofounder and former CEO of Microsoft and chairman of the Gates Foundation. You may have noticed Bill in the news more lately — he’s been on something of a tour for the past few months, ever since publishing an essay in late August titled “The turbulent AI era is […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2447338804139507,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3447338804139508,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+          "title": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T13:11:13.000Z",
+          "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.203283498366271,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.303283498366271,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+          "title": "Making the case for context-aware AI",
+          "url": "https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-22T10:00:00.000Z",
+          "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2027650275235224,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1527650275235228,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/broad-access-through-consistent-standards",
+      "representativeId": "openai:https://openai.com/index/broad-access-through-consistent-standards",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/broad-access-through-consistent-standards",
+          "title": "Broad access through consistent standards",
+          "url": "https://openai.com/index/broad-access-through-consistent-standards",
+          "source": "openai",
+          "publishedAt": "2026-10-21T21:00:00.000Z",
+          "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.1987635458889,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6987635458888999,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+          "title": "Claude did not invent scorpion antivenom",
+          "url": "https://theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T12:21:07.000Z",
+          "summary": "An investment research firm wanted to prove AI could revolutionize drug development. So they teamed up with Anthropic to see whether an unreleased version of Claude could make scorpion antivenom. It couldn't. It came up with some promising starting points, but nothing close to an actual drug, experts tell The Verge. Citrini Research, the firm […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1620438633249868,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2620438633249869,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+          "title": "AI’s hidden storage bill: What inference leaves behind",
+          "url": "https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-22T08:41:18.000Z",
+          "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.1459850374700737,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0959850374700737,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "representativeId": "theverge-ai:https://theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+          "title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+          "url": "https://theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T11:00:00.000Z",
+          "summary": "Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare. It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning. The Verge and security […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0980216903006728,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.198021690300673,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "representativeId": "openai:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+          "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+          "source": "openai",
+          "publishedAt": "2026-10-21T13:00:00.000Z",
+          "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0134984426688596,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5134984426688597,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/kumo-relational",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/kumo-relational",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/kumo-relational",
+          "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+          "url": "https://huggingface.co/blog/nvidia/kumo-relational",
+          "source": "huggingface",
+          "publishedAt": "2026-10-21T18:26:30.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9832059078533735,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6332059078533734,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "representativeId": "huggingface:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+          "url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+          "source": "huggingface",
+          "publishedAt": "2026-10-21T17:35:36.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9628547069704134,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6128547069704132,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "representativeId": "huggingface:https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+          "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+          "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+          "source": "huggingface",
+          "publishedAt": "2026-10-21T16:04:43.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9281299655198543,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5781299655198542,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/building-chatgpt-ad-stack",
+      "representativeId": "openai:https://openai.com/index/building-chatgpt-ad-stack",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/building-chatgpt-ad-stack",
+          "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+          "url": "https://openai.com/index/building-chatgpt-ad-stack",
+          "source": "openai",
+          "publishedAt": "2026-10-21T07:00:00.000Z",
+          "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.90756398403829,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4075639840382901,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-speech-5",
+          "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+          "source": "huggingface",
+          "publishedAt": "2026-10-21T14:58:18.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9040042094346084,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5540042094346084,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+          "title": "The new human-crafted Apple Music brand matters in an AI world",
+          "url": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-21T19:44:40.000Z",
+          "summary": "Opinion: In a world of AI slop, showing the human hands making things helps.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7157826427142508,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.665782642714251,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/21/php-security-release",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/21/php-security-release",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/21/php-security-release",
+          "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+          "url": "https://simonwillison.net/2026/Oct/21/php-security-release",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-21T18:41:53.000Z",
+          "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes, and there have been exploits circulating since last night, thanks to a leak in the coordinated disclosure process. This post from the PHP Foundation explain what went so wrong: On Tuesday, October 20th, at around 15:00 UTC, the two CVE IDs began circulating on online forums and social media. They came with a wrong release time and a wrong CVSS score of 10.0 (the actual score is 9.2). No technical details leaked. In response, the PHP project brought its pre-announcement forward and published it at 19:30 UTC . It also moved the release from October 22nd, 14:00 UTC, to October 21st, 14:00 UTC [...] As a result of the leak and pre-announcement around 20:00 UTC, Calif, one of the security firms that had reported the issues mistakenly published a video. It showed their proof of concept working against a number of targets and revealed a few additional, though limited, details about the vulnerabilities. Copies of the deleted video started circulating on social media soon after. The video contributed to accelerated development of various PoCs (exploitation proof of concepts), which then increased circulation on October 21st. This article from the team that discovered the original vulnerability includes a more detailed timeline of the original intended responsible disclosure: August 19, 2026: Wiz Research discovers the first PHP vulnerability using Wiz Atlas, Gemini 4 Argon, and GPT-5.6 Sol. August 20, 2026: Unauthenticated RCE is confirmed against Drupal. August 21, 2026: Unauthenticated RCE is confirmed against WordPress. August 24, 2026: Wiz Research reports the vulnerabilities to the PHP security team. September 21, 2026: PHP acknowledges the reports and begins developing a coordinated fix. October 21, 2026: Patched PHP releases become available. October 21, 2026: Public disclosure. Via Hacker News Tags: open-source , php , security , ai , ai-security-research",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.689488556719849,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6394885567198492,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown",
+          "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
+          "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-21T22:51:22.000Z",
+          "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6505361852787517,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7505361852787517,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/21/panache",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/21/panache",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/21/panache",
+          "title": "Panache — RTS Belle Époque pour mobile",
+          "url": "https://simonwillison.net/2026/Oct/21/panache",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-21T16:25:16.000Z",
+          "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk 1900s France and adds an animated intro! Panache est un jeu de stratégie en temps réel pour mobile et navigateur, dans la France de la Belle Époque (vers 1900) : dirigeables, Fardiers à vapeur, Creusot cuirassés, automates en képi, Gargantua la forteresse marchante — et beaucoup de panache. You can play Panache here - it's worth clicking that link just to experience the new intro video. So far it's mostly just aesthetic updates as opposed to gameplay changes. The music has had a French twist added to it as well. The new steampunk models are so cool! Here's a page with the original Battle Drones models and that same page with the new Panache alternatives . This is a comparison of the original and the new design for the Goliath: Via @Meffysto69 Tags: game-design , open-source",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6358054557931432,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5858054557931435,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using",
+          "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+          "url": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-21T15:14:07.000Z",
+          "summary": "OpenEvidence is booming despite questions about accuracy and ads.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.609656648618095,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5596566486180952,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
+          "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+          "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-21T19:30:00.000Z",
+          "summary": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5595449616029082,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6595449616029084,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+          "title": "PHP Armageddon: OpenAI, Google’s Wiz find ancient holes, panicking the internet",
+          "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-21T17:59:12.000Z",
+          "summary": "This is the kind of security issue that was found and prevented by AI, but is also a high risk because of AI.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5222079973473333,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6222079973473333,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey",
+          "title": "AI promises productivity, but for managers, it’s mostly a headache for now",
+          "url": "https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-21T14:00:00.000Z",
+          "summary": "More than 50% of managers say they're finding it harder to evaluate employees' work after adopting AI, according to a new survey.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.433657994096596,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.533657994096596,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50180752",
+    "hackernews:50186037",
+    "openai:https://openai.com/index/openai-models-google-cloud",
+    "hackernews:50191507",
+    "openai:https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities"
+  ]
+}
