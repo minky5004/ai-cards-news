@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T16:45:37.616Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50207405",
+      "headline": "스웨덴 정부가 챗GPT와 클로드를 금지했다",
+      "highlight": [
+        "챗GPT와 클로드"
+      ],
+      "body": "스웨덴 정부청사가 정보 보안을 이유로 직원 컴퓨터에서 챗GPT와 클로드 접속을 차단했습니다. 계약 없는 AI 활용을 막고 보안을 강화한 MS 코파일럿만 사용하도록 제한한 것입니다. 국세청 등 스웨덴 내 다른 공공기관들로도 이러한 접속 금지 조치가 확산하고 있습니다.",
+      "sourceUrl": "https://sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "sourceName": "hackernews",
+      "imageUrl": "https://static-cdn.sr.se/images/83/4f267bc3-0129-4628-bd75-1e593f208dfc.jpg",
+      "publishedAt": "2026-10-23T11:39:54.000Z"
+    },
+    {
+      "clusterId": "hackernews:50202217",
+      "headline": "클로드, 수년간 숨은 버그 수백 개 찾아냈다",
+      "highlight": [
+        "클로드",
+        "수백 개"
+      ],
+      "body": "앤트로픽의 LLM 클로드가 123개 오픈소스 라이브러리에서 수년간 감지되지 않던 버그 수백 개를 발견했습니다. 이는 AI가 어셈블리 코드 수준에서 정식 검증을 수행한 최초의 대규모 사례입니다. 소프트웨어 보안 개발의 필수 요소로 자리 잡을 전망입니다.",
+      "sourceUrl": "https://anthropic.com/research/formal-verification",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg",
+      "publishedAt": "2026-10-22T22:54:43.000Z"
+    },
+    {
+      "clusterId": "hackernews:50198675",
+      "headline": "엔비디아가 AI 에이전트용 보안망을 공개했다",
+      "highlight": [
+        "AI 에이전트용",
+        "보안망을"
+      ],
+      "body": "엔비디아가 AI 에이전트의 안전한 작동을 돕는 보안 실행 환경 '오픈쉘'을 공개했습니다. 커널 수준에서 파일 접근과 네트워크 접속을 통제해 데이터 유출과 무단 API 호출을 막습니다. 자격 증명을 직접 노출하지 않고 안전하게 관리해 AI 시스템 보안을 대폭 강화합니다.",
+      "sourceUrl": "https://github.com/NVIDIA/OpenShell",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/281a2c03cce5f5b0b2405539c18f8fedfba849a8fe17d8130baef6309573a5df/NVIDIA/OpenShell",
+      "publishedAt": "2026-10-22T17:44:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:50197313",
+      "headline": "AI 12종이 똑같이 지적한 인간의 본성",
+      "highlight": [
+        "AI 12종",
+        "똑같이"
+      ],
+      "body": "AI 모델 12종에 가장 논란이 될 의견을 묻자 총 35개 중 29개 답변이 일치했습니다. GPT-6.1을 비롯한 모델들은 인간이 진실보다 소속감을 더 우선시한다고 말했습니다. 서로 다른 알고리즘이 인간을 집단 동조에 갇힌 존재로 공통 진단한 것입니다.",
+      "sourceUrl": "https://modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "sourceName": "ModelCompare",
+      "imageUrl": "https://www.modelcompare.ai/api/og?post=ai-models-controversial-take-on-humans&v=1m7naoq",
+      "publishedAt": "2026-10-22T16:08:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:50205229",
+      "headline": "AI 요청 탄소, 텍사스가 스웨덴보다 8.5배",
+      "highlight": [
+        "8.5배"
+      ],
+      "body": "스웨덴 AI 기업 베르제트 AI의 조사에 따르면, 동일 AI 요청이 텍사스에서는 스웨덴보다 8.5배 많은 3.2g의 탄소를 배출합니다. 이 방법론은 기업이 AI 사용으로 인한 탄소 배출량을 정확히 파악하고, 더 친환경적인 AI 공급자를 선택하도록 돕습니다.",
+      "sourceUrl": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "sourceName": "Berget AI",
+      "imageUrl": "https://berget.ai/api/og?title=New+open-source+method+shows+the+same+AI+request+emits+8.5+times+more+CO%E2%82%82+in+Texas+than+in+Sweden&image=https%3A%2F%2Fberget.ai%2Fimages%2Fblog%2Fper-request-co2-press-release%2Fcover.png",
+      "publishedAt": "2026-10-23T06:41:11.000Z"
+    }
+  ]
+}

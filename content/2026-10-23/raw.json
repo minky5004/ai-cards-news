@@ -1,0 +1,1210 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T16:41:44.876Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 10,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 22,
+      "filtered": 15
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50207405",
+      "representativeId": "hackernews:50207405",
+      "items": [
+        {
+          "id": "hackernews:50207405",
+          "title": "Swedish government offices to ban ChatGPT and Claude",
+          "url": "https://sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+          "source": "hackernews",
+          "publishedAt": "2026-10-23T11:39:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 298,
+            "comments": 111,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50207405"
+          }
+        }
+      ],
+      "score": 5.159493056058071,
+      "breakdown": {
+        "hnPoints": 1.833940732515093,
+        "hnComments": 0.8897280003879673,
+        "mentions": 0.0,
+        "recency": 1.235824323155011,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50202217",
+      "representativeId": "hackernews:50202217",
+      "items": [
+        {
+          "id": "hackernews:50202217",
+          "title": "LLMs are making formal software verification feasible at a much larger scale",
+          "url": "https://anthropic.com/research/formal-verification",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T22:54:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 408,
+            "comments": 249,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50202217"
+          }
+        }
+      ],
+      "score": 4.890994717889729,
+      "breakdown": {
+        "hnPoints": 1.9347261377854854,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.756268580104243,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50198675",
+      "representativeId": "hackernews:50198675",
+      "items": [
+        {
+          "id": "hackernews:50198675",
+          "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T17:44:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 472,
+            "comments": 205,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50198675"
+          }
+        }
+      ],
+      "score": 4.80107774926841,
+      "breakdown": {
+        "hnPoints": 1.9814977138143284,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.619580035454082,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50197313",
+      "representativeId": "hackernews:50197313",
+      "items": [
+        {
+          "id": "hackernews:50197313",
+          "title": "Every AI model has the same \"controversial\" take on humans",
+          "url": "https://modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T16:08:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 584,
+            "comments": 557,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50197313"
+          }
+        }
+      ],
+      "score": 4.782520642944911,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5825206429449115,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50205229",
+      "representativeId": "hackernews:50205229",
+      "items": [
+        {
+          "id": "hackernews:50205229",
+          "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+          "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+          "source": "hackernews",
+          "publishedAt": "2026-10-23T06:41:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 145,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50205229"
+          }
+        }
+      ],
+      "score": 4.735667789915542,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.9397171590370157,
+        "mentions": 0.0,
+        "recency": 1.020222743246661,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50199290",
+      "representativeId": "hackernews:50199290",
+      "items": [
+        {
+          "id": "hackernews:50199290",
+          "title": "Show HN: UI micro interactions prompts for AI",
+          "url": "https://typeui.sh/micro-interactions",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T18:32:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50199290"
+          }
+        },
+        {
+          "id": "hackernews:50207620",
+          "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+          "url": "https://thisandthat.chat/enron",
+          "source": "hackernews",
+          "publishedAt": "2026-10-23T12:02:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 29,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50207620"
+          }
+        }
+      ],
+      "score": 4.5693776904320575,
+      "breakdown": {
+        "hnPoints": 1.4016357980053775,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 1.254188796852695,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50206361",
+      "representativeId": "hackernews:50206361",
+      "items": [
+        {
+          "id": "hackernews:50206361",
+          "title": "The Rise and Fall of Jev",
+          "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+          "source": "hackernews",
+          "publishedAt": "2026-10-23T09:21:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 81,
+            "comments": 58,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50206361"
+          }
+        }
+      ],
+      "score": 4.51701521784166,
+      "breakdown": {
+        "hnPoints": 1.4177250981030416,
+        "hnComments": 0.7688672468575888,
+        "mentions": 0.0,
+        "recency": 1.13042287288103,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50199230",
+      "representativeId": "hackernews:50199230",
+      "items": [
+        {
+          "id": "hackernews:50199230",
+          "title": "AI and the Enclosure of the Scientific Commons",
+          "url": "https://arxiv.org/abs/2610.27251",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T18:28:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 137,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50199230"
+          }
+        }
+      ],
+      "score": 4.251209662351095,
+      "breakdown": {
+        "hnPoints": 1.5851908919554503,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 0.6373941239050215,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50191507",
+      "representativeId": "hackernews:50191507",
+      "items": [
+        {
+          "id": "hackernews:50191507",
+          "title": "OpenAI CLI",
+          "url": "https://github.com/openai/openai-cli",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T05:23:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 240,
+            "comments": 111,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50191507"
+          }
+        }
+      ],
+      "score": 4.239397417147295,
+      "breakdown": {
+        "hnPoints": 1.764563121518508,
+        "hnComments": 0.8897280003879673,
+        "mentions": 0.0,
+        "recency": 0.38510629524081974,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50200843",
+      "representativeId": "hackernews:50200843",
+      "items": [
+        {
+          "id": "hackernews:50200843",
+          "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+          "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T20:51:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 88,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50200843"
+          }
+        }
+      ],
+      "score": 4.101819969142908,
+      "breakdown": {
+        "hnPoints": 1.4440793888964025,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.6987135658619289,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50202671",
+      "representativeId": "hackernews:50202671",
+      "items": [
+        {
+          "id": "hackernews:50202671",
+          "title": "AI compute is the new oil–and needs a new market",
+          "url": "https://economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T23:45:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50202671"
+          }
+        }
+      ],
+      "score": 4.005176490503814,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.781206654009862,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50199232",
+      "representativeId": "hackernews:50199232",
+      "items": [
+        {
+          "id": "hackernews:50199232",
+          "title": "Award-winning AI literature",
+          "url": "https://jamesyu.org/award-winning-ai-literature",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T18:28:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50199232"
+          }
+        }
+      ],
+      "score": 3.994554550095338,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 0.637462307789312,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50198940",
+      "representativeId": "hackernews:50198940",
+      "items": [
+        {
+          "id": "hackernews:50198940",
+          "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+          "url": "https://biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T18:02:54.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 87,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50198940"
+          }
+        }
+      ],
+      "score": 3.985335828810564,
+      "breakdown": {
+        "hnPoints": 1.4404441078217465,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 0.6271011063127516,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50192868",
+      "representativeId": "hackernews:50192868",
+      "items": [
+        {
+          "id": "hackernews:50192868",
+          "title": "Achieving AI-style reasoning without an LLM",
+          "url": "https://fleetingswallow.com/minotaur-ai-deep-dive-achieving-reasoning-without-a-language-model",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T08:46:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50192868"
+          }
+        }
+      ],
+      "score": 3.5310864168652856,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 0.4389160352804176,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50196604",
+      "representativeId": "hackernews:50196604",
+      "items": [
+        {
+          "id": "hackernews:50196604",
+          "title": "Important updates to AI use on Etsy",
+          "url": "https://etsy.com/seller-handbook/article/1522733284810",
+          "source": "hackernews",
+          "publishedAt": "2026-10-22T15:18:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50196604"
+          }
+        }
+      ],
+      "score": 3.0478137558268976,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.5642268123777714,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "representativeId": "openai:https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+          "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+          "source": "openai",
+          "publishedAt": "2026-10-23T17:00:00.000Z",
+          "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 3.0,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.5,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/litpivot",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/litpivot",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/litpivot",
+          "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+          "url": "https://huggingface.co/blog/allenai/litpivot",
+          "source": "huggingface",
+          "publishedAt": "2026-10-23T16:15:50.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.825258223885905,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.475258223885905,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+          "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+          "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T18:43:53.000Z",
+          "summary": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+          "title": "Microsoft says its AI tool is better than doctors at diagnosing conditions",
+          "url": "https://theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T18:00:00.000Z",
+          "summary": "For years, AI leaders have touted healthcare as one of the clearest examples of where their technology will improve lives. Now \"it is finally here,\" Microsoft AI CEO Mustafa Suleyman tells The Verge. The company claims to have developed an AI-powered tool it says can diagnose conditions up to four times more accurately than human […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.377148068077368,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6438147347440346,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+          "title": "Meta delays new business terms after publisher pushback on AI scraping",
+          "url": "https://theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-23T14:47:41.000Z",
+          "summary": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spokesperson Daniel Roberts says the terms will go into effect on November 20th \"to allow […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2941126391564355,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3941126391564356,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "representativeId": "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "source": "openai",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.2886286991926292,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.788628699192629,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+          "title": "Retro gaming is being overrun with AI",
+          "url": "https://theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-23T12:00:00.000Z",
+          "summary": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected projects have gone viral with incredible frequency thanks to new AI tools, as […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.151870026710692,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.251870026710692,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/decisions-api",
+      "representativeId": "openai:https://openai.com/index/decisions-api",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/decisions-api",
+          "title": "Build more responsive apps with the Decisions API",
+          "url": "https://openai.com/index/decisions-api",
+          "source": "openai",
+          "publishedAt": "2026-10-22T19:00:00.000Z",
+          "summary": "Fast, focused, low-cost decisions for any application.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.150508737525908,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6505087375259084,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/torch-neuronx-model-support",
+      "representativeId": "huggingface:https://huggingface.co/blog/torch-neuronx-model-support",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/torch-neuronx-model-support",
+          "title": "Does Your Model Run on AWS Trainium? Look It Up",
+          "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+          "source": "huggingface",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.138628699192629,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.788628699192629,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "representativeId": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "source": "huggingface",
+          "publishedAt": "2026-10-22T22:24:34.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0917751901201775,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7417751901201772,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/forward-deployed-engineering-means",
+      "representativeId": "openai:https://openai.com/index/forward-deployed-engineering-means",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/forward-deployed-engineering-means",
+          "title": "What FDE means at OpenAI",
+          "url": "https://openai.com/index/forward-deployed-engineering-means",
+          "source": "openai",
+          "publishedAt": "2026-10-22T06:00:00.000Z",
+          "summary": "What forward deployed engineering means at OpenAI",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.8943143495963146,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3943143495963145,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+          "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+          "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-23T04:00:00.000Z",
+          "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8199582790513396,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9199582790513396,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "title": "Ensemble forecasting with IBM Granite time-series models",
+          "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+          "source": "huggingface",
+          "publishedAt": "2026-10-22T07:51:31.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.7735705795272112,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4235705795272111,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+          "title": "Designing an AI serving harness built to last",
+          "url": "https://technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-22T21:17:29.000Z",
+          "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has centered on model capability: bigger models, better reasoning, larger context windows, higher benchmark scores. Those advances have…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7605163349785788,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.710516334978579,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/22/de-staat-freedom",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/22/de-staat-freedom",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/22/de-staat-freedom",
+          "title": "DE STAAT - FREEDOM (Official Music Video)",
+          "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-22T19:42:26.000Z",
+          "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7184680275016047,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6684680275016048,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+          "title": "Left alone with nothing to do, AI agents started playing",
+          "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-23T00:45:37.000Z",
+          "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7120586156947382,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8120586156947381,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+          "title": "The Foundations of Scalable AI",
+          "url": "https://technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-22T18:48:04.000Z",
+          "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6955456198162815,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6455456198162817,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-22T18:09:56.000Z",
+          "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6799382481465621,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6299382481465623,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
+          "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T22:08:24.000Z",
+          "summary": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6341184596110725,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7341184596110726,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+          "title": "Canva’s first AI image model plans designs before generating them",
+          "url": "https://theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T21:51:25.000Z",
+          "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency and control,\" according to an […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6261600545648291,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7261600545648292,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/22/armin-ronacher",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/22/armin-ronacher",
+          "title": "Quoting Armin Ronacher",
+          "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-22T15:34:13.000Z",
+          "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6200262318276661,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5700262318276662,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+          "title": "Meta’s AI could still scrape news sites, legal experts say",
+          "url": "https://theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T20:32:05.000Z",
+          "summary": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [language] that would let Meta scrape […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5901121250022827,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6901121250022827,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+          "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+          "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T19:07:09.000Z",
+          "summary": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5535007109232952,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6535007109232953,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+          "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+          "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T19:00:00.000Z",
+          "summary": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5505087375259083,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6505087375259084,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "representativeId": "theverge-ai:https://theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+          "title": "Someone hacked the Switch 2 by using an old game and AI",
+          "url": "https://theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-22T17:21:31.000Z",
+          "summary": "The Nintendo Switch 2 has apparently been jailbroken, and a modder has already shown the console running a custom version of Mario Kart World featuring new playable characters like Cinnamoroll, the red Angry Bird, Peter Griffin, and Steve from Minecraft. OpenAI's Codex helped make this \"ns2jb\" jailbreak, according to Sammy Hajhamid, aka \"pepsipu.\" It's a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5106645781588006,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6106645781588008,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+          "title": "Making the case for context-aware AI",
+          "url": "https://technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-22T10:00:00.000Z",
+          "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5099791395256696,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4599791395256698,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+          "title": "AI’s hidden storage bill: What inference leaves behind",
+          "url": "https://technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-22T08:41:18.000Z",
+          "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a model responds? Much of the back-end data that’s generated—from billions of daily prompts, images, and videos—needs…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.487322648095521,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4373226480955213,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+          "title": "Uber puts all 30,000 employees on ChatGPT Work",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T16:00:00.000Z",
+          "summary": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.479537400400922,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5795374004009222,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+          "title": "Spotify’s current AI bet is about being the music service that agents choose",
+          "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T15:03:58.000Z",
+          "summary": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4590661717846163,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5590661717846165,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+          "title": "Claude Duet app is Anthropic’s bet on agents",
+          "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T13:53:26.000Z",
+          "summary": "Claude Duet is available through waitlist for Pro and Max plan users.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4343223670247147,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5343223670247148,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+          "title": "DeepSeek reportedly raises $15B days after US restrictions",
+          "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-22T13:11:13.000Z",
+          "summary": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4200393903555415,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5200393903555416,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50207405",
+    "hackernews:50202217",
+    "hackernews:50198675",
+    "hackernews:50197313",
+    "hackernews:50205229"
+  ]
+}
