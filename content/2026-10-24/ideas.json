@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T15:43:23.315Z",
+  "idea": {
+    "productName": "CiteProof",
+    "tagline": "논문에 섞여 들어간 가짜 AI 출처를 찾아낸다",
+    "oneLineSummary": "연구 논문과 보고서에 포함된 참고문헌의 실존 여부와 인용 사실관계를 자동 전수 검증하는 솔루션을 학술 저널과 연구 기관에 판매합니다.",
+    "problem": "연구자와 편집자가 AI가 생성한 가짜 출처를 걸러내지 못해 검증 사고 위험에 직면합니다. 수백 개의 참고문헌 링크와 원문을 사람이 일일이 검색해 대조하기에는 작업 시간이 지나치게 듭니다.",
+    "productDescription": "연구 논문이나 학술 기고문의 초안을 입력하면 본문에 인용된 모든 참고문헌을 추출하여 실제 발행 여부를 검증합니다. 출판사 데이터베이스, 뉴스 미디어 아카이브, 웹 검색을 교차 조회하여 존재하지 않는 기사나 날조된 DOI를 즉각 표시합니다. 단순 링크 검사를 넘어 원문의 실제 내용이 본문의 주장과 부합하는지 팩트체크 리포트를 제공합니다. 저널 투고 전 자가 검증과 피어리뷰 단계의 출처 스크리닝 자동화를 지원합니다.",
+    "keyFeatures": [
+      "미존재 URL 및 출처 실시간 검증",
+      "인용 원문과 본문 주장 일치도 대조",
+      "위조 의심 참고문헌 위험도 경고",
+      "워드 및 라텍 원문 자동 연동 검사"
+    ],
+    "persona": "연간 수천 건의 투고 논문을 검토하며 AI 환각 인용 논문 통과로 학술지 신뢰도 하락을 우려하는 국제 학술지 책임 편집장",
+    "businessModel": "월간 검증 논문 건수 기반 구독형 B2B 요금제(월 400달러부터 시작) 및 대량 투고 검토용 건당 3달러 API 과금제를 병행합니다.",
+    "marketStats": "기사에 규모 근거 없음 (단, AI 보조 작성 논문이 가짜 기사를 인용한 채 공식 학술지 검토를 통과한 실제 사고가 기사로 확인됨)",
+    "goToMarket": "AI 환각 인용으로 망신을 겪은 New Review of Academic Librarianship 등 오픈액세스 저널 편집위원회 50곳에 검증 데모 리포트를 직접 발송해 도입을 유도합니다.",
+    "unfairAdvantage": "AI가 생성한 가짜 논문 출처가 실제 피어리뷰를 통과해 대외 보도되는 등 출판계 신인도 타격 위기가 현실화된 지금 시점에 가장 강력한 셀링 포인트를 가집니다.",
+    "competitors": [
+      "Turnitin — 표절 검사에 특화 · 생성형 AI 허위 출처 실시간 대조 미흡",
+      "Crossref — 메타데이터 조회용 · 본문 문맥과 출처 주장의 진위 검증 미지원",
+      "Scite — 인용 횟수 분석 중심 · 존재하지 않는 웹/기사 출처 탐지 부재"
+    ],
+    "risks": [
+      "유료 논문이나 비공개 기사 아카이브에 대한 크롤링 접근 제한",
+      "LLM 검색 기능 고도화로 인한 자체 검증 솔루션의 진입 장벽 저하",
+      "출판사 내부 레거시 심사 시스템과의 통합 연동 지연"
+    ],
+    "actionPlan": [
+      "기사에 언급된 가짜 TorrentFreak 인용 사례를 포함한 AI 환각 출처 테스트 데이터셋 100건 구축",
+      "웹 검색 및 DOI 조회 기반 출처 유효성 검사 파이썬 프로토타입 작성",
+      "국내외 중소 학술 출판사 편집 간사 10명 대상 검증 인터뷰 진행"
+    ],
+    "recommendation": "최근 AI 보조 작성 논문에서 존재하지 않는 기사가 실제 피어리뷰를 통과하는 사건이 발생하면서 편집 기관의 실무 불안이 극에 달해 있습니다. 출처 실존 검증은 시장 요구가 명확하지만 유료 저널 DB 접근권을 확보하지 못하면 검증 범위가 웹 기사 수준에 갇힐 수 있으므로 데이터 제휴 전략이 필수적입니다.",
+    "searchQuery": "hallucinated citation detector",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 2건 · 근거는 상위 2건 — 최고 1점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: 32KB deductive engine that catches LLM hallucinations",
+          "url": "https://news.ycombinator.com/item?id=46883606",
+          "points": 1
+        },
+        {
+          "title": "StillMe – an open-source \"transparent RAG\" framework",
+          "url": "https://news.ycombinator.com/item?id=46215213",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50212065",
+        "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+        "url": "https://kimi.ai/blog/kimi-k3-1-pro"
+      },
+      {
+        "clusterId": "hackernews:50218633",
+        "title": "Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+        "url": "https://reddit.com/r/antiai/comments/1xdv3e5/hacker_reverse_engineers_his_samsung_tv_and_finds"
+      },
+      {
+        "clusterId": "hackernews:50207405",
+        "title": "Swedish government offices to ban ChatGPT and Claude",
+        "url": "https://sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet"
+      },
+      {
+        "clusterId": "hackernews:50220204",
+        "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+        "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/securing-our-frontier-model-training-environment",
+        "title": "Securing our frontier model training environment",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+      },
+      {
+        "clusterId": "hackernews:50205229",
+        "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+        "url": "https://berget.ai/en/blog/per-request-co2-press-release"
+      },
+      {
+        "clusterId": "hackernews:50214185",
+        "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+        "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562"
+      },
+      {
+        "clusterId": "hackernews:50206361",
+        "title": "The rise and fall of Jev hype",
+        "url": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm"
+      },
+      {
+        "clusterId": "hackernews:50207620",
+        "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+        "url": "https://thisandthat.chat/enron"
+      },
+      {
+        "clusterId": "techcrunch-ai:https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks",
+        "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+        "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks"
+      }
+    ]
+  }
+}

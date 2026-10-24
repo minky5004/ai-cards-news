@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T15:39:10.647Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50212065",
+      "headline": "키미 K3.1 프로, 100만 토큰 창 열었다",
+      "highlight": [
+        "100만 토큰"
+      ],
+      "body": "키미 K3.1 프로는 1백만 토큰 컨텍스트 창을 가진 3T급 오픈웨이트 모델입니다. 코딩, 3D 생성, 금융 연구 등 핵심 역량에서 크게 개선되었습니다. 키미 API 등에서 오늘부터 바로 사용 가능하며, AI 작업에 혁신을 가져올 것입니다.",
+      "sourceUrl": "https://kimi.ai/blog/kimi-k3-1-pro",
+      "sourceName": "hackernews",
+      "imageUrl": "https://kimi-img.kimi.ai/pub/slides/kimi-fs/managed-assets/9558f8d5-08fc-42de-8e4e-339076e03895.webp",
+      "publishedAt": "2026-10-23T16:59:08.000Z"
+    },
+    {
+      "clusterId": "hackernews:50207405",
+      "headline": "스웨덴 정부가 ChatGPT 접속을 막았다",
+      "highlight": [
+        "ChatGPT",
+        "막았다"
+      ],
+      "body": "스웨덴 정부가 정보 유출을 막으려 업무용 PC에서 ChatGPT와 클로드 접속을 차단했습니다. 대신 보안을 높인 MS 코파일럿 등 승인된 AI만 쓰도록 조치했습니다. 국세청 등 다른 스웨덴 공공기관으로도 외부 AI 차단 조치가 빠르게 확산하고 있습니다.",
+      "sourceUrl": "https://sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "sourceName": "hackernews",
+      "imageUrl": "https://static-cdn.sr.se/images/83/4f267bc3-0129-4628-bd75-1e593f208dfc.jpg",
+      "publishedAt": "2026-10-23T11:39:54.000Z"
+    },
+    {
+      "clusterId": "hackernews:50205229",
+      "headline": "똑같은 AI 써도 텍사스가 8.5배 더 배출",
+      "highlight": [
+        "8.5배 더 배출"
+      ],
+      "body": "스웨덴 AI 기업 베르예트 AI에 따르면 동일한 요청도 텍사스 서버는 스웨덴보다 탄소를 8.5배 더 배출합니다. 지역 전력망의 구성 차이로 탄소 발자국이 크게 달라지기 때문입니다. 이제 AI 서버의 위치 선택이 핵심 탄소 감축 전략으로 떠올랐습니다.",
+      "sourceUrl": "https://berget.ai/en/blog/per-request-co2-press-release",
+      "sourceName": "Berget AI",
+      "imageUrl": "https://berget.ai/api/og?title=New+open-source+method+shows+the+same+AI+request+emits+8.5+times+more+CO%E2%82%82+in+Texas+than+in+Sweden&image=https%3A%2F%2Fberget.ai%2Fimages%2Fblog%2Fper-request-co2-press-release%2Fcover.png",
+      "publishedAt": "2026-10-23T06:41:11.000Z"
+    },
+    {
+      "clusterId": "hackernews:50206361",
+      "headline": "오픈AI 출신 AI 33일 만에 거품 꺼졌다",
+      "highlight": [
+        "33일 만에",
+        "거품 꺼졌다"
+      ],
+      "body": "오픈AI 출신 개발자가 만든 AI '제브'가 출시 33일 만에 몰락을 맞았습니다. 환각은 없지만 일반 모델보다 오답률이 높아 실용성이 떨어진다는 평가입니다. 결국 화려한 용어로 포장한 AI 마케팅 거품이 빠르게 꺼지고 있습니다.",
+      "sourceUrl": "https://blog.alexewerlof.com/p/rise-and-fall-of-jev-eval-hype-vs-llm",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!Ek1R!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1bcb526-45f1-4966-9fbf-af054e8a637b_931x614.png",
+      "publishedAt": "2026-10-23T09:21:00.000Z"
+    }
+  ]
+}
