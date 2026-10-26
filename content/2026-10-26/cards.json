@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T18:31:07.263Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50238088",
+      "headline": "IBM \"가격 10%로 성능 90% 낸다\"",
+      "highlight": [
+        "가격 10%",
+        "성능 90%"
+      ],
+      "body": "IBM CEO는 오픈 모델이 최고 성능의 90%를 내면서 비용은 10% 수준에 불과하다고 밝혔습니다. 계약서 검토나 이메일 요약 등 기업 업무 대부분은 저렴한 오픈 모델로 충분하다는 설명입니다. 이에 따라 기업의 자체 AI 인프라 구축 수요가 늘고 있습니다.",
+      "sourceUrl": "https://theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
+      "sourceName": "theregister",
+      "imageUrl": "https://image.theregister.com/4091853.jpg?imageId=4091853&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "publishedAt": "2026-10-26T01:47:46.000Z"
+    },
+    {
+      "clusterId": "hackernews:50242843",
+      "headline": "AI 뒤 31개국 '그림자 노동' 지도 첫 공개",
+      "highlight": [
+        "31개국"
+      ],
+      "body": "브라운대 학생이 AI 데이터 라벨링을 위한 글로벌 노동 착취 구조를 지도로 밝혀냈습니다. 13개 기업, 141개 고객사, 31개국에 걸친 '그림자 노동'은 AI 식민주의의 본질을 보여주며, 노동자 연대의 계기가 될 것입니다.",
+      "sourceUrl": "https://brown.edu/news/2026-10-26/ai-data-workers",
+      "sourceName": "Brown University",
+      "imageUrl": "https://www.brown.edu/sites/default/files/styles/wide_lrg/public/2026-10/Dataworkers.jpg?h=f6430484&itok=1eq5-wXm",
+      "publishedAt": "2026-10-26T12:58:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:50236828",
+      "headline": "빅테크 말고 AI로 돈 번 기업은 0곳",
+      "highlight": [
+        "0곳"
+      ],
+      "body": "글로벌 투자사 아폴로는 빅테크 외 일반 기업의 AI 재정적 수익이 제로에 가깝다고 분석했습니다. 테크 기업의 직원당 매출은 80만 달러로 치솟았지만 일반 S&P 500 기업은 55만 달러에 멈췄습니다. 일반 기업에게 AI는 성장의 동력이 아닌 마진을 깎는 비용이 되고 있습니다.",
+      "sourceUrl": "https://businessinsider.com/apollo-ai-zero-financial-payoff-corporate-america-economic-analysis-2026-10",
+      "sourceName": "Business Insider",
+      "imageUrl": "https://i.insider.com/6ade1f21ab741a2ebdf111c1?width=1200&format=jpeg",
+      "publishedAt": "2026-10-25T22:49:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:50233779",
+      "headline": "피부암 진단, 10년 된 구글 AI가 최신 GPT 압도",
+      "highlight": [
+        "10년 된 구글 AI가"
+      ],
+      "body": "10년 전 구글이 개발한 CNN 모델이 최신 LLM(GPT-6 아스트라, 클로드 페이블 5.1)을 압도했습니다. 200개 피부 병변 진단에서 구형 AI는 62% 정확도를 기록, 42%에 그친 최신 모델을 크게 앞섰습니다. 이는 AI의 전문 분야 활용에 대한 중요한 시사점을 던집니다.",
+      "sourceUrl": "https://lynchlab.net/llm-skin-cancer",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-10-25T17:15:38.000Z"
+    }
+  ]
+}
