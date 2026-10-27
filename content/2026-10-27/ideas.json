@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T17:46:31.094Z",
+  "idea": {
+    "productName": "AgentFlow",
+    "tagline": "수많은 AI 에이전트, 이제는 한 곳에서 다룹니다",
+    "oneLineSummary": "AI 에이전트가 일으키는 과도한 문맥 전환 문제를 해결해주는 엔지니어용 통합 관리 플랫폼입니다.",
+    "problem": "엔지니어는 다수의 AI 에이전트를 사용하며 과도한 문맥 전환과 더 무거운 작업 부담에 직면합니다. 각 에이전트의 질문에 응답하기 위해 다른 문제와 저장소를 끊임없이 오가야 합니다.",
+    "productDescription": "AI 에이전트들이 생성하는 모든 작업 흐름과 알림을 한곳에 모아 보여주는 대시보드를 제공합니다. 엔지니어는 이곳에서 각 에이전트의 진행 상황을 한눈에 파악하고, 필요한 경우 개입하여 지시를 수정하거나 결과물을 검토할 수 있습니다. 이를 통해 에이전트가 유발하는 문맥 전환 비용을 최소화하고, 엔지니어가 중요한 의사결정에 집중할 수 있도록 돕습니다. 최종적으로는 AI 에이전트의 생산성은 유지하면서도 엔지니어의 작업 부담을 줄이는 것을 목표로 합니다.",
+    "keyFeatures": [
+      "모든 에이전트 작업 통합 대시보드",
+      "문맥 자동 파악 및 스위칭 최소화",
+      "지능형 알림 및 개입 지점 제시",
+      "에이전트별 진행 상황 시각화",
+      "코드 변경 제안 및 승인 간소화"
+    ],
+    "persona": "다수의 AI 에이전트를 개발 및 운영하며 생산성을 높이려는 풀스택 엔지니어입니다. 매일 여러 에이전트의 보고와 질문에 응답하며 잦은 문맥 전환으로 피로감을 느끼는 숙련된 개발자입니다.",
+    "businessModel": "SaaS 구독 모델을 채택합니다. 개인 사용자는 무료 또는 저가로 제공하고, 팀 및 기업 사용자는 에이전트 수, 관리 프로젝트 수, 사용자 수에 따라 월 50달러에서 500달러까지 차등 요금제를 적용합니다.",
+    "marketStats": "기사에 시장 규모 근거 없음",
+    "goToMarket": "AI 에이전트 활용 사례를 공유하는 개발자 커뮤니티(Hacker News, Reddit /r/MachineLearning, Slack 채널 등)에 초기 버전을 홍보하고 피드백을 수집합니다. AI 에이전트 개발자 대상 온라인 웨비나를 개최하여 제품 시연을 진행하고 잠재 고객을 유치합니다.",
+    "unfairAdvantage": "AI 에이전트의 활용이 폭발적으로 증가하는 초기 단계에 엔지니어들이 겪는 실제적인 문제점을 해결하는 데 집중합니다. GPT-6.1 Terra와 같은 고성능 에이전트 모델의 등장은 에이전트 활용을 가속화하며 이 문제의 중요성을 더욱 부각시킵니다.",
+    "competitors": [
+      "Jira/Trello — 에이전트 작업 관리 기능 없음",
+      "Slack/Discord — 에이전트 알림 통합 미흡, 문맥 관리 부족",
+      "LangChain/LlamaIndex — 에이전트 오케스트레이션 라이브러리, UI/UX 부재"
+    ],
+    "risks": [
+      "AI 에이전트 기술의 급격한 발전으로 오케스트레이션 방식이 표준화되거나 내장되는 경우",
+      "대형 언어 모델 제공업체(OpenAI 등)가 자체적인 강력한 에이전트 관리 도구를 출시하는 경우",
+      "엔지니어들이 문맥 전환 부담을 크게 느끼지 않아 필요성을 못 느끼는 경우",
+      "보안 및 데이터 프라이버시 문제 발생 시 고객 신뢰 상실"
+    ],
+    "actionPlan": [
+      "타겟 엔지니어 10명 대상 심층 인터뷰 진행",
+      "핵심 기능 MVP 프로토타입 개발 시작 (대시보드, 알림)",
+      "개발자 커뮤니티에 아이디어 공유 및 피드백 요청",
+      "GPT-6.1 Terra API 연동 테스트 환경 구축"
+    ],
+    "recommendation": "AI 에이전트 사용이 늘면서 엔지니어의 피로도 증가 및 문맥 전환 부담은 분명한 문제입니다. 이 아이디어는 실제 엔지니어의 불편을 해소할 수 있는 잠재력이 있습니다. 다만, 대형 모델 제공사의 유사 기능 출시 가능성 및 기술 변화 속도를 지속적으로 주시해야 합니다.",
+    "searchQuery": "AI agent orchestration",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 12점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "LisPy – A Lisp interpreter for AI agent orchestration",
+          "url": "https://github.com/kody-w/lisppy",
+          "points": 12
+        },
+        {
+          "title": "Show HN: Bluemarz (Open Source AI Agent Orchestration)",
+          "url": "https://news.ycombinator.com/item?id=42226701",
+          "points": 6
+        },
+        {
+          "title": "Sandboxed AI agent orchestration platform",
+          "url": "https://github.com/superhq-ai/superhq",
+          "points": 5
+        },
+        {
+          "title": "Konductor Workflow – The AI Orchestration Agent Framework for Every Dev",
+          "url": "https://alphabits.team/news/blog/konductor-workflow-release-the-ai-agent-framework-we-built-for-ourselves",
+          "points": 4
+        },
+        {
+          "title": "Show HN: Thurbox – A tmux-based TUI and CLI for local AI agent orchestration",
+          "url": "https://github.com/Thurbeen/thurbox",
+          "points": 4
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50251661",
+        "title": "The Exponential Time Hypothesis Is False [pdf]",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-Exponential-Time-Hypothesis-is-False-October-25-2026/paper.pdf"
+      },
+      {
+        "clusterId": "hackernews:50248124",
+        "title": "GPT-6.1 Terra",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra"
+      },
+      {
+        "clusterId": "hackernews:50257325",
+        "title": "AI promised less work. I've never worked more",
+        "url": "https://oioannou.com/blog/ai-promised-less-work"
+      },
+      {
+        "clusterId": "hackernews:50257326",
+        "title": "Wikipedia's Cleanup of AI-Generated Content",
+        "url": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup"
+      },
+      {
+        "clusterId": "hackernews:50255298",
+        "title": "The Mythical Man-Month in the Age of AI",
+        "url": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/building-scientific-understanding-with-academic-communities",
+        "title": "Working with academic communities to build scientific understanding",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities"
+      },
+      {
+        "clusterId": "hackernews:50259406",
+        "title": "Is my data used for model training?",
+        "url": "https://privacy.claude.com/en/articles/7996868-is-my-data-used-for-model-training"
+      },
+      {
+        "clusterId": "hackernews:50260814",
+        "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+        "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude"
+      },
+      {
+        "clusterId": "hackernews:50242939",
+        "title": "Anthropic S-1",
+        "url": "https://sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm"
+      },
+      {
+        "clusterId": "hackernews:50261819",
+        "title": "Police Are Using AI to Pull over Drivers for 'Suspicious' Behavior",
+        "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
+      },
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+        "title": "Genie 4: A new generation of world simulation",
+        "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+      },
+      {
+        "clusterId": "hackernews:50246658",
+        "title": "Concerning behavior from a popular open-weight AI model",
+        "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model"
+      },
+      {
+        "clusterId": "hackernews:50254836",
+        "title": "There are now 5 inference providers for abliterated DeepSeek",
+        "url": "https://allmodels.io/llm/abliterated"
+      },
+      {
+        "clusterId": "hackernews:50252159",
+        "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
+        "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation"
+      },
+      {
+        "clusterId": "hackernews:50256230",
+        "title": "AI is ruining haunted houses",
+        "url": "https://plagiarismtoday.com/2026/10/26/ai-is-ruining-haunted-attractions"
+      }
+    ]
+  }
+}

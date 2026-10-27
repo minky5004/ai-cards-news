@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T17:45:26.274Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50251661",
+      "headline": "오픈AI가 27년 된 난제를 무너뜨렸다",
+      "highlight": [
+        "27년 된 난제"
+      ],
+      "body": "오픈AI가 1999년 정립된 핵심 컴퓨터 과학 가설을 반박하는 해법을 발표했습니다. 앤트로픽도 곧바로 자체 반박론을 내놓으며 학계의 논쟁이 격화되고 있습니다. 이 정답이 인정되면 기존 암호 체계와 복잡도 이론의 전제가 완전히 달라질 수 있습니다.",
+      "sourceUrl": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/04/Screenshot-2026-04-14-at-7.00.44-PM.png?resize=1200,783",
+      "publishedAt": "2026-10-26T21:59:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:50248124",
+      "headline": "오픈AI, GPT-6.1 테라 가격 절반으로 낮췄다",
+      "highlight": [
+        "가격 절반"
+      ],
+      "body": "오픈AI가 공개한 최신 모델 GPT-6.1 테라의 배치 및 플렉스 모드 가격이 기존 스탠더드 대비 50% 저렴해집니다. 이 모델은 시각적 추론과 정교한 컴퓨터 활용에 특화되어 있습니다. 비용 부담이 줄어들면서 더 많은 개발자가 AI를 활용할 수 있게 될 것입니다.",
+      "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-terra",
+      "sourceName": "OpenAI Developers",
+      "imageUrl": "https://developers.openai.com/og/api/docs/models/gpt-6.1-terra.png",
+      "publishedAt": "2026-10-26T18:01:17.000Z"
+    },
+    {
+      "clusterId": "hackernews:50257325",
+      "headline": "AI 썼더니 한 달 깃허브 기여 427건",
+      "highlight": [
+        "427건"
+      ],
+      "body": "AI로 업무를 줄일 줄 알았지만 Bold.org 기술 부사장의 2026년 8월 GitHub 기여는 427건으로 역대 최고를 찍었습니다. 여러 AI 에이전트를 동시에 돌리며 코딩은 쉬워졌지만, 맥락 전환과 검토 업무가 폭증한 탓입니다. 결국 개발이 쉬워진 만큼 스스로 일을 더 벌여 번아웃에 빠지고 말았습니다.",
+      "sourceUrl": "https://oioannou.com/blog/ai-promised-less-work",
+      "sourceName": "hackernews",
+      "imageUrl": "https://oioannou.com/img/blog-by-orestis.jpg",
+      "publishedAt": "2026-10-27T11:08:14.000Z"
+    },
+    {
+      "clusterId": "hackernews:50257326",
+      "headline": "위키피디아 새 문서 20%는 AI가 썼다",
+      "highlight": [
+        "20%는"
+      ],
+      "body": "위키피디아 조사 결과 2025년 말 작성된 새 문서의 약 20%가 AI 글이었습니다. 가짜 출처와 환각 문제가 심각해지자 위키피디아는 LLM을 활용한 문서 작성을 금지했습니다. 자원봉사자들은 탐지 도구를 도입하며 인간 작성 백과사전의 정체성을 지키고 있습니다.",
+      "sourceUrl": "https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup",
+      "sourceName": "IEEE Spectrum",
+      "imageUrl": "https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168",
+      "publishedAt": "2026-10-27T11:08:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:50255298",
+      "headline": "AI 에이전트 늘려도 틀린 답만 더 빨라진다",
+      "highlight": [
+        "틀린 답만"
+      ],
+      "body": "프로젝트에 AI 에이전트를 무작정 투입하면 코드 검수와 환각 대응 등 관리 부담만 커집니다. 요구사항이 불명확하면 여러 에이전트가 서로의 작업을 덮어쓰며 오답만 빠르게 냅니다. 사람을 관리하던 오버헤드가 AI를 관리하는 오버헤드로 옮겨간 것입니다.",
+      "sourceUrl": "https://j11g.com/the-mythical-man-month-in-the-age-of-ai",
+      "sourceName": "Jan van den Berg",
+      "imageUrl": "https://j11g.com/content/images/cern-resized.jpg",
+      "publishedAt": "2026-10-27T06:25:37.000Z"
+    }
+  ]
+}
