@@ -69,8 +69,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # 러너 이미지를 못박는다. ubuntu-latest 가 26.04 로 넘어간 2026-10-28 에 1차·백업이 둘 다
+  # "Chromium 설치" 에서 죽었다 — Playwright 1.52.0 이 그 OS 를 지원하지 않는다
+  # (`Playwright does not support chromium on ubuntu26.04-x64`). 브라우저를 쓰는 잡은 여기뿐이라
+  # alert · resolve 는 latest 그대로 둔다. Playwright 를 26.04 지원 버전으로 올리면 되돌린다.
   pipeline:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # 알림 잡이 이슈 제목에 쓸 날짜와 결번을 가를 아이디어 결과, 배포 잡이 빌드할 발행 커밋이다.
     # 잡이 나뉘면 steps 출력에 닿지 못한다.
     outputs:
