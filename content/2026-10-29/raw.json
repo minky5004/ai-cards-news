@@ -1,0 +1,1399 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T18:11:48.068Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 6
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 9
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 9,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 6
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 30,
+      "filtered": 14
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "representativeId": "openai:https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "title": "How we detect frontier model misalignment",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "source": "openai",
+          "publishedAt": "2026-10-29T09:00:00.000Z",
+          "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+          "title": "Gemini 4 Carbon: Our next frontier model",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+          "source": "google-deepmind",
+          "publishedAt": "2026-10-28T17:00:58.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50276792",
+          "title": "Gemini 4 Carbon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T17:01:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 990,
+            "comments": 791,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50276792"
+          }
+        },
+        {
+          "id": "hackernews:50288019",
+          "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T12:41:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 308,
+            "comments": 229,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50288019"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+          "title": "Google announces Gemini 4 Carbon, its latest frontier AI model that you can't use",
+          "url": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-28T18:47:27.000Z",
+          "summary": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+          "title": "As AI agents reshape the web, Google opens Gemini and Search to more apps",
+          "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-28T17:00:00.000Z",
+          "summary": "A new developer platform will let businesses bring their services to Google's AI experiences, potentially changing how consumers discover and use apps.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+          "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+          "url": "https://theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-28T20:03:00.000Z",
+          "summary": "Google has released its latest frontier model, Gemini 4 Carbon, offering \"significant gains\" in coding, agentic tasks, and cybersecurity. In an announcement on Wednesday, Google highlights Carbon's top spot on the Artificial Analysis Intelligence Index (v5.0) benchmark, with Claude Opus 5.5 and GPT-6 Astra trailing behind. The new Gemini 4 Carbon model offers improvements over […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 8.213798844705842,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 1.2137988447058428,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/mistral-large4",
+      "representativeId": "huggingface:https://huggingface.co/blog/mistral-large4",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/mistral-large4",
+          "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+          "url": "https://huggingface.co/blog/mistral-large4",
+          "source": "huggingface",
+          "publishedAt": "2026-10-29T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50289418",
+          "title": "We're releasing the weights of Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4-oss",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T14:13:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 716,
+            "comments": 188,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50289418"
+          }
+        }
+      ],
+      "score": 6.4588707215659245,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9883925412423699,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2871448469902218,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "hackernews:50290283",
+      "representativeId": "hackernews:50290283",
+      "items": [
+        {
+          "id": "hackernews:50290283",
+          "title": "Zombie stats: Where the numbers AI quotes come from",
+          "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T15:06:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50290283"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+          "title": "AI has come for Arizona’s water",
+          "url": "https://theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-29T10:00:04.000Z",
+          "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the mountains that surround it, and it is endless. I drive past one […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.523659590691246,
+      "breakdown": {
+        "hnPoints": 1.4367672797783455,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3316239836720944,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50282766",
+      "representativeId": "hackernews:50282766",
+      "items": [
+        {
+          "id": "hackernews:50282766",
+          "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+          "url": "https://niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T00:16:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 104,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50282766"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+          "title": "The NYT Cooking app is testing AI recipe modifications",
+          "url": "https://theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-29T14:39:37.000Z",
+          "summary": "The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior editor Genevieve Ko announced the feature, which can be used to recommend substitutions for ingredients and cooking equipment, scale recipes to any […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.520645556253649,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.8775585094278122,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3090274966170306,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50271271",
+      "representativeId": "hackernews:50271271",
+      "items": [
+        {
+          "id": "hackernews:50271271",
+          "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+          "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T10:10:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 36,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50271271"
+          }
+        },
+        {
+          "id": "hackernews:50273416",
+          "title": "Decompiling Games with AI: Virtueel Zoetermeer",
+          "url": "https://bou.ke/blog/zoetermeer",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T13:43:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50273416"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+          "title": "Microsoft’s AI future has fewer jobs",
+          "url": "https://theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-29T16:00:00.000Z",
+          "summary": "To anyone listening closely to what Microsoft CEO Satya Nadella has been saying over the past couple of years, this week felt like the clearest sign yet that AI is about to fundamentally change the size of Microsoft's workforce. Microsoft is now offering voluntary buyouts to around 60,000 employees across the US, UK, Canada, and […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.459368399165166,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.6808806914263887,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3783329374455084,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50284255",
+      "representativeId": "hackernews:50284255",
+      "items": [
+        {
+          "id": "hackernews:50284255",
+          "title": "Claude Code regularly sends each background agent’s transcript to its model",
+          "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T03:33:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 536,
+            "comments": 216,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50284255"
+          }
+        }
+      ],
+      "score": 5.053762023323567,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8537620233235665,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50290177",
+      "representativeId": "hackernews:50290177",
+      "items": [
+        {
+          "id": "hackernews:50290177",
+          "title": "LLM Voice",
+          "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T14:57:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 98,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50290177"
+          }
+        }
+      ],
+      "score": 4.740487369389328,
+      "breakdown": {
+        "hnPoints": 1.4783371426195693,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 1.3244926579048597,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50273396",
+      "representativeId": "hackernews:50273396",
+      "items": [
+        {
+          "id": "hackernews:50273396",
+          "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+          "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T13:41:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 479,
+            "comments": 514,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50273396"
+          }
+        }
+      ],
+      "score": 4.686692206726338,
+      "breakdown": {
+        "hnPoints": 1.9862239953805485,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.500468211345789,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50275626",
+      "representativeId": "hackernews:50275626",
+      "items": [
+        {
+          "id": "hackernews:50275626",
+          "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+          "url": "https://surgehq.ai/blog/dayjob-tax",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T15:46:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 248,
+            "comments": 165,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
+          }
+        }
+      ],
+      "score": 4.4812670275908175,
+      "breakdown": {
+        "hnPoints": 1.7750691637039229,
+        "hnComments": 0.963924925490933,
+        "mentions": 0.0,
+        "recency": 0.5422729383959609,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50289692",
+      "representativeId": "hackernews:50289692",
+      "items": [
+        {
+          "id": "hackernews:50289692",
+          "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+          "url": "https://404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T14:29:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50289692"
+          }
+        }
+      ],
+      "score": 4.390510149436939,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 1.3002217994659935,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50280178",
+      "representativeId": "hackernews:50280178",
+      "items": [
+        {
+          "id": "hackernews:50280178",
+          "title": "Google AI gets cagey when asked who won the 2020 elections",
+          "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T20:10:16.000Z",
+          "summary": "But the AI responses get more forthright when asked outside the US.",
+          "trust": 0.8,
+          "signals": {
+            "points": 161,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50280178"
+          }
+        }
+      ],
+      "score": 4.293189027984406,
+      "breakdown": {
+        "hnPoints": 1.6367761613027223,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 0.64230012219752,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50281826",
+      "representativeId": "hackernews:50281826",
+      "items": [
+        {
+          "id": "hackernews:50281826",
+          "title": "AI execs may be too out of touch to build for the general public",
+          "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T22:27:46.000Z",
+          "summary": "Tech leaders are flaunting how out of touch they are when they brag about using AI to connect with their families.",
+          "trust": 0.8,
+          "signals": {
+            "points": 88,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50281826"
+          }
+        }
+      ],
+      "score": 4.144027560773246,
+      "breakdown": {
+        "hnPoints": 1.4440793888964025,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 0.7015580023501061,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50286738",
+      "representativeId": "hackernews:50286738",
+      "items": [
+        {
+          "id": "hackernews:50286738",
+          "title": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+          "url": "https://spectrum.ieee.org/ai-generated-scientific-papers",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T10:08:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50286738"
+          }
+        }
+      ],
+      "score": 4.109097782719408,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 1.0996620472440306,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50282865",
+      "representativeId": "hackernews:50282865",
+      "items": [
+        {
+          "id": "hackernews:50282865",
+          "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+          "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
+          "source": "hackernews",
+          "publishedAt": "2026-10-29T00:30:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 71,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50282865"
+          }
+        }
+      ],
+      "score": 4.060559012992954,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.8064152812554853,
+        "mentions": 0.0,
+        "recency": 0.7591118042577194,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50273192",
+      "representativeId": "hackernews:50273192",
+      "items": [
+        {
+          "id": "hackernews:50273192",
+          "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+          "url": "https://invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T13:27:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 68,
+            "comments": 82,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50273192"
+          }
+        }
+      ],
+      "score": 3.8913759409597195,
+      "breakdown": {
+        "hnPoints": 1.3621923074258677,
+        "hnComments": 0.8332239394875417,
+        "mentions": 0.0,
+        "recency": 0.49595969404630985,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50273623",
+      "representativeId": "hackernews:50273623",
+      "items": [
+        {
+          "id": "hackernews:50273623",
+          "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+          "url": "https://github.com/thomasunise/casecite",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T13:56:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 69,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50273623"
+          }
+        }
+      ],
+      "score": 3.762889581579851,
+      "breakdown": {
+        "hnPoints": 1.3668214369599359,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.0,
+        "recency": 0.505260863190107,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50272479",
+      "representativeId": "hackernews:50272479",
+      "items": [
+        {
+          "id": "hackernews:50272479",
+          "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
+          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+          "source": "hackernews",
+          "publishedAt": "2026-10-28T12:24:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 71,
+            "comments": 4,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50272479"
+          }
+        }
+      ],
+      "score": 3.3556742003439717,
+      "breakdown": {
+        "hnPoints": 1.3758845419753172,
+        "hnComments": 0.303478291430754,
+        "mentions": 0.0,
+        "recency": 0.47631136693790027,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads",
+          "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+          "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-29T16:24:55.000Z",
+          "summary": "Google's negative cash flow balloons to -$9.06 billion, and stock price tumbles following Q3 earnings.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows",
+          "title": "Google expands AI Search ads globally as core ad growth slows",
+          "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-28T21:48:37.000Z",
+          "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.2838851904845923,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4005518571512594,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/updated-model-spec",
+      "representativeId": "openai:https://openai.com/index/updated-model-spec",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/updated-model-spec",
+          "title": "An updated Model Spec for more capable and beneficial AI",
+          "url": "https://openai.com/index/updated-model-spec",
+          "source": "openai",
+          "publishedAt": "2026-10-29T17:00:00.000Z",
+          "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.932445221783816,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4324452217838162,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "title": "Granite Switch 4.1.1 — Update models like you update software",
+          "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+          "source": "huggingface",
+          "publishedAt": "2026-10-29T13:37:07.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.6075580795749795,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2575580795749792,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+          "title": "Building a multiplayer game world with autonomous Fable-class models",
+          "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-29T17:00:26.000Z",
+          "summary": "How I Built the Most AI-Pilled Company in the World Don't be put off by the clickbait headline, this piece by Jacob Sansbury describing how they are building Spawn is a fascinating exploration of the bleeding edge of what's possible with agentic engineering against frontier models. Spawn is a massively multiplayer gaming environment where players can use prompts (to the in-game agent, Savi) to modify the game world. I fired it up on my phone for a few minutes and was able to prompt a castle into existence, then a dragon, then ride the dragon to fly around that castle. By Jacob's telling, Spawn is now being developed autonomously by a swarm of Fable-powered agents costing over $3 million in tokens per month (\"we spend 30x payroll on AI tokens\"). Our agents change the live code directly and ship to production hourly, so they read every error, bug report and metric themselves. About 60% of our work starts from a production error, a Savi bug report (Savi is the AI you build games with in Spawn), something odd in our logs, or a feature request. Savi files bugs herself. When a user hits one, or Savi hits one in the product, she files it. It goes straight to an agent that decides whether it's a real bug to fix, something we won't fix, or intentional design that needs a decision. Usually it becomes a change, delivered to that user within an hour, with a message in the same chat. This is continuous deployment turned up to 11: A loop this tight only works if it never stops, so we treat an hour without a ship as a SEV-0, our most severe kind of incident. Unshipped changes pile up, and every problem already in production lasts longer. The feedback slows down too. An agent can only keep a few hours of work in its head, so shipping faster than that actually helps it stay coherent. [...] We can roll back a broken change in 30 seconds, exactly where it's broken and nowhere else. When a monitor or a log alert fires, it starts or wakes an agent that owns the incident, and we break things on purpose to test that those recovery paths work. My eyebrows raised at least a dozen times reading this. I have trouble imagining this style of development working on software with higher stakes for when something goes wrong, but for a game this appears to be working surprisingly well. Jacob says that Fable 5 (and then 5.1) was the model that made this level of autonomy possible. Opus 5.5 doesn't quite hack it for them, and when they tried GPT-6 Astra to apply fixes from a security review everything stopped working: Every feature had been disabled and marked to be turned on again once the security fixes were done. Astra had gone through our whole product and made the insecure things secure by turning them off. These kinds of extreme experiments are why I'm excited about game development as a substrate for exploring the edges of what today's coding agents can do. Tags: game-design , ai , generative-ai , llms , claude , coding-agents , agentic-engineering , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4828436611306133,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4328436611306132,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/ropes-gray-ai-diligence",
+      "representativeId": "openai:https://openai.com/index/ropes-gray-ai-diligence",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/ropes-gray-ai-diligence",
+          "title": "How Ropes & Gray is developing AI for transactional diligence",
+          "url": "https://openai.com/index/ropes-gray-ai-diligence",
+          "source": "openai",
+          "publishedAt": "2026-10-29T07:00:00.000Z",
+          "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4746285668004924,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9746285668004924,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/29/ben-hylak",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/29/ben-hylak",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/29/ben-hylak",
+          "title": "Quoting Ben Hylak",
+          "url": "https://simonwillison.net/2026/Oct/29/ben-hylak",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-29T14:06:27.000Z",
+          "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us very much. we're special that way. — Ben Hylak Tags: model-context-protocol , ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.331457405394395,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2814574053943948,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+          "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
+          "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-28T17:00:00.000Z",
+          "summary": "The autofill update lets Chrome pull flight confirmations, tracking info, order details, and other information from your inbox, with your permission.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+          "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+          "url": "https://theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-28T17:00:00.000Z",
+          "summary": "Following improvements made to Chrome's enhanced autofill last year that included your name, passport number, email address, and physical addresses sourced from your Google Accounts and services like Google Wallet, the feature is now expanding. Starting today, Chrome's enhanced autofill will use Gemini with Personal Intelligence to suggest information sourced from your Gmail, potentially saving […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.301799596319946,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5684662629866127,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+          "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+          "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-29T16:21:00.000Z",
+          "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.297035671669646,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.397035671669646,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+          "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+          "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-29T14:35:26.000Z",
+          "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.205517634442301,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.305517634442301,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+          "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-29T14:00:00.000Z",
+          "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1761636118934558,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2761636118934558,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+          "title": "Anthropic is asking Wall Street to believe in AGI",
+          "url": "https://theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-29T14:00:00.000Z",
+          "summary": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it could start […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1761636118934558,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2761636118934558,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+          "title": "We urgently need to monitor AI agents’ actions in real time",
+          "url": "https://technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-29T10:11:12.000Z",
+          "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.151875673479781,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1018756734797812,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+          "title": "Anthropic’s business plan: Build God or die trying",
+          "url": "https://theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-29T13:30:00.000Z",
+          "summary": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the business of selling IT […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1518272836945265,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2518272836945268,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+          "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+          "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-29T13:00:00.000Z",
+          "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1279550471408117,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2279550471408118,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/announcing-project-protostar",
+      "representativeId": "huggingface:https://huggingface.co/blog/announcing-project-protostar",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/announcing-project-protostar",
+          "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+          "url": "https://huggingface.co/blog/announcing-project-protostar",
+          "source": "huggingface",
+          "publishedAt": "2026-10-29T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0943409562620308,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7443409562620307,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/anydecisionmodel",
+      "representativeId": "huggingface:https://huggingface.co/blog/anydecisionmodel",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/anydecisionmodel",
+          "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+          "url": "https://huggingface.co/blog/anydecisionmodel",
+          "source": "huggingface",
+          "publishedAt": "2026-10-29T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0943409562620308,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7443409562620307,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-servicenow-partnership-expansion",
+      "representativeId": "openai:https://openai.com/index/openai-servicenow-partnership-expansion",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/openai-servicenow-partnership-expansion",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "source": "openai",
+          "publishedAt": "2026-10-28T13:15:00.000Z",
+          "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9920283343134464,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49202833431344645,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/the-future-of-the-firm",
+      "representativeId": "openai:https://openai.com/index/the-future-of-the-firm",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/the-future-of-the-firm",
+          "title": "The future of the firm",
+          "url": "https://openai.com/index/the-future-of-the-firm",
+          "source": "openai",
+          "publishedAt": "2026-10-28T10:00:00.000Z",
+          "summary": "How AI might enter the org chart—beneath, beside, and between us.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9341476704127574,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.43414767041275737,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/legora",
+      "representativeId": "openai:https://openai.com/index/legora",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/legora",
+          "title": "Legora is building the agentic operating system for legal work",
+          "url": "https://openai.com/index/legora",
+          "source": "openai",
+          "publishedAt": "2026-10-28T09:30:00.000Z",
+          "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9258685123992412,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4258685123992413,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+          "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+          "source": "huggingface",
+          "publishedAt": "2026-10-28T14:58:17.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.875748968383907,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.525748968383907,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/28/ted-sanders",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/28/ted-sanders",
+          "title": "Quoting Ted Sanders",
+          "url": "https://simonwillison.net/2026/Oct/28/ted-sanders",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-28T23:23:21.000Z",
+          "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the variation in performance is explained by just a single variable: model size. In general, models that are bigger will (a) be more performant / reliable, (b) cost more per token, and (c) have better recall of esoteric facts. As you note, our models are ordered: Luna < Terra < Sol < Astra [ ... ] These days, version number signifies a few things at once: the order of release, the relationship to other releases, and the magnitude of improvement. So something like 6.1 would indicate it was launched after 5.6, may share some similarities to other 6.1 models in terms of training data / personality (which is why it's not 5.7), and isn't a giant enough leap to merit the headlines and expectations that would come with a 7. — Ted Sanders , explaining OpenAI's model naming conventions Tags: generative-ai , gpt , openai , ai , llms , ted-sanders",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7770368227094977,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7270368227094978,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+          "title": "Creating AI value with enterprise context",
+          "url": "https://technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-28T20:32:02.000Z",
+          "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7013359656031322,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6513359656031323,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+          "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+          "url": "https://theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-28T23:05:39.000Z",
+          "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6188244823387916,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7188244823387918,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+          "title": "GitHub Octoverse 2026",
+          "url": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-28T16:45:23.000Z",
+          "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in particular: This is a pretty stark representation of the impact of agentic engineering on GitHub. In 2026, merged pull requests tripled in less than a year to 220 million per month. Commits more than tripled to 7.38 billion per month, with most of that increase in the second half of this year. New repository rate doubled this year, to 30.3 million per month. The report includes new numbers by industry, and breaks out numbers for repositories that involve \"interoperability or reverse engineering\". The methodology section includes notes about how they did this: Top countries by pushes to public repositories, adjusted by profile location . Pushes from each country were summed across the Octoverse year. To adjust for biases caused by VPN usage, LLM classification was used to extract the ISO 3166-1 alpha-2 code from the profiles of GitHub users who contributed pushes during this period [...] Industry . Public repositories created 2022 to 2026 were sorted into NAICS sectors by a fine-tuned multilingual embedding model using name, description, topics, and README, from random samples per year. [...] Interoperability . Counts public repositories created each year whose name, description, topics, or README mention interoperability or reverse engineering, or related terms, such as clean room implementation, drop-in replacement, or protocol re-implementation. Tags: github , ai , generative-ai , llms , coding-agents , disclosures , agentic-engineering",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6131584052526207,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.563158405252621,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+          "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-28T21:34:30.000Z",
+          "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5779793809576177,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6779793809576178,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/28/vibe-game-development",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/28/vibe-game-development",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/28/vibe-game-development",
+          "title": "The October inflection point for vibe game development",
+          "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-28T13:55:15.000Z",
+          "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily drivers for software engineers. I think we've reached a new inflection point in October 2026, and this time it's for vibe coding computer games . Tree Appreciator Emberwick Battle Drones Pumpkin Farmer, aka Quarter Sun Cove Four times as insulting What happens if someone actually puts the work in? You should build a game! Claude Opus 5.5 in particular exhibits meaningful improvements in several areas needed to build a compelling game: 3D modeling Music generation (see Scrimshaw Jukebox ) Game design (!) That last one is particularly important. Models have been able to create something that looks like a game for quite a while now, as seen in my previous experiments . The challenge has been getting to a game that's actually fun to play . Game design is a deep subject area. I won't pretend to be well versed in it - I know enough to have respect for it as a craft. Creating a novel, compelling gameplay loop which challenges players at the right level and provides a satisfying learning curve is a fine art. I didn't think the models could do it. Then I tried telling Claude Opus 5.5 to \"Make it a LOT more fun\"... and it did . In the past few weeks I've vibe coded (in the classic sense of the term - no looking at the code at all) four games that I've genuinely enjoyed playing. I attended Foo Camp in Berkeley over the weekend and met several people who were having similar experiences. Building games that play well is shockingly easy now. The new challenge is coming up with concepts for games that are novel and delightful and that wouldn't exist without AI assistance. I haven't done an exhaustive study, but my current impression is that GPT-6 Astra isn't quite there yet. It can absolutely build a game, but its sense of fun doesn't match that of Opus 5.5. I expect OpenAI will get there by the end of the year. Here are the four game projects that have convinced me that the models are now capable of producing fun games with very little guidance. All four are built in HTML and JavaScript and run entirely in the browser. Tree Appreciator The smallest game I found to be genuinely delightful is Tree Appreciator . I used the regular Claude chat interface for this - it didn't even need Claude Code. I built this on a whim while we were driving along Skyline Boulevard looking at trees. My prompt was: Build a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics is about appreciating the differences between them. Think hard about how to make sure it is both fun and beautiful. I've found that telling models to use three.js works really well. Claude doesn't have its own image generation model but is capable of building full-color 3D models that look and feel excellent. This game required no iteration or follow-up prompting at all - I got the game in a single shot. It gave me back a charming little mobile-friendly spot-the-difference game. You can play that here . Here's the chat transcript that built it. It's pleasingly relaxing. The graphics are fun, and collecting trees that you have completed in a \"herbarium\" provides a nice, cosy sense of accomplishment. Emberwick This was a more ambitious project that I again built using regular Claude chat. I started out by building an experimental prototype of an engine for a top-down fantasy RPG: Build a demo game engine three.js which is a top down (but at an angle) RPG - the player gets to move through the world with one or two companions. Create a fantasy village setting that demonstrates walking around outside and then shows how when the player enters a building the wall between the player and the camera goes transparent so the user can see what is happening Add some NPCs and plenty of furniture and different types of building some with an upstairs - be creative, make it look great Here's that first version . It worked really well! I was inspired to increase my ambitions: Make it not so flat - the buildings are great but the landscape itself is completely flat at the moment, fix that Add basements to two of the buildings with a tunnel system joining them below the village Add the start of a rocky mountain on one side of the village containing a cave with a sleeping troll Here's that version . When that produced a good result, I decided to push it all the way: Now turn this into an actual game - quadruple the size of the playable area, introduce fun game mechanics, add a plot that isn't too cliche, some twists, a magic system, make it really good We're back to prompts like \"make it really good\" here! Asking for a plot that \"isn't too cliche\" seemed to work too - it's a bit cliché, but still novel enough that I enjoyed following the story. Unlike Tree Appreciator, this took quite a bit of additional playtesting and prompting to get to a finished version. This was mainly due to gameplay problems - things like a character not being in the right place to complete a quest because a different story element had caused them to move to another location. Here's that final game . It has a full story that takes about 15 minutes to play through. There's even an experimental level editor if you want to drop in your own houses, furniture, and landscape features. Once it was all working (and I'd iterated through some gameplay bugs), I played it through from start to finish and found myself emotionally affected by the ending! I'm somewhat embarrassed by this, because everything in this game - the graphics, the plot, the characters, the music, the dialog - came from the model. My creative input was pretty much just \"it's a fantasy village and there's a troll asleep in a cave\". Here's the full shared Claude chat in which I built this game. I also fed that same initial sequence of prompts through ChatGPT GPT-6 Pro. Here's the transcript and the finished game for comparison. It looks great, but I don't think it plays nearly as well. Battle Drones This is by far my most successful project, which I wrote about last week . It's a Command & Conquer-style Real-Time Strategy game where two robot armies (or four as of Saturday ) build units, harvest scrap, and battle over territory. This is also the project that convinced me that Opus 5.5 knows what \"fun\" is. The first versions were built back in July using Claude Fable 5. It got me to a workable 2D Command & Conquer-style game, but it wasn't great to play. I prompted Opus 5.5 to \"Make it a LOT more fun\" and then later to \"Port this game to three.js\" and the game was transformed. There's a blow-by-blow account (prompts included) in my write-up . Today, Battle Drones has 2-4 player multiplayer (via a vibe coded WebSockets relay server), medals, replays, seven maps, a random map generator, and a set of \"mutators\" that add variants of the rules. It also lets different LLMs play against each other, using a mode where the game advances five seconds and then pauses to give different models time to interpret the new game state and line up their next set of commands. Here's a replay of Claude Haiku 5.5 vs. GPT-6 Luna : Battle Drones is a particularly good example of Opus 5.5's ability to create 3D models. This page lets you browse all of the models in the game . I released Battle Drones under the Apache 2.0 License last Tuesday. On Wednesday Gabriel Turpin released Panache ( screenshots here ), a fork of Battle Drones that reimagined the game for steampunk 1900s Belle Époque France, with new models and music and an animated intro sequence. Open source at work! Pumpkin Farmer, aka Quarter Sun Cove I live in Half Moon Bay, California , home of the annual Half Moon Bay Art and Pumpkin Festival , which includes a giant pumpkin weigh-off competition. I decided to try building a game that wasn't just a cheap imitation of something that already existed, so I set out to create a game about farming pumpkins, growing giant pumpkins, and handling the rush of the October pumpkin season. I called it \"Quarter Sun Cove\". I'm still iterating on this project, but it's shaping up quite nicely. It's a cosy farming simulator where you spend the year tending to your giant pumpkin and planting out regular-sized pumpkins for sale in October, then sell pumpkins during pumpkin season and enter your giant pumpkin in the weigh-off. Every character in it is a (vegetarian) animal. The mayor of the town is a pelican. You can be a pelican, skunk, raccoon, possum, beaver, coyote, fox, owl, sea otter, or harbor seal. Those species all later show up (accompanied by their children) to buy pumpkins from you. It's absurdly cute. You can play the latest version here . I'm not convinced by the game mechanics yet - it's actually quite complicated: you have to decide when to plant pumpkins such that they will become ripe at the weekends in October with the most visitors. Here's the initial brainstorming session , which resulted in this spec file . Then I had Opus 5.5 Ultracode burn millions of tokens and nearly two days building it. I told Claude to \"surprise and delight the user frequently\" and the result is so many little details and easter eggs. There are mischievous raccoons, an elephant seal that runs the weigh-off, harbor seals that roll their pumpkins back into the ocean, a wandering goat, and superstitions about growing giant pumpkins that sometimes come true. This isn't my best game yet - it's not as fun to play as Battle Drones - but it represents the kind of game I want more of: weird, fun, uniquely personal - something that wouldn't have been built in the before-times. Four times as insulting If you are offended by AI-generated art, AI-generated music, AI-generated writing, and AI-generated code, I have bad news for you: vibe coded games combine all of those at once . I respect those opinions, even though I don’t strongly hold them myself. The wider games community already has an aversion to AI-generated assets in games. This has been a growing issue over the past few years as tools like Midjourney have enabled developers to generate assets for their projects. This IGN story covering complaints about slop in Valve's Steam Next Fest is a good recent example. We now have games where everything - code, assets, dialog, and even the game design itself - can be outsourced to the models. And the results don't suck! Building a computer game used to be one of the most challenging projects in all of software development, combining a diverse range of skills and requiring intense focus and effort over many months or even years. And now here I am spitting out a playable multiplayer RTS by prompting on my phone! I expect that, as we've already seen with programming, this will result in a split. Some players will refuse to have anything to do with games that were built in this way. Others may embrace this as opening up game development to a much wider audience. I lean in that direction! I certainly won't be entering any of my vibe coded games in traditional game jams or competitions - I don't feel like I've earned that right. We'll likely see new avenues emerge for vibe game developers to compare their projects. What happens if someone actually puts the work in? The thing I find both exciting and shameful about this is that I have got interesting results from so little creative input . The projects I've described here are loosely ordered by how much effort I've put into them. Not a single project represents more than four hours of my work (plus many more hours of Claude Code churning away by itself). Now imagine what could be achieved by anyone who takes this seriously, invests significant creative time, applies better taste in game design, and then playtests and iterates on the result until it's as good as they can make it. I want to see games that wouldn't have existed without these new tools. You should build a game! Building games in this way is so much fun . It's the perfect application for vibe coding because it's so low stakes: how much damage can you cause with a bug in a personal vibe coded game project? (OK, you can do some damage... my attempt at audio-based multiplayer gave my wife Natalie a nasty headache !) All of my games so far have been HTML and JavaScript using static hosting (generally GitHub Pages or Cloudflare Pages). Modern browsers - including mobile browsers - are incredibly capable. Frontier models already know libraries like three.js and Phaser . I'm finding these mobile web games to be indistinguishable from the native experience, at least for the kinds of games I'm trying to build. I suggest starting with a prompt like this: Build a mobile-friendly three.js game where... This works on both chatgpt.com and claude.ai - you don't even need to fire up a full coding agent. As one last example, here's \"Build a mobile-friendly three.js game where a mouse has to hide from a cat\" by Claude Opus 5.5 Extra and by GPT-6 Extra High . Switch to Codex or Claude Code once your project passes the proof-of-concept phase. And if the game isn't fun enough, add this: Make it a LOT more fun Tags: game-design , games , ai , generative-ai , chatgpt , llms , claude , vibe-coding , claude-code",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.554904283373637,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5049042833736374,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+          "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-28T19:19:58.000Z",
+          "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5218960685298861,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6218960685298862,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+          "title": "Pairing industrial AI autonomy and human control",
+          "url": "https://technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-10-28T12:00:00.000Z",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5189054195467055,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4689054195467057,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+          "title": "Microsoft is ending Copilot support on smart TVs",
+          "url": "https://theverge.com/tech/1021143/microsoft-lg-samsung-copilot-ai-assistant-smart-tvs-ending",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-28T18:36:26.000Z",
+          "summary": "Nearly two years after LG and Samsung announced at CES 2025 that their latest smart TVs would include access to Microsoft's Copilot, the company is ending support for the AI assistant's functionality on all TVs this year, according to a report by Windows Central. The news comes not from an official announcement from LG, Samsung, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5047608948837627,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.604760894883763,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/28/terk-terkowitz",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/28/terk-terkowitz",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/28/terk-terkowitz",
+          "title": "Quoting Terk Terkowitz",
+          "url": "https://simonwillison.net/2026/Oct/28/terk-terkowitz",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-28T10:09:07.000Z",
+          "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can explain where AI does not yet help their work is demonstrating the judgement we are asking for. — Terk Terkowitz , An update from Amazon engineering leadership on the role of the developer in the age of AI Tags: amazon , generative-ai , agentic-engineering , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4866953595009615,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4366953595009617,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+          "title": "Voice AI in vogue: Nvidia releases new open transcription model",
+          "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-28T15:00:00.000Z",
+          "summary": "Nvidia just released a free speech-to-text model that can transcribe up to 40 languages, but it only works on recordings, not live audio, so it’s a big step for meeting and medical transcription tools while still leaving real-time use to rivals like ElevenLabs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4263285376877612,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5263285376877612,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/how-we-detect-frontier-model-misalignment",
+    "huggingface:https://huggingface.co/blog/mistral-large4",
+    "hackernews:50290283",
+    "hackernews:50282766",
+    "hackernews:50271271"
+  ]
+}

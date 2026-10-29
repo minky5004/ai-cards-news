@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T18:18:03.171Z",
+  "idea": {
+    "productName": "AegisCode",
+    "tagline": "AI가 코드 무단 분석 · 복제 못하게 막습니다",
+    "oneLineSummary": "AI 기반 역공학으로부터 소프트웨어 지식재산을 보호하려는 개발사에게 코드를 난독화하고 모니터링하는 솔루션을 제공합니다.",
+    "problem": "AI 모델의 발전으로 몇 달씩 걸리던 역공학이 며칠 만에 가능해지면서, 게임 등 소프트웨어 지식재산권 침해 위협이 커졌습니다. 개발사는 자신들의 코드가 AI에 의해 쉽게 분석되고 복제되는 것을 막을 새로운 방안이 필요합니다.",
+    "productDescription": "이 솔루션은 AI 기반 역공학 도구들이 코드 구조와 로직을 파악하기 어렵게 만드는 특수 난독화 기술을 제공합니다. 또한, 코드 저장소와 실행 환경을 지속적으로 모니터링하여 AI 봇의 비정상적인 접근이나 분석 시도를 탐지하고 경고합니다. 이로써 개발사들은 그들의 핵심 자산을 AI로부터 효과적으로 보호할 수 있습니다.",
+    "keyFeatures": [
+      "AI 역공학 방지 난독화",
+      "코드 패턴 무단 학습 방지",
+      "AI 봇 접근 실시간 감지",
+      "IP 침해 시도 경고 알림",
+      "AI 분석 회피 최적화"
+    ],
+    "persona": "게임 개발 스튜디오 CTO. 자신들의 독점적인 게임 로직과 엔진 기술이 AI에 의해 쉽게 복제되거나 변형되어 시장에 유사 제품이 쏟아지는 것을 막고자 합니다.",
+    "businessModel": "구독형 SaaS 모델. 월별 또는 연간 라이선스 비용을 받습니다. 코드베이스 크기나 개발팀 규모에 따라 Tier를 나누고, 고급 보안 기능은 더 높은 요금제에 포함합니다. (예: 시작 요금 월 $299, 엔터프라이즈 맞춤형)",
+    "marketStats": "AI 발전으로 decompilation이 몇 달에서 며칠로 단축되었다 (기사 5). 게임 개발사들이 AI 슬롭과 복제품을 우려한다 (기사 15). 특정 수치화된 시장 규모는 기사에 근거 없음.",
+    "goToMarket": "GDC, Unite, Devsisters Conf 등 게임 개발자 컨퍼런스에서 데모 시연 및 초기 고객 유치. AI 보안 관련 웹 세미나 개최 및 기술 블로그를 통한 잠재 고객 발굴.",
+    "unfairAdvantage": "AI 모델의 발전 속도(OpenAI, Mistral)를 이해하고, 그에 맞춰 AI의 코드 분석 패턴을 회피하는 난독화 기술에 특화된 전문성을 보유하고 있습니다. 이 기술은 전통적인 난독화와 다르게 AI의 학습 특성을 고려합니다.",
+    "competitors": [
+      "ProGuard — 전통적인 Java/Android 난독화, AI 분석 특화 안됨",
+      "Obfuscator-LLVM — LLVM 기반 난독화, AI 특화 솔루션 부재",
+      "Denuvo Anti-Tamper — 게임 무단 변경 방지, 코드 역공학 직접 방어 아님",
+      "Snyk — 코드 보안 취약점 분석, AI 기반 IP 보호와는 결이 다름"
+    ],
+    "risks": [
+      "AI 모델의 역공학 능력이 예측 불가능하게 발전하여 난독화 기술이 무력화될 수 있습니다.",
+      "개발사의 코드베이스에 통합하기 복잡하여 도입 저항이 있을 수 있습니다.",
+      "경쟁사가 더 강력하거나 단순한 AI 보호 솔루션을 출시할 수 있습니다.",
+      "난독화가 코드 성능에 미치는 영향에 대한 우려."
+    ],
+    "actionPlan": [
+      "최신 LLM 기반 역공학 도구 벤치마킹 환경 구축.",
+      "초기 난독화 알고리즘 프로토타입 개발.",
+      "10개 게임 개발 스튜디오와 사전 인터뷰 진행 (AI IP 보호 니즈 확인).",
+      "기술 블로그에 AI 역공학 위협 및 솔루션 방향성 제시 글 발행.",
+      "법률 전문가와 IP 보호 관련 자문."
+    ],
+    "recommendation": "AI 기술 발전에 따른 새로운 유형의 IP 침해 위협에 대응하는 시기적절한 아이디어입니다. 다만, AI 모델의 빠른 발전 속도에 맞춰 방어 기술을 지속적으로 업데이트해야 하는 기술적 난이도가 높습니다. 초기 시장 반응과 기술 검증이 중요합니다.",
+    "searchQuery": "ai code intellectual property protection",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 3점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: The Case for AI Provenance – Trusting the Source in AI Content",
+          "url": "https://medium.com/@maitreyi2906/the-case-for-ai-provenance-why-we-need-to-trust-the-source-60756635bd55",
+          "points": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "openai:https://openai.com/index/how-we-detect-frontier-model-misalignment",
+        "title": "How we detect frontier model misalignment",
+        "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+      },
+      {
+        "clusterId": "huggingface:https://huggingface.co/blog/mistral-large4",
+        "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+        "url": "https://huggingface.co/blog/mistral-large4"
+      },
+      {
+        "clusterId": "hackernews:50290283",
+        "title": "Zombie stats: Where the numbers AI quotes come from",
+        "url": "https://trakkr.ai/trakkr-research/zombie-stats"
+      },
+      {
+        "clusterId": "hackernews:50282766",
+        "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+        "url": "https://niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled"
+      },
+      {
+        "clusterId": "hackernews:50271271",
+        "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+        "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316"
+      },
+      {
+        "clusterId": "hackernews:50284255",
+        "title": "Claude Code regularly sends each background agent’s transcript to its model",
+        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce"
+      },
+      {
+        "clusterId": "hackernews:50290177",
+        "title": "LLM Voice",
+        "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+      },
+      {
+        "clusterId": "hackernews:50273396",
+        "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+        "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai"
+      },
+      {
+        "clusterId": "hackernews:50275626",
+        "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+        "url": "https://surgehq.ai/blog/dayjob-tax"
+      },
+      {
+        "clusterId": "hackernews:50289692",
+        "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+        "url": "https://404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning"
+      },
+      {
+        "clusterId": "hackernews:50280178",
+        "title": "Google AI gets cagey when asked who won the 2020 elections",
+        "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections"
+      },
+      {
+        "clusterId": "hackernews:50281826",
+        "title": "AI execs may be too out of touch to build for the general public",
+        "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public"
+      },
+      {
+        "clusterId": "hackernews:50286738",
+        "title": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+        "url": "https://spectrum.ieee.org/ai-generated-scientific-papers"
+      },
+      {
+        "clusterId": "hackernews:50282865",
+        "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+        "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md"
+      },
+      {
+        "clusterId": "hackernews:50273192",
+        "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+        "url": "https://invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones"
+      }
+    ]
+  }
+}

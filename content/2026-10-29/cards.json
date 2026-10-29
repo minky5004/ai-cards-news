@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T18:16:19.601Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "headline": "구글 제미나이 4 카본, 공격 성공률 0%",
+      "highlight": [
+        "공격 성공률 0%"
+      ],
+      "body": "구글의 최신 모델 제미나이 4 카본은 프롬프트 공격 저항에서 0%의 성공률을 기록했습니다. 그레이 스완 벤치마크에서 평가된 모든 공격을 막아낸 새로운 최고 기록입니다. 이 모델은 사이버 보안 전문가에게 먼저 제공되며 곧 일반에 확대될 예정입니다.",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+      "publishedAt": "2026-10-29T09:00:00.000Z"
+    },
+    {
+      "clusterId": "huggingface:https://huggingface.co/blog/mistral-large4",
+      "headline": "미스트랄 라지 4, 82% 보안 취약점 패치",
+      "highlight": [
+        "82% 보안 취약점"
+      ],
+      "body": "미스트랄 라지 4는 AI 사이버 인덱스 테스트에서 82%를 기록하며 실제 소프트웨어 취약점을 복제하고 패치하는 능력을 입증했습니다. 이는 폐쇄형 모델들이 시도조차 거부해 0점대를 기록한 것과 대조적입니다. 사용자가 모델의 사용과 배포를 직접 제어하는 오픈웨이트 방식은 보안 전문가에게 혁신적인 변화를 가져올 것입니다.",
+      "sourceUrl": "https://huggingface.co/blog/mistral-large4",
+      "sourceName": "huggingface",
+      "imageUrl": "https://huggingface.co/blog/assets/ml4/thumbnail.png",
+      "publishedAt": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:50290283",
+      "headline": "AI가 댄 통계 10개 중 4개만 진짜였다",
+      "highlight": [
+        "4개만"
+      ],
+      "body": "ChatGPT 등 5개 AI가 제시한 통계 1,285개를 역추적한 결과, 실제 연구에 다다른 비율은 40%에 불과했습니다. AI가 인용한 출처의 절반 이상은 기업 블로그 같은 단순 재인용 페이지였습니다. 답변 속 수치를 무조건 신뢰해서는 안 되는 이유입니다.",
+      "sourceUrl": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "sourceName": "Trakkr",
+      "imageUrl": "https://trakkr.ai/images/research/og/zombie-stats.png",
+      "publishedAt": "2026-10-29T15:06:17.000Z"
+    },
+    {
+      "clusterId": "hackernews:50282766",
+      "headline": "뉴욕타임스 요리 앱 AI에 이용자 77% '실망'",
+      "highlight": [
+        "이용자 77% '실망'"
+      ],
+      "body": "뉴욕타임스 요리 앱에 AI 기능이 추가되자 이용자 77%가 불만을 표했습니다. 이들은 AI가 요리의 본질을 해치고, 유료 앱의 가치를 떨어뜨린다고 비판합니다. 일부는 식단 변경에 유용하다 했지만, 대다수는 해당 기능을 끌 수 있게 해달라고 요청했습니다.",
+      "sourceUrl": "https://niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled",
+      "sourceName": "Nieman Lab",
+      "imageUrl": "https://www.niemanlab.org/images/23insider-cooking-ai-image3-superJumbo-v2-700x467.jpg",
+      "publishedAt": "2026-10-29T00:16:08.000Z"
+    },
+    {
+      "clusterId": "hackernews:50271271",
+      "headline": "MS·에픽, 자기들 AI는 쓰고 남의 AI는 막는다",
+      "highlight": [
+        "MS·에픽",
+        "막는다"
+      ],
+      "body": "MS와 에픽 게임즈는 AI로 재컴파일된 자사 게임에 수백 건의 DMCA 통지를 보냈습니다. 하지만 에픽은 불법 학습 AI를 쓰고 MS는 연 800억 달러를 AI에 투자합니다. 대기업은 법적 대응이 가능하나 인디 개발사에게 큰 피해를 주는 '이중잣대'라는 비판을 받습니다.",
+      "sourceUrl": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316",
+      "sourceName": "Kotaku",
+      "imageUrl": "https://kotaku.com/app/uploads/2026/10/Master-Chief-Fortnite-trailer-Epic-Games-Xbox-1200x675.jpg",
+      "publishedAt": "2026-10-28T10:10:58.000Z"
+    }
+  ]
+}
