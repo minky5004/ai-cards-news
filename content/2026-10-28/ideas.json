@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-29T03:10:40.140Z",
+  "idea": {
+    "productName": "Omissa",
+    "tagline": "의뢰인이 묻지 않은 세금 함정을 먼저 찾는다",
+    "oneLineSummary": "세무·재무 상담 AI가 답변에서 빠뜨린 숨은 마감일과 자격 상실 조건을 역추적해 보완해 주는 에이전트 감사 API를 핀테크 개발사에 판매합니다.",
+    "problem": "세무 AI 에이전트는 질문에만 답하느라 25만 달러 공제가 사라지는 마감일을 통째로 빠뜨립니다. 묻지 않은 법적 리스크를 먼저 짚지 못해 고객이 세금 폭탄과 소송에 노출됩니다.",
+    "productDescription": "Surge AI의 Dayjob: Tax 벤치마크에서 드러났듯 AI 세무 에이전트는 질문된 일정만 계산하고 거주 요건 만료 같은 치명적 기한을 누락합니다. Omissa는 세무 AI가 생성한 최종 답변을 세법 규칙 엔진과 역질문 모델에 통과시켜 의뢰인이 미처 묻지 않은 숨은 전제조건과 만료일을 탐지합니다. 거주 2년 요건이나 공제 자격 상실 시점을 찾아내 답변 하단에 필수 위험 주석으로 자동 강제 삽입합니다. 이를 통해 전문 세무사 수준의 선제적 리스크 고지 품질을 보장합니다.",
+    "keyFeatures": [
+      "묻지 않은 감면 만료 기한 탐지",
+      "거주·보유 요건 자동 역산 검증",
+      "숨은 세법 리스크 경고 주석 삽입",
+      "세무 에이전트 오답률 실시간 측정"
+    ],
+    "persona": "AI 기반 부동산·절세 자문 서비스를 운영하고 있으나, 고객이 질문하지 않은 법적 기한 누락으로 인해 오상담 배상 소송이 발생할까 불안한 세무 테크 기업의 프로덕트 리더입니다.",
+    "businessModel": "세무 상담 세션 감사당 API 호출 종량 과금제입니다. 월 1,000건 감사는 월 499달러 기본 플랜을 적용하며 초과 건당 0.35달러를 부과합니다. 커스텀 세법 룰셋을 등록하는 엔터프라이즈 플랜은 월 2,500달러입니다.",
+    "marketStats": "기사에 시장 규모 근거 없음. 단, 기사 사례에 따르면 주택 매각 양도차익 비과세 한도는 최대 25만 달러에 이르며, Astra 모델은 5회 시도 중 5회 모두 만료 마감일을 누락한 반면 Opus는 5회 모두 식별해 에이전트별 세무 판단 격차가 치명적인 것으로 확인되었습니다.",
+    "goToMarket": "Dayjob: Tax 벤치마크 결과가 화제가 된 직후, 절세 및 부동산 매각 자동화 솔루션을 운영하는 Y Combinator 및 프로덕트헌트 등록 핀테크 스타트업에 '25만 달러 공제 시한 누락 테스트' 무료 진단 리포트를 배포해 초기 고객 100곳을 확보합니다.",
+    "unfairAdvantage": "일반 LLM 벤치마크와 달리 Dayjob: Tax가 지적한 '의뢰인이 물어보지 않은 미인지 리스크'는 범용 프롬프트만으로 방어할 수 없습니다. 조기 매각 및 거주 시한 등 세법 고유의 누락 위험 시나리오를 구조화해 모델 독립적인 역검증 엔진으로 먼저 선점하는 팀이 세무 AI 인프라의 표준이 됩니다.",
+    "competitors": [
+      "Guardrails AI — 범용 환각 차단 위주 · 세법 조건 누락 탐지 불가",
+      "Harvey — 로펌 대상 거대 패키지 · 경량 세무 챗봇용 실시간 API 부재",
+      "NeMo Guardrails — 프로그래밍 룰 검증기 · 미언급 마감 시한 역추론 미지원"
+    ],
+    "risks": [
+      "차세대 초거대 모델이 자체적으로 미언급 마감 시한을 완벽히 보정해 버릴 위험",
+      "주별·국가별로 빈번하게 개정되는 세법 데이터베이스 업데이트 지연",
+      "답변 후행 감사 파이프라인 추가로 인한 상담 챗봇 응답 지연 시간 증가"
+    ],
+    "actionPlan": [
+      "Dayjob: Tax 공개 과제 50건 중 2년 거주 요건 누락 테스트케이스 재현 환경 구축",
+      "미국 연방 양도세 25만 달러 공제 마감일 역산 규칙 엔진 프로토타입 개발",
+      "오픈소스 세무 질의응답 모델에 Omissa API를 붙여 누락율 감소 수치 벤치마킹",
+      "세무 테크 스타트업 CTO 10명 대상 오상담 리스크 감사 API 도입 인터뷰 진행"
+    ],
+    "recommendation": "질문에 참인 답을 내놓았더라도 핵심 조건을 누락하면 거액의 손실로 직결되는 전문직 에이전트 시장에서 꼭 필요한 빈틈을 짚었습니다. 다만 상위 프론티어 모델의 추론 능력이 향상될수록 단순 질의 보완은 LLM 자체 기능에 흡수될 위험이 있습니다. 따라서 프롬프트 엔지니어링을 넘어 정통 세법 DB와 결합된 결정론적 감사 로직을 초기에 탄탄히 구축해야 방어력을 얻을 수 있습니다.",
+    "searchQuery": "ai tax omission detection",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+        "title": "Gemini 4 Carbon: Our next frontier model",
+        "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model"
+      },
+      {
+        "clusterId": "hackernews:50273396",
+        "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+        "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai"
+      },
+      {
+        "clusterId": "hackernews:50275626",
+        "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+        "url": "https://surgehq.ai/blog/dayjob-tax"
+      },
+      {
+        "clusterId": "hackernews:50280178",
+        "title": "Google AI gets cagey when asked who won the 2020 elections",
+        "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections"
+      },
+      {
+        "clusterId": "hackernews:50264853",
+        "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+        "url": "https://brangus.io/survival-llm"
+      },
+      {
+        "clusterId": "hackernews:50282766",
+        "title": "New York Times adds more AI features to its Cooking app. Users aren't thrilled",
+        "url": "https://niemanlab.org/2026/10/the-new-york-times-is-adding-more-ai-features-to-its-cooking-app-and-users-arent-thrilled"
+      },
+      {
+        "clusterId": "hackernews:50260814",
+        "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+        "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude"
+      },
+      {
+        "clusterId": "hackernews:50261819",
+        "title": "Police are using AI to pull over drivers for 'suspicious' behavior",
+        "url": "https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220"
+      },
+      {
+        "clusterId": "hackernews:50282865",
+        "title": "MicroZig to Adopt Strict No LLM / No AI Policy",
+        "url": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md"
+      },
+      {
+        "clusterId": "hackernews:50265609",
+        "title": "Early progress on accelerating drug development with Claude",
+        "url": "https://anthropic.com/research/early-progress-drug-development"
+      },
+      {
+        "clusterId": "hackernews:50261589",
+        "title": "Amazon Is Gutting Its AI Division After Sustained Failure",
+        "url": "https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova"
+      },
+      {
+        "clusterId": "hackernews:50273192",
+        "title": "Valve Responds to Developers Fearing AI Slop and Clones",
+        "url": "https://invenglobal.com/articles/27761/valve-responds-to-developers-fearing-ai-slop-and-clones"
+      },
+      {
+        "clusterId": "hackernews:50273623",
+        "title": "Harvey raised 500M for legal AI, I built the same and open sourced it",
+        "url": "https://github.com/thomasunise/casecite"
+      },
+      {
+        "clusterId": "hackernews:50271271",
+        "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+        "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316"
+      },
+      {
+        "clusterId": "hackernews:50266701",
+        "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+        "url": "https://anthropic.com/news/expanding-partnership-gsa"
+      }
+    ]
+  }
+}
