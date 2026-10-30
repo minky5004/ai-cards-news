@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T17:54:24.955Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50301983",
+      "headline": "공식 클로드 코드 확장, SSH 백도어 발견!",
+      "highlight": [
+        "SSH 백도어"
+      ],
+      "body": "공식 ‘Claude Code for VS Code’ 확장 프로그램에서 영구적인 SSH 백도어가 발견돼 Cursor 마켓플레이스에서 삭제됐습니다. macOS, Linux, Windows에 SSH 키를 심어 개발자 시스템 접근을 노리니, 즉시 사용 여부를 확인하고 조치해야 합니다.",
+      "sourceUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+      "sourceName": "Phorion | macOS Endpoint Detection and Response (EDR)",
+      "imageUrl": "https://phorion.io/images/default-social-card.png",
+      "publishedAt": "2026-10-30T10:22:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:50305693",
+      "headline": "SRE 업무 95% 자동화, 당신의 실력은?",
+      "highlight": [
+        "95% 자동화"
+      ],
+      "body": "AI가 SRE의 일상적 업무 95%를 처리합니다. 덕분에 SRE는 예상치 못한 복잡한 문제에 대처할 핵심 역량을 잃고 있습니다. 시스템 고장 시 인간의 판단이 더욱 중요해지지만, 그 역량은 점점 약화될 수 있습니다.",
+      "sourceUrl": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!Hgvq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F530d847f-26cb-4ddd-a6de-875cbbaf8fab_6233x4167.webp",
+      "publishedAt": "2026-10-30T15:52:18.000Z"
+    },
+    {
+      "clusterId": "hackernews:50306008",
+      "headline": "AI에 1100조 쏟더니 주가 대폭락",
+      "highlight": [
+        "주가 대폭락"
+      ],
+      "body": "빅테크 5개 사가 올해 AI에만 8000억 달러 넘게 투자를 약속했지만 주가가 폭락했습니다. 인텔은 하루 만에 30% 급락했고 구글 알파벳도 시가총액 5000억 달러 이상이 증발했습니다. AI 투자액은 늘어나는데 실적이 기대에 미치지 못하자 거품 우려가 커졌습니다.",
+      "sourceUrl": "https://bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "sourceName": "BBC News",
+      "imageUrl": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/10b0/live/dcdf2a60-d46e-11f1-9dda-1ba6fcc7d159.jpg",
+      "publishedAt": "2026-10-30T16:13:02.000Z"
+    },
+    {
+      "clusterId": "hackernews:50304358",
+      "headline": "앤트로픽, 클로드 게임 재작성 못한다",
+      "highlight": [
+        "게임 재작성"
+      ],
+      "body": "앤트로픽의 클로드 AI가 10월 27일 새 규칙을 적용, 특정 기존 게임 재작성을 막습니다. 이름을 바꾸거나 원본이라고 주장해도 불가능하며, 설정 변경도 할 수 없습니다. 이제 AI를 활용한 게임 리메이크와 모딩 분야에 큰 변화가 예상됩니다.",
+      "sourceUrl": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "sourceName": "X (formerly Twitter)",
+      "imageUrl": "https://pbs.twimg.com/media/HV3D_otWQAAicKf?format=webp&name=large",
+      "publishedAt": "2026-10-30T14:22:52.000Z"
+    },
+    {
+      "clusterId": "hackernews:50296486",
+      "headline": "제공된 기사 본문이 손상되었습니다",
+      "highlight": [
+        "손상되었습니다"
+      ],
+      "body": "제공된 기사 본문이 손상되어 내용을 정확히 파악하고 요약할 수 없습니다. 따라서 인스타 스토리형 카드 카피 제작에 필요한 정보를 추출하기 어렵습니다. 원활한 작업 진행을 위해 유효한 본문을 다시 제공해주시기 바랍니다.",
+      "sourceUrl": "https://labs.ycombinator.com/projects/games/index.html",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-10-29T21:40:28.000Z"
+    }
+  ]
+}

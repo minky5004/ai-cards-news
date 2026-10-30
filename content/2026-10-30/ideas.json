@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026-10-30T17:57:50.991Z",
+  "idea": {
+    "productName": "PlugFence",
+    "tagline": "개발 툴 확장 프로그램이 SSH를 열면 바로 끊는다",
+    "oneLineSummary": "IDE 확장 프로그램의 비정상 권한 탈취와 백도어 통신을 런타임에서 격리 차단하는 개발자 엔드포인트 보안 솔루션을 기업 개발팀에 제공합니다.",
+    "problem": "Cursor 마켓플레이스에 올라온 공식 Claude Code 확장 프로그램에서 지속적 SSH 백도어가 발견되었습니다. 개발 툴 플러그인이 로컬 권한을 도용해 소스코드를 빼돌리거나 외부 접속을 여는 공격을 막지 못합니다.",
+    "productDescription": "VS Code, Cursor 등 최신 개발 도구에 설치되는 확장 프로그램의 런타임 행위를 샌드박스로 격리하고 감시하는 보안 에이전트입니다. 플러그인이 IDE의 권한을 이용해 임의로 SSH 설정을 바꾸거나 소스코드와 환경변수를 외부로 전송하려 할 때 즉각 프로세스를 차단합니다. 마켓플레이스에서 내려받는 확장 프로그램 번들의 해시 무결성을 실시간 점검하여 패키지 오염 사고를 방지합니다. 보안 관리자는 전사 개발자의 비인가 확장 프로그램 설치 현황과 위험 네트워크 트래픽을 단일 콘솔에서 통제할 수 있습니다.",
+    "keyFeatures": [
+      "미인가 SSH 포트 개방 즉시 차단",
+      "소스코드 외부 유출 트래픽 격리",
+      "확장 프로그램 권한 샌드박스 실행",
+      "마켓플레이스 번들 변조 실시간 탐지"
+    ],
+    "persona": "보안 사고 발생 시 소스코드 및 인프라 키 유출 책임을 져야 하는 50인 이상 IT 스타트업의 정보보호최고책임자(CISO)입니다.",
+    "businessModel": "개발자 1인당 월 15달러의 엔드포인트 라이선스 요금을 청구하며, 엔터프라이즈 감사 로그와 정책 중앙 통제가 포함된 플랜은 연 단위 계약으로 좌당 월 35달러를 청구합니다.",
+    "marketStats": "기사에 규모 근거 없음",
+    "goToMarket": "Hacker News와 개발자 커뮤니티에서 이번 Claude Code 2.1.313 백도어 감염 여부를 1초 만에 스캔해 주는 오픈소스 진단 CLI를 무료 배포하여 초기 보안 엔지니어와 개발팀 리드 100명을 유입시킵니다.",
+    "unfairAdvantage": "Cursor와 VS Code 등 모던 AI 편집기 확장의 권한 남용 패턴을 분석한 eBPF 기반 초경량 행위 감시 규칙을 즉시 배포할 수 있는 기술적 선점 효과가 있습니다.",
+    "competitors": [
+      "Socket — 오픈소스 패키지 종속성 검사 중심 · 런타임 IDE 프로세스 차단 미지원",
+      "CrowdStrike — 범용 엔드포인트 EDR · 개발 도구 플러그인 레벨 세부 행위 제어 부재",
+      "Snyk — 코드 취약점 및 라이브러리 스캔 특화 · IDE 확장 프로그램 네트워크 터널링 미차단"
+    ],
+    "risks": [
+      "IDE 개발사가 자체 마켓플레이스 서명 및 권한 격리 모델을 네이티브로 도입할 위험",
+      "정상적인 로컬 디버거 실행이나 터미널 도구를 악성 행위로 오탐해 개발 생산성을 저해할 위험",
+      "운영체제(macOS, Linux, Windows)별 샌드박스 API 업데이트에 따른 에이전트 유지보수 비용 증가"
+    ],
+    "actionPlan": [
+      "macOS 환경에서 Cursor 확장 프로그램의 SSH 설정 파일 접근을 감시하는 eBPF 프로토타입 작성",
+      "Claude Code 2.1.313 버전 감염 여부를 단일 명령어로 확인하는 오픈소스 검사 스크립트 릴리즈",
+      "보안 담당자 15명을 인터뷰하여 IDE 확장 프로그램 정책 관리 지불 의사 검증",
+      "비인가 아웃바운드 SSH 터널링을 차단하는 기본 방화벽 규칙 패키징"
+    ],
+    "recommendation": "최근 AI 코딩 툴 도입이 급증하면서 마켓플레이스를 통한 개발자 머신 타깃 공급망 공격이 현실화되어 시의성이 매우 높습니다. 다만 개발 환경에 보안 에이전트를 추가할 때 발생하는 오탐과 빌드 지연에 대한 개발자 반발을 최소화하는 정교한 룰셋 설계가 선행되어야 합니다.",
+    "searchQuery": "ide extension runtime security sandbox",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 1점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Dockside: open-source self-hosted 'Codespaces' for small teams",
+          "url": "https://dockside.io/",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50301983",
+        "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+        "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2"
+      },
+      {
+        "clusterId": "hackernews:50305693",
+        "title": "AI isn't replacing SREs, it's deskilling them",
+        "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+      },
+      {
+        "clusterId": "hackernews:50306008",
+        "title": "US tech stocks see sharp falls over AI cost fears",
+        "url": "https://bbc.co.uk/news/articles/cvwy72e0n72yo"
+      },
+      {
+        "clusterId": "hackernews:50304358",
+        "title": "Anthropic Cracking Down on Video Game Rewrites",
+        "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968"
+      },
+      {
+        "clusterId": "hackernews:50296486",
+        "title": "We ran AI agent swarms in Minecraft and Mindustry",
+        "url": "https://labs.ycombinator.com/projects/games/index.html"
+      },
+      {
+        "clusterId": "hackernews:50290177",
+        "title": "LLM Voice",
+        "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+      },
+      {
+        "clusterId": "hackernews:50289418",
+        "title": "We're releasing the weights of Mistral Large 4",
+        "url": "https://mistral.ai/news/mistral-large-4-oss"
+      },
+      {
+        "clusterId": "hackernews:50306442",
+        "title": "A Working Nintendo in ~1GB of Qwen Weights",
+        "url": "https://github.com/dbreunig/nesformer"
+      },
+      {
+        "clusterId": "hackernews:50288019",
+        "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+      },
+      {
+        "clusterId": "hackernews:50304122",
+        "title": "Cisco gives engineer unlimited AI tokens to rewrite 98% of the company's code",
+        "url": "https://tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts"
+      },
+      {
+        "clusterId": "hackernews:50289692",
+        "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+        "url": "https://404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning"
+      },
+      {
+        "clusterId": "hackernews:50305797",
+        "title": "Sam Altman Thinks You're Wasting DRAM",
+        "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres"
+      },
+      {
+        "clusterId": "hackernews:50302407",
+        "title": "Fiber lasts decades, GPUs last three years: the AI boom isn't the dot-com boom [video]",
+        "url": "https://youtube.com/watch?v=MENoB3Rex28"
+      },
+      {
+        "clusterId": "hackernews:50292727",
+        "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+        "url": "https://fig.blue/posts/duet-is-the-future"
+      },
+      {
+        "clusterId": "hackernews:50304280",
+        "title": "Neal Stephenson on AI and What Comes Next [video]",
+        "url": "https://youtube.com/watch?v=Ii-aeW5pHPQ"
+      }
+    ]
+  }
+}
