@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T17:07:41.735Z",
+  "idea": {
+    "productName": "ExtenSeal",
+    "tagline": "코딩 툴 확장 프로그램이 SSH를 못 열게 잠근다",
+    "oneLineSummary": "AI 에디터용 플러그인의 시스템 권한 남용과 무단 통신을 실시간 격리하는 개발 보안 도구를 기업 개발팀에 제공합니다.",
+    "problem": "Cursor 등 AI 개발 환경의 확장 프로그램이 로컬 SSH와 시스템 전체 권한을 마음대로 탈취합니다. 개발자는 편의를 위해 플러그인을 설치하지만 백도어 감염 여부를 사전에 알 수 없습니다.",
+    "productDescription": "ExtenSeal은 AI 에디터와 확장 프로그램 사이의 시스템 콜을 중계하여 로컬 자원 접근을 최소 권한으로 제한하는 경량 런타임 보안 계층입니다. 공식 플러그인 번들로 위장한 백도어가 SSH 키 파일, 셸 설정, 백그라운드 데몬 프로세스를 조작하려 할 때 즉시 실행을 동결합니다. 또한 외부 호스트로의 비인가 소켓 연결을 감시하여 인증 토큰과 대화 세션 데이터 유출을 원천 차단합니다. 개발팀 관리자는 전사 개발 머신의 플러그인 설치 현황과 위협 탐지 이력을 대시보드로 통합 관리할 수 있습니다.",
+    "keyFeatures": [
+      "확장 프로그램 권한 격리 및 샌드박싱",
+      "SSH 키 및 로컬 터미널 무단 접근 차단",
+      "마켓플레이스 번들 코드 변조 실시간 탐지",
+      "비인가 아웃바운드 네트워크 트래픽 차단"
+    ],
+    "persona": "사내 개발자 수백 명이 Cursor와 VS Code 기반 AI 도구를 전면 도입하면서 엔드포인트 보안 위협에 직면한 테크 기업 CISO 및 보안 엔지니어링 리드입니다.",
+    "businessModel": "개발자 머신당 월 12달러를 과금하는 B2B SaaS 구독 모델이며, 중앙 정책 제어와 감사 로그 보관이 필요한 엔터프라이즈 플랜은 시트당 월 28달러에 제공합니다.",
+    "marketStats": "기사에 마켓플레이스 확장 프로그램 보안 시장 규모에 관한 직접적인 수치 근거는 없습니다.",
+    "goToMarket": "Cursor 마켓플레이스 공급망 해킹 사건이 공론화된 Hacker News와 X(구 트위터) 개발 보안 스레드에서 피해 점검 오픈소스 CLI를 무료로 배포하여 보안 담당자 100명을 초기 유입시킵니다.",
+    "unfairAdvantage": "공식 마켓플레이스 검증 시스템이 뚫려 실제 백도어 버전(2.1.312 등)이 유통된 사고 직후라, 에디터 자체 검증을 믿지 못하고 로컬 방어책을 찾는 개발 조직의 수요를 선점할 수 있습니다.",
+    "competitors": [
+      "1Password Developer Tools — SSH 키 보관에 특화 · 확장 프로그램 프로세스 격리 부재",
+      "macOS Santa — 바이너리 실행 차단 중심 · IDE 내부 확장 행위 추적 불가",
+      "Socket Security — 오픈소스 의존성 검증 위주 · IDE 플러그인 런타임 감시 미지원"
+    ],
+    "risks": [
+      "Cursor 및 VS Code 본사가 자체 마켓플레이스 샌드박싱 정책을 내장할 위험",
+      "정상적인 AI 자동 코딩 확장의 로컬 파일 수정 동작과 실제 악성 행위의 오탐 혼선",
+      "운영체제 커널 및 시스템 권한 감시 도구 설치에 따른 개발자 머신 성능 저하 우려"
+    ],
+    "actionPlan": [
+      "감염된 Claude Code 버전의 SSH 백도어 생성 시도를 탐지하는 셸 스크립트 배포",
+      "macOS Endpoint Security 프레임워크 기반 에디터 하위 프로세스 감시 PoC 개발",
+      "보안 커뮤니티 개발자 30명을 대상으로 IDE 확장 권한 통제 UX 피드백 인터뷰",
+      "Hacker News에 Cursor 마켓플레이스 위험 분석 기술 리포트와 진단 툴 공개"
+    ],
+    "recommendation": "공식 마켓플레이스 침해 사고로 AI 개발 환경 공급망 보안에 대한 관심이 급증한 지금이 런칭 최적기입니다. 다만 IDE 생태계가 자체적으로 보안 샌드박스를 도입하기 전에 빠른 속도로 기업 엔터프라이즈 감시 표준으로 안착해야 생존할 수 있습니다.",
+    "searchQuery": "ide extension security sandbox",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 1점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Dockside: open-source self-hosted 'Codespaces' for small teams",
+          "url": "https://dockside.io/",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50312922",
+        "title": "OpenAI raises less than half of $30B target",
+        "url": "https://wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5"
+      },
+      {
+        "clusterId": "hackernews:50301983",
+        "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+        "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2"
+      },
+      {
+        "clusterId": "hackernews:50314699",
+        "title": "We Took over ChatGPT Accounts",
+        "url": "https://parameter.ai/labs/we-found-a-gap-at-openai"
+      },
+      {
+        "clusterId": "hackernews:50311311",
+        "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+        "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says"
+      },
+      {
+        "clusterId": "hackernews:50305693",
+        "title": "AI isn't replacing SREs, it's deskilling them",
+        "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling"
+      },
+      {
+        "clusterId": "hackernews:50316531",
+        "title": "Malware uses LLMs to rank victims by how much they're worth",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer"
+      },
+      {
+        "clusterId": "hackernews:50307183",
+        "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+        "url": "https://404media.co/protons-ceo-cancels-ai-re-interviews"
+      },
+      {
+        "clusterId": "hackernews:50306008",
+        "title": "US tech stocks see sharp falls over AI cost fears",
+        "url": "https://bbc.co.uk/news/articles/cvwy72e0n72yo"
+      },
+      {
+        "clusterId": "hackernews:50304122",
+        "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+        "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs"
+      },
+      {
+        "clusterId": "hackernews:50306442",
+        "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+        "url": "https://github.com/dbreunig/nesformer"
+      },
+      {
+        "clusterId": "hackernews:50315574",
+        "title": "Why Anthropic's filing crushed tech stocks",
+        "url": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech"
+      },
+      {
+        "clusterId": "hackernews:50315990",
+        "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+        "url": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26"
+      },
+      {
+        "clusterId": "hackernews:50304358",
+        "title": "Anthropic Cracking Down on Video Game Rewrites",
+        "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968"
+      },
+      {
+        "clusterId": "hackernews:50305797",
+        "title": "Sam Altman Thinks You're Wasting DRAM",
+        "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres"
+      },
+      {
+        "clusterId": "hackernews:50310431",
+        "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+        "url": "https://reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30"
+      }
+    ]
+  }
+}

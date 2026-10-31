@@ -1,0 +1,1148 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T16:59:19.819Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 9,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 3
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 28,
+      "filtered": 10
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50312922",
+      "representativeId": "hackernews:50312922",
+      "items": [
+        {
+          "id": "hackernews:50312922",
+          "title": "OpenAI raises less than half of $30B target",
+          "url": "https://wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T03:22:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 173,
+            "comments": 167,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50312922"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-31T16:12:55.000Z",
+          "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.115258700849333,
+      "breakdown": {
+        "hnPoints": 1.6597658643079278,
+        "hnComments": 0.9661831760072319,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4559763272008395,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50301983",
+      "representativeId": "hackernews:50301983",
+      "items": [
+        {
+          "id": "hackernews:50301983",
+          "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+          "url": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T10:22:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 399,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50301983"
+          }
+        },
+        {
+          "id": "hackernews:50300683",
+          "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+          "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T07:09:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 948,
+            "comments": 541,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50300683"
+          }
+        },
+        {
+          "id": "hackernews:50302334",
+          "title": "Backdoors in official Claude Code extensions",
+          "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T11:05:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 655,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50302334"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours",
+          "title": "Anthropic VS code extension on Cursor backdoored for nearly 12 hours",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-30T21:09:54.000Z",
+          "summary": "It's still unknown how attackers got access to Anthropic's verified Cursor account.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.732465991509228,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6991326581758944,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50314699",
+      "representativeId": "hackernews:50314699",
+      "items": [
+        {
+          "id": "hackernews:50314699",
+          "title": "We Took over ChatGPT Accounts",
+          "url": "https://parameter.ai/labs/we-found-a-gap-at-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T10:30:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 202,
+            "comments": 103,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50314699"
+          }
+        }
+      ],
+      "score": 4.9535997617661724,
+      "breakdown": {
+        "hnPoints": 1.7093590594760621,
+        "hnComments": 0.8757540778173256,
+        "mentions": 0.0,
+        "recency": 1.1684866244727847,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50311311",
+      "representativeId": "hackernews:50311311",
+      "items": [
+        {
+          "id": "hackernews:50311311",
+          "title": "Anthropic to receive high 'junk' rating from credit agencies following IPO",
+          "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T23:08:12.000Z",
+          "summary": "Blackstone's forecast is just a prediction, but naturally, a high junk rating would make it more difficult and costlier for Anthropic to raise the money to keep funding its massive spending that has undergirded its business.",
+          "trust": 0.8,
+          "signals": {
+            "points": 98,
+            "comments": 70,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50311311"
+          }
+        },
+        {
+          "id": "hackernews:50307219",
+          "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+          "url": "https://ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T17:27:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 318,
+            "comments": 267,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50307219"
+          }
+        }
+      ],
+      "score": 4.809052856661104,
+      "breakdown": {
+        "hnPoints": 1.8547712398180598,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.754281616843044,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50305693",
+      "representativeId": "hackernews:50305693",
+      "items": [
+        {
+          "id": "hackernews:50305693",
+          "title": "AI isn't replacing SREs, it's deskilling them",
+          "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T15:52:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 629,
+            "comments": 466,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50305693"
+          }
+        }
+      ],
+      "score": 4.770209531101906,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5702095311019059,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50316531",
+      "representativeId": "hackernews:50316531",
+      "items": [
+        {
+          "id": "hackernews:50316531",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T14:29:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 91,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50316531"
+          }
+        }
+      ],
+      "score": 4.670332484687639,
+      "breakdown": {
+        "hnPoints": 1.4547450822917476,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 1.3620824723789346,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50307183",
+      "representativeId": "hackernews:50307183",
+      "items": [
+        {
+          "id": "hackernews:50307183",
+          "title": "Proton's CEO Cancels AI 'Re-Interviews'",
+          "url": "https://404media.co/protons-ceo-cancels-ai-re-interviews",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T17:24:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 287,
+            "comments": 242,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50307183"
+          }
+        }
+      ],
+      "score": 4.626948334844002,
+      "breakdown": {
+        "hnPoints": 1.8218817110344818,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6050666238095198,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50306008",
+      "representativeId": "hackernews:50306008",
+      "items": [
+        {
+          "id": "hackernews:50306008",
+          "title": "US tech stocks see sharp falls over AI cost fears",
+          "url": "https://bbc.co.uk/news/articles/cvwy72e0n72yo",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T16:13:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 261,
+            "comments": 292,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50306008"
+          }
+        }
+      ],
+      "score": 4.5692898125299655,
+      "breakdown": {
+        "hnPoints": 1.7914419582702403,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5778478542597251,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50304122",
+      "representativeId": "hackernews:50304122",
+      "items": [
+        {
+          "id": "hackernews:50304122",
+          "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+          "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T14:08:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 272,
+            "comments": 306,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50304122"
+          }
+        }
+      ],
+      "score": 4.538076676914848,
+      "breakdown": {
+        "hnPoints": 1.804673387366797,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5334032895480504,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50306442",
+      "representativeId": "hackernews:50306442",
+      "items": [
+        {
+          "id": "hackernews:50306442",
+          "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+          "url": "https://github.com/dbreunig/nesformer",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T16:40:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 276,
+            "comments": 136,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50306442"
+          }
+        }
+      ],
+      "score": 4.525147062833886,
+      "breakdown": {
+        "hnPoints": 1.8093530182669566,
+        "hnComments": 0.9277197919266458,
+        "mentions": 0.0,
+        "recency": 0.588074252640284,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50315574",
+      "representativeId": "hackernews:50315574",
+      "items": [
+        {
+          "id": "hackernews:50315574",
+          "title": "Why Anthropic's filing crushed tech stocks",
+          "url": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T12:32:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 47,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50315574"
+          }
+        }
+      ],
+      "score": 4.493287486115691,
+      "breakdown": {
+        "hnPoints": 1.2454387323116143,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.0,
+        "recency": 1.2636428377837294,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50315990",
+      "representativeId": "hackernews:50315990",
+      "items": [
+        {
+          "id": "hackernews:50315990",
+          "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+          "url": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T13:25:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 71,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50315990"
+          }
+        }
+      ],
+      "score": 4.4282636169295255,
+      "breakdown": {
+        "hnPoints": 1.3758845419753172,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 1.3073657657055051,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50304358",
+      "representativeId": "hackernews:50304358",
+      "items": [
+        {
+          "id": "hackernews:50304358",
+          "title": "Anthropic Cracking Down on Video Game Rewrites",
+          "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T14:22:52.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 118,
+            "comments": 122,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50304358"
+          }
+        }
+      ],
+      "score": 4.183329997140796,
+      "breakdown": {
+        "hnPoints": 1.5375346018070926,
+        "hnComments": 0.9073934911906846,
+        "mentions": 0.0,
+        "recency": 0.5384019041430188,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50305797",
+      "representativeId": "hackernews:50305797",
+      "items": [
+        {
+          "id": "hackernews:50305797",
+          "title": "Sam Altman Thinks You're Wasting DRAM",
+          "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T15:58:39.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 96,
+            "comments": 103,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50305797"
+          }
+        }
+      ],
+      "score": 4.120063432263106,
+      "breakdown": {
+        "hnPoints": 1.4717712218263423,
+        "hnComments": 0.8757540778173256,
+        "mentions": 0.0,
+        "recency": 0.5725381326194381,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50310431",
+      "representativeId": "hackernews:50310431",
+      "items": [
+        {
+          "id": "hackernews:50310431",
+          "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+          "url": "https://reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T21:32:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 67,
+            "comments": 15,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50310431"
+          }
+        }
+      ],
+      "score": 3.7896847819482664,
+      "breakdown": {
+        "hnPoints": 1.3574955969752556,
+        "hnComments": 0.5228039440135649,
+        "mentions": 0.0,
+        "recency": 0.7093852409594457,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50304280",
+      "representativeId": "hackernews:50304280",
+      "items": [
+        {
+          "id": "hackernews:50304280",
+          "title": "Neal Stephenson on AI and What Comes Next [video]",
+          "url": "https://youtube.com/watch?v=Ii-aeW5pHPQ",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T14:18:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50304280"
+          }
+        }
+      ],
+      "score": 3.6331097121008167,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.5369180964669575,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50302407",
+      "representativeId": "hackernews:50302407",
+      "items": [
+        {
+          "id": "hackernews:50302407",
+          "title": "Fiber lasts decades, GPUs last three years: the AI boom isn't the dot-com boom [video]",
+          "url": "https://youtube.com/watch?v=MENoB3Rex28",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T11:16:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 41,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50302407"
+          }
+        }
+      ],
+      "score": 3.632277579660493,
+      "breakdown": {
+        "hnPoints": 1.2024791526138692,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 0.477628956175265,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50305724",
+      "representativeId": "hackernews:50305724",
+      "items": [
+        {
+          "id": "hackernews:50305724",
+          "title": "Some Thing is Happening A note from the AI companies",
+          "url": "https://alanbellows.com/some-thing-is-happening",
+          "source": "hackernews",
+          "publishedAt": "2026-10-30T15:53:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50305724"
+          }
+        }
+      ],
+      "score": 3.6221857737632135,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.5707221083677694,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far",
+          "title": "Basically no one is using AI agents for their DoorDash orders",
+          "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-30T19:30:52.000Z",
+          "summary": "But it's still early days for the relatively new e-commerce use case.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents",
+          "title": "DoorDash said it’s only received ‘several hundred’ orders from AI agents",
+          "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-30T13:54:25.000Z",
+          "summary": "DoorDash said that it is open to working with third-party agent makers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.53941194855624,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6560786152229071,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "representativeId": "theverge-ai:https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "title": "I built an AI Tamagotchi before Meta could",
+          "url": "https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-31T16:05:00.000Z",
+          "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.348597360785956,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4485973607859561,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "title": "nemotron-halloween",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+          "source": "huggingface",
+          "publishedAt": "2026-10-30T17:57:24.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9678794910364223,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6178794910364223,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "representativeId": "openai:https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "title": "Making it easier for websites to express AI training preferences",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "source": "openai",
+          "publishedAt": "2026-10-30T09:30:00.000Z",
+          "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9461443818913922,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.44614438189139216,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "representativeId": "openai:https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "title": "Community safety report and new protections for teens",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+          "source": "openai",
+          "publishedAt": "2026-10-30T09:00:00.000Z",
+          "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9376364476417174,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4376364476417173,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/30/nesformer",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/30/nesformer",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/30/nesformer",
+          "title": "dbreunig/nesformer",
+          "url": "https://simonwillison.net/2026/Oct/30/nesformer",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-30T21:59:22.000Z",
+          "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow. Via Hacker News Tags: games , ai , generative-ai , llms , drew-breunig , qwen , conformance-suites",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7716847140444898,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7216847140444901,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+          "title": "Supersonic airliner in doubt as company shifts to powering AI data centers",
+          "url": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-30T21:41:54.000Z",
+          "summary": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7636396915347257,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7136396915347258,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job",
+          "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+          "url": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-30T20:40:13.000Z",
+          "summary": "People who love AI don't always love telling others they used it.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7359396542396435,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6859396542396436,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+          "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+          "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-31T01:20:05.000Z",
+          "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.7209062452546402,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8209062452546403,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+          "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+          "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-30T17:38:19.000Z",
+          "summary": "Low costs and offline security mean magnetic tape still has a job.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.660358018508251,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6103580185082512,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+          "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+          "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-30T22:56:13.000Z",
+          "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6485027342239142,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7485027342239143,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans",
+          "title": "Thousands of “ghost students” use AI to steal millions in student loans, DOJ says",
+          "url": "https://arstechnica.com/tech-policy/2026/10/doj-exposes-ghost-students-using-ai-to-complete-courses-steal-student-loans",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-10-30T16:53:49.000Z",
+          "summary": "Applying for FAFSA may get messy as DOJ “ghost student” crackdown ramps up.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6431726299518505,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5931726299518508,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+          "title": "Cracks are emerging in the AI spending boom",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-30T21:17:40.000Z",
+          "summary": "Big Tech is pouring billions into AI infrastructure, but mounting debt, negative cash flow, and growing investor skepticism are raising questions about the sustainability of the AI spending boom.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.6026263035409274,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7026263035409275,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+          "title": "The biggest names in AI are backing a new way to opt out of scraping",
+          "url": "https://theverge.com/tech/1023763/openai-google-microsoft-ai-scraping-standard-opt-out",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-30T20:26:10.000Z",
+          "summary": "OpenAI, Google, Microsoft, and Anthropic say they will adopt a new standard that publishers can use to opt out of being scraped by AI, as reported earlier by Search Engine Roundtable. With this control, publishers can apply their AI training preferences across multiple AI companies, instead of setting them individually. The shared \"policy token\" signal […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5797821130910057,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6797821130910059,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "title": "Google’s satellite AI server transmits its first response to Earth",
+          "url": "https://theverge.com/tech/1023528/google-project-suncatcher-ai-satellite-transmission",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-30T18:21:38.000Z",
+          "summary": "Google's AI chip-equipped satellite has generated its first response from space. In a blog post on Friday, Google says it successfully booted up the satellite's Tensor Processing Units (TPUs), allowing the on-board Gemma 4 model to follow through on a prompt to create a haiku about being in space: Blue marble below Data streams in […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.527564506433513,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6275645064335131,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+          "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+          "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-30T17:47:12.000Z",
+          "summary": "Can't agree on where to eat? Zest's AI concierge can combine everyone's tastes, put restaurant options to a vote, and make the reservation.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5138478217292919,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.613847821729292,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+          "title": "Starbucks wants to use AI to show you a ‘personalized digital menu’ at the drive-thru",
+          "url": "https://theverge.com/ai-artificial-intelligence/1023440/starbucks-ai-personalized-menu-drive-thru",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-30T17:38:04.000Z",
+          "summary": "Starbucks could eventually show you a personalized digital menu when you pull up to the drive-thru. During an earnings call on Thursday, Starbucks CEO Brian Niccol said the company is going to explore \"experiences that recognize participating customers as they arrive, present personalized digital menus, and make payment more effortless,\" as spotted earlier by More […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.510260093971053,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6102600939710532,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people",
+          "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+          "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-30T16:03:45.000Z",
+          "summary": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4744152319636994,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5744152319636996,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+          "title": "Pope Leo calls for the disarmament of AI: ‘Machines are tools, not persons’",
+          "url": "https://theverge.com/ai-artificial-intelligence/1023188/pope-leo-disarm-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-30T14:58:06.000Z",
+          "summary": "Pope Leo XIV says AI systems should be \"disarmed,\" adding that humans \"have the responsibility to guide, change and, when necessary, reject its applications.\" In Friday's Papal Address, Pope Leo encourages United Nations member states to \"take concrete steps toward banning lethal autonomous weapons\" during their meeting in Geneva next month. The address reflects many […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4507154064994778,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5507154064994779,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+          "title": "Silicon Valley wants you to invest in miracles",
+          "url": "https://theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-30T13:11:05.000Z",
+          "summary": "Investing in any stock is kind of like gambling in the sense that you're betting your money on a company's future performance. But how do you bet on a technology that could, in the worst-case scenario, \"pose catastrophic or existential risks to humanity,\" or best case, \"bring forth an age of miracles\"? To some extent, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4141600304374722,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5141600304374723,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+          "title": "Sam Altman sympathizes with mathematicians, but says OpenAI’s math onslaught won’t stop",
+          "url": "https://theverge.com/ai-artificial-intelligence/1023054/altman-cheeky-pint-ai-math-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-30T13:01:14.000Z",
+          "summary": "After months of bombarding mathematicians with a relentless stream of AI-generated results, OpenAI CEO Sam Altman says he sympathizes with researchers struggling to make sense of it all. But he has no intention of stopping - and hints there could be much more to come from the company's stockpile of discoveries. \"I think, on net, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4109198871270616,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5109198871270617,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+          "title": "Can AI data centers be mass-produced like cars? This startup aims to find out",
+          "url": "https://techcrunch.com/2026/10/30/can-ai-data-centers-be-mass-produced-like-cars-and-online-in-48-hours-this-startup-aims-to-find-out",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-30T13:00:00.000Z",
+          "summary": "Runware is building a factory to turn out prefabricated AI data centers on an assembly line. The real test will be whether it can deliver at that scale.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4105156249509956,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5105156249509958,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50312922",
+    "hackernews:50301983",
+    "hackernews:50314699",
+    "hackernews:50311311",
+    "hackernews:50305693"
+  ]
+}

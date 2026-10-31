@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T17:05:27.763Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50301983",
+      "headline": "클로드 확장 프로그램에서 백도어 발견",
+      "highlight": [
+        "백도어 발견"
+      ],
+      "body": "공식 클로드 코드 확장 프로그램 2.1.312 및 2.1.313 버전에서 영구적 SSH 백도어가 발견됐습니다. macOS, Linux, Windows 시스템에 장기적 접근을 허용하므로, 해당 확장 프로그램 사용 여부를 즉시 확인해야 합니다.",
+      "sourceUrl": "https://phorion.io/blog/offical-claude-code-vsx-compromise",
+      "sourceName": "Phorion | macOS Endpoint Detection and Response (EDR)",
+      "imageUrl": "https://phorion.io/images/default-social-card.png",
+      "publishedAt": "2026-10-30T10:22:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:50314699",
+      "headline": "챗GPT, 공유 링크로 계정 통째로 털렸다",
+      "highlight": [
+        "공유 링크로",
+        "통째로 털렸다"
+      ],
+      "body": "챗GPT 공유 링크를 열기만 해도 계정 전체가 탈취되는 취약점이 발견됐다. 오픈AI는 10월 26일, 비공개 대화 내용을 읽고 계정을 악용 가능한 P1급 버그를 수정했다. 별도 행동 없이 링크만으로 피해 가능했으나, 현재는 안전하다.",
+      "sourceUrl": "https://parameter.ai/labs/we-found-a-gap-at-openai",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.parameter.ai/opengraph-image.png",
+      "publishedAt": "2026-10-31T10:30:11.000Z"
+    },
+    {
+      "clusterId": "hackernews:50311311",
+      "headline": "앤트로픽 상장하자마자 정크 등급 경고",
+      "highlight": [
+        "정크 등급"
+      ],
+      "body": "앤트로픽의 630억 달러 펀딩을 이끈 블랙스톤이 앤트로픽의 IPO 이후 신용등급이 '정크' 수준에 머물 것이라고 전했다. 기존의 투자적격 예측을 뒤집은 발언이다. 정크 등급 판정을 받으면 앤트로픽은 막대한 AI 개발용 자금을 조달할 때 더 높은 비용을 부담해야 한다.",
+      "sourceUrl": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-2282033342.jpg?w=1024",
+      "publishedAt": "2026-10-30T23:08:12.000Z"
+    },
+    {
+      "clusterId": "hackernews:50305693",
+      "headline": "AI 쓰자 전문가 진단율 22%로 떨어졌다",
+      "highlight": [
+        "22%로 떨어졌다"
+      ],
+      "body": "AI 도구를 쓴 의사들의 자체 용종 진단율이 28%에서 22%로 급감한 것으로 나타났습니다. SRE 분야도 AI가 장애 95%를 자동 처리하면서 엔지니어의 핵심 대응 능력이 퇴화하고 있습니다. 작업 효율 향상 뒤에 실전 감각 마비라는 새로운 위험이 도래했습니다.",
+      "sourceUrl": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!Hgvq!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F530d847f-26cb-4ddd-a6de-875cbbaf8fab_6233x4167.webp",
+      "publishedAt": "2026-10-30T15:52:18.000Z"
+    }
+  ]
+}
