@@ -1,0 +1,668 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T17:45:19.494Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 29,
+      "filtered": 20
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50314699",
+      "representativeId": "hackernews:50314699",
+      "items": [
+        {
+          "id": "hackernews:50314699",
+          "title": "Do the math: How we took over ChatGPT accounts",
+          "url": "https://parameter.ai/labs/we-found-a-gap-at-openai",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T10:30:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 357,
+            "comments": 174,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50314699"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+          "title": "How We Took Over ChatGPT Accounts",
+          "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-31T23:15:22.000Z",
+          "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews ), where interactive custom HTML apps are displayed in a sandboxed iframe. It's important that HTML in these stays tightly sandboxed to avoid untrusted code interacting with OpenAI APIs and accessing private data. Parameter found quite a complex attack chain. OpenAI use the MathLive JavaScript library as part of their graph support, and that library includes its own virtual keyboard , which can be triggered in the parent page via postMessage() from the sandboxed iframe. That message receiving code uses innerHTML , so anything that sends a message can add custom HTML to the parent - and there was no mechanism to prevent other sandboxed frames, including HTML preview frames, from calling that method. This meant untrusted code in an iframe could insert HTML, and while innerHTML doesn't directly execute script elements it could be used to inject a new iframe without sandbox restrictions. OpenAI’s CSP rules blocked inline scripts entirely, and only allowed script loading from a handful of domains, but one of those was YouTube - and the YouTube oEmbed endpoint could be used to reflect JavaScript back in a way that executed it. Once the attack had JavaScript execution on ChatGPT, it was trivial to fetch private user data from APIs and exfiltrate it via an image reference. The end result: you could create a ChatGPT share URL which, when visited by another signed-in user, could exfiltrate their private data or take actions on their behalf. OpenAI closed the hole and paid out a $5,000 bug bounty, which I think was a bit cheap for a vulnerability this serious. Via Hacker News Tags: iframes , javascript , sandboxing , security , xss , openai , chatgpt , content-security-policy",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.634810169411554,
+      "breakdown": {
+        "hnPoints": 1.8918789097396678,
+        "hnComments": 0.9738806392359105,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7357172871026423,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50320995",
+      "representativeId": "hackernews:50320995",
+      "items": [
+        {
+          "id": "hackernews:50320995",
+          "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+          "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T22:46:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 375,
+            "comments": 184,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50320995"
+          }
+        }
+      ],
+      "score": 4.814093498342592,
+      "breakdown": {
+        "hnPoints": 1.9076612051566586,
+        "hnComments": 0.9843589828571427,
+        "mentions": 0.0,
+        "recency": 0.7220733103287909,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50323088",
+      "representativeId": "hackernews:50323088",
+      "items": [
+        {
+          "id": "hackernews:50323088",
+          "title": "The AI cost of JavaScript frameworks",
+          "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T06:06:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 201,
+            "comments": 141,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50323088"
+          }
+        }
+      ],
+      "score": 4.800007039141094,
+      "breakdown": {
+        "hnPoints": 1.7077703206818444,
+        "hnComments": 0.9344789981941682,
+        "mentions": 0.0,
+        "recency": 0.957757720265081,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50319358",
+      "representativeId": "hackernews:50319358",
+      "items": [
+        {
+          "id": "hackernews:50319358",
+          "title": "Anthropic blocks users for anything touching training larger models",
+          "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T19:39:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 430,
+            "comments": 239,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50319358"
+          }
+        }
+      ],
+      "score": 4.792040483600231,
+      "breakdown": {
+        "hnPoints": 1.9515819376251444,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6404585459750864,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50325662",
+      "representativeId": "hackernews:50325662",
+      "items": [
+        {
+          "id": "hackernews:50325662",
+          "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T13:47:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 98,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50325662"
+          }
+        }
+      ],
+      "score": 4.661498030328376,
+      "breakdown": {
+        "hnPoints": 1.4783371426195693,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 1.2875796382678795,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50320588",
+      "representativeId": "hackernews:50320588",
+      "items": [
+        {
+          "id": "hackernews:50320588",
+          "title": "ChatGPT and Codex usage limits merging",
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T21:49:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 206,
+            "comments": 146,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50320588"
+          }
+        }
+      ],
+      "score": 4.552738951716286,
+      "breakdown": {
+        "hnPoints": 1.7156367016191527,
+        "hnComments": 0.9410042743714606,
+        "mentions": 0.0,
+        "recency": 0.6960979757256721,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50318871",
+      "representativeId": "hackernews:50318871",
+      "items": [
+        {
+          "id": "hackernews:50318871",
+          "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+          "url": "https://ryanmadden.net/gpt-56-beats-factorio",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T18:50:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 175,
+            "comments": 187,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50318871"
+          }
+        }
+      ],
+      "score": 4.471565090052753,
+      "breakdown": {
+        "hnPoints": 1.6634426923513288,
+        "hnComments": 0.9873922117644943,
+        "mentions": 0.0,
+        "recency": 0.6207301859369299,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50316531",
+      "representativeId": "hackernews:50316531",
+      "items": [
+        {
+          "id": "hackernews:50316531",
+          "title": "Malware uses LLMs to rank victims by how much they're worth",
+          "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T14:29:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 252,
+            "comments": 133,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50316531"
+          }
+        }
+      ],
+      "score": 4.428560562220067,
+      "breakdown": {
+        "hnPoints": 1.780196267465582,
+        "hnComments": 0.9235448243807354,
+        "mentions": 0.0,
+        "recency": 0.5248194703737494,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50315987",
+      "representativeId": "hackernews:50315987",
+      "items": [
+        {
+          "id": "hackernews:50315987",
+          "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T13:25:00.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50315987"
+          }
+        },
+        {
+          "id": "hackernews:50320255",
+          "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+          "url": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T21:07:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 171,
+            "comments": 105,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50320255"
+          }
+        }
+      ],
+      "score": 4.413346901341938,
+      "breakdown": {
+        "hnPoints": 1.656046528640494,
+        "hnComments": 0.8793458371637942,
+        "mentions": 0.0,
+        "recency": 0.6779545355376493,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50324267",
+      "representativeId": "hackernews:50324267",
+      "items": [
+        {
+          "id": "hackernews:50324267",
+          "title": "Sam Altman says DRAM capacity should go to data centers, not personal computers",
+          "url": "https://tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T10:28:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50324267"
+          }
+        }
+      ],
+      "score": 4.393755897417817,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 1.1331756796980168,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50327240",
+      "representativeId": "hackernews:50327240",
+      "items": [
+        {
+          "id": "hackernews:50327240",
+          "title": "Alleged Mythos Class Anthropic Checkpoint Leak",
+          "url": "https://huggingface.co/burner22/numbat",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T16:43:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50327240"
+          }
+        }
+      ],
+      "score": 4.264256591329595,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 1.441738800525517,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50318401",
+      "representativeId": "hackernews:50318401",
+      "items": [
+        {
+          "id": "hackernews:50318401",
+          "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+          "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T18:02:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50318401"
+          }
+        }
+      ],
+      "score": 3.9632305922374678,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 0.6018669932111852,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50315574",
+      "representativeId": "hackernews:50315574",
+      "items": [
+        {
+          "id": "hackernews:50315574",
+          "title": "Why Anthropic's filing crushed tech stocks",
+          "url": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T12:32:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50315574"
+          }
+        }
+      ],
+      "score": 3.7965040244985797,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 0.4868900219448232,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50320599",
+      "representativeId": "hackernews:50320599",
+      "items": [
+        {
+          "id": "hackernews:50320599",
+          "title": "AI text watermarking and quality loss",
+          "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T21:50:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50320599"
+          }
+        }
+      ],
+      "score": 3.7131656648270184,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.6965895827422944,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50315990",
+      "representativeId": "hackernews:50315990",
+      "items": [
+        {
+          "id": "hackernews:50315990",
+          "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+          "url": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T13:25:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50315990"
+          }
+        }
+      ],
+      "score": 3.647962823733513,
+      "breakdown": {
+        "hnPoints": 1.3890177512719881,
+        "hnComments": 0.5552083144780106,
+        "mentions": 0.0,
+        "recency": 0.5037367579835145,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50321065",
+      "representativeId": "hackernews:50321065",
+      "items": [
+        {
+          "id": "hackernews:50321065",
+          "title": "Computer Science Programs Lose Students as AI Replaces Jobs",
+          "url": "https://bloomberg.com/news/articles/2026-10-29/computer-science-degree-programs-lose-students-as-ai-takes-jobs",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T22:57:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50321065"
+          }
+        }
+      ],
+      "score": 3.587292830367131,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.5552083144780106,
+        "mentions": 0.0,
+        "recency": 0.7273057511911677,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50315782",
+      "representativeId": "hackernews:50315782",
+      "items": [
+        {
+          "id": "hackernews:50315782",
+          "title": "Show HN: A language model that lives in a boot sector",
+          "url": "https://github.com/kerlenton/bootgpt",
+          "source": "hackernews",
+          "publishedAt": "2026-10-31T12:58:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 89,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50315782"
+          }
+        }
+      ],
+      "score": 3.480714690749969,
+      "breakdown": {
+        "hnPoints": 1.447674051455504,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.4951834916684178,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+          "title": "Quoting Kyle Kingsbury",
+          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-01T16:49:04.000Z",
+          "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users? — Kyle Kingsbury , Jepsen results for ParticleDB 1.1.4 Tags: kyle-kingsbury , llms , ai , generative-ai , ai-misuse",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.496806058025596,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4468060580255961,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Oct/31/datasette-llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Oct/31/datasette-llm",
+          "title": "datasette-llm 0.1a9",
+          "url": "https://simonwillison.net/2026/Oct/31/datasette-llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-10-31T22:10:01.000Z",
+          "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default model used by LLM , which means you can start using Datasette Agent without needing to explicitly configure a default model: uvx --with datasette-agent datasette content.db --internal internal.db Previously you would also need to specify a model with -s plugins.datasette-agent.default_model gpt-6-astra . Tags: datasette , llm , datasette-agent",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7554981166032002,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7054981166032003,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+          "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+          "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-31T21:41:00.000Z",
+          "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5924812207049093,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6924812207049095,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-10-31T16:12:55.000Z",
+          "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4609973995067165,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5609973995067167,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "representativeId": "theverge-ai:https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "title": "I built an AI Tamagotchi before Meta could",
+          "url": "https://theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+          "source": "theverge-ai",
+          "publishedAt": "2026-10-31T16:05:00.000Z",
+          "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home. It […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4581542344823542,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5581542344823542,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50314699",
+    "hackernews:50320995",
+    "hackernews:50323088",
+    "hackernews:50319358",
+    "hackernews:50325662"
+  ]
+}

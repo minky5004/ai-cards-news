@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T17:49:23.084Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50314699",
+      "headline": "챗GPT 공유 링크만 열어도 계정 뚫렸다",
+      "highlight": [
+        "계정 뚫렸다"
+      ],
+      "body": "챗GPT 공유 링크만 열어도 비공개 대화가 유출되고 계정 권한이 넘어가는 보안 취약점이 밝혀졌습니다. 별도 클릭 없이 링크 접속 순간 자바스크립트가 실행되며 로그인 세션을 빼앗기는 구조였습니다. 오픈AI는 이 결함을 P1 등급으로 지정하고 10월 26일 수정을 마쳤습니다.",
+      "sourceUrl": "https://parameter.ai/labs/we-found-a-gap-at-openai",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.parameter.ai/opengraph-image.png",
+      "publishedAt": "2026-10-31T10:30:11.000Z"
+    },
+    {
+      "clusterId": "hackernews:50320995",
+      "headline": "소형 AI 5개 모이니 98% 정답률 나왔다",
+      "highlight": [
+        "98% 정답률"
+      ],
+      "body": "기획·수정 등 역할을 나눈 소형 AI 5개가 파일로 소통하는 협업 시스템이 공개됐습니다. 고난도 코딩 테스트에서 평균 98%의 정답률을 기록하며 단일 모델을 제쳤습니다. 문제당 0.39달러로 소형 모델 팀이 뛰어난 성능을 낼 수 있음을 증명했습니다.",
+      "sourceUrl": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/f33bc11a0da462d97189cb64b05fcce411c080204c7b6e680c6b0f74332a09af/guregodevo/memdoor",
+      "publishedAt": "2026-10-31T22:46:12.000Z"
+    },
+    {
+      "clusterId": "hackernews:50323088",
+      "headline": "AI 코딩 비용 프레임워크 따라 2배 차이",
+      "highlight": [
+        "2배 차이"
+      ],
+      "body": "AI 에이전트로 같은 앱을 빌드한 결과 프레임워크에 따라 개발 비용이 2배 가까이 차이 났습니다. Hono와 htmx는 회당 2.67달러에 불과했지만 앵귤러는 4.97달러로 가장 비쌌습니다. 프레임워크의 코드량과 난이도가 AI 토큰 소모량과 직결된 결과입니다.",
+      "sourceUrl": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "sourceName": "Read the Tea Leaves",
+      "imageUrl": "https://nolanlawson.com/_astro/frameworks.B14_z7MF_2lv3q1.webp",
+      "publishedAt": "2026-11-01T06:06:19.000Z"
+    },
+    {
+      "clusterId": "hackernews:50325662",
+      "headline": "문명 만들라 했더니 관료주의로 망한 AI들",
+      "highlight": [
+        "관료주의로 망한"
+      ],
+      "body": "연구진이 마인크래프트에서 AI 50개에게 문명을 만들게 했으나 실패했습니다. 비료 하나를 맡을 담당자를 뽑으려고 에이전트 4개가 11분 동안 토론했기 때문입니다. 복잡한 협동 과제에서 AI가 보여주는 비효율적 행동 패턴을 입증한 실험입니다.",
+      "sourceUrl": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "sourceName": "Tom's Hardware",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/SCYhnjqyKUaWNuCxFpW8m9-1920-80.jpg",
+      "publishedAt": "2026-11-01T13:47:24.000Z"
+    },
+    {
+      "clusterId": "hackernews:50318871",
+      "headline": "GPT-5.6이 팩토리오 클리어 성공했다",
+      "highlight": [
+        "팩토리오 클리어"
+      ],
+      "body": "개발자 라이언 매든이 GPT-5.6 Sol을 활용해 팩토리오를 13.5시간 만에 클리어했습니다. 컨베이어 벨트도 못 쓰던 전작과 달리, 파이썬 코드로 유저 제약을 지키며 로켓 발사에 성공했습니다. 후반에 물자를 직접 운반하는 한계도 보였지만 눈부신 발전입니다.",
+      "sourceUrl": "https://ryanmadden.net/gpt-56-beats-factorio",
+      "sourceName": "Ryan Madden",
+      "imageUrl": "https://ryanmadden.net/img/factorio_rocket_launch_social.jpg",
+      "publishedAt": "2026-10-31T18:50:34.000Z"
+    }
+  ]
+}

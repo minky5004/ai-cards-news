@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T17:53:47.688Z",
+  "idea": {
+    "productName": "ShareWall",
+    "tagline": "클릭 한 번에 털리는 AI 공유 링크를 열기 전에 검사한다",
+    "oneLineSummary": "기업 내부망에서 열람하는 생성형 AI 대화 공유 링크의 악성 스크립트와 세션 탈취 시도를 사전 차단하는 보안 프록시를 엔터프라이즈 보안팀에 판매합니다.",
+    "problem": "사내 직원이 무심코 연 AI 대화 공유 링크 하나로 로그인 세션이 장악될 수 있습니다. 비공개 대화와 업무 데이터가 공격자 서버로 유출되는 위협에 보안팀이 무방비로 노출됩니다.",
+    "productDescription": "사내 메신저나 이메일로 인입되는 AI 서비스 공유 링크를 전용 가상 샌드박스에서 먼저 파싱하여 위험 요소를 제거하는 웹 보안 게이트웨이입니다. ChatGPT 공유 페이지 내 HTML 프리뷰나 그래프 렌더링 코드에 숨어든 악성 자바스크립트를 탐지하여 브라우저 활성 세션 접근을 원천 봉쇄합니다. 사용자가 링크를 클릭했을 때 인증 쿠키나 로컬 스토리지를 공유하지 않는 격리 컨테이너에서 렌더링된 안전한 뷰어 화면만 제공합니다. 비공개 대화 목록을 스크래핑하거나 외부 서버로 유출하려는 비정상 API 호출 발생 시 즉각 세션을 차단하고 보안팀에 경보를 보냅니다.",
+    "keyFeatures": [
+      "공유 링크 내 인라인 JS 격리",
+      "사내 미인가 외부 데이터 전송 차단",
+      "비공개 세션 API 무단 호출 방어",
+      "슬랙·노션 내 AI 링크 실시간 검사"
+    ],
+    "persona": "직원들의 생성형 AI 활용 급증으로 인해 프롬프트 내 사내 기밀 유출과 브라우저 세션 보안 사고를 전담 관리해야 하는 대기업 CISO 및 보안 엔지니어링 리드입니다.",
+    "businessModel": "사내 활성 AI 사용자 수 기반의 B2B 월간 구독 요금제(엔터프라이즈 사용자당 월 5~8달러)와 전용 온프레미스 격리 프록시 구축 라이선스 비용을 청구합니다.",
+    "marketStats": "기사에 규모 근거 없음",
+    "goToMarket": "슬랙 및 마이크로소프트 팀즈용 AI 링크 검사 봇 무료 플러그인을 레딧과 해커뉴스 보안 커뮤니티에 공개 배포하여 100개 테크 스타트업 보안 담당자의 초기 도입을 유치합니다.",
+    "unfairAdvantage": "2026년 10월 발견된 실제 공격 벡터(HTML Preview 크로스 세션 실행) 분석 데이터를 기반으로, AI 벤더가 패치하기 전 선제적으로 페이로드를 격리하는 규칙 셋을 가장 빠르게 구축했습니다.",
+    "competitors": [
+      "Cloudflare Browser Isolation — 전체 웹 픽셀 스트리밍 방식이라 지연 시간이 길고 AI 대화 DOM 맞춤 분석 미지원",
+      "Menlo Security — 범용 웹 격리 솔루션으로 AI 챗봇 특유의 공유 렌더링 취약점 탐지 룰 부재"
+    ],
+    "risks": [
+      "OpenAI 등 거대 AI 플랫폼이 공유 뷰어 샌드박싱 아키텍처를 원천 내재화하여 보안 취약점을 완전히 해소하는 경우",
+      "공유 링크 내부 웹 컴포넌트의 잦은 UI 변경으로 인한 정적 스크립트 검사 오탐 증가",
+      "격리 브라우저 렌더링으로 인한 일부 대화 내 인터랙티브 위젯 작동 지연"
+    ],
+    "actionPlan": [
+      "ChatGPT 공개 공유 링크 내 HTML 프리뷰 파싱 취약점 재현 환경 구축",
+      "DOM 격리 및 브라우저 세션 접근 차단용 오픈소스 프록시 프로토타입 개발",
+      "슬랙 인커밍 웹훅 기반의 AI 공유 링크 자동 스캔 봇 배포",
+      "초기 보안 엔지니어 10명을 대상으로 세션 탈취 차단 데모 시연 및 피드백 수집"
+    ],
+    "recommendation": "기사에서 실제로 입증된 P1 등급 세션 하이재킹 공격을 직접 겨냥해 엔터프라이즈 보안팀의 실질적 공포를 즉시 해결하는 적시성이 탁월합니다. 다만 AI 플랫폼 제조사가 자체 샌드박스를 완벽히 수정하면 외부 솔루션의 존재 가치가 약화되므로, 단순 취약점 방어를 넘어 전사 AI 데이터 유출 방지(DLP) 영역으로 제품을 빠르게 확장해야 합니다.",
+    "searchQuery": "chatgpt shared link exploit",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50314699",
+        "title": "Do the math: How we took over ChatGPT accounts",
+        "url": "https://parameter.ai/labs/we-found-a-gap-at-openai"
+      },
+      {
+        "clusterId": "hackernews:50320995",
+        "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+        "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve"
+      },
+      {
+        "clusterId": "hackernews:50323088",
+        "title": "The AI cost of JavaScript frameworks",
+        "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks"
+      },
+      {
+        "clusterId": "hackernews:50319358",
+        "title": "Anthropic blocks users for anything touching training larger models",
+        "url": "https://twitter.com/jiahaoshao1/status/2116475922190922088"
+      },
+      {
+        "clusterId": "hackernews:50325662",
+        "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+        "url": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy"
+      },
+      {
+        "clusterId": "hackernews:50320588",
+        "title": "ChatGPT and Codex usage limits merging",
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+      },
+      {
+        "clusterId": "hackernews:50318871",
+        "title": "GPT-5.6 Sol can beat Factorio on peaceful mode",
+        "url": "https://ryanmadden.net/gpt-56-beats-factorio"
+      },
+      {
+        "clusterId": "hackernews:50316531",
+        "title": "Malware uses LLMs to rank victims by how much they're worth",
+        "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer"
+      },
+      {
+        "clusterId": "hackernews:50315987",
+        "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+        "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked"
+      },
+      {
+        "clusterId": "hackernews:50324267",
+        "title": "Sam Altman says DRAM capacity should go to data centers, not personal computers",
+        "url": "https://tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization"
+      },
+      {
+        "clusterId": "hackernews:50327240",
+        "title": "Alleged Mythos Class Anthropic Checkpoint Leak",
+        "url": "https://huggingface.co/burner22/numbat"
+      },
+      {
+        "clusterId": "hackernews:50318401",
+        "title": "The Impact of Generative AI on Critical Thinking: Self-Reported (2025)",
+        "url": "https://dl.acm.org/doi/full/10.1145/3706598.3713778"
+      },
+      {
+        "clusterId": "hackernews:50315574",
+        "title": "Why Anthropic's filing crushed tech stocks",
+        "url": "https://thebignewsletter.com/p/why-anthropics-filing-crushed-tech"
+      },
+      {
+        "clusterId": "hackernews:50320599",
+        "title": "AI text watermarking and quality loss",
+        "url": "https://blog.keyvan.net/p/ai-text-watermarking-and-quality"
+      },
+      {
+        "clusterId": "hackernews:50315990",
+        "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+        "url": "https://indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26"
+      }
+    ]
+  }
+}
