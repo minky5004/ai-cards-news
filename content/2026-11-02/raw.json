@@ -1,0 +1,1064 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T21:30:45.397Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 34,
+      "filtered": 20
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50341174",
+      "representativeId": "hackernews:50341174",
+      "items": [
+        {
+          "id": "hackernews:50341174",
+          "title": "Astra can read and write weights to improve Qwen",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T18:21:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1140,
+            "comments": 355,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50341174"
+          }
+        }
+      ],
+      "score": 5.528404051926169,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.3284040519261688,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50339494",
+      "representativeId": "hackernews:50339494",
+      "items": [
+        {
+          "id": "hackernews:50339494",
+          "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+          "url": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T16:40:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 238,
+            "comments": 187,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50339494"
+          }
+        }
+      ],
+      "score": 5.1943133330916105,
+      "breakdown": {
+        "hnPoints": 1.7618821147364667,
+        "hnComments": 0.9873922117644943,
+        "mentions": 0.0,
+        "recency": 1.2450390065906494,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50337439",
+      "representativeId": "hackernews:50337439",
+      "items": [
+        {
+          "id": "hackernews:50337439",
+          "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+          "url": "https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T14:38:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 220,
+            "comments": 242,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50337439"
+          }
+        }
+      ],
+      "score": 5.0881597056374535,
+      "breakdown": {
+        "hnPoints": 1.736691247198601,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.1514684584388521,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50337454",
+      "representativeId": "hackernews:50337454",
+      "items": [
+        {
+          "id": "hackernews:50337454",
+          "title": "Jobless tech workers are being left out of San Francisco's AI boom",
+          "url": "https://bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T14:40:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 142,
+            "comments": 194,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50337454"
+          }
+        }
+      ],
+      "score": 4.943380981001018,
+      "breakdown": {
+        "hnPoints": 1.5966411735155095,
+        "hnComments": 0.9942855728605617,
+        "mentions": 0.0,
+        "recency": 1.1524542346249464,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/qodo-codex-plugin",
+      "representativeId": "openai:https://openai.com/index/qodo-codex-plugin",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/qodo-codex-plugin",
+          "title": "Qodo builds context into AI code review with Codex",
+          "url": "https://openai.com/index/qodo-codex-plugin",
+          "source": "openai",
+          "publishedAt": "2026-11-02T00:00:00.000Z",
+          "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50331998",
+          "title": "AI Can Write More of the Code. We Still Have to Engineer the System",
+          "url": "https://picon.dev/en/publications/ai-assisted-engineering",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T01:35:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50331998"
+          }
+        }
+      ],
+      "score": 4.896639477889282,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.6283260283811849,
+        "mentions": 0.8333333333333333,
+        "recency": 0.696314664606853,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50342284",
+      "representativeId": "hackernews:50342284",
+      "items": [
+        {
+          "id": "hackernews:50342284",
+          "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+          "url": "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T19:27:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 83,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50342284"
+          }
+        }
+      ],
+      "score": 4.72504694476707,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 1.3860161120496333,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50336138",
+      "representativeId": "hackernews:50336138",
+      "items": [
+        {
+          "id": "hackernews:50336138",
+          "title": "Last night an AI agent performed brain surgery on a mouse",
+          "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T12:50:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 110,
+            "comments": 95,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50336138"
+          }
+        }
+      ],
+      "score": 4.65032517446502,
+      "breakdown": {
+        "hnPoints": 1.5151451209014097,
+        "hnComments": 0.860661091639612,
+        "mentions": 0.0,
+        "recency": 1.0745189619239977,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50342424",
+      "representativeId": "hackernews:50342424",
+      "items": [
+        {
+          "id": "hackernews:50342424",
+          "title": "Anthropic reveals $900B AI spending commitments ahead of IPO",
+          "url": "https://ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T19:36:37.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 35,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50342424"
+          }
+        }
+      ],
+      "score": 4.592305548451193,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.675714295252094,
+        "mentions": 0.0,
+        "recency": 1.3940452217058321,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50341736",
+      "representativeId": "hackernews:50341736",
+      "items": [
+        {
+          "id": "hackernews:50341736",
+          "title": "Egoless Mathematics in the AI Era",
+          "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T18:54:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 46,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50341736"
+          }
+        }
+      ],
+      "score": 4.583787734291363,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.7259902397577118,
+        "mentions": 0.0,
+        "recency": 1.3570712776581784,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50330456",
+      "representativeId": "hackernews:50330456",
+      "items": [
+        {
+          "id": "hackernews:50330456",
+          "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+          "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T22:10:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 241,
+            "comments": 247,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50330456"
+          }
+        }
+      ],
+      "score": 4.576647923750818,
+      "breakdown": {
+        "hnPoints": 1.7658952929955811,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6107526307552373,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50334038",
+      "representativeId": "hackernews:50334038",
+      "items": [
+        {
+          "id": "hackernews:50334038",
+          "title": "China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+          "url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T07:27:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 146,
+            "comments": 82,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50334038"
+          }
+        }
+      ],
+      "score": 4.511792065906928,
+      "breakdown": {
+        "hnPoints": 1.6055167419752885,
+        "hnComments": 0.8332239394875417,
+        "mentions": 0.0,
+        "recency": 0.873051384444097,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50339224",
+      "representativeId": "hackernews:50339224",
+      "items": [
+        {
+          "id": "hackernews:50339224",
+          "title": "Claude Opus 5.5 Can Draw Permit-Level Architectural Drawings",
+          "url": "https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T16:25:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 65,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50339224"
+          }
+        }
+      ],
+      "score": 4.402523051351847,
+      "breakdown": {
+        "hnPoints": 1.3478913329558666,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 1.2331632335280123,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50337503",
+      "representativeId": "hackernews:50337503",
+      "items": [
+        {
+          "id": "hackernews:50337503",
+          "title": "GPT-Rosalind-6 System Card Addendum",
+          "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T14:44:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50337503"
+          }
+        }
+      ],
+      "score": 4.3971607316743295,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 1.1553795527376316,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50337716",
+      "representativeId": "hackernews:50337716",
+      "items": [
+        {
+          "id": "hackernews:50337716",
+          "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+          "url": "https://longcat.ai/blog/longcat-2.5",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T15:00:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50337716"
+          }
+        }
+      ],
+      "score": 4.284664520945813,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 1.1676048051268926,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50332086",
+      "representativeId": "hackernews:50332086",
+      "items": [
+        {
+          "id": "hackernews:50332086",
+          "title": "AI fan wikis riddled with errors are muddying the waters of games culture",
+          "url": "https://eurogamer.net/ai-fan-wikis-errors-complicating-games-culture",
+          "source": "hackernews",
+          "publishedAt": "2026-11-02T01:47:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 107,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50332086"
+          }
+        }
+      ],
+      "score": 4.2693778537280895,
+      "breakdown": {
+        "hnPoints": 1.484771736152262,
+        "hnComments": 0.88287045687475,
+        "mentions": 0.0,
+        "recency": 0.7017356607010771,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50328488",
+      "representativeId": "hackernews:50328488",
+      "items": [
+        {
+          "id": "hackernews:50328488",
+          "title": "It wasn't AI that flipped Proton's charge",
+          "url": "https://blog.raed.dev/posts/proton-loser-thinking",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T18:53:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 99,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50328488"
+          }
+        }
+      ],
+      "score": 4.251253799066854,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.8683585548682906,
+        "mentions": 0.0,
+        "recency": 0.538271890158343,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50325662",
+      "representativeId": "hackernews:50325662",
+      "items": [
+        {
+          "id": "hackernews:50325662",
+          "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T13:47:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 175,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50325662"
+          }
+        }
+      ],
+      "score": 4.1561640281130305,
+      "breakdown": {
+        "hnPoints": 1.6634426923513288,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.0,
+        "recency": 0.4421461595801477,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50330253",
+      "representativeId": "hackernews:50330253",
+      "items": [
+        {
+          "id": "hackernews:50330253",
+          "title": "So I guess everyone uses LLMs to think now",
+          "url": "https://eva.ac/blog/llms",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T21:49:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 130,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50330253"
+          }
+        }
+      ],
+      "score": 4.123223123428452,
+      "breakdown": {
+        "hnPoints": 1.4016357980053775,
+        "hnComments": 0.9192753212798762,
+        "mentions": 0.0,
+        "recency": 0.6023120041431979,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50327416",
+      "representativeId": "hackernews:50327416",
+      "items": [
+        {
+          "id": "hackernews:50327416",
+          "title": "I Am the Reason OpenAI Is Killing Unlimited Chats",
+          "url": "https://chaosmanage.github.io/i-killed-unlimited-chatgpt",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T17:01:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 90,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50327416"
+          }
+        }
+      ],
+      "score": 3.893445831322295,
+      "breakdown": {
+        "hnPoints": 1.4512289931735118,
+        "hnComments": 0.7413915852262982,
+        "mentions": 0.0,
+        "recency": 0.5008252529224846,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50324267",
+      "representativeId": "hackernews:50324267",
+      "items": [
+        {
+          "id": "hackernews:50324267",
+          "title": "Sam Altman says DRAM capacity should go to data centers, not personal computers",
+          "url": "https://tomshardware.com/tech-industry/data-centers/openai-ceo-says-its-quite-terrible-for-your-pc-to-have-ram-sam-altman-says-data-centers-offer-better-utilization",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T10:28:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50324267"
+          }
+        }
+      ],
+      "score": 3.756014739236643,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 0.3891248820788382,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50328293",
+      "representativeId": "hackernews:50328293",
+      "items": [
+        {
+          "id": "hackernews:50328293",
+          "title": "Muse AI agent is a commercial surveillance network disguised as an AI assistant",
+          "url": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T18:33:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50328293"
+          }
+        }
+      ],
+      "score": 3.409850702155903,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.5311055724810235,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50327240",
+      "representativeId": "hackernews:50327240",
+      "items": [
+        {
+          "id": "hackernews:50327240",
+          "title": "Alleged Mythos Class Anthropic Checkpoint Leak",
+          "url": "https://huggingface.co/burner22/numbat",
+          "source": "hackernews",
+          "publishedAt": "2026-11-01T16:43:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50327240"
+          }
+        }
+      ],
+      "score": 3.34559437550318,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 0.49508337567965127,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+          "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+          "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-02T18:05:31.000Z",
+          "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+          "title": "Anthropic clamps down on Claude’s AI video game clones",
+          "url": "https://theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-02T18:56:02.000Z",
+          "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make games, it doesn't want people to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.241537347516948,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3582040141836151,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/grid-protectors-program",
+      "representativeId": "openai:https://openai.com/index/grid-protectors-program",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/grid-protectors-program",
+          "title": "Introducing the Grid Protectors Program",
+          "url": "https://openai.com/index/grid-protectors-program",
+          "source": "openai",
+          "publishedAt": "2026-11-02T15:00:00.000Z",
+          "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.667280122324091,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1672801223240914,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/lifeval",
+      "representativeId": "openai:https://openai.com/index/lifeval",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/lifeval",
+          "title": "LifeVal",
+          "url": "https://openai.com/index/lifeval",
+          "source": "openai",
+          "publishedAt": "2026-11-02T09:00:00.000Z",
+          "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4264708470594156,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9264708470594156,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat",
+          "title": "Coming in 2027: Apple’s $1,000 home robot for FaceTime and switching on lights",
+          "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-02T18:32:21.000Z",
+          "summary": "Apple robot backed by CEO John Ternus may have hefty price tag and limited uses.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.387715376697351,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3377153766973513,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+          "title": "Raising the quality of insights in agentic analytics",
+          "url": "https://technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-02T17:00:00.000Z",
+          "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.310732264131537,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2607322641315373,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+          "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+          "url": "https://theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-02T18:01:30.000Z",
+          "summary": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioners in around 700,000 homes. The announcement comes as opposition to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2114896063430036,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3114896063430035,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+          "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+          "url": "https://theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-02T17:51:19.000Z",
+          "summary": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the New York Daily News, the Chicago Tribune, and […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2029460618846874,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3029460618846873,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+          "title": "The U.S. Census Bureau and “Super Intelligence”",
+          "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-02T13:31:26.000Z",
+          "summary": "I was reminded today of AI Adoption Rate Trending Down for Large Companies , a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by the U.S. Census Bureau. At the time I used that chart to demonstrate GPT-5 data analysis , and then to experiment with Claude's new Code Interpreter . I decided to try running those numbers again to see what had changed over the past year, and in doing so learned that the Bureau has fallen foul of Executive Order 14434 , aka the asinine Super Intelligence one. First, the updated chart Every two weeks the U.S. Census Bureau runs a survey called the Business Trends and Outlook Survey (aka BTOS). Each time it goes to 200,000 businesses out of 1.2 million total - the surveyed group (a \"panel\") cycles such that an individual business only completes the survey every twelve weeks. The latest data is published on alternating Thursdays at 10am. I used the most recent numbers (published October 22, 2026) to create a new version ( GPT-6 Astra Extra High transcript ) of the AI adoption chart, updated to reflect both the last twelve months and a change that was made to the survey question sent out by the Bureau: For comparison, here's that AI adoption chart from last year (my GPT-5 version): In September 2025 the largest (250+ employees) companies answered \"yes\" around 12% of the time to the question about whether they used AI in \"producing goods or services\". Under the new \"any business function\" wording, by February 2026, those same large companies answered \"yes\" around 30% of the time, and by October 2026 that had increased to around 40%. The data in the above chart comes from the \"Employment size class\" XLSX file, available from here . Here's a copy of the file I used. You can view the survey document that is sent out to businesses - here's my snapshot copy of that 346KB PDF. The changing language of the questions As the chart demonstrates, the question asked by the Bureau changed in a material way on November 17th, 2025. Prior to that date, the question they asked was this (emphasis mine): In the last two weeks, did this business use Artificial Intelligence (AI) in producing goods or services ? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.) On December 3rd, 2025, the Bureau announced a significant change to that question. Here's the replacement: In the last two weeks, did this business use Artificial Intelligence (AI) in any of its business functions ? (Examples of AI: machine learning, natural language processing, virtual agents, voice recognition, etc.) No more \"producing goods or services\" - now it's \"in any of its business functions\"! This means that the answers to the question before and after November 17th are not directly comparable. From October 19, 2026, they ask about Super Intelligence When I went looking for the updated question language in the latest XLSX file, I couldn't find it. I found this instead: In the last two weeks, did this business use Super Intelligence or SI (formerly referred to as Artificial Intelligence or AI) in any of its business functions? (Examples of SI use include: SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service; SI-powered forecasting or pricing; SI-driven computer vision for quality control, etc.) The BTOS about page explains what happened: Beginning with the October 19, 2026 collection, instrument wording was updated due to Executive Order 14434 . The current numbers reflect the old Artificial Intelligence survey wording - the first survey results reflecting the Super Intelligence wording are due for publication on Thursday. Is this going to affect the survey? The obvious open question here is whether this wording change is going to affect the survey results. The businesses answering this survey will have last seen that question twelve weeks ago, when it was still called AI. Hopefully the new language isn't going to confuse them, especially since the survey helpfully spells out \"formerly referred to as Artificial Intelligence or AI\". I can't help but laugh at the absurdity of \"SI-powered data analysis; generative SI for marketing, product design, or coding; virtual SI agents for customer service\" though. Tags: census , surveys , ai , generative-ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.1527797231219545,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1027797231219547,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+          "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-02T16:23:21.000Z",
+          "summary": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.13142327704842,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2314232770484201,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition",
+          "title": "Omen AI adds liquid know-how in $16 million Aquatic Labs acquisition",
+          "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-02T15:00:00.000Z",
+          "summary": "Two startups tackling the data center water problem are joining forces in a $16 million deal.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0672801223240915,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1672801223240914,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+          "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-02T13:57:53.000Z",
+          "summary": "OpenAI said that ChatGPT and Codex will draw usage from the same allocation pool after this change.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.021659966681419,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.121659966681419,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+          "title": "The agentic web is here",
+          "url": "https://technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-02T09:35:19.000Z",
+          "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he called the “Semantic Web”: an internet designed to be navigated by autonomous software agents that could address our every…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9977103525039277,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9477103525039279,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+          "title": "If in doubt, delete the uv.lock file",
+          "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-01T23:24:22.000Z",
+          "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which don't include a uv.lock file, since it's rude for a library dependency to lock versions for anything else that uses it. Running uv run pytest etc tends to leave uv.lock files lying around, which are listed in .gitignore and so do not get committed to my repositories. But... sometimes that uv.lock pins a version of a dependency that doesn't yet have a Python 3.15 wheel. An example from earlier today: error: Failed to build `watchfiles==1.1.1` cause: Call to `maturin.build_wheel` failed error: the configured Python interpreter version (3.15) is newer than PyO3's maximum supported version (3.14) Deleting that file and running uv run pytest again usually fixes the problem. Tags: uv , til , python",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6903016612517552,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6403016612517554,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+          "title": "Quoting Kyle Kingsbury",
+          "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-01T16:49:04.000Z",
+          "summary": "More broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counterfeit. [...] In the age of LLMs, what can maintainers do to ensure correct software and accurate documentation? Having done that work, how can they demonstrate its quality to users? — Kyle Kingsbury , Jepsen results for ParticleDB 1.1.4 Tags: kyle-kingsbury , llms , ai , generative-ai , ai-misuse",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5468234377128451,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4968234377128453,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+          "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+          "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-01T21:55:23.000Z",
+          "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.504758766601185,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6047587666011851,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+          "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+          "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-01T20:57:58.000Z",
+          "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4828789080384497,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5828789080384497,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50341174",
+    "hackernews:50339494",
+    "hackernews:50337439",
+    "hackernews:50337454",
+    "openai:https://openai.com/index/qodo-codex-plugin"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T21:34:46.535Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50341174",
+      "headline": "가중치 0.016% 고쳐 수학 점수 6배",
+      "highlight": [
+        "가중치 0.016%",
+        "6배"
+      ],
+      "body": "GPT-6 아스트라는 재학습 없이 Qwen3.5 모델 가중치의 0.016%를 직접 수정했습니다. 그 결과 MATH-500 수학 정답률이 7.9%에서 48.1%로 급등했습니다. 최적화 알고리즘 없이 LLM이 직접 신경망 가중치를 최적화하는 시대가 시작됐습니다.",
+      "sourceUrl": "https://rikiyat.github.io/blog/weight-space-programming",
+      "sourceName": "hackernews",
+      "imageUrl": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+      "publishedAt": "2026-11-02T18:21:28.000Z"
+    },
+    {
+      "clusterId": "hackernews:50339494",
+      "headline": "앤트로픽 AI 가치가 직원 월급을 넘어섰다",
+      "highlight": [
+        "직원 월급"
+      ],
+      "body": "앤트로픽의 내부 AI 사용 가치가 직원들에게 지급하는 월급 총액을 넘어섰습니다. 지난 9월 앤트로픽 소프트웨어 코드의 90% 이상을 AI인 클로드가 작성했습니다. 직원 수 증가보다 매출이 훨씬 빠르게 성장하며 기술 기업의 핵심 자원이 사람에서 AI로 이동하고 있습니다.",
+      "sourceUrl": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "sourceName": "Business Insider",
+      "imageUrl": "https://i.insider.com/6ae5023ed8cc18cf7950fbe3?width=1200&format=jpeg",
+      "publishedAt": "2026-11-02T16:40:29.000Z"
+    },
+    {
+      "clusterId": "hackernews:50337439",
+      "headline": "앤트로픽 인프라에 8954억 달러 걸었다",
+      "highlight": [
+        "8954억 달러"
+      ],
+      "body": "앤트로픽이 상장을 앞두고 제출한 서류에서 컴퓨팅 인프라 계약에만 약 8954억 달러를 약정했다고 밝혔습니다. 3분기 매출도 전년 대비 1127% 급증한 170억 달러를 달성했습니다. 막대한 인프라 지출 속에서도 폭발적인 성장을 증명하며 역사적 IPO 준비를 가속하고 있습니다.",
+      "sourceUrl": "https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+      "sourceName": "CNBC",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108369526-1790698647709-gettyimages-2297195052-AFP_C9PK8G7.jpeg?v=1790698665&w=1920&h=1080",
+      "publishedAt": "2026-11-02T14:38:45.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/qodo-codex-plugin",
+      "headline": "AI 코딩, 책임은 여전히 개발자 몫!",
+      "highlight": [
+        "책임은 여전히"
+      ],
+      "body": "AI가 코드 작성을 돕지만, 시스템 설계와 테스트 등 핵심 의사결정은 여전히 엔지니어의 몫입니다. AI 결과물은 확률적이므로 Anthropic 등은 2025년부터 검증의 중요성을 강조했죠. 개발자는 이제 무엇을 만들고 수용할지 결정하며, 그 증거를 모으는 데 집중합니다.",
+      "sourceUrl": "https://picon.dev/en/publications/ai-assisted-engineering",
+      "sourceName": "hackernews",
+      "imageUrl": "https://picon.dev/images/publications/ai-assisted-engineering-social.jpg",
+      "publishedAt": "2026-11-02T00:00:00.000Z"
+    }
+  ]
+}
