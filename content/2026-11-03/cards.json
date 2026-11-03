@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T19:19:38.910Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50353192",
+      "headline": "구글, 학교 AI 막으면 검색도 막는다",
+      "highlight": [
+        "검색도 막는다"
+      ],
+      "body": "구글은 학교에 AI 도구 허용 여부를 선택하게 하지만, AI를 차단하면 검색 기능도 함께 포기해야 합니다. 이는 Gemini 등 AI 도구와 Google 검색을 분리할 수 없기 때문입니다. 즉, 모든 AI 기능을 허용하거나 아예 사용하지 않아야 합니다. 구글은 검색을 AI의 미래로 보며, 학교는 중대한 선택을 앞두게 됩니다.",
+      "sourceUrl": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too",
+      "sourceName": "Ars Technica",
+      "imageUrl": "https://cdn.arstechnica.net/wp-content/uploads/2025/05/google-logo-big-g-grooves-1152x648.jpg",
+      "publishedAt": "2026-11-03T15:25:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:50354960",
+      "headline": "포스트맨, AI 코딩 에이전트 무단 점거",
+      "highlight": [
+        "무단 점거"
+      ],
+      "body": "포스트맨이 사용자 동의 없이 AI 코딩 에이전트 코덱스와 클로드 플러그인을 자동 설치한 사실이 드러났습니다. 앱 실행만으로 다른 도구 설정이 바뀌고 자체 시작 후크까지 승인하려 시도했습니다. 이는 개발 환경 보안과 사용자 신뢰에 심각한 문제입니다.",
+      "sourceUrl": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/9356b10d99c291ddffd88cca135772ebae2792b6916e46c3f3f6685d0c91c1f9/postmanlabs/postman-app-support/issues/14370",
+      "publishedAt": "2026-11-03T17:22:37.000Z"
+    },
+    {
+      "clusterId": "hackernews:50352257",
+      "headline": "AI 답변에 별 1개 주자 진짜 사람이 사과했다",
+      "highlight": [
+        "별 1개",
+        "진짜 사람이"
+      ],
+      "body": "영국 온라인 마트 오카도에 기술 버그를 제보했더니 뻔한 AI 자동 답장이 돌아왔습니다. 분노한 작성자가 만족도 조사에서 1점을 주며 따지자 며칠 뒤 실제 담당자가 직접 사과 메일을 보냈습니다. AI 대신 사람이 고객과 직접 소통해야 한다는 항의가 통한 것입니다.",
+      "sourceUrl": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat",
+      "sourceName": "Terence Eden’s Blog",
+      "imageUrl": "https://shkspr.mobi/blog/wp-content/uploads/2017/11/Confused-Robot.jpg",
+      "publishedAt": "2026-11-03T14:14:12.000Z"
+    },
+    {
+      "clusterId": "hackernews:50353300",
+      "headline": "AI 도입 후 학생 과제량 3배 폭증",
+      "highlight": [
+        "3배 폭증"
+      ],
+      "body": "한 컴퓨터공학과 학생은 AI 도입 후 과제량이 3배 폭증해 학위 과정이 엉망이 됐다고 밝힙니다. 대학은 3개월마다 AI 사용 정책을 뒤집고, LLM으로 만든 과제는 오류투성이인 채 전달됩니다. 학생들은 학습보다 과제 처리 부담에 시달려 학위 경험의 질적 저하를 겪고 있다고 토로합니다.",
+      "sourceUrl": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree",
+      "sourceName": "who even knows",
+      "imageUrl": "https://bearblog.dev/static/og-image.png",
+      "publishedAt": "2026-11-03T15:35:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:50344919",
+      "headline": "앤트로픽 IPO, 최대 1조 달러 빚에 경고등",
+      "highlight": [
+        "최대 1조 달러"
+      ],
+      "body": "앤트로픽 IPO 등록 서류에 최대 1조 달러에 달하는 숨겨진 채무 약정이 드러났습니다. 대부분 2030년대까지 이어지고, 2026년 실적은 미감사입니다. SEC는 일반 투자자 보호를 위해 IPO를 막아야 합니다.",
+      "sourceUrl": "https://techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public",
+      "sourceName": "Tech Policy Press",
+      "imageUrl": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
+      "publishedAt": "2026-11-02T22:30:47.000Z"
+    }
+  ]
+}

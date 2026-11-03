@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026-11-03T19:22:12.577Z",
+  "idea": {
+    "productName": "ClassGuard",
+    "tagline": "학교 AI 사용, 교사와 학생이 원하는 대로 제어합니다",
+    "oneLineSummary": "교육기관이 AI 도구 사용 정책을 유연하게 설정하고 관리하도록 돕는 플랫폼입니다.",
+    "problem": "구글은 학교에 AI 도구 전체 수용 또는 거부 중 하나를 강요해 어려운 결정을 내리게 합니다. 대학 역시 AI 사용 정책을 일관성 없이 바꿔 학생과 교수 모두 혼란에 빠져 있습니다.",
+    "productDescription": "ClassGuard는 교육기관이 수업별, 사용자별로 AI 도구 접근 권한을 세밀하게 제어할 수 있는 관리 플랫폼입니다. 구글의 '전체 AI 또는 전면 금지' 같은 강제적 정책 대신 학교 자체의 교육적 가치에 맞는 AI 활용 기준을 세울 수 있도록 돕습니다. 특정 과목에서는 AI 사용을 장려하고, 다른 과목에서는 엄격히 제한하는 등 유연한 정책 적용이 가능합니다. AI 도구 사용의 혼란을 줄이고, 교육 환경의 질을 높입니다.",
+    "keyFeatures": [
+      "AI 도구별 접근 제어",
+      "수업별 정책 맞춤 적용",
+      "학생 AI 사용 기록 제공",
+      "정책 위반 시 자동 알림",
+      "구글 검색 AI 필터링"
+    ],
+    "persona": "초중고 또는 대학교의 IT 관리자 및 학과장. 교육 환경에서 AI의 잠재력을 인정하지만, 무분별한 사용으로 인한 부작용과 정책 혼란에 대한 우려가 큰 사람입니다. 특히 구글의 일방적인 AI 정책에 대안을 찾고 있습니다.",
+    "businessModel": "SaaS 구독 모델. 학교 규모(학생 수, 교직원 수)에 따라 월별/연간 구독료를 책정합니다. 기본 기능 포함 연 500만 원부터, 엔터프라이즈 기능 및 맞춤형 컨설팅 포함 시 연 3천만 원까지.",
+    "marketStats": "기사에 규모 근거 없음",
+    "goToMarket": "교육 기술(EdTech) 컨퍼런스에서 시연 및 발표를 통해 초기 고객을 확보합니다. 구글 AI 정책에 불만을 가진 학교 IT 관리자 커뮤니티(예: EDUCAUSE, K12 Tech Directors)에 직접 접근하여 솔루션을 제안합니다. 초기 사용자 학교에 한해 할인된 가격으로 제공합니다.",
+    "unfairAdvantage": "구글의 '전체 AI 또는 전면 금지' 정책이 교육 현장에 큰 불만으로 작용하는 시점에, 이 문제를 해결하는 맞춤형 제어 솔루션을 제공한다는 점이 유리합니다. AI 교육 정책의 혼란을 겪는 대학 사례도 명확한 시장 니즈를 보여줍니다.",
+    "competitors": [
+      "구글 교육용 제품군 — 세밀한 AI 제어 불가능",
+      "별도 AI 감지/필터링 솔루션 — 정책 관리 기능 부족",
+      "대학교 자체 개발 시스템 — 구축 비용 및 유지보수 부담",
+      "인터넷 콘텐츠 필터링 솔루션 — AI 도구 특화 기능 없음"
+    ],
+    "risks": [
+      "구글이 자체적으로 AI 정책을 유연하게 개선할 경우",
+      "AI 기술 변화 속도가 빨라 솔루션 업데이트 부담",
+      "학교 예산 제약으로 인한 도입 저항",
+      "교사들의 AI 정책 이해 및 적용에 대한 저항"
+    ],
+    "actionPlan": [
+      "초중고 및 대학 IT 관리자 20명 인터뷰 (AI 정책 및 구글 검색 불편 사항 확인)",
+      "핵심 기능(AI 도구 접근 제어, 구글 검색 AI 필터링) MVP 개발 시작",
+      "교육 기술 컨퍼런스 참가 계획 수립",
+      "잠재 고객 대상 문제점 설문조사 실시",
+      "AI 교육 정책 관련 국내외 규제 동향 분석"
+    ],
+    "recommendation": "구글의 교육 시장 영향력과 AI 정책의 강제성을 고려할 때, 학교의 자율적인 AI 활용 정책 설정을 돕는 솔루션은 분명한 니즈가 있습니다. 그러나 구글의 정책 변화 가능성과 빠른 AI 기술 발전에 대한 대응 전략 마련이 중요합니다. 초기 고객 확보를 위한 적극적인 마케팅과 기능 확장이 필요합니다.",
+    "searchQuery": "educational AI policy management",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 1점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: My (Attempt) at a Public Health Infrastructure",
+          "url": "https://codify.technology",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50353192",
+        "title": "Google will turn off search for schools that reject AI",
+        "url": "https://nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html"
+      },
+      {
+        "clusterId": "hackernews:50354960",
+        "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
+      },
+      {
+        "clusterId": "hackernews:50352257",
+        "title": "Just a little AI resistance, as a treat",
+        "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat"
+      },
+      {
+        "clusterId": "hackernews:50353300",
+        "title": "AI is destroying my CS degree",
+        "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree"
+      },
+      {
+        "clusterId": "hackernews:50344919",
+        "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+        "url": "https://techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/scaling-git-at-openai",
+        "title": "Scaling Git at OpenAI",
+        "url": "https://openai.com/index/scaling-git-at-openai"
+      },
+      {
+        "clusterId": "hackernews:50341174",
+        "title": "Astra can read and write weights to improve Qwen",
+        "url": "https://rikiyat.github.io/blog/weight-space-programming"
+      },
+      {
+        "clusterId": "hackernews:50355504",
+        "title": "Google researchers demand freedom to tell the world what they know about AI",
+        "url": "https://washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company"
+      },
+      {
+        "clusterId": "hackernews:50353475",
+        "title": "Quili AI",
+        "url": "https://quili.ai"
+      },
+      {
+        "clusterId": "hackernews:50344958",
+        "title": "Anthropic's growth just flattened",
+        "url": "https://regenerator1.com/p/anthropics-growth-just-flattened"
+      },
+      {
+        "clusterId": "hackernews:50339494",
+        "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+        "url": "https://businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11"
+      },
+      {
+        "clusterId": "hackernews:50350560",
+        "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+        "url": "https://techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html"
+      },
+      {
+        "clusterId": "hackernews:50342284",
+        "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+        "url": "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+      },
+      {
+        "clusterId": "hackernews:50337439",
+        "title": "Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+        "url": "https://cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+      },
+      {
+        "clusterId": "hackernews:50352727",
+        "title": "The AI Bubble Monitor",
+        "url": "https://cepr.net/publications/ai-bubble-monitor"
+      }
+    ]
+  }
+}
