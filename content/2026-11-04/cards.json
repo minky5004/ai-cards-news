@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T19:35:06.544Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50353192",
+      "headline": "AI 대부 힌턴: 금융 마비나 정전 일으킬 것",
+      "highlight": [
+        "금융 마비나 정전"
+      ],
+      "body": "AI 대부 제프리 힌턴은 올해 또는 내년 금융 마비나 정전 같은 대규모 AI 사고를 경고했습니다. 인류가 AI 없이 살았으면 더 좋았을 것이라며, 샘 알트만 등 AI 기업 리더들을 비판했습니다. FDA처럼 독립적인 AI 모델 검증과 국제 표준 마련이 시급하다고 강조했습니다.",
+      "sourceUrl": "https://theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/2874e862dc2a0fc34d651f70e5ecffd542d947a6/543_22_2658_2128/master/2658.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae0638cdbc3daea6b3a154d41c73dad9",
+      "publishedAt": "2026-11-03T15:25:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:50362274",
+      "headline": "데이터센터 27% 텍사스 민주당 승리에 비상",
+      "highlight": [
+        "27%",
+        "비상"
+      ],
+      "body": "미국 데이터센터 계획 전력의 27%가 쏠린 텍사스 주지사에 건설 유예를 주창한 민주당 후보가 당선됐습니다. 이에 테슬라와 스페이스X 주가가 4~5% 하락하는 등 AI 기술주에 비상이 걸렸습니다. 시장은 향후 2년간 AI 관련 규제 문턱이 크게 높아질 것으로 전망했습니다.",
+      "sourceUrl": "https://cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+      "sourceName": "CNBC",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108368833-1790609674454-gettyimages-2296960625-US-NEWS-TEXASGOV-HINOJOSA-FT.jpeg?v=1790609735&w=1920&h=1080",
+      "publishedAt": "2026-11-04T07:00:20.000Z"
+    },
+    {
+      "clusterId": "hackernews:50352898",
+      "headline": "클로드 코드 제치고 25개 중 24개 성공",
+      "highlight": [
+        "24개 성공"
+      ],
+      "body": "오픈소스 AI 에이전트 옥토마인드가 25개 코딩 과제 중 24개를 해결하며 클로드 코드를 제쳤습니다. 동일한 AI 모델을 쓴 기존 에이전트보다 비용은 절반으로 줄이면서 해결률을 극대화했습니다. 감독 모델과 가드레일 덕분에 사람 개입 없이도 안전하게 작동합니다.",
+      "sourceUrl": "https://github.com/Muvon/octomind",
+      "sourceName": "GitHub",
+      "imageUrl": "https://repository-images.githubusercontent.com/994166447/5deca376-0441-481a-83f3-48dcaeb7487c",
+      "publishedAt": "2026-11-03T15:02:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:50364336",
+      "headline": "AI가 2주 만에 PHP 취약점 찾아냈다",
+      "highlight": [
+        "AI가",
+        "2주 만에"
+      ],
+      "body": "오픈AI 후원팀이 AI로 PHP2Shell 취약점을 2주 만에 발견했습니다. NASA, 위키백과 등 주요 웹사이트를 위협할 수 있는 치명적 버그였죠. AI가 약점 탐색 속도를 높여 새로운 사이버 보안 시대가 왔음을 알립니다.",
+      "sourceUrl": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "sourceName": "IEEE Spectrum",
+      "imageUrl": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
+      "publishedAt": "2026-11-04T11:52:17.000Z"
+    },
+    {
+      "clusterId": "hackernews:50362905",
+      "headline": "전원 꽂자 AI 노트북 속도 5배 느려졌다",
+      "highlight": [
+        "5배 느려졌다"
+      ],
+      "body": "엔비디아 RTX 스파크 노트북에 리눅스를 깔고 전원을 연결하면 GPU 속도가 5분의 1 수준으로 급감합니다. 암호화된 전력 관리 기능이 윈도우에서만 작동하기 때문입니다. 리눅스 드라이버 업데이트 전까지는 WSL을 쓰는 것이 현실적인 대안입니다.",
+      "sourceUrl": "https://mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "sourceName": "MindStudio",
+      "imageUrl": "https://i.mscdn.ai/o/iZl0kkZU2R9KXyy7/a/3V2ICO3oSq2QZPii/_published/generated-images/0d8c9668-cbfe-4ecf-bb31-1a7fff7102be.png?fm=auto&w=1200&h=630&fit=crop",
+      "publishedAt": "2026-11-04T08:46:29.000Z"
+    }
+  ]
+}
