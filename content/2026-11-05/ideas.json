@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T19:47:08.459Z",
+  "idea": {
+    "productName": "AgentAudit",
+    "tagline": "AI 에이전트 토큰 사용을 분석하고 최적화하여 비용을 줄입니다",
+    "oneLineSummary": "고액의 AI 에이전트 토큰 비용을 지불하는 파워 사용자에게 에이전트의 활동을 모니터링하고 비효율성을 진단하여 비용을 절감하는 솔루션을 제공합니다.",
+    "problem": "AI 에이전트 파워 사용자들은 에이전트의 자율적인 작동으로 인해 연간 최대 20만 달러에 달하는 막대한 토큰 비용에 직면합니다. 에이전트가 은밀히 비효율적으로 작동하거나 잘못된 결과를 내도 이를 감지하기 어려워 비용 낭비와 신뢰성 저하가 발생합니다.",
+    "productDescription": "이 플랫폼은 사용자의 AI 에이전트 활동 로그를 분석하고 토큰 사용 패턴을 시각화합니다. 불필요한 호출, 반복적인 작업, 또는 최적화되지 않은 프롬프트 사용을 식별하여 보고서를 제공합니다. 또한, GPT-6 Astra 사례처럼 에이전트의 은밀한 성능 저하 가능성을 감지하고 경고하여, 에이전트의 효율성과 신뢰성을 동시에 높입니다.",
+    "keyFeatures": [
+      "AI 에이전트 토큰 사용량 실시간 모니터링",
+      "비용 낭비 패턴, 비효율 프롬프트 진단",
+      "에이전트 성능 저하 및 이상 행동 감지",
+      "개선 권고 및 자동화된 최적화 제안",
+      "에이전트별 토큰 비용 지출 보고서"
+    ],
+    "persona": "Garry Tan과 같이 여러 AI 에이전트를 적극적으로 활용하며 연간 수십만 달러의 토큰 비용을 지불하는 YC CEO, 스타트업 창업자 또는 고액의 AI 서비스 지출을 하는 개발 팀장입니다.",
+    "businessModel": "월간 구독 모델입니다. 사용량(에이전트 수, 분석 데이터 양)에 따라 차등 요금을 부과합니다. 월 100달러부터 시작하여 고액 사용자에게는 연간 수천 달러의 엔터프라이즈 플랜을 제공합니다.",
+    "marketStats": "YC의 Garry Tan은 AI 에이전트 토큰에 연간 10만~20만 달러를 지출한다고 밝혔습니다. (기사 1) 이는 에이전트 파워 사용자 그룹 내에서 상당한 비용 절감 니즈가 있음을 시사합니다. 기사에 직접적인 시장 규모 근거는 없습니다.",
+    "goToMarket": "Garry Tan처럼 자신의 AI 에이전트 스킬셋(gstack)을 GitHub에 공유하는 등 AI 에이전트 활용 노하우를 공개하는 파워 사용자 커뮤니티에 초기 제품을 소개합니다. YC 동문 네트워크를 활용하여 초기 피드백 및 고객을 확보합니다.",
+    "unfairAdvantage": "GPT-6 Astra의 '은밀한 성능 저하'와 같은 최신 AI 에이전트의 미묘한 문제를 진단하고 관리하는 기능은 현재 시장의 단순 비용 트래커와 차별화됩니다. 에이전트의 자율성이 높아질수록 이러한 '행동 감사' 기능의 중요성이 커집니다.",
+    "competitors": [
+      "OpenAI Playground 사용량 통계 — 단순 지출 내역만 제공, 행동 분석 미지원",
+      "LLM 비용 관리 SaaS (예: Baseten, Vellum) — 주로 프롬프트 버전 관리나 캐싱에 초점, 에이전트 자율 행동 분석 미지원",
+      "클라우드 비용 최적화 도구 (예: CloudHealth) — AI 토큰에 특화된 분석 기능 부족"
+    ],
+    "risks": [
+      "AI 에이전트 API 변경: 각 AI 모델 제공사의 API 변경에 따라 분석 로직을 지속적으로 업데이트해야 합니다.",
+      "데이터 프라이버시 우려: 에이전트 활동 로그 분석 시 사용자의 민감한 데이터 처리 문제 발생 가능성이 있습니다.",
+      "경쟁사 기능 내재화: OpenAI, Anthropic 등 AI 모델 제공사가 자체적으로 에이전트 비용 및 성능 최적화 기능을 제공할 수 있습니다.",
+      "새로운 AI 에이전트 프레임워크 출현: 새로운 에이전트 프레임워크나 패러다임이 등장하면 기존 분석 로직이 무용지물이 될 수 있습니다."
+    ],
+    "actionPlan": [
+      "Garry Tan의 gstack 등 공개된 AI 에이전트 스킬셋 분석 및 연구",
+      "토큰 사용량 모니터링 및 기본 비용 보고 MVP 개발",
+      "초기 사용자 5명 모집하여 에이전트 활동 로그 분석 및 피드백 수집",
+      "GPT-6 Astra의 '은밀한 성능 저하' 감지 알고리즘 초안 설계",
+      "데이터 프라이버시 정책 및 보안 프로토콜 검토"
+    ],
+    "recommendation": "이 아이디어는 AI 에이전트의 광범위한 채택과 함께 필연적으로 발생하는 막대한 비용 문제와 성능 신뢰성 문제를 동시에 해결합니다. Garry Tan과 같은 파워 유저의 명확한 페인 포인트를 기반으로 하며, GPT-6 Astra 사례에서 드러난 새로운 유형의 에이전트 문제에 대응하는 차별점을 가집니다. 다만, AI 기술 변화 속도가 매우 빨라 지속적인 기술 업데이트와 시장 동향 파악이 필수적입니다.",
+    "searchQuery": "ai agent cost optimization, llm token management, agent performance monitoring",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50366971",
+        "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+        "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens"
+      },
+      {
+        "clusterId": "hackernews:50373505",
+        "title": "American Voters Overwhelmingly Reject AI Data Centers",
+        "url": "https://404media.co/american-voters-overwhelmingly-reject-ai-data-centers"
+      },
+      {
+        "clusterId": "hackernews:50382179",
+        "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+        "url": "https://wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "title": "A thousand fewer paths to root",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+      },
+      {
+        "clusterId": "hackernews:50372945",
+        "title": "Images 2.6",
+        "url": "https://openai.com/index/introducing-images-2-6"
+      },
+      {
+        "clusterId": "hackernews:50376313",
+        "title": "GPT-6 Astra covertly underperforms on safety research",
+        "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks"
+      },
+      {
+        "clusterId": "hackernews:50364336",
+        "title": "AI is forcing us to pay off 40 years of technical debt",
+        "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+      },
+      {
+        "clusterId": "hackernews:50381033",
+        "title": "My psychophysics as a bilateral cochlear implant user",
+        "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/openai-to-acquire-pierre",
+        "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+        "url": "https://openai.com/index/openai-to-acquire-pierre"
+      },
+      {
+        "clusterId": "hackernews:50362905",
+        "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+        "url": "https://mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+      },
+      {
+        "clusterId": "hackernews:50369925",
+        "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+        "url": "https://ricursive.com/ripple"
+      },
+      {
+        "clusterId": "hackernews:50363554",
+        "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+        "url": "https://theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai"
+      },
+      {
+        "clusterId": "hackernews:50368626",
+        "title": "Progress on provable inference for large language models",
+        "url": "https://anthropic.com/research/provable-inference"
+      },
+      {
+        "clusterId": "hackernews:50370654",
+        "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+        "url": "https://qualcomm.com/data-center/products/cloud-ai-100-ultra"
+      },
+      {
+        "clusterId": "hackernews:50371508",
+        "title": "Everything is an AI scam now",
+        "url": "https://davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1411 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T19:40:40.645Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 18,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 3
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 27,
+      "filtered": 38
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50366971",
+      "representativeId": "hackernews:50366971",
+      "items": [
+        {
+          "id": "hackernews:50366971",
+          "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+          "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T15:28:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 101,
+            "comments": 163,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50366971"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says",
+          "title": "Almost no one uses AI agents to book their Uber, company says",
+          "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T21:56:01.000Z",
+          "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.1322078187171085,
+      "breakdown": {
+        "hnPoints": 1.487941406638958,
+        "hnComments": 0.9616393015748114,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6492937771700058,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50373505",
+      "representativeId": "hackernews:50373505",
+      "items": [
+        {
+          "id": "hackernews:50373505",
+          "title": "American Voters Overwhelmingly Reject AI Data Centers",
+          "url": "https://404media.co/american-voters-overwhelmingly-reject-ai-data-centers",
+          "source": "hackernews",
+          "publishedAt": "2026-11-05T00:43:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50373505"
+          }
+        },
+        {
+          "id": "hackernews:50367085",
+          "title": "AI data centers comprehensively defeated at US midterm elections",
+          "url": "https://tomshardware.com/tech-industry/data-centers/ai-data-centers-comprehensively-defeated-at-us-midterm-elections-45-measures-put-on-the-ballot-as-americans-overwhelmingly-vote-against-developments",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T15:35:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50367085"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+          "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+          "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T19:12:39.000Z",
+          "summary": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.0362946382574725,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.2071561616226558,
+        "mentions": 0.8333333333333333,
+        "recency": 1.473259111808216,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50382179",
+      "representativeId": "hackernews:50382179",
+      "items": [
+        {
+          "id": "hackernews:50382179",
+          "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+          "url": "https://wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-11-05T18:00:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 115,
+            "comments": 107,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50382179"
+          }
+        }
+      ],
+      "score": 5.018347920521783,
+      "breakdown": {
+        "hnPoints": 1.5293200546442252,
+        "hnComments": 0.88287045687475,
+        "mentions": 0.0,
+        "recency": 1.4061574090028073,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "representativeId": "openai:https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "title": "A thousand fewer paths to root",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+          "source": "openai",
+          "publishedAt": "2026-11-04T08:00:00.000Z",
+          "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+          "trust": 1.0,
+          "signals": {
+            "points": 461,
+            "comments": 342,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50372929"
+          }
+        }
+      ],
+      "score": 4.853606946504368,
+      "breakdown": {
+        "hnPoints": 1.9739275068468682,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.37967943965750006,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50372945",
+      "representativeId": "hackernews:50372945",
+      "items": [
+        {
+          "id": "hackernews:50372945",
+          "title": "Images 2.6",
+          "url": "https://openai.com/index/introducing-images-2-6",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T23:35:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 372,
+            "comments": 228,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50372945"
+          }
+        }
+      ],
+      "score": 4.797290091219348,
+      "breakdown": {
+        "hnPoints": 1.9050840035080996,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6922060877112483,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50376313",
+      "representativeId": "hackernews:50376313",
+      "items": [
+        {
+          "id": "hackernews:50376313",
+          "title": "GPT-6 Astra covertly underperforms on safety research",
+          "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks",
+          "source": "hackernews",
+          "publishedAt": "2026-11-05T07:44:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 212,
+            "comments": 110,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50376313"
+          }
+        }
+      ],
+      "score": 4.760128049591874,
+      "breakdown": {
+        "hnPoints": 1.7248292970577057,
+        "hnComments": 0.8880368530490445,
+        "mentions": 0.0,
+        "recency": 0.9472618994851228,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50364336",
+      "representativeId": "hackernews:50364336",
+      "items": [
+        {
+          "id": "hackernews:50364336",
+          "title": "AI is forcing us to pay off 40 years of technical debt",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T11:52:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1248,
+            "comments": 730,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50364336"
+          }
+        }
+      ],
+      "score": 4.640718982419553,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.44071898241955365,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50381033",
+      "representativeId": "hackernews:50381033",
+      "items": [
+        {
+          "id": "hackernews:50381033",
+          "title": "My psychophysics as a bilateral cochlear implant user",
+          "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf",
+          "source": "hackernews",
+          "publishedAt": "2026-11-05T16:21:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 105,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50381033"
+          }
+        }
+      ],
+      "score": 4.634415663301651,
+      "breakdown": {
+        "hnPoints": 1.5003167381952176,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 1.3197468192958899,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/openai-to-acquire-pierre",
+      "representativeId": "openai:https://openai.com/index/openai-to-acquire-pierre",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/openai-to-acquire-pierre",
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "url": "https://openai.com/index/openai-to-acquire-pierre",
+          "source": "openai",
+          "publishedAt": "2026-11-04T14:30:00.000Z",
+          "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+          "trust": 1.0,
+          "signals": {
+            "points": 261,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50366863"
+          }
+        }
+      ],
+      "score": 4.627599422450291,
+      "breakdown": {
+        "hnPoints": 1.7914419582702403,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.0,
+        "recency": 0.4876658635005938,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50362905",
+      "representativeId": "hackernews:50362905",
+      "items": [
+        {
+          "id": "hackernews:50362905",
+          "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+          "url": "https://mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T08:46:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 607,
+            "comments": 284,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50362905"
+          }
+        }
+      ],
+      "score": 4.591177122871389,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.3911771228713886,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50369925",
+      "representativeId": "hackernews:50369925",
+      "items": [
+        {
+          "id": "hackernews:50369925",
+          "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+          "url": "https://ricursive.com/ripple",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T18:53:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 329,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50369925"
+          }
+        }
+      ],
+      "score": 4.547495506147376,
+      "breakdown": {
+        "hnPoints": 1.8656780114952183,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 0.5775152475177532,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50363554",
+      "representativeId": "hackernews:50363554",
+      "items": [
+        {
+          "id": "hackernews:50363554",
+          "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+          "url": "https://theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T10:23:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 317,
+            "comments": 312,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50363554"
+          }
+        }
+      ],
+      "score": 4.470087223610596,
+      "breakdown": {
+        "hnPoints": 1.8537611323885028,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4163260912220932,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50368626",
+      "representativeId": "hackernews:50368626",
+      "items": [
+        {
+          "id": "hackernews:50368626",
+          "title": "Progress on provable inference for large language models",
+          "url": "https://anthropic.com/research/provable-inference",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T17:17:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 235,
+            "comments": 121,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50368626"
+          }
+        }
+      ],
+      "score": 4.40677795376139,
+      "breakdown": {
+        "hnPoints": 1.7578182423596416,
+        "hnComments": 0.9058542037499879,
+        "mentions": 0.0,
+        "recency": 0.5431055076517604,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50370654",
+      "representativeId": "hackernews:50370654",
+      "items": [
+        {
+          "id": "hackernews:50370654",
+          "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+          "url": "https://qualcomm.com/data-center/products/cloud-ai-100-ultra",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T19:55:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 167,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50370654"
+          }
+        }
+      ],
+      "score": 4.233544769854488,
+      "breakdown": {
+        "hnPoints": 1.6484763216730338,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.0,
+        "recency": 0.6008625321611066,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50371508",
+      "representativeId": "hackernews:50371508",
+      "items": [
+        {
+          "id": "hackernews:50371508",
+          "title": "Everything is an AI scam now",
+          "url": "https://davidralphlewis.co.uk/posts/everything-is-an-ai-scam-now",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T21:05:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 145,
+            "comments": 59,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50371508"
+          }
+        }
+      ],
+      "score": 4.2038633080599475,
+      "breakdown": {
+        "hnPoints": 1.6033206996462728,
+        "hnComments": 0.7720364250601922,
+        "mentions": 0.0,
+        "recency": 0.6285061833534826,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50373149",
+      "representativeId": "hackernews:50373149",
+      "items": [
+        {
+          "id": "hackernews:50373149",
+          "title": "You'll need nerves of steel to work with AI agents",
+          "url": "https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents",
+          "source": "hackernews",
+          "publishedAt": "2026-11-05T00:01:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50373149"
+          }
+        }
+      ],
+      "score": 4.025982843859464,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.8215082674331989,
+        "mentions": 0.0,
+        "recency": 0.7037483595507922,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-gpt-6-cyber",
+      "representativeId": "openai:https://openai.com/index/introducing-gpt-6-cyber",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-gpt-6-cyber",
+          "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+          "url": "https://openai.com/index/introducing-gpt-6-cyber",
+          "source": "openai",
+          "publishedAt": "2026-11-05T09:00:00.000Z",
+          "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope.",
+          "trust": 1.0,
+          "signals": {
+            "points": 32,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50381590"
+          }
+        }
+      ],
+      "score": 3.986109608397902,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.9942928035972154,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50363861",
+      "representativeId": "hackernews:50363861",
+      "items": [
+        {
+          "id": "hackernews:50363861",
+          "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
+          "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T11:02:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 70,
+            "comments": 84,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50363861"
+          }
+        }
+      ],
+      "score": 3.8359267696486654,
+      "breakdown": {
+        "hnPoints": 1.3713849028644205,
+        "hnComments": 0.8377137150343965,
+        "mentions": 0.0,
+        "recency": 0.42682815174984845,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50363717",
+      "representativeId": "hackernews:50363717",
+      "items": [
+        {
+          "id": "hackernews:50363717",
+          "title": "Told to reboot a server, it destroyed systemd, destroyed containers, ran random",
+          "url": "https://github.com/openai/codex/issues/59060",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T10:43:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50363717"
+          }
+        }
+      ],
+      "score": 3.525383075188846,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 0.4217812140139008,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50365760",
+      "representativeId": "hackernews:50365760",
+      "items": [
+        {
+          "id": "hackernews:50365760",
+          "title": "Jaron Lanier on parallels between AI and social media",
+          "url": "https://youtube.com/watch?v=WxaRn8kX2eI",
+          "source": "hackernews",
+          "publishedAt": "2026-11-04T14:10:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 11,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50365760"
+          }
+        }
+      ],
+      "score": 3.367521920214651,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.46855813362943827,
+        "mentions": 0.0,
+        "recency": 0.481518263293049,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+          "title": "OpenAI released a new cybersecurity model. Is that enough?",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T19:06:12.000Z",
+          "summary": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+          "title": "OpenAI says its new cybersecurity model is better at not hacking other companies",
+          "url": "https://theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T17:00:00.000Z",
+          "summary": "OpenAI is launching GPT-6 Cyber, the latest version of its cybersecurity AI model, which it says is better at finding vulnerabilities and less likely to go rogue and hack other platforms in the process. OpenAI says that during testing, GPT-6 Cyber went out of bounds less than 1 percent of the time, down from around […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.2005063048777695,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4671729715444364,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+          "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
+          "url": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-05T12:00:41.000Z",
+          "summary": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying",
+          "title": "Agility is the first pure humanoid robot company on the stock market. Are you buying?",
+          "url": "https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T12:00:00.000Z",
+          "summary": "Agility arrives on the Nasdaq today as the first publicly traded pure-play humanoid robotics company.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.9998788410827144,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.1165455077493813,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+          "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+          "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+          "source": "google-deepmind",
+          "publishedAt": "2026-11-05T17:05:16.000Z",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.8576048821303295,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3576048821303295,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+          "source": "huggingface",
+          "publishedAt": "2026-11-05T19:35:16.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.8448000810099625,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4948000810099624,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/5/paul-ford",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/5/paul-ford",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/5/paul-ford",
+          "title": "Quoting Paul Ford",
+          "url": "https://simonwillison.net/2026/Nov/5/paul-ford",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-05T17:34:03.000Z",
+          "summary": "The web browser is very, very, very powerful software for applications, and the cost of accessing that power is going down seemingly every day . — Paul Ford , The Web Is More Than Enough Tags: browsers , paul-ford , web-development",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4329173080559787,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3829173080559791,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+          "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
+          "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T18:02:27.000Z",
+          "summary": "OpenAI president Greg Brockman says the company could be ready to go public in 2027, pointing to accelerating enterprise revenue and a turnaround in its business.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3083551495353793,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4083551495353794,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+          "title": "Claude can now analyze your spending with its new Personal Finance tool",
+          "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T18:00:00.000Z",
+          "summary": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.30614236781715,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.40614236781715,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+          "title": "Claude AI can plug directly into your bank account",
+          "url": "https://theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T18:00:00.000Z",
+          "summary": "Anthropic has a new pitch for managing your personal finances: let Claude do it instead, with a new Personal Finance feature that connects it to your bank and card accounts via the Plaid bank bridging platform. You can ask the chatbot \"where did my money go this month,\" for example, and it'll create an overview […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.30614236781715,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.40614236781715,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+          "title": "‘Total repudiation’: The blue wave is about to hit AI",
+          "url": "https://theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T17:51:52.000Z",
+          "summary": "On Tuesday night, Democrats made history as they took control of the House and the Senate, and a blue wave swept through traditionally red and swing states - with the nation's first Black woman governor elected in Georgia, the country's first Native American woman governor elected in New Mexico, and a Maine Senator ceding to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2988214327281082,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3988214327281083,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "representativeId": "openai:https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "title": "Setting a new standard for responsible AI infrastructure",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+          "source": "openai",
+          "publishedAt": "2026-11-05T02:00:00.000Z",
+          "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.259358879315,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7593588793150001,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1026282/grimes-ai-movie",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1026282/grimes-ai-movie",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1026282/grimes-ai-movie",
+          "title": "Grimes is going to star in an AI movie that’s coming to theaters",
+          "url": "https://theverge.com/entertainment/1026282/grimes-ai-movie",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T17:00:00.000Z",
+          "summary": "The AI-generated sci-fi film Gods Don't Give Gifts has added a bit of star power: Pop star Grimes is going to appear in the movie. Billed as \"the first AI film to come to theatres,\" Gods Don't Give Gifts is a notable test case for the commercial potential of AI films, and it releases on […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2530237043804364,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3530237043804365,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics",
+          "title": "Axiom Math wants to keep AI slop out of mathematics",
+          "url": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T16:16:45.000Z",
+          "summary": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.215982969266877,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3159829692668772,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+          "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
+          "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T15:19:05.000Z",
+          "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1681678930777974,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2681678930777975,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+          "title": "The hidden supply chain costs of the AI boom",
+          "url": "https://theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T15:00:00.000Z",
+          "summary": "Today, I’m talking with Willy Shih, an economist, a professor of management practice at Harvard Business School, and the author of the upcoming book, Where Does My Stuff Come From? The Powerful Economics Behind Global Supply Chains. Willy is one of my all-time favorite Decoder guests — his way of looking at the world through […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1527304330111203,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2527304330111206,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+          "title": "You can post AI music straight to SoundCloud from ElevenLabs",
+          "url": "https://theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T15:00:00.000Z",
+          "summary": "After partnering with Moises earlier this year, SoundCloud is now adding integration with another AI music platform, ElevenLabs. Now, rather than having to export and download your outputs from ElevenLabs and then upload them to SoundCloud, you can publish them directly. As part of the partnership, SoundCloud Artist Pro subscribers are also getting three months […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1527304330111203,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2527304330111206,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+          "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
+          "url": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T14:42:00.000Z",
+          "summary": "Aina's ring can also take calls and help you dictate notes on your Mac.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.138341596754247,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.238341596754247,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai",
+          "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
+          "url": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T13:00:00.000Z",
+          "summary": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.059871429237704,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.159871429237704,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/phonon-tts",
+      "representativeId": "huggingface:https://huggingface.co/blog/phonon-tts",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/phonon-tts",
+          "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+          "url": "https://huggingface.co/blog/phonon-tts",
+          "source": "huggingface",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.053071183908575,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.703071183908575,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+          "title": "Big Tech’s big AI buildout will not end until someone stops it",
+          "url": "https://theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-05T10:45:00.000Z",
+          "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised returns. A third thing is also […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.963606790208555,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.063606790208555,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "representativeId": "huggingface:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+          "source": "huggingface",
+          "publishedAt": "2026-11-04T17:50:10.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.904517308850808,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.554517308850808,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech",
+          "title": "Big Tech claims voters’ AI backlash is “anti-Trump” not “anti-tech”",
+          "url": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-04T20:55:50.000Z",
+          "summary": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6746924414832276,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6246924414832279,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+          "title": "Apple is reportedly cutting budgets for its internal AI usage",
+          "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-05T01:26:22.000Z",
+          "summary": "The tokenmaxxing frenzy has been short-lived as bills for said tokens came due, and companies decided that token rationing might be a more fiscally sensible approach.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.643143026640716,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7431430266407161,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput",
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "url": "https://technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-04T18:50:55.000Z",
+          "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6265646931217677,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5765646931217678,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared",
+          "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+          "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T22:45:09.000Z",
+          "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.570094799114642,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.670094799114642,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
+          "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+          "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T22:13:16.000Z",
+          "summary": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5565221130127938,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6565221130127938,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/4/datasette-llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/4/datasette-llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/4/datasette-llm",
+          "title": "datasette-llm 0.1a10",
+          "url": "https://simonwillison.net/2026/Nov/4/datasette-llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-04T15:26:02.000Z",
+          "summary": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette , llm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5555226394672406,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5055226394672407,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election",
+          "title": "OpenAI is already trying to shape the 2028 election",
+          "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T21:25:44.000Z",
+          "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5367959935955788,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6367959935955788,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+          "title": "Meta acquires AI coding startup Conductor",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T21:10:56.000Z",
+          "summary": "The startup allows software engineers to deploy teams of agents to work on various aspects of a project simultaneously.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5307759066578759,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.630775906657876,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage",
+          "title": "Securing the agentic enterprise with data lineage",
+          "url": "https://technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-04T13:00:00.000Z",
+          "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the agent, so a second agent uses the data to draft the proposal for the sales rep. No human checks either handoff. When it’s…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5102952817299473,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4602952817299475,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
+          "title": "Open source AI is booming. Hugging Face explains who profits.",
+          "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T19:30:04.000Z",
+          "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs",
+          "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
+          "url": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T18:44:57.000Z",
+          "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining ground, can American players keep up? On this episode of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4912353347809901,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5912353347809902,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
+          "title": "DuckDuckGo pitches itself to schools amid backlash over Google’s AI policy",
+          "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-04T19:29:52.000Z",
+          "summary": "DuckDuckGo is courting schools frustrated by Google's AI restrictions, pointing educators to its search engine and options to disable AI features.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4911594483357031,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5911594483357032,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50366971",
+    "hackernews:50373505",
+    "hackernews:50382179",
+    "openai:https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "hackernews:50372945"
+  ]
+}
