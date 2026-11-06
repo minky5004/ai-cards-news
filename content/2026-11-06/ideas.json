@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T19:07:58.955Z",
+  "idea": {
+    "productName": "DeepProof",
+    "tagline": "AI 딥페이크 사기, 당신의 명성을 지킵니다",
+    "oneLineSummary": "개인과 기업의 AI 딥페이크 사기로부터 명성과 자산을 보호하는 검증 서비스입니다.",
+    "problem": "마크 큐반처럼 유명인의 얼굴과 목소리를 이용한 AI 딥페이크 사기 광고가 넘쳐납니다. 심지어 페이스북이 이를 알면서도 방치하며 사용자들은 막대한 피해를 입고 있습니다.",
+    "productDescription": "AI 딥페이크를 정밀하게 탐지하고, 콘텐츠의 출처와 진위를 판별하는 디지털 검증 솔루션을 개발합니다. 사용자는 의심스러운 영상, 음성, 이미지를 업로드하여 AI 생성 여부를 즉시 확인할 수 있습니다. 사기 피해를 예방하고 개인의 디지털 명성을 안전하게 보호하는 것이 목표입니다. 기업 또한 브랜드를 사칭하는 딥페이크로부터 스스로를 지킬 수 있습니다.",
+    "keyFeatures": [
+      "실시간 AI 딥페이크 탐지",
+      "콘텐츠 원본 출처 추적",
+      "사기 광고 패턴 분석",
+      "개인 디지털 명성 보호",
+      "자동화된 허위 정보 신고"
+    ],
+    "persona": "유명인, 인플루언서, 기업 CEO 등 자신의 얼굴과 목소리가 AI 딥페이크 사기에 악용될 위험이 높은 개인 또는 브랜드 가치를 중시하는 기업.",
+    "businessModel": "월 구독형 서비스로 제공합니다. 개인용은 월 19.99달러, 프리미엄 기능(무제한 검증, 브랜드 모니터링)을 포함한 기업용은 월 99.99달러부터 시작합니다.",
+    "marketStats": "마크 큐반 사례에서 페이스북이 AI 딥페이크 사기 광고로 160억 달러의 수익을 올렸다는 주장이 제기되었습니다. 이는 해당 사기 시장의 규모를 간접적으로 보여줍니다. 별도 시장 규모 근거는 기사에 없습니다.",
+    "goToMarket": "유튜브, 틱톡, 인스타그램 등 소셜 미디어 플랫폼에서 활동하는 유명 인플루언서 및 콘텐츠 크리에이터에게 직접 연락하여 베타 테스트 참여 및 초기 구독을 제안합니다. AI 사기 피해 사례를 공유하는 온라인 커뮤니티에 적극적으로 홍보합니다.",
+    "unfairAdvantage": "Gemini Omni 1.2 Flash와 같이 빠르고 저렴한 AI 비디오 생성 기술의 발전이 딥페이크 사기를 가속화하는 현 상황에서, 선제적으로 이에 대응하는 전문 솔루션을 제공하는 것이 유리합니다. 대형 플랫폼들이 사기 방지에 미온적인 틈새를 공략합니다.",
+    "competitors": [
+      "Sensity AI — 기업용 보안 솔루션에 집중",
+      "Reality Defender — 광범위한 미디어 탐지, 개인용 접근성 낮음",
+      "Facebook (Meta) — 딥페이크 방지에 소극적, 자체 해결 의지 부족"
+    ],
+    "risks": [
+      "AI 기술 발전 속도에 따른 탐지 우회 가능성",
+      "대형 플랫폼의 딥페이크 규제 강화 시 사업 위축",
+      "초기 고객 확보를 위한 비용 과다 지출",
+      "오탐지율 발생 시 신뢰도 하락"
+    ],
+    "actionPlan": [
+      "AI 딥페이크 탐지 모델 프로토타입 개발 시작",
+      "유명 인플루언서 10명에게 베타 테스트 참여 요청 메일 발송",
+      "사기 피해자 커뮤니티 5곳에 솔루션 아이디어 공유 및 피드백 수집",
+      "최신 Gemini Omni 1.2 Flash 영상 생성 기능 분석"
+    ],
+    "recommendation": "AI 딥페이크 사기 문제는 명확하며, 관련 기술 발전이 가속화되어 시장 기회가 있습니다. 그러나 AI 탐지 기술의 지속적인 업데이트 필요성과 대형 플랫폼의 소극적인 태도를 극복해야 합니다. 초기 고객의 신뢰를 얻는 것이 관건입니다.",
+    "searchQuery": "deepfake scam prevention",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50392118",
+        "title": "Gemini Omni 1.2 Flash",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+      },
+      {
+        "clusterId": "hackernews:50394906",
+        "title": "Anthropic IPO Buyers See Valuation as Low as $1.1T",
+        "url": "https://bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+      },
+      {
+        "clusterId": "hackernews:50385870",
+        "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+        "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html"
+      },
+      {
+        "clusterId": "hackernews:50385272",
+        "title": "Claude Code sends your email address to websites",
+        "url": "https://github.com/anthropics/claude-code/issues/107757"
+      },
+      {
+        "clusterId": "hackernews:50392499",
+        "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+        "url": "https://cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287"
+      },
+      {
+        "clusterId": "hackernews:50388513",
+        "title": "I struggle to believe that AI R&D is ingenious",
+        "url": "https://lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL"
+      },
+      {
+        "clusterId": "hackernews:50394569",
+        "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+        "url": "https://github.com/anomalyco/rune"
+      },
+      {
+        "clusterId": "hackernews:50382179",
+        "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+        "url": "https://wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026"
+      },
+      {
+        "clusterId": "hackernews:50376313",
+        "title": "GPT-6 Astra covertly underperforms on safety research",
+        "url": "https://alignment.openai.com/misalignment-reports/covert-underperformance-on-safety-research-tasks"
+      },
+      {
+        "clusterId": "hackernews:50389990",
+        "title": "AI for scientific discovery: How researchers use Claude",
+        "url": "https://anthropic.com/research/how-researchers-use-claude"
+      },
+      {
+        "clusterId": "hackernews:50381033",
+        "title": "My psychophysics as a bilateral cochlear implant user",
+        "url": "https://claude.ai/artifact/L8qsMc3SorytGW3LA81nYf"
+      },
+      {
+        "clusterId": "hackernews:50389448",
+        "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+        "url": "https://obelisk.club/research/app-store-2026"
+      },
+      {
+        "clusterId": "hackernews:50395933",
+        "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+        "url": "https://reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06"
+      },
+      {
+        "clusterId": "hackernews:50387546",
+        "title": "Closed AI models dominate the price-performance frontier",
+        "url": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier"
+      },
+      {
+        "clusterId": "hackernews:50388263",
+        "title": "How accurately did science fiction stories predict AI?",
+        "url": "https://jamesyu.org/science-fiction-predictions-of-ai"
+      }
+    ]
+  }
+}

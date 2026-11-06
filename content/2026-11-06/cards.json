@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T19:06:20.933Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50392118",
+      "headline": "구글 제미나이 영상 생성 가격 30% 인하",
+      "highlight": [
+        "30% 인하"
+      ],
+      "body": "구글이 '제미나이 옴니 1.2 플래시'를 공개하며 가격을 기존 대비 30% 깎았습니다. 생성 길이는 최대 15초로 늘어났으며 피드백을 주고받는 대화형 편집도 지원합니다. 창작자와 기업은 더 저렴한 비용으로 고품질 AI 영상 콘텐츠를 빠르게 제작하게 됐습니다.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+      "publishedAt": "2026-11-06T13:35:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:50394906",
+      "headline": "앤트로픽 IPO, $2조서 $1.3조로 몸값 급락",
+      "highlight": [
+        "$2조서",
+        "$1.3조로"
+      ],
+      "body": "앤트로픽의 IPO 목표 기업가치가 당초 $2조에서 $1.2조~$1.3조 수준으로 낮아졌습니다. 최근 나스닥 급락과 일부 투자자들의 회의론이 반영된 결과입니다. 회사는 클라우드 컴퓨팅 확보를 위해 대규모 자금 조달이 시급합니다.",
+      "sourceUrl": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+      "sourceName": "epyhia.com",
+      "publishedAt": "2026-11-06T16:54:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:50385870",
+      "headline": "메타가 사기 광고로 160억 달러 챙겼다",
+      "highlight": [
+        "160억 달러"
+      ],
+      "body": "마크 큐반 등 유명인의 AI 딥페이크 사기 광고를 메타가 알고도 방치한다는 내부 문서가 공개됐습니다. 문서에 따르면 메타 2024년 매출의 10%인 160억 달러가 사기성 광고에서 나왔습니다. 메타는 해명에 나섰지만 미 증권거래위원회의 조사를 받고 있습니다.",
+      "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "sourceName": "Yahoo Finance",
+      "imageUrl": "https://s.yimg.com/lo/mysterio/api/c7b9e208fd6dff01b9115dea6cf00d560e269c36a6987f309be6e79d843e306b/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fmoneywise_327%2F892777675c4b84ce45a666a8bfe1fb93.jpg",
+      "publishedAt": "2026-11-05T23:09:57.000Z"
+    },
+    {
+      "clusterId": "hackernews:50385272",
+      "headline": "앤트로픽 클로드 개인정보 침해 논란",
+      "highlight": [
+        "개인정보 침해 논란"
+      ],
+      "body": "문제가 제기된 앤트로픽 클로드 코드 저장소 GitHub 이슈 #107757은 'User-Agent 헤더 개인정보 침해'를 다룹니다. 이 사안은 800명 이상 사용자들의 반응을 얻으며 빠르게 주목받고 있습니다.",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/107757",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/d5c4e233730ca8425e19c26afac69abb6f136453df59a3e650e1bcd6be515853/anthropics/claude-code/issues/107757",
+      "publishedAt": "2026-11-05T22:17:15.000Z"
+    },
+    {
+      "clusterId": "hackernews:50388513",
+      "headline": "AI 성능을 10배 올린 건 인간의 힌트였다",
+      "highlight": [
+        "10배",
+        "인간의 힌트였다"
+      ],
+      "body": "개발자 아르준은 AI 아스트라의 스크래블 성능을 10배 올려놓았습니다. 하지만 이는 AI의 자율적 성과가 아닌, 인간이 핵심 힌트와 아이디어를 지속적으로 지시한 덕분이었습니다. AI 자율 연구는 아직 기초적 판단력 부족으로 인간의 개입이 필수적입니다.",
+      "sourceUrl": "https://lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "sourceName": "hackernews",
+      "imageUrl": "https://res.cloudinary.com/lesswrong-2-0/image/upload/v1654295382/new_mississippi_river_fjdmww.jpg",
+      "publishedAt": "2026-11-06T05:19:04.000Z"
+    }
+  ]
+}
