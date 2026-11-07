@@ -1,0 +1,1001 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T17:35:24.892Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 24,
+      "filtered": 22
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50389990",
+      "representativeId": "hackernews:50389990",
+      "items": [
+        {
+          "id": "hackernews:50389990",
+          "title": "AI for scientific discovery: How researchers use Claude",
+          "url": "https://anthropic.com/research/how-researchers-use-claude",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T09:13:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 99,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50389990"
+          }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+          "url": "https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-07T12:30:00.000Z",
+          "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.438709566439723,
+      "breakdown": {
+        "hnPoints": 1.481570526137868,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.8333333333333333,
+        "recency": 1.232998425538714,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50397429",
+      "representativeId": "hackernews:50397429",
+      "items": [
+        {
+          "id": "hackernews:50397429",
+          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+          "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T19:48:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 546,
+            "comments": 136,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50397429"
+          }
+        }
+      ],
+      "score": 4.776220572800273,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9277197919266458,
+        "mentions": 0.0,
+        "recency": 0.6485007808736268,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50397994",
+      "representativeId": "hackernews:50397994",
+      "items": [
+        {
+          "id": "hackernews:50397994",
+          "title": "AI is dramatically accelerating AI research",
+          "url": "https://planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T20:27:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 348,
+            "comments": 323,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50397994"
+          }
+        }
+      ],
+      "score": 4.7484262919361395,
+      "breakdown": {
+        "hnPoints": 1.8836876028483305,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6647386890878093,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50394906",
+      "representativeId": "hackernews:50394906",
+      "items": [
+        {
+          "id": "hackernews:50394906",
+          "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+          "url": "https://bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T16:54:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 297,
+            "comments": 591,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50394906"
+          }
+        },
+        {
+          "id": "hackernews:50395318",
+          "title": "Anthropic IPO valuation talks drop to $1.3T",
+          "url": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T17:21:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 93,
+            "comments": 2,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50395318"
+          }
+        }
+      ],
+      "score": 4.622751184878064,
+      "breakdown": {
+        "hnPoints": 1.8328629460731638,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5898882388048999,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50392118",
+      "representativeId": "hackernews:50392118",
+      "items": [
+        {
+          "id": "hackernews:50392118",
+          "title": "Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T13:35:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 355,
+            "comments": 244,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
+          }
+        }
+      ],
+      "score": 4.600384314655903,
+      "breakdown": {
+        "hnPoints": 1.8900765579555674,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5103077567003353,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50402212",
+      "representativeId": "hackernews:50402212",
+      "items": [
+        {
+          "id": "hackernews:50402212",
+          "title": "The Components of Agent Memory",
+          "url": "https://anthropic.com/research/components-of-agent-memory",
+          "source": "hackernews",
+          "publishedAt": "2026-11-07T06:39:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 115,
+            "comments": 63,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50402212"
+          }
+        }
+      ],
+      "score": 4.497868740190627,
+      "breakdown": {
+        "hnPoints": 1.5293200546442252,
+        "hnComments": 0.7842059160203474,
+        "mentions": 0.0,
+        "recency": 0.9843427695260547,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50394569",
+      "representativeId": "hackernews:50394569",
+      "items": [
+        {
+          "id": "hackernews:50394569",
+          "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+          "url": "https://github.com/anomalyco/rune",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T16:31:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 174,
+            "comments": 127,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50394569"
+          }
+        }
+      ],
+      "score": 4.347879464795051,
+      "breakdown": {
+        "hnPoints": 1.6616095309697052,
+        "hnComments": 0.9149069020237386,
+        "mentions": 0.0,
+        "recency": 0.5713630318016074,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50401029",
+      "representativeId": "hackernews:50401029",
+      "items": [
+        {
+          "id": "hackernews:50401029",
+          "title": "The AI sell-off compared to well-known stock market crashes",
+          "url": "https://kadoa.com/companies/insights/ai-selloff-perspective",
+          "source": "hackernews",
+          "publishedAt": "2026-11-07T02:20:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 79,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50401029"
+          }
+        }
+      ],
+      "score": 4.239030865591716,
+      "breakdown": {
+        "hnPoints": 1.409781016657681,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.8336124533236101,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50392499",
+      "representativeId": "hackernews:50392499",
+      "items": [
+        {
+          "id": "hackernews:50392499",
+          "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+          "url": "https://cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T14:13:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 132,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50392499"
+          }
+        }
+      ],
+      "score": 4.074343064269332,
+      "breakdown": {
+        "hnPoints": 1.5733179965731898,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.5228057390708233,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50399569",
+      "representativeId": "hackernews:50399569",
+      "items": [
+        {
+          "id": "hackernews:50399569",
+          "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+          "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T22:50:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 91,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50399569"
+          }
+        }
+      ],
+      "score": 4.074342469738435,
+      "breakdown": {
+        "hnPoints": 1.4547450822917476,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.0,
+        "recency": 0.7287901060168799,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50399695",
+      "representativeId": "hackernews:50399695",
+      "items": [
+        {
+          "id": "hackernews:50399695",
+          "title": "Outbound SIP calling is now available to all organizations",
+          "url": "https://developers.openai.com/api/docs/guides/voice-sip",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T23:03:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 68,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50399695"
+          }
+        }
+      ],
+      "score": 4.06282669584003,
+      "breakdown": {
+        "hnPoints": 1.3621923074258677,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.7349904963618614,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50395866",
+      "representativeId": "hackernews:50395866",
+      "items": [
+        {
+          "id": "hackernews:50395866",
+          "title": "Perplexity launches AI agents for work",
+          "url": "https://perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T17:59:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 62,
+            "comments": 54,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50395866"
+          }
+        }
+      ],
+      "score": 3.8931741101543156,
+      "breakdown": {
+        "hnPoints": 1.3329249622775716,
+        "hnComments": 0.7556294149979565,
+        "mentions": 0.0,
+        "recency": 0.6046197328787873,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50395933",
+      "representativeId": "hackernews:50395933",
+      "items": [
+        {
+          "id": "hackernews:50395933",
+          "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+          "url": "https://reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T18:04:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 104,
+            "comments": 18,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50395933"
+          }
+        }
+      ],
+      "score": 3.8588115984109974,
+      "breakdown": {
+        "hnPoints": 1.4972672466236383,
+        "hnComments": 0.5552083144780106,
+        "mentions": 0.0,
+        "recency": 0.6063360373093486,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50395919",
+      "representativeId": "hackernews:50395919",
+      "items": [
+        {
+          "id": "hackernews:50395919",
+          "title": "Memorilla: Latent Semantic Memory for LLMs",
+          "url": "https://arxiv.org/abs/2610.21375",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T18:03:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 112,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50395919"
+          }
+        }
+      ],
+      "score": 3.8246373407754803,
+      "breakdown": {
+        "hnPoints": 1.5208902548570227,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 0.6061220435406638,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50389448",
+      "representativeId": "hackernews:50389448",
+      "items": [
+        {
+          "id": "hackernews:50389448",
+          "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+          "url": "https://obelisk.club/research/app-store-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T07:59:19.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 53,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50389448"
+          }
+        }
+      ],
+      "score": 3.6859989477738724,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.7521694708713587,
+        "mentions": 0.0,
+        "recency": 0.4112834454092463,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50391804",
+      "representativeId": "hackernews:50391804",
+      "items": [
+        {
+          "id": "hackernews:50391804",
+          "title": "OpenAI Finds 948 Local Privilege Escalation Bugs in the Linux Kernel",
+          "url": "https://phoronix.com/news/OpenAI-948-Linux-LPE-Bugs",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T12:59:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50391804"
+          }
+        }
+      ],
+      "score": 3.407440777673012,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.498737661805122,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50389401",
+      "representativeId": "hackernews:50389401",
+      "items": [
+        {
+          "id": "hackernews:50389401",
+          "title": "Global stocks tumble as AI panic grips markets after Democrats' midterm success",
+          "url": "https://theguardian.com/business/live/2026/nov/06/global-stocks-tumble-ai-panic-markets-democrats-midterms-success-jobs-oil-dollar-latest-news-updates",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T07:52:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50389401"
+          }
+        }
+      ],
+      "score": 3.3163028208492116,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.40958878489238393,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50394116",
+      "representativeId": "hackernews:50394116",
+      "items": [
+        {
+          "id": "hackernews:50394116",
+          "title": "Reading the Anthropic S-1, with Zvi Mowshowitz",
+          "url": "https://complexsystemspodcast.com/episodes/reading-the-anthropic-s-1-with-zvi-mowshowitz",
+          "source": "hackernews",
+          "publishedAt": "2026-11-06T16:04:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50394116"
+          }
+        }
+      ],
+      "score": 2.931983960356749,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5617035531449784,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+          "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T22:53:46.000Z",
+          "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+          "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+          "url": "https://theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-06T23:46:18.000Z",
+          "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion. Echoing FT and Wall Street Journal […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.4885912611535477,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7552579278202145,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+          "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+          "url": "https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-07T15:50:00.000Z",
+          "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.301873471881787,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4018734718817871,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+          "title": "AI broke the cybersecurity world. What’s next?",
+          "url": "https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-07T15:00:00.000Z",
+          "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.257601295222427,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3576012952224272,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/partnering-with-hacktron",
+      "representativeId": "openai:https://openai.com/index/partnering-with-hacktron",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/partnering-with-hacktron",
+          "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+          "url": "https://openai.com/index/partnering-with-hacktron",
+          "source": "openai",
+          "publishedAt": "2026-11-06T08:00:00.000Z",
+          "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9114638596344948,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.41146385963449483,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/toyblocks",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/toyblocks",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/toyblocks",
+          "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+          "url": "https://huggingface.co/blog/allenai/toyblocks",
+          "source": "huggingface",
+          "publishedAt": "2026-11-06T14:00:48.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.8686782210362203,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5186782210362202,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/6/nilay-patel",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/6/nilay-patel",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/6/nilay-patel",
+          "title": "Quoting Nilay Patel",
+          "url": "https://simonwillison.net/2026/Nov/6/nilay-patel",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-06T17:13:12.000Z",
+          "summary": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked. The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. The AI industry will not get out of it until they make better products . Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better. — Nilay Patel , The Vergecast: Big Tech lost big in the 2026 election Tags: nilay-patel , slop , ai , generative-ai , ai-ethics",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6368484324957846,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5868484324957847,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "title": "China reportedly recruited AI exec to spy on Jensen Huang",
+          "url": "https://theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-06T23:00:44.000Z",
+          "summary": "China's intelligence agency recruited Megaspeed executive Alice Huang to spy on Nvidia CEO Jensen Huang, according to The New York Times. The Ministry of State Security (MSS) enlisted her to glean information about American AI chips and \"potentially influence the company to push for its most advanced chips to be made available to China.\" Megaspeed […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.633490390272718,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7334903902727181,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port",
+          "title": "Could potential AI clones of GTA VI force a quicker official port?",
+          "url": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-06T16:19:12.000Z",
+          "summary": "A former Rockstar tech director thinks the developer is facing new time pressures.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.616858220520278,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5668582205202781,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+          "title": "All the latest updates on AI data centers",
+          "url": "https://theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-06T20:02:22.000Z",
+          "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5541510213869594,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6541510213869595,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+          "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T18:44:38.000Z",
+          "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5223164728232512,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6223164728232514,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1028871/meta-muse-ai-spaces",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1028871/meta-muse-ai-spaces",
+          "title": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+          "url": "https://theverge.com/tech/1028871/meta-muse-ai-spaces",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-06T18:10:10.000Z",
+          "summary": "Meta will now allow you to build customized, app-like experiences within Muse. The new feature, called \"spaces,\" allows its AI assistant to build things like a shopping hub, school dashboard, music tracker, trivia game, and more, which you can interact with directly in the Muse app. Meta says you can create a new space by […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.508701472098046,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6087014720980461,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+          "title": "How a Blue Wave midterm might reshape the AI industry",
+          "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T18:00:00.000Z",
+          "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
+          "title": "After the midterms, is the AI industry in for a rough two years?",
+          "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T17:23:52.000Z",
+          "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers weren’t on the ballot directly, they were a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5047426268296624,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6047426268296625,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+          "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+          "url": "https://technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-06T10:00:00.000Z",
+          "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.4944055488004528,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.44440554880045297,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+          "title": "AI is the new dating dealbreaker",
+          "url": "https://theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-06T17:00:00.000Z",
+          "summary": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend. \"Hinge has a prompt where […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.481897770721482,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5818977707214821,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
+          "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T15:54:47.000Z",
+          "summary": "AI usage keeps climbing, but spending has stalled. Price cuts and smarter cost controls among the biggest spenders could challenge investor assumptions about AI hypergrowth.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4580444015546965,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5580444015546966,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+          "title": "Physicl raises $10M to make the digital world real enough for robots",
+          "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T13:00:00.000Z",
+          "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3988283625866074,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49882836258660745,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+          "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
+          "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-06T06:28:32.000Z",
+          "summary": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.2880047626072884,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.38800476260728833,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50389990",
+    "hackernews:50397429",
+    "hackernews:50397994",
+    "hackernews:50394906",
+    "hackernews:50392118"
+  ]
+}

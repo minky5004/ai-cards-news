@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T17:41:10.488Z",
+  "idea": {
+    "productName": "Harnix",
+    "tagline": "확신 없는 데이터만 비싼 모델로 넘긴다",
+    "oneLineSummary": "데이터 파이프라인 팀을 위해 소형 모델의 신뢰도에 따라 프론티어 LLM을 선별 호출하는 하이브리드 라우팅 게이트웨이를 제공합니다.",
+    "problem": "고객 식별 데이터 매핑에 프론티어 AI를 전수 적용하면 비용이 감당되지 않습니다. 반면 저가 모델만 쓰면 어려운 케이스에서 정확도가 급락해 파이프라인이 멈춥니다.",
+    "productDescription": "입력된 식별 데이터를 1,000건당 0.1달러 미만의 경량 결정 모델로 0.15초 만에 초고속 분류합니다. 모델의 신뢰도 보정 점수를 실시간 분석하여 자체 확신도가 기준치 이하로 떨어지는 고난도 케이스만 선별합니다. 해당 미결 레코드만 Opus 등 최상위 프론티어 모델로 자동 우회시켜 판정합니다. 이를 통해 프론티어 모델 단독 사용 대비 비용을 4배 이상 낮추면서 동일한 최고 수준 정확도를 유지합니다.",
+    "keyFeatures": [
+      "저신뢰도 레코드 자동 선별 라우팅",
+      "0.15초 급 저지연 1차 판정",
+      "프론티어 모델 호출 비용 4배 절감",
+      "신뢰도 임계치 실시간 동적 튜닝"
+    ],
+    "persona": "수억 건의 고객 레코드 통합 작업을 진행 중이나 프론티어 LLM API 비용 부담으로 파이프라인 전수 자동화를 배포하지 못하고 있는 엔터프라이즈 데이터 엔지니어링 리드입니다.",
+    "businessModel": "월 기본 구독료와 라우팅 처리량 기반 종량제(월 499달러 기본료에 1,000건당 0.08달러 라우팅 수수료) 모델로 과금합니다.",
+    "marketStats": "기사에 전체 시장 규모 근거는 없으나, 벤치마크 기사에 따르면 결정 모델은 1,000건당 0.05~0.10달러 수준이며 하이브리드 구조 적용 시 프론티어 모델 단독 사용 대비 4배 이상의 비용 절감 효과가 확인됩니다.",
+    "goToMarket": "Hightouch 기술 블로그 독자층과 Databricks, Snowflake 커뮤니티의 데이터 엔지니어들을 대상으로 즉시 재현 가능한 벤치마크 코드와 경량 Docker 프록시를 배포해 초기 유입을 유도합니다.",
+    "unfairAdvantage": "결정 모델별 신뢰도 왜곡(예: Luna의 과신 오류 대 Jev의 정밀 보정된 불확실성)을 실시간 보정하는 라우팅 하네스 알고리즘을 엔진화하여 별도 모델 튜닝 없이 즉시 비용 절감을 구현합니다.",
+    "competitors": [
+      "Portkey — LLM 게이트웨이 제공 · 신뢰도 기반 동적 하이브리드 폴백 미지원",
+      "LiteLLM — 다중 모델 호출 프록시 · 도메인별 2단계 결정 라우팅 로직 부재",
+      "Hightouch 파이프라인 — 벤치마크 방법론 실증 · 독립형 범용 API 인프라 아님"
+    ],
+    "risks": [
+      "프론티어 모델 자체의 급격한 단가 인하로 인한 하이브리드 라우팅 절감 유인 감소",
+      "1차 결정 모델의 오판 시 과신으로 인해 2차 모델로 넘기지 못하는 누락 오류 발생",
+      "이기종 모델 다중 연동으로 인한 파이프라인 디버깅 복잡도 증가"
+    ],
+    "actionPlan": [
+      "Jev 및 오픈소스 결정 모델 기반 신뢰도 캘리브레이션 테스트베드 구축",
+      "신뢰도 임계치 미달 시 Opus API를 즉각 호출하는 FastAPI 기반 프록시 MVP 제작",
+      "식별 레코드 1만 건 데이터셋 대상 4배 비용 절감 및 97% 이상 정확도 재현 검증",
+      "Hacker News에 하이브리드 하네스 벤치마크 재현 오픈소스 및 기술 문서 배포"
+    ],
+    "recommendation": "소형 결정 모델과 대형 프론티어 모델을 엮는 신뢰도 하네스는 기술 블로그 실증 데이터를 통해 즉각적인 비용 4배 절감이 입증된 확실한 영역입니다. 다만 프론티어 모델의 API 단가가 지속적으로 인하되면 단순 비용 절감 논리가 약해질 수 있으므로, 대규모 엔터프라이즈 배치 파이프라인의 처리 지연시간(0.15초) 단축과 SLA 보장 기능에 집중해야 합니다.",
+    "searchQuery": "llm confidence routing harness",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 3점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Research-Backed Multi-Agent System for Autonomous Development",
+          "url": "https://github.com/asklokesh/claudeskill-loki-mode",
+          "points": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50389990",
+        "title": "AI for scientific discovery: How researchers use Claude",
+        "url": "https://anthropic.com/research/how-researchers-use-claude"
+      },
+      {
+        "clusterId": "hackernews:50397429",
+        "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+        "url": "https://hightouch.com/blog/llm-judges-identity-resolution"
+      },
+      {
+        "clusterId": "hackernews:50397994",
+        "title": "AI is dramatically accelerating AI research",
+        "url": "https://planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+      },
+      {
+        "clusterId": "hackernews:50394906",
+        "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+        "url": "https://bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout"
+      },
+      {
+        "clusterId": "hackernews:50392118",
+        "title": "Gemini Omni 1.2 Flash",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+      },
+      {
+        "clusterId": "hackernews:50402212",
+        "title": "The Components of Agent Memory",
+        "url": "https://anthropic.com/research/components-of-agent-memory"
+      },
+      {
+        "clusterId": "hackernews:50394569",
+        "title": "Rune: A native GPU-rendered Rust UI framework for macOS, Windows, Linux and web",
+        "url": "https://github.com/anomalyco/rune"
+      },
+      {
+        "clusterId": "hackernews:50401029",
+        "title": "The AI sell-off compared to well-known stock market crashes",
+        "url": "https://kadoa.com/companies/insights/ai-selloff-perspective"
+      },
+      {
+        "clusterId": "hackernews:50392499",
+        "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+        "url": "https://cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287"
+      },
+      {
+        "clusterId": "hackernews:50399569",
+        "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+        "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
+      },
+      {
+        "clusterId": "hackernews:50399695",
+        "title": "Outbound SIP calling is now available to all organizations",
+        "url": "https://developers.openai.com/api/docs/guides/voice-sip"
+      },
+      {
+        "clusterId": "hackernews:50395866",
+        "title": "Perplexity launches AI agents for work",
+        "url": "https://perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work"
+      },
+      {
+        "clusterId": "hackernews:50395933",
+        "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+        "url": "https://reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06"
+      },
+      {
+        "clusterId": "hackernews:50395919",
+        "title": "Memorilla: Latent Semantic Memory for LLMs",
+        "url": "https://arxiv.org/abs/2610.21375"
+      },
+      {
+        "clusterId": "hackernews:50389448",
+        "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+        "url": "https://obelisk.club/research/app-store-2026"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T17:38:57.822Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50389990",
+      "headline": "클로드 AI, 과학 생산성 15배까지 높인다",
+      "highlight": [
+        "15배"
+      ],
+      "body": "앤트로픽 클로드 AI는 20만 건 이상의 과학 연구 세션에서 데이터 분석과 글쓰기에 주로 쓰였습니다. 현재 AI 역량으로 일부 분야 생산성을 2배 높일 수 있고, 비물리적 작업 자동화 시 특정 분야는 최대 15배까지 향상됩니다. 이는 AI가 과학 발전의 핵심 동력이 될 잠재력을 보여줍니다.",
+      "sourceUrl": "https://anthropic.com/research/how-researchers-use-claude",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/0c1a04cc7042949252ee54565755780fe21d5ecf-1200x630.jpg",
+      "publishedAt": "2026-11-06T09:13:30.000Z"
+    },
+    {
+      "clusterId": "hackernews:50397429",
+      "headline": "AI 검증 비용 4배 줄인 하이브리드 모델",
+      "highlight": [
+        "비용 4배"
+      ],
+      "body": "하이터치가 데이터 검증에 저렴한 AI 모델 Jev와 고성능 Opus를 조합해 테스트했습니다. 가벼운 모델이 확신하지 못하는 까다로운 사건만 고성능 모델로 넘겨 처리했습니다. 최고 수준의 정확도를 지키면서도 전체 작업 비용을 4배 이상 절감하는 데 성공했습니다.",
+      "sourceUrl": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "sourceName": "hackernews",
+      "imageUrl": "https://cdn.sanity.io/images/pwmfmi47/production/9a5d7191d614c824c822ec90672adaf424699d3d-2400x1256.png?w=1200",
+      "publishedAt": "2026-11-06T19:48:51.000Z"
+    },
+    {
+      "clusterId": "hackernews:50394906",
+      "headline": "앤트로픽 몸값이 1.2조 달러로 깎였다",
+      "highlight": [
+        "1.2조 달러로"
+      ],
+      "body": "앤트로픽이 상장을 앞두고 목표 기업가치를 기존 최대 2조 달러에서 1.2조~1.3조 달러 수준으로 낮췄습니다. 증시 폭락과 주요 투자자들의 난색에 따른 결과입니다. 이번 상장으로 최소 862억 달러를 조달해 대규모 인프라 비용을 충당할 방침입니다.",
+      "sourceUrl": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+      "sourceName": "epyhia.com",
+      "publishedAt": "2026-11-06T16:54:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:50392118",
+      "headline": "구글이 AI 영상 생성 가격 30% 깎았다",
+      "highlight": [
+        "가격 30%"
+      ],
+      "body": "구글이 제미나이 옴니 1.2 플래시를 공개하며 영상 생성 비용을 30% 낮췄습니다. 최대 15초 길이의 영상 생성이 가능해졌으며 대화 방식으로 간편하게 수정할 수도 있습니다. 정식 출시되어 720p 영상 기준 초당 0.07달러에 고품질 콘텐츠를 만들 수 있습니다.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-omni-1.2_FZLql41.width-1300.png",
+      "publishedAt": "2026-11-06T13:35:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:50402212",
+      "headline": "메모리 9개 쓴 클로드가 배지 4개 땄다",
+      "highlight": [
+        "메모리 9개",
+        "배지 4개"
+      ],
+      "body": "앤트로픽이 포켓몬 게임으로 클로드의 기억 능력을 평가했습니다. 손넷 3.7은 413개 파일을 남겨 배지 1개에 그쳤지만, 페이블 5는 핵심 메모리 9개만으로 배지 4개를 땄습니다. 중요한 정보만 선별해 기록하는 능력이 AI의 성패를 가릅니다.",
+      "sourceUrl": "https://anthropic.com/research/components-of-agent-memory",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/6ab2663a2c0bd6a41409d90136a59a5d72995ea5-1200x630.jpg",
+      "publishedAt": "2026-11-07T06:39:04.000Z"
+    }
+  ]
+}
