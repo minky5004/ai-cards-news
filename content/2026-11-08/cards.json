@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T17:49:15.441Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50410107",
+      "headline": "1년에 244번 바뀐 클로드를 버린 이유",
+      "highlight": [
+        "244번"
+      ],
+      "body": "앤트로픽의 개발 도구 '클로드 코드'가 올 한 해만 244번의 업데이트를 거치며 프롬프트를 자주 바꿔 개발자 피로도를 높였습니다. 잦은 기능 추가로 안정성이 떨어지자 1년 넘게 쓰던 장기 유저마저 오픈소스 도구인 '파이'로 전환하고 있습니다.",
+      "sourceUrl": "https://caleb.software/posts/claude-to-pi.html",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-11-08T03:11:48.000Z"
+    },
+    {
+      "clusterId": "hackernews:50413822",
+      "headline": "오픈AI 눈높이 낮춰 110억 달러 유치",
+      "highlight": [
+        "110억 달러"
+      ],
+      "body": "오픈AI가 기업가치 1조 2500억 달러로 110억 달러 유치에 성공했습니다. 당초 목표한 1조 4000억 달러에는 못 미쳤지만 챗GPT 주간 사용자 12억 명을 돌파했습니다. 이번 조달 성패는 연계된 엔비디아와 마이크로소프트의 재무에도 직결될 전망입니다.",
+      "sourceUrl": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+      "sourceName": "24/7 Wall St.",
+      "imageUrl": "https://247wallst.com/wp-content/uploads/2026/11/openai-just-raised-11-billion-at-a-1-25-trillion-v-featured-1794023504517-scaled.webp",
+      "publishedAt": "2026-11-08T14:49:23.000Z"
+    },
+    {
+      "clusterId": "hackernews:50407882",
+      "headline": "단 하나의 에이전트로 AI 개발 전체 지킨다",
+      "highlight": [
+        "단 하나의 에이전트"
+      ],
+      "body": "보안 플랫폼 아피로(Apiiro)가 에이전트 기반 개발 시대를 위한 종합 보안 솔루션을 선보였습니다. 단 하나의 가디언 에이전트(Guardian Agent)를 통해 전체 AI 개발 환경을 안전하게 보호합니다. 복잡해진 기업용 AI 개발 보안의 제어권을 확실하게 제공합니다.",
+      "sourceUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "sourceName": "Apiiro",
+      "publishedAt": "2026-11-07T20:45:32.000Z"
+    },
+    {
+      "clusterId": "hackernews:50412591",
+      "headline": "10년 차 개발자가 AI 코딩을 거부한 이유",
+      "highlight": [
+        "10년 차",
+        "거부한 이유"
+      ],
+      "body": "10년간 머신러닝 모델을 만들어온 개발자가 업무에서 AI 도구를 전혀 쓰지 않겠다고 선언했습니다. AI가 판단력을 흐리게 하고 겉만 번지르르한 불량 코드를 생성한다는 것이 이유입니다. 결국 인간이 이해하지 못하는 코드만 남아 유지보수가 불가능해진다고 지적했습니다.",
+      "sourceUrl": "https://polso.info/why-i-will-not-be-using-llms-coding",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-11-08T12:14:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:50411961",
+      "headline": "GPU 0개로 2840억 AI 모델 돌렸다",
+      "highlight": [
+        "GPU 0개로",
+        "2840억"
+      ],
+      "body": "오픈소스 'llama-modchip'이 GPU 없이 64GB CPU로 2840억 파라미터 AI 구동에 성공했습니다. 압축 기술로 메모리 오류를 해결하고 전체 모델을 56.56GiB RAM에 올렸습니다. 이제 비싼 그래픽카드 없이도 개인 PC에서 거대 AI를 직접 돌릴 수 있습니다.",
+      "sourceUrl": "https://github.com/synchopate/llama-modchip",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/45d6291fe8e65e42fd898a32e6e4e408ec0c71b8039e63dec1964c2342835897/synchopate/llama-modchip",
+      "publishedAt": "2026-11-08T10:22:04.000Z"
+    }
+  ]
+}

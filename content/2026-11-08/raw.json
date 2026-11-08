@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T17:45:47.557Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 13
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50410107",
+      "representativeId": "hackernews:50410107",
+      "items": [
+        {
+          "id": "hackernews:50410107",
+          "title": "Goodbye Claude, hello Pi",
+          "url": "https://caleb.software/posts/claude-to-pi.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T03:11:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 564,
+            "comments": 352,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50410107"
+          }
+        }
+      ],
+      "score": 5.056016243349934,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8560162433499336,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50413822",
+      "representativeId": "hackernews:50413822",
+      "items": [
+        {
+          "id": "hackernews:50413822",
+          "title": "OpenAI raises $11B at a $1.25T valuation",
+          "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T14:49:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 137,
+            "comments": 134,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50413822"
+          }
+        }
+      ],
+      "score": 5.049568954394708,
+      "breakdown": {
+        "hnPoints": 1.5851908919554503,
+        "hnComments": 0.9249467762987215,
+        "mentions": 0.0,
+        "recency": 1.3394312861405355,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50407882",
+      "representativeId": "hackernews:50407882",
+      "items": [
+        {
+          "id": "hackernews:50407882",
+          "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+          "source": "hackernews",
+          "publishedAt": "2026-11-07T20:45:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 506,
+            "comments": 368,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
+          }
+        }
+      ],
+      "score": 4.868062857811668,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.668062857811668,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50412591",
+      "representativeId": "hackernews:50412591",
+      "items": [
+        {
+          "id": "hackernews:50412591",
+          "title": "Why I will not be using LLMs in my coding",
+          "url": "https://polso.info/why-i-will-not-be-using-llms-coding",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T12:14:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 90,
+            "comments": 184,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50412591"
+          }
+        }
+      ],
+      "score": 4.848017959745121,
+      "breakdown": {
+        "hnPoints": 1.4512289931735118,
+        "hnComments": 0.9843589828571427,
+        "mentions": 0.0,
+        "recency": 1.212429983714466,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50411961",
+      "representativeId": "hackernews:50411961",
+      "items": [
+        {
+          "id": "hackernews:50411961",
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "url": "https://github.com/synchopate/llama-modchip",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T10:22:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 207,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50411961"
+          }
+        }
+      ],
+      "score": 4.826687896255724,
+      "breakdown": {
+        "hnPoints": 1.7171871574008397,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 1.128264359235169,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50406563",
+      "representativeId": "hackernews:50406563",
+      "items": [
+        {
+          "id": "hackernews:50406563",
+          "title": "The end of Microsoft Research's AI Frontiers group",
+          "url": "https://hunch.net/?p=13764006",
+          "source": "hackernews",
+          "publishedAt": "2026-11-07T18:02:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 482,
+            "comments": 296,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50406563"
+          }
+        }
+      ],
+      "score": 4.789837604186383,
+      "breakdown": {
+        "hnPoints": 1.9882284813168694,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6016091228695133,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50412760",
+      "representativeId": "hackernews:50412760",
+      "items": [
+        {
+          "id": "hackernews:50412760",
+          "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+          "url": "https://ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T12:41:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50412760"
+          }
+        }
+      ],
+      "score": 4.122893978751531,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 1.23382083810656,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50402212",
+      "representativeId": "hackernews:50402212",
+      "items": [
+        {
+          "id": "hackernews:50402212",
+          "title": "The Components of Agent Memory",
+          "url": "https://anthropic.com/research/components-of-agent-memory",
+          "source": "hackernews",
+          "publishedAt": "2026-11-07T06:39:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 166,
+            "comments": 99,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50402212"
+          }
+        }
+      ],
+      "score": 4.10295766898279,
+      "breakdown": {
+        "hnPoints": 1.6465556058067152,
+        "hnComments": 0.8683585548682906,
+        "mentions": 0.0,
+        "recency": 0.3880435083077843,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50405263",
+      "representativeId": "hackernews:50405263",
+      "items": [
+        {
+          "id": "hackernews:50405263",
+          "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+          "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+          "source": "hackernews",
+          "publishedAt": "2026-11-07T15:16:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50405263"
+          }
+        }
+      ],
+      "score": 3.6403699958980282,
+      "breakdown": {
+        "hnPoints": 1.3890177512719881,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 0.54071779157263,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/7/link-rel-next",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/7/link-rel-next",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/7/link-rel-next",
+          "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+          "url": "https://simonwillison.net/2026/Nov/7/link-rel-next",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-07T23:57:46.000Z",
+          "summary": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table. This was happening because Datasette pages serve an HTTP link header like this: link: <https://latest.datasette.io/fixtures/compound_three_primary_keys?_next=a%2Cd%2Cv>; rel=\"next\" This is bad. A tiny fraction of the visitors to one of those pages will click the \"next\" link, which means their browser is fetching unnecessary data and the Datasette server is having to render an entire page that then gets thrown away. I dug in and learned that Firefox has an issue that has been open for 24 years about this behavior... And one of the early comments on that issue links to my blog post from 2002 complaining about this feature. I hadn't just forgotten that I had written about it, I had forgotten the feature entirely! Tags: firefox , html , mozilla , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8057859393546416,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7557859393546418,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+          "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+          "url": "https://theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-07T15:50:00.000Z",
+          "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4526407234083143,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5526407234083145,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+          "title": "AI broke the cybersecurity world. What’s next?",
+          "url": "https://theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-07T15:00:00.000Z",
+          "summary": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so direct, and you’re going to hear him say […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.435187930252134,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5351879302521342,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+          "url": "https://theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-07T12:30:00.000Z",
+          "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3860675057473997,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.48606750574739976,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50410107",
+    "hackernews:50413822",
+    "hackernews:50407882",
+    "hackernews:50412591",
+    "hackernews:50411961"
+  ]
+}

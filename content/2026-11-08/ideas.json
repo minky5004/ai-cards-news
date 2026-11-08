@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T17:52:13.581Z",
+  "idea": {
+    "productName": "PassFence",
+    "tagline": "에이전트 자동 승인으로 새는 비밀번호를 푸시 전에 차단한다",
+    "oneLineSummary": "AI 코딩 도구를 쓰는 소프트웨어 엔지니어링 팀을 위한 로컬 시크릿 차단 및 가상 환경변수 프록시를 판매합니다.",
+    "problem": "개발자들은 Claude Code의 반복 확인을 피하려 Don't Ask Again을 켜지만 1,122개 파일에 비밀번호가 노출됐습니다. 편의성을 택하면 보안을 통째로 잃는 딜레마에 갇혀 있습니다.",
+    "productDescription": "Claude Code나 Pi 같은 코딩 에이전트가 로컬 환경에서 실행될 때 파일 수정과 터미널 명령을 실시간 감시하는 로컬 프록시 데몬입니다. 에이전트가 자동 승인 모드로 동작하더라도 비밀번호, API 토큰, .env 파일 등이 포함된 코드가 생성되면 커밋과 원격 깃 푸시를 즉각 차단합니다. 에이전트에게는 더미 환경변수만 보여주고 실제 호출 시에만 안전하게 중계하여 소스코드 내 민감 정보 하드코딩을 원천 격리합니다.",
+    "keyFeatures": [
+      "에이전트 커밋 즉시 시크릿 검출",
+      "API 키 감지 시 깃 푸시 즉시 차단",
+      "가상 토큰 주입으로 원본 유출 방지",
+      "CLAUDE 및 AGENTS 설정 동기화"
+    ],
+    "persona": "팀원들이 Claude Code의 Don't Ask Again 기능을 활성화한 뒤 GitHub 저장소에 인증 토큰이 딸려 들어갈까 봐 매일 푸시 로그를 전수 검사하는 중소 핀테크 스타트업 보안 리드입니다.",
+    "businessModel": "개발자 1인당 월 12달러의 SaaS 구독제 모델입니다. 중앙 정책 배포 및 유출 감사 로그를 제공하는 엔터프라이즈 팀 플랜은 개발자당 월 29달러를 청구합니다.",
+    "marketStats": "전체 시장 규모는 기사에 근거가 없습니다. 다만 보안 기업 Apiiro 분석에 따르면 Claude Code의 Don't Ask Again 기능 활성화로 인해 공개 GitHub 저장소 1,122개 파일에서 실제 비밀번호 노출이 확인되었습니다.",
+    "goToMarket": "GitHub에서 Claude Code 도입 흔적인 CLAUDE.md 및 AGENTS.md 설정 파일을 보유한 공개 저장소 관리자들을 대상으로 사전 커밋 점검 툴(CLI)을 무료 배포하여 초기 100개 개발팀을 유입시킵니다.",
+    "unfairAdvantage": "Claude Code의 무단 승인 취약점으로 1,122개 비밀번호가 유출되었다는 보안 경고가 터져 나온 직후라 개발팀 설득 비용이 가장 낮은 시점입니다.",
+    "competitors": [
+      "git-secrets — 정규식 기반 검사 · 에이전트 런타임 가상 토큰 주입 불가",
+      "Gitleaks — 범용 시크릿 스캐너 · Don't Ask Again 모드 동적 통제 부재",
+      "Apiiro — 엔터프라이즈 전용 대형 플랫폼 · 개인 및 소규모 팀용 경량 CLI 미제공"
+    ],
+    "risks": [
+      "Anthropic이 Claude Code 자체에 내장 시크릿 마스킹 기능을 기본 탑재하는 상황",
+      "개발자가 보안 검사 지연 시간을 이유로 프록시 데몬 실행을 임의 해제하는 행위",
+      "다양한 LLM 에이전트 프레임워크마다 달라지는 권한 승인 메커니즘 파편화"
+    ],
+    "actionPlan": [
+      "기사에서 유출이 확인된 1,122개 GitHub 커밋 패턴을 분석해 탐지 규칙 세트 작성",
+      "Claude Code 실행 명령을 감싸는 경량 bash/zsh 래퍼 프로토타입 3일 내 제작",
+      "로컬 git pre-commit 훅과 연동하여 API 키 패턴 감지 시 프로세스 중단 기능 구현",
+      "Hacker News의 Claude Code 전환 관련 스레드 참여자 30명에게 비공개 베타 배포"
+    ],
+    "recommendation": "에이전트의 자동 승인 기능이 낳은 구체적 보안 사고(1,122개 파일 노출)를 정면으로 해결하는 아이디어입니다. 다만 플랫폼 제조사가 자체 클라이언트 업데이트로 시크릿 필터링을 기본 지원하면 서드파티 툴로서의 설 자리가 급격히 좁아질 수 있으므로 중앙 정책 관리 기능으로 빠르게 고도화해야 합니다.",
+    "searchQuery": "agentic coding secret leak",
+    "novelty": {
+      "verdict": "CROWDED",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 507점으로 이미 널리 다뤄진 주제다",
+      "evidence": [
+        {
+          "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+          "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+          "points": 507
+        },
+        {
+          "title": "Launch HN: Bullet (YC S26) – A Faster Coding Agent",
+          "url": "https://www.codewithbullet.com",
+          "points": 121
+        },
+        {
+          "title": "Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team",
+          "url": "https://www.runtm.com/",
+          "points": 103
+        },
+        {
+          "title": "Launch HN: Traceforce (YC S26) – Company-wide security monitoring for AI apps",
+          "url": "https://news.ycombinator.com/item?id=48937020",
+          "points": 44
+        },
+        {
+          "title": "Sieve – scans Cursor/Claude chat history for leaked API keys",
+          "url": "https://apps.apple.com/us/app/sieve-secret-scanner/id6767409365?mt=12",
+          "points": 18
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50410107",
+        "title": "Goodbye Claude, hello Pi",
+        "url": "https://caleb.software/posts/claude-to-pi.html"
+      },
+      {
+        "clusterId": "hackernews:50413822",
+        "title": "OpenAI raises $11B at a $1.25T valuation",
+        "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought"
+      },
+      {
+        "clusterId": "hackernews:50407882",
+        "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+        "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+      },
+      {
+        "clusterId": "hackernews:50412591",
+        "title": "Why I will not be using LLMs in my coding",
+        "url": "https://polso.info/why-i-will-not-be-using-llms-coding"
+      },
+      {
+        "clusterId": "hackernews:50411961",
+        "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+        "url": "https://github.com/synchopate/llama-modchip"
+      },
+      {
+        "clusterId": "hackernews:50406563",
+        "title": "The end of Microsoft Research's AI Frontiers group",
+        "url": "https://hunch.net/?p=13764006"
+      },
+      {
+        "clusterId": "hackernews:50412760",
+        "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+        "url": "https://ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
+      },
+      {
+        "clusterId": "hackernews:50402212",
+        "title": "The Components of Agent Memory",
+        "url": "https://anthropic.com/research/components-of-agent-memory"
+      },
+      {
+        "clusterId": "hackernews:50405263",
+        "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
+        "url": "https://github.com/Video-Rebirth/hyperflow-h3-flash"
+      }
+    ]
+  }
+}
