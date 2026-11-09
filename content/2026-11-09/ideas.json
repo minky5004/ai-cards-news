@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T22:10:04.527Z",
+  "idea": {
+    "productName": "VibeGate",
+    "tagline": "현업의 바이브 코딩을 차단 대신 통제한다",
+    "oneLineSummary": "금융사 컴플라이언스 팀을 위해 비개발 실무자의 AI 생성 코드와 데이터 유출을 격리·감사하는 게이트웨이를 팝니다.",
+    "problem": "골드만삭스처럼 비개발 직원의 AI 코딩 도구 사용을 보안과 리스크 우려로 전면 차단하는 금융사가 늘고 있습니다. 현업은 업무 자동화가 다시 막히고 엔지니어링 팀은 비인가 섀도 AI 코딩을 일일이 감시하지 못합니다.",
+    "productDescription": "비개발 직군이 상용 AI 코딩 어시스턴트를 사용할 때 실행 권한과 데이터 접근을 통제하는 기업용 프록시입니다. 터미널 및 브라우저 기반 AI 도구의 시스템 파일 접근과 비인가 API 호출을 차단된 샌드박스 안으로 격리합니다. 실무자가 만든 코드와 데이터 흐름을 자동 감사 리포트로 변환해 사내 1만 명 이상의 엔지니어링 부서에 안전하게 전달합니다.",
+    "keyFeatures": [
+      "실행 권한 제한된 격리 샌드박스 제공",
+      "고객 거래 데이터 외부 전송 실시간 차단",
+      "사내 엔지니어 승인용 감사 리포트 생성",
+      "터미널 및 웹 AI 코딩 도구 통합 프록시"
+    ],
+    "persona": "골드만삭스 등 비개발 직군의 Claude Code 사용 금지 조치 이후, 트레이더들의 반발과 우회 사용을 단속해야 하는 글로벌 투자은행 IT 보안 컴플라이언스 총괄자입니다.",
+    "businessModel": "워크스테이션 및 터미널 프록시 에이전트당 월 40달러의 B2B SaaS 구독 모델입니다. 대형 금융사 전용 온프레미스 격리 인프라 구축 및 규제 감사 로그 패키지는 연간 12만 달러부터 시작합니다.",
+    "marketStats": "기사에 규모 근거 없음 (골드만삭스는 약 12,000명의 엔지니어가 근무하며 10월부터 트레이더 및 뱅커의 Claude Code 접근을 제한함).",
+    "goToMarket": "골드만삭스, 모건스탠리 등 비개발자 AI 코딩 차단 조치가 내려진 대형 금융사의 Strats 및 IT 거버넌스 실무자 커뮤니티를 타깃 링크드인 캠페인으로 공략합니다.",
+    "unfairAdvantage": "경쟁 제품이 개발자 IDE 보안에 머물 때, 비개발 직군 전용의 명령어 화이트리스트와 금융 컴플라이언스 샌드박스 감사 정책을 즉시 제공할 수 있습니다.",
+    "competitors": [
+      "GitHub Enterprise — 조직 단위 접근 권한만 통제할 뿐 런타임 데이터 유출 방지 부재",
+      "Claude Code — 엔지니어 전용 CLI로 비개발 직군 통제 거버넌스 기능 없음",
+      "Docker Desktop — 범용 컨테이너 격리일 뿐 금융 컴플라이언스 감사 로그 미지원"
+    ],
+    "risks": [
+      "앤트로픽이나 마이크로소프트가 엔터프라이즈 거버넌스 샌드박스를 기본 기능으로 자체 출시할 위험",
+      "금융 기관의 내부 승인 절차가 지나치게 길어 초기 B2B 영업 주기 지연"
+    ],
+    "actionPlan": [
+      "터미널 AI 도구 시스템 호출을 차단하는 오픈소스 eBPF 격리 프록시 프로토타입 제작",
+      "금융권 준법감시인 5명 인터뷰하여 비개발자 AI 도구 허용 최소 요구조건 정의",
+      "바이브 코딩 산출물 자동 분석 및 엔지니어 이관용 PR 템플릿 배포"
+    ],
+    "recommendation": "현업의 AI 코딩 욕구와 금융 규제 사이의 마찰은 앞으로 더 심화될 명확한 고통 지점입니다. 다만 금융권 B2B 세일즈 주기가 매우 길기 때문에 헤지펀드나 핀테크 등 규제 유연성이 비교적 높은 중소형 금융사를 먼저 뚫어야 생존할 수 있습니다.",
+    "searchQuery": "vibe coding enterprise governance",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50431144",
+        "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+        "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+      },
+      {
+        "clusterId": "hackernews:50418975",
+        "title": "I'm not convinced the AI bubble exists",
+        "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html"
+      },
+      {
+        "clusterId": "hackernews:50415628",
+        "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+        "url": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+      },
+      {
+        "clusterId": "hackernews:50429426",
+        "title": "Google Gemini routes personal Drive files and emails to human annotators",
+        "url": "https://github.com/thisisme6598/gemini_files"
+      },
+      {
+        "clusterId": "hackernews:50416363",
+        "title": "How I'm fighting the AI brain fry",
+        "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry"
+      },
+      {
+        "clusterId": "hackernews:50411961",
+        "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+        "url": "https://github.com/synchopate/llama-modchip"
+      },
+      {
+        "clusterId": "hackernews:50421426",
+        "title": "Apple capped engineers at a $200 daily AI budget",
+        "url": "https://stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget"
+      },
+      {
+        "clusterId": "hackernews:50413822",
+        "title": "OpenAI raises $11B at a $1.25T valuation",
+        "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought"
+      },
+      {
+        "clusterId": "hackernews:50412591",
+        "title": "Why I will not be using LLMs in my coding",
+        "url": "https://polso.info/why-i-will-not-be-using-llms-coding"
+      },
+      {
+        "clusterId": "hackernews:50422181",
+        "title": "370 Books in 20 months: South African author defends her use of AI",
+        "url": "https://enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai"
+      },
+      {
+        "clusterId": "hackernews:50415817",
+        "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+        "url": "https://wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c"
+      },
+      {
+        "clusterId": "hackernews:50424147",
+        "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
+        "url": "https://zenodo.org/records/23682548"
+      },
+      {
+        "clusterId": "hackernews:50424199",
+        "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+        "url": "https://github.com/samir-sarwar/samir-vllm"
+      },
+      {
+        "clusterId": "hackernews:50422001",
+        "title": "Being a meat proxy for AI should be grounds for getting people fired",
+        "url": "https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired"
+      },
+      {
+        "clusterId": "hackernews:50420532",
+        "title": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code",
+        "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl"
+      }
+    ]
+  }
+}

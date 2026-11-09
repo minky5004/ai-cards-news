@@ -1,0 +1,1035 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T22:03:48.646Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 6
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 7,
+      "filtered": 3
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 28,
+      "filtered": 22
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50431144",
+      "representativeId": "hackernews:50431144",
+      "items": [
+        {
+          "id": "hackernews:50431144",
+          "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T20:04:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 117,
+            "comments": 65,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50431144"
+          }
+        },
+        {
+          "id": "hackernews:50429906",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:56:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 754,
+            "comments": 426,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429906"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "title": "Anthropic launches new Claude Fable and Mythos 5.2 models",
+          "url": "https://theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "summary": "Anthropic is announcing two new models today: Claude Fable 5.2 and Claude Mythos 5.2, which it says are designed to take on \"daunting\" technical challenges. The company claims the new models show improvements in coding, reasoning, and vision, and can generate outputs faster than the 5.1 versions of the Fable and Mythos models. Claude Fable […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.256464821974342,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 1.3897981553076755,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50418975",
+      "representativeId": "hackernews:50418975",
+      "items": [
+        {
+          "id": "hackernews:50418975",
+          "title": "I'm not convinced the AI bubble exists",
+          "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T23:44:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 535,
+            "comments": 919,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50418975"
+          }
+        }
+      ],
+      "score": 4.835054595979704,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6350545959797036,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50415628",
+      "representativeId": "hackernews:50415628",
+      "items": [
+        {
+          "id": "hackernews:50415628",
+          "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+          "url": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T18:16:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 874,
+            "comments": 471,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50415628"
+          }
+        }
+      ],
+      "score": 4.714342508462449,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5143425084624487,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50429426",
+      "representativeId": "hackernews:50429426",
+      "items": [
+        {
+          "id": "hackernews:50429426",
+          "title": "Google Gemini routes personal Drive files and emails to human annotators",
+          "url": "https://github.com/thisisme6598/gemini_files",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:24:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 143,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429426"
+          }
+        }
+      ],
+      "score": 4.7090053152703,
+      "breakdown": {
+        "hnPoints": 1.5988831265048995,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 1.3031656059038925,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50416363",
+      "representativeId": "hackernews:50416363",
+      "items": [
+        {
+          "id": "hackernews:50416363",
+          "title": "How I'm fighting the AI brain fry",
+          "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T19:37:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 299,
+            "comments": 207,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50416363"
+          }
+        }
+      ],
+      "score": 4.577006153317159,
+      "breakdown": {
+        "hnPoints": 1.835014920331153,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5419912329860057,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50411961",
+      "representativeId": "hackernews:50411961",
+      "items": [
+        {
+          "id": "hackernews:50411961",
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "url": "https://github.com/synchopate/llama-modchip",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T10:22:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 474,
+            "comments": 204,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50411961"
+          }
+        }
+      ],
+      "score": 4.562274779635759,
+      "breakdown": {
+        "hnPoints": 1.9828551797608913,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.37941959987486695,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50421426",
+      "representativeId": "hackernews:50421426",
+      "items": [
+        {
+          "id": "hackernews:50421426",
+          "title": "Apple capped engineers at a $200 daily AI budget",
+          "url": "https://stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T05:30:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 109,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50421426"
+          }
+        }
+      ],
+      "score": 4.409285436955982,
+      "breakdown": {
+        "hnPoints": 1.5122336173019333,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 0.7927495725196438,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50413822",
+      "representativeId": "hackernews:50413822",
+      "items": [
+        {
+          "id": "hackernews:50413822",
+          "title": "OpenAI raises $11B at a $1.25T valuation",
+          "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T14:49:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 189,
+            "comments": 213,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50413822"
+          }
+        }
+      ],
+      "score": 4.338499183944691,
+      "breakdown": {
+        "hnPoints": 1.688067085751122,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.45043209819356955,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50412591",
+      "representativeId": "hackernews:50412591",
+      "items": [
+        {
+          "id": "hackernews:50412591",
+          "title": "Why I will not be using LLMs in my coding",
+          "url": "https://polso.info/why-i-will-not-be-using-llms-coding",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T12:14:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 117,
+            "comments": 238,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50412591"
+          }
+        }
+      ],
+      "score": 4.142542985729094,
+      "breakdown": {
+        "hnPoints": 1.5348196578300592,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.40772332789903387,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50422181",
+      "representativeId": "hackernews:50422181",
+      "items": [
+        {
+          "id": "hackernews:50422181",
+          "title": "370 Books in 20 months: South African author defends her use of AI",
+          "url": "https://enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T07:21:33.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 44,
+            "comments": 87,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50422181"
+          }
+        }
+      ],
+      "score": 4.120415353023007,
+      "breakdown": {
+        "hnPoints": 1.2246754669259217,
+        "hnComments": 0.8442540815773762,
+        "mentions": 0.0,
+        "recency": 0.8514858045197089,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50415817",
+      "representativeId": "hackernews:50415817",
+      "items": [
+        {
+          "id": "hackernews:50415817",
+          "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+          "url": "https://wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T18:43:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 98,
+            "comments": 126,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50415817"
+          }
+        }
+      ],
+      "score": 4.115098179193189,
+      "breakdown": {
+        "hnPoints": 1.4783371426195693,
+        "hnComments": 0.9134279794279235,
+        "mentions": 0.0,
+        "recency": 0.5233330571456957,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50424147",
+      "representativeId": "hackernews:50424147",
+      "items": [
+        {
+          "id": "hackernews:50424147",
+          "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
+          "url": "https://zenodo.org/records/23682548",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T11:30:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50424147"
+          }
+        }
+      ],
+      "score": 4.095202133005029,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 0.9989728307374026,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50424199",
+      "representativeId": "hackernews:50424199",
+      "items": [
+        {
+          "id": "hackernews:50424199",
+          "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+          "url": "https://github.com/samir-sarwar/samir-vllm",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T11:36:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50424199"
+          }
+        }
+      ],
+      "score": 4.067100743955314,
+      "breakdown": {
+        "hnPoints": 1.3803221151166902,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 1.0031275090314717,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50422001",
+      "representativeId": "hackernews:50422001",
+      "items": [
+        {
+          "id": "hackernews:50422001",
+          "title": "Being a meat proxy for AI should be grounds for getting people fired",
+          "url": "https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T06:55:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 43,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50422001"
+          }
+        }
+      ],
+      "score": 4.003065289674313,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.7135530955739849,
+        "mentions": 0.0,
+        "recency": 0.8374398463183248,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50420532",
+      "representativeId": "hackernews:50420532",
+      "items": [
+        {
+          "id": "hackernews:50420532",
+          "title": "Asahi Linux Drops MIT, Goes Full GPL After AI Used to Steal Unreleased Code",
+          "url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T03:06:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 68,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50420532"
+          }
+        }
+      ],
+      "score": 3.944607460289099,
+      "breakdown": {
+        "hnPoints": 1.3621923074258677,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.7231078676733724,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50414021",
+      "representativeId": "hackernews:50414021",
+      "items": [
+        {
+          "id": "hackernews:50414021",
+          "title": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
+          "url": "https://bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T15:19:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 37,
+            "comments": 61,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50414021"
+          }
+        }
+      ],
+      "score": 3.607826075295859,
+      "breakdown": {
+        "hnPoints": 1.1702804072117703,
+        "hnComments": 0.7782193286253187,
+        "mentions": 0.0,
+        "recency": 0.45932633945877,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50412760",
+      "representativeId": "hackernews:50412760",
+      "items": [
+        {
+          "id": "hackernews:50412760",
+          "title": "Anthropic strikes $3.4B deal to generate gas-fired power for data centres",
+          "url": "https://ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+          "source": "hackernews",
+          "publishedAt": "2026-11-08T12:41:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 42,
+            "comments": 30,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50412760"
+          }
+        }
+      ],
+      "score": 3.472484476698381,
+      "breakdown": {
+        "hnPoints": 1.2100493595813293,
+        "hnComments": 0.6475183426219275,
+        "mentions": 0.0,
+        "recency": 0.4149167744951239,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "representativeId": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "source": "openai",
+          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.833083682433442,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.333083682433442,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-control-room",
+      "representativeId": "openai:https://openai.com/index/introducing-control-room",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-control-room",
+          "title": "Introducing Control Room: Human control over AI workloads",
+          "url": "https://openai.com/index/introducing-control-room",
+          "source": "openai",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.5580692199282433,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0580692199282435,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "source": "huggingface",
+          "publishedAt": "2026-11-09T15:05:57.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.4971502660734477,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1471502660734476,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "representativeId": "huggingface:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+          "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "source": "huggingface",
+          "publishedAt": "2026-11-09T12:34:29.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.3908826808248365,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0408826808248364,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/coderabbit-codex-daybreak",
+      "representativeId": "openai:https://openai.com/index/coderabbit-codex-daybreak",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/coderabbit-codex-daybreak",
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "source": "openai",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.372759605597901,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8727596055979009,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/kuken",
+      "representativeId": "openai:https://openai.com/index/kuken",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/kuken",
+          "title": "Kuken Industries searches 70 years of drawings in minutes",
+          "url": "https://openai.com/index/kuken",
+          "source": "openai",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.372759605597901,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8727596055979009,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+          "title": "Claude Code is accidentally exposing secrets all over GitHub",
+          "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-09T17:24:26.000Z",
+          "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.303776063658005,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2537760636580055,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "url": "https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-09T17:05:43.000Z",
+          "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.288805286881628,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2388052868816284,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+          "url": "https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T19:09:58.000Z",
+          "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2416382646370665,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3416382646370666,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+          "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+          "url": "https://theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T18:07:23.000Z",
+          "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.188817698237818,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.288817698237818,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+          "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+          "url": "https://theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T17:36:08.000Z",
+          "summary": "I would prefer that these people's sex lives were none of my business but I guess we have to talk about Jensen Huang and the National Security Incident. Who could have guessed that the guy who was out here signing titties might not have great judgment about how to behave around women? Alice Huang - […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1632262232120496,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.26322622321205,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
+          "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-09T16:56:54.000Z",
+          "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.131815225080336,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2318152250803363,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+          "title": "Innovating with AI in the special chemicals industry",
+          "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.108069219928243,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0580692199282435,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+          "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+          "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-09T16:12:28.000Z",
+          "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0971831591496444,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1971831591496445,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+          "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+          "url": "https://theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T15:50:38.000Z",
+          "summary": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situation where somebody […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0805243833113303,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1805243833113304,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+          "title": "Disney and Adobe are building generative AI tools together",
+          "url": "https://theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T15:38:56.000Z",
+          "summary": "The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced today at Adobe's MAX conference, and it will see Adobe providing Disney with early access to its latest technologies for everything from Disney's theme parks and cruise line to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0716929138763747,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1716929138763748,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+          "title": "Jonathan Kanter is using AI to take on Big Tech",
+          "url": "https://theverge.com/policy/1029652/kanter-doj-biden-legal-tech",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T14:30:00.000Z",
+          "summary": "When Jonathan Kanter stepped down as head of the Justice Department's Antitrust Division in 2024, he set out to keep fighting to dismantle illegal monopolies. But this time, he's continuing the fight in the private sector, and with a perhaps unexpected tool: AI. Alongside former acting Antitrust Division chief Doha Mekki, Kanter recently launched a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0209852897915024,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1209852897915027,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/9/hn-50421091",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/9/hn-50421091",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/9/hn-50421091",
+          "title": "The Web Is More Than Enough, by Paul Ford",
+          "url": "https://simonwillison.net/2026/Nov/9/hn-50421091",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-09T04:32:33.000Z",
+          "summary": "My comment on The Web Is More Than Enough, by Paul Ford — Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB) I just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB) They aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414 But yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js. In eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal. Tags: hacker-news , javascript , ai , generative-ai , llms , claude , three-js",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8139620621941692,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7639620621941694,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/9/details-summary",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/9/details-summary",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/9/details-summary",
+          "title": "Hide your slop PR descriptions behind <details><summary>",
+          "url": "https://simonwillison.net/2026/Nov/9/details-summary",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-09T04:25:05.000Z",
+          "summary": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions. They're too good at describing the work The problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That's a lot of information to absorb. It's not necessarily slop, but it reads like slop! It's very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as \"I'm not reading all of that\". It doesn't matter how accurate or useful the information is, I'm instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me! I want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention. I think I've found a low-effort way to do this that feels right. Hide most of it in a details/summary The HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text. The code looks like this: < details > < summary > Claude Opus 5.5 </ summary > < h2 > The hook </ h2 > Plugins implement < code > register_agent_reference_types(datasette) </ code > ... </ details > When rendered, it looks like this : Crucially, <details><summary> is supported in GitHub Markdown . You can drop those tags directly into an issue comment or PR description and GitHub will hide the details and display just the summary plus an expansion arrow. I've started using this for my AI-generated pull requests. The opening paragraph of my PRs will be carefully selected to act as a high-level explanation of what's going on - the shortest text a human can read that will help get them up to speed. I'll sometimes throw in a screenshot as well, since images are often the best way to quickly illustrate a new feature. The full agent-written essay then follows in a <details><summary> . I use the model name and often the effort level as that summary, to make it abundantly clear what is going on - \"Claude Opus 5.5 Medium\" for example. My PRs don't feel nearly as sloppy now! The information is all still there, but a reader can glance at it and get the top, human-curated information without their eyes glazing over at multiple paragraphs of agent-written details. I don't always write the introduction myself - sometimes the agent has given me what I need already, hidden away in the avalanche of other text. My promise to the reader is that the short opener will represent my human judgement as to what is definitely worth their time. Here are some recent examples where I've used this pattern, including the opener I used: datasette PR #3052: Redesign row page as a vertical list of fields - \"The row page showed its single row as a one-row table. For wide tables, like a 46-column GitHub repos table, that scrolled far off to the right and left most of the page blank.\" (then a screenshot) datasette PR #3043: Pagination bar showing which rows are on the current page - \"Table pages that span more than one page now make it obvious where you are, and offer navigation at the top of the page as well as the bottom.\" (plus screenshot) datasette PR #3042: Load edit-tools.js on demand via a small loader - \" edit-tools.js (~220KB) was loaded on every table, row and database page, even for users who couldn't edit anything. Now only load it for users who can edit when they first interact with an edit feature (including mouse over an edit link).\" datasette-agent PR #51: register_agent_reference_types plugin hook - \"Lets plugins add their own kinds of item to the # tagging in the chat composer using a new register_agent_reference_types(datasette) plugin hook.\" - pictured above. llm PR #1838: Add llm openai endpoint add/list/remove/path commands - \"Adds commands for managing the records in extra-openai-models.yaml , so OpenAI-compatible endpoints can be saved from the command line instead of by hand-editing YAML.\" - then copied --help output. The mnemonic I used to have trouble remembering the order of the tags - is it <details><summary> or <summary><details> ? Here are two tricks that helped me. First, and most obviously, the <summary> is clearly the bit where you summarize the details. That's the tag for your line of text that can be clicked to expand - the <details> element must then wrap everything else. An even better trick is to always refer to these two tags as \"details-summary\". \"details-summary\" is two syllables followed by three syllables. That rolls off the tongue more smoothly than the three-two punch of \"summary-details\". Say \"details-summary\" out loud just a few times and you'll never forget the order of the tags again. (I still wish GitHub would add a button to their Markdown editor for this - partly to save me painstakingly typing it on my mobile keyboard, and partly to help spread the word to more GitHub users that this feature exists.) Tags: github , html , markdown , ai , datasette , generative-ai , llms , ai-assisted-programming , llm , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8103098157108892,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7603098157108894,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust",
+          "title": "parse_number() as a SQLite extension: C vs Rust",
+          "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-08T22:26:00.000Z",
+          "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted. I fired up regular Claude chat (Opus 5.5) and prompted : I'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse Explore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting .so (or whatever) file This gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite ) and 298 KB (using sqlite-loadable-rs ), while the C extension was 14 KB. But the Rust extension was faster! Turns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted: Try writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation And it did, using \"Clinger's fast path\": Net cost per row over 2 million rows, lower is better: first C new C rusqlite sqlite-loadable Mixed data 67 ns 19 ns 46 ns 41 ns Integers only 25 ns 16 ns 36 ns 32 ns Decimals only 106 ns 18 ns 55 ns 47 ns Finally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this: Clone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder Here's the resulting report . Tags: c , research , sqlite , rust , claude",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6538134313004567,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6038134313004568,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50431144",
+    "hackernews:50418975",
+    "hackernews:50415628",
+    "hackernews:50429426",
+    "hackernews:50416363"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T22:07:53.951Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50431144",
+      "headline": "클로드 페이블 5.2 성능과 가격표 분석",
+      "highlight": [
+        "성능과 가격표"
+      ],
+      "body": "아티피셜 애널리시스가 클로드 페이블 5.2 모델의 종합 분석 결과를 발표했습니다. 9개 평가 항목을 포함한 인텔리전스 지수로 지능과 속도, 태스크당 비용을 독립적으로 측정했습니다. 이용자는 정밀한 데이터를 바탕으로 작업에 최적화된 모델을 선택할 수 있습니다.",
+      "sourceUrl": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "sourceName": "hackernews",
+      "imageUrl": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
+      "publishedAt": "2026-11-09T20:04:55.000Z"
+    },
+    {
+      "clusterId": "hackernews:50418975",
+      "headline": "AI 거품론? P/E 비율 20대, 실제는 달랐다",
+      "highlight": [
+        "P/E 비율 20대"
+      ],
+      "body": "AI 거품론은 사실이 아닐 가능성이 높습니다. 주요 AI 기업들의 주가수익비율(P/E)은 20대에 머물며 건전한 수준입니다. 이는 닷컴 버블 시기와 달리, 가치 평가가 수익을 바탕으로 이루어지고 있다는 것을 보여줍니다.",
+      "sourceUrl": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+      "sourceName": "Matteo's Website",
+      "imageUrl": "https://matteoraso.github.io/images/profile.jpg",
+      "publishedAt": "2026-11-08T23:44:36.000Z"
+    },
+    {
+      "clusterId": "hackernews:50415628",
+      "headline": "골드만삭스, 트레이더 AI 코딩 막았다",
+      "highlight": [
+        "AI 코딩"
+      ],
+      "body": "골드만삭스가 트레이더와 뱅커의 클로드 코드, 깃허브 사용을 엔지니어만 허용하도록 제한했습니다. 생산성과 리스크 문제로, 7월에 사용을 독려했던 것과 대조적입니다. 이제 엔스로픽 IPO 주관사 직원들조차 해당 AI 도구를 쓸 수 없게 됐습니다.",
+      "sourceUrl": "https://thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "sourceName": "State of AI",
+      "imageUrl": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
+      "publishedAt": "2026-11-08T18:16:07.000Z"
+    },
+    {
+      "clusterId": "hackernews:50429426",
+      "headline": "구글 제미나이 내 개인 파일 사람이 본다",
+      "highlight": [
+        "사람이 본다"
+      ],
+      "body": "구글이 2023년 약속을 깨고 제미나이에 연결된 드라이브와 이메일을 사람이 직접 검토한다고 인정했습니다. 태그 없이 일상적인 질문만 해도 파일 전체나 계좌번호가 자동 추출돼 검토자에게 노출됩니다. 민감 정보가 든 파일은 앱 연결을 해제해야 합니다.",
+      "sourceUrl": "https://github.com/thisisme6598/gemini_files",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/91a28031c9f2c576bcf991ca76015b4d58683b78b1fa91f20a83c1e18681d948/thisisme6598/gemini_files",
+      "publishedAt": "2026-11-09T18:24:38.000Z"
+    },
+    {
+      "clusterId": "hackernews:50416363",
+      "headline": "AI 20개 태스크 동시 처리? 뇌 과부하 끝!",
+      "highlight": [
+        "뇌 과부하"
+      ],
+      "body": "AI 코딩 시 20개 스레드를 오가는 뇌 과부하, 이젠 걱정 없습니다. 개발자 Sergey Kuhne는 깃(Git) 기반의 우선순위 큐 시스템을 만들었습니다. 덕분에 컨텍스트 손실 없이 하나씩 집중하며 AI 생산성을 극대화할 수 있습니다.",
+      "sourceUrl": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-11-08T19:37:42.000Z"
+    }
+  ]
+}
