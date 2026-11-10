@@ -1,0 +1,1426 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T19:27:35.540Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 8
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 5
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 29,
+      "filtered": 27
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50431144",
+      "representativeId": "hackernews:50431144",
+      "items": [
+        {
+          "id": "hackernews:50431144",
+          "title": "Claude Fable 5.2 scores 65 on Artificial Analysis, highest so far",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T20:04:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 365,
+            "comments": 264,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50431144"
+          }
+        },
+        {
+          "id": "hackernews:50429906",
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://anthropic.com/claude-fable-and-mythos-5-2",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:56:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 984,
+            "comments": 971,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429906"
+          }
+        },
+        {
+          "id": "hackernews:50429947",
+          "title": "Claude Fable 5.2",
+          "url": "https://twitter.com/claudeai/status/2119867114450268322",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:58:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429947"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+          "title": "Quoting Prompting Claude Fable 5.2",
+          "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-10T05:34:14.000Z",
+          "summary": "Claude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, even when that repeated existing code. [...] If you want the model to improve the structure as it works, say that the code is its own: This codebase is yours: what it's for and how it's built are your call, and you'll keep building on it. In Anthropic’s testing on small coding tasks, the model merged repeated code in about half of the tries with this sentence, and in under a tenth of the tries without it. — Prompting Claude Fable 5.2 , Anthropic documentation Tags: prompt-engineering , anthropic , generative-ai , ai , llms , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+          "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-09T19:24:51.000Z",
+          "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.745300401281895,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.878633734615228,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50439616",
+      "representativeId": "hackernews:50439616",
+      "items": [
+        {
+          "id": "hackernews:50439616",
+          "title": "Anthropic to Seek $1.3T Valuation in IPO",
+          "url": "https://wsj.com/finance/stocks/anthropic-to-seek-1-3-trillion-valuation-in-ipo-8337b669",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T12:49:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50439616"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion",
+          "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T14:01:39.000Z",
+          "summary": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans",
+          "title": "Anthropic reportedly plans to move forward with IPO plans",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T01:27:12.000Z",
+          "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+          "title": "Anthropic targets $1.4 trillion IPO",
+          "url": "https://theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-10T14:06:54.000Z",
+          "summary": "Anthropic confirmed on Tuesday that its IPO could be one of the biggest ever, even while falling short of previous expectations. Its IPO price is expected to be between $70.00 and $78.00 per share, which would put its valuation as high as $1.4 trillion, according to the New York Times. The Wall Street Journal reports […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.190982245380224,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.8141127444841638,
+        "mentions": 1.6666666666666665,
+        "recency": 1.220967801457042,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50442303",
+      "representativeId": "hackernews:50442303",
+      "items": [
+        {
+          "id": "hackernews:50442303",
+          "title": "Gemini 4 Carbon is now available",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T16:07:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 238,
+            "comments": 132,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50442303"
+          }
+        }
+      ],
+      "score": 5.2030289087202615,
+      "breakdown": {
+        "hnPoints": 1.7618821147364667,
+        "hnComments": 0.9221323708524131,
+        "mentions": 0.0,
+        "recency": 1.319014423131382,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50438318",
+      "representativeId": "hackernews:50438318",
+      "items": [
+        {
+          "id": "hackernews:50438318",
+          "title": "AI usage generates a fragile codebase",
+          "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T10:25:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 201,
+            "comments": 259,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50438318"
+          }
+        }
+      ],
+      "score": 4.967324421666993,
+      "breakdown": {
+        "hnPoints": 1.7077703206818444,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.0595541009851488,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50429426",
+      "representativeId": "hackernews:50429426",
+      "items": [
+        {
+          "id": "hackernews:50429426",
+          "title": "Google Gemini routes personal Drive files and emails to human annotators",
+          "url": "https://github.com/thisisme6598/gemini_files",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:24:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 700,
+            "comments": 145,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429426"
+          }
+        }
+      ],
+      "score": 4.711418586266044,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9397171590370157,
+        "mentions": 0.0,
+        "recency": 0.5717014272290282,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50435660",
+      "representativeId": "hackernews:50435660",
+      "items": [
+        {
+          "id": "hackernews:50435660",
+          "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
+          "url": "https://cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T03:20:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 190,
+            "comments": 179,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50435660"
+          }
+        }
+      ],
+      "score": 4.675107461335785,
+      "breakdown": {
+        "hnPoints": 1.6897559030256242,
+        "hnComments": 0.9791925866828481,
+        "mentions": 0.0,
+        "recency": 0.8061589716273128,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50437106",
+      "representativeId": "hackernews:50437106",
+      "items": [
+        {
+          "id": "hackernews:50437106",
+          "title": "Fireworks AI security breach impacts Notion and their customers",
+          "url": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T07:19:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 148,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50437106"
+          }
+        }
+      ],
+      "score": 4.509017609308547,
+      "breakdown": {
+        "hnPoints": 1.6098643615435815,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.0,
+        "recency": 0.9401262333803895,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50433079",
+      "representativeId": "hackernews:50433079",
+      "items": [
+        {
+          "id": "hackernews:50433079",
+          "title": "A year after the 100% AI mandate nobody understands our code",
+          "url": "https://reddit.com/r/ClaudeCode/comments/1xq2n3t/a_year_after_the_100_ai_mandate_nobody",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T22:19:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 144,
+            "comments": 185,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50433079"
+          }
+        }
+      ],
+      "score": 4.451069832726479,
+      "breakdown": {
+        "hnPoints": 1.6011095641244122,
+        "hnComments": 0.9853754902479747,
+        "mentions": 0.0,
+        "recency": 0.6645847783540922,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50438429",
+      "representativeId": "hackernews:50438429",
+      "items": [
+        {
+          "id": "hackernews:50438429",
+          "title": "Meet the Sad Wives of AI",
+          "url": "https://wired.com/story/meet-the-sad-wives-of-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T10:40:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 74,
+            "comments": 65,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50438429"
+          }
+        }
+      ],
+      "score": 4.448749654547498,
+      "breakdown": {
+        "hnPoints": 1.3890177512719881,
+        "hnComments": 0.7900082711932495,
+        "mentions": 0.0,
+        "recency": 1.069723632082261,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50440359",
+      "representativeId": "hackernews:50440359",
+      "items": [
+        {
+          "id": "hackernews:50440359",
+          "title": "Compress any LLM 3x in one click,near-lossless,in under 50 MB RAM",
+          "url": "https://neuracryption.com/research",
+          "source": "hackernews",
+          "publishedAt": "2026-11-10T13:51:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50440359"
+          }
+        }
+      ],
+      "score": 4.217990346014748,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 1.2092310839773606,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50429144",
+      "representativeId": "hackernews:50429144",
+      "items": [
+        {
+          "id": "hackernews:50429144",
+          "title": "Show HN: STE80 Humanizer – de-AI text by writing 80% of the way to ASD-STE100",
+          "url": "https://github.com/Dodaios/ste80-humanizer",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:05:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 104,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429144"
+          }
+        }
+      ],
+      "score": 3.9528830638798884,
+      "breakdown": {
+        "hnPoints": 1.4972672466236383,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.0,
+        "recency": 0.5648085358264421,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50432523",
+      "representativeId": "hackernews:50432523",
+      "items": [
+        {
+          "id": "hackernews:50432523",
+          "title": "Indie Game Development with AI",
+          "url": "https://sandromaglione.com/articles/indie-game-development-with-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T21:33:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50432523"
+          }
+        }
+      ],
+      "score": 3.6561221120625387,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 0.6455479399736987,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50424147",
+      "representativeId": "hackernews:50424147",
+      "items": [
+        {
+          "id": "hackernews:50424147",
+          "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
+          "url": "https://zenodo.org/records/23682548",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T11:30:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50424147"
+          }
+        }
+      ],
+      "score": 3.544380560180338,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 0.43825143213433965,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50424199",
+      "representativeId": "hackernews:50424199",
+      "items": [
+        {
+          "id": "hackernews:50424199",
+          "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+          "url": "https://github.com/samir-sarwar/samir-vllm",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T11:36:55.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 79,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50424199"
+          }
+        }
+      ],
+      "score": 3.533506234497993,
+      "breakdown": {
+        "hnPoints": 1.409781016657681,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.4400740980331601,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50430323",
+      "representativeId": "hackernews:50430323",
+      "items": [
+        {
+          "id": "hackernews:50430323",
+          "title": "I ran 120B MoE models on my 32GB M1 Max using under 16 GB",
+          "url": "https://mitln.github.io/moe-inference-engine",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T19:20:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50430323"
+          }
+        }
+      ],
+      "score": 3.3597955651950278,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 0.5925972845039811,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/hub-gcp-marketplace",
+      "representativeId": "huggingface:https://huggingface.co/blog/hub-gcp-marketplace",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/hub-gcp-marketplace",
+          "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+          "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+          "source": "huggingface",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "huggingface:https://huggingface.co/blog/decision",
+          "title": "Decision Models in Hugging Face",
+          "url": "https://huggingface.co/blog/decision",
+          "source": "huggingface",
+          "publishedAt": "2026-11-10T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns",
+          "title": "Cyberattacks threaten to make open source AI a little less open, Hugging Face exec warns",
+          "url": "https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T13:00:00.000Z",
+          "summary": "Hugging Face executive Irene Solaiman warns that growing cyberattacks on open AI platforms could force tighter security restrictions, threatening the accessibility that makes open source communities valuable to developers worldwide.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.352986431005915,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.1696530976725814,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "hackernews:50429952",
+      "representativeId": "hackernews:50429952",
+      "items": [
+        {
+          "id": "hackernews:50429952",
+          "title": "Testing Claude on real-world electronics design",
+          "url": "https://anthropic.com/research/claude-electronics-design",
+          "source": "hackernews",
+          "publishedAt": "2026-11-09T18:58:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50429952"
+          }
+        }
+      ],
+      "score": 3.2951232189604056,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.5843763101556496,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp",
+          "title": "Adobe brings AI agents and new creative tools to Photoshop, Premiere, and Firefly",
+          "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T14:05:10.000Z",
+          "summary": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+          "title": "Adobe is going all in on agentic AI",
+          "url": "https://theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "summary": "Adobe is committing itself to the notion that chatbots and AI agents could be your next design assistant, or even automate creative workflows and repetitive tasks on your behalf. Some of the tools and features announced today at Adobe's Max conference in Miami, Florida, include allowing your preferred third-party AI agents to access and change […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.952943614089877,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2196102807565439,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot",
+          "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+          "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T13:30:00.000Z",
+          "summary": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone and a rolling robot designed to patrol and protect businesses.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+          "title": "Hands-on with Ring’s new AI drone camera for your home",
+          "url": "https://theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-10T13:30:00.000Z",
+          "summary": "Ring is finally shipping a flying indoor drone camera. For real this time. The Ring Drone Cam will arrive on January 27th, 2027, for $249.99, Ring founder Jamie Siminoff said at a launch event in New York City this week. If it does actually ship, it will arrive almost six years after the company announced […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.925725240132877,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.192391906799544,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "representativeId": "openai:https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "title": "Helping caregivers use AI in everyday life",
+          "url": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+          "source": "openai",
+          "publishedAt": "2026-11-10T12:00:00.000Z",
+          "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.6254680914776336,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1254680914776336,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-businesses-chatgpt",
+      "representativeId": "openai:https://openai.com/index/introducing-businesses-chatgpt",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-businesses-chatgpt",
+          "title": "Introducing Businesses in ChatGPT",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt",
+          "source": "openai",
+          "publishedAt": "2026-11-10T10:00:00.000Z",
+          "summary": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.54204244538538,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.04204244538538,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/closing-ai-guidance-gap-education",
+      "representativeId": "openai:https://openai.com/index/closing-ai-guidance-gap-education",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/closing-ai-guidance-gap-education",
+          "title": "Closing the AI guidance gap in education",
+          "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+          "source": "openai",
+          "publishedAt": "2026-11-10T09:00:00.000Z",
+          "summary": "New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.502678080005278,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.002678080005278,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/ai-effect-on-freelance-work",
+      "representativeId": "openai:https://openai.com/index/ai-effect-on-freelance-work",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/ai-effect-on-freelance-work",
+          "title": "Work at the Frontier: AI’s effect on freelance work",
+          "url": "https://openai.com/index/ai-effect-on-freelance-work",
+          "source": "openai",
+          "publishedAt": "2026-11-10T07:00:00.000Z",
+          "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4283542788416597,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9283542788416594,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+          "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+          "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T19:23:34.000Z",
+          "summary": "The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.396129475177883,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.496129475177883,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
+          "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+          "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T19:03:52.000Z",
+          "summary": "PSI used an unreleased Anthropic model to answer a fundamental question about quantum computing that scientists have pursued for nearly two decades.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3773322173464284,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4773322173464285,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+          "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+          "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T18:49:52.000Z",
+          "summary": "OpenAI is looking to make ChatGPT a more robust consumer discovery engine, and a host of new features seek to empower businesses to help it do that.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3641174886669596,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.46411748866696,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+          "title": "DeepMind reveals Gemini Robotics 2.5 and open safety benchmark \"ASIMOV-jailbreak\"",
+          "url": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-10T15:00:39.000Z",
+          "summary": "The new model is up to twice as successful at some tasks.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.31382234049412,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2638223404941202,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+          "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T17:30:00.000Z",
+          "summary": "As participants talk, Claude can draft the plan being discussed, map out a timeline on a whiteboard, answer questions in the meeting chat, and access connected work apps to retrieve information, such as last year's figures.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2909597858372064,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3909597858372065,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips",
+          "title": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T15:54:08.000Z",
+          "summary": "Google's new tensor processing units (TPUs) broaden its chip portfolio to more use cases: confidential model training and more memory capacity.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2079571509414357,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3079571509414356,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os",
+          "title": "Meta’s AI agent Muse lands on Apple Watch and Android Wear OS",
+          "url": "https://techcrunch.com/2026/11/10/metas-ai-agent-muse-lands-on-apple-watch-and-wear-os",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T15:29:30.000Z",
+          "summary": "Users can now interact with Meta’s AI assistant through voice calls, text messages, or dictation on their Apple Watch.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.187441283415635,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2874412834156352,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand",
+          "title": "Ukraine’s fiber-optic drones get squeezed by AI data center demand",
+          "url": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-10T12:15:32.000Z",
+          "summary": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.1867443796802783,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1367443796802785,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era",
+          "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+          "url": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "summary": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.115572773012955,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.215572773012955,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter",
+          "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+          "url": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T14:00:00.000Z",
+          "summary": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.115572773012955,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.215572773012955,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "representativeId": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "title": "ChatGPT Enterprise now available in AWS Marketplace",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+          "source": "openai",
+          "publishedAt": "2026-11-09T19:00:00.000Z",
+          "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.0848265488362907,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5848265488362907,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/10/muse-ember",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/10/muse-ember",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/10/muse-ember",
+          "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+          "url": "https://simonwillison.net/2026/Nov/10/muse-ember",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-10T07:28:21.000Z",
+          "summary": "Introducing Our Smallest, Most Efficient Model: Muse Ember Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as: [...] our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. For shorter prompts it's priced the same as GPT-6 Luna and Claude Haiku 5.5 - both are $0.10/million input tokens and $0.50/million output. Today's other big model release, Claude Fable 5.2, is 80x that price at $8/$40. The pricing is a little less straightforward as prompts get longer, though. Luna, Ember, and Haiku all support up to a million input tokens, but they also all have a threshold after which the price goes up. Taking that threshold into account Ember is priced between the two others: Model Prompt size Input ($/M) Cached input Output GPT-6 Luna ≤272k $0.10 $0.01 $0.50 >272k $0.20 $0.02 $0.75 Muse Ember 1.0 ≤200k $0.10 $0.004 $0.50 >200k $0.30 $0.012 $1.50 Claude Haiku 5.5 ≤100k $0.10 $0.01 $0.50 >100k $0.50 $0.05 $2.50 But comparing price-per-token doesn't really make sense these days, when reasoning tokens mean that different models might use dramatically different numbers of tokens to solve the same problem. For that, one measure that's useful is the Artificial Analysis. And even more useful than that is their Intelligence Index vs. Cost per Task chart, which shows the following for those three models: The Muse Ember models sit right on that Pareto line - the line at which you can only improve one dimension by giving up another. Meta call this out in their announcement: It also sits on the efficiency frontier of the full Artificial Analysis leaderboard: no model scores higher for less per task. (That grey dot on the Pareto line in the middle of the green area is GPT-6.1 Terra (low) - clearly I should be paying more attention to the Terra family!) Muse Ember has six reasoning levels - minimal, low, medium, high, xhigh, and max - so I rendered six pelicans riding bicycles . The \"high\" reasoning level failed to return a full SVG, and the other SVGs were surprising in that the reasoning level didn't cleanly map to the visual quality of the response. Here's the \"max\" one, but the others are worth a look too: The Ember pelicans are comparable in quality to those I got from Muse Wonder , which is 40x the price of Muse Ember. Tags: ai , generative-ai , llms , meta , llm-pricing , llm-release , artificial-analysis , muse",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9954003980662707,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9454003980662707,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/control-room",
+      "representativeId": "openai:https://openai.com/index/control-room",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/control-room",
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "url": "https://openai.com/index/control-room",
+          "source": "openai",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9641771394208298,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4641771394208297,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/coderabbit-codex-daybreak",
+      "representativeId": "openai:https://openai.com/index/coderabbit-codex-daybreak",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/coderabbit-codex-daybreak",
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "source": "openai",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.882881431099526,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3828814310995261,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/kuken",
+      "representativeId": "openai:https://openai.com/index/kuken",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/kuken",
+          "title": "Kuken Industries searches 70 years of drawings in minutes",
+          "url": "https://openai.com/index/kuken",
+          "source": "openai",
+          "publishedAt": "2026-11-09T08:00:00.000Z",
+          "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.882881431099526,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3828814310995261,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/10/yonkers-rises",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/10/yonkers-rises",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/10/yonkers-rises",
+          "title": "Yonkers Rises",
+          "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-10T03:53:04.000Z",
+          "summary": "Tool: Yonkers Rises I realized I didn't know where Yonkers was, so I looked it up on Google Maps and then, to help embed its location and shape in my head (and to try out Claude Fable 5.2's 3D modeling and animation skills), I prompted Fable 5.2 Medium to: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and átomos around manhattan and queens and Brooklyn, use openstreetmap mapping data It correctly deduced that \"átomos\" was a mobile keyboard typo for \"stomps\": Tags: three-js , llms , ai , generative-ai , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.8733974908935629,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8233974908935631,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+          "source": "huggingface",
+          "publishedAt": "2026-11-09T15:05:57.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.8532571772836646,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5032571772836645,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+          "title": "Otter AI can now follow conversations across 30+ languages",
+          "url": "https://techcrunch.com/2026/11/09/otter-ai-can-now-follow-conversations-across-30-languages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-10T07:00:00.000Z",
+          "summary": "Otter AI just added support for 27 languages and revealed an upcoming feature that can follow along if speakers switch between languages.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8283542788416594,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9283542788416594,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "representativeId": "huggingface:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+          "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+          "source": "huggingface",
+          "publishedAt": "2026-11-09T12:34:29.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.8066373694253421,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.45663736942534217,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/9/llm-anthropic",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/9/llm-anthropic",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/9/llm-anthropic",
+          "title": "llm-anthropic 0.31",
+          "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-09T23:58:46.000Z",
+          "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. Fable 5.2 is currently ranked first on Artificial Analysis . Anthropic say it \"solved two open problems in the physics of black holes\", so clearly their internal benchmarks have become more ambitious! I've added the new models to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm keys set anthropic # paste key here llm -m claude-fable-5.2 \"Generate an SVG of a pelican riding a bicycle\" I ran pelicans at all five reasoning levels - low , medium , high , xhigh , and max . You can see them all here - here's the best result I got, from xhigh : max failed to return an image at all, running out of tokens after spending 128,000 thinking about them . That's the same bug that I saw with Opus 5.5 - but it's new for the Fable series, both Fable 5 and Fable 5.1 returned max effort pelicans just fine. It's priced at $8/million input and $40/million output, which is a 20% discount on the previous Fable 5.1 ($10/$50). I also used Fable 5.2 to help identify the source of a mysterious beep . Tags: llm , anthropic , claude , generative-ai , pelican-riding-a-bicycle , ai , llms , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7584394775164573,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7084394775164575,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+          "title": "Locating the source of a mysterious beep with Claude",
+          "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-09T23:57:21.000Z",
+          "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in the room and trying to determine the source of the noise was frustrating, and I really didn't want to dig through every one of those boxes. So I had Claude Code build Beep Locator , a software system for triangulating the source of a mysterious beep using multiple devices scattered around the room. Here's what Beep Locator looks like after it has been running for a while: You run Python web server to show the primary UI, and then use the QR code or URL to connect as many devices as you can spare to act as listeners - I was using two iPads, a phone, a MacBook Pro and a Surface Ultra. The devices then play noises to each other to help estimate their locations. This didn't work particularly well, so I added a \"Rough mode\" where you can drag their icons around in the space to provide rough locations which are then adjusted based on those sounds. Once that's set up, the devices all listen for the beep! I added a clapping mode too so I could test it by clapping my hands in different locations around the room - displayed as diamonds on the map. This helped me gain confidence that it was capable of locating a sound. Beeps show up on the map as an X, plus a line in the \"Sounds located\" log. You can replay these sounds (from each device in turn) to confirm they are the mysterious beep you are looking for, then click \"This is the mystery beep\" to mark them as such. Once you've confirmed the mysterious beep frequency the system will listen out for it, measure the interval between beeps, and use the triangulated locations to lock down the most likely location on the map. The system worked as intended. It gave me the position of the beep to within about 40cm, then I dug through that specific pile of boxes and found an ancient carbon monoxide detector that desperately wanted its batteries replaced. How it works When I started working through this problem with Claude it quickly dug up BeepBeep: A High-Accuracy Acoustic-Based System for Ranging and Localization Using COTS Devices , a 2007 paper by Chunyi Peng, Guobin Shen, Yongguang Zhang, Yanlin Li, and Kun Tan. Here's that paper's abstract: We present the design, implementation, and evaluation of BeepBeep, a high-accuracy acoustic-based ranging system. It operates in a spontaneous, ad-hoc, and device-to-device context without leveraging any pre-planned infrastructure. It is a pure software-based solution and uses only the most basic set of commodity hardware – a speaker, a microphone, and some form of device-to-device communication – so that it is readily applicable to many low-cost sensor platforms and to most commercial-off-the-shelf mobile devices like cell phones and PDAs. It achieves high accuracy through a combination of three techniques: two-way sensing, self-recording, and sample counting. That sounded exactly like what we needed to build! Beep Locator runs a Python web application server that does most of the work. The listening devices then connect to that server via WebSockets and present a UI which requests browser microphone access. The listeners mainly work by recording a 60 second buffer of recent audio. They also run a simple beep detection algorithm (see detector.js ), which uses Fast Fourier Transform and a high-pass filter to identify potential beeps. It sends these events to the main server. When a beep is reported, the server has a device play a short chirp (the device with the lowest round-trip time to the server), then asks every listener upload a clip from about 0.6s before the beep to 0.8s after that chirp. This chirp allows the clips to be aligned with each other, a crucial step in locating the beep. How I built it I started this project using Claude Code Cloud via my iPhone, with Opus 5.5 running in Extra thinking effort mode. Here's that shared starter session , which began with this prompt against a newly created empty GitHub repository: Write out a problem.md file describing the problem we want to solve There is a device beeping in a room and I cannot find it I want to set up several devices - laptops, phones, iPads - around the room all listening at the same time and have them help triangulate where the beep comes from There needs to be a Python web app which coordinates it all - one device shows a web page for the app, other devices join a URL which turns them into listeners - all via browser WebAudio and WebSockets back to the Python server app Ideally I wouldn't need to manually input the relative locations of the devices - it would be amazing if they could play sounds to each other in order to locate each other in 2D space - is that even possible though? That got me this problem.md file . As part of writing that up Claude found and read the BeepBeep paper, which is described in that file. The research looked good, so I told it: Ok try and build it, add a mechanism so you can send new code to the listeners which they will then run automatically - that way I can set everything up in the room and then leave you alone to continue hacking and experiment while I do something else That got me to this point - most of the system was built, but nothing had actually tried running it yet. I cloned the new repository to my laptop and fired up Claude Code... and then Fable 5.2 was released , and this project seemed like an excellent opportunity to put that through its paces. I had Claude Code on my laptop start the server running, then made sure it could both see what was happening and make live changes to the software as it ran. This was already baked into the software: Opus 5.5 had built an installModule() method on the listeners that could be triggered over the WebSocket connection, meaning the admin server could execute arbitrary new code on any of its clients. On some devices, web pages that listen on the microphone request user permission any time the page reloads. The hot-swap module mechanism meant that we could deploy new code without having to manually interact with each of the listening devices in turn. From that point on my involvement was mainly to sit by the laptop chatting with Fable 5.2 about what was going on, and occasionally requesting new features. Here are some of the feature prompts I ran: I think we need to make it so I can drag things around on the map in “rough mode”, where my job is just to put them roughly where they are, then switch out of rough mode and it attempts to get them accurate This gave me the ability to drag listeners around the map. what’s a good way for me to test this I wonder? Can we have it listen for claps, then I could clap and it could identify the location of the clap? [...] Claps should use a different symbol on the map than beeps That added the thing where any time I clapped it would show on the map as a different symbol from the beeps. each symbol on the map should include a HH:MM:SS timestamp That made it easier to spot which symbol likely reflected which real-world sound. The log should show beeps and claps with their timestamps AND have a little play button which, when clicked, replays the recorded noise from each of the listeners in sequence (with clear text on screen showing which listener recorded which snippet) while temporarily turning off microphone recording while that replay plays Now I could replay sounds, making it much easier to identify which recorded clip was the mysterious beep I was looking for. There should be a button next to a recording for “This is the mystery beep” - then I can hit replay to see and then confirm it was the mystery beep if that’s the one I am looking for Then the system can categorize noises in the future to see if they are likely that same mysterious beep and use that information to build a more accurate idea of where it is At this point I was getting close - I had a solid idea of where the beep was coming from, but wouldn't it be neat if I could reposition the listeners around that point to get an even finer location? I want a feature for this, I don’t want to have to restart each listening device etc, I want to be able to click a “Reposition the devices” button which lets me switch into repositioning, then I click “Repositioned” and it puts me into Rough mode and asks me to roughly locate them, then I do that and click, then it starts up again. The previous session can be read-only viewed through the app. And since I had one spare device, I then said: add a feature where the map includes a spot that is a suggestion for a location that it would be useful to add a listener at - based on data collected so far Giving Claude Code ears I think the most interesting part of this project is that I demonstrated it's possible to give Claude Code ears . Claude doesn't have native audio input (yet), but it can run JavaScript and Python code that can analyze audio captured by a microphone. I told it to run a web server with WebSocket connections to multiple listening devices, then had it both run a WebAudio microphone on those devices and hook them up so they could be sent fresh JavaScript code to execute via that WebSocket. Then I could pretty much leave Claude alone, hacking away at the problem, querying the audio logs, and reconfiguring its ears to help it solve the problem. I'm reminded of a similar hack I heard about at GitHub Universe a few weeks ago, where Martin Woodward told me he had been debugging the GitHub Universe Badge computers by plugging them into a computer via USB-C and then pointing a webcam at their screen, so his coding agent could tell if updates were working correctly or not. Figuring out ways to let coding agents perceive the world around them is a whole lot of fun. Tags: projects , ai , generative-ai , llms , claude , coding-agents , claude-code , claude-mythos-fable",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7577956423190864,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7077956423190865,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+          "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+          "url": "https://theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-10T00:28:49.000Z",
+          "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.622235173244579,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.722235173244579,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+          "title": "Claude Code is accidentally exposing secrets all over GitHub",
+          "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-09T17:24:26.000Z",
+          "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6000341336293191,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5500341336293193,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "url": "https://technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-09T17:05:43.000Z",
+          "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5934664231165439,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5434664231165441,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+      "representativeId": "theverge-ai:https://theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+          "title": "The global pledge to use AI for climate good is a cruel joke",
+          "url": "https://theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T21:13:16.000Z",
+          "summary": "At this point, reading through the latest splashy pledge to use AI for the good of the environment feels like downing a nonalcoholic beer. Admittedly, I'm suspicious from the onset. How can this be good? But I love beer and our planet enough to give it a whirl - and hey, why not try a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5370487891325955,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6370487891325955,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+          "title": "Innovating with AI in the special chemicals industry",
+          "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-09T13:00:00.000Z",
+          "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5141771394208297,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4641771394208297,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+          "url": "https://theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-09T19:09:58.000Z",
+          "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4885794616149917,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5885794616149918,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50431144",
+    "hackernews:50439616",
+    "hackernews:50442303",
+    "hackernews:50438318",
+    "hackernews:50429426"
+  ]
+}
