@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T19:27:55.079Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50439616",
+      "headline": "앤트로픽, 클로드 3일 만에 새 칩 마스터",
+      "highlight": [
+        "3일 만에"
+      ],
+      "body": "앤트로픽이 IPO 로드쇼 영상에서 클로드가 새로운 AMD GPU에 단 3일 만에 적응했다고 밝혔습니다. 과거 수개월 걸리던 작업을 AI가 직접 수행해 소프트웨어 스택을 포팅했습니다. 이를 통해 엔비디아, 구글 등 4종의 주요 칩을 활용하며 연산 효율을 높여 경쟁력을 확보합니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+      "sourceName": "Simon Willison’s Weblog",
+      "publishedAt": "2026-11-10T12:49:32.000Z"
+    },
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "headline": "구글 AI가 2시간 만에 보안 허점 찾아냈다",
+      "highlight": [
+        "2시간 만에"
+      ],
+      "body": "구글이 최신 AI '제미나이 4 카본'을 공개하고 주요 SaaS의 보안 취약점을 2시간 만에 찾아냈다고 밝혔습니다. 수주일 걸리던 조사를 한나절로 줄이고 주요 벤치마크 1위에 올랐습니다. 보안 및 고난도 코딩 작업을 자동화할 핵심 모델로 투입됩니다.",
+      "sourceUrl": "https://deepmind.google/blog/gemini-4-carbon-is-now-available",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_4_carbon_key_art_16-9_lockup.width-1300.jpg",
+      "publishedAt": "2026-11-10T16:03:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:50452455",
+      "headline": "AI, 멕시코 마야 유적 72시간 만에 발견",
+      "highlight": [
+        "AI",
+        "72시간"
+      ],
+      "body": "AI 에이전트가 NASA 라이다 데이터로 멕시코 마야 유적지를 발견했습니다. 멕시코 정부 기관 INAH는 이 지역에 등록된 유적이 없다고 확인했죠. 아이디어부터 공식 답변까지 72시간 만에 이뤄진 이 성과는 AI가 고고학 연구에 새로운 장을 열었음을 보여줍니다.",
+      "sourceUrl": "https://pietromiotti.com/latest/maya-site/?maya",
+      "sourceName": "hackernews",
+      "imageUrl": "https://pietromiotti.com/latest/maya-site/forest-vs-lidar.jpg",
+      "publishedAt": "2026-11-11T12:05:22.000Z"
+    },
+    {
+      "clusterId": "hackernews:50446520",
+      "headline": "애플 'Harbor' 앱, 맥을 사설 AI 서버로 바꾼다",
+      "highlight": [
+        "Harbor",
+        "사설 AI 서버"
+      ],
+      "body": "애플의 새 앱 'Harbor'는 맥을 개인 AI 추론 서버로 만들어줍니다. 데이터를 기기 밖으로 내보내지 않고 애플 실리콘에서 대규모 모델을 로컬로 구동 가능합니다. Thunderbolt 5로 여러 대의 맥을 연결해 메모리를 합쳐 더 큰 AI 작업도 수행할 수 있습니다.",
+      "sourceUrl": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
+      "sourceName": "9to5Mac",
+      "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Mac-mini.jpg?quality=82&strip=all&resize=1200,628",
+      "publishedAt": "2026-11-10T21:25:03.000Z"
+    },
+    {
+      "clusterId": "hackernews:50447074",
+      "headline": "앤트로픽 취약점 보고서 56%가 가짜였다",
+      "highlight": [
+        "56%가 가짜였다"
+      ],
+      "body": "앤트로픽이 프로젝트 글래스윙을 통해 찾아냈다는 취약점을 오픈소스 curl 프로젝트가 검증한 결과 34건 중 19건(55.9%)이 취약점이 아닌 것으로 드러났습니다. 결국 AI가 쏟아낸 오류 검증 업무가 오픈소스 개발자들에게 그대로 넘어가 부담을 키우고 있습니다.",
+      "sourceUrl": "https://vulncheck.com/blog/anthropic-glasswing-november-update",
+      "sourceName": "VulnCheck",
+      "imageUrl": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+      "publishedAt": "2026-11-10T22:17:56.000Z"
+    }
+  ]
+}
