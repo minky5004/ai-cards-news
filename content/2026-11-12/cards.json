@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T19:44:19.488Z",
+  "cards": [
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "headline": "구글 제미나이 4, 100만 토큰 AI 파격 가격",
+      "highlight": [
+        "100만 토큰 AI",
+        "파격 가격"
+      ],
+      "body": "구글이 100만 토큰 컨텍스트를 제공하는 제미나이 4 하이드로겐을 출시했습니다. 입출력 토큰당 각각 $1.50, $7.50의 저렴한 가격으로 개발자, 기업, 일반 사용자 모두에게 제공됩니다. 이로써 더 빠르고 효율적인 AI 에이전트 워크플로우를 누구나 경험할 수 있게 됩니다.",
+      "sourceUrl": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+      "publishedAt": "2026-11-12T18:00:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:50458900",
+      "headline": "유나이티드, AI 예약 전면 금지",
+      "highlight": [
+        "AI 예약"
+      ],
+      "body": "유나이티드 항공이 AI 에이전트의 항공권 예약을 금지했습니다. 보안 위험과 연방 규정 위반 우려 때문으로, AI가 고객 정보를 요구하며 발생할 수 있는 의도치 않은 구매 등을 막기 위함입니다. 이는 항공사가 예약 통제권을 유지하고 검색 비용을 줄이려는 전략으로 해석됩니다.",
+      "sourceUrl": "https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+      "sourceName": "CBS News",
+      "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
+      "publishedAt": "2026-11-11T21:24:35.000Z"
+    },
+    {
+      "clusterId": "hackernews:50465829",
+      "headline": "앤트로픽, 매출 170억 달러로 IPO 출격",
+      "highlight": [
+        "170억 달러"
+      ],
+      "body": "AI 기업 앤트로픽이 11월 19일 나스닥에서 상장을 확정했습니다. 지난 3분기 매출은 170억 달러를 기록하며 전년 대비 12배 넘게 성장했습니다. 이번 상장을 통해 앤트로픽은 대규모 자금을 확보하고 성장을 이어갈 전망입니다.",
+      "sourceUrl": "https://ipo.anthropic.com/us",
+      "sourceName": "hackernews",
+      "imageUrl": "https://ipo.anthropic.com/assets/share-image-eAr8nJRP.jpg",
+      "publishedAt": "2026-11-12T11:46:41.000Z"
+    },
+    {
+      "clusterId": "hackernews:50456791",
+      "headline": "구글 제미나이, 150ms 만에 1천개 질문 답한다",
+      "highlight": [
+        "150ms 만에",
+        "1천개 질문"
+      ],
+      "body": "구글이 제미나이 디시전스 API를 공개했습니다. 제미나이 디시전 1 모델을 기반으로 텍스트, 이미지 등 다양한 양식에서 최대 1,000개의 질문에 150ms 만에 답합니다. 기존 모델 대비 최대 5배 저렴하며, 빠른 판단으로 서비스 개발과 효율을 높여줍니다.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "publishedAt": "2026-11-11T18:32:42.000Z"
+    }
+  ]
+}

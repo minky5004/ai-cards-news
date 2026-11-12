@@ -1,0 +1,1052 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T19:40:35.883Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 12
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 8
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 20,
+      "filtered": 47
+    }
+  ],
+  "clusters": [
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+          "source": "google-deepmind",
+          "publishedAt": "2026-11-12T18:00:50.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50471431",
+          "title": "Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T18:01:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 275,
+            "comments": 175,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50471431"
+          }
+        },
+        {
+          "id": "hackernews:50472260",
+          "title": "Gemini 4 Hydrogen and Orchestrator",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T18:52:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50472260"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T19:23:03.000Z",
+          "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 7.433012400423021,
+      "breakdown": {
+        "hnPoints": 1.8081894764850324,
+        "hnComments": 0.9749550675807676,
+        "mentions": 1.6666666666666665,
+        "recency": 1.4832011896905546,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50458900",
+      "representativeId": "hackernews:50458900",
+      "items": [
+        {
+          "id": "hackernews:50458900",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "url": "https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T21:24:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 650,
+            "comments": 677,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50458900"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:17:58.000Z",
+          "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.402118855126175,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3687855217928417,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50465829",
+      "representativeId": "hackernews:50465829",
+      "items": [
+        {
+          "id": "hackernews:50465829",
+          "title": "Anthropic IPO",
+          "url": "https://ipo.anthropic.com/us",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T11:46:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 690,
+            "comments": 695,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+          "title": "Anthropic's IPO roadshow video",
+          "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-11T15:11:59.000Z",
+          "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper. Highlights below: We train and serve Claude now across all four major chip families. That's only possible because early on we made an unconventional bet on a multi-chip strategy. At the time, many people thought that running AI models on different chips wasn't worth the effort. Each chip needs its own tailored software stack and inference stack, which is expensive and difficult to build. We've now been doing it for years, and we've gotten incredibly good at it. [...] As an example, this year, we started working with AMD GPUs for the first time. In the past, bringing on a new chip platform took dozens of engineers months of work This time, we had Mythos try it out. It got Claude running on AMD in just three days, with basically no human intervention . Claude ported or wrote almost 100% of the kernels. [...] The second driver of our compute advantage is our rate of discovery of compute multipliers. We focus on total effective compute, which is the multiplicative product of physical capacity times the compute multipliers that we discover. Each one we discover makes our pool of total effective compute bigger. For example, say you need 100 units of compute to train a model of a certain intelligence. A 4x compute multiplier means you can use 25 units of compute to train the exact same model. Or you can use those hundred physical units to train an even more intelligent model that would have previously required 400 units. Compute multipliers create a competitive advantage for us that's hard to replicate. They build on each other. Each new multiplier we discover has a positive effect on the multipliers before it. They stack. We believe that this can accelerate even further as we approach recursive self-improvement. Claude will be able to discover compute multipliers entirely by itself , allowing the number of compute multipliers to grow faster and faster. We got a hint at Anthropic's multi-chip strategy last September in their postmortem of three recent issues , where they described bugs that affected just their TPU deployments. Tags: ai , generative-ai , llms , anthropic , gpus , claude-mythos-fable , recursive-self-improvement",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 6.139947714588314,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.1066143812549805,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50456791",
+      "representativeId": "hackernews:50456791",
+      "items": [
+        {
+          "id": "hackernews:50456791",
+          "title": "Gemini Decisions API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T18:32:42.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 546,
+            "comments": 156,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50456791"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+          "title": "Gemini Decisions API",
+          "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-11T22:03:25.000Z",
+          "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question. It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million. Jev is text (and JSON) only. OpenAI can handle text and images. Gemini Decision 1 is fully multi-model: it covers text, images, audio, video, and PDFs. I tested it against video by passing these questions to it along with my Yonkers stomping robot video file: dragon: Does this video have a dragon in it? robot: Does this video have a robot in it? france: Is this video set in France? usa: Is this video set in the USA? Jev and OpenAI both return 1.0 or 0.0 for yes/no questions, but Gemini insists on being a little less confident than that: { \"dragon\" : { \"type\" : \" yes_no \" , \"probability\" : 0.04976021841520312 }, \"robot\" : { \"type\" : \" yes_no \" , \"probability\" : 0.9234055387792485 }, \"france\" : { \"type\" : \" yes_no \" , \"probability\" : 0.08329171353166241 }, \"usa\" : { \"type\" : \" yes_no \" , \"probability\" : 0.9230459995157706 } } Via Hacker News Tags: ai , generative-ai , gemini , llm-release , jev , decision-models",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.63916551926664,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 0.9534141244009318,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6524180615323747,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50468888",
+      "representativeId": "hackernews:50468888",
+      "items": [
+        {
+          "id": "hackernews:50468888",
+          "title": "I'm making LLMs work on small and old devices",
+          "url": "https://github.com/hyperionaidev/smolmaxxing",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T15:23:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 163,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
+          }
+        }
+      ],
+      "score": 4.899413596177581,
+      "breakdown": {
+        "hnPoints": 1.640723682632624,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 1.2715605023070509,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50452455",
+      "representativeId": "hackernews:50452455",
+      "items": [
+        {
+          "id": "hackernews:50452455",
+          "title": "My AI agents found an unmapped Maya site?",
+          "url": "https://pietromiotti.com/latest/maya-site",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T12:05:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1023,
+            "comments": 385,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+          }
+        }
+      ],
+      "score": 4.644457885143241,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.4444578851432412,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50457164",
+      "representativeId": "hackernews:50457164",
+      "items": [
+        {
+          "id": "hackernews:50457164",
+          "title": "Retirement Savings Are Fueling the AI Bubble",
+          "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T19:06:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 186,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50457164"
+          }
+        }
+      ],
+      "score": 4.4134806542132194,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.986386547170845,
+        "mentions": 0.0,
+        "recency": 0.5824707530021538,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50455633",
+      "representativeId": "hackernews:50455633",
+      "items": [
+        {
+          "id": "hackernews:50455633",
+          "title": "Faster Retrieval for Better, More Efficient RAG",
+          "url": "https://machinelearning.apple.com/research/faster-retrieval",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T16:57:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 229,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50455633"
+          }
+        }
+      ],
+      "score": 4.176540759328027,
+      "breakdown": {
+        "hnPoints": 1.7495331763015167,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.0,
+        "recency": 0.5362003015967032,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50455332",
+      "representativeId": "hackernews:50455332",
+      "items": [
+        {
+          "id": "hackernews:50455332",
+          "title": "AI, activity, and outcomes in software engineering",
+          "url": "https://cabird.com/talks/shipping-faster",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T16:33:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 124,
+            "comments": 110,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50455332"
+          }
+        }
+      ],
+      "score": 4.169305230395439,
+      "breakdown": {
+        "hnPoints": 1.553360035618055,
+        "hnComments": 0.8880368530490445,
+        "mentions": 0.0,
+        "recency": 0.5279083417283396,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50458166",
+      "representativeId": "hackernews:50458166",
+      "items": [
+        {
+          "id": "hackernews:50458166",
+          "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+          "url": "https://github.com/huawei-csl/MACaQ",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T20:23:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 127,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50458166"
+          }
+        }
+      ],
+      "score": 4.026565572873172,
+      "breakdown": {
+        "hnPoints": 1.5609900917070765,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.0,
+        "recency": 0.6120705511491388,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50451102",
+      "representativeId": "hackernews:50451102",
+      "items": [
+        {
+          "id": "hackernews:50451102",
+          "title": "OSS projects banning AI-generated contributions",
+          "url": "https://osssaysno.com",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T08:51:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 111,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50451102"
+          }
+        }
+      ],
+      "score": 3.825229094074561,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.8897280003879673,
+        "mentions": 0.0,
+        "recency": 0.39252159586473173,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50458434",
+      "representativeId": "hackernews:50458434",
+      "items": [
+        {
+          "id": "hackernews:50458434",
+          "title": "Tools for exploring the souls of large language models",
+          "url": "https://oshea00.github.io/posts/tinygpt-visualizer",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T20:45:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 12,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50458434"
+          }
+        }
+      ],
+      "score": 3.5816968765428667,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.4836511198071519,
+        "mentions": 0.0,
+        "recency": 0.620727603070079,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50456926",
+      "representativeId": "hackernews:50456926",
+      "items": [
+        {
+          "id": "hackernews:50456926",
+          "title": "Laser-armed AI submarine robots patrol Norwegian salmon farms, killing sea lice",
+          "url": "https://tomshardware.com/tech-industry/drones/3-500-ai-laser-robots-patrol-norwegian-salmon-farms-killing-sea-lice-parasites-get-zapped-by-high-tech-alternative-to-harsh-chemical-baths",
+          "source": "hackernews",
+          "publishedAt": "2026-11-11T18:44:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50456926"
+          }
+        }
+      ],
+      "score": 3.3428576906658414,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.5741814007860226,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "source": "huggingface",
+          "publishedAt": "2026-11-12T19:07:35.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.81855094912244,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4685509491224398,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+      "representativeId": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "openai",
+          "publishedAt": "2026-11-12T09:30:00.000Z",
+          "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.5136741287024003,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0136741287024003,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+          "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+          "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T18:57:45.000Z",
+          "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.5093120170065575,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4593120170065574,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T19:11:00.000Z",
+          "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.371774760233802,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.471774760233802,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+          "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T14:50:17.000Z",
+          "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2950058989095723,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2450058989095725,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:36:40.000Z",
+          "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.285312271914228,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.385312271914228,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:00:52.000Z",
+          "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.253845465143791,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3538454651437912,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+          "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+          "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2530926261330486,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3530926261330487,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+          "title": "AI chatbots are recommending fake retail websites, study finds",
+          "url": "https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2530926261330486,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3530926261330487,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "representativeId": "theverge-ai:https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+          "title": "More game developers are starting to use generative AI",
+          "url": "https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2530926261330486,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3530926261330487,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+          "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T16:32:33.000Z",
+          "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2294632851980793,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3294632851980797,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/children-first-declaration",
+      "representativeId": "openai:https://openai.com/index/children-first-declaration",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/children-first-declaration",
+          "title": "Supporting research on AI and children’s safety",
+          "url": "https://openai.com/index/children-first-declaration",
+          "source": "openai",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.2031069976922133,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7031069976922133,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/gilbert-tobin-sam-nickless",
+      "representativeId": "openai:https://openai.com/index/gilbert-tobin-sam-nickless",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/gilbert-tobin-sam-nickless",
+          "title": "Gilbert + Tobin rethinks the business of law with AI",
+          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+          "source": "openai",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.2031069976922133,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7031069976922133,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
+          "title": "Norwest pushes deeper into AI with new $4B fund",
+          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T15:18:14.000Z",
+          "summary": "This is the investment firm's largest fund to date.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1675408189914247,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2675408189914246,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+          "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T15:02:28.000Z",
+          "summary": "This is Fireworks' second data breach in as many months.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.154779132678655,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2547791326786555,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/3d-lora-finetuning",
+      "representativeId": "huggingface:https://huggingface.co/blog/3d-lora-finetuning",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/3d-lora-finetuning",
+          "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+          "url": "https://huggingface.co/blog/3d-lora-finetuning",
+          "source": "huggingface",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0531069976922134,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7031069976922133,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+          "source": "google-deepmind",
+          "publishedAt": "2026-11-11T15:00:15.000Z",
+          "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9972515039373937,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4972515039373937,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/chatgpt-plus-for-veterans",
+      "representativeId": "openai:https://openai.com/index/chatgpt-plus-for-veterans",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/chatgpt-plus-for-veterans",
+          "title": "ChatGPT Plus for veterans and servicemembers",
+          "url": "https://openai.com/index/chatgpt-plus-for-veterans",
+          "source": "openai",
+          "publishedAt": "2026-11-11T08:00:00.000Z",
+          "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.8796987801704026,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3796987801704026,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/11/aws-emulator",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/11/aws-emulator",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/11/aws-emulator",
+          "title": "aws-emulator",
+          "url": "https://simonwillison.net/2026/Nov/11/aws-emulator",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-11T21:18:30.000Z",
+          "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about how it came to be in a guest post on Werner Vogels' blog. It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in other languages and on other platforms. Tags: amazon , amazon-web-services , testing , werner-vogels , ai , rust , docker , generative-ai , llms , agentic-engineering",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.683878886969001,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6338788869690011,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/11/tools-tags",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/11/tools-tags",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/11/tools-tags",
+          "title": "Browse tools.simonwillison.net by tag",
+          "url": "https://simonwillison.net/2026/Nov/11/tools-tags",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-11T18:42:50.000Z",
+          "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool. The homepage now features tag clouds for browsing by each of those categories of tag: Tags: javascript , tools , ai , generative-ai , llms , claude , vibe-coding",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6236104922648016,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5736104922648018,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+          "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
+          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-11T18:16:40.000Z",
+          "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.614057804980038,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5640578049800381,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+          "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+          "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-11T17:37:32.000Z",
+          "summary": "Any amount of AI coding is too much for many Independent Games Festival judges.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6000674179283654,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5500674179283654,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/11/llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/11/llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/11/llm",
+          "title": "llm 0.37.2",
+          "url": "https://simonwillison.net/2026/Nov/11/llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-11T17:19:52.000Z",
+          "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other providers. Daniel reported two ways this could accidentally send your configured OpenAI API key to one of those providers: if the key named by api_key_name had never been stored, or if a responses: true model was run with -o chat_completions 1 . Tags: projects , security , llm , releases",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.593865693851259,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5438656938512592,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+          "title": "Google DeepMind just mathematically verified key parts of Signal",
+          "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-11T14:08:57.000Z",
+          "summary": "The four-week project hints that AI could make formal verification far more practical.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5311463333430786,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.48114633334307877,
+        "sourceTrust": 1.0499999999999998
+      }
+    }
+  ],
+  "selectedIds": [
+    "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+    "hackernews:50458900",
+    "hackernews:50465829",
+    "hackernews:50456791",
+    "hackernews:50468888"
+  ]
+}

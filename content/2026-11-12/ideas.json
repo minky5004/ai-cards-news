@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T19:45:32.937Z",
+  "idea": {
+    "productName": "AgentVow",
+    "tagline": "차단된 AI 에이전트 대신 규정 확인받고 결제한다",
+    "oneLineSummary": "항공사나 커머스의 에이전트 차단을 우회할 수 있도록 법적 서약과 본인 결제 승인을 분리해 대신 처리하는 규정 준수 대리 결제 API를 제공합니다.",
+    "problem": "유나이티드항공 등이 규정 위반을 이유로 AI 에이전트의 대리 예약을 전면 차단하기 시작했습니다. 여행 자동화 에이전트 개발사들은 결제와 필수 규정 확인 단계에서 서비스가 완전히 막혔습니다.",
+    "productDescription": "AgentVow는 AI 에이전트가 항공권 탐색부터 좌석 지정까지 마친 뒤, 금지 품목 서약과 결제 승인만 사용자 화면으로 안전하게 넘겨주는 트랜잭션 미들웨어입니다. 항공사의 계정 자격증명 공유 금지 정책을 어기지 않도록 일회용 가상 결제 토큰과 사용자 직접 서약 링크를 즉각 발급합니다. 항공사 및 여행 플랫폼의 차단 정책 변화를 실시간으로 추적하여 에이전트가 봇 차단에 걸리지 않고 발권을 끝내도록 지원합니다.",
+    "keyFeatures": [
+      "수하물 규정 사용자 직접 서약창",
+      "자격증명 미노출 일회용 결제 토큰",
+      "항공사 차단 정책 실시간 감지",
+      "승객 본인 확인 다중 인증 연동"
+    ],
+    "persona": "유나이티드항공의 써드파티 AI 예약 차단 조치로 인해 자동 발권 기능이 전면 중단될 위기에 놓인 비즈니스 출장 관리 스타트업의 수석 엔지니어입니다.",
+    "businessModel": "월 기본 구독료 199달러에 트랜잭션 건당 0.5달러를 부과하며, 대형 여행 관리 기업에는 월 2,500달러의 전용 엔터프라이즈 게이트웨이를 공급합니다.",
+    "marketStats": "기사에 전체 시장 규모 근거는 없으나, 유나이티드항공이 직접 디지털 플랫폼 및 여행사와 집계 업체를 통한 개인 AI 에이전트 접속을 차단하기 시작했다고 명시했습니다.",
+    "goToMarket": "유나이티드항공의 예약 차단 기사 직후 발권 중단 오류를 겪고 있는 오픈소스 여행 에이전트 개발팀과 LangChain 커뮤니티에 긴급 대응 SDK를 배포하여 초기 고객을 확보합니다.",
+    "unfairAdvantage": "항공사가 서비스 차단 근거로 명시한 '계정 자격증명 공유 노출'과 '연방 수하물 규정 대면 확인'이라는 두 가지 법적 취약점을 정밀 분리해 규정 준수 구조를 선점했습니다.",
+    "competitors": [
+      "Stripe Issuing — 가상 카드 발급 가능 · 항공 수하물 법적 서약 UI 미지원",
+      "일반 브라우저 RPA — 화면 자동화 위주 · 항공사 봇 탐지 정책 대응 부재",
+      "직접 여행사 API 연동 — 수개월의 제휴 심사 소요 · 범용 AI 대리 예약 부적합"
+    ],
+    "risks": [
+      "항공사가 규정 준수 웹뷰까지 봇 트래픽으로 간주하여 완전 차단할 위험",
+      "항공사마다 서로 다른 연방 본인 확인 규정 대응에 따른 유지보수 비용 증가",
+      "대형 파운데이션 모델 개발사가 항공사와 직접 독점 발권 계약을 체결할 가능성"
+    ],
+    "actionPlan": [
+      "유나이티드항공 신규 예약 약관 내 대리 예약 금지 조항 법률 검토",
+      "위험물 안내 동의창과 결제 토큰을 안전하게 분리하는 모바일 데모 구축",
+      "여행 자동화 에이전트를 개발 중인 초기 팀 5곳 대상 차단 현황 인터뷰",
+      "모의 항공권 결제 환경에서 사용자 서약 전환율 및 발권 성공률 테스트"
+    ],
+    "recommendation": "AI 에이전트가 실제 행동을 수행할 때 마주치는 보안 및 법적 책임 문제를 정면으로 파고든 유효한 틈새 제품입니다. 다만 항공사가 사전 탐색 트래픽까지 원천 차단할 위험이 있으므로, 장기적으로는 항공사와 공식 대리 위임 프로토콜 제휴를 병행해야 합니다.",
+    "searchQuery": "ai agent booking compliance",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 129점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents",
+          "url": "https://news.ycombinator.com/item?id=41257369",
+          "points": 129
+        },
+        {
+          "title": "Launch HN: Hyper (YC P26) – Company brain to power agentic development",
+          "url": "https://news.ycombinator.com/item?id=48387095",
+          "points": 79
+        },
+        {
+          "title": "Show HN: Pomerium Agentic Access Gateway – dynamic auth for AI agents",
+          "url": "https://news.ycombinator.com/item?id=43887439",
+          "points": 10
+        },
+        {
+          "title": "Show HN: Knowledgework – AI Extensions of Your Coworkers",
+          "url": "https://knowledgework.ai/",
+          "points": 8
+        },
+        {
+          "title": "Show HN: AI agents that validate your product idea by talking to real users",
+          "url": "https://app.holyshift.ai/ai/project",
+          "points": 7
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen"
+      },
+      {
+        "clusterId": "hackernews:50458900",
+        "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+        "url": "https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights"
+      },
+      {
+        "clusterId": "hackernews:50465829",
+        "title": "Anthropic IPO",
+        "url": "https://ipo.anthropic.com/us"
+      },
+      {
+        "clusterId": "hackernews:50456791",
+        "title": "Gemini Decisions API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api"
+      },
+      {
+        "clusterId": "hackernews:50468888",
+        "title": "I'm making LLMs work on small and old devices",
+        "url": "https://github.com/hyperionaidev/smolmaxxing"
+      },
+      {
+        "clusterId": "hackernews:50452455",
+        "title": "My AI agents found an unmapped Maya site?",
+        "url": "https://pietromiotti.com/latest/maya-site"
+      },
+      {
+        "clusterId": "hackernews:50457164",
+        "title": "Retirement Savings Are Fueling the AI Bubble",
+        "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble"
+      },
+      {
+        "clusterId": "hackernews:50455633",
+        "title": "Faster Retrieval for Better, More Efficient RAG",
+        "url": "https://machinelearning.apple.com/research/faster-retrieval"
+      },
+      {
+        "clusterId": "hackernews:50455332",
+        "title": "AI, activity, and outcomes in software engineering",
+        "url": "https://cabird.com/talks/shipping-faster"
+      },
+      {
+        "clusterId": "hackernews:50458166",
+        "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+        "url": "https://github.com/huawei-csl/MACaQ"
+      },
+      {
+        "clusterId": "hackernews:50451102",
+        "title": "OSS projects banning AI-generated contributions",
+        "url": "https://osssaysno.com"
+      },
+      {
+        "clusterId": "hackernews:50458434",
+        "title": "Tools for exploring the souls of large language models",
+        "url": "https://oshea00.github.io/posts/tinygpt-visualizer"
+      },
+      {
+        "clusterId": "hackernews:50456926",
+        "title": "Laser-armed AI submarine robots patrol Norwegian salmon farms, killing sea lice",
+        "url": "https://tomshardware.com/tech-industry/drones/3-500-ai-laser-robots-patrol-norwegian-salmon-farms-killing-sea-lice-parasites-get-zapped-by-high-tech-alternative-to-harsh-chemical-baths"
+      },
+      {
+        "clusterId": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+        "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+        "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+      },
+      {
+        "clusterId": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+        "title": "Holiday Extras is rethinking what it can build with Codex",
+        "url": "https://openai.com/business/customer-stories/holidays-extras-codex"
+      }
+    ]
+  }
+}
