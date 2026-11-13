@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T19:25:26.258Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50484960",
+      "headline": "AI 거부하면 구글 검색도 통째로 끊는다",
+      "highlight": [
+        "구글 검색도",
+        "통째로 끊는다"
+      ],
+      "body": "구글이 학교 수업에서 AI 기능을 끄는 것을 허용하지 않겠다고 선언했습니다. AI 검색 요약을 끄려면 구글 검색 자체를 쓰지 말라는 배수진을 친 겁니다. 교사들과 학부모는 독점적 권력으로 AI를 강제한다며 거세게 반발하고 있습니다.",
+      "sourceUrl": "https://text.npr.org/nx-s1-6029408",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-11-13T15:29:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:50481187",
+      "headline": "클로드 주요 서비스 접속 장애 후 정상 복구",
+      "highlight": [
+        "접속 장애",
+        "정상 복구"
+      ],
+      "body": "13일 인공지능 서비스 클로드에서 유저 인증 오류와 장애가 발생했습니다. 이번 장애는 웹사이트를 비롯해 클로드 코드, 콘솔, 코워크 서비스 전반에 영향을 미쳤습니다. 현재는 수정 조치가 배치되어 모든 시스템이 정상 복구되었습니다.",
+      "sourceUrl": "https://status.claude.com/incidents/nn11wk485zfn",
+      "sourceName": "hackernews",
+      "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "publishedAt": "2026-11-13T10:18:13.000Z"
+    },
+    {
+      "clusterId": "hackernews:50481220",
+      "headline": "클로드 장애 알림 슬랙과 팀즈로 받는다",
+      "highlight": [
+        "슬랙과 팀즈"
+      ],
+      "body": "클로드의 장애 발생과 해결 소식을 이메일뿐만 아니라 슬랙과 마이크로소프트 팀즈로 즉시 받을 수 있습니다. 텍스트 메시지와 웹훅, RSS 피드 구독도 함께 지원됩니다. 원하는 채널을 통해 서버 장애와 점검 현황을 실시간으로 확인해보세요.",
+      "sourceUrl": "https://status.claude.com/history",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-11-13T10:20:09.000Z"
+    },
+    {
+      "clusterId": "hackernews:50486748",
+      "headline": "괴델의 비밀 노트 AI가 이틀 만에 풀었다",
+      "highlight": [
+        "이틀 만에"
+      ],
+      "body": "20세기 천재 논리학자 괴델이 독특한 속기로 남긴 1,009쪽의 노트가 AI 모델 클로드 덕분에 단 이틀 만에 해독됐습니다. 클로드는 노트 속에서 인간이 몰랐던 수학 정리 663개를 추출했고, 이 중 400여 개가 진짜 증명으로 확인됐습니다.",
+      "sourceUrl": "https://theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/6eeccf216579fe2181ae737d30f31abd7590125c/210_58_1759_1407/master/1759.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=334efc63d7472a97d72be0ffd23af8bb",
+      "publishedAt": "2026-11-13T17:30:10.000Z"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T19:40:26.693Z",
+  "idea": {
+    "productName": "AegisFlow",
+    "tagline": "Agentic 워크플로, 중단 없이 최적의 AI 모델로 실행",
+    "oneLineSummary": "여러 AI 모델을 유연하게 활용하여 중단 없는 에이전트 워크플로를 구축하려는 개발자에게 필요한 통합 관리 플랫폼입니다.",
+    "problem": "에이전트 워크플로를 구축하는 개발자는 특정 AI 모델의 서비스 장애로 작업이 중단되거나 성능 저하를 겪습니다. 하나의 AI 공급자에 의존할 때 발생하는 불안정성과 비효율성이 문제입니다.",
+    "productDescription": "이 플랫폼은 개발자가 여러 AI 모델을 등록하고 관리할 수 있게 합니다. 정의된 워크플로에 따라 자동으로 최적의 모델을 선택하고, 모델 장애 시 다른 모델로 작업을 전환하여 중단을 방지합니다. 다양한 AI 모델을 통합하여 운영 효율성을 극대화합니다.",
+    "keyFeatures": [
+      "AI 모델 자동 전환",
+      "비용 효율 최적화",
+      "실시간 워크플로 모니터링",
+      "다중 클라우드/로컬 AI 통합",
+      "에이전트 작업 부하 분산"
+    ],
+    "persona": "AI 에이전트 기반 솔루션을 개발하는 스타트업의 CTO 또는 리드 개발자입니다. 핵심 서비스의 연속성과 안정적인 운영이 중요하며, 특정 AI 벤더에 종속되는 것을 경계합니다.",
+    "businessModel": "사용량 기반 구독 모델입니다. API 호출량 및 관리되는 AI 모델 수에 따라 요금을 부과합니다. 월 최소 $99부터 시작하여 대규모 사용 시 $1,000 이상입니다.",
+    "marketStats": "기사에 시장 규모 근거 없음. 다만 Gemini 4 Hydrogen의 출시와 Claude의 서비스 장애는 에이전트 워크플로 시장의 성장과 안정성 요구가 있음을 시사합니다.",
+    "goToMarket": "초기 고객 100명은 AI 개발자 커뮤니티(Hacker News, Reddit r/MachineLearning)에 베타 프로그램 홍보, 그리고 Gemini 4 Hydrogen 출시를 활용한 기술 블로그 글 작성 및 관련 컨퍼런스 발표를 통해 확보합니다.",
+    "unfairAdvantage": "Gemini 4 Hydrogen이 'multi-model workloads'의 효율성을 강조하고 'diverse agentic workflows'에 특화된 시점에서, 이 모델과 Claude 같은 다른 모델, 그리고 Edge0-145B 같은 로컬 모델을 통합 관리하는 솔루션은 시의적절합니다. 특정 벤더에 종속되지 않는 유연성을 제공합니다.",
+    "competitors": [
+      "Azure AI Studio — 특정 클라우드 벤더 종속적",
+      "LangChain/LlamaIndex — 개발 프레임워크, 직접적인 오케스트레이션 기능은 제한적",
+      "직접 구축 — 높은 개발 및 유지보수 비용, 장애 대응 복잡성"
+    ],
+    "risks": [
+      "AI 모델 API 표준화 부재로 통합 복잡성 증대",
+      "주요 AI 벤더들의 자체 오케스트레이션 기능 강화",
+      "시장 초기 단계로 에이전트 워크플로 도입 지연",
+      "오픈소스 대안의 등장으로 경쟁 심화"
+    ],
+    "actionPlan": [
+      "Gemini 4 Hydrogen API 통합 프로토타입 개발",
+      "Claude API 연동 및 장애 시 전환 로직 구현",
+      "잠재 고객 5명 대상 요구사항 인터뷰 진행",
+      "핵심 기능 구현을 위한 기술 스택 확정",
+      "MVP 개발 로드맵 수립"
+    ],
+    "recommendation": "Gemini 4 Hydrogen과 같은 에이전트 특화 모델의 등장은 다중 모델 워크로드의 중요성을 높입니다. Claude의 장애는 신뢰성 문제에 대한 개발자들의 우려를 보여주므로, 이 아이디어는 시기적절합니다. 다만, 주요 AI 벤더들의 자체 통합 솔루션이 강화될 위험을 지속적으로 모니터링해야 합니다.",
+    "searchQuery": "ai agent workflow orchestration",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 116점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Patchwork – Open-source framework to automate development gruntwork",
+          "url": "https://github.com/patched-codes/patchwork",
+          "points": 116
+        },
+        {
+          "title": "Show HN: Modulus – Cross-repository knowledge orchestration for coding agents",
+          "url": "https://modulus.so",
+          "points": 15
+        },
+        {
+          "title": "Show HN: eBook to audiobook narration with realistic AI voices",
+          "url": "https://ebookaloud.com",
+          "points": 8
+        },
+        {
+          "title": "Konductor Workflow – The AI Orchestration Agent Framework for Every Dev",
+          "url": "https://alphabits.team/news/blog/konductor-workflow-release-the-ai-agent-framework-we-built-for-ourselves",
+          "points": 4
+        },
+        {
+          "title": "Show HN: Orchestrate parallel Claude Code and Codex agents on a live map",
+          "url": "https://github.com/Latand/live-log-viewer-next",
+          "points": 4
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen"
+      },
+      {
+        "clusterId": "hackernews:50484960",
+        "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+        "url": "https://text.npr.org/nx-s1-6029408"
+      },
+      {
+        "clusterId": "hackernews:50481187",
+        "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+        "url": "https://status.claude.com/incidents/nn11wk485zfn"
+      },
+      {
+        "clusterId": "hackernews:50481870",
+        "title": "AI is destroying the trust between writers and readers",
+        "url": "https://theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391"
+      },
+      {
+        "clusterId": "hackernews:50484658",
+        "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
+        "url": "https://youtube.com/watch?v=IRK8h67ol7Q"
+      },
+      {
+        "clusterId": "hackernews:50481220",
+        "title": "Claude Is Down",
+        "url": "https://status.claude.com/history"
+      },
+      {
+        "clusterId": "hackernews:50486748",
+        "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+        "url": "https://theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths"
+      },
+      {
+        "clusterId": "hackernews:50474883",
+        "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+        "url": "https://unemploymentlabs.com/checkpoint-forensics"
+      },
+      {
+        "clusterId": "hackernews:50468888",
+        "title": "I'm making LLMs work on small and old devices",
+        "url": "https://github.com/hyperionaidev/smolmaxxing"
+      },
+      {
+        "clusterId": "hackernews:50465829",
+        "title": "Anthropic IPO",
+        "url": "https://ipo.anthropic.com/us"
+      },
+      {
+        "clusterId": "hackernews:50475713",
+        "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+        "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+      },
+      {
+        "clusterId": "hackernews:50474311",
+        "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+        "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"
+      },
+      {
+        "clusterId": "hackernews:50484110",
+        "title": "Amodei Says AI Will Cure Cancer in a Decade. Doctors Are Skeptical",
+        "url": "https://businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11"
+      },
+      {
+        "clusterId": "hackernews:50475735",
+        "title": "Why You Should Expect an AI Crash",
+        "url": "https://economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash"
+      },
+      {
+        "clusterId": "hackernews:50487184",
+        "title": "OpenAI disbands its robotics team as its general models start running robots",
+        "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots"
+      }
+    ]
+  }
+}

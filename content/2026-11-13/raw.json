@@ -1,0 +1,1161 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T19:22:08.108Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 12
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 5
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 24,
+      "filtered": 23
+    }
+  ],
+  "clusters": [
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+          "source": "google-deepmind",
+          "publishedAt": "2026-11-12T18:00:50.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50471431",
+          "title": "Gemini 4 Hydrogen",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T18:01:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 554,
+            "comments": 345,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50471431"
+          }
+        },
+        {
+          "id": "hackernews:50472260",
+          "title": "Gemini 4 Hydrogen and Orchestrator",
+          "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T18:52:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 490,
+            "comments": 160,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50472260"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+          "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+          "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T19:23:03.000Z",
+          "summary": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 6.762291688142615,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.5956250214759484,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50484960",
+      "representativeId": "hackernews:50484960",
+      "items": [
+        {
+          "id": "hackernews:50484960",
+          "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+          "url": "https://text.npr.org/nx-s1-6029408",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T15:29:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 99,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50484960"
+          }
+        },
+        {
+          "id": "hackernews:50476586",
+          "title": "Chicago schools to Google – we'd rather lose Search than be forced to accept AI",
+          "url": "https://techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T00:38:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 88,
+            "comments": 28,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50476586"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+          "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+          "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T18:57:45.000Z",
+          "summary": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.67113497770651,
+      "breakdown": {
+        "hnPoints": 1.481570526137868,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.8333333333333333,
+        "recency": 1.291682019483112,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50481187",
+      "representativeId": "hackernews:50481187",
+      "items": [
+        {
+          "id": "hackernews:50481187",
+          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "url": "https://status.claude.com/incidents/nn11wk485zfn",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T10:18:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 459,
+            "comments": 368,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50481187"
+          }
+        }
+      ],
+      "score": 5.230527847238865,
+      "breakdown": {
+        "hnPoints": 1.9725317608310993,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.057996086407766,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50481870",
+      "representativeId": "hackernews:50481870",
+      "items": [
+        {
+          "id": "hackernews:50481870",
+          "title": "AI is destroying the trust between writers and readers",
+          "url": "https://theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T11:13:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 257,
+            "comments": 147,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50481870"
+          }
+        }
+      ],
+      "score": 5.025171386395009,
+      "breakdown": {
+        "hnPoints": 1.7864923383041966,
+        "hnComments": 0.9422826634331711,
+        "mentions": 0.0,
+        "recency": 1.0963963846576406,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50484658",
+      "representativeId": "hackernews:50484658",
+      "items": [
+        {
+          "id": "hackernews:50484658",
+          "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
+          "url": "https://youtube.com/watch?v=IRK8h67ol7Q",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T15:08:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 104,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50484658"
+          }
+        }
+      ],
+      "score": 4.928139663202348,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.8775585094278122,
+        "mentions": 0.0,
+        "recency": 1.2748532661426704,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50481220",
+      "representativeId": "hackernews:50481220",
+      "items": [
+        {
+          "id": "hackernews:50481220",
+          "title": "Claude Is Down",
+          "url": "https://status.claude.com/history",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T10:20:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 191,
+            "comments": 164,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50481220"
+          }
+        }
+      ],
+      "score": 4.913531160872799,
+      "breakdown": {
+        "hnPoints": 1.6914359013707791,
+        "hnComments": 0.9627855766206123,
+        "mentions": 0.0,
+        "recency": 1.0593096828814077,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50486748",
+      "representativeId": "hackernews:50486748",
+      "items": [
+        {
+          "id": "hackernews:50486748",
+          "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+          "url": "https://theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T17:30:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 167,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50486748"
+          }
+        }
+      ],
+      "score": 4.909402138637452,
+      "breakdown": {
+        "hnPoints": 1.6484763216730338,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 1.395989407357384,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50474883",
+      "representativeId": "hackernews:50474883",
+      "items": [
+        {
+          "id": "hackernews:50474883",
+          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+          "url": "https://unemploymentlabs.com/checkpoint-forensics",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T21:56:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 349,
+            "comments": 144,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50474883"
+          }
+        }
+      ],
+      "score": 4.680166453889687,
+      "breakdown": {
+        "hnPoints": 1.8846081154992873,
+        "hnComments": 0.9384211974796635,
+        "mentions": 0.0,
+        "recency": 0.6571371409107366,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50468888",
+      "representativeId": "hackernews:50468888",
+      "items": [
+        {
+          "id": "hackernews:50468888",
+          "title": "I'm making LLMs work on small and old devices",
+          "url": "https://github.com/hyperionaidev/smolmaxxing",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T15:23:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 462,
+            "comments": 175,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50468888"
+          }
+        }
+      ],
+      "score": 4.660212382271277,
+      "breakdown": {
+        "hnPoints": 1.9746231156627843,
+        "hnComments": 0.9749550675807676,
+        "mentions": 0.0,
+        "recency": 0.5106341990277249,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50465829",
+      "representativeId": "hackernews:50465829",
+      "items": [
+        {
+          "id": "hackernews:50465829",
+          "title": "Anthropic IPO",
+          "url": "https://ipo.anthropic.com/us",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T11:46:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 988,
+            "comments": 899,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50465829"
+          }
+        }
+      ],
+      "score": 4.644395014770793,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.44439501477079246,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50475713",
+      "representativeId": "hackernews:50475713",
+      "items": [
+        {
+          "id": "hackernews:50475713",
+          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+          "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T23:06:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 328,
+            "comments": 100,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50475713"
+          }
+        }
+      ],
+      "score": 4.622313580275144,
+      "breakdown": {
+        "hnPoints": 1.8647016254589133,
+        "hnComments": 0.8702348058147612,
+        "mentions": 0.0,
+        "recency": 0.6873771490014684,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50474311",
+      "representativeId": "hackernews:50474311",
+      "items": [
+        {
+          "id": "hackernews:50474311",
+          "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+          "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T21:09:49.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 194,
+            "comments": 225,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50474311"
+          }
+        }
+      ],
+      "score": 4.5342938733434845,
+      "breakdown": {
+        "hnPoints": 1.6964238920151469,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6378699813283372,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50484110",
+      "representativeId": "hackernews:50484110",
+      "items": [
+        {
+          "id": "hackernews:50484110",
+          "title": "Amodei Says AI Will Cure Cancer in a Decade. Doctors Are Skeptical",
+          "url": "https://businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T14:34:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 65,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50484110"
+          }
+        }
+      ],
+      "score": 4.341709127753223,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.7900082711932495,
+        "mentions": 0.0,
+        "recency": 1.2469220918620207,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50475735",
+      "representativeId": "hackernews:50475735",
+      "items": [
+        {
+          "id": "hackernews:50475735",
+          "title": "Why You Should Expect an AI Crash",
+          "url": "https://economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T23:08:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 99,
+            "comments": 84,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50475735"
+          }
+        }
+      ],
+      "score": 4.20764735547521,
+      "breakdown": {
+        "hnPoints": 1.481570526137868,
+        "hnComments": 0.8377137150343965,
+        "mentions": 0.0,
+        "recency": 0.6883631143029448,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50487184",
+      "representativeId": "hackernews:50487184",
+      "items": [
+        {
+          "id": "hackernews:50487184",
+          "title": "OpenAI disbands its robotics team as its general models start running robots",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T17:55:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 35,
+            "comments": 8,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50487184"
+          }
+        }
+      ],
+      "score": 4.1859643766993795,
+      "breakdown": {
+        "hnPoints": 1.1528859574457346,
+        "hnComments": 0.41431232324531164,
+        "mentions": 0.0,
+        "recency": 1.418766096008333,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50480659",
+      "representativeId": "hackernews:50480659",
+      "items": [
+        {
+          "id": "hackernews:50480659",
+          "title": "Is there a 'right amount' of AI?",
+          "url": "https://coyotetracks.org/blog/right-amount-of-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-13T09:27:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50480659"
+          }
+        }
+      ],
+      "score": 4.166775924872109,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 1.0238388185442706,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-chatgpt-wallet",
+      "representativeId": "openai:https://openai.com/index/introducing-chatgpt-wallet",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-chatgpt-wallet",
+          "title": "Introducing ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "openai",
+          "publishedAt": "2026-11-13T15:00:00.000Z",
+          "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-13T16:00:12.000Z",
+          "summary": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.6510000648251353,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3176667314918018,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50467880",
+      "representativeId": "hackernews:50467880",
+      "items": [
+        {
+          "id": "hackernews:50467880",
+          "title": "Show HN: AI Red Lines – write down what would make you act on AI",
+          "url": "https://yourairedlines.com",
+          "source": "hackernews",
+          "publishedAt": "2026-11-12T14:31:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 33,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50467880"
+          }
+        }
+      ],
+      "score": 3.5375053936651812,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.6649364096070337,
+        "mentions": 0.0,
+        "recency": 0.49393177058235216,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+          "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+          "source": "huggingface",
+          "publishedAt": "2026-11-13T18:00:39.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.773569869697067,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.423569869697067,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/xybench",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/xybench",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/xybench",
+          "title": "XYBench: Helping with the problem behind the question",
+          "url": "https://huggingface.co/blog/allenai/xybench",
+          "source": "huggingface",
+          "publishedAt": "2026-11-13T17:02:35.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.7214935820777058,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3714935820777054,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "representativeId": "huggingface:https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+          "source": "huggingface",
+          "publishedAt": "2026-11-13T14:05:22.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.574046499712971,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.224046499712971,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+          "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+          "url": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-13T17:25:45.000Z",
+          "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.4420378975386763,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3920378975386767,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh oh, Jensen!",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-13T18:40:30.000Z",
+          "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.360448465816122,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.460448465816122,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+          "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+          "url": "https://theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-13T14:00:00.000Z",
+          "summary": "Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that agents can be useful for people who don't write code. It's been an interesting couple […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.119837716772984,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2198377167729841,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/amplitude",
+      "representativeId": "openai:https://openai.com/business/customer-stories/amplitude",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/amplitude",
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "source": "openai",
+          "publishedAt": "2026-11-12T20:00:00.000Z",
+          "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.109918858386492,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6099188583864921,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/gondola",
+      "representativeId": "openai:https://openai.com/business/customer-stories/gondola",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/gondola",
+          "title": "Gondola doubles revenue as its team builds more with Codex",
+          "url": "https://openai.com/business/customer-stories/gondola",
+          "source": "openai",
+          "publishedAt": "2026-11-12T12:00:00.000Z",
+          "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9482093918299919,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.44820939182999187,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "source": "huggingface",
+          "publishedAt": "2026-11-12T19:07:35.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9397417671247088,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5897417671247086,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+      "representativeId": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+          "title": "Holiday Extras is rethinking what it can build with Codex",
+          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+          "source": "openai",
+          "publishedAt": "2026-11-12T09:30:00.000Z",
+          "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9070719999920893,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4070719999920894,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/12/llm-gemini",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/12/llm-gemini",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/12/llm-gemini",
+          "title": "llm-gemini 0.37",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-12T22:55:19.000Z",
+          "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme: Model Dates Input ($/M) Cached input Output Gemini 4 Carbon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Argon Through Nov 30, 2026 $2.00 $0.10 $10.00 From Dec 1, 2026 $4.00 $0.20 $20.00 Gemini 4 Hydrogen $1.50 $0.075 $7.50 Carbon and Argon are the same price , and both are scheduled to double in price on December 1st. If they're the same price, why have two different models? Google says that Argon \"delivers Gemini 4 intelligence with faster responses and lower token spend per turn compared to Gemini 4 Carbon\" - so it may be priced the same, but it will use less tokens per task. Hydrogen, supposedly the cheap model, is currently only a 25% discount on its more capable peers. The Hydrogen price will make more sense after December 1st, when it will represent a 75% discount. It's still considerably more expensive than Claude Haiku 5.5 and GPT-6 Luna - they're both $0.10/$0.50, so Hydrogen is 15x that. I had Hydrogen generate some pelicans . Here's a full comparison grid showing the pelicans for all three members of the Gemini 4 family at their three supported effort levels: Considering how close they are in price, the difference in pelican quality for Hydrogen is quite stark. Here's how Google describe Hydrogen's intended position in their mix of models: In real-world software development, while teams rely on frontier models like Carbon and Argon for deep architectural judgment when designing systems or untangling subtle bugs, they still need a fast, disciplined execution model for writing code, running tests, and verifying changes. Hydrogen is built to stand on its own as a model for everyday work — or to pair with Carbon and Argon as the high-efficiency execution engine in multi-model workflows. Most notably, Hydrogen is the new free tier model, and is the model that will power AI features in Google Search. Tags: gemini , llm , google , pelican-riding-a-bicycle , llm-pricing , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7325560732202474,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6825560732202477,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+          "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+          "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T22:28:47.000Z",
+          "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.721031117544033,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6710311175440331,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+          "title": "Google’s new Gemini model is better at understanding complicated questions",
+          "url": "https://theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-12T21:55:32.000Z",
+          "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.556863058925382,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6568630589253821,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+          "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-12T14:50:17.000Z",
+          "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5499703819212887,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49997038192128884,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+          "title": "No, AI agents did not discover a previously unknown Maya site",
+          "url": "https://theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-12T19:42:40.000Z",
+          "summary": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico. There was just one problem: The site had already been discovered and was published in an academic journal last year. The incident, which sparked criticism among archeologists online, underscores a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5031713656946708,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6031713656946709,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+          "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+          "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T19:11:00.000Z",
+          "summary": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4910363875550225,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5910363875550226,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:36:40.000Z",
+          "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4563147180875413,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5563147180875414,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+          "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:17:58.000Z",
+          "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4496778936537422,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5496778936537423,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+          "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:00:52.000Z",
+          "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4436782547481806,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5436782547481807,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+          "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+          "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.443375929106145,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.543375929106145,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+          "title": "AI chatbots are recommending fake retail websites, study finds",
+          "url": "https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.443375929106145,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.543375929106145,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "representativeId": "theverge-ai:https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+          "title": "More game developers are starting to use generative AI",
+          "url": "https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-12T17:00:00.000Z",
+          "summary": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as part of their job,\" an increase from 36 percent in 2025. Usage was higher with game developers that […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.443375929106145,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.543375929106145,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+          "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-12T16:32:33.000Z",
+          "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.433886841044673,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5338868410446731,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "google-deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen",
+    "hackernews:50484960",
+    "hackernews:50481187",
+    "hackernews:50481870",
+    "hackernews:50484658"
+  ]
+}
