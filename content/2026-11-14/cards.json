@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T17:51:09.610Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50496921",
+      "headline": "빌 게이츠는 자기만큼 코딩한 AI에 감탄했다",
+      "highlight": [
+        "자기만큼 코딩한",
+        "감탄했다"
+      ],
+      "body": "빌 게이츠는 최근 인터뷰에서 앤트로픽의 클로드 모델이 자신만큼 코딩을 잘해내자 초인적이라고 감탄했습니다. 저자는 자기 실력에 다다른 AI를 초인적이라 부르는 테크 엘리트들의 비대한 자의식을 꼬집습니다. 자신의 역량을 절대 기준 삼는 착각 탓입니다.",
+      "sourceUrl": "https://netmeister.org/blog/claude-delusion.html",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
+      "publishedAt": "2026-11-14T13:36:17.000Z"
+    },
+    {
+      "clusterId": "hackernews:50481187",
+      "headline": "클로드 전 서비스 한때 먹통",
+      "highlight": [
+        "전 서비스",
+        "먹통"
+      ],
+      "body": "앤트로픽의 클로드 주요 서비스에서 접속 및 인증 오류가 대거 발생했습니다. claude.ai를 비롯해 클로드 코드와 콘솔 등 전 제품이 영향받았으나 현재는 조치가 완료되었습니다. 서비스는 정상 복구되어 다시 이용할 수 있습니다.",
+      "sourceUrl": "https://status.claude.com/incidents/nn11wk485zfn",
+      "sourceName": "hackernews",
+      "imageUrl": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "publishedAt": "2026-11-13T10:18:13.000Z"
+    },
+    {
+      "clusterId": "hackernews:50491980",
+      "headline": "270억 매개변수 AI를 개인 PC에서 돌린다",
+      "highlight": [
+        "개인 PC에서"
+      ],
+      "body": "언슬로스가 최신 Qwen3.8-27B 모델을 17GB VRAM 환경에서 구동하도록 최적화했습니다. RTX 4090이나 맥북에서도 고성능 비전·추론 AI를 직접 다운로드해 실행합니다. 고가 클라우드 없이 내 컴퓨터에서 강력한 로컬 AI를 무제한 활용하게 됩니다.",
+      "sourceUrl": "https://unsloth.ai/docs/models/qwen3.8",
+      "sourceName": "hackernews",
+      "imageUrl": "https://unsloth.ai/docs/~gitbook/image?url=https%3A%2F%2F2815821428-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FHpyELzcNe0topgVLGCZY%252Fsites%252Fsite_mXXTe%252Fsocialpreview%252FOeFDVbzp4cgwaId7PbvL%252Funsloth%2520docs%2520pic.png%3Falt%3Dmedia%26token%3Df34a6bcc-db15-449a-bc2d-e0e8f52fe953&width=1200&height=630&sign=9a9d6aae5e35625d4a32adaf8cf74290&sv=3",
+      "publishedAt": "2026-11-14T00:06:04.000Z"
+    }
+  ]
+}
