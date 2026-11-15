@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T18:44:31.690Z",
+  "idea": {
+    "productName": "UndoFuse",
+    "tagline": "AI 에이전트의 파일 삭제를 실시간 격리하고 되돌린다",
+    "oneLineSummary": "로컬 문서를 다루는 자율 AI 에이전트를 위한 스냅샷 기반 안전 가상 파일시스템을 연구자와 개발자에게 구독형으로 제공합니다.",
+    "problem": "단순 문서 정리를 맡긴 AI 에이전트가 원본 강의 노트와 실라버스를 영구 삭제하는 사고가 발생했습니다. 권한 격리가 없는 로컬 도구 탓에 사용자는 에이전트에게 마음 놓고 파일 수정을 위임하지 못합니다.",
+    "productDescription": "로컬 파일시스템과 AI 에이전트 사이에 위치하는 가상 샌드박스 계층 소프트웨어를 제공합니다. 에이전트가 실행하는 모든 수정과 삭제 명령은 격리된 임시 가상 레이어에만 기록되며 원본 파일은 즉시 불변 스냅샷으로 보존됩니다. 작업 완료 후 사용자가 변경 내역을 눈으로 확인하고 승인해야만 실제 디스크에 반영됩니다. 에이전트가 실수로 폴더나 문서를 날려도 원클릭으로 초 단위 롤백이 가능합니다.",
+    "keyFeatures": [
+      "에이전트 삭제 명령 가상 격리",
+      "작업 전 원본 즉시 자동 스냅샷",
+      "변경 파일 승인식 원터치 병합",
+      "실수 발생 시 초 단위 전체 롤백"
+    ],
+    "persona": "강의 계획서나 논문 자료 정리를 Claude 같은 AI 에이전트에 맡겼다가 영구 삭제 사고 소식을 접하고 불안해하는 대학 교수 및 연구원입니다.",
+    "businessModel": "개인 라이선스는 월 12달러로 기본 샌드박스 및 무제한 롤백을 제공하고, 연구실 및 팀 라이선스는 사용자당 월 29달러로 다중 프로젝트 승인 파이프라인을 지원합니다.",
+    "marketStats": "기사에 규모 근거 없음.",
+    "goToMarket": "Claude의 강의 노트 삭제 사고가 화제가 된 Hacker News 스레드와 연구자 레딧 커뮤니티에 CLI 오픈베타 버전을 배포해 초기 사용자 100명을 확보합니다.",
+    "unfairAdvantage": "자율 에이전트의 파일 조작 사고로 사용자 불안이 극에 달한 시점에, 복잡한 컨테이너 설정 없이 로컬 폴더에 바로 물릴 수 있는 가장 가벼운 격리 계층을 선점할 수 있습니다.",
+    "competitors": [
+      "Docker — 환경 전체 가상화 중심 · 일반 문서 작업 연동 번거로움",
+      "Git — 소스 코드 추적 위주 · 비개발자 비정형 문서 즉시 복구에 비효율",
+      "macOS Time Machine — 주기적 전체 백업용 · 에이전트 작업 단위 즉시 격리 불가"
+    ],
+    "risks": [
+      "운영체제 차원의 네이티브 에이전트 격리 기능 기본 탑재",
+      "대용량 디렉터리 작업 시 임시 스냅샷에 따른 로컬 용량 부족",
+      "Anthropic 등 주요 모델 공급사의 자체 파일 롤백 샌드박스 출시"
+    ],
+    "actionPlan": [
+      "OS 파일시스템 쓰기 가로채기 기반 FUSE 프로토타입 구현",
+      "에이전트 수정 요청 시 가상 계층으로 분기하는 파이프라인 검증",
+      "사고 뉴스를 공유한 연구자 및 개발자 5명 대상 심층 인터뷰",
+      "Hacker News Show HN 릴리즈 및 초기 테스터 100명 등록 유치"
+    ],
+    "recommendation": "에이전트에게 로컬 파일 권한을 넘겨주는 사용자가 급증하면서 파괴적 작업 방지 솔루션의 시의성은 매우 뛰어납니다. 다만 단순 유틸리티에 머무르면 빅테크나 OS 제조사의 기본 기능에 쉽게 흡수될 수 있으므로, 다자간 작업 승인 워크플로 같은 협업 기능으로 빠르게 확장해야 합니다.",
+    "searchQuery": "ai agent file sandbox",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 20건 · 근거는 상위 5건 — 최고 227점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Axe – A 12MB binary that replaces your AI framework",
+          "url": "https://github.com/jrswab/axe",
+          "points": 227
+        },
+        {
+          "title": "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
+          "url": "https://github.com/trycua/cua",
+          "points": 172
+        },
+        {
+          "title": "Show HN: Zerobox – Sandbox any command with file, network, credential controls",
+          "url": "https://github.com/afshinm/zerobox",
+          "points": 141
+        },
+        {
+          "title": "Launch HN: Terminal Use (YC W26) – Vercel for filesystem-based agents",
+          "url": "https://news.ycombinator.com/item?id=47311657",
+          "points": 115
+        },
+        {
+          "title": "Show HN: Archil's one-click infinite, S3-backed local disks now available",
+          "url": "https://news.ycombinator.com/item?id=45264956",
+          "points": 19
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50507303",
+        "title": "All AI-generated code should be Open Source",
+        "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source"
+      },
+      {
+        "clusterId": "hackernews:50501631",
+        "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+        "url": "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
+      },
+      {
+        "clusterId": "hackernews:50505905",
+        "title": "Jensen Huang allegedly manufactured the GPU shortage",
+        "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon"
+      },
+      {
+        "clusterId": "hackernews:50496921",
+        "title": "The Claude Delusion",
+        "url": "https://netmeister.org/blog/claude-delusion.html"
+      },
+      {
+        "clusterId": "hackernews:50506376",
+        "title": "Understanding Positional Embeddings in Modern LLMs",
+        "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings"
+      },
+      {
+        "clusterId": "hackernews:50497589",
+        "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+        "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
+      },
+      {
+        "clusterId": "hackernews:50499114",
+        "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+        "url": "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits"
+      },
+      {
+        "clusterId": "hackernews:50498051",
+        "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+        "url": "https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls"
+      }
+    ]
+  }
+}

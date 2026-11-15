@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T18:40:44.990Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50507303",
+      "headline": "AI가 만든 코드는 전부 오픈소스여야 한다",
+      "highlight": [
+        "오픈소스여야 한다"
+      ],
+      "body": "AI 모델이 기존 오픈소스 코드와 스택오버플로 데이터를 무단 학습했기 때문입니다. 미국 저작권청 판례에 따르면 인간이 아닌 AI가 생성한 결과물은 저작권이 없습니다. 프롬프트로만 작성된 코드는 모두 오픈소스로 공개해야 한다는 지적입니다.",
+      "sourceUrl": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+      "sourceName": "Jakub T. Jankiewicz Blog",
+      "imageUrl": "https://jakub.jankiewicz.org/img/en/ai-code-open-source.png",
+      "publishedAt": "2026-11-15T14:46:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:50501631",
+      "headline": "엔비디아가 GPU 가격 일부러 올려왔다",
+      "highlight": [
+        "GPU 가격",
+        "일부러 올려왔다"
+      ],
+      "body": "엔비디아가 고객사에 자금을 대주고 수요를 부풀려 GPU 가격을 고의로 올려왔다는 보도가 나왔습니다. 젠슨 황 전 CEO는 TSMC 물량을 소화하려 무리한 거래를 강행하며 고가를 유지했습니다. 그 결과 그래픽카드 가격이 권장가의 160%를 넘는 폭등이 일어났습니다.",
+      "sourceUrl": "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "sourceName": "TechSpot",
+      "imageUrl": "https://www.techspot.com/images2/news/bigimage/2025/01/2025-01-08-image-3.jpg",
+      "publishedAt": "2026-11-14T22:26:30.000Z"
+    },
+    {
+      "clusterId": "hackernews:50505905",
+      "headline": "엔비디아 품귀 현상은 젠슨 황의 연출이었다",
+      "highlight": [
+        "품귀 현상",
+        "연출이었다"
+      ],
+      "body": "엔비디아가 GPU 가격 하락을 막으려 AI 스타트업에 자금을 대며 인위적 수요를 만든 것으로 나타났습니다. 과다 주문한 TSMC 반도체 재고를 소진하려 순환 금융을 동원한 겁니다. 최소 2000억 달러어치 칩이 놀고 있던 만큼 인위적 품귀에 소비자만 피해를 입었습니다.",
+      "sourceUrl": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
+      "sourceName": "Wccftech",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2026/11/Jensen-Huang-3.jpg",
+      "publishedAt": "2026-11-15T10:53:50.000Z"
+    },
+    {
+      "clusterId": "hackernews:50496921",
+      "headline": "빌 게이츠도 놀랐다 클로드가 나만큼 코딩한다",
+      "highlight": [
+        "빌 게이츠도",
+        "나만큼 코딩한다"
+      ],
+      "body": "빌 게이츠는 뉴욕타임스 인터뷰에서 앤트로픽의 클로드 모델이 자신만큼 코딩을 잘한다고 밝혔다. 13세부터 24세까지 코딩에 매몰됐던 그는 AI가 복잡한 작업을 수행하며 초인적 능력을 얻었다고 평했다. 테크 최고 거두마저 AI의 개발 능력에 경외감을 드러내고 있다.",
+      "sourceUrl": "https://netmeister.org/blog/claude-delusion.html",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.netmeister.org/blog/images/claude-delusion.jpg",
+      "publishedAt": "2026-11-14T13:36:17.000Z"
+    },
+    {
+      "clusterId": "hackernews:50506376",
+      "headline": "LLM, 22% 비용 폭탄 막는 법은?",
+      "highlight": [
+        "22% 비용 폭탄"
+      ],
+      "body": "LLM은 단어 순서 이해를 위해 위치 정보를 활용합니다. GPT-2 방식은 10만 토큰 문맥 처리 시 위치 임베딩이 모델 가중치의 22%를 넘어 비효율적이죠. RoPE 등 최신 기술로 긴 문맥을 훨씬 경제적으로 처리할 수 있게 되었습니다.",
+      "sourceUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!8RKL!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb461a2cb-11ab-474a-affe-0ee99e5a8782_2850x2777.png",
+      "publishedAt": "2026-11-15T12:14:06.000Z"
+    }
+  ]
+}

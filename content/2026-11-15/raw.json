@@ -1,0 +1,377 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T18:37:18.531Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50507303",
+      "representativeId": "hackernews:50507303",
+      "items": [
+        {
+          "id": "hackernews:50507303",
+          "title": "All AI-generated code should be Open Source",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T14:46:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 642,
+            "comments": 349,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
+          }
+        }
+      ],
+      "score": 5.4938610582794,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.2938610582793997,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50501631",
+      "representativeId": "hackernews:50501631",
+      "items": [
+        {
+          "id": "hackernews:50501631",
+          "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+          "url": "https://techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-14T22:26:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 436,
+            "comments": 227,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50501631"
+          }
+        }
+      ],
+      "score": 4.845635240340256,
+      "breakdown": {
+        "hnPoints": 1.9560297359147707,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6896055044254848,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50505905",
+      "representativeId": "hackernews:50505905",
+      "items": [
+        {
+          "id": "hackernews:50505905",
+          "title": "Jensen Huang allegedly manufactured the GPU shortage",
+          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T10:53:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 52,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50505905"
+          }
+        }
+      ],
+      "score": 4.327641163362188,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.7486448511604031,
+        "mentions": 0.0,
+        "recency": 1.1140534900924082,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50496921",
+      "representativeId": "hackernews:50496921",
+      "items": [
+        {
+          "id": "hackernews:50496921",
+          "title": "The Claude Delusion",
+          "url": "https://netmeister.org/blog/claude-delusion.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-14T13:36:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 149,
+            "comments": 197,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50496921"
+          }
+        }
+      ],
+      "score": 4.2998769118004105,
+      "breakdown": {
+        "hnPoints": 1.6120163358015704,
+        "hnComments": 0.9971644328159053,
+        "mentions": 0.0,
+        "recency": 0.49069614318293503,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50506376",
+      "representativeId": "hackernews:50506376",
+      "items": [
+        {
+          "id": "hackernews:50506376",
+          "title": "Understanding Positional Embeddings in Modern LLMs",
+          "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T12:14:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 136,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50506376"
+          }
+        }
+      ],
+      "score": 4.217201433365495,
+      "breakdown": {
+        "hnPoints": 1.5828511074457607,
+        "hnComments": 0.26140197200678245,
+        "mentions": 0.0,
+        "recency": 1.1729483539129513,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50497589",
+      "representativeId": "hackernews:50497589",
+      "items": [
+        {
+          "id": "hackernews:50497589",
+          "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+          "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+          "source": "hackernews",
+          "publishedAt": "2026-11-14T15:04:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 263,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50497589"
+          }
+        }
+      ],
+      "score": 4.127437068748954,
+      "breakdown": {
+        "hnPoints": 1.7938885020150312,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 0.5191964609233795,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50499114",
+      "representativeId": "hackernews:50499114",
+      "items": [
+        {
+          "id": "hackernews:50499114",
+          "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+          "source": "hackernews",
+          "publishedAt": "2026-11-14T17:51:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50499114"
+          }
+        }
+      ],
+      "score": 3.8480774313299935,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.5779238122919277,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50498051",
+      "representativeId": "hackernews:50498051",
+      "items": [
+        {
+          "id": "hackernews:50498051",
+          "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+          "source": "hackernews",
+          "publishedAt": "2026-11-14T15:58:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 61,
+            "comments": 42,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50498051"
+          }
+        }
+      ],
+      "score": 3.7747429228131146,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.7092181537550141,
+        "mentions": 0.0,
+        "recency": 0.5377474198305651,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/14/datasette-llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/14/datasette-llm",
+          "title": "datasette-llm 0.1a11",
+          "url": "https://simonwillison.net/2026/Nov/14/datasette-llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-14T23:59:28.000Z",
+          "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard web protocol. This means that if you're running local models with LM Studio or Ollama or llama.cpp (which just hit v1.0.0 ) you can run Datasette via uvx like this: wget https://datasette.io/content.db uvx --with datasette-agent datasette \\ --root --secret 1 \\ -s plugins.datasette-llm.default_model ' { \"model\": \"lmstudio-qwen\", \"model_name\": \"qwen/qwen3.8-27b\", \"api_base\": \"http://localhost:1234/v1\" } ' content.db And you'll get a local server running a Datasette Agent instance powered by your local model! Tags: uv , datasette-agent , llm , datasette , llms , ai , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.782004002485842,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7320040024858422,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/14/datasette-vega",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/14/datasette-vega",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/14/datasette-vega",
+          "title": "datasette-vega 0.7",
+          "url": "https://simonwillison.net/2026/Nov/14/datasette-vega",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-14T17:09:09.000Z",
+          "summary": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite ) against data in a table or custom query. The last release was in July 2018! I finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it work better with Datasette Lite . (Datasette Lite just gained the ability to run JavaScript plugins like this! I'll write more about that soon.) Since it works with Datasette Lite, the live demo in the README now links to this demo on Datasette Lite . Tags: datasette , visualisation , datasette-lite",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6125294772970444,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5625294772970446,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+          "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+          "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-14T17:30:00.000Z",
+          "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.470107607553013,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5701076075530132,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+          "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+          "url": "https://theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-14T15:00:00.000Z",
+          "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.417782197891421,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5177821978914209,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50507303",
+    "hackernews:50501631",
+    "hackernews:50505905",
+    "hackernews:50496921",
+    "hackernews:50506376"
+  ]
+}
