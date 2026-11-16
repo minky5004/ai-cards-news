@@ -1,0 +1,1012 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T21:45:45.652Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 11
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 4
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 7
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 17
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50520796",
+      "representativeId": "hackernews:50520796",
+      "items": [
+        {
+          "id": "hackernews:50520796",
+          "title": "FBI says Artex AI open-source hacking tool used to breach networks",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T18:12:21.000Z",
+          "summary": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50520796"
+          }
+        },
+        {
+          "id": "hackernews:50507303",
+          "title": "All AI-generated code should be Open Source",
+          "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T14:46:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1241,
+            "comments": 650,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50507303"
+          }
+        },
+        {
+          "id": "hackernews:50513876",
+          "title": "Nvidia's Days as an Open Checkbook for the AI Economy Are Numbered",
+          "url": "https://wsj.com/tech/ai/nvidias-days-as-an-open-checkbook-for-the-ai-economy-are-numbered-90c7b388",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T04:03:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50513876"
+          }
+        }
+      ],
+      "score": 5.507997557128381,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.3079975571283808,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50519043",
+      "representativeId": "hackernews:50519043",
+      "items": [
+        {
+          "id": "hackernews:50519043",
+          "title": "Generative AI Usage in the Games Industry",
+          "url": "https://gameworkers.co.uk/ai-manifesto",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T15:59:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 40,
+            "comments": 89,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50519043"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+          "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+          "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-15T21:56:35.000Z",
+          "summary": "\"Jensen is Nvidia, right? And so much of this economy is riding on Nvidia.\"",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.277877998164593,
+      "breakdown": {
+        "hnPoints": 1.1947265135734593,
+        "hnComments": 0.8484916006794568,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2013265505783433,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/strengthening-online-child-safety",
+      "representativeId": "openai:https://openai.com/index/strengthening-online-child-safety",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/strengthening-online-child-safety",
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "source": "openai",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "trust": 1.0,
+          "signals": {
+            "points": 70,
+            "comments": 120,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50520804"
+          }
+        }
+      ],
+      "score": 5.024337118323545,
+      "breakdown": {
+        "hnPoints": 1.3713849028644205,
+        "hnComments": 0.904302247134405,
+        "mentions": 0.0,
+        "recency": 1.2486499683247194,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50513215",
+      "representativeId": "hackernews:50513215",
+      "items": [
+        {
+          "id": "hackernews:50513215",
+          "title": "Qwen4-Max",
+          "url": "https://qwen.ai/blog?id=qwen4-max",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T02:14:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 845,
+            "comments": 464,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50513215"
+          }
+        }
+      ],
+      "score": 4.907439043044319,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7074390430443191,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50518501",
+      "representativeId": "hackernews:50518501",
+      "items": [
+        {
+          "id": "hackernews:50518501",
+          "title": "ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T15:17:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 79,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50518501"
+          }
+        }
+      ],
+      "score": 4.413204308198569,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.8262822354443189,
+        "mentions": 0.0,
+        "recency": 1.1694765494620858,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50512950",
+      "representativeId": "hackernews:50512950",
+      "items": [
+        {
+          "id": "hackernews:50512950",
+          "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
+          "url": "https://hntrends.com/2026/november.html",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T01:31:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 93,
+            "comments": 82,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50512950"
+          }
+        }
+      ],
+      "score": 4.182967340258491,
+      "breakdown": {
+        "hnPoints": 1.4616640360974937,
+        "hnComments": 0.8332239394875417,
+        "mentions": 0.0,
+        "recency": 0.6880793646734551,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50506376",
+      "representativeId": "hackernews:50506376",
+      "items": [
+        {
+          "id": "hackernews:50506376",
+          "title": "Understanding Positional Embeddings in Modern LLMs",
+          "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T12:14:06.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 241,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50506376"
+          }
+        }
+      ],
+      "score": 4.006677727719632,
+      "breakdown": {
+        "hnPoints": 1.7658952929955811,
+        "hnComments": 0.6283260283811849,
+        "mentions": 0.0,
+        "recency": 0.41245640634286584,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50509953",
+      "representativeId": "hackernews:50509953",
+      "items": [
+        {
+          "id": "hackernews:50509953",
+          "title": "Parents pay $75k for Alpha's AI school. Half of its students missed math target",
+          "url": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T19:39:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 68,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50509953"
+          }
+        }
+      ],
+      "score": 3.9068638827682687,
+      "breakdown": {
+        "hnPoints": 1.3621923074258677,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.5490341797319757,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50505905",
+      "representativeId": "hackernews:50505905",
+      "items": [
+        {
+          "id": "hackernews:50505905",
+          "title": "Jensen Huang allegedly manufactured the GPU shortage",
+          "url": "https://wccftech.com/jensen-huang-financed-ai-startups-absorb-excess-silicon",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T10:53:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 64,
+            "comments": 64,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50505905"
+          }
+        }
+      ],
+      "score": 3.721855482951412,
+      "breakdown": {
+        "hnPoints": 1.3429794978218619,
+        "hnComments": 0.7871294112379059,
+        "mentions": 0.0,
+        "recency": 0.391746573891644,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "representativeId": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "title": "Broadening access to AI for scientists",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "source": "openai",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+          "title": "US moves to cut China’s remote access to AI chips",
+          "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-16T19:10:09.000Z",
+          "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 3.6907638620447996,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.357430528711466,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50506940",
+      "representativeId": "hackernews:50506940",
+      "items": [
+        {
+          "id": "hackernews:50506940",
+          "title": "Show HN: db-branch – database branches in seconds for AI agents and CI, via ZFS",
+          "url": "https://github.com/db-branch/db-branch",
+          "source": "hackernews",
+          "publishedAt": "2026-11-15T13:50:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50506940"
+          }
+        }
+      ],
+      "score": 3.4048614501550256,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.4388795287892181,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+          "title": "California state AG sues OpenAI over rogue agent incidents",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T20:07:13.000Z",
+          "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "url": "https://theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-16T20:46:01.000Z",
+          "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.1769060651666017,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.4435727318332687,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/science-at-the-frontier",
+      "representativeId": "openai:https://openai.com/index/science-at-the-frontier",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/science-at-the-frontier",
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "source": "openai",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.529962154989085,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.029962154989085,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/lvmh-media-division-partnership",
+      "representativeId": "openai:https://openai.com/index/lvmh-media-division-partnership",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/lvmh-media-division-partnership",
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "source": "openai",
+          "publishedAt": "2026-11-16T09:00:00.000Z",
+          "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "openai:https://openai.com/index/the-kings-trust-and-openai",
+          "title": "The King’s Trust and OpenAI launch £1m partnership",
+          "url": "https://openai.com/index/the-kings-trust-and-openai",
+          "source": "openai",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "summary": "The King’s Trust and OpenAI launch a £1m partnership to help up to 25,000 young people across the UK build practical AI skills for work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4175919636128373,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9175919636128371,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "representativeId": "openai:https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "title": "Our first phase of embedded assessments",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "source": "openai",
+          "publishedAt": "2026-11-16T08:00:00.000Z",
+          "summary": "OpenAI begins embedded assessments with Apollo Research, METR, and Transluce, and Goodfire to independently evaluate model alignment, safeguards, and monitoring systems.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.382928859930777,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.882928859930777,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "representativeId": "openai:https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "title": "Advancing computer-use agents for healthcare teams",
+          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "source": "openai",
+          "publishedAt": "2026-11-16T06:00:00.000Z",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.3174815041585535,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8174815041585535,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "representativeId": "openai:https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "title": "More ways to move care forward with ChatGPT for Healthcare",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "source": "openai",
+          "publishedAt": "2026-11-16T06:00:00.000Z",
+          "summary": "Introducing computer-use agents, improved clinical answers, and new healthcare plugins that work across healthcare software to get real work done.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.3174815041585535,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.8174815041585535,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+          "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+          "url": "https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-16T19:24:40.000Z",
+          "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.270136589220125,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3701365892201252,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1034527/openai-csam-classifier",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1034527/openai-csam-classifier",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1034527/openai-csam-classifier",
+          "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+          "url": "https://theverge.com/policy/1034527/openai-csam-classifier",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-16T19:23:45.000Z",
+          "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it's AI-generated. It's also offering […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.269330748399449,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3693307483994495,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "url": "https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-16T16:04:28.000Z",
+          "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+          "title": "Building AI that can work across the enterprise",
+          "url": "https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-16T13:00:00.000Z",
+          "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.254930013833146,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.204930013833146,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+          "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+          "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T17:10:00.000Z",
+          "summary": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1566896123329133,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2566896123329132,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+          "title": "OpenAI will embed safety researchers to investigate AI subversion",
+          "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T17:02:43.000Z",
+          "summary": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1508289693537126,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2508289693537127,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/holiday-extras-dots",
+      "representativeId": "openai:https://openai.com/business/customer-stories/holiday-extras-dots",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/holiday-extras-dots",
+          "title": "At Holiday Extras, dots get to work before anyone asks",
+          "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
+          "source": "openai",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.148835499832917,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6488354998329169,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+          "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+          "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "summary": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1486499683247193,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2486499683247194,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/step-toward-defining-the-standard-model",
+      "representativeId": "openai:https://openai.com/index/step-toward-defining-the-standard-model",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/step-toward-defining-the-standard-model",
+          "title": "A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "openai",
+          "publishedAt": "2026-11-15T22:00:01.000Z",
+          "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.100746807713053,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6007468077130531,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/our-new-blog-for-science",
+      "representativeId": "openai:https://openai.com/index/our-new-blog-for-science",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/our-new-blog-for-science",
+          "title": "Our new blog for science",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "source": "openai",
+          "publishedAt": "2026-11-15T22:00:00.000Z",
+          "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.100740381729582,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6007403817295822,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+          "title": "Audible turns to AI to help users discover audiobooks",
+          "url": "https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T15:52:19.000Z",
+          "summary": "Audible's new AI-generated audio previews summarize a book's themes and what readers liked about it, in addition to playing the narrated sample.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.095570622365223,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1955706223652232,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+          "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T15:02:34.000Z",
+          "summary": "Under the interim rule, the U.S. will require firms to get licenses to export AI chips if they may provide compute to China or other restricted countries.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0579994256383904,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1579994256383905,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/openrouter",
+      "representativeId": "huggingface:https://huggingface.co/blog/openrouter",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/openrouter",
+          "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+          "url": "https://huggingface.co/blog/openrouter",
+          "source": "huggingface",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.998835499832917,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6488354998329169,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm",
+          "title": "Freshworks alums raise $53M to take on Salesforce, HubSpot with AI-native CRM",
+          "url": "https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T12:30:00.000Z",
+          "summary": "Dreamteam has signed up more than 100 customers across 13 countries, with some businesses switching from established CRMs.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.949985282270921,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.049985282270921,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+          "title": "datasette-maplibre 0.1a0",
+          "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-15T23:58:36.000Z",
+          "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub .) I built most of this with a single prompt to Claude Fable 5.2: Look at datasette-cluster-map and datasette-leaflet-geojson plugins, then look at ~/dev/tools/openfreemap-demo.html - then build a brand new Datasette plugin that uses maplibreGL and openfreemap and combines the features of those other two plugins - but be creative and think outside the box for other useful features the plugin might have \"Be creative and think outside the box\" resulted in a few neat ideas - my favorite is that it displays SVG previews of GeoJSON shapes, then loads a WebGL preview only when they scroll into view. I also had Claude build a comprehensive demo which works in the latest Datasette Lite, so you can visit this link to load the plugin and a demo database in your browser via Pyodide and WebAssembly. I like this demo page showing both GeoJSON shapes and lat/lon points on the same map: Tags: visualization , generative-ai , datasette-lite , claude-mythos-fable , ai , llms , geospatial , openstreetmap , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6982527673233059,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6482527673233061,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette",
+          "title": "datasette 1.0a43",
+          "url": "https://simonwillison.net/2026/Nov/15/datasette",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-15T23:20:27.000Z",
+          "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can register themselves as capable of streaming every row in a table in one go via the new Response.stream() method. There are a couple of security fixes, one of which I deemed deserving of a GitHub advisory : private stored queries could be exposed, granting access to the title and SQL of the query (but not allowing that query to be executed). There are dozens of smaller improvements. The row page JSON representation finally has a design suitable for 1.0 . A new <datasette-copy-button> Web Component provides copy-schema in various places. JSON in columns on the row page can be pretty-printed. There's a new DatasetteModal.confirm() JavaScript utility method. Plus dozens of bug fixes, including contributions by Zihan Dai , Peter Olkhovets , Ilya Khalafi , and Ankita Advitot . The feature I'm most excited about is a pretty tiny one: I've added CSS multi-page view transitions to Datasette! Here's the commit - key CSS is as follows: /* Enable cross-document view transitions, for anyone without prefers-reduced-motion */ @media ( prefers-reduced-motion : no-preference ) { @view-transition { navigation : auto ; } } /* .facet-results should morph from old position to new */ html : active-view-transition . content > . facet-results { view-transition-name : facet-results ; } /* So should a .table-wrapper, provided it contains .rows-and-columns */ html : active-view-transition . table-wrapper : has ( > table . rows-and-columns ) { view-transition-name : rows-table ; } With that in place, navigations within Datasette - still staunchly a multi-page application - feel more like an SPA. This works on Safari and Chrome at the moment and I believe supports for Firefox is due to land in Firefox 162 on December 8th 2026 (seeing as they are no longer feature-flagged in Firefox Nightly.) Tags: security , datasette , css , browsers , annotated-release-notes , firefox , javascript , safari , chrome",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6825731783928157,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.632573178392816,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette-2",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette-2",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/15/datasette-2",
+          "title": "datasette 0.65.6",
+          "url": "https://simonwillison.net/2026/Nov/15/datasette-2",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-15T23:18:17.000Z",
+          "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...] Tags: security , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6816941504983187,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6316941504983189,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+          "title": "Apple launches new app to study how people use AI for health",
+          "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T01:30:00.000Z",
+          "summary": "Apple's new app for a study will answer everyday medical questions.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.587417266383142,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6874172663831422,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+          "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-15T23:30:00.000Z",
+          "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies, including General Atomics.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5364622637338075,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6364622637338074,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50520796",
+    "hackernews:50519043",
+    "openai:https://openai.com/index/strengthening-online-child-safety",
+    "hackernews:50513215",
+    "hackernews:50518501"
+  ]
+}

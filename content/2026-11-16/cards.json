@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T21:50:16.139Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50520796",
+      "headline": "AI 해킹 툴이 3시간 만에 망을 뚫었다",
+      "highlight": [
+        "3시간 만에"
+      ],
+      "body": "FBI가 자율형 AI 해킹 도구 '아텍스'의 위협을 경고했습니다. 이 도구는 시스템 취약점을 스스로 찾아 침투부터 망 장악까지 3시간 만에 끝냅니다. 한국 금융사에서도 6만 8천 명의 개인정보가 유출되며 피해가 속출하고 있습니다.",
+      "sourceUrl": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/02/china-hacker-computer-flag.jpg?resize=1200,675",
+      "publishedAt": "2026-11-16T18:12:21.000Z"
+    },
+    {
+      "clusterId": "hackernews:50519043",
+      "headline": "유럽 게임 노조 \"생성형 AI 쓰지 마라\"",
+      "highlight": [
+        "생성형 AI"
+      ],
+      "body": "유럽 게임 노동조합 연합이 게임 개발 현장의 생성형 AI 도입에 반대하는 선언문을 발표했습니다. AI 사용으로 인한 번아웃과 무단 데이터 학습, 신입 일자리 감소 등 피해가 극심하다는 이유입니다. 이에 따라 AI 위험성을 알리고 피해를 줄이기 위한 규제 마련을 촉구했습니다.",
+      "sourceUrl": "https://gameworkers.co.uk/ai-manifesto",
+      "sourceName": "IWGB Game Workers",
+      "imageUrl": "https://www.gameworkers.co.uk/wp-content/uploads/2021/06/IWGB_GW_Logo_Horizontal_BlueBG.png",
+      "publishedAt": "2026-11-16T15:59:48.000Z"
+    },
+    {
+      "clusterId": "hackernews:50506376",
+      "headline": "10만 자 늘렸더니 위치 정보만 22%다",
+      "highlight": [
+        "위치 정보만",
+        "22%다"
+      ],
+      "body": "GPT-2 같은 초기 LLM은 단어 위치를 별도 벡터로 추가하는데, 입력 길이를 10만 자급으로 확장하면 이 가중치만 전체의 22%를 넘깁니다. 이런 비효율을 극복하려 최신 MiniMax-M3 같은 모델은 어텐션 내부에서 위치를 계산하는 RoPE 기술을 채택하고 있습니다.",
+      "sourceUrl": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "sourceName": "hackernews",
+      "imageUrl": "https://substackcdn.com/image/fetch/$s_!UHlM!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a036907-4c1e-473b-8d82-20f2c777df5f_2912x1632.png",
+      "publishedAt": "2026-11-15T12:14:06.000Z"
+    },
+    {
+      "clusterId": "hackernews:50509953",
+      "headline": "연 1억 AI 학교 학생 절반이 성적 미달",
+      "highlight": [
+        "연 1억",
+        "성적 미달"
+      ],
+      "body": "알파 스쿨은 하루 2시간 AI 수업으로 2배 배운다며 연 7만 5천 달러를 받았습니다. 하지만 내부 데이터 결과 2배속 성장을 이룬 학생은 42%뿐이었고 수학은 절반이 실패했습니다. AI 튜터가 학습 속도를 획기적으로 올린다던 약속이 흔들리고 있습니다.",
+      "sourceUrl": "https://fortune.com/2026/11/14/alpha-school-ai-students-tuition-learning-goals",
+      "sourceName": "Fortune",
+      "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2262902677.jpg?resize=1200,600",
+      "publishedAt": "2026-11-15T19:39:46.000Z"
+    }
+  ]
+}
