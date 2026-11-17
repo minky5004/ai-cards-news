@@ -1,0 +1,1031 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T20:36:57.654Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 9
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 11,
+      "filtered": 9
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 4
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 6
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 2
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 18,
+      "filtered": 30
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "representativeId": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "source": "openai",
+          "publishedAt": "2026-11-17T17:45:00.000Z",
+          "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "trust": 1.0,
+          "signals": {
+            "points": 735,
+            "comments": 448,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+          }
+        }
+      ],
+      "score": 5.843260807084646,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.3432608070846461,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "representativeId": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "title": "Broadening access to AI for scientists",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+          "source": "openai",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "summary": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50521575",
+          "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+          "url": "https://npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T19:09:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50521575"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+          "title": "US moves to cut China’s remote access to AI chips",
+          "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-16T19:10:09.000Z",
+          "summary": "Trump bets China won’t mind US blocking remote access to AI chips.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.106077903719648,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.26140197200678245,
+        "mentions": 1.6666666666666665,
+        "recency": 0.5630163423982875,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50531751",
+      "representativeId": "hackernews:50531751",
+      "items": [
+        {
+          "id": "hackernews:50531751",
+          "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+          "url": "https://scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T14:19:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 177,
+            "comments": 225,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50531751"
+          }
+        }
+      ],
+      "score": 5.044726640687663,
+      "breakdown": {
+        "hnPoints": 1.667077973425985,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.1776486672616777,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50529612",
+      "representativeId": "hackernews:50529612",
+      "items": [
+        {
+          "id": "hackernews:50529612",
+          "title": "How the Claude Code team thinks about verification",
+          "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T10:20:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 214,
+            "comments": 166,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50529612"
+          }
+        },
+        {
+          "id": "hackernews:50526584",
+          "title": "Tokendoctor – See what your Claude Code use overpays",
+          "url": "https://github.com/localixai/tokendoctor",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T02:19:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50526584"
+          }
+        }
+      ],
+      "score": 4.902868546383406,
+      "breakdown": {
+        "hnPoints": 1.7278360381206808,
+        "hnComments": 0.9650574313838309,
+        "mentions": 0.0,
+        "recency": 1.0099750768788938,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50530450",
+      "representativeId": "hackernews:50530450",
+      "items": [
+        {
+          "id": "hackernews:50530450",
+          "title": "Regulatory Capture by Anthropic Through METR",
+          "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T12:21:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 136,
+            "comments": 72,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50530450"
+          }
+        }
+      ],
+      "score": 4.683599530205306,
+      "breakdown": {
+        "hnPoints": 1.5828511074457607,
+        "hnComments": 0.8090161730336244,
+        "mentions": 0.0,
+        "recency": 1.0917322497259208,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/strengthening-online-child-safety",
+      "representativeId": "openai:https://openai.com/index/strengthening-online-child-safety",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/strengthening-online-child-safety",
+          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+          "url": "https://openai.com/index/strengthening-online-child-safety",
+          "source": "openai",
+          "publishedAt": "2026-11-16T17:00:00.000Z",
+          "summary": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+          "trust": 1.0,
+          "signals": {
+            "points": 125,
+            "comments": 310,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50520804"
+          }
+        }
+      ],
+      "score": 4.573821386315192,
+      "breakdown": {
+        "hnPoints": 1.5559235468071542,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5178978395080372,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50523022",
+      "representativeId": "hackernews:50523022",
+      "items": [
+        {
+          "id": "hackernews:50523022",
+          "title": "Caltech professor no longer grades homework's because everyone uses AI",
+          "url": "https://businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T20:47:53.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 49,
+            "comments": 60,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50523022"
+          }
+        }
+      ],
+      "score": 3.833188124441372,
+      "breakdown": {
+        "hnPoints": 1.2585719416082857,
+        "hnComments": 0.7751532177465966,
+        "mentions": 0.0,
+        "recency": 0.5994629650864898,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50519043",
+      "representativeId": "hackernews:50519043",
+      "items": [
+        {
+          "id": "hackernews:50519043",
+          "title": "Generative AI Usage in the Games Industry",
+          "url": "https://gameworkers.co.uk/ai-manifesto",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T15:59:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50519043"
+          }
+        }
+      ],
+      "score": 3.780264305999831,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 0.4982696839554709,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50526264",
+      "representativeId": "hackernews:50526264",
+      "items": [
+        {
+          "id": "hackernews:50526264",
+          "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+          "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T01:35:16.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 52,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50526264"
+          }
+        }
+      ],
+      "score": 3.7722819601856017,
+      "breakdown": {
+        "hnPoints": 1.2773181536656355,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.7208835885229077,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50518501",
+      "representativeId": "hackernews:50518501",
+      "items": [
+        {
+          "id": "hackernews:50518501",
+          "title": "ChatGPT Wallet",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T15:17:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 80,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50518501"
+          }
+        }
+      ],
+      "score": 3.7523494771368355,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.8286246464906233,
+        "mentions": 0.0,
+        "recency": 0.48505937907830077,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50519153",
+      "representativeId": "hackernews:50519153",
+      "items": [
+        {
+          "id": "hackernews:50519153",
+          "title": "First phase of embedded assessments at OpenAI",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T16:07:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50519153"
+          }
+        }
+      ],
+      "score": 3.571886342610188,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.5006846090580084,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50520796",
+      "representativeId": "hackernews:50520796",
+      "items": [
+        {
+          "id": "hackernews:50520796",
+          "title": "FBI says Artex AI open-source hacking tool used to breach networks",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+          "source": "hackernews",
+          "publishedAt": "2026-11-16T18:12:21.000Z",
+          "summary": "The FBI says that the open source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50520796"
+          }
+        }
+      ],
+      "score": 3.50522001599005,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 0.5425132151546368,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+          "title": "Google makes it easier to use Gemini without training AI on your data",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-17T16:50:10.000Z",
+          "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.34681064653166,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.29681064653166,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/17/datasette-lite",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/17/datasette-lite",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/17/datasette-lite",
+          "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+          "url": "https://simonwillison.net/2026/Nov/17/datasette-lite",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-17T16:48:33.000Z",
+          "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo. As an example, consider the following URL: https://lite.datasette.io/?install=datasette-maplibre&url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&color=continent Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this: That's Datasette running the new datasette-maplibre plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table. Let's break down that URL to see what it's doing: https://lite.datasette.io/ ?install=datasette-maplibre &url=https://.../demo.db &metadata=https://.../metadata.yml #/demo/capitals_and_countries%23map=0/4.2/180&color=continent The ?install=datasette-maplibre installs that additional plugin from PyPI. You can pass &install=... as many times as you like to load more plugins. &url=https://.../demo.db loads that SQLite database from the provided URL. These URLs need to have open CORS headers - I host files like this in Gists , because they provide an easy way to get open CORS headers on a web-hosted file. &metadata=https://.../metadata.yml loads this metadata.yml file . The metadata file adds HTML descriptions to various tables, and to the Datasette homepage. Visit that homepage here for a guided tour of the other features of that plugin, all defined in the metadata file. #/demo/capitals_and_countries%23map=0/4.2/180&color=continent is a fragment hash that turns into a location within Datasette - here it's loading the /demo/capitals_and_countries SQL view, then appending another fragment hash to it ( %23 is a URL-encoded # ) which tells the map plugin to zoom to a certain location and to set the color of the shapes on the map based on the continent column in the data. That URL is doing a lot of work! I wrote more about this trick for building URL-addressable software in URL-addressable Pyodide Python environments last year. The full set of supported URL arguments is described in the Datasette Lite README . I've already started using Datasette Lite as part of the Datasette development process. Here's a recent issue describing a pagination bug - I posted a comment there demonstrating the old, broken behavior and the new fix using links to Datasette Lite: Demo of the bug: https://lite.datasette.io/?ref=1.0a42&sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&_sort=score - click next and the second page is empty. Here's that same page with the bug fixed (running on 1.0a43): https://lite.datasette.io/?ref=1.0a43&sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&_sort=score How this works, using service workers Datasette Lite is not a new project. I launched the first version back in 2022 , originally as a bit of a joke (running server-side apps in the browser is pretty funny) but one that quickly started proving its value. The problem with that initial version is that it was a hack . It worked by running Datasette in a Pyodide web worker, simulating requests through that stack, then injecting the resulting HTML back into the top level page using innerHTML . This worked for basic Datasette, but meant that any feature that used JavaScript failed to work, because script tags in innerHTML don't execute, and the web worker tricks it used failed to load additional JavaScript or CSS files. The new version takes a completely different approach based on Service Workers . These allow JavaScript to intercept HTTP requests for new pages and resources and serve them from client-side code instead. Datasette Lite registers a service worker for the entire lite.datasette.io domain. The parent page then creates an iframe that sends requests for Datasette pages to URLs that look like this: /app/aa94e6851595/ # the homepage (HTML) /app/aa94e6851595/data/places # a table page (HTML) /app/aa94e6851595/-/static/navigation-search.js # (JavaScript) /app/aa94e6851595/-/static/app.css # (CSS) Those are regular Datasette URLs, but with a /app/aa94e6851595/ prefix. What's that about? The /app/<session>/ prefix is necessary because of multiple tabs. Consider the URL above, which loads the demo instance with the datasette-maplibre plugin. That URL defines a full, custom Datasette instance. You might have that one running in a tab, then one of my other demo links running in another. The service worker for lite.datasette.io is shared between all of those tabs. If it routed to a single instance of Datasette then every tab would share that underlying instance, no matter what plugins or other settings their URL attempted to configure. Instead, the parent page generates a random session ID and uses it as a prefix for all of the subsequent hidden asset and page loads. The service worker can then use that session ID to route those requests back through the parent page to a web worker running a dedicated Datasette instance for that particular session. (We still need a web worker because Pyodide in a service worker would not be able to maintain state beyond around 30 seconds, depending on the browser. There are a lot of moving parts here!) I had Claude Fable 5.2 generate several SVG diagrams to help explain this. Here's my favorite of those, now embedded in the Datasette Lite README: This system started life back in May as an AI research spike generated using Claude Opus 4.8. It wasn't until November (and Claude Fable 5.2) that I felt familiar enough with how it all works to confidently ship it to production! Bonus feature: pick your version of SQLite I added this feature last night as an off-shoot of investigating a potential bug in SQLite . Datasette is meant to work against any released version of SQLite since 3.25 (released in September 2018). There have been 87 further releases since then. Being able to fire up Datasette against a specific version of SQLite is really useful for demonstrating new SQLite features and debugging weird issues. In the past I've used various tricks to get different SQLite versions running with Python on my Mac, but it's not a trivial process. WebAssembly is perfect for this. I can load up a custom SQLite build entirely in my browser, test it there, then discard it when I close my tab. datasette/pysqlite3-wasm-wheels is my new repository which contains WebAssembly compiled Python wheels for pysqlite3 for 163 different SQLite versions. Each version gets a file with a name like this: pysqlite3-0.6.2-3.54.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl That's for SQLite 3.54.1, the most recent version. Datasette Lite now takes a special ?sqlite= URL parameter, which will accept a version number like 3.54.1 , resolve the path to the corresponding wheel file, then fetch that wheel and install it into the Pyodide environment and configure Datasette to use it. Once I'd built the wheels, I decided to have Claude Fable 5.2 build me [this bonus tool]( https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29) for comparing a SQL query across any selected versions of SQLite. Here's an example showing how select json_object('a', (select json_array(1))) differs between SQLite 3.54.0 and 3.54.1: This should work for every other Python app, too Nothing about how Datasette Lite works is unique to Datasette. Almost any Python application should be able to pull the same trick - running entirely in the browser using WebAssembly and Pyodide, as a cheap way to provide preview environments, demonstrate features, and recreate bugs. C and Rust extensions used to be a blocker for this kind of thing, but any good coding agent can compile those to Pyodide-compatible WebAssembly now. You can even publish them to PyPI as of PEP 783 in April 2026. One catch is databases. SQLite is no problem at all, but running PostgreSQL or MySQL in WebAssembly, while possible, is still a path less trodden. I'd love to see WebAssembly preview environments like these become a common pattern across the Python ecosystem. For Hacker News: Full server-side Datasette Python app in the browser with service workers Tags: javascript , projects , python , urls , datasette , webassembly , service-workers , pyodide , datasette-lite",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.345465797705323,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2954657977053232,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+          "title": "Model ML raises $250M to automate investment banking grunt work",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T19:32:11.000Z",
+          "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3389168960467988,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4389168960467988,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+          "title": "California state AG sues OpenAI over rogue agent incidents",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T20:07:13.000Z",
+          "summary": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "url": "https://theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-16T20:46:01.000Z",
+          "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters. The lawsuit claims the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3320785525337397,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5987452192004067,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+          "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+          "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T19:02:20.000Z",
+          "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3116127670309212,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4116127670309213,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1035756/google-spark-ai-tasks-free",
+          "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+          "url": "https://theverge.com/tech/1035756/google-spark-ai-tasks-free",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-17T18:58:01.000Z",
+          "summary": "Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calendar, and dig through your emails to find recurring expenses you might not need. Users in the US […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3077073776567167,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4077073776567168,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+          "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+          "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T18:48:23.000Z",
+          "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.299030792862244,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.399030792862244,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+          "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+          "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T18:04:16.000Z",
+          "summary": "The company uses agentic AI to make supply chains faster and more reliable.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant",
+          "title": "Voyage Labs raises $12 million for a specialized AI travel assistant",
+          "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T15:00:00.000Z",
+          "summary": "Voyage Labs’ flagship product is called Atlas, meant to work as a personal assistant for your trip-planning, available today in private beta.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2599738878807827,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3599738878807828,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+          "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+          "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T17:32:25.000Z",
+          "summary": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.232456292879374,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3324562928793742,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+          "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+          "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T17:20:41.000Z",
+          "summary": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.222459932878716,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3224599328787159,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-17T14:00:29.000Z",
+          "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.21300205231679,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.16300205231679,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+          "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+          "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T16:32:55.000Z",
+          "summary": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1825327072332907,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2825327072332908,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "representativeId": "openai:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "title": "Strengthening NATO and allied cyber defenses with AI",
+          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+          "source": "openai",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.178127442568268,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.678127442568268,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-openai-for-chile",
+      "representativeId": "openai:https://openai.com/index/introducing-openai-for-chile",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-openai-for-chile",
+          "title": "Introducing OpenAI for Chile",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "source": "openai",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "summary": "OpenAI and the Government of Chile are partnering to support responsible AI adoption, build public-sector skills and help local startups develop AI applications.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.178127442568268,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.678127442568268,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/astra-law-6-2",
+      "representativeId": "openai:https://openai.com/index/astra-law-6-2",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/astra-law-6-2",
+          "title": "Astra for Law leads in legal intelligence",
+          "url": "https://openai.com/index/astra-law-6-2",
+          "source": "openai",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "summary": "Astra for Law ranked first in a launch evaluation spanning 24 areas of law. Every ChatGPT Enterprise customer can now request access.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.178127442568268,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.678127442568268,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/science-at-the-frontier",
+      "representativeId": "openai:https://openai.com/index/science-at-the-frontier",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/science-at-the-frontier",
+          "title": "Science at the Frontier: How scientists use ChatGPT",
+          "url": "https://openai.com/index/science-at-the-frontier",
+          "source": "openai",
+          "publishedAt": "2026-11-16T12:00:00.000Z",
+          "summary": "Explore how more than 1,800 scientists use ChatGPT in research. See findings on daily workflows, reported productivity, and expectations for discovery.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9271935197015688,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4271935197015687,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/17/go-proverbs",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/17/go-proverbs",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/17/go-proverbs",
+          "title": "Quoting Go Proverbs",
+          "url": "https://simonwillison.net/2026/Nov/17/go-proverbs",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-17T06:16:26.000Z",
+          "summary": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.913445914640187,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.863445914640187,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/revolut",
+      "representativeId": "openai:https://openai.com/business/customer-stories/revolut",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/revolut",
+          "title": "How Revolut raises ambition without lowering the bar",
+          "url": "https://openai.com/business/customer-stories/revolut",
+          "source": "openai",
+          "publishedAt": "2026-11-16T09:30:00.000Z",
+          "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.8879849990170179,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.387984999017018,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/lvmh-media-division-partnership",
+      "representativeId": "openai:https://openai.com/index/lvmh-media-division-partnership",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/lvmh-media-division-partnership",
+          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+          "url": "https://openai.com/index/lvmh-media-division-partnership",
+          "source": "openai",
+          "publishedAt": "2026-11-16T09:00:00.000Z",
+          "summary": "LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.8805861590999875,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3805861590999874,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/16/llm",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/16/llm",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/16/llm",
+          "title": "llm 0.37.3",
+          "url": "https://simonwillison.net/2026/Nov/16/llm",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-16T23:57:26.000Z",
+          "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short version: in SQLite 3.54.0 the following SQL: select json_object('a', (select json_array(1))) Returns this: {\"a\":[1]} But in 3.54.1 the same query returns this: {\"a\":\"[1]\"} According to D. Richard Hipp : That was a bug fix. Per the documentation, (SELECT json_array(...)) returns SQL text, not JSON. Hence the 3.54.1 behavior is correct and 3.54.0 was a bug. The workaround looks like this: select json_object('a', json((select json_array(1)))) Tags: llm , webassembly , sqlite , generative-ai , ai , llms , d-richard-hipp",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.727011286718977,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6770112867189773,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+          "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+          "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-16T23:32:32.000Z",
+          "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5662780334791067,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6662780334791067,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "url": "https://technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-16T16:04:28.000Z",
+          "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+          "title": "Building AI that can work across the enterprise",
+          "url": "https://technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-16T13:00:00.000Z",
+          "summary": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5497642788233286,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49976427882332874,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+          "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+          "url": "https://theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-16T19:24:40.000Z",
+          "summary": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unlimited, but more advanced features that rely on […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4682863872091017,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5682863872091016,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1034527/openai-csam-classifier",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1034527/openai-csam-classifier",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1034527/openai-csam-classifier",
+          "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+          "url": "https://theverge.com/policy/1034527/openai-csam-classifier",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-16T19:23:45.000Z",
+          "summary": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of kids, including whether it's AI-generated. It's also offering […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.467952151650216,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5679521516502162,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+    "hackernews:50531751",
+    "hackernews:50529612",
+    "hackernews:50530450"
+  ]
+}

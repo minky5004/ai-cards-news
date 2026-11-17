@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T21:14:10.771Z",
+  "idea": {
+    "productName": "VeriQuest",
+    "tagline": "AI가 만든 과제, AI가 진짜 이해했는지 검증한다",
+    "oneLineSummary": "AI로 생성된 학생 과제의 깊이 있는 이해도를 평가하고, 새로운 유형의 AI 저항형 평가를 설계하도록 돕는 교육 도구입니다.",
+    "problem": "교수들은 학생들이 AI로 과제를 완성하여 정확성 평가가 어렵습니다. AI가 생성한 답안의 깊이 있는 이해도 검증과 AI 저항형 문제 설계에 어려움을 겪고 있습니다.",
+    "productDescription": "칼텍 교수 사례처럼 AI가 숙제를 푸는 시대에 교육자들은 학생들의 실제 학습 정도를 파악하기 어렵습니다. 이 제품은 AI의 도움을 받아 학생들의 AI 생성 과제를 분석하고, 단순히 완성도를 넘어선 이해도를 평가합니다. 또한, AI가 쉽게 답할 수 없는 새로운 유형의 질문과 평가 기준을 설계하도록 지원합니다.",
+    "keyFeatures": [
+      "AI 생성 과제 이해도 분석",
+      "AI 저항형 문제 생성 가이드",
+      "맞춤형 평가 루브릭 자동 생성",
+      "유사 AI 답안 비교 분석",
+      "질의응답 기반 심층 평가"
+    ],
+    "persona": "대학 수학과 교수 김영희 (50대). 학생들이 AI로 과제를 제출하여 본인이 채점하는 것이 무의미하다고 느끼며, 학생들의 실제 학습 수준을 객관적으로 평가할 새로운 방법을 찾고 있습니다.",
+    "businessModel": "교육기관 대상 연간 구독 모델. 사용자(교수) 수와 평가 과제량에 따라 차등 부과하며, 초기에는 대학 학과 단위로 월 20만원부터 시작합니다.",
+    "marketStats": "기사에 시장 규모 근거 없음. 단, 칼텍 교수 사례처럼 AI 활용으로 인한 교육 현장의 평가 시스템 변화 필요성은 기사를 통해 확인됩니다.",
+    "goToMarket": "칼텍과 같은 AI 활용 문제가 심각한 것으로 보도된 대학의 수학, 컴퓨터 공학 교수진에게 직접 연락하여 베타 프로그램 참여를 제안하고, 교육 기술(EdTech) 관련 학술대회에서 시연합니다.",
+    "unfairAdvantage": "칼텍 교수의 고민처럼 AI 활용으로 인한 평가 시스템의 근본적인 변화 필요성이 크게 대두된 시점입니다. Claude Code 팀의 AI 검증 루프 성공 사례를 교육 분야에 접목하는 선행자 우위를 가집니다.",
+    "competitors": [
+      "Turnitin — AI 표절 감지 중심, 이해도 평가 기능 미흡",
+      "GradeScope — 채점 효율화 중심, AI 과제 평가 및 문제 설계 기능 없음",
+      "인간 채점 조교 — 시간과 비용 부담, AI 과제에 대한 평가 기준 부재"
+    ],
+    "risks": [
+      "AI 탐지 솔루션의 오탐율 문제",
+      "교육 현장의 보수적 태도와 도입 저항",
+      "AI 발전 속도에 따른 문제 유형 무력화",
+      "개인 정보 보호 및 학생 데이터 활용 문제"
+    ],
+    "actionPlan": [
+      "칼텍 등 AI 과제 문제 제기 교수진과 인터뷰 5회 진행",
+      "AI 생성 과제 평가 기준 및 루브릭 초안 작성",
+      "AI 저항형 문제 샘플 10개 개발",
+      "핵심 기능(이해도 분석) 프로토타입 구현 완료",
+      "교육기술 박람회 참여 계획 수립"
+    ],
+    "recommendation": "칼텍 교수의 사례는 AI가 교육 현장에 미치는 심각한 영향을 보여줍니다. 본 아이디어는 단순히 AI 표절 감지를 넘어선 근본적인 평가 시스템의 전환을 시도한다는 점에서 매력적입니다. 그러나 교육 시장의 변화 속도가 느릴 수 있고, AI의 발전 속도를 따라잡기 위한 지속적인 기술 개발이 필요합니다.",
+    "searchQuery": "ai academic assessment",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 12건 · 근거는 상위 5건 — 최고 102점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Launch HN: Bloomy (YC S26) – AI-powered mastery learning for K-12",
+          "url": "https://news.ycombinator.com/item?id=48981136",
+          "points": 102
+        },
+        {
+          "title": "Show HN: Free mammogram analysis tool combining deep learning and vision LLM",
+          "url": "http://mammo.neuralrad.com:5300",
+          "points": 17
+        },
+        {
+          "title": "Show HN: A Comprehensive AI Data Quality Evaluation Tool",
+          "url": "https://github.com/MigoXLab/dingo",
+          "points": 4
+        },
+        {
+          "title": "Show HN: 17MB pronunciation scorer beats human experts at phoneme level",
+          "url": "https://news.ycombinator.com/item?id=47085899",
+          "points": 4
+        },
+        {
+          "title": "Show HN: I tried coding theology – accidentally built AI accountability",
+          "url": "https://github.com/ubunturbo/srta-ai-accountability",
+          "points": 3
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "title": "Introducing GPT-6.2 Astra and Sol",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+        "title": "Broadening access to AI for scientists",
+        "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+      },
+      {
+        "clusterId": "hackernews:50531751",
+        "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+        "url": "https://scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
+      },
+      {
+        "clusterId": "hackernews:50529612",
+        "title": "How the Claude Code team thinks about verification",
+        "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification"
+      },
+      {
+        "clusterId": "hackernews:50530450",
+        "title": "Regulatory Capture by Anthropic Through METR",
+        "url": "https://nitter.cf/kevinnbass/status/2099621874279817638"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/strengthening-online-child-safety",
+        "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+        "url": "https://openai.com/index/strengthening-online-child-safety"
+      },
+      {
+        "clusterId": "hackernews:50523022",
+        "title": "Caltech professor no longer grades homework's because everyone uses AI",
+        "url": "https://businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11"
+      },
+      {
+        "clusterId": "hackernews:50519043",
+        "title": "Generative AI Usage in the Games Industry",
+        "url": "https://gameworkers.co.uk/ai-manifesto"
+      },
+      {
+        "clusterId": "hackernews:50526264",
+        "title": "Claude Mythos slashed software work to onboard AMD GPUs to around three days",
+        "url": "https://tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat"
+      },
+      {
+        "clusterId": "hackernews:50518501",
+        "title": "ChatGPT Wallet",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet"
+      },
+      {
+        "clusterId": "hackernews:50519153",
+        "title": "First phase of embedded assessments at OpenAI",
+        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+      },
+      {
+        "clusterId": "hackernews:50520796",
+        "title": "FBI says Artex AI open-source hacking tool used to breach networks",
+        "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours"
+      }
+    ]
+  }
+}

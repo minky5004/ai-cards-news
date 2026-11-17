@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T20:50:34.836Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "headline": "미국, AI 칩 원격 접근 안보 위협 막는다",
+      "highlight": [
+        "AI 칩 원격 접근"
+      ],
+      "body": "미국 정부가 해외 데이터센터를 통한 AI 칩 원격 접근을 차단하는 새 규정을 발표했다. 이는 엔비디아 스캔들 이후 국가 안보 위협 차단을 위한 조치다. 앞으로는 미국 초지능 기술의 불법적인 유출이 어려워질 것이다.",
+      "sourceUrl": "https://npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "sourceName": "NPR",
+      "imageUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5367x3019+0+0/resize/1400/quality/85/format/webp/?url=https%3A%2F%2Fnpr-production-npr.s3.us-east-1.amazonaws.com%2Fbrightspot%2F7c%2F22%2F5d8e832c4fd78402c75d44e19475%2Fgettyimages-2303986706-1.jpg",
+      "publishedAt": "2026-11-16T17:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:50529612",
+      "headline": "앤트로픽은 코드 90%를 클로드에게 맡긴다",
+      "highlight": [
+        "코드 90%를"
+      ],
+      "body": "앤트로픽 클로드 코드 팀은 자동 검증 루프를 구축해 수백 개의 AI를 동시에 작동시킵니다. 테스트에 3회 연속 실패한 특이 케이스만 사람에게 전달해 검수 부담을 줄였습니다. 이제 개발자는 단순 코드 확인에서 벗어나 고품질 소프트웨어 개발에 집중하게 됩니다.",
+      "sourceUrl": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+      "sourceName": "claude.dev Blog",
+      "imageUrl": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/og.png",
+      "publishedAt": "2026-11-17T10:20:40.000Z"
+    },
+    {
+      "clusterId": "hackernews:50530450",
+      "headline": "앤트로픽 77억 달러, ‘AI 재앙’ 사업화 논란",
+      "highlight": [
+        "77억 달러"
+      ],
+      "body": "앤트로픽이 AI 안전 평가 기관 METR 등과 77억 달러 주식으로 얽혀 논란입니다. 더스틴 모스코비츠 재단이 앤트로픽 주식을 보유하며, 그 가치 성장이 평가 기관의 자금원이 됩니다. AI 안전성 평가 독립성을 훼손하고 ‘AI 재앙’ 메시지를 사업화한다는 지적입니다.",
+      "sourceUrl": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+      "sourceName": "teapawt",
+      "imageUrl": "https://pbs.twimg.com/media/HSNXaLrW4AEnwuB.jpg",
+      "publishedAt": "2026-11-17T12:21:57.000Z"
+    },
+    {
+      "clusterId": "hackernews:50523022",
+      "headline": "캘텍 수학 교수, AI 때문에 숙제 채점 포기",
+      "highlight": [
+        "AI 때문에"
+      ],
+      "body": "캘텍 Yi Ni 교수는 학생들이 AI를 사용해 숙제를 해결하면서 정확도 대신 완료 여부만 채점합니다. 챗봇이 대학원생 수준으로 수학 문제를 풀 수 있기 때문입니다. 이제 많은 대학의 수학 숙제에서 AI가 필수 도구가 되었고, 일부 학생들은 수학 전공 자체를 재고하고 있습니다.",
+      "sourceUrl": "https://businessinsider.com/ai-math-class-university-homework-caltech-careers-2026-11",
+      "sourceName": "Business Insider",
+      "imageUrl": "https://i.insider.com/6af7671dcbe21204707354b0?width=1200&format=jpeg",
+      "publishedAt": "2026-11-16T20:47:53.000Z"
+    },
+    {
+      "clusterId": "hackernews:50519043",
+      "headline": "유럽 게임 노조 'AI가 일자리 빼앗고 착취'",
+      "highlight": [
+        "일자리 빼앗고",
+        "착취"
+      ],
+      "body": "유럽 게임 노동조합들은 생성형 AI가 게임 산업 노동자를 직접 대체하고, 근무 환경을 악화시킨다고 경고했습니다. AI 모델은 도난된 데이터를 기반으로 학습되어 일자리 감소, 인지 능력 저하, 소유권 상실을 야기합니다. 이는 주니어 포지션을 줄이고 문화적 편향을 심화하며, 개발자들의 존엄성을 해치고 있습니다.",
+      "sourceUrl": "https://gameworkers.co.uk/ai-manifesto",
+      "sourceName": "IWGB Game Workers",
+      "imageUrl": "https://www.gameworkers.co.uk/wp-content/uploads/2021/06/IWGB_GW_Logo_Horizontal_BlueBG.png",
+      "publishedAt": "2026-11-16T15:59:48.000Z"
+    }
+  ]
+}
