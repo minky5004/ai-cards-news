@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T20:27:17.678Z",
+  "idea": {
+    "productName": "DiffSift",
+    "tagline": "AI가 쏟아낸 방대한 코드를 쳐내 리뷰 지연을 줄인다",
+    "oneLineSummary": "AI 코딩 에이전트가 급증시킨 불필요한 코드 변경을 걸러내고 리뷰 대기 시간을 단축하는 개발팀 전용 PR 최적화 솔루션을 제공합니다.",
+    "problem": "코딩 에이전트 도입 후 코드는 30% 늘었지만 검토 시간도 49% 급증했습니다. 시니어 개발자가 AI가 양산한 PR 검증에 갇혀 본래 개발 업무를 진행하지 못합니다.",
+    "productDescription": "DiffSift는 AI 코딩 에이전트가 작성한 풀 리퀘스트(PR)를 분석하여 리뷰어에게 가기 전 불필요하게 부풀려진 변경점을 압축합니다. 단순 보일러플레이트와 에이전트 특유의 과잉 수정을 자동으로 분리하고 실제 비즈니스 로직 변경점만 추려냅니다. 시니어 엔지니어가 반드시 확인해야 할 위험 구간을 우선순위화하여 리뷰 승인 속도를 회복시킵니다. 하버드 연구진이 지적한 49%의 검토 지연 병목을 정확히 해결합니다.",
+    "keyFeatures": [
+      "불필요한 AI 생성 코드 자동 선별 및 압축",
+      "인간 검토가 필요한 핵심 로직 우선 정렬",
+      "리뷰어 피로도를 낮추는 변경 영향도 시각화",
+      "PR 단위 검토 시간 및 병목 구간 실시간 추적"
+    ],
+    "persona": "AI 코딩 에이전트를 전면 도입했으나 주니어들이 올리는 일일 수십 개의 거대한 PR을 검토하느라 야근하는 5년 차 이상 엔지니어링 팀 리드입니다.",
+    "businessModel": "개발자당 월 29달러를 청구하는 B2B SaaS 구독 모델이며, 월 100건 이상 AI PR을 처리하는 기업 플랜은 시트당 59달러를 청구합니다.",
+    "marketStats": "하버드 Fiona Chen과 James Stratton 연구원의 718개 기업 분석 논문에 따르면 AI 코딩 에이전트 도입 후 코드는 약 30% 늘어났으나 최종 완료 작업 증가는 미미했고 리뷰 소요 시간은 49% 길어졌습니다. 전체 시장의 구체적 화폐 규모는 기사에 근거가 없습니다.",
+    "goToMarket": "AI 코딩 에이전트 도입 후 PR 적체로 고통받는 깃허브 오픈소스 프로젝트 메인테이너 및 테크 스타트업 리드 개발자 커뮤니티에 무료 분석 CLI를 배포해 초기 팀 100곳을 확보합니다.",
+    "unfairAdvantage": "AI가 생성한 코드 특유의 과잉 구현 및 반복 패턴을 인식해 사람이 읽기 쉬운 diff 단위로 재구조화하는 전용 압축 알고리즘을 선점합니다.",
+    "competitors": [
+      "GitHub Copilot PR Summaries — 단순 변경 요약만 제공하여 리뷰 분량 자체를 줄여주지 못함",
+      "CodiumAI — 테스트 코드 생성에 치중하여 PR 검토 병목 해소에 특화되지 않음",
+      "SonarQube — 전통적 정적 분석 위주라 AI 코딩 에이전트의 불필요 코드 팽창 대응 미흡"
+    ],
+    "risks": [
+      "GitHub나 GitLab이 자체 플랫폼 내에 유사한 AI PR 정제 기능을 기본 탑재할 위험",
+      "AI 에이전트 성능이 비약적으로 향상되어 초기 생성 코드의 완결성이 무결해질 위험",
+      "개발팀 내부의 코드 리뷰 프로세스 자체가 AI 완전 자동화로 전환되어 검토자가 배제될 위험"
+    ],
+    "actionPlan": [
+      "AI 코딩 에이전트로 작성된 오픈소스 PR 100건 수집 및 코드 팽창 패턴 데이터셋 구축",
+      "불필요한 코드 변경점을 20% 이상 압축해 diff를 재구성하는 깃허브 액션 MVP 개발",
+      "AI 에이전트를 도입한 테크 스타트업 엔지니어링 리드 10명 대상 심층 인터뷰 및 사용 테스트",
+      "리뷰 소요 시간을 실제로 30% 이상 단축하는지 검증하는 A/B 테스트 지표 대시보드 배포"
+    ],
+    "recommendation": "AI 코딩 에이전트의 확산으로 코드 작성이 쉬워진 반면 검토 비용이 폭증한다는 하버드의 최신 실증 연구 결과를 정조준한 시의적절한 아이디어입니다. 다만 GitHub 같은 독점 플랫폼이 유사 기능을 기본 도입하기 전에 엔지니어링 팀 워크플로 깊숙이 자리 잡아야 생존할 수 있습니다.",
+    "searchQuery": "ai pull request review bottleneck",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 9건 · 근거는 상위 5건 — 최고 88점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Optio – Orchestrate AI coding agents in K8s to go from ticket to PR",
+          "url": "https://github.com/jonwiggins/optio",
+          "points": 88
+        },
+        {
+          "title": "Show HN: Code review for AI native teams",
+          "url": "https://github.com/areibman/bottleneck",
+          "points": 2
+        },
+        {
+          "title": "Show HN: Reflektor – Turn AI PRs into something a human can review",
+          "url": "https://github.com/bashovski/reflektor",
+          "points": 2
+        },
+        {
+          "title": "Tell HN: We need an accounting system for cognitive debt",
+          "url": "https://news.ycombinator.com/item?id=48760460",
+          "points": 2
+        },
+        {
+          "title": "Show HN: PullSense – AI-Powered PR Reviews for GitHub",
+          "url": "https://www.pullsense.com/",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "title": "Introducing GPT-6.2 Astra and Sol",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+      },
+      {
+        "clusterId": "hackernews:50540178",
+        "title": "Google's AI answers reducing search traffic by 40%",
+        "url": "https://revscope.co/blog/search-seo-geo-2026"
+      },
+      {
+        "clusterId": "hackernews:50531751",
+        "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+        "url": "https://scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns"
+      },
+      {
+        "clusterId": "google-deepmind:https://deepmind.google/blog/genie-4-is-now-available",
+        "title": "Genie 4 is now available",
+        "url": "https://deepmind.google/blog/genie-4-is-now-available"
+      },
+      {
+        "clusterId": "hackernews:50538303",
+        "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+        "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review"
+      },
+      {
+        "clusterId": "hackernews:50542705",
+        "title": "AI is killing All About Berlin",
+        "url": "https://nicolasbouliane.com/blog/death-by-ai"
+      },
+      {
+        "clusterId": "hackernews:50547777",
+        "title": "AI agents ask better questions than KPMG accountants in audit trial",
+        "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg"
+      },
+      {
+        "clusterId": "hackernews:50548485",
+        "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+        "url": "https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO"
+      },
+      {
+        "clusterId": "hackernews:50541790",
+        "title": "Why is Gemini 4 Carbon taking so long?",
+        "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long"
+      },
+      {
+        "clusterId": "hackernews:50543989",
+        "title": "Energy-Based Reasoners: 385x more efficient inference",
+        "url": "https://energy-based-reasoners.github.io"
+      },
+      {
+        "clusterId": "hackernews:50546312",
+        "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
+        "url": "https://sas.upenn.edu/~jesusfv/Peer_Review.pdf"
+      },
+      {
+        "clusterId": "hackernews:50529612",
+        "title": "How the Claude Code team thinks about verification",
+        "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification"
+      },
+      {
+        "clusterId": "hackernews:50541619",
+        "title": "Claude was trained on protein sequences at scale",
+        "url": "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences"
+      },
+      {
+        "clusterId": "hackernews:50535740",
+        "title": "Not Everything Needs an LLM",
+        "url": "https://newsletter.posthog.com/p/decision-models"
+      },
+      {
+        "clusterId": "hackernews:50547223",
+        "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
+        "url": "https://ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5"
+      }
+    ]
+  }
+}

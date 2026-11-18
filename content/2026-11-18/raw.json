@@ -1,0 +1,1557 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T20:09:17.473Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 8
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 3
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 1
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 35,
+      "filtered": 14
+    }
+  ],
+  "clusters": [
+    {
+      "id": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "representativeId": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "title": "Introducing GPT-6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+          "source": "openai",
+          "publishedAt": "2026-11-17T17:45:00.000Z",
+          "summary": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+          "trust": 1.0,
+          "signals": {
+            "points": 1332,
+            "comments": 844,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50535230"
+          }
+        },
+        {
+          "id": "hackernews:50536438",
+          "title": "GPT-6.2 Astra scores 100% on ARC-AGI-3",
+          "url": "https://twitter.com/arcprize/status/2122751233442156678",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T18:59:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50536438"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+          "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-17T22:38:52.000Z",
+          "summary": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gpt-6.2-sol . I shipped LLM 0.38 with support for the new models. 6.2 Astra is 80% of the price of 6 Astra - $8/MTok input and $40/MTok output, the same price as Claude Fable 5.2 (which was also 80% of its predecessor). 6 Astra and Fable 5 were both $10/$50. The cached price is an even bigger discount - $0.40/million compared to $1/million for the older model. This is great news for longer running agentic sessions. GPT-6.2 Sol is the same $2/$10 price as 6.1 Sol and 6 Sol - which are half the price of GPT-5.6 Sol ($4/$20). Here are the pelicans for GPT-6.2 Sol and for GPT-6.2 Astra . The 6.2 Astra max pelican looks like this: I have a full comparison grid here , but here's how the high/xhigh/max pelicans compare with the previous Sol and Astra releases: I also ran my most recent benchmark prompt against the two models, using \"Ultra' effort levels in the Codex CLI: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's Sol and here's Astra . Neither of them did a good enough job of morphing Yonkers into a big mech, at least in comparison to Claude Fable 5.2 and Gemini 4 Carbon . This video showing the Astra and Sol animations playing out at the same time: I created that video using GPT-6.2 Astra (Ultra) in the Codex desktop app by prompting: https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-astra-ultra/index.html and https://static.simonwillison.net/static/2026/yonkers-gpt-6.2-sol-ultra/index.html are two videos of the same thing by two different models I need a video of the first 10 seconds where the top half of the video plays the first and the bottom half plays the second I need an overlaid label of \"GPT-6.2 Astra\" on the top half and \"GPT-6.2 Sol\" on the bottom half. These labels should be tastefully positioned. Make the video square and 2000x2000 pixels Then later: OK make it 20s Here's the exported transcript . The buzz around these new models is mixed at the moment. Astra 6.2 isn't scoring quite as high as Fable 5.2 on various benchmarks, and I've seen a few complaints that its communication style can be confusing. Theo Browne's review (in the form of a feedback letter he sent OpenAI during pre-release) has this useful example: When this model is working on long tasks, it can pull in a lot of subagents and manage them pretty well. It will then proceed to randomly ask you some weird internal implementation detail bullshit that you could not under any earthly circumstance understand, much less have input on . I sent \"/goal make a new level for Outer Wilds\". 2 hours in, it's \"blocked\" because it wanted to ask me \"does r24's reviewer write it's clips to 24_g521.mp4 or 24_p11.mp4?\" Tags: ai , openai , generative-ai , llms , llm-pricing , pelican-riding-a-bicycle , llm-release , theo-browne , gpt , yonkers-rising",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 6.821920118823917,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 1.6666666666666665,
+        "recency": 0.6552534521572507,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50540178",
+      "representativeId": "hackernews:50540178",
+      "items": [
+        {
+          "id": "hackernews:50540178",
+          "title": "Google's AI answers reducing search traffic by 40%",
+          "url": "https://revscope.co/blog/search-seo-geo-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T00:17:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 672,
+            "comments": 520,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50540178"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+          "title": "Google’s AI feature in Search gets its own incognito mode",
+          "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T18:04:05.000Z",
+          "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.417511137070643,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3841778037373098,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50531751",
+      "representativeId": "hackernews:50531751",
+      "items": [
+        {
+          "id": "hackernews:50531751",
+          "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+          "url": "https://scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T14:19:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 191,
+            "comments": 254,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50531751"
+          }
+        },
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+          "title": "The AI Hype Index: AI is everywhere",
+          "url": "https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-18T14:42:44.000Z",
+          "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.9411493103118085,
+      "breakdown": {
+        "hnPoints": 1.6914359013707791,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.2163800756076961,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/genie-4-is-now-available",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/genie-4-is-now-available",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/genie-4-is-now-available",
+          "title": "Genie 4 is now available",
+          "url": "https://deepmind.google/blog/genie-4-is-now-available",
+          "source": "google-deepmind",
+          "publishedAt": "2026-11-18T18:13:42.000Z",
+          "trust": 1.0,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50550415",
+          "title": "Genie 4 is now available",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T18:49:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 75,
+            "comments": 55,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50550415"
+          }
+        }
+      ],
+      "score": 5.911077861720441,
+      "breakdown": {
+        "hnPoints": 1.3932789917413528,
+        "hnComments": 0.7590270143845762,
+        "mentions": 0.8333333333333333,
+        "recency": 1.425438522261179,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50538303",
+      "representativeId": "hackernews:50538303",
+      "items": [
+        {
+          "id": "hackernews:50538303",
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T21:16:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 308,
+            "comments": 415,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50538303"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+          "title": "External sandboxes for coding agents",
+          "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-17T22:52:29.000Z",
+          "summary": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions on a machine. I worked on this project with Prime Radiant , the AI research lab behind Superpowers and other projects . My post on the Prime Radiant blog introduces the external sandbox pattern, where code executed by the agent runs inside a dedicated sandbox while the agent itself lives outside of that sandbox. To demonstrate this pattern we've released three sandbox server implementations: external-sandbox-v86 runs a Node.js server which then uses v86 to run Alpine Linux inside WebAssembly. external-sandbox-container is a Python web server which runs the sandbox in Alpine Linux inside an Apple Containers instance. external-sandbox-quicksand is another Python web server, this time using Microsoft's Quicksand sandboxing library, which bundles QEMU and Alpine Linux in a Python package! Each of these implementations offers the same localhost API. You can then configure Pi, Claude Code, or Codex to send API calls to that sandbox any time they want to execute code. The sandboxes also include an optional HTTP/HTTPS allow-list proxy, so you can control exactly which hosts your agent's code is allowed to communicate with - plus a credential replacement mechanism to make authenticated API calls without sharing a secret with the agent. Here's the UI you can use to reconfigure that proxy while the sandbox is still running: I continue to be fascinated by the challenge of safely running untrusted code. This external sandbox pattern provides a neat way to experiment with different approaches. Tags: sandboxing , security , ai , webassembly , generative-ai , llms , coding-agents , claude-code , codex , pi",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.538862829842731,
+      "breakdown": {
+        "hnPoints": 1.844524547211449,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6610049492979491,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50542705",
+      "representativeId": "hackernews:50542705",
+      "items": [
+        {
+          "id": "hackernews:50542705",
+          "title": "AI is killing All About Berlin",
+          "url": "https://nicolasbouliane.com/blog/death-by-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T06:47:26.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 723,
+            "comments": 655,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50542705"
+          }
+        }
+      ],
+      "score": 5.096578306490983,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8965783064909829,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50547777",
+      "representativeId": "hackernews:50547777",
+      "items": [
+        {
+          "id": "hackernews:50547777",
+          "title": "AI agents ask better questions than KPMG accountants in audit trial",
+          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T15:49:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 163,
+            "comments": 85,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50547777"
+          }
+        }
+      ],
+      "score": 4.950333267865139,
+      "breakdown": {
+        "hnPoints": 1.640723682632624,
+        "hnComments": 0.8399191397584053,
+        "mentions": 0.0,
+        "recency": 1.2696904454741091,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50548485",
+      "representativeId": "hackernews:50548485",
+      "items": [
+        {
+          "id": "hackernews:50548485",
+          "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+          "url": "https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T16:41:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 118,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50548485"
+          }
+        }
+      ],
+      "score": 4.84853608144061,
+      "breakdown": {
+        "hnPoints": 1.5375346018070926,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 1.3126113101067802,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50541790",
+      "representativeId": "hackernews:50541790",
+      "items": [
+        {
+          "id": "hackernews:50541790",
+          "title": "Why is Gemini 4 Carbon taking so long?",
+          "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T04:14:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 256,
+            "comments": 134,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50541790"
+          }
+        }
+      ],
+      "score": 4.722721036319141,
+      "breakdown": {
+        "hnPoints": 1.7852429427455108,
+        "hnComments": 0.9249467762987215,
+        "mentions": 0.0,
+        "recency": 0.8125313172749095,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50543989",
+      "representativeId": "hackernews:50543989",
+      "items": [
+        {
+          "id": "hackernews:50543989",
+          "title": "Energy-Based Reasoners: 385x more efficient inference",
+          "url": "https://energy-based-reasoners.github.io",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T09:29:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 273,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50543989"
+          }
+        }
+      ],
+      "score": 4.718520074479613,
+      "breakdown": {
+        "hnPoints": 1.805849691975343,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 0.9948797678282042,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50546312",
+      "representativeId": "hackernews:50546312",
+      "items": [
+        {
+          "id": "hackernews:50546312",
+          "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
+          "url": "https://sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T13:51:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 63,
+            "comments": 75,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50546312"
+          }
+        }
+      ],
+      "score": 4.5312957582156645,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.8166102864847931,
+        "mentions": 0.0,
+        "recency": 1.176693964553377,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50529612",
+      "representativeId": "hackernews:50529612",
+      "items": [
+        {
+          "id": "hackernews:50529612",
+          "title": "How the Claude Code team thinks about verification",
+          "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T10:20:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 290,
+            "comments": 230,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50529612"
+          }
+        }
+      ],
+      "score": 4.433205825064116,
+      "breakdown": {
+        "hnPoints": 1.8252156160196276,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.40799020904448824,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50541619",
+      "representativeId": "hackernews:50541619",
+      "items": [
+        {
+          "id": "hackernews:50541619",
+          "title": "Claude was trained on protein sequences at scale",
+          "url": "https://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T03:47:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 156,
+            "comments": 67,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50541619"
+          }
+        }
+      ],
+      "score": 4.421233224397653,
+      "breakdown": {
+        "hnPoints": 1.6266901016829547,
+        "hnComments": 0.7956373956104249,
+        "mentions": 0.0,
+        "recency": 0.798905727104273,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50535740",
+      "representativeId": "hackernews:50535740",
+      "items": [
+        {
+          "id": "hackernews:50535740",
+          "title": "Not Everything Needs an LLM",
+          "url": "https://newsletter.posthog.com/p/decision-models",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T18:16:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 176,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50535740"
+          }
+        }
+      ],
+      "score": 4.23048238070774,
+      "breakdown": {
+        "hnPoints": 1.6652654674937617,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.0,
+        "recency": 0.5536352357841985,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50547223",
+      "representativeId": "hackernews:50547223",
+      "items": [
+        {
+          "id": "hackernews:50547223",
+          "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
+          "url": "https://ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T15:08:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 38,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50547223"
+          }
+        }
+      ],
+      "score": 4.160194222657342,
+      "breakdown": {
+        "hnPoints": 1.1786372134757952,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 1.2365436999328434,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50540836",
+      "representativeId": "hackernews:50540836",
+      "items": [
+        {
+          "id": "hackernews:50540836",
+          "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+          "url": "https://washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T01:45:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 94,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50540836"
+          }
+        }
+      ],
+      "score": 4.141211000437824,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 0.7384849303513845,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/advancing-chip-design-with-our-models",
+      "representativeId": "openai:https://openai.com/index/advancing-chip-design-with-our-models",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/advancing-chip-design-with-our-models",
+          "title": "Advancing chip design with OpenAI models",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+          "source": "openai",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+          "trust": 1.0,
+          "signals": {
+            "points": 63,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
+          }
+        }
+      ],
+      "score": 4.102349247444116,
+      "breakdown": {
+        "hnPoints": 1.3379915071774942,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 0.6902775222695637,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50530450",
+      "representativeId": "hackernews:50530450",
+      "items": [
+        {
+          "id": "hackernews:50530450",
+          "title": "Regulatory Capture by Anthropic Through METR",
+          "url": "https://nitter.cf/kevinnbass/status/2099621874279817638",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T12:21:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 140,
+            "comments": 75,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50530450"
+          }
+        }
+      ],
+      "score": 4.049737023635774,
+      "breakdown": {
+        "hnPoints": 1.5921098457611964,
+        "hnComments": 0.8166102864847931,
+        "mentions": 0.0,
+        "recency": 0.44101689138978406,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50540472",
+      "representativeId": "hackernews:50540472",
+      "items": [
+        {
+          "id": "hackernews:50540472",
+          "title": "Cerebras Disaggregated Inference",
+          "url": "https://cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T00:56:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 102,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50540472"
+          }
+        }
+      ],
+      "score": 4.013750783456111,
+      "breakdown": {
+        "hnPoints": 1.491080153018164,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.7157140475764383,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50536565",
+      "representativeId": "hackernews:50536565",
+      "items": [
+        {
+          "id": "hackernews:50536565",
+          "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+          "url": "https://zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T19:08:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 99,
+            "comments": 17,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50536565"
+          }
+        }
+      ],
+      "score": 3.799173083508991,
+      "breakdown": {
+        "hnPoints": 1.481570526137868,
+        "hnComments": 0.5450133092487028,
+        "mentions": 0.0,
+        "recency": 0.57258924812242,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50535898",
+      "representativeId": "hackernews:50535898",
+      "items": [
+        {
+          "id": "hackernews:50535898",
+          "title": "Advancing computer-use agents for healthcare teams",
+          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T18:26:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50535898"
+          }
+        }
+      ],
+      "score": 3.699761484856081,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.5571224325567852,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50539039",
+      "representativeId": "hackernews:50539039",
+      "items": [
+        {
+          "id": "hackernews:50539039",
+          "title": "Latent Lattice Language Models",
+          "url": "https://shivamduggal4.github.io/latent-lattice-language-models",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T22:17:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50539039"
+          }
+        }
+      ],
+      "score": 3.479135284631581,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.6462462095257846,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50533270",
+      "representativeId": "hackernews:50533270",
+      "items": [
+        {
+          "id": "hackernews:50533270",
+          "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+          "url": "https://github.com/RunanywhereAI/trnrt",
+          "source": "hackernews",
+          "publishedAt": "2026-11-17T16:01:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50533270"
+          }
+        }
+      ],
+      "score": 3.3889477181675103,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.5076097273849853,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+          "title": "Will Wright's next simulation will use AI to mine content from your memories",
+          "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-18T18:10:33.000Z",
+          "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+          "title": "Will Wright’s next game uses AI to map your memories",
+          "url": "https://theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T14:00:00.000Z",
+          "summary": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to explore worlds they create on their own. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 3.2732678636795884,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3899345303462554,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "representativeId": "huggingface:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T19:54:56.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.8362410933444213,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4862410933444214,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "representativeId": "huggingface:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "title": "Why your fine-tuning job takes longer than the FLOPs say",
+          "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T18:53:43.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.7789803376757147,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4289803376757146,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T15:00:23.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.5802373507558576,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2302373507558575,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/inside-the-codex-sandbox",
+      "representativeId": "openai:https://openai.com/index/inside-the-codex-sandbox",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/inside-the-codex-sandbox",
+          "title": "Inside the Codex sandbox",
+          "url": "https://openai.com/index/inside-the-codex-sandbox",
+          "source": "openai",
+          "publishedAt": "2026-11-18T08:00:00.000Z",
+          "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.439322749649568,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9393227496495682,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+          "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T19:56:39.000Z",
+          "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3878794792807305,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4878794792807306,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+          "title": "Trump’s latest land grab is an AI hub in the Philippines",
+          "url": "https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T19:40:36.000Z",
+          "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3726315946839596,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4726315946839597,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+          "title": "Quoting Daniel Stenberg",
+          "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-18T15:58:27.000Z",
+          "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.326950069615969,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.276950069615969,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+          "title": "What is Nvidia without AI’s sugar daddy in charge?",
+          "url": "https://theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T18:34:15.000Z",
+          "summary": "If the glorious AI revolution rests entirely on the well-being of one man, AI is perhaps not as robust a technology as I had previously been led to believe. Nonetheless, chunks of Silicon Valley are now insisting he is indispensable. For instance, if Elon Musk is telling the truth, then Jensen Huang (the former CEO […]",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+          "title": "Nvidia isn’t selling any more AI chips to China",
+          "url": "https://theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T13:01:05.000Z",
+          "summary": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the company that, under former CEO Jensen Huang, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.311238059290548,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.411238059290548,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+          "title": "Disney’s new Star Wars animatronics interact with guests using AI",
+          "url": "https://theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T17:50:57.000Z",
+          "summary": "As advanced and lifelike as the animatronic characters at Disney parks have become, they typically either stick to predefined movements and routines, or there's an out of sight puppeteer helping make their behavior appear more spontaneous. That could soon change as Walt Disney Imagineering R&D has revealed three new Audio-Animatronic prototypes that rely on Amazon's […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2725595862400825,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3725595862400826,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+          "title": "The PSF end-of-year fundraiser",
+          "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-18T14:44:48.000Z",
+          "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running. We also operate the Developers in Residence program , which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem. Tags: python , psf",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2679945437975393,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2179945437975392,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+          "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T17:32:10.000Z",
+          "summary": "Citi is the latest major financial institution to put the breaks on personal finance AI agents.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2561124437397626,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3561124437397627,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+          "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+          "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T16:59:00.000Z",
+          "summary": "Sam Altman and Greg Brockman pushed back against Silicon Valley's growing debate over an AI takeover, while acknowledging the challenges of keeping advanced models under human control.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2275506725938694,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3275506725938697,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/the-silent-consensus",
+      "representativeId": "openai:https://openai.com/index/the-silent-consensus",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/the-silent-consensus",
+          "title": "The Silent Consensus",
+          "url": "https://openai.com/index/the-silent-consensus",
+          "source": "openai",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.1902775222695636,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6902775222695637,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "representativeId": "openai:https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+          "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+          "source": "openai",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.1902775222695636,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6902775222695637,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+          "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+          "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T16:14:09.000Z",
+          "summary": "Nvidia founder and former CEO Jensen Huang stepped down last week amid several scandals, including an affair with an alleged Chinese spy.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1898820534628625,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2898820534628623,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+          "title": "Remember the frontier AI pause? Chip companies don’t either",
+          "url": "https://theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T15:44:02.000Z",
+          "summary": "This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging Face and early evidence suggested that its next model could independently find and exploit security flaws. In September, Anthropic CEO Dario Amodei called for slowing advances in the most powerful AI models, warning that they could be used […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1651893786410454,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2651893786410453,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+          "title": "This smell startup says its AI nose is as good as a human’s",
+          "url": "https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-18T10:20:30.000Z",
+          "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.077960941111275,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0279609411112751,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/moe-expert-streaming",
+      "representativeId": "huggingface:https://huggingface.co/blog/moe-expert-streaming",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/moe-expert-streaming",
+          "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+          "url": "https://huggingface.co/blog/moe-expert-streaming",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0402775222695637,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6902775222695637,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/rumble-2-flash",
+      "representativeId": "huggingface:https://huggingface.co/blog/rumble-2-flash",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/rumble-2-flash",
+          "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+          "url": "https://huggingface.co/blog/rumble-2-flash",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0402775222695637,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6902775222695637,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+          "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+          "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T12:00:00.000Z",
+          "summary": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9957472650007075,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0957472650007076,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+          "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+          "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T11:30:00.000Z",
+          "summary": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9748514607201177,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0748514607201178,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+          "title": "Suno now lets you make AI videos for your AI music",
+          "url": "https://theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T11:16:53.000Z",
+          "summary": "Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs into AI-generated video clips that automatically lipsync to lyrics, or make images via prompt descriptions that can be used as thumbnails and album artwork. Visuals […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9658410018831864,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0658410018831865,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+          "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+          "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-18T00:27:29.000Z",
+          "summary": "Word, Excel, and PowerPoint now live inside Copilot; always-on agents are next.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7525612648713162,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7025612648713164,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+          "title": "Satya Nadella says he’s AGI-pilled now",
+          "url": "https://theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-17T23:41:18.000Z",
+          "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \"I am AGI-pilled in the sense that at an economy level, what is the political economy's organization around AGI?\" he asked at […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5820425240267522,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6820425240267523,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+          "title": "Google makes it easier to use Gemini without training AI on your data",
+          "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-17T16:50:10.000Z",
+          "summary": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5738604980279256,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5238604980279258,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/17/datasette-lite",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/17/datasette-lite",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/17/datasette-lite",
+          "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+          "url": "https://simonwillison.net/2026/Nov/17/datasette-lite",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-17T16:48:33.000Z",
+          "summary": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable from the real server-side application. You can now do all of the following, using a carefully crafted URL to lite.datasette.io : Load client-side Datasette to browse any SQLite database, JSON file, CSV file or SQL script Select a released version of Datasette to load from PyPI Load a specific commit, tag, or branch name from the Datasette GitHub repository Pick from over 100 versions of SQLite to use with Datasette Install additional Datasette plugins from PyPI or URLs to wheel files, including JavaScript visualization tools The ability to load specific Datasette references, plugins, and SQLite versions makes this a fantastic tool for linking to demos of work-in-progress features or bug reproductions, without needing to spin up a full web server to serve that demo. As an example, consider the following URL: https://lite.datasette.io/?install=datasette-maplibre&url=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/demo.db&metadata=https://gist.githubusercontent.com/simonw/39fa5d399465766039549912e2b3d291/raw/f6dfba99a75cbb8b5d9386223220eb52272767ee/metadata.yml#/demo/capitals_and_countries%23map=0/4.2/180&color=continent Follow that link and, after a short loading screen, you'll find yourself on a page that looks like this: That's Datasette running the new datasette-maplibre plugin, loading up a database of GeoJSON shapes of countries and displaying both a combined map and individual boundary maps in a table. Let's break down that URL to see what it's doing: https://lite.datasette.io/ ?install=datasette-maplibre &url=https://.../demo.db &metadata=https://.../metadata.yml #/demo/capitals_and_countries%23map=0/4.2/180&color=continent The ?install=datasette-maplibre installs that additional plugin from PyPI. You can pass &install=... as many times as you like to load more plugins. &url=https://.../demo.db loads that SQLite database from the provided URL. These URLs need to have open CORS headers - I host files like this in Gists , because they provide an easy way to get open CORS headers on a web-hosted file. &metadata=https://.../metadata.yml loads this metadata.yml file . The metadata file adds HTML descriptions to various tables, and to the Datasette homepage. Visit that homepage here for a guided tour of the other features of that plugin, all defined in the metadata file. #/demo/capitals_and_countries%23map=0/4.2/180&color=continent is a fragment hash that turns into a location within Datasette - here it's loading the /demo/capitals_and_countries SQL view, then appending another fragment hash to it ( %23 is a URL-encoded # ) which tells the map plugin to zoom to a certain location and to set the color of the shapes on the map based on the continent column in the data. That URL is doing a lot of work! I wrote more about this trick for building URL-addressable software in URL-addressable Pyodide Python environments last year. The full set of supported URL arguments is described in the Datasette Lite README . I've already started using Datasette Lite as part of the Datasette development process. Here's a recent issue describing a pagination bug - I posted a comment there demonstrating the old, broken behavior and the new fix using links to Datasette Lite: Demo of the bug: https://lite.datasette.io/?ref=1.0a42&sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&_sort=score - click next and the second page is empty. Here's that same page with the bug fixed (running on 1.0a43): https://lite.datasette.io/?ref=1.0a43&sql=https://gist.github.com/simonw/75ececf61d50e6e8d50f0c150150ee81#/data/scores?_size=2&_sort=score How this works, using service workers Datasette Lite is not a new project. I launched the first version back in 2022 , originally as a bit of a joke (running server-side apps in the browser is pretty funny) but one that quickly started proving its value. The problem with that initial version is that it was a hack . It worked by running Datasette in a Pyodide web worker, simulating requests through that stack, then injecting the resulting HTML back into the top level page using innerHTML . This worked for basic Datasette, but meant that any feature that used JavaScript failed to work, because script tags in innerHTML don't execute, and the web worker tricks it used failed to load additional JavaScript or CSS files. The new version takes a completely different approach based on Service Workers . These allow JavaScript to intercept HTTP requests for new pages and resources and serve them from client-side code instead. Datasette Lite registers a service worker for the entire lite.datasette.io domain. The parent page then creates an iframe that sends requests for Datasette pages to URLs that look like this: /app/aa94e6851595/ # the homepage (HTML) /app/aa94e6851595/data/places # a table page (HTML) /app/aa94e6851595/-/static/navigation-search.js # (JavaScript) /app/aa94e6851595/-/static/app.css # (CSS) Those are regular Datasette URLs, but with a /app/aa94e6851595/ prefix. What's that about? The /app/<session>/ prefix is necessary because of multiple tabs. Consider the URL above, which loads the demo instance with the datasette-maplibre plugin. That URL defines a full, custom Datasette instance. You might have that one running in a tab, then one of my other demo links running in another. The service worker for lite.datasette.io is shared between all of those tabs. If it routed to a single instance of Datasette then every tab would share that underlying instance, no matter what plugins or other settings their URL attempted to configure. Instead, the parent page generates a random session ID and uses it as a prefix for all of the subsequent hidden asset and page loads. The service worker can then use that session ID to route those requests back through the parent page to a web worker running a dedicated Datasette instance for that particular session. (We still need a web worker because Pyodide in a service worker would not be able to maintain state beyond around 30 seconds, depending on the browser. There are a lot of moving parts here!) I had Claude Fable 5.2 generate several SVG diagrams to help explain this. Here's my favorite of those, now embedded in the Datasette Lite README: This system started life back in May as an AI research spike generated using Claude Opus 4.8. It wasn't until November (and Claude Fable 5.2) that I felt familiar enough with how it all works to confidently ship it to production! Bonus feature: pick your version of SQLite I added this feature last night as an off-shoot of investigating a potential bug in SQLite . Datasette is meant to work against any released version of SQLite since 3.25 (released in September 2018). There have been 87 further releases since then. Being able to fire up Datasette against a specific version of SQLite is really useful for demonstrating new SQLite features and debugging weird issues. In the past I've used various tricks to get different SQLite versions running with Python on my Mac, but it's not a trivial process. WebAssembly is perfect for this. I can load up a custom SQLite build entirely in my browser, test it there, then discard it when I close my tab. datasette/pysqlite3-wasm-wheels is my new repository which contains WebAssembly compiled Python wheels for pysqlite3 for 163 different SQLite versions. Each version gets a file with a name like this: pysqlite3-0.6.2-3.54.1-cp314-cp314-pyemscripten_2026_0_wasm32.whl That's for SQLite 3.54.1, the most recent version. Datasette Lite now takes a special ?sqlite= URL parameter, which will accept a version number like 3.54.1 , resolve the path to the corresponding wheel file, then fetch that wheel and install it into the Pyodide environment and configure Datasette to use it. Once I'd built the wheels, I decided to have Claude Fable 5.2 build me [this bonus tool]( https://datasette.github.io/pysqlite3-wasm-wheels/?versions=3.54.1,3.54.0&sql=select+json_object(%27a%27%2C+(select+json_array(1%29%29%29) for comparing a SQL query across any selected versions of SQLite. Here's an example showing how select json_object('a', (select json_array(1))) differs between SQLite 3.54.0 and 3.54.1: This should work for every other Python app, too Nothing about how Datasette Lite works is unique to Datasette. Almost any Python application should be able to pull the same trick - running entirely in the browser using WebAssembly and Pyodide, as a cheap way to provide preview environments, demonstrate features, and recreate bugs. C and Rust extensions used to be a blocker for this kind of thing, but any good coding agent can compile those to Pyodide-compatible WebAssembly now. You can even publish them to PyPI as of PEP 783 in April 2026. One catch is databases. SQLite is no problem at all, but running PostgreSQL or MySQL in WebAssembly, while possible, is still a path less trodden. I'd love to see WebAssembly preview environments like these become a common pattern across the Python ecosystem. For Hacker News: Full server-side Datasette Python app in the browser with service workers Tags: javascript , projects , python , urls , datasette , webassembly , service-workers , pyodide , datasette-lite",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5733172319945834,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5233172319945836,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+          "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T23:04:35.000Z",
+          "summary": "Nvidia's interim CEO reaffirmed its open source AI strategy and plans to acquire Hugging Face, despite Jensen Huang's sudden departure.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.566158175471259,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.666158175471259,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+          "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T22:29:05.000Z",
+          "summary": "Amazon will own just under 15% of Anthropic after the IPO, with the option to go much higher. Google is a close second with holdings of nearly 14%.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5511520238354675,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6511520238354674,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+          "title": "Grok Bot took unapproved actions, ignored orders to stop, and then denied it",
+          "url": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-17T14:00:29.000Z",
+          "summary": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.519807088616695,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4698070886166952,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+          "title": "Model ML raises $250M to automate investment banking grunt work",
+          "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T19:32:11.000Z",
+          "summary": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.481265833836189,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5812658338361892,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+          "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+          "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T19:02:20.000Z",
+          "summary": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.470236039576918,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5702360395769183,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+          "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+          "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-17T18:48:23.000Z",
+          "summary": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4651534168580147,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5651534168580149,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "hackernews:50540178",
+    "hackernews:50531751",
+    "google-deepmind:https://deepmind.google/blog/genie-4-is-now-available",
+    "hackernews:50538303"
+  ]
+}

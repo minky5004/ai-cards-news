@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T20:16:26.891Z",
+  "cards": [
+    {
+      "clusterId": "openai:https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "headline": "오픈AI, GPT-6.2 아스트라 가격 80% 내렸다",
+      "highlight": [
+        "80% 내렸다"
+      ],
+      "body": "오픈AI GPT-6.2 아스트라는 이전 버전인 6 아스트라 대비 80% 저렴한 가격으로 API에 출시되었습니다. 효율적인 GPT-6.2 솔 모델도 기존과 동일한 $2/$10 가격을 유지합니다. 하지만 벤치마크에서 경쟁 모델보다 낮은 점수를 받으며 혼란스러운 소통 방식에 대한 불만도 나옵니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol",
+      "sourceName": "Simon Willison’s Weblog",
+      "imageUrl": "https://static.simonwillison.net/static/2026/astra-6-2-max.webp",
+      "publishedAt": "2026-11-17T17:45:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:50540178",
+      "headline": "구글 AI 검색, 이제 기록 남지 않는다",
+      "highlight": [
+        "기록 남지 않는다"
+      ],
+      "body": "구글 검색의 AI 모드에 '임시 대화' 기능이 도입됐습니다. 이제 AI와의 대화 내용이 검색 기록에 남거나 개인화 추천에 영향을 주지 않아요. 데스크톱과 모바일 모든 지원 언어로 전 세계에 순차적으로 적용됩니다.",
+      "sourceUrl": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2019/10/google-search-app-ios.jpg?resize=1200,644",
+      "publishedAt": "2026-11-18T00:17:58.000Z"
+    },
+    {
+      "clusterId": "google-deepmind:https://deepmind.google/blog/genie-4-is-now-available",
+      "headline": "Genie 4, 가상 세계 실시간으로 바꾼다",
+      "highlight": [
+        "Genie 4",
+        "실시간"
+      ],
+      "body": "Genie 4는 구글 AI Ultra 구독자를 위해 출시되었습니다. 자연어로 가상 환경을 실시간 편집하고, 오디오를 추가하며, 만든 세계를 커뮤니티 갤러리에 공유할 수 있습니다. 이제 당신의 상상 속 세계를 즉시 만들고 탐험할 수 있습니다.",
+      "sourceUrl": "https://deepmind.google/blog/genie-4-is-now-available",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/resized_ProjectGenie_Thumbnail_v02.width-1300.png",
+      "publishedAt": "2026-11-18T18:13:42.000Z"
+    },
+    {
+      "clusterId": "hackernews:50538303",
+      "headline": "하버드 연구: 코드 리뷰 49% 길어졌다",
+      "highlight": [
+        "49%"
+      ],
+      "body": "AI 코딩 도입 후 코드는 30% 늘었지만, 실제 완성 작업량은 제자리였습니다. 코드 리뷰 시간은 49% 급증, 병목 현상이 검토로 옮겨가 AI 생산량보다 최종 결과물과 검토 시간 측정이 중요합니다.",
+      "sourceUrl": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+      "sourceName": "ComplexDiscovery",
+      "imageUrl": "https://complexdiscovery.com/wp-content/uploads/2026/10/AI-Report-One.jpg",
+      "publishedAt": "2026-11-17T21:16:12.000Z"
+    },
+    {
+      "clusterId": "hackernews:50542705",
+      "headline": "구글 AI에 웹사이트 트래픽 75% 증발",
+      "highlight": [
+        "구글 AI",
+        "75% 증발"
+      ],
+      "body": "\"All About Berlin\" 웹사이트가 구글 AI 오버뷰 때문에 트래픽 75%를 잃었습니다. 구글이 AI 답변을 먼저 보여주고 광고까지 추가하며 웹사이트 링크는 뒤로 밀렸습니다. 이대로라면 개인 콘텐츠 제작자들은 설 곳을 잃고 수익을 포기해야 할지도 모릅니다.",
+      "sourceUrl": "https://nicolasbouliane.com/blog/death-by-ai",
+      "sourceName": "hackernews",
+      "publishedAt": "2026-11-18T06:47:26.000Z"
+    }
+  ]
+}
