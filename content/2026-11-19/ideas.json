@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T20:22:49.146Z",
+  "idea": {
+    "productName": "VulnForge",
+    "tagline": "검열 없는 로컬 AI로 보안 취약점을 즉시 고친다",
+    "oneLineSummary": "상용 AI의 안전장치 차단 없이 내부 인프라의 결함을 점검하고 패치를 로컬에서 자동 생성하는 소프트웨어를 판매합니다.",
+    "problem": "보안 엔지니어가 취약점을 막으려 해도 상용 AI의 안전장치에 막혀 코드 분석이 거부당합니다. 면제 승인에는 며칠이 걸리고 지적재산 유출 위험까지 감수해야 합니다.",
+    "productDescription": "VulnForge는 보안 엔지니어의 노트북이나 로컬 서버에서 오픈 가중치 모델을 격리 구동하는 보안 패치 전용 에이전트입니다. 상용 AI가 공격 코드로 오인해 차단하는 익스플로잇 분석과 취약점 방어 코드를 검열 필터 없이 즉시 작성합니다. 모든 코드가 기기 내부에서만 처리되므로 지적재산과 민감 정보의 외부 유출을 원천 차단합니다.",
+    "keyFeatures": [
+      "검열 없는 취약점 패치 생성",
+      "외부 유출 없는 로컬 완전 격리",
+      "공개 PoC 기반 모의 방어 코드 작성",
+      "신분증 제출 없는 즉시 실행"
+    ],
+    "persona": "상용 AI 코딩 도구의 가드레일 거절 메시지와 면제 심사 지연 때문에 제로데이 취약점 방어 코드를 제때 작성하지 못해 밤을 새우는 리드 보안 엔지니어입니다.",
+    "businessModel": "오픈소스 로컬 실행 CLI는 무료로 배포하고, 팀 단위 보안 취약점 데이터베이스 연동과 특화 파인튜닝 모델을 제공하는 기업용 시트를 월 49달러에 구독형으로 판매합니다.",
+    "marketStats": "기사에 규모 근거 없음.",
+    "goToMarket": "상용 AI의 과도한 안전장치에 분노를 표출한 해커뉴스 스레드와 보안 엔지니어 커뮤니티 참가자들을 대상으로 검열 없는 오픈소스 알파 버전을 배포해 초기 사용자 100명을 모읍니다.",
+    "unfairAdvantage": "대형 AI 기업들이 상장과 안전성 규제 준수를 이유로 가드레일을 높여 실무 검증까지 차단하는 틈새를 노려, 로컬 오픈 모델의 무검열 특성을 보안 전용으로 패키징할 수 있습니다.",
+    "competitors": [
+      "Claude Code — 보안 검증 코드도 유해성 가드레일로 차단함",
+      "GitHub Copilot — 클라우드 전송 필수 및 익스플로잇 패턴 필터링 존재",
+      "Ollama — 범용 로컬 실행기일 뿐 취약점 분석 특화 기능 부재"
+    ],
+    "risks": [
+      "상용 거대 모델 대비 로컬 오픈 가중치 모델의 추론 정확도 부족",
+      "악의적 공격자가 악성코드 생성 도구로 악용할 경우의 법적 책임",
+      "대형 AI 제공업체의 보안 전문가 전용 검열 면제 절차 간소화"
+    ],
+    "actionPlan": [
+      "해커뉴스 글 작성자에게 연락해 가장 자주 차단당한 보안 프롬프트 10건 수집",
+      "오픈소스 코딩 모델 기반 로컬 취약점 분석 CLI 프로토타입 3일 내 제작",
+      "주요 CVE 방어 패치 생성 성공률 벤치마크 테스트 결과 공개",
+      "보안 엔지니어 대상 비공개 슬랙 커뮤니티에서 알파 테스터 20명 모집"
+    ],
+    "recommendation": "빅테크 기업의 지나친 AI 가드레일 정책이 현업 보안 전문가들에게 심각한 병목을 유발한 순간을 정확히 파고든 아이디어입니다. 다만 로컬 모델의 보안 패치 정확도가 상용 모델보다 떨어지면 실제 인프라 장애를 부를 수 있습니다. 악용 방지 장치와 모델 신뢰성 검증 없이 출시하면 역풍을 맞을 위험이 큽니다.",
+    "searchQuery": "local llm security patching",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 2건 · 근거는 상위 2건 — 최고 15점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Leaping – Open-source debugging with LLMs",
+          "url": "https://news.ycombinator.com/item?id=39528087",
+          "points": 15
+        },
+        {
+          "title": "Show HN: VebGen – AI agent that understands projects with AST, not LLM tokens",
+          "url": "https://github.com/vebgenofficial/vebgen",
+          "points": 2
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50551601",
+        "title": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features"
+      },
+      {
+        "clusterId": "hackernews:50562754",
+        "title": "Anthropic hits $2T in Nasdaq debut",
+        "url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"
+      },
+      {
+        "clusterId": "hackernews:50562262",
+        "title": "Fuck Your AI Safeguards",
+        "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards"
+      },
+      {
+        "clusterId": "hackernews:50563148",
+        "title": "Claude solves two open problems in the physics of black holes",
+        "url": "https://anthropic.com/research/claude-black-hole-physics"
+      },
+      {
+        "clusterId": "hackernews:50561508",
+        "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+        "url": "https://thedataexchange.media/pete-warden-moonshine"
+      },
+      {
+        "clusterId": "hackernews:50552424",
+        "title": "Gemini 4 Neon",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon"
+      },
+      {
+        "clusterId": "hackernews:50553843",
+        "title": "Anthropic prices initial public offering",
+        "url": "https://anthropic.com/news/anthropic-prices-initial-public-offering"
+      },
+      {
+        "clusterId": "hackernews:50559140",
+        "title": "The AI Superintelligence Debate Has Serious Flaws",
+        "url": "https://spectrum.ieee.org/ai-superintelligence-debate"
+      },
+      {
+        "clusterId": "hackernews:50547777",
+        "title": "AI agents ask better questions than KPMG accountants in audit trial",
+        "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg"
+      },
+      {
+        "clusterId": "hackernews:50562636",
+        "title": "Chrome AI features wasting much bandwidth",
+        "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth"
+      },
+      {
+        "clusterId": "hackernews:50550415",
+        "title": "Genie 4 is now available",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie"
+      },
+      {
+        "clusterId": "hackernews:50553225",
+        "title": "LLM assisted reverse engineering",
+        "url": "https://slowchronicle.com/posts/llm-assisted-reverse-engineering"
+      },
+      {
+        "clusterId": "hackernews:50562500",
+        "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+        "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work"
+      },
+      {
+        "clusterId": "hackernews:50560461",
+        "title": "OpenAI still has a WebRTC Problem",
+        "url": "https://moq.dev/blog/webrtc-is-still-the-problem"
+      },
+      {
+        "clusterId": "hackernews:50549493",
+        "title": "Advancing chip design with OpenAI models",
+        "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+      }
+    ]
+  }
+}

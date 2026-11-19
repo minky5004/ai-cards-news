@@ -1,0 +1,1557 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T20:10:42.894Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 3
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 12,
+      "filtered": 8
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 8,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 41,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50551601",
+      "representativeId": "hackernews:50551601",
+      "items": [
+        {
+          "id": "hackernews:50551601",
+          "title": "Google Gemini's \"Tasks\" Personal Assistant Is Now Free",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T20:20:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 75,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50551601"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+          "title": "Google gives Gemini the ability to use your Mac for you",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-19T18:09:11.000Z",
+          "summary": "Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+          "title": "Gemini on Mac can now use your computer",
+          "url": "https://theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T18:21:13.000Z",
+          "summary": "Google's Gemini app for macOS now has computer use, meaning it can help you \"get multi-step tasks done across your local files, desktop apps, and the web,\" the company says. Google suggests the feature might be useful for things like speeding up workflows, filling in forms, making presentations, and listing items for sale. Users will […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.38780279179621,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.8166102864847931,
+        "mentions": 1.6666666666666665,
+        "recency": 1.398204368530107,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50562754",
+      "representativeId": "hackernews:50562754",
+      "items": [
+        {
+          "id": "hackernews:50562754",
+          "title": "Anthropic hits $2T in Nasdaq debut",
+          "url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T17:02:40.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 475,
+            "comments": 737,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50562754"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+          "title": "Anthropic hits Nasdaq exchanges at $111, 33% above IPO price",
+          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-19T16:59:23.000Z",
+          "summary": "Anthropic's IPO price was set at $83, representing more than $80 billion in new capital raised.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+          "title": "Anthropic prices IPO at $83 a share, above projected range",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T22:11:15.000Z",
+          "summary": "The long-awaited IPO reportedly values the company at $1.5 trillion on a fully diluted basis.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.34632823296788,
+      "breakdown": {
+        "hnPoints": 1.9835317708662574,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.3294631287682894,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50562262",
+      "representativeId": "hackernews:50562262",
+      "items": [
+        {
+          "id": "hackernews:50562262",
+          "title": "Fuck Your AI Safeguards",
+          "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T16:30:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 253,
+            "comments": 90,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50562262"
+          }
+        }
+      ],
+      "score": 5.134171583546998,
+      "breakdown": {
+        "hnPoints": 1.781465377403343,
+        "hnComments": 0.8505751761815542,
+        "mentions": 0.0,
+        "recency": 1.3021310299621,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50563148",
+      "representativeId": "hackernews:50563148",
+      "items": [
+        {
+          "id": "hackernews:50563148",
+          "title": "Claude solves two open problems in the physics of black holes",
+          "url": "https://anthropic.com/research/claude-black-hole-physics",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T17:30:44.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 205,
+            "comments": 69,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50563148"
+          }
+        }
+      ],
+      "score": 5.0688101691513765,
+      "breakdown": {
+        "hnPoints": 1.7140787375477464,
+        "hnComments": 0.8011033338085477,
+        "mentions": 0.0,
+        "recency": 1.3536280977950823,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50561508",
+      "representativeId": "hackernews:50561508",
+      "items": [
+        {
+          "id": "hackernews:50561508",
+          "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+          "url": "https://thedataexchange.media/pete-warden-moonshine",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T15:38:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 164,
+            "comments": 153,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50561508"
+          }
+        }
+      ],
+      "score": 5.051765959148506,
+      "breakdown": {
+        "hnPoints": 1.6426794269656357,
+        "hnComments": 0.9497761659449963,
+        "mentions": 0.0,
+        "recency": 1.2593103662378735,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50552424",
+      "representativeId": "hackernews:50552424",
+      "items": [
+        {
+          "id": "hackernews:50552424",
+          "title": "Gemini 4 Neon",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T21:34:07.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 993,
+            "comments": 751,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50552424"
+          }
+        },
+        {
+          "id": "hackernews:50554374",
+          "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+          "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T00:29:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 248,
+            "comments": 77,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50554374"
+          }
+        }
+      ],
+      "score": 4.902941473863293,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7029414738632925,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50553843",
+      "representativeId": "hackernews:50553843",
+      "items": [
+        {
+          "id": "hackernews:50553843",
+          "title": "Anthropic prices initial public offering",
+          "url": "https://anthropic.com/news/anthropic-prices-initial-public-offering",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T23:30:09.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 407,
+            "comments": 757,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50553843"
+          }
+        }
+      ],
+      "score": 4.810499282959915,
+      "breakdown": {
+        "hnPoints": 1.9339385756981227,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6765607072617923,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50559140",
+      "representativeId": "hackernews:50559140",
+      "items": [
+        {
+          "id": "hackernews:50559140",
+          "title": "The AI Superintelligence Debate Has Serious Flaws",
+          "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T12:17:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 100,
+            "comments": 155,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50559140"
+          }
+        }
+      ],
+      "score": 4.743855688317316,
+      "breakdown": {
+        "hnPoints": 1.484771736152262,
+        "hnComments": 0.9522092534365902,
+        "mentions": 0.0,
+        "recency": 1.1068746987284632,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50547777",
+      "representativeId": "hackernews:50547777",
+      "items": [
+        {
+          "id": "hackernews:50547777",
+          "title": "AI agents ask better questions than KPMG accountants in audit trial",
+          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T15:49:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 478,
+            "comments": 245,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50547777"
+          }
+        }
+      ],
+      "score": 4.6889698413251715,
+      "breakdown": {
+        "hnPoints": 1.9855530484178134,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.5034167929073582,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50562636",
+      "representativeId": "hackernews:50562636",
+      "items": [
+        {
+          "id": "hackernews:50562636",
+          "title": "Chrome AI features wasting much bandwidth",
+          "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T16:54:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 89,
+            "comments": 28,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50562636"
+          }
+        }
+      ],
+      "score": 4.60505934948675,
+      "breakdown": {
+        "hnPoints": 1.447674051455504,
+        "hnComments": 0.6349429060489095,
+        "mentions": 0.0,
+        "recency": 1.3224423919823367,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50550415",
+      "representativeId": "hackernews:50550415",
+      "items": [
+        {
+          "id": "hackernews:50550415",
+          "title": "Genie 4 is now available",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T18:49:51.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 286,
+            "comments": 182,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50550415"
+          }
+        }
+      ],
+      "score": 4.568241074697969,
+      "breakdown": {
+        "hnPoints": 1.8207626874644611,
+        "hnComments": 0.9823093793692524,
+        "mentions": 0.0,
+        "recency": 0.5651690078642555,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50553225",
+      "representativeId": "hackernews:50553225",
+      "items": [
+        {
+          "id": "hackernews:50553225",
+          "title": "LLM assisted reverse engineering",
+          "url": "https://slowchronicle.com/posts/llm-assisted-reverse-engineering",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T22:29:13.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 293,
+            "comments": 74,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50553225"
+          }
+        }
+      ],
+      "score": 4.493241066225137,
+      "breakdown": {
+        "hnPoints": 1.8285153265048708,
+        "hnComments": 0.8141127444841638,
+        "mentions": 0.0,
+        "recency": 0.6506129952361015,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50562500",
+      "representativeId": "hackernews:50562500",
+      "items": [
+        {
+          "id": "hackernews:50562500",
+          "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+          "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T16:45:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50562500"
+          }
+        }
+      ],
+      "score": 4.491712866192902,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 1.3151773392112425,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50560461",
+      "representativeId": "hackernews:50560461",
+      "items": [
+        {
+          "id": "hackernews:50560461",
+          "title": "OpenAI still has a WebRTC Problem",
+          "url": "https://moq.dev/blog/webrtc-is-still-the-problem",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T14:20:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 85,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50560461"
+          }
+        }
+      ],
+      "score": 4.445169249278033,
+      "breakdown": {
+        "hnPoints": 1.4330479441109116,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 1.1977691993565776,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50549493",
+      "representativeId": "hackernews:50549493",
+      "items": [
+        {
+          "id": "hackernews:50549493",
+          "title": "Advancing chip design with OpenAI models",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T17:45:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 219,
+            "comments": 165,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
+          }
+        }
+      ],
+      "score": 4.441558702135819,
+      "breakdown": {
+        "hnPoints": 1.7352322018315154,
+        "hnComments": 0.963924925490933,
+        "mentions": 0.0,
+        "recency": 0.5424015748133708,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50554641",
+      "representativeId": "hackernews:50554641",
+      "items": [
+        {
+          "id": "hackernews:50554641",
+          "title": "Black high school students sue after AI mistakes Doritos bag for gun",
+          "url": "https://lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T00:57:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 108,
+            "comments": 81,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50554641"
+          }
+        }
+      ],
+      "score": 4.2557303352794875,
+      "breakdown": {
+        "hnPoints": 1.5092955242605617,
+        "hnComments": 0.8309383155714201,
+        "mentions": 0.0,
+        "recency": 0.7154964954475054,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50555093",
+      "representativeId": "hackernews:50555093",
+      "items": [
+        {
+          "id": "hackernews:50555093",
+          "title": "AI will not make you rich (2025)",
+          "url": "https://colossus.com/article/ai-will-not-make-you-rich",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T01:51:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 105,
+            "comments": 68,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50555093"
+          }
+        }
+      ],
+      "score": 4.239498722193659,
+      "breakdown": {
+        "hnPoints": 1.5003167381952176,
+        "hnComments": 0.7983901695267366,
+        "mentions": 0.0,
+        "recency": 0.7407918144717041,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50543989",
+      "representativeId": "hackernews:50543989",
+      "items": [
+        {
+          "id": "hackernews:50543989",
+          "title": "Energy-Based Reasoners: 385x more efficient inference",
+          "url": "https://energy-based-reasoners.github.io",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T09:29:32.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 315,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50543989"
+          }
+        }
+      ],
+      "score": 4.211832952397308,
+      "breakdown": {
+        "hnPoints": 1.8517313530874904,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.3944577072575165,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50548485",
+      "representativeId": "hackernews:50548485",
+      "items": [
+        {
+          "id": "hackernews:50548485",
+          "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+          "url": "https://businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T16:41:22.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 136,
+            "comments": 78,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50548485"
+          }
+        }
+      ],
+      "score": 4.127195859608168,
+      "breakdown": {
+        "hnPoints": 1.5828511074457607,
+        "hnComments": 0.8239103593359427,
+        "mentions": 0.0,
+        "recency": 0.5204343928264644,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50554269",
+      "representativeId": "hackernews:50554269",
+      "items": [
+        {
+          "id": "hackernews:50554269",
+          "title": "Fable: Written, painted and directed by Claude Fable 5.2",
+          "url": "https://claudia.gallery/fable",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T00:18:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 61,
+            "comments": 62,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50554269"
+          }
+        }
+      ],
+      "score": 4.006808470176464,
+      "breakdown": {
+        "hnPoints": 1.327777349227535,
+        "hnComments": 0.781236379619714,
+        "mentions": 0.0,
+        "recency": 0.6977947413292148,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50558494",
+      "representativeId": "hackernews:50558494",
+      "items": [
+        {
+          "id": "hackernews:50558494",
+          "title": "AI Overworks People",
+          "url": "https://twitter.com/catalinmpit/status/2123061832781090948",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T10:52:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 30,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50558494"
+          }
+        }
+      ],
+      "score": 3.863734855068905,
+      "breakdown": {
+        "hnPoints": 1.1047787646979528,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 1.0483216373175424,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50546312",
+      "representativeId": "hackernews:50546312",
+      "items": [
+        {
+          "id": "hackernews:50546312",
+          "title": "Can Peer Review Survive AI-Generated Text? [pdf]",
+          "url": "https://sas.upenn.edu/~jesusfv/Peer_Review.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T13:51:03.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 67,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50546312"
+          }
+        }
+      ],
+      "score": 3.859522608183695,
+      "breakdown": {
+        "hnPoints": 1.3574955969752556,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.46654482120459884,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50554908",
+      "representativeId": "hackernews:50554908",
+      "items": [
+        {
+          "id": "hackernews:50554908",
+          "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
+          "url": "https://arxiv.org/abs/2607.29378",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T01:27:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50554908"
+          }
+        }
+      ],
+      "score": 3.602110509891405,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.7292657808893478,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50547223",
+      "representativeId": "hackernews:50547223",
+      "items": [
+        {
+          "id": "hackernews:50547223",
+          "title": "Jensen Huang's fall hits 'open' models in boost to Anthropic and OpenAI",
+          "url": "https://ft.com/content/418ca885-fbcf-4b9f-a8b9-2bd60b543fc5",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T15:08:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 46,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50547223"
+          }
+        }
+      ],
+      "score": 3.535896546558671,
+      "breakdown": {
+        "hnPoints": 1.2386654515679114,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.49027451212925144,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50546900",
+      "representativeId": "hackernews:50546900",
+      "items": [
+        {
+          "id": "hackernews:50546900",
+          "title": "Can Universities Survive? AI vs. Higher Education [audio]",
+          "url": "https://ppfideas.com/episodes/can-universities-survive-ai-vs-higher-education",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T14:42:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 45,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50546900"
+          }
+        }
+      ],
+      "score": 3.5191097898491046,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.721934993907472,
+        "mentions": 0.0,
+        "recency": 0.48218187329372053,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50552140",
+      "representativeId": "hackernews:50552140",
+      "items": [
+        {
+          "id": "hackernews:50552140",
+          "title": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
+          "url": "https://springcraft-ai.github.io/springrep",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T21:08:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50552140"
+          }
+        }
+      ],
+      "score": 3.376951021200955,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.617878995340525,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50550461",
+      "representativeId": "hackernews:50550461",
+      "items": [
+        {
+          "id": "hackernews:50550461",
+          "title": "Octopus, Gecko and Tortoise: the 3 scanners hunting your AI keys",
+          "url": "https://tin.computer/blog/fake-ai-crawler-secrets-scanners",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T18:53:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 32,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50550461"
+          }
+        }
+      ],
+      "score": 3.2834114505614025,
+      "breakdown": {
+        "hnPoints": 1.1248927484262843,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.5664157441249446,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50557420",
+      "representativeId": "hackernews:50557420",
+      "items": [
+        {
+          "id": "hackernews:50557420",
+          "title": "Wife of Senior Nvidia Executive Caught Up in Alleged AI Chip Smuggling Scandal",
+          "url": "https://gadgetreview.com/wife-of-senior-nvidia-executive-caught-up-in-alleged-ai-chip-smuggling-scandal",
+          "source": "hackernews",
+          "publishedAt": "2026-11-19T08:23:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50557420"
+          }
+        }
+      ],
+      "score": 3.2678314426349666,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9528385199870547,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50547901",
+      "representativeId": "hackernews:50547901",
+      "items": [
+        {
+          "id": "hackernews:50547901",
+          "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+          "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo",
+          "source": "hackernews",
+          "publishedAt": "2026-11-18T15:59:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 51,
+            "comments": 0,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50547901"
+          }
+        }
+      ],
+      "score": 2.977685554159691,
+      "breakdown": {
+        "hnPoints": 1.271189988341675,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5064955658180158,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "representativeId": "openai:https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "source": "openai",
+          "publishedAt": "2026-11-19T08:00:00.000Z",
+          "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.4384648597599514,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9384648597599514,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1038059/google-search-homepage-ai-chats",
+          "title": "Google is putting AI chats right on the homepage",
+          "url": "https://theverge.com/tech/1038059/google-search-homepage-ai-chats",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T20:05:06.000Z",
+          "summary": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar by clicking the gray […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.394604239047983,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.494604239047983,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+          "title": "Anthropic’s IPO could deliver $156 billion to charity",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-19T19:10:45.000Z",
+          "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.3433682701410072,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4433682701410073,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+          "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-19T17:38:40.000Z",
+          "summary": "In some of these instances, employees said Muse surfaced messages about childcare requests they never made, career advice they never asked for, product orders they never placed, and bank account balances that didn't belong to them.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.260537856353814,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.360537856353814,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+          "title": "Anthropic starts trading on Wall Street",
+          "url": "https://theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T16:52:01.000Z",
+          "summary": "Anthropic has officially gone public. It began trading on the Nasdaq under the ticker symbol \"ANT\" at $111.50 per share, up from its initial $83 per share price that put company's value at around $1.5 trillion. The listing comes nearly a month after Anthropic revealed its plans to go public. In its lengthy S-1 filing, […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2204069661833783,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3204069661833786,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+          "title": "At Nasdaq opening bell, Anthropic CEO recommits to pacing AI development",
+          "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-19T16:19:41.000Z",
+          "summary": "In his Nasdaq opening bell speech, Dario Amodei reiterated Anthropic's commitment to pacing AI development, regardless of business or political pressure.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1932887183385787,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2932887183385788,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+          "title": "ChatGPT can transcribe as you speak now with Live Dictation",
+          "url": "https://theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T15:16:45.000Z",
+          "summary": "ChatGPT can receive audio prompts from your microphone faster now with a Live Dictation feature that transcribes as you speak, rather than waiting until you finish recording. It's rolling out now globally on all ChatGPT plans on the web, desktop app, and iOS and Android apps. While using dictation in ChatGPT, you can tap or […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.142092639342706,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2420926393427063,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+          "title": "Anthropic’s IPO puts AI’s circular financing boom to the test",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-19T14:54:39.000Z",
+          "summary": "Anthropic faces enormous compute commitments as it goes public, but its biggest infrastructure partners, including Amazon and Google, could continue profiting from AI even if Anthropic loses its lead.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1245993441375273,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2245993441375276,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+          "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+          "url": "https://theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T14:25:37.000Z",
+          "summary": "Today is a new beginning for Anthropic: a years-in-the-making IPO that beat out SpaceX for most valuable of all time, having raised $81.3 billion and set an important precedent for the other public AI lab debuts to come. But it's not simply a financial milestone. Anthropic was founded on the idea that it prioritized safety […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.101991837895173,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2019918378951733,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+          "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+          "url": "https://theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T13:00:00.000Z",
+          "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4. Both enable a wearable to ambiently listen to your conversations and, using AI, summarize them for you. Why? So you can […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.037725412275506,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1377254122755065,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+          "title": "Canva adds an AI ‘off’ button",
+          "url": "https://theverge.com/ai-artificial-intelligence/1037126/canva-ai-features-off-button",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-19T12:30:00.000Z",
+          "summary": "Canva will now allow you to turn off its generative AI features. With this change, you can disable the graphic design platform's array of AI tools, such as its AI photo-extending Magic Expand feature, as well as turn off the ability to generate images with its Canva chatbot. This toggle doesn't turn off every AI-powered […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.016029088406565,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.116029088406565,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "representativeId": "huggingface:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+          "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T19:54:56.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9392764865369947,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5892764865369945,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "representativeId": "huggingface:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "title": "Why your fine-tuning job takes longer than the FLOPs say",
+          "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T18:53:43.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9165732945259462,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5665732945259461,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/the-silent-consensus",
+      "representativeId": "openai:https://openai.com/index/the-silent-consensus",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/the-silent-consensus",
+          "title": "The Silent Consensus",
+          "url": "https://openai.com/index/the-silent-consensus",
+          "source": "openai",
+          "publishedAt": "2026-11-18T10:00:00.000Z",
+          "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.9022466770741358,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.40224667707413564,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "representativeId": "huggingface:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+          "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+          "source": "huggingface",
+          "publishedAt": "2026-11-18T15:00:23.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.837774121511248,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4877741215112478,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/18/llm-gemini",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/18/llm-gemini",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/18/llm-gemini",
+          "title": "llm-gemini 0.38",
+          "url": "https://simonwillison.net/2026/Nov/18/llm-gemini",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-18T23:59:20.000Z",
+          "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price , and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires. The Neon announcement pretends that Argon doesn't exist. Here's their new image explaining the model line-up: So the lineup now, from most to least expensive, is Carbon, Neon, Hydrogen. Except Carbon is currently half price, so right now Neon ($3/million input, $15/million output) is the most expensive of the three - then Carbon ($2/$10), then Hydrogen ($1.50/$7.50). I guess this will make more sense when Carbon doubles to $4/$20 on December 1st. I ran some pelicans through the three reasoning levels for Neon - low, medium, high. I dropped Argon from my Gemini 4 comparison grid - here's the new Gemini 4 lineup, where the Neon pelicans do look better than Hydrogen and worse than Carbon: As I've done with several recent models , I also fired the following prompt against Gemini 4 Neon on \"extra\" effort level in Google Antigravity: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the result . Tags: yonkers-rising , gemini , llm , pelican-riding-a-bicycle , ai , llms , llm-release , google , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7393520718529554,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6893520718529556,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+          "title": "Will Wright's next simulation will use AI to mine content from your memories",
+          "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-18T18:10:33.000Z",
+          "summary": "With MyMems , Wright says he wants to \"turn the simulation inward.\"",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6010921076174824,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5510921076174825,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+          "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+          "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T23:45:00.000Z",
+          "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+          "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+          "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T22:58:11.000Z",
+          "summary": "Microsoft's CEO says AI agents could disrupt advertising-driven business models, forcing companies like Amazon to rethink how they compete for customers.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.58303968004756,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6830396800475601,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/18/datasette-arrows",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/18/datasette-arrows",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/18/datasette-arrows",
+          "title": "datasette-arrows 0.1a0",
+          "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-18T17:09:59.000Z",
+          "summary": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming data in chunks. The register_output_renderer() plugin hook can now be used to implement the same pattern for other formats. I've learned never to release a new plugin feature without accompanying it with a plugin that uses it. Claude Fable 5.2 suggested the Apache Arrow streaming format as a good option, and built this plugin in almost a single shot. Add the plugin to Datasette ( datasette install datasette-arrows ) and the export dialog gains this new Arrow option: This screenshot is from Datasette's main branch - the most recent release doesn't yet group streaming formats such as Arrow with the TSV and CSV in the \"All rows in this table\" section, but that's coming in the next alpha release. Tags: datasette , projects",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5800811428842945,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5300811428842948,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+          "title": "Quoting Daniel Stenberg",
+          "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-18T15:58:27.000Z",
+          "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? — Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5562951454351217,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.506295145435122,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+          "title": "The PSF end-of-year fundraiser",
+          "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-18T14:44:48.000Z",
+          "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running. We also operate the Developers in Residence program , which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem. Tags: python , psf",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5329199977072059,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.48291999770720595,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+          "title": "The AI Hype Index: AI is everywhere",
+          "url": "https://technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-18T14:42:44.000Z",
+          "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5322798807391065,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.48227988073910655,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+          "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+          "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T21:34:13.000Z",
+          "summary": "The Anduril co-founder says outdated technology is leaving systems vulnerable to a new wave of AI-enabled attacks.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5280475160462594,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6280475160462595,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+          "title": "Snapchat now lets developers build AR Lenses with AI assistants like Claude Code and Cursor",
+          "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T19:56:39.000Z",
+          "summary": "Lens creators can describe the Lens they want in plain language, and their AI assistant handles the process from start to finish, Snapchat says.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.489926086600176,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5899260866001762,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+          "title": "Trump’s latest land grab is an AI hub in the Philippines",
+          "url": "https://theverge.com/policy/1036749/trump-ai-chip-data-center-us-philippines-pax-silica",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-18T19:40:36.000Z",
+          "summary": "President Donald Trump was greeted by no less than five beauty queens when he landed in the Philippines on Tuesday, according to local news outlet Rappler. As he stepped onto the tarmac, a child handed him small US and Philippine flags. A band played \"YMCA,\" a staple at Trump rallies, as more girls in traditional […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4838804861235484,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5838804861235485,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+          "title": "This smell startup says its AI nose is as good as a human’s",
+          "url": "https://technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-18T10:20:30.000Z",
+          "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.45757398943412,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.40757398943412015,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+          "title": "Google’s AI feature in Search gets its own incognito mode",
+          "url": "https://techcrunch.com/2026/11/18/googles-ai-feature-in-search-gets-its-own-incognito-mode",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-18T18:04:05.000Z",
+          "summary": "Google's new temporary threads let users have conversations in AI Mode without adding them to their search history or influencing future recommendations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4488096356516187,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5488096356516188,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50551601",
+    "hackernews:50562754",
+    "hackernews:50562262",
+    "hackernews:50563148",
+    "hackernews:50561508"
+  ]
+}

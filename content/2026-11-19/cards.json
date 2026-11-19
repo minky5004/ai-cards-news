@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T20:17:59.006Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50551601",
+      "headline": "구글 제미나이가 대신 전화걸어 예약해준다",
+      "highlight": [
+        "전화걸어",
+        "예약해준다"
+      ],
+      "body": "구글 제미나이에 전화 예약과 결제를 대신하는 '태스크' 기능이 추가됐습니다. AI가 대기 시간 없이 매장에 직접 전화해 예약을 잡고 요금제 분석부터 할인 쇼핑까지 처리합니다. 한국 등 6개국에 무료로 배포되며 앱에서 태스크 모드로 전환해 바로 사용합니다.",
+      "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "sourceName": "Google",
+      "imageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_2784_x_1566_1.width-1300.png",
+      "publishedAt": "2026-11-18T20:20:17.000Z"
+    },
+    {
+      "clusterId": "hackernews:50562754",
+      "headline": "앤트로픽 상장 첫날 시총 2조 달러 돌파",
+      "highlight": [
+        "시총 2조 달러"
+      ],
+      "body": "앤트로픽이 나스닥 상장 첫날 공모가 대비 33% 뛰며 시가총액 2조 달러를 돌파했습니다. 메타와 테슬라를 넘어서며 단숨에 세계 시총 6위 기업에 올랐습니다. 상장 직후 보유 현금만 2,200억 달러에 달해 역대 최대 현금을 확보하게 됐습니다.",
+      "sourceUrl": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/11/anthropic-opening-Getty.jpg?resize=1200,801",
+      "publishedAt": "2026-11-19T17:02:40.000Z"
+    },
+    {
+      "clusterId": "hackernews:50562262",
+      "headline": "AI 안전장치, 오히려 보안 구멍 만들었다",
+      "highlight": [
+        "보안 구멍"
+      ],
+      "body": "개발자가 클로드 AI로 서비스 보안을 개선하려 했으나, AI 안전장치에 가로막혔습니다. 정보 유출 위험에도 ID 제출, 영업일 기준 며칠의 대기가 필요해 좌절했습니다. 결국 GLM 5.3 같은 오픈소스 모델로 해결했고, 이런 규제는 오히려 범죄자만 돕는다는 비판이 나옵니다.",
+      "sourceUrl": "https://ounapuu.ee/posts/2026/11/19/unsafeguards",
+      "sourceName": "./techtipsy",
+      "imageUrl": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/media/cover_hu_5a6285e4518135fc.jpg",
+      "publishedAt": "2026-11-19T16:30:18.000Z"
+    },
+    {
+      "clusterId": "hackernews:50563148",
+      "headline": "클로드가 20년 넘은 블랙홀 난제를 풀었다",
+      "highlight": [
+        "20년 넘은"
+      ],
+      "body": "앤트로픽의 클로드가 2003년 이후 풀지 못했던 블랙홀 관련 양자 중력 난제 2가지를 해결했습니다. AI 에이전트들이 6주간 협력하며 복잡한 수식을 스스로 계산하고 검증까지 마쳤습니다. AI가 코딩을 넘어 최첨단 이론물리학 영역까지 풀 수 있음을 보여준 성과입니다.",
+      "sourceUrl": "https://anthropic.com/research/claude-black-hole-physics",
+      "sourceName": "hackernews",
+      "imageUrl": "https://assets.claude.com/57a443b51d13727573b7c1290130d09c5f434b2c.jpg",
+      "publishedAt": "2026-11-19T17:30:44.000Z"
+    },
+    {
+      "clusterId": "hackernews:50561508",
+      "headline": "노트북 하나로 오픈AI 턱밑까지 따라잡았다",
+      "highlight": [
+        "노트북 하나로",
+        "오픈AI"
+      ],
+      "body": "딥러닝 엔지니어 피트 워든은 로컬 AI 모델이 클라우드 모델을 불과 몇 달 차로 추격했다고 밝혔다. 4GB 메모리의 일반 노트북으로도 90억 매개변수급 오픈 모델을 돌릴 수 있다. 이제 데이터 유출이나 구독료 부담 없이 오프라인에서도 지능형 작업을 수행할 수 있다.",
+      "sourceUrl": "https://thedataexchange.media/pete-warden-moonshine",
+      "sourceName": "The Data Exchange",
+      "imageUrl": "https://thedataexchange.media/wp-content/uploads/2026/11/pete-warden-local-ai.001.jpeg",
+      "publishedAt": "2026-11-19T15:38:12.000Z"
+    }
+  ]
+}
