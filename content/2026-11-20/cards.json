@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T19:50:57.528Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50562754",
+      "headline": "상장 이튿날 11% 폭락한 앤트로픽",
+      "highlight": [
+        "11% 폭락"
+      ],
+      "body": "첫날 17% 급등했던 앤트로픽 주가가 이튿날 11% 넘게 폭락하며 시장에 충격을 줬습니다. 이 여파로 나스닥 지수가 3% 이상 떨어지며 2026년 상승분을 모두 반납했습니다. 고금리 우려와 AI 수익성에 대한 의구심이 겹치면서 엔비디아 등 주요 기술주도 함께 하락했습니다.",
+      "sourceUrl": "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "sourceName": "NBC News",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/2612118-anthropic-logo-ww-1239-35b0c8.jpg",
+      "publishedAt": "2026-11-19T17:02:40.000Z"
+    },
+    {
+      "clusterId": "hackernews:50574383",
+      "headline": "앤트로픽 상장 이틀 만에 주가 12% 폭락",
+      "highlight": [
+        "12% 폭락"
+      ],
+      "body": "상장 첫날 치솟았던 앤트로픽 주가가 이틀 만에 12% 빠지며 85달러선으로 밀렸습니다. 고평가 우려와 유동성 이탈이 겹치면서 엔비디아와 코스피 등 글로벌 증시가 동반 하락했습니다. AI 대규모 투자에 대한 수익성 의문이 시장 전체로 번지고 있습니다.",
+      "sourceUrl": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
+      "publishedAt": "2026-11-20T13:29:59.000Z"
+    },
+    {
+      "clusterId": "hackernews:50572503",
+      "headline": "AI가 설계한 CPU 와트당 성능 4.59배",
+      "highlight": [
+        "와트당 성능 4.59배"
+      ],
+      "body": "아키텍트 랩스가 AI만으로 설계한 범용 CPU '프로스트바이트'를 공개했습니다. AI가 아키텍처부터 검증까지 자율 수행해 기존 CPU 대비 와트당 성능을 4.59배 높였습니다. 이로써 데이터센터 CPU부터 AI 가속기까지 모든 칩 설계의 판도가 바뀔 것으로 보입니다.",
+      "sourceUrl": "https://architectlabs.com/blog/frostbite",
+      "sourceName": "Architect Labs",
+      "imageUrl": "https://main--gleeful-begonia-6bb5f3.netlify.app/_next/static/media/frostbite-cover.3n9ytugnquhlr.jpg",
+      "publishedAt": "2026-11-20T10:01:41.000Z"
+    },
+    {
+      "clusterId": "hackernews:50577901",
+      "headline": "AI 안 쓰면 구글 검색 차단 직원들도 반대",
+      "highlight": [
+        "검색 차단"
+      ],
+      "body": "구글이 내년부터 교실 내 제미나이 AI를 끄는 학교의 검색 접근을 차단하겠다고 나서자 거센 반발이 일고 있습니다. 구글 직원 수백 명은 경영진에게 해당 방침을 철회하라는 청원서를 냈습니다. 뉴욕과 LA 등 대형 교육구는 구글 검색 대체재를 검토하기 시작했습니다.",
+      "sourceUrl": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "sourceName": "Mother Jones",
+      "imageUrl": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
+      "publishedAt": "2026-11-20T16:59:27.000Z"
+    }
+  ]
+}

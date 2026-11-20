@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T19:52:34.157Z",
+  "idea": {
+    "productName": "EduGuard",
+    "tagline": "학교 네트워크와 학생의 데이터, AI로부터 지킵니다",
+    "oneLineSummary": "학교가 AI 기능으로부터 학생 데이터를 보호하고 대역폭 낭비를 줄이도록 돕는 솔루션을 제공합니다.",
+    "problem": "학교와 학부모는 교육 환경에서 AI의 강제 사용과 데이터 수집에 대한 우려가 큽니다. Google의 AI 기능은 학생 정보 보호는 물론, 불필요한 대역폭 낭비까지 유발하고 있습니다.",
+    "productDescription": "EduGuard는 학교 네트워크에서 AI 기반 서비스의 데이터 흐름과 대역폭 사용을 모니터링하고 제어하는 플랫폼입니다. 학교 관리자가 특정 AI 기능을 선택적으로 비활성화하거나 사용량을 제한하여 학생의 사생활을 보호하고 네트워크 효율성을 높일 수 있도록 지원합니다. 교육 환경에 최적화된 유연한 정책 설정 기능을 제공합니다.",
+    "keyFeatures": [
+      "AI 서비스 대역폭 실시간 감시",
+      "특정 AI 기능 선택적 비활성화",
+      "학년별/수업별 정책 맞춤 설정",
+      "학생 데이터 사용량 투명성 확보",
+      "불필요한 AI 트래픽 차단"
+    ],
+    "persona": "AI 도입에 대한 학부모 민원이 많거나, 네트워크 인프라 예산이 빠듯한 학교의 IT 관리자 또는 교감 선생님.",
+    "businessModel": "학교별 구독 모델. 학생 수와 관리하는 기기 수에 따라 월 50만원 ~ 200만원.",
+    "marketStats": "기사에 규모 근거 없음. 다만, Google은 미국 전역의 많은 학교에 Chromebook을 배포하고 있으며, 이들 학교는 Google의 정책 변화에 직접적인 영향을 받습니다.",
+    "goToMarket": "AI 기능 사용에 대한 학부모 반대 시위가 활발한 지역(뉴욕, 로스앤젤레스, 시카고 등) 교육청에 직접 제안하거나, 교육 기술 박람회에서 시연합니다. 초기 100개 학교를 대상으로 무료 체험 프로그램을 운영합니다.",
+    "unfairAdvantage": "Google의 정책에 대한 직접적인 반발 심리를 활용하여, 학교가 주도적으로 AI 사용을 통제할 수 있는 유일한 대안으로 포지셔닝합니다. 또한, AI 기능으로 인한 대역폭 낭비라는 구체적인 재정적 문제 해결책을 제시합니다.",
+    "competitors": [
+      "Google Admin Console — AI 기능 비활성화 옵션이 제한적임",
+      "학교 네트워크 방화벽 솔루션 — AI 기능별 세부 제어 미지원",
+      "수동 네트워크 모니터링 — AI 트래픽 식별 및 제어가 어려움"
+    ],
+    "risks": [
+      "Google이 정책을 완화하거나 우회할 수 있는 기술을 제공할 수 있음",
+      "학교 예산 부족으로 유료 솔루션 도입이 어려울 수 있음",
+      "AI 기능 비활성화가 교육 과정에 부정적 영향을 미칠 수 있다는 우려",
+      "기술적 복잡성으로 인한 구축 및 유지보수 어려움"
+    ],
+    "actionPlan": [
+      "Google AI 정책에 반대하는 학교 IT 관리자/교사 대상 설문조사",
+      "Chrome AI 기능의 실제 대역폭 사용량 측정 도구 개발",
+      "최소 기능 제품(MVP)에 대한 비전투적 사용자 인터뷰 진행",
+      "학부모 단체와 협력하여 솔루션 홍보",
+      "교육청 관계자에게 솔루션 제안 및 피드백 수집"
+    ],
+    "recommendation": "Google의 강제적인 AI 도입 정책과 이에 대한 학교 및 학부모의 반발은 명확한 문제를 제기합니다. 특히 대역폭 낭비는 학교 예산에 직접적인 영향을 미치므로, 실질적인 해결책을 제공한다면 충분한 시장성이 있습니다. 다만, Google의 정책 변화에 대한 지속적인 모니터링과 기술적 대응이 필수적입니다.",
+    "searchQuery": "school ai privacy bandwidth control",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50562754",
+        "title": "Anthropic’s Nasdaq debut",
+        "url": "https://reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19"
+      },
+      {
+        "clusterId": "hackernews:50574383",
+        "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+        "url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      },
+      {
+        "clusterId": "hackernews:50572503",
+        "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+        "url": "https://architectlabs.com/blog/frostbite"
+      },
+      {
+        "clusterId": "hackernews:50577901",
+        "title": "Google Workers Tell Their Employer Not to Punish Schools That Don't Want AI",
+        "url": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition"
+      },
+      {
+        "clusterId": "hackernews:50568130",
+        "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+        "url": "https://git-aarvin.github.io/mei"
+      },
+      {
+        "clusterId": "hackernews:50563148",
+        "title": "Claude solves two open problems in the physics of black holes",
+        "url": "https://anthropic.com/research/claude-black-hole-physics"
+      },
+      {
+        "clusterId": "hackernews:50562262",
+        "title": "Fuck Your AI Safeguards",
+        "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards"
+      },
+      {
+        "clusterId": "hackernews:50561508",
+        "title": "Pete Warden on local AI, open models, voice interfaces, the future of hardware",
+        "url": "https://thedataexchange.media/pete-warden-moonshine"
+      },
+      {
+        "clusterId": "hackernews:50573681",
+        "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+        "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai"
+      },
+      {
+        "clusterId": "hackernews:50564366",
+        "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+        "url": "https://youtube.com/watch?v=lwfewYL7X0o"
+      },
+      {
+        "clusterId": "hackernews:50562500",
+        "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+        "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work"
+      },
+      {
+        "clusterId": "hackernews:50559140",
+        "title": "The AI Superintelligence Debate Has Serious Flaws",
+        "url": "https://spectrum.ieee.org/ai-superintelligence-debate"
+      },
+      {
+        "clusterId": "hackernews:50562636",
+        "title": "Chrome AI features wasting much bandwidth",
+        "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth"
+      },
+      {
+        "clusterId": "hackernews:50563328",
+        "title": "AI came for the coders. Understanding why tells us who's next",
+        "url": "https://robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html"
+      },
+      {
+        "clusterId": "hackernews:50567735",
+        "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+        "url": "https://techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause"
+      }
+    ]
+  }
+}
