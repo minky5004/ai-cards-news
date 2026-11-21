@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T23:37:18.152Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50574383",
+      "headline": "앤트로픽 상장 이틀 만에 4조 달러 증발",
+      "highlight": [
+        "4조 달러 증발"
+      ],
+      "body": "앤트로픽이 상장 이틀 만에 9% 폭락하며 글로벌 AI 주식 투매를 불렀습니다. 나스닥 시가총액은 일주일 만에 4조 달러가 날아갔고 엔비디아도 14% 급락했습니다. 천문학적 AI 투자 대비 수익성에 대한 시장의 의구심이 커지고 있습니다.",
+      "sourceUrl": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "sourceName": "the Guardian",
+      "imageUrl": "https://i.guim.co.uk/img/media/578833ee207aab76c1b6a542f17226703dbd735b/686_0_5336_4269/master/5336.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a36857abb7bd0660d819105186f898a0",
+      "publishedAt": "2026-11-20T13:29:59.000Z"
+    },
+    {
+      "clusterId": "hackernews:50577901",
+      "headline": "AI 안 쓰면 검색 차단 구글 직원들 반발",
+      "highlight": [
+        "검색 차단"
+      ],
+      "body": "구글이 AI 도구를 끄는 학교의 구글 검색 접근을 차단하겠다고 발표해 반발을 사고 있습니다. 이에 구글 직원 수백 명이 유저 선택권을 무시하지 말라며 경영진에 정책 철회를 요구했습니다. 뉴욕과 LA 등 주요 교육청도 대체 검색엔진 도입을 검토 중입니다.",
+      "sourceUrl": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "sourceName": "Mother Jones",
+      "imageUrl": "https://www.motherjones.com/wp-content/uploads/2026/11/google-chromebook-la-school-covid.jpg?w=1200&h=630&crop=1",
+      "publishedAt": "2026-11-20T16:59:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:50586292",
+      "headline": "4.77MHz 컴퓨터에서 클로드가 코딩한다",
+      "highlight": [
+        "4.77MHz"
+      ],
+      "body": "1980년대 IBM PC XT에서 구동되는 AI 에이전트 'ClawDOS'가 개발됐습니다. 4.77MHz 초창기 컴퓨터에서 클로드 API와 연결해 스스로 C 언어 코드를 짜고 컴파일과 실행까지 해냅니다. 수십 년 전 구형 기기도 최신 AI와 결합할 수 있음을 보여줍니다.",
+      "sourceUrl": "https://ricapar.net/ClawDOS",
+      "sourceName": "ClawDOS",
+      "publishedAt": "2026-11-21T05:38:01.000Z"
+    },
+    {
+      "clusterId": "hackernews:50577872",
+      "headline": "AI 65개에 물으니 98%가 똑같이 답했다",
+      "highlight": [
+        "98%가"
+      ],
+      "body": "30개 기업의 AI 65개에 질문을 던지자 놀라운 결과가 나왔습니다. 1만 달러 투자처를 묻자 98%가 인덱스 펀드를, 인생 책 추천에는 73%가 동일한 도서를 권했습니다. 나만을 위한 맞춤 답변 같지만 사실은 모두가 매번 똑같은 추천을 받고 있었습니다.",
+      "sourceUrl": "https://a90.com/experiments/same-advice",
+      "sourceName": "A90",
+      "imageUrl": "https://a90.com/experiments/same-advice/og.png",
+      "publishedAt": "2026-11-20T16:58:05.000Z"
+    }
+  ]
+}

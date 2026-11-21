@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T23:40:50.048Z",
+  "idea": {
+    "productName": "EchoBreak",
+    "tagline": "남들과 똑같이 나오는 AI 전략을 깨뜨린다",
+    "oneLineSummary": "기획자와 창업가를 위해 다수 LLM의 정형화된 기본 답변을 탐지하고 차별화된 역발상 프롬프트를 추출해 주는 분석 도구를 제공합니다.",
+    "problem": "생성형 AI로 사업 전략이나 기획을 짜는 실무자들은 차별화된 아이디어를 얻지 못합니다. 65개 모델 중 76%가 구독 박스를 권할 만큼 모델들이 똑같은 답변으로 수렴하기 때문입니다.",
+    "productDescription": "사용자가 입력한 기획 프롬프트가 주요 파운데이션 모델들에서 얼마나 흔한 기본 답변으로 수렴하는지 패턴 유사도를 점수화합니다. 65개 모델에서 나타나는 전형적 추천 클러스터를 분석하여 이를 회피하는 네거티브 제약 프롬프트를 자동으로 덧붙여 줍니다. Claude나 Gemini 등 모델별 고유 편향 어휘를 상호 검증해 경쟁사와 겹치지 않는 독창적인 전략과 시나리오를 도출하도록 돕습니다.",
+    "keyFeatures": [
+      "LLM 획일 답변 수렴도 측정",
+      "흔한 기본 추천 자동 배제",
+      "모델별 고유 편향 교차 검증",
+      "차별화 역발상 프롬프트 추천"
+    ],
+    "persona": "경쟁사와 겹치지 않는 신규 프로덕트 기획서와 피칭 덱을 매주 작성해야 하는 스타트업 기획자 및 전략 컨설턴트입니다.",
+    "businessModel": "월간 구독형 SaaS로 운영합니다. 주당 30회의 아이디어 수렴도 진단과 탈피 프롬프트를 생성해 주는 프로 플랜은 월 39달러, 팀 단위 협업과 API 연동을 지원하는 엔터프라이즈 플랜은 월 149달러를 청구합니다.",
+    "marketStats": "기사에 따르면 30개 기업의 65개 AI를 대상으로 127,918회 테스트한 결과, 사업 아이디어 질문의 76%가 구독 박스로 수렴하고 추천 도서의 73%, 투자처 질문의 98%가 동일한 답을 내놓는 심각한 조언 획일화가 입증되었습니다.",
+    "goToMarket": "AI 조언의 동일성 실험이 화제가 된 Hacker News와 기획자 커뮤니티에 '내 AI 사업 기획의 클론 유사도 진단기' 무료 웹 도구를 배포해 초기 사용자 100명을 확보합니다.",
+    "unfairAdvantage": "대다수 프롬프트 도구가 생성 속도와 문맥 길이에만 집중할 때, 65개 모델의 대규모 수렴 데이터와 제조사별 고유 편향 패턴(대표 나이 34세, 고유 인명 등)을 기반으로 한 획일성 판정 기준을 선점합니다.",
+    "competitors": [
+      "ChatGPT Plus — 대화 세션이 바뀌면 다시 70% 이상의 확률로 동일한 기본 조언 반복",
+      "PromptBase — 검증되지 않은 프롬프트 템플릿 판매에 그쳐 시장 전반의 유사도 검증 불가",
+      "Langfuse — LLM 비용 및 지연시간 모니터링 중심이라 답변의 내용적 진부성 감지 미지원"
+    ],
+    "risks": [
+      "파운데이션 모델 자체의 다양성 파라미터 업데이트로 기본 응답 편향 완화",
+      "진부함을 회피하려다 사업성이 없는 비현실적 아이디어만 과도하게 추천할 위험",
+      "실무자들이 AI 결과물의 획일성을 당장의 비용 손실로 체감하지 못할 가능성"
+    ],
+    "actionPlan": [
+      "사업 기획·도서 추천 등 상위 질문군에 대한 10대 주요 LLM의 기본 수렴 데이터베이스 구축",
+      "입력 기획안의 전형적 답변 일치율을 백분율로 산출하는 MVP 웹 도구 개발",
+      "Hacker News에 무료 클론 기획 검사기를 배포하고 기획자 50명의 피드백 수집",
+      "흔한 답변 클러스터를 강제로 배제하는 역발상 프롬프트 변환 알고리즘 정밀화"
+    ],
+    "recommendation": "모두가 AI를 사용함에 따라 콘텐츠와 전략이 급격히 하향 평준화되는 실제 병목을 날카롭게 포착한 사업입니다. 다만 차별성에만 매몰되어 현실성이 결여된 엉뚱한 결론을 내놓지 않도록 실용성과 독창성 사이의 밸런스를 잡는 튜닝이 핵심 성공 요인입니다.",
+    "searchQuery": "llm response diversity benchmark",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 8점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: Bhumi–OSS Python Library w Rust Underhead for 2.5x Faster LLM Inference",
+          "url": "https://bhumi.trilok.ai",
+          "points": 8
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50574383",
+        "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+        "url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      },
+      {
+        "clusterId": "hackernews:50577901",
+        "title": "Google workers tell their employer not to punish schools that don't want AI",
+        "url": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition"
+      },
+      {
+        "clusterId": "hackernews:50586292",
+        "title": "ClawDOS – An AI coding agent for DOS",
+        "url": "https://ricapar.net/ClawDOS"
+      },
+      {
+        "clusterId": "hackernews:50577872",
+        "title": "AI is giving everyone the same advice",
+        "url": "https://a90.com/experiments/same-advice"
+      },
+      {
+        "clusterId": "hackernews:50582629",
+        "title": "A few hours ago Google DeepMind created a math horizon repo",
+        "url": "https://github.com/google-deepmind/math-horizon"
+      },
+      {
+        "clusterId": "hackernews:50583117",
+        "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+        "url": "https://researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models"
+      },
+      {
+        "clusterId": "hackernews:50581242",
+        "title": "Combatting adversarial distillation",
+        "url": "https://openai.com/index/combatting-adversarial-distillation"
+      },
+      {
+        "clusterId": "hackernews:50588647",
+        "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+        "url": "https://reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20"
+      },
+      {
+        "clusterId": "hackernews:50582280",
+        "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+        "url": "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
+      },
+      {
+        "clusterId": "hackernews:50582794",
+        "title": "Leaky AI supply chain is exposing secret user data at an alarming rate",
+        "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate"
+      },
+      {
+        "clusterId": "hackernews:50583445",
+        "title": "AI may have solved the most important problem in mathematics",
+        "url": "https://economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics"
+      },
+      {
+        "clusterId": "hackernews:50574772",
+        "title": "Llms.txt and MCP didn't move the needle",
+        "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did"
+      }
+    ]
+  }
+}

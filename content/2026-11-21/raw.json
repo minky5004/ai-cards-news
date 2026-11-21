@@ -1,0 +1,800 @@
+{
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T23:33:56.363Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 5,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 18,
+      "filtered": 12
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50574383",
+      "representativeId": "hackernews:50574383",
+      "items": [
+        {
+          "id": "hackernews:50574383",
+          "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+          "url": "https://theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T13:29:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 492,
+            "comments": 856,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50574383"
+          }
+        },
+        {
+          "id": "hackernews:50578794",
+          "title": "Markets plunge: Nasdaq erases 2026 gains, S&P, Dow in corrections",
+          "url": "https://nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T17:44:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 196,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50578794"
+          }
+        }
+      ],
+      "score": 4.670357374074376,
+      "breakdown": {
+        "hnPoints": 1.9948213135011512,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.47553606057322517,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50577901",
+      "representativeId": "hackernews:50577901",
+      "items": [
+        {
+          "id": "hackernews:50577901",
+          "title": "Google workers tell their employer not to punish schools that don't want AI",
+          "url": "https://motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T16:59:27.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 279,
+            "comments": 226,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50577901"
+          }
+        }
+      ],
+      "score": 4.474945584429896,
+      "breakdown": {
+        "hnPoints": 1.8128186060191003,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.46212697841079586,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50586292",
+      "representativeId": "hackernews:50586292",
+      "items": [
+        {
+          "id": "hackernews:50586292",
+          "title": "ClawDOS – An AI coding agent for DOS",
+          "url": "https://ricapar.net/ClawDOS",
+          "source": "hackernews",
+          "publishedAt": "2026-11-21T05:38:01.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 155,
+            "comments": 50,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50586292"
+          }
+        },
+        {
+          "id": "hackernews:50573681",
+          "title": "Epic Games Turns to AI Coding for the Unreal Engine",
+          "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T12:16:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 60,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50573681"
+          }
+        }
+      ],
+      "score": 4.351752779751281,
+      "breakdown": {
+        "hnPoints": 1.62463438253496,
+        "hnComments": 0.7751532177465966,
+        "mentions": 0.0,
+        "recency": 0.751965179469724,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50577872",
+      "representativeId": "hackernews:50577872",
+      "items": [
+        {
+          "id": "hackernews:50577872",
+          "title": "AI is giving everyone the same advice",
+          "url": "https://a90.com/experiments/same-advice",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T16:58:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 119,
+            "comments": 48,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50577872"
+          }
+        }
+      ],
+      "score": 3.9357967494435107,
+      "breakdown": {
+        "hnPoints": 1.5402268263213836,
+        "hnComments": 0.7338481127488048,
+        "mentions": 0.0,
+        "recency": 0.461721810373322,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50582629",
+      "representativeId": "hackernews:50582629",
+      "items": [
+        {
+          "id": "hackernews:50582629",
+          "title": "A few hours ago Google DeepMind created a math horizon repo",
+          "url": "https://github.com/google-deepmind/math-horizon",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T21:42:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 32,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50582629"
+          }
+        }
+      ],
+      "score": 3.645187348919958,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.6593072851898583,
+        "mentions": 0.0,
+        "recency": 0.5541335659679346,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50583117",
+      "representativeId": "hackernews:50583117",
+      "items": [
+        {
+          "id": "hackernews:50583117",
+          "title": "The Hungry Butler Effect: Concealed Commercial Incentives in LLMs",
+          "url": "https://researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T22:18:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 53,
+            "comments": 19,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50583117"
+          }
+        }
+      ],
+      "score": 3.6152917887142078,
+      "breakdown": {
+        "hnPoints": 1.2833317671094373,
+        "hnComments": 0.5648802634375365,
+        "mentions": 0.0,
+        "recency": 0.5670797581672339,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50581242",
+      "representativeId": "hackernews:50581242",
+      "items": [
+        {
+          "id": "hackernews:50581242",
+          "title": "Combatting adversarial distillation",
+          "url": "https://openai.com/index/combatting-adversarial-distillation",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T20:11:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50581242"
+          }
+        }
+      ],
+      "score": 3.611533670381913,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.5226577261376255,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50588647",
+      "representativeId": "hackernews:50588647",
+      "items": [
+        {
+          "id": "hackernews:50588647",
+          "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+          "url": "https://reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+          "source": "hackernews",
+          "publishedAt": "2026-11-21T12:43:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50588647"
+          }
+        }
+      ],
+      "score": 3.4337132709781137,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.9880193623268105,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50582280",
+      "representativeId": "hackernews:50582280",
+      "items": [
+        {
+          "id": "hackernews:50582280",
+          "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+          "url": "https://wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T21:18:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 65,
+            "comments": 5,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50582280"
+          }
+        }
+      ],
+      "score": 3.4315579177824675,
+      "breakdown": {
+        "hnPoints": 1.3478913329558666,
+        "hnComments": 0.337857147626047,
+        "mentions": 0.0,
+        "recency": 0.545809437200554,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50582794",
+      "representativeId": "hackernews:50582794",
+      "items": [
+        {
+          "id": "hackernews:50582794",
+          "title": "Leaky AI supply chain is exposing secret user data at an alarming rate",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T21:53:39.000Z",
+          "summary": "Test using prompts with unique, trackable secrets proves that data doesn't stay private.",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 6,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50582794"
+          }
+        }
+      ],
+      "score": 3.3771633617428023,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.3669240563744024,
+        "mentions": 0.0,
+        "recency": 0.5581669575863965,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50583445",
+      "representativeId": "hackernews:50583445",
+      "items": [
+        {
+          "id": "hackernews:50583445",
+          "title": "AI may have solved the most important problem in mathematics",
+          "url": "https://economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T22:46:59.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 39,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50583445"
+          }
+        }
+      ],
+      "score": 3.35648887168548,
+      "breakdown": {
+        "hnPoints": 1.1867824321280986,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.5776034815472076,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50574772",
+      "representativeId": "hackernews:50574772",
+      "items": [
+        {
+          "id": "hackernews:50574772",
+          "title": "Llms.txt and MCP didn't move the needle",
+          "url": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+          "source": "hackernews",
+          "publishedAt": "2026-11-20T14:00:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 21,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50574772"
+          }
+        }
+      ],
+      "score": 3.3098000586945067,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.5828521095705937,
+        "mentions": 0.0,
+        "recency": 0.411955026476001,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-21T21:37:10.000Z",
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2916916682183537,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3916916682183536,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1039554/un-regulations-killer-robots",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1039554/un-regulations-killer-robots",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1039554/un-regulations-killer-robots",
+          "title": "The UN fails to agree on rules regulating ‘killer robots’",
+          "url": "https://theverge.com/tech/1039554/un-regulations-killer-robots",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-21T20:03:37.000Z",
+          "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.2105925578257373,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.3105925578257374,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-21T17:00:00.000Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0648981423638317,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1648981423638318,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+          "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-21T16:00:00.000Z",
+          "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.020892760136188,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1208927601361882,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "title": "Can Anthropic afford to put safety first?",
+          "url": "https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-21T15:00:00.000Z",
+          "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.9785497324051118,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0785497324051119,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+          "title": "Google rolls out new search homepage with AI chat history and no search button",
+          "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-20T21:58:29.000Z",
+          "summary": "Google search is making it even easier to access AI tools on the search page.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.609901106354721,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5599011063547212,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+          "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-20T21:47:10.000Z",
+          "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6058492377443665,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5558492377443667,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/20/ravi-vakil",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/20/ravi-vakil",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/20/ravi-vakil",
+          "title": "Quoting Ravi Vakil",
+          "url": "https://simonwillison.net/2026/Nov/20/ravi-vakil",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-20T19:21:49.000Z",
+          "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human, with no AI. The hope was to bring Alessandro to Stanford for a year to polish the writing and then announce it after running it by enough people. Now it seems best to put out the current draft. — Ravi Vakil , Hurried Announcement: Alessandro Masullo GRH Tags: mathematics",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5563413488394342,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5063413488394344,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+          "title": "The most misunderstood graph in AI just got a major update",
+          "url": "https://technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-20T18:15:15.000Z",
+          "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5351646712163625,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.48516467121636253,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/20/levent-alpoge",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/20/levent-alpoge",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/20/levent-alpoge",
+          "title": "Quoting Levent Alpöge",
+          "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-20T16:30:48.000Z",
+          "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann Hypothesis too. Claude and I have also formalized the arguments without assumptions. It is natural to feel that this is an end, in my case a loss of a principal guiding light, but what I saw during the course of progress so amazed me that I believe it is one dawn across science of something far greater. [...] Claude and I have had a great time together with such breadth in recent months, but this time Claude far outpaced me near the finish line. No, Claude flew, and danced, and sparkled near that finish line. — Levent Alpöge , alpo.ge/remark.pdf Tags: anthropic , claude , generative-ai , mathematics , ai , llms , levent-alpoge",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5037071945234286,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4537071945234288,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+          "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+          "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-20T19:53:41.000Z",
+          "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4168037273504521,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5168037273504522,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+          "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-20T19:32:08.000Z",
+          "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4097050939661648,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.509705093966165,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+          "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+          "url": "https://theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-20T18:50:19.000Z",
+          "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3962075325076222,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4962075325076223,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+          "url": "https://theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-20T16:34:13.000Z",
+          "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3547031874073552,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4547031874073554,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
+          "title": "Six AI-powered gadgets that could make your home office smarter",
+          "url": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-20T14:00:00.000Z",
+          "summary": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3118536879285387,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4118536879285388,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+          "url": "https://theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-20T12:30:47.000Z",
+          "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.2889336021479192,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3889336021479194,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50574383",
+    "hackernews:50577901",
+    "hackernews:50586292",
+    "hackernews:50577872",
+    "hackernews:50582629"
+  ]
+}
