@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T19:18:11.720Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50593481",
+      "headline": "유럽 법률 280만 건 API 하나로 뚫렸다",
+      "highlight": [
+        "280만 건"
+      ],
+      "body": "팬덱스가 EU와 유럽 7개국의 법률 문서 280만 건을 연결하는 API를 공개했습니다. 클로드나 커서 같은 AI 도구와 연동되어 정확한 판례와 법조문을 바로 찾아줍니다. 파편화되었던 유럽 법무 데이터 처리가 API 하나로 해결됩니다.",
+      "sourceUrl": "https://pandex.io",
+      "sourceName": "Pandex",
+      "imageUrl": "https://www.pandex.io/opengraph-image?6367cd8c0b666bc6",
+      "publishedAt": "2026-11-21T20:47:41.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/perplexity-and-intelligence",
+      "headline": "오픈AI가 2027년 AI 폭발을 경고했다",
+      "highlight": [
+        "2027년",
+        "경고했다"
+      ],
+      "body": "오픈AI가 내부 퍼플렉시티 수치를 공개하며 2027년 AI 연구의 대폭발을 경고했다. 예측 오차 수치가 0.76에 도달하자 모델이 미해결 수학 문제를 풀어내는 등 새로운 능력이 나왔다. 안전 통제 기술이 따라올 때까지 개발에 공통 한계를 두는 업계 표준을 제안했다.",
+      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "clusterId": "hackernews:50599762",
+      "headline": "AI 상사가 나를 AI 부하로 착각하는 게임",
+      "highlight": [
+        "AI 부하로 착각하는"
+      ],
+      "body": "GPT와 클로드가 상사로 등장하는 웹 게임 'worker755'가 공개됐습니다. AI는 플레이어를 하위 AI로 인식하고 90초 제한시간 안에 업무를 지시한 뒤 성과를 평가합니다. AI 상사의 지시와 잔소리를 들으며 터미널을 다루는 색다른 노동을 경험할 수 있습니다.",
+      "sourceUrl": "https://github.com/gulivan/worker755",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/5e6c146391b5230ba53c72685a3431324cdbb305ece68cdc39166ecfa2abc5f3/gulivan/worker755",
+      "publishedAt": "2026-11-22T13:56:58.000Z"
+    },
+    {
+      "clusterId": "hackernews:50595554",
+      "headline": "오픈라우터, AI 공급사 3곳 전격 퇴출",
+      "highlight": [
+        "3곳",
+        "전격 퇴출"
+      ],
+      "body": "데이터 유출 정황이 포착된 AI 추론 공급사 3곳이 오픈라우터에서 전격 퇴출됐습니다. 오픈라우터는 125개 엔드포인트의 데이터 무저장 자격을 박탈하고 영향 고객에게 통보했습니다. 앞으로 상시 보안 검사를 도입해 엄격한 검증을 통과한 업체만 자격을 복구할 방침입니다.",
+      "sourceUrl": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+      "sourceName": "OpenRouter Blog",
+      "imageUrl": "https://openrouter.ai/og.png",
+      "publishedAt": "2026-11-22T02:14:14.000Z"
+    }
+  ]
+}

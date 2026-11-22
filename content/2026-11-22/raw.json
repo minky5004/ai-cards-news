@@ -1,0 +1,522 @@
+{
+  "date": "2026-11-22",
+  "generatedAt": "2026-11-22T19:13:09.856Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 2
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 15,
+      "filtered": 14
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50597612",
+      "representativeId": "hackernews:50597612",
+      "items": [
+        {
+          "id": "hackernews:50597612",
+          "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+          "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T08:57:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 617,
+            "comments": 694,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50597612"
+          }
+        }
+      ],
+      "score": 5.210426739035725,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.0104267390357253,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50593481",
+      "representativeId": "hackernews:50593481",
+      "items": [
+        {
+          "id": "hackernews:50593481",
+          "title": "Pandex – Official European Law for AI Agents, over MCP",
+          "url": "https://pandex.io",
+          "source": "hackernews",
+          "publishedAt": "2026-11-21T20:47:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 133,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50593481"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "title": "Here are the top AI agents that can live in your text messages",
+          "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-21T17:00:00.000Z",
+          "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 4.895070288231218,
+      "breakdown": {
+        "hnPoints": 1.5757278876318657,
+        "hnComments": 0.6535049300169562,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6325041372490628,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/perplexity-and-intelligence",
+      "representativeId": "openai:https://openai.com/index/perplexity-and-intelligence",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/perplexity-and-intelligence",
+          "title": "Perplexity and Intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence",
+          "source": "openai",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+          "trust": 1.0,
+          "signals": {
+            "points": 191,
+            "comments": 135,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50601525"
+          }
+        }
+      ],
+      "score": 4.833370571236469,
+      "breakdown": {
+        "hnPoints": 1.6914359013707791,
+        "hnComments": 0.9263383816138162,
+        "mentions": 0.0,
+        "recency": 0.7155962882518737,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50599762",
+      "representativeId": "hackernews:50599762",
+      "items": [
+        {
+          "id": "hackernews:50599762",
+          "title": "Show HN: I built a game where you are an LLM's subagent",
+          "url": "https://github.com/gulivan/worker755",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T13:56:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 173,
+            "comments": 44,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50599762"
+          }
+        }
+      ],
+      "score": 4.802051531803219,
+      "breakdown": {
+        "hnPoints": 1.6597658643079278,
+        "hnComments": 0.7177906146760656,
+        "mentions": 0.0,
+        "recency": 1.2244950528192255,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50595554",
+      "representativeId": "hackernews:50595554",
+      "items": [
+        {
+          "id": "hackernews:50595554",
+          "title": "Data Processing Incidents on Inference Providers",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T02:14:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 257,
+            "comments": 88,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50595554"
+          }
+        }
+      ],
+      "score": 4.612856486168598,
+      "breakdown": {
+        "hnPoints": 1.7864923383041966,
+        "hnComments": 0.8463847445224318,
+        "mentions": 0.0,
+        "recency": 0.7799794033419692,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50595537",
+      "representativeId": "hackernews:50595537",
+      "items": [
+        {
+          "id": "hackernews:50595537",
+          "title": "The Mythology of Conscious AI",
+          "url": "https://noemamag.com/the-mythology-of-conscious-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T02:10:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 140,
+            "comments": 395,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50595537"
+          }
+        }
+      ],
+      "score": 4.569989589339035,
+      "breakdown": {
+        "hnPoints": 1.5921098457611964,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7778797435778382,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50597743",
+      "representativeId": "hackernews:50597743",
+      "items": [
+        {
+          "id": "hackernews:50597743",
+          "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+          "url": "https://arxiv.org/abs/2606.14068",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T09:18:36.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 76,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50597743"
+          }
+        }
+      ],
+      "score": 4.480001687893015,
+      "breakdown": {
+        "hnPoints": 1.4367672797783455,
+        "hnComments": 0.819075179941605,
+        "mentions": 0.0,
+        "recency": 1.0241592281730643,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50598961",
+      "representativeId": "hackernews:50598961",
+      "items": [
+        {
+          "id": "hackernews:50598961",
+          "title": "AI is becoming a disaster for the climate",
+          "url": "https://bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T12:19:46.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 70,
+            "comments": 27,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50598961"
+          }
+        }
+      ],
+      "score": 4.350151889669281,
+      "breakdown": {
+        "hnPoints": 1.3713849028644205,
+        "hnComments": 0.6283260283811849,
+        "mentions": 0.0,
+        "recency": 1.1504409584236752,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50596511",
+      "representativeId": "hackernews:50596511",
+      "items": [
+        {
+          "id": "hackernews:50596511",
+          "title": "AI Supply Chain Security: What Canary Tokens Found",
+          "url": "https://dragos.com/blog/ai-supply-chain-security-canary-tokens",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T05:11:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 94,
+            "comments": 21,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50596511"
+          }
+        }
+      ],
+      "score": 4.122004924152378,
+      "breakdown": {
+        "hnPoints": 1.4650685012215396,
+        "hnComments": 0.5828521095705937,
+        "mentions": 0.0,
+        "recency": 0.8740843133602445,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50597959",
+      "representativeId": "hackernews:50597959",
+      "items": [
+        {
+          "id": "hackernews:50597959",
+          "title": "Muru – AI-assisted Rust server for Python apps by mod_WSGI's creator",
+          "url": "https://simonwillison.net/2026/Nov/21/muru",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T09:57:01.000Z",
+          "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he's been publishing an extraordinarily detailed account of the project as he works on it - as part of his development process. Here's everything he's published so far, all in the last three weeks: 2026-11-04 — Twenty years of mod_wsgi, and what comes next 2026-11-05 — A first look at Muru 2026-11-07 — Muru: looking inside the workers 2026-11-08 — Muru: how it fits together 2026-11-09 — Muru: import once, fork many 2026-11-10 — Muru: HTTPS in development 2026-11-11 — Muru: WSGI and ASGI together 2026-11-11 — AI as a lifestyle choice 2026-11-12 — Muru: releases, not restarts 2026-11-13 — Muru: canaries without a service mesh 2026-11-14 — Muru: a better tenant in a container 2026-11-15 — Muru: working with Kubernetes, not around it 2026-11-16 — Muru: scaling from what the workers report 2026-11-17 — Muru: scaling to zero 2026-11-18 — Muru: overlays on a schedule 2026-11-19 — Muru: noticing and responding 2026-11-20 — Muru: a toolbar on every page 2026-11-21 — Muru: tracing in the toolbar 2026-11-22 — Muru: when lazy imports help That post about AI as a lifestyle choice is particularly worth a read: The AI may be doing a lot of the work on the surface, but deciding what isn't good enough yet is still down to me, and twenty years of getting things wrong with mod_wsgi turns out to be useful for that. I am prepared to put in the hard work to keep polishing Muru until it is something I would trust, and something you would too. Tags: graham-dumpleton , modwsgi , python , wsgi , ai , rust , asgi , generative-ai , llms , ai-assisted-programming",
+          "trust": 0.8,
+          "signals": {
+            "points": 54,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50597959"
+          }
+        }
+      ],
+      "score": 3.9731390115488834,
+      "breakdown": {
+        "hnPoints": 1.289235032772351,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 1.049724701342387,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50595812",
+      "representativeId": "hackernews:50595812",
+      "items": [
+        {
+          "id": "hackernews:50595812",
+          "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+          "url": "https://youtube.com/watch?v=zqzk43bSdDI",
+          "source": "hackernews",
+          "publishedAt": "2026-11-22T03:06:35.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 16,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50595812"
+          }
+        }
+      ],
+      "score": 3.7726125849224146,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.5342354236036424,
+        "mentions": 0.0,
+        "recency": 0.806630663556607,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50588647",
+      "representativeId": "hackernews:50588647",
+      "items": [
+        {
+          "id": "hackernews:50588647",
+          "title": "Anthropic's IPO bank closed position meant to stabilize stock",
+          "url": "https://reuters.com/markets/us/anthropics-ipo-bank-closed-position-meant-stabilize-stock-removing-source-2026-11-20",
+          "source": "hackernews",
+          "publishedAt": "2026-11-21T12:43:24.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50588647"
+          }
+        }
+      ],
+      "score": 2.9380543874043736,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 0.46353054897062895,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "representativeId": "theverge-ai:https://theverge.com/games/1039770/binding-of-isaac-ai-music",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/games/1039770/binding-of-isaac-ai-music",
+          "title": "Binding of Isaac developer removes AI music from Repentance Plus",
+          "url": "https://theverge.com/games/1039770/binding-of-isaac-ai-music",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-22T17:25:20.000Z",
+          "summary": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.299701357138956,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.399701357138956,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+          "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-21T21:37:10.000Z",
+          "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5529139281723152,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6529139281723152,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1039554/un-regulations-killer-robots",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1039554/un-regulations-killer-robots",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1039554/un-regulations-killer-robots",
+          "title": "The UN fails to agree on rules regulating ‘killer robots’",
+          "url": "https://theverge.com/tech/1039554/un-regulations-killer-robots",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-21T20:03:37.000Z",
+          "summary": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start discussing options\" after a largely fruitless week of negotiations. According to NPR: Before the negotiations got underway, the […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.5148661766861609,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.614866176686161,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+          "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+          "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-21T16:00:00.000Z",
+          "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4258682736940853,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5258682736940854,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "representativeId": "theverge-ai:https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "title": "Can Anthropic afford to put safety first?",
+          "url": "https://theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-21T15:00:00.000Z",
+          "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4060029880148233,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5060029880148234,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50597612",
+    "hackernews:50593481",
+    "openai:https://openai.com/index/perplexity-and-intelligence",
+    "hackernews:50599762",
+    "hackernews:50595554"
+  ]
+}
