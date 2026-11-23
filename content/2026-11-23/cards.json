@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T23:43:05.079Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50598961",
+      "headline": "AI 폭증에 유엔 기후 협상이 무산됐다",
+      "highlight": [
+        "무산됐다"
+      ],
+      "body": "유엔 기후변화협약 당사국총회(COP31)가 AI 데이터센터로 인한 전력 수요 급증과 이견을 좁히지 못하고 합의 없이 막을 내렸습니다. 메타의 탄소 배출량이 1년 새 45% 늘어나는 등 AI 열풍이 기후 목표를 위협하고 있습니다.",
+      "sourceUrl": "https://theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2306098413.jpg?quality=90&strip=all&crop=0%2C10.750882913364%2C100%2C78.498234173273&w=1200",
+      "publishedAt": "2026-11-22T12:19:46.000Z"
+    },
+    {
+      "clusterId": "hackernews:50620102",
+      "headline": "인간 검증 없이 AI가 수학 난제를 풀었다",
+      "highlight": [
+        "인간 검증 없이",
+        "수학 난제"
+      ],
+      "body": "앤트로픽의 클로드 AI가 수학 난제인 'VP≠VNP' 증명 논문과 코드 전체를 직접 작성했습니다. 인간 수학자의 검증 없이 프로그래밍 검증 도구인 Lean 4로 증명을 마쳤습니다. P 대 NP 문제 해결은 아니지만 AI가 고난도 수학 정리 증명을 스스로 완수한 쾌거입니다.",
+      "sourceUrl": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+      "sourceName": "GitHub",
+      "imageUrl": "https://opengraph.githubassets.com/aa6d1b7e5dd2fb13c59d30e46403b7dd3208e297e4c1cced0d5fcf121c8b49cb/anthropics/formal-math",
+      "publishedAt": "2026-11-23T22:09:10.000Z"
+    },
+    {
+      "clusterId": "hackernews:50603845",
+      "headline": "15분 만에 내 PC를 무료 AI로 바꾼다",
+      "highlight": [
+        "15분 만에"
+      ],
+      "body": "Unsloth 앱을 이용하면 PC 그래픽 카드에 나만의 AI 모델을 15분 만에 설치할 수 있습니다. 터미널 명령이나 구독료 없이 GPU에 맞는 모델을 내려받으면 됩니다. LAN 공유 기능을 통해 온 가족이 데이터 유출 걱정 없는 무제한 AI를 함께 쓸 수 있습니다.",
+      "sourceUrl": "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "sourceName": "hackernews",
+      "imageUrl": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth/opengraph-image-17m7t5?6653c98c6cd84ba6",
+      "publishedAt": "2026-11-22T21:01:16.000Z"
+    },
+    {
+      "clusterId": "hackernews:50601525",
+      "headline": "오픈AI가 경쟁사에 내부 수치를 공개했다",
+      "highlight": [
+        "내부 수치"
+      ],
+      "body": "오픈AI가 모델의 예측 성능 지표인 내부 혼잡도 측정값을 경쟁 노출 위험에도 전격 공개했습니다. 손실값이 0.8 이하로 내려가며 수학과 보안 등에서 변혁적 성능이 나타났기 때문입니다. 이들은 AI 통제 기술이 확보될 때까지 개발 한계선 기준을 함께 정하자고 제안했습니다.",
+      "sourceUrl": "https://openai.com/index/perplexity-and-intelligence",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/6rIIhCRSKrhIfe385Onmcz/aca2d190553c62fd5d49efb5d5ce1eb6/perplexity-and-intelligence-social.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-11-22T17:06:27.000Z"
+    },
+    {
+      "clusterId": "hackernews:50610830",
+      "headline": "앤트로픽 CEO \"AI 실직 대책은 게임\"",
+      "highlight": [
+        "AI 실직 대책",
+        "게임"
+      ],
+      "body": "앤트로픽 CEO 다리오 아모데이가 AI 실직 대책으로 비디오 게임을 언급해 논란입니다. 사내 슬랙 메시지에서 몰입형 게임이 실직이 초래할 정치적 갈등을 달랠 대안이라 주장했습니다. AI의 사회적 파괴력을 인정하며 디스토피아적 해결책을 제시했다는 지적이 나옵니다.",
+      "sourceUrl": "https://theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "sourceName": "The Verge",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/VRG_DCD_1121_Site.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-11-23T12:41:14.000Z"
+    }
+  ]
+}

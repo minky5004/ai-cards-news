@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026-11-23T23:44:09.926Z",
+  "idea": {
+    "productName": "AuditMind",
+    "tagline": "AI가 생성한 모든 콘텐츠, 안전하게 검증합니다",
+    "oneLineSummary": "기업이 AI 모델이 생성한 코드, 콘텐츠, 데이터를 안전하게 검증하고 관리하는 플랫폼을 제공합니다.",
+    "problem": "AI 모델이 생성한 복잡한 결과물은 인간 검증 없이 신뢰하기 어렵습니다. 또한, AI가 원치 않는 유해 콘텐츠를 생성해 심각한 법적 문제를 초래할 수 있습니다.",
+    "productDescription": "AI가 생성한 결과물의 무결성과 안전성을 자동으로 분석하고 보고하는 솔루션을 개발합니다. 특히 코드, 연구 결과, 고객 응대 스크립트 등 비즈니스 핵심 영역의 AI 생성물을 집중적으로 검토합니다. 기업이 내부 정책에 따라 AI 결과물의 위험 수준을 정의하고, 문제가 발견될 경우 즉시 알림을 받을 수 있도록 돕습니다.",
+    "keyFeatures": [
+      "AI 생성 코드 논리적 검증",
+      "유해 콘텐츠 자동 감지",
+      "편향성 및 공정성 분석",
+      "내부 정책 준수 여부 확인",
+      "정기적인 감사 보고서 제공"
+    ],
+    "persona": "AI 개발팀을 운영하는 기업의 CISO (최고정보보호책임자) 또는 Compliance Officer (준법감시인). AI 모델의 신뢰성과 안전성을 보장해야 하는 법적, 윤리적 책임이 있는 사람입니다.",
+    "businessModel": "월 구독형 SaaS (Software as a Service) 모델. 사용량(API 호출 수, 검증 대상 데이터 용량)에 따라 티어를 나누고, 기본형 월 100만 원부터 프리미엄형 월 1,000만 원까지 책정합니다.",
+    "marketStats": "기사에 규모 근거 없음. 다만, AI 안전 및 규제 준수에 대한 관심이 높아지고 있으며, Grok 사례와 Anthropic의 AI 생성 증명서 미검증 사례는 이러한 필요성을 보여줍니다.",
+    "goToMarket": "AI 안전 관련 컨퍼런스 및 웹 세미나에 참여하여 잠재 고객에게 제품을 소개합니다. 초기에는 AI 윤리 및 거버넌스에 관심이 많은 대기업의 보안팀이나 법무팀에 직접 연락하여 파일럿 프로그램을 제안합니다.",
+    "unfairAdvantage": "AI 생성물의 안전성과 무결성을 다각도로 검증하는 통합 솔루션으로, 단순히 유해성 필터링을 넘어 논리적 오류나 정책 위반까지 탐지합니다. AI가 AI를 검증하는 모델을 사용, 인간의 개입을 최소화하면서도 높은 신뢰도를 제공합니다.",
+    "competitors": [
+      "Perspective API (Google) — 유해성 감지에 특화, 코드/논리 검증 미지원",
+      "OpenAI Moderation API — 유해 콘텐츠 감지, 기업 정책 커스터마이징 부족",
+      "내부 개발 스크립트 — 고도화된 검증 기능 부족, 유지보수 어려움"
+    ],
+    "risks": [
+      "오탐 및 미탐 문제",
+      "규제 변화",
+      "경쟁 심화",
+      "법적 책임"
+    ],
+    "actionPlan": [
+      "AI 생성 콘텐츠의 유해성 및 논리적 오류 감지 알고리즘 초안 개발",
+      "Anthropic의 AI 생성 증명서(Article 3)를 첫 번째 검증 대상으로 선정하여 PoC(개념 증명) 진행",
+      "Grok의 유해 콘텐츠 생성 사례(Article 14)를 분석하여 테스트 데이터셋 구축",
+      "잠재 고객(CISO, Compliance Officer) 5명과 인터뷰하여 핵심 요구사항 파악",
+      "최소 기능 제품(MVP)에 포함될 주요 기능 정의 및 로드맵 수립"
+    ],
+    "recommendation": "AI의 무분별한 사용과 그로 인한 부작용이 커지는 상황에서, AI 생성물에 대한 엄격한 검증은 필수적입니다. 이 아이디어는 시장의 명확한 니즈를 충족하며, 초기 Grok 사례나 Anthropic의 AI 생성 증명 미검증 문제와 같은 구체적인 근거가 있습니다. 다만, AI 검증 기술 자체의 난이도가 높고 오탐/미탐 문제 해결이 핵심 성공 요인이 될 것입니다.",
+    "searchQuery": "ai output audit validation",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 10건 · 근거는 상위 5건 — 최고 5점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "SQL access to crypto market data, not just JSON",
+          "url": "https://news.ycombinator.com/item?id=48014124",
+          "points": 5
+        },
+        {
+          "title": "The Missing Layer in Enterprise AI: Decision Authority",
+          "url": "https://news.ycombinator.com/item?id=47115309",
+          "points": 2
+        },
+        {
+          "title": "Show HN: I \"invented\" Model-as-a-Service for 95% Predictable Private AI",
+          "url": "https://pyrinas.co",
+          "points": 2
+        },
+        {
+          "title": "Ask HN: Using GPT as a logic circuit instead of a text generator – Anyone tried?",
+          "url": "https://news.ycombinator.com/item?id=44161919",
+          "points": 2
+        },
+        {
+          "title": "A 3-Layer Cognitive Architecture with Append-Only Provenance and Ethics Gating",
+          "url": "https://news.ycombinator.com/item?id=46556624",
+          "points": 2
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50598961",
+        "title": "AI is becoming a disaster for the climate",
+        "url": "https://bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the"
+      },
+      {
+        "clusterId": "hackernews:50609685",
+        "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+        "url": "https://z.ai/blog/glm-5.4"
+      },
+      {
+        "clusterId": "hackernews:50620102",
+        "title": "VP ≠ VNP over Every Field",
+        "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
+      },
+      {
+        "clusterId": "hackernews:50603845",
+        "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+        "url": "https://gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth"
+      },
+      {
+        "clusterId": "hackernews:50601525",
+        "title": "Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence"
+      },
+      {
+        "clusterId": "hackernews:50605045",
+        "title": "Progress map for the Lean formalization of Alessandro Masullo's manuscript",
+        "url": "https://claude.ai/artifact/CtQyX8qfYAF822bgHJHHE3"
+      },
+      {
+        "clusterId": "hackernews:50610830",
+        "title": "Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)",
+        "url": "https://theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness"
+      },
+      {
+        "clusterId": "hackernews:50599762",
+        "title": "Show HN: I built a game where you are an LLM's subagent",
+        "url": "https://github.com/gulivan/worker755"
+      },
+      {
+        "clusterId": "hackernews:50611402",
+        "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+        "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF"
+      },
+      {
+        "clusterId": "hackernews:50615520",
+        "title": "How should an LLM see a computer?",
+        "url": "https://greptile.com/blog/trex-computer-use"
+      },
+      {
+        "clusterId": "hackernews:50604540",
+        "title": "Localcode, open source agentic coding on your Mac with one command",
+        "url": "https://github.com/mjwsolo/localcode"
+      },
+      {
+        "clusterId": "hackernews:50605445",
+        "title": "0rwx – A simple model of AI usage, inspired by Unix permissions",
+        "url": "https://0rwx.com"
+      },
+      {
+        "clusterId": "hackernews:50602153",
+        "title": "Harvard CS 2881R AI Safety",
+        "url": "https://boazbk.github.io/mltheoryseminar"
+      },
+      {
+        "clusterId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+        "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+        "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn"
+      },
+      {
+        "clusterId": "hackernews:50603219",
+        "title": "What Happened in Fall 2026: AI and P vs. NP",
+        "url": "https://cacm.acm.org/blogcacm/what-happened-in-fall-2026-ai-and-p-vs-np"
+      }
+    ]
+  }
+}
