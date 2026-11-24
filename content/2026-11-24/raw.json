@@ -1,0 +1,1310 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T22:03:41.787Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 13,
+      "filtered": 7
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 4,
+      "filtered": 4
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 4
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 28,
+      "filtered": 18
+    }
+  ],
+  "clusters": [
+    {
+      "id": "hackernews:50630309",
+      "representativeId": "hackernews:50630309",
+      "items": [
+        {
+          "id": "hackernews:50630309",
+          "title": "Tidal bans AI-generated music",
+          "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T16:12:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 307,
+            "comments": 288,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50630309"
+          }
+        },
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
+          "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-24T17:34:34.000Z",
+          "summary": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+          "trust": 0.7,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+          "title": "Tidal to ban and remove millions of AI-generated tracks as AI slop inundates music streaming",
+          "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T16:46:00.000Z",
+          "summary": "The company said it will still accept songs that were made with AI assistance, but not fully generated.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1041362/tidal-ai-music-ban",
+          "title": "Tidal will start banning AI-generated music next month",
+          "url": "https://theverge.com/entertainment/1041362/tidal-ai-music-ban",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-24T17:17:09.000Z",
+          "summary": "Tidal is officially banning AI-generated music on December 9th. As a result of this change, Tidal will delete around 29 million AI-generated songs and reject an estimated 80,000 to 85,000 tracks per day, according to Tidal music lead Robert Andersen. The move comes just months after Tidal began labeling and demonetizing tracks identified as 100 […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 7.805530987409058,
+      "breakdown": {
+        "hnPoints": 1.8434816971831658,
+        "hnComments": 1.0,
+        "mentions": 2.5,
+        "recency": 1.2620492902258917,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50627836",
+      "representativeId": "hackernews:50627836",
+      "items": [
+        {
+          "id": "hackernews:50627836",
+          "title": "Anthropic breaks below $83 IPO price",
+          "url": "https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T13:23:47.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 272,
+            "comments": 550,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50627836"
+          }
+        },
+        {
+          "id": "hackernews:50628932",
+          "title": "Anthropic is below its IPO price",
+          "url": "https://msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T14:41:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 128,
+            "comments": 3,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50628932"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+          "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+          "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T18:30:42.000Z",
+          "summary": "Anthropic’s post-IPO slump could put pressure on AI startup valuations.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 6.146352217227046,
+      "breakdown": {
+        "hnPoints": 1.804673387366797,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 1.308345496526916,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50609685",
+      "representativeId": "hackernews:50609685",
+      "items": [
+        {
+          "id": "hackernews:50609685",
+          "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+          "url": "https://z.ai/blog/glm-5.4",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T10:06:43.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1161,
+            "comments": 380,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50609685"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/23/glm-54",
+          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-23T23:40:49.000Z",
+          "summary": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this: In a standard Transformer, each layer runs once per forward pass. In a Loop Transformer, a group of weight-shared layers runs for multiple iterations, refining the hidden states from the previous pass. This gives us a deeper network without increasing the parameter count. This is the second mention of looped transformers I've seen in the past week - the first was Inkling 2 Mini from Thinking Machines Lab on November 20th, who said: Inkling 2 Mini is a looped transformer, running the middle layers of the model three times for every token. This allows the model to apply more reasoning and reach the right answer with fewer tokens, especially on tasks such as agentic coding that depend on reasoning quality. GLM 5.4 is not yet available as open weights: We plan to open-source the model weights responsibly after completing necessary safety hardening. I tried it out using the Z.ai API, for which I had to sign up for their Coding Plan subscription because 5.4 cannot currently be accessed through the regular API. It turns out both coding plan and regular API share the same OpenAI-compatible Responses API (at https://api.z.ai/api/v1 ), and the API key for the coding plan worked with that and gave me access to the new model. I built a llm-glm plugin , then realized that llm-zai by Tommy Hughes already exists! I've shipped mine purely because llm-zai doesn't yet support the new model, but I'll likely retire mine once that plugin catches up. Here are pelicans for GLM-5.4 on low, high, and max. This is the max one: I realized I never ran pelicans for GLM-5.3, so here those are for the same effort levels. They look similar in quality to 5.4. It's interesting how GLM 5.1 and GLM 5.2 produced radically different pelicans from other models. The pelicans for 5.3 and 5.4 are much more comparable to those I get from OpenAI or Anthropic models - the previous generations had their own distinctive look. I made a comparison grid showing the four generations of GLM pelicans all in one place. The style transition between 5.2 and 5.3 is pretty stark. Tags: ai , generative-ai , llms , llm , pelican-riding-a-bicycle , llm-release , ai-in-china , glm",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.666894271143219,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6335609378098852,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50618513",
+      "representativeId": "hackernews:50618513",
+      "items": [
+        {
+          "id": "hackernews:50618513",
+          "title": "Claude Ship",
+          "url": "https://claude.com/resources/articles/introducing-claude-ship",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T20:14:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 86,
+            "comments": 31,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50618513"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+          "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+          "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-23T22:05:50.000Z",
+          "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+          "title": "Claude AI can review pull requests and ship fixes on its own now",
+          "url": "https://theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-23T20:00:00.000Z",
+          "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.553031226243657,
+      "breakdown": {
+        "hnPoints": 1.4367672797783455,
+        "hnComments": 0.6535049300169562,
+        "mentions": 1.6666666666666665,
+        "recency": 0.596092349781689,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50632756",
+      "representativeId": "hackernews:50632756",
+      "items": [
+        {
+          "id": "hackernews:50632756",
+          "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+          "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T18:55:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 81,
+            "comments": 87,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50632756"
+          }
+        },
+        {
+          "id": "hackernews:50620102",
+          "title": "VP ≠ VNP over Every Field",
+          "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T22:09:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 357,
+            "comments": 327,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50620102"
+          }
+        }
+      ],
+      "score": 5.42095965113774,
+      "breakdown": {
+        "hnPoints": 1.8918789097396678,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.329080741398072,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50627340",
+      "representativeId": "hackernews:50627340",
+      "items": [
+        {
+          "id": "hackernews:50627340",
+          "title": "LLM agents work for their parent companies, not for you",
+          "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T12:40:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 832,
+            "comments": 346,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
+          }
+        }
+      ],
+      "score": 5.244818845884994,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.0448188458849934,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50632998",
+      "representativeId": "hackernews:50632998",
+      "items": [
+        {
+          "id": "hackernews:50632998",
+          "title": "Compiling web applications into verified operations for AI agents",
+          "url": "https://protocolis.co/paper",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T19:12:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50632998"
+          }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+          "title": "Even the best AI agents struggle with everyday life",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T21:33:29.000Z",
+          "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 5.05369942286805,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.8333333333333333,
+        "recency": 1.471193889452659,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50631210",
+      "representativeId": "hackernews:50631210",
+      "items": [
+        {
+          "id": "hackernews:50631210",
+          "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+          "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T17:10:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 187,
+            "comments": 97,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50631210"
+          }
+        }
+      ],
+      "score": 4.992116510783426,
+      "breakdown": {
+        "hnPoints": 1.6846626206270763,
+        "hnComments": 0.8645490987521961,
+        "mentions": 0.0,
+        "recency": 1.2429047914041538,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50634734",
+      "representativeId": "hackernews:50634734",
+      "items": [
+        {
+          "id": "hackernews:50634734",
+          "title": "Working with AI",
+          "url": "https://anthropic.com/research/working-with-ai",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T21:07:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 26,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50634734"
+          }
+        }
+      ],
+      "score": 4.4029527450722075,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.6214684848679675,
+        "mentions": 0.0,
+        "recency": 1.446987247758567,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50622854",
+      "representativeId": "hackernews:50622854",
+      "items": [
+        {
+          "id": "hackernews:50622854",
+          "title": "Declare is a UI language for you and your AI",
+          "url": "https://davidtemkin.github.io/declarelang",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T02:36:56.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 102,
+            "comments": 87,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50622854"
+          }
+        }
+      ],
+      "score": 4.244712130319687,
+      "breakdown": {
+        "hnPoints": 1.491080153018164,
+        "hnComments": 0.8442540815773762,
+        "mentions": 0.0,
+        "recency": 0.7093778957241471,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50625888",
+      "representativeId": "hackernews:50625888",
+      "items": [
+        {
+          "id": "hackernews:50625888",
+          "title": "Jevons Paradox in AI: Cheaper Tokens Won't Pay for Capex",
+          "url": "https://philippdubach.com/posts/cheaper-ai-tokens-wont-pay-for-capex",
+          "source": "hackernews",
+          "publishedAt": "2026-11-24T09:39:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 78,
+            "comments": 38,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50625888"
+          }
+        }
+      ],
+      "score": 4.227120349223994,
+      "breakdown": {
+        "hnPoints": 1.4057341840283257,
+        "hnComments": 0.6908072814298077,
+        "mentions": 0.0,
+        "recency": 0.9305788837658605,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/introducing-shirudo",
+      "representativeId": "openai:https://openai.com/index/introducing-shirudo",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/introducing-shirudo",
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "openai",
+          "publishedAt": "2026-11-23T21:20:00.000Z",
+          "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+          "trust": 1.0,
+          "signals": {
+            "points": 83,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50619630"
+          }
+        }
+      ],
+      "score": 4.118642947882133,
+      "breakdown": {
+        "hnPoints": 1.4254777371434515,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 0.5788131049281389,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "hackernews:50611402",
+      "representativeId": "hackernews:50611402",
+      "items": [
+        {
+          "id": "hackernews:50611402",
+          "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
+          "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T13:42:38.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 190,
+            "comments": 36,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50611402"
+          }
+        }
+      ],
+      "score": 4.002211186506858,
+      "breakdown": {
+        "hnPoints": 1.6897559030256242,
+        "hnComments": 0.6808806914263887,
+        "mentions": 0.0,
+        "recency": 0.4315745920548447,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50610830",
+      "representativeId": "hackernews:50610830",
+      "items": [
+        {
+          "id": "hackernews:50610830",
+          "title": "Amodei reportedly suggested games could pacify masses after AI took their jobs (2015)",
+          "url": "https://theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T12:41:14.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 77,
+            "comments": 83,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50610830"
+          }
+        }
+      ],
+      "score": 3.8520163841313972,
+      "breakdown": {
+        "hnPoints": 1.4016357980053775,
+        "hnComments": 0.8354821900038406,
+        "mentions": 0.0,
+        "recency": 0.4148983961221789,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50615520",
+      "representativeId": "hackernews:50615520",
+      "items": [
+        {
+          "id": "hackernews:50615520",
+          "title": "How should an LLM see a computer?",
+          "url": "https://greptile.com/blog/trex-computer-use",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T17:19:25.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 58,
+            "comments": 25,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50615520"
+          }
+        }
+      ],
+      "score": 3.622171501384943,
+      "breakdown": {
+        "hnPoints": 1.3118210733004767,
+        "hnComments": 0.6143521058105431,
+        "mentions": 0.0,
+        "recency": 0.49599832227392343,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50620328",
+      "representativeId": "hackernews:50620328",
+      "items": [
+        {
+          "id": "hackernews:50620328",
+          "title": "Latent Introspection: LLMs Can Detect Prior Concept Injections",
+          "url": "https://arxiv.org/abs/2602.20031",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T22:29:48.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 72,
+            "comments": 7,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50620328"
+          }
+        }
+      ],
+      "score": 3.577757323589183,
+      "breakdown": {
+        "hnPoints": 1.3803221151166902,
+        "hnComments": 0.3921029580101737,
+        "mentions": 0.0,
+        "recency": 0.6053322504623188,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50614037",
+      "representativeId": "hackernews:50614037",
+      "items": [
+        {
+          "id": "hackernews:50614037",
+          "title": "Buckle Up the AI Bubble Is Popping",
+          "url": "https://mathbabe.org/2026/11/23/buckle-up-the-ai-bubble-is-popping",
+          "source": "hackernews",
+          "publishedAt": "2026-11-23T16:01:20.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 33,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50614037"
+          }
+        }
+      ],
+      "score": 3.571895266635866,
+      "breakdown": {
+        "hnPoints": 1.134497012445673,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.4717543621378921,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+          "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+          "source": "huggingface",
+          "publishedAt": "2026-11-24T16:34:13.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.5641011549633124,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2141011549633123,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "representativeId": "openai:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "source": "openai",
+          "publishedAt": "2026-11-24T13:00:00.000Z",
+          "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.5581468520168533,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0581468520168533,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/index/searching-for-distant-planets-with-astra",
+      "representativeId": "openai:https://openai.com/index/searching-for-distant-planets-with-astra",
+      "items": [
+        {
+          "id": "openai:https://openai.com/index/searching-for-distant-planets-with-astra",
+          "title": "Searching for distant planets with Astra",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "source": "openai",
+          "publishedAt": "2026-11-24T11:00:00.000Z",
+          "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.479711412168806,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9797114121688062,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+          "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+          "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T21:32:38.000Z",
+          "summary": "Walmart now lets customers shop Black Friday deals through Muse, Meta’s AI agent.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+          "title": "Meta brings its Muse AI assistant directly into Instagram DMs",
+          "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T17:00:00.000Z",
+          "summary": "The new integration gets rid of the need for users to toggle between Instagram and the Muse app when they want to interact with the AI agent.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.370391524245475,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4703915242454753,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+          "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+          "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T21:19:52.000Z",
+          "summary": "The startup's encrypted AI architecture is designed to prevent even the company itself from accessing users' private data.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.35839282426005,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.4583928242600501,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-24T16:53:59.000Z",
+          "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1808 sketchbook held at Yale’s Beinecke Library . It did so extremely quickly (in just 22 minutes), using publicly available primary and secondary sources. To do so, it discovered a little known source in a paper archive, predicted that it would prove its hypothesis if examined and, in the end, it did. Not only that, but this new source turns out to be a major find on its own that will be of significant interest to both Canadian and fur trade historians. Here's the digitized sketchbook . Astra found a diary reference reference to a visit by the vicomte de Chabot dated five days before a date mentioned in the sketchbook at a nearby river, and suggested that Chabot's journal of his travels (only available by order from Cleveland State University) might confirm that the sketchbook was his work. Are historians due for a round of Deep Blue ? Mark thinks it will be mild: But if the experience of mathematics is any guide, we can also anticipate that sometime next spring or summer we’ll face a sort of crisis of confidence as we struggle to understand how to respond to agentic systems that can do things human historians cannot. To be fair, that crisis will almost certainly be less profound for us than it is for math. The problem in mathematics, of course, is that solving hard math problems was the whole game. Historians, on the other hand, constantly reinterpret the past in light of an evolving present; we don’t chase a single universal truth. We also (in the ideal at least) write books and articles that are closer to works of philosophy and literature than they are to scientific tracts. Humanity is thus something of a requirement for the production of historical literature. Tags: history , ai , generative-ai , llms , ai-assisted-search , deep-blue , gpt-6-astra",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.2796017269690103,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2296017269690105,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+          "title": "Raising the stakes for enterprise networks with AI modernization",
+          "url": "https://technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-24T15:15:16.000Z",
+          "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.20411483133058,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1541148313305805,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+          "title": "David Fincher is being dragged for suspected use of AI in his latest film",
+          "url": "https://theverge.com/entertainment/1041417/david-fincher-netflix-cliff-booth-ai-interpositive",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-24T18:15:00.000Z",
+          "summary": "Though David Fincher's fans had been eagerly anticipating The Further Mis-Adventures of Cliff Booth, early screenings of the Once Upon a Time in Hollywood sequel starring Brad Pitt have raised questions about whether generative AI was used in the film. People have claimed that the movie is chock-full of uncanny, inconsistent visuals that make it […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1952284035478957,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2952284035478958,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+          "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+          "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T18:02:59.000Z",
+          "summary": "The British cyber agency says that \"building strong foundations has never mattered more\" as AI hacking tools rely on exploiting simple security flaws.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.185277593311509,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.285277593311509,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/intentful-dots",
+      "representativeId": "openai:https://openai.com/business/customer-stories/intentful-dots",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/intentful-dots",
+          "title": "How Intentful uses dots to make more time for growth",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "source": "openai",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.1414095056083626,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6414095056083627,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "openai:https://openai.com/business/customer-stories/ifood",
+      "representativeId": "openai:https://openai.com/business/customer-stories/ifood",
+      "items": [
+        {
+          "id": "openai:https://openai.com/business/customer-stories/ifood",
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "source": "openai",
+          "publishedAt": "2026-11-24T00:00:00.000Z",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 2.1414095056083626,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6414095056083627,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+          "title": "Jensen Huang deepfakes are the hot new AI slop",
+          "url": "https://theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-24T16:30:00.000Z",
+          "summary": "Jensen Huang is partying it up in Ibiza. In a video with nearly 6 million views on Instagram, the former CEO of Nvidia is dancing in a crowded club, champagne glass in hand, still wearing his signature black leather jacket. Suddenly, from behind him, Alice Huang - the Chinese technology executive and suspected spy he […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.1108199125071962,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.2108199125071966,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
+          "title": "Why a Crusoe investor is betting on solar and batteries to power future AI data centers",
+          "url": "https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T16:10:00.000Z",
+          "summary": "Next-generation data centers will need tens of gigawatts of power every year. One of Crusoe's investors thinks solar and energy storage are the obvious choice.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0953770813740196,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1953770813740197,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "representativeId": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "url": "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-24T16:09:23.000Z",
+          "summary": "The New York Times is asking freelance photographers not to use the newest version of Adobe Photoshop because features in the 2027 update use AI \"in ways that may not be apparent to users.\" In an email seen by The Verge and posted on Threads, two of the Times' photography leaders, Meaghan Looram and Josh […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.094904070456413,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1949040704564127,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+          "title": "Pinterest will now let parents limit the AI-generated content their teens see",
+          "url": "https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-24T16:02:37.000Z",
+          "summary": "While other social platforms have focused on restricting teens' access to AI chatbots, Pinterest is addressing the AI content filling their feeds.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0897260134293267,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.189726013429327,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+          "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-24T12:30:05.000Z",
+          "summary": "The Cairn AI framework is proving to be a boon for defenders and attackers.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 2.088023600047829,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.0380236000478293,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "google-deepmind:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "representativeId": "google-deepmind:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "items": [
+        {
+          "id": "google-deepmind:https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+          "title": "Finding faster quantum algorithms with agents and formal verification",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+          "source": "google-deepmind",
+          "publishedAt": "2026-11-23T16:59:40.000Z",
+          "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+          "trust": 1.0,
+          "signals": { }
+        }
+      ],
+      "score": 1.989750920348511,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4897509203485112,
+        "sourceTrust": 1.5
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/robotrack",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/robotrack",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/robotrack",
+          "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+          "url": "https://huggingface.co/blog/allenai/robotrack",
+          "source": "huggingface",
+          "publishedAt": "2026-11-23T17:20:37.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.8463804692335792,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.49638046923357915,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/24/datasette-charts",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/24/datasette-charts",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/24/datasette-charts",
+          "title": "datasette-charts 0.2a0",
+          "url": "https://simonwillison.net/2026/Nov/24/datasette-charts",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-24T04:24:29.000Z",
+          "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time as a chart\" - where typing \"#stats\" opens a table search box. It shows me a chart inline in the chat, and when I click \"Open in the chart builder\" it opens the chart in a panel along with the table page. I use the table page to switch to a chart of \"datasette\", then when I ask the agent \"what does the chart show?\" it notices that I changed the content in the panel and describes the new Datasette chart to me. Here's a Markdown export of the chat from the video. Tags: datasette-agent , datasette , visualization",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.810072854196041,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7600728541960411,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/24/datasette-agent",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/24/datasette-agent",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/24/datasette-agent",
+          "title": "datasette-agent 0.7a1",
+          "url": "https://simonwillison.net/2026/Nov/24/datasette-agent",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-24T03:45:57.000Z",
+          "summary": "Release: datasette-agent 0.7a1 A small improvement to Datasette Agent : chat sessions could already open an iframe side panel that could then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the user interacts with the plugin in a way that changes state. I built this in order to fix some bugs with the much more exciting datasette-charts 0.2a0 release . Tags: datasette-agent , datasette",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7915061701062922,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.7415061701062924,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/23/ladybird",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/23/ladybird",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/23/ladybird",
+          "title": "Ladybird's first alpha release",
+          "url": "https://simonwillison.net/2026/Nov/23/ladybird",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-23T21:46:35.000Z",
+          "summary": "Ladybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components - HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components - things like HarfBuzz for text shaping, Skia for 2D graphics, ffmpeg for video, and SQLite for the things you do with SQLite. Everything else is part of Ladybird, or code brought in from Ladybird's even more ambitious predecessor project SerenityOS . This morning the Ladybird project released their first alpha , which means you can now install the browser (on macOS or Linux) without having to compile it yourself! I've been trying it out today, and it's very impressive. It feels fast, the UI is lightweight and intuitive, and most of the websites I've tried to load in it have worked as they should. It looks like this (showing my video-compressor tool): Here's the process tree after I opened six tabs in one window and another tab in a second window (generated by this script , thanks Claude): Ladybird (72925) [240 MB] └── Hub (72926) [61 MB] ├── RequestServer (72927) [29 MB] ├── ProcessReaper (72928) [1 MB] ├── Compositor (72930) [123 MB] ├── RequestServer (72953) [36 MB] ├── WebContent (72984) [819 MB] ├── MediaServer (73006) [118 MB] ├── VideoDecoderServer (73007) [20 MB] ├── WebContent (73052) [144 MB] ├── WebContent (73057) [73 MB] ├── WebContent (73073) [166 MB] ├── WebContent (73094) [70 MB] ├── WebContent (73112) [116 MB] ├── RequestServer (73113) [27 MB] └── WebContent (73185) [60 MB] Ladybird runs different tabs in different processes, an isolation mechanism used by most browsers (well, technically Chrome uses a process-per-site). I tried Ladybird against several of my more advanced tool examples - like the video-compressor shown above, which runs ffmpeg compiled to WebAssembly. I had it resize its own screenshot using my image-resize tool . It happily runs my Pyodide REPL (Python compiled to WebAssembly) too. The one thing I tried that didn't work was Datasette Lite , which runs Pyodide in a complicated arrangement of service workers and web workers. Attempting to start Datasette Lite displays this error: undefined is not a function (evaluated from 'navigator.serviceWorker.startMessages') I filed an issue about this , then found a FIXME annotation in the source code. The October explosion The project has been leaning heavily into coding agents this year. On February 23, 2026 Andreas Kling published Ladybird adopts Rust, with help from AI , describing how they ported parts of their LibJS JavaScript engine from C++ to 25,000 lines of Rust in two weeks using Claude Code and Codex. Here's the GitHub contributions chart for Ladybird over the past twelve months: That uptick in October corresponds to the landing of a wealth of big improvements. This Month in Ladybird — October 2026 describes what happened. In addition to moving style and layout to their own thread, landing a new JavaScript JIT, and replacing their C++ with Cranelift WebAssembly engine with new code that achieved a 7x boost on the JetStream 3 WASM benchmark , they gained 75,650 new passes on the ~2.25 million subtest web-platform-tests suite, beating Safari! How did they do that? Coding agents: Most of that gain came in five days, from about 2.12 million on October 22 to about 2.18 million on October 27. We pointed AI coding agents at WPT and asked them to fill in missing functionality. They made lots of small fixes, and those added up. Our biggest gains for the month were about 30,000 in /css and 10,000 in /editing . I'm interested in what models they are using here - I know Andreas uses Codex and Claude Code, but I haven't seen him talk about specific model versions. Claude Opus 5.5 came out on September 22, 2026 and Claude Fable 5.2 on November 9, 2026 (after that window). I'd love to know what they were using for that huge leap in the last week of October. Should you use Ladybird? Here's what Andreas says about Ladybird's suitability for use as a daily browser: This is an alpha, so some websites won’t work, and it will crash sometimes. When that happens, tell us! You can report a broken site from inside the browser. After a crash, you can read the crash report and decide whether to send it. Our privacy policy has the details. We want security nerds to hack it! A new browser gets hacked, over and over, and that’s part of the process, so we make no promises about security today. When you pwn us, please tell us how so we can harden Ladybird! Given how hard it is to secure a web browser, and the hostility of the environment they operate in, I won't be using Ladybird to sign into GitHub or Gmail or any of my other sensitive accounts. I'm going to keep it around for anonymous browsing though, partly to participate in the testing efforts but mainly because it gives me a glimmer of optimism to see a promising new entrant in the stagnant browser engine market start to grow its wings. Tags: browsers , open-source , ai , rust , webassembly , generative-ai , llms , andreas-kling , ladybird , coding-agents",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6387731102681018,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.588773110268102,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+          "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-23T21:30:44.000Z",
+          "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.6328141311310784,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5828141311310786,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument",
+      "representativeId": "mit-tech-review-ai:https://technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument",
+      "items": [
+        {
+          "id": "mit-tech-review-ai:https://technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument",
+          "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+          "url": "https://technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument",
+          "source": "mit-tech-review-ai",
+          "publishedAt": "2026-11-23T17:36:08.000Z",
+          "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be conscious or sentient as a risk factor for anyone investing. Given “the way we approach model sentience and moral…",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5513484408709304,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5013484408709304,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+          "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+          "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-23T22:02:05.000Z",
+          "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4946594229837231,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5946594229837233,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "representativeId": "theverge-ai:https://theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+          "title": "AI data centers throw another wrench into chaotic UN climate talks",
+          "url": "https://theverge.com/science/1040497/ai-data-centers-electricity-un-climate-summit",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-23T21:09:37.000Z",
+          "summary": "The clean energy revolution hinges on electrifying the entire global economy just as power-hungry data centers are surging. It's a challenge delegates from all over the world had to grapple with during the United Nations climate conference, called COP31, that came to a chaotic and unsatisfying close in Antalya, Turkey, on Sunday. Each year, attendees […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4749686871231753,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5749686871231753,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "arstechnica-ai:https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "representativeId": "arstechnica-ai:https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+      "items": [
+        {
+          "id": "arstechnica-ai:https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+          "title": "Review: The Asus ProArt P16 offers a glimpse of a future powered by local AI",
+          "url": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai",
+          "source": "arstechnica-ai",
+          "publishedAt": "2026-11-23T12:00:00.000Z",
+          "summary": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.45406266885932,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.40406266885931996,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+          "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+          "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-23T19:14:46.000Z",
+          "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.4341114440497424,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5341114440497425,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+          "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-23T17:14:23.000Z",
+          "summary": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3943986304679974,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4943986304679975,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "hackernews:50630309",
+    "hackernews:50627836",
+    "hackernews:50609685",
+    "hackernews:50618513",
+    "hackernews:50632756"
+  ]
+}

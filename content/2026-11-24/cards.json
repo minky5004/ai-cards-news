@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T22:07:54.747Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50630309",
+      "headline": "타이달이 AI 음악 2900만 곡 싹 지운다",
+      "highlight": [
+        "2900만 곡",
+        "싹 지운다"
+      ],
+      "body": "음원 플랫폼 타이달이 12월 9일부터 AI 음악을 전면 금지하고 삭제합니다. 최근 유통 트랙의 43%가 AI 곡으로 나타나자 2900만 곡을 지우는 업계 최초의 퇴출 조치에 나섰습니다. 단순 라벨링에 그치던 경쟁사들과 달리 인간 아티스트의 가치를 지키기 위한 강경책입니다.",
+      "sourceUrl": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924",
+      "sourceName": "Variety",
+      "imageUrl": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+      "publishedAt": "2026-11-24T16:12:38.000Z"
+    },
+    {
+      "clusterId": "hackernews:50627836",
+      "headline": "앤트로픽 상장 일주일 만에 공모가 깨졌다",
+      "highlight": [
+        "공모가 깨졌다"
+      ],
+      "body": "앤트로픽 주가가 나스닥 상장 불과 일주일 만에 공모가 83달러 밑으로 떨어지며 76달러까지 급락했습니다. 시장은 이번 성과를 AI 산업 전체의 가치를 측정할 이정표로 주시합니다. 주가 부진이 계속될 경우 다른 AI 스타트업의 상장과 몸값 추산에도 큰 부담이 될 전망입니다.",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+      "publishedAt": "2026-11-24T13:23:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:50609685",
+      "headline": "파라미터 추가 없이 성능 높인 루프 AI",
+      "highlight": [
+        "파라미터 추가 없이",
+        "루프 AI"
+      ],
+      "body": "중국 Z.ai가 동일 층을 반복 실행해 파라미터 늘림 없이 성능을 높인 GLM-5.4를 발표했습니다. 레이어 가중치를 공유하며 여러 번 순환 처리하는 '루프 트랜스포머' 구조를 적용했습니다. 유료 코딩 플랜 API로 먼저 출시되었으며 안전 검증 후 공개 모델로 전환될 예정입니다.",
+      "sourceUrl": "https://simonwillison.net/2026/Nov/23/glm-54",
+      "sourceName": "Simon Willison’s Weblog",
+      "imageUrl": "https://static.simonwillison.net/static/2026/glm-family-4.webp",
+      "publishedAt": "2026-11-23T10:06:43.000Z"
+    },
+    {
+      "clusterId": "hackernews:50618513",
+      "headline": "앤트로픽, PR 병합 2배 늘린 AI 도구 공개",
+      "highlight": [
+        "2배"
+      ],
+      "body": "앤트로픽이 코드 리뷰와 수정, 승인까지 자동 처리하는 AI 'Claude Ship'을 공개했다. 개발팀이 직접 적용해 본 결과 롤백 비율은 40% 줄고 PR 병합량은 2배 이상 늘었다. 기업 고객에게는 최대 1만 달러 상당의 크레딧도 제공한다.",
+      "sourceUrl": "https://claude.com/resources/articles/introducing-claude-ship",
+      "sourceName": "Claude",
+      "imageUrl": "https://claude.com/resources/articles/introducing-claude-ship/opengraph-image/og",
+      "publishedAt": "2026-11-23T20:14:18.000Z"
+    }
+  ]
+}
