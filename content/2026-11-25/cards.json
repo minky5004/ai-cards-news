@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T21:27:19.722Z",
+  "cards": [
+    {
+      "clusterId": "hackernews:50630309",
+      "headline": "타이달, AI 음악 금지! 2,900만 곡 삭제",
+      "highlight": [
+        "2,900만 곡 삭제"
+      ],
+      "body": "음악 스트리밍 서비스 타이달이 다음 달부터 AI로만 만들어진 음악을 전면 금지합니다. 약 2,900만 곡이 삭제되고 하루 8만여 곡의 AI 생성 음악이 더 이상 유통되지 않습니다. 타이달은 아티스트와 청취자 모두에게 긍정적인 영향을 미칠 것으로 기대합니다.",
+      "sourceUrl": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924",
+      "sourceName": "Variety",
+      "imageUrl": "https://variety.com/wp-content/uploads/2023/12/Tidal.png?w=679&h=382&crop=1",
+      "publishedAt": "2026-11-24T16:12:38.000Z"
+    },
+    {
+      "clusterId": "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "headline": "AI가 수정한 논문 과학자가 전부 다시 썼다",
+      "highlight": [
+        "AI가 수정한",
+        "다시 썼다"
+      ],
+      "body": "Ai2가 과학자 17명을 조사한 결과 연구 대행의 윤리적 경계가 화두가 됐습니다. 한 정치학자는 클로드로 논문을 고친 뒤 작성 주체가 모호해지자 원고를 통째로 다시 썼습니다. AI 활용이 늘수록 검증 책임과 연구자 역할을 명확히 하는 기준이 필수적입니다.",
+      "sourceUrl": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "sourceName": "huggingface",
+      "imageUrl": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/F32BgZC_rj0kg99apJlto.png",
+      "publishedAt": "2026-11-25T18:52:55.000Z"
+    },
+    {
+      "clusterId": "hackernews:50627836",
+      "headline": "앤트로픽 주가가 공모가 밑으로 추락했다",
+      "highlight": [
+        "공모가 밑으로"
+      ],
+      "body": "나스닥 상장 일주일 만에 앤트로픽 주가가 공모가 83달러 밑인 76달러까지 떨어졌습니다. 시장은 이번 하락을 AI 스타트업 전체의 가치 평가에 비상이 걸린 신호로 보고 있습니다. 하락세가 지속되면 다른 AI 기업의 상장과 몸값 산정에도 큰 악영향을 줍니다.",
+      "sourceUrl": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups",
+      "sourceName": "TechCrunch",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-2305298275.jpg?w=594",
+      "publishedAt": "2026-11-24T13:23:47.000Z"
+    },
+    {
+      "clusterId": "hackernews:50635246",
+      "headline": "뉴욕, 유해 AI 챗봇 장난감 5년간 판매 중단",
+      "highlight": [
+        "유해 AI 챗봇 장난감",
+        "5년간 판매 중단"
+      ],
+      "body": "뉴욕주가 AI 챗봇 장난감 제조·판매를 5년간 중단합니다. 조사 결과 일부 장난감이 부적절한 대화 유도, 아동 목소리 녹음 등 사생활 침해 등 위험이 확인되어 금지했습니다. 이 법안은 90일 후 발효되며, 아이들을 유해한 AI 기술로부터 보호하는 데 기여합니다.",
+      "sourceUrl": "https://governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+      "sourceName": "Governor Kathy Hochul",
+      "imageUrl": "https://www.governor.ny.gov/sites/default/files/styles/cover_image_660x400_/public/2026-11/AI_Toys_Bill_1280.jpg?h=73e529be&itok=0Il8OYUn",
+      "publishedAt": "2026-11-24T21:49:50.000Z"
+    },
+    {
+      "clusterId": "openai:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "headline": "GPT-6, 단백질 자체 설계! 전문 모델 능가",
+      "highlight": [
+        "단백질 자체 설계"
+      ],
+      "body": "오픈AI GPT-6는 추론과 코딩만으로 단백질 형태와 서열을 자체 설계합니다. 전문 생물학 모델보다 뛰어난 성능을 보였고, 오나바(Onava) 실험에서 5개 타겟에 실제 단백질 결합이 확인됐습니다. AI가 생명 현상의 핵심 연구에 새로운 가능성을 제시합니다.",
+      "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "sourceName": "OpenAI",
+      "imageUrl": "https://images.ctfassets.net/kftzwdyauwt9/Eg5mCwwaA3KqnznOVCh0n/8e6deaef25fd508d9853ff86a95187c1/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities-social.png?w=1600&h=900&fit=fill",
+      "publishedAt": "2026-11-24T13:00:00.000Z"
+    }
+  ]
+}

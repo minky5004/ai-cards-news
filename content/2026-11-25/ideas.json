@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T21:28:32.049Z",
+  "idea": {
+    "productName": "StemSeal",
+    "tagline": "내 곡이 AI가 아님을 세션 기록으로 입증한다",
+    "oneLineSummary": "Tidal의 AI 음원 전면 퇴출에 맞서 인디 뮤지션에게 DAW 작업 이력과 원본 스템 기반의 인간 창작 증명서를 발급합니다.",
+    "problem": "Tidal이 하루 8만 건의 AI 음원을 일괄 퇴출하며 음악가들이 등록 거부 위기에 몰렸습니다. 창작 보조 AI를 쓴 진짜 아티스트마저 순수 생성물로 오탐되어 음원이 잘려 나갑니다.",
+    "productDescription": "뮤지션이 작곡 프로그램을 다루는 작업 과정 전반을 추적해 암호학적 창작 증명서를 발행하는 서비스입니다. DAW 타임라인, 미디(MIDI) 입력 기록, 보컬 및 악기별 원본 멀티트랙 스템의 생성 타임스탬프를 묶어 위변조 불가능한 인증 패키지를 생성합니다. 스트리밍 플랫폼이나 디지털 음원 유통사에 제출해 AI 생성곡 오탐으로 인한 음원 삭제 및 계정 정지를 사전에 방지합니다.",
+    "keyFeatures": [
+      "DAW 작업 타임라인 자동 암호화 서명",
+      "악기별 원본 멀티트랙 스템 메타데이터 추출",
+      "유통사용 인간 창작 증명 리포트 발급",
+      "오탐 차단 시 플랫폼 즉각 소명 패키지 제출"
+    ],
+    "persona": "Tidal의 12월 9일 AI 음원 전면 퇴출 공지를 보고 신곡 발매가 오탐으로 반려될까 불안해하는 인디 레이블 운영자",
+    "businessModel": "월 19달러 구독 시 앨범 무제한 증명서 발급 및 단일 트랙당 5달러 건별 결제",
+    "marketStats": "Tidal에 따르면 최근 90일간 배포된 음원의 43%가 AI 생성물로 탐지되었으며 2,900만 곡이 삭제 대상이고 매일 80,000~85,000곡이 거부될 예정입니다. 그 외 전체 시장 규모는 기사에 근거 없음.",
+    "goToMarket": "Tidal 공지 이후 혼란을 겪는 작곡 커뮤니티(r/WeAreTheMusicMakers, r/edmproduction)와 DistroKid 사용자 포럼에서 무료 소명 플러그인을 배포해 초기 100명을 모읍니다.",
+    "unfairAdvantage": "플랫폼이 비공개 탐지 모델로 거부 처분을 내릴 때 반박할 수 없는 DAW 원본 타임스탬프와 미디 입력 로그라는 물리적 작업 증거를 선점합니다.",
+    "competitors": [
+      "C2PA (콘텐츠 출처 연합) — 이미지·영상 규격 중심 · 음악 DAW 세션 미지원",
+      "DistroKid 체크박스 — 단순 텍스트 자진 신고제 · 오탐 시 반박 증빙 자료 부재"
+    ],
+    "risks": [
+      "스트리밍 플랫폼이 제3자 증명서 소명 절차 자체를 거부하고 일방 차단을 고수하는 상황",
+      "AI 생성 툴이 역으로 가짜 DAW 세션 로그와 미디 신호를 위조해 인증을 우회하는 상황"
+    ],
+    "actionPlan": [
+      "로직 프로 및 에이블톤 라이브 세션 메타데이터 추출 스크립트 작성",
+      "스템 파일 해시값과 타임스탬프를 묶은 PDF/JSON 규격 소명 증명서 서식 정의",
+      "Tidal 및 음원 유통사 규정 위반 오탐 경험이 있는 인디 프로듀서 10명 심층 인터뷰",
+      "작곡 포럼에 DAW 전용 인증 플러그인 알파 테스트 신청 페이지 공개"
+    ],
+    "recommendation": "Tidal의 2,900만 곡 삭제 조치로 즉각적인 시장 공포와 니즈가 형성된 점은 매우 유리합니다. 다만 플랫폼이 민간 인증을 공식 소명 자료로 채택해주지 않으면 실효성이 떨어지므로 인디 유통사(Distributor)와의 선제적 파트너십 구축이 성패를 가릅니다.",
+    "searchQuery": "music provenance daw verification",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "hackernews:50630309",
+        "title": "Tidal bans AI-generated music",
+        "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924"
+      },
+      {
+        "clusterId": "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+        "title": "Where scientists draw the line on AI agents",
+        "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      {
+        "clusterId": "hackernews:50627836",
+        "title": "Anthropic breaks below $83 IPO price",
+        "url": "https://bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading"
+      },
+      {
+        "clusterId": "hackernews:50637220",
+        "title": "The matrix multiplication exponent is nine fourths [pdf]",
+        "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf"
+      },
+      {
+        "clusterId": "hackernews:50635246",
+        "title": "New York Ban AI Toys for 5 Years",
+        "url": "https://governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+      },
+      {
+        "clusterId": "openai:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+      },
+      {
+        "clusterId": "hackernews:50638320",
+        "title": "Gemini refused to give me the lyrics to Twinkle Twinkle Little Star",
+        "url": "https://comentr.com/technology/01M88DWQ0R4NCMYR17AFEWRG1F"
+      },
+      {
+        "clusterId": "hackernews:50627340",
+        "title": "LLM agents work for their parent companies, not for you",
+        "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you"
+      },
+      {
+        "clusterId": "hackernews:50637056",
+        "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+        "url": "https://greydanus.github.io/2026/11/12/pengpt"
+      },
+      {
+        "clusterId": "hackernews:50638220",
+        "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+        "url": "https://marginalia.nu/log/a_141_marginalia_update"
+      },
+      {
+        "clusterId": "hackernews:50631210",
+        "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+        "url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist"
+      },
+      {
+        "clusterId": "hackernews:50644980",
+        "title": "The polynomial Hirsch conjecture is false [pdf]",
+        "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf"
+      },
+      {
+        "clusterId": "hackernews:50637871",
+        "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+        "url": "https://proofatlas.ai/open-problems"
+      },
+      {
+        "clusterId": "hackernews:50638070",
+        "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
+        "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas"
+      },
+      {
+        "clusterId": "hackernews:50632756",
+        "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+        "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026"
+      }
+    ]
+  }
+}
