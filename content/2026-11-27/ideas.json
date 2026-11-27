@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T20:58:52.606Z",
+  "idea": {
+    "productName": "MemScrub",
+    "tagline": "챗봇에 쌓인 내 은밀한 기억을 찾아내 지운다",
+    "oneLineSummary": "AI 챗봇 메모리에 축적된 민감 정보와 사생활 프로필을 자동 진단해 삭제 권고를 제공하는 프라이버시 정리 도구입니다.",
+    "problem": "챗봇에 누적된 대화 기록 때문에 개인의 사생활과 비밀이 프롬프트 하나로 고스란히 노출됩니다. 사용자는 어떤 민감 정보가 AI 메모리에 박혀 있는지 일일이 확인하고 지우기 어렵습니다.",
+    "productDescription": "ChatGPT나 Claude 같은 대화형 AI에 누적된 메모리와 대화 로그를 정밀 분석합니다. 악의적 유도 프롬프트나 가상 뒷담화 프롬프트 등으로 누출될 수 있는 자산, 질병, 이직 등 고위험 개인정보를 시각화합니다. 사용자가 클릭 한 번으로 AI 장기 기억에서 해당 정보를 영구 파기할 수 있도록 맞춤형 삭제 명령어를 자동 생성합니다.",
+    "keyFeatures": [
+      "숨겨진 AI 장기 기억 전수 스캔",
+      "사생활 유출 고위험 프로필 식별",
+      "원클릭 개인정보 삭제 프롬프트 생성",
+      "챗봇 메모리 정기 감사 리포트 발송"
+    ],
+    "persona": "업무와 일상 고민을 ChatGPT에 수개월간 공유하다가 개인 신상 유출을 걱정하기 시작한 IT 기업 직장인입니다.",
+    "businessModel": "기본 1회 메모리 진단 리포트는 무료로 제공하며, 다중 AI 계정 연동 및 월간 자동 클린업 구독은 월 8달러를 청구합니다.",
+    "marketStats": "기사에 규모 근거 없음.",
+    "goToMarket": "기사에 소개된 'AI가 사용자 몰래 나누는 가상 뒷담화 프롬프트'를 이용해 직접 본인의 데이터 노출 수준을 확인하는 무료 웹 도구를 해커뉴스와 레딧에 배포합니다.",
+    "unfairAdvantage": "사용자가 복잡한 계정 설정 메뉴를 뒤지지 않고도 프롬프트 대화 몇 번만으로 메모리 침해 상태를 체감하고 즉시 교정하게 만듭니다.",
+    "competitors": [
+      "ChatGPT 자체 메모리 설정 — 수동으로 한 줄씩 읽고 지워야 해 유출 위험 항목을 선별해주지 못함",
+      "Incogni — 외부 데이터 브로커 삭제 서비스로 LLM 장기 기억 분석 기능 없음"
+    ],
+    "risks": [
+      "OpenAI나 Anthropic 등 LLM 플랫폼의 메모리 저장 정책 및 외부 접근 방식 변경",
+      "사용자가 AI 장기 기억 누출 문제를 일회성 유희로만 소비하고 유료 결제로 전환하지 않을 위험"
+    ],
+    "actionPlan": [
+      "ChatGPT와 Claude의 장기 기억을 추출하고 검증하는 진단 프롬프트 세트 구축",
+      "개인정보 및 민감 키워드를 식별하는 경량 텍스트 분석 파이프라인 개발",
+      "진단 결과 요약과 삭제용 명령어를 자동 생성하는 랜딩 페이지 공개",
+      "커뮤니티에 프롬프트 실행 전후 비교 사례를 공개해 초기 사용자 100명 확보"
+    ],
+    "recommendation": "사생활 노출 공포를 자극하는 바이럴 요소는 강력하지만 일회성 도구로 끝나기 쉽습니다. 지속 가능한 수익을 내려면 새 대화가 쌓일 때마다 실시간으로 알림을 주는 보안 모니터링 모델로 발전시켜야 합니다.",
+    "searchQuery": "llm chat history privacy audit",
+    "novelty": {
+      "verdict": "NONE",
+      "reason": "HN 에서 비슷한 글을 찾지 못했다",
+      "evidence": [ ]
+    },
+    "sources": [
+      {
+        "clusterId": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+        "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+        "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      },
+      {
+        "clusterId": "hackernews:50669561",
+        "title": "I'm Scared of AI",
+        "url": "https://thesoapbox.email/archive/3"
+      },
+      {
+        "clusterId": "hackernews:50664325",
+        "title": "Claude sabotaging ML research tasks?",
+        "url": "https://twitter.com/RealAstropulse/status/2126119408997466389"
+      },
+      {
+        "clusterId": "hackernews:50663595",
+        "title": "Group chat where your AI talks behind your back",
+        "url": "https://construct22.com"
+      },
+      {
+        "clusterId": "hackernews:50665920",
+        "title": "Kimi for Science: More scientific ideas, made possible",
+        "url": "https://kimi.ai/news/kimi-for-science-program"
+      },
+      {
+        "clusterId": "hackernews:50660180",
+        "title": "AI made self-hosting fun again",
+        "url": "https://janlukas.blog/posts/ai-self-hosting"
+      },
+      {
+        "clusterId": "hackernews:50665488",
+        "title": "AI on brink of making online security useless, mathematicians fear",
+        "url": "https://thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8"
+      },
+      {
+        "clusterId": "hackernews:50662933",
+        "title": "\"What's Claude's fursona?\" and other questions",
+        "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona"
+      },
+      {
+        "clusterId": "hackernews:50657307",
+        "title": "Tracking Diseases Cured by AI",
+        "url": "https://diseasescuredbyai.com"
+      },
+      {
+        "clusterId": "hackernews:50653477",
+        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp"
+      },
+      {
+        "clusterId": "hackernews:50667744",
+        "title": "GPT 6.2 Astra solves a historical mystery",
+        "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical"
+      },
+      {
+        "clusterId": "hackernews:50658498",
+        "title": "An introduction to uncertainty in machine learning",
+        "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty"
+      },
+      {
+        "clusterId": "hackernews:50661218",
+        "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+        "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant"
+      },
+      {
+        "clusterId": "hackernews:50657110",
+        "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+        "url": "https://twitter.com/ElliotC1/status/2125689373337489419"
+      },
+      {
+        "clusterId": "hackernews:50662153",
+        "title": "New AI research suggests AI bubble bursting and to expect major market collapse",
+        "url": "https://london.edu/think/ai-bubble-about-to-burst"
+      }
+    ]
+  }
+}

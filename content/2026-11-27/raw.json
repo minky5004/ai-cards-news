@@ -1,0 +1,707 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026-11-27T20:50:28.052Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": false,
+      "itemCount": 0,
+      "error": "Invalid XML: Error on line 1: Content is not allowed in prolog."
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 2
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 1,
+      "filtered": 1
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 2,
+      "filtered": 0
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 1
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 22,
+      "filtered": 21
+    }
+  ],
+  "clusters": [
+    {
+      "id": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "representativeId": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "source": "huggingface",
+          "publishedAt": "2026-11-26T11:37:17.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50657265",
+          "title": "AMD-specific fork of llama.cpp",
+          "url": "https://devnull.land/amd-specific-llama-cpp",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T17:11:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 429,
+            "comments": 103,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657265"
+          }
+        }
+      ],
+      "score": 5.527147788408724,
+      "breakdown": {
+        "hnPoints": 1.9508346226502633,
+        "hnComments": 0.8757540778173256,
+        "mentions": 0.8333333333333333,
+        "recency": 0.5172257546078021,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "hackernews:50669561",
+      "representativeId": "hackernews:50669561",
+      "items": [
+        {
+          "id": "hackernews:50669561",
+          "title": "I'm Scared of AI",
+          "url": "https://thesoapbox.email/archive/3",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T17:45:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 190,
+            "comments": 212,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50669561"
+          }
+        }
+      ],
+      "score": 5.221864498871898,
+      "breakdown": {
+        "hnPoints": 1.6897559030256242,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.332108595846273,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50664325",
+      "representativeId": "hackernews:50664325",
+      "items": [
+        {
+          "id": "hackernews:50664325",
+          "title": "Claude sabotaging ML research tasks?",
+          "url": "https://twitter.com/RealAstropulse/status/2126119408997466389",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T08:28:08.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 457,
+            "comments": 236,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50664325"
+          }
+        }
+      ],
+      "score": 5.102622407874584,
+      "breakdown": {
+        "hnPoints": 1.9711299331141412,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.9314924747604427,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50663595",
+      "representativeId": "hackernews:50663595",
+      "items": [
+        {
+          "id": "hackernews:50663595",
+          "title": "Group chat where your AI talks behind your back",
+          "url": "https://construct22.com",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T06:44:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 629,
+            "comments": 270,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50663595"
+          }
+        }
+      ],
+      "score": 5.071589642530622,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.8715896425306215,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50665920",
+      "representativeId": "hackernews:50665920",
+      "items": [
+        {
+          "id": "hackernews:50665920",
+          "title": "Kimi for Science: More scientific ideas, made possible",
+          "url": "https://kimi.ai/news/kimi-for-science-program",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T12:03:11.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 173,
+            "comments": 141,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50665920"
+          }
+        }
+      ],
+      "score": 4.86359653974268,
+      "breakdown": {
+        "hnPoints": 1.6597658643079278,
+        "hnComments": 0.9344789981941682,
+        "mentions": 0.0,
+        "recency": 1.0693516772405833,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50660180",
+      "representativeId": "hackernews:50660180",
+      "items": [
+        {
+          "id": "hackernews:50660180",
+          "title": "AI made self-hosting fun again",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T21:47:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 1036,
+            "comments": 490,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
+          }
+        }
+      ],
+      "score": 4.8175673937019345,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6175673937019346,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50665488",
+      "representativeId": "hackernews:50665488",
+      "items": [
+        {
+          "id": "hackernews:50665488",
+          "title": "AI on brink of making online security useless, mathematicians fear",
+          "url": "https://thetimes.com/uk/technology-uk/article/ai-making-online-security-useless-smr73d3n8",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T11:09:04.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 111,
+            "comments": 144,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50665488"
+          }
+        }
+      ],
+      "score": 4.689300003444663,
+      "breakdown": {
+        "hnPoints": 1.5180305120093311,
+        "hnComments": 0.9384211974796635,
+        "mentions": 0.0,
+        "recency": 1.0328482939556678,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50662933",
+      "representativeId": "hackernews:50662933",
+      "items": [
+        {
+          "id": "hackernews:50662933",
+          "title": "\"What's Claude's fursona?\" and other questions",
+          "url": "https://herecomesthemoon.net/2026/11/whats-claudes-fursona",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T04:56:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 136,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50662933"
+          }
+        }
+      ],
+      "score": 4.58542586858461,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.9277197919266458,
+        "mentions": 0.0,
+        "recency": 0.8130827226177438,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50657307",
+      "representativeId": "hackernews:50657307",
+      "items": [
+        {
+          "id": "hackernews:50657307",
+          "title": "Tracking Diseases Cured by AI",
+          "url": "https://diseasescuredbyai.com",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T17:16:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 317,
+            "comments": 192,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657307"
+          }
+        }
+      ],
+      "score": 4.5650575680771395,
+      "breakdown": {
+        "hnPoints": 1.8537611323885028,
+        "hnComments": 0.9923416209593247,
+        "mentions": 0.0,
+        "recency": 0.5189548147293119,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50653477",
+      "representativeId": "hackernews:50653477",
+      "items": [
+        {
+          "id": "hackernews:50653477",
+          "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T09:44:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 416,
+            "comments": 329,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
+          }
+        }
+      ],
+      "score": 4.529161544198377,
+      "breakdown": {
+        "hnPoints": 1.9409581767601338,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.388203367438243,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50667744",
+      "representativeId": "hackernews:50667744",
+      "items": [
+        {
+          "id": "hackernews:50667744",
+          "title": "GPT 6.2 Astra solves a historical mystery",
+          "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T15:03:17.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 165,
+            "comments": 1,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50667744"
+          }
+        }
+      ],
+      "score": 4.175708052550114,
+      "breakdown": {
+        "hnPoints": 1.6446233540402204,
+        "hnComments": 0.13070098600339122,
+        "mentions": 0.0,
+        "recency": 1.2003837125065022,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50658498",
+      "representativeId": "hackernews:50658498",
+      "items": [
+        {
+          "id": "hackernews:50658498",
+          "title": "An introduction to uncertainty in machine learning",
+          "url": "https://chrhenning.com/blog/2026/introduction-to-uncertainty",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T19:04:50.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 138,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50658498"
+          }
+        }
+      ],
+      "score": 3.8413943720165924,
+      "breakdown": {
+        "hnPoints": 1.5875137825668488,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 0.5562555470719497,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50661218",
+      "representativeId": "hackernews:50661218",
+      "items": [
+        {
+          "id": "hackernews:50661218",
+          "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T00:03:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 56,
+            "comments": 28,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50661218"
+          }
+        }
+      ],
+      "score": 3.809368909609588,
+      "breakdown": {
+        "hnPoints": 1.300726216875473,
+        "hnComments": 0.6349429060489095,
+        "mentions": 0.0,
+        "recency": 0.6736997866852055,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50657110",
+      "representativeId": "hackernews:50657110",
+      "items": [
+        {
+          "id": "hackernews:50657110",
+          "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+          "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T16:55:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 60,
+            "comments": 51,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657110"
+          }
+        }
+      ],
+      "score": 3.7794640835590925,
+      "breakdown": {
+        "hnPoints": 1.3225460314932675,
+        "hnComments": 0.7450530918139344,
+        "mentions": 0.0,
+        "recency": 0.5118649602518902,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50662153",
+      "representativeId": "hackernews:50662153",
+      "items": [
+        {
+          "id": "hackernews:50662153",
+          "title": "New AI research suggests AI bubble bursting and to expect major market collapse",
+          "url": "https://london.edu/think/ai-bubble-about-to-burst",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T02:44:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 22,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50662153"
+          }
+        }
+      ],
+      "score": 3.699923903225508,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.5912340079040808,
+        "mentions": 0.0,
+        "recency": 0.746989168613302,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50658093",
+      "representativeId": "hackernews:50658093",
+      "items": [
+        {
+          "id": "hackernews:50658093",
+          "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+          "url": "https://reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T18:28:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 59,
+            "comments": 22,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50658093"
+          }
+        }
+      ],
+      "score": 3.651896630815208,
+      "breakdown": {
+        "hnPoints": 1.3172282417918013,
+        "hnComments": 0.5912340079040808,
+        "mentions": 0.0,
+        "recency": 0.5434343811193254,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50657452",
+      "representativeId": "hackernews:50657452",
+      "items": [
+        {
+          "id": "hackernews:50657452",
+          "title": "'AI' might be the end of our careers",
+          "url": "https://baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T17:29:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 46,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657452"
+          }
+        }
+      ],
+      "score": 3.6109209979790684,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.7259902397577118,
+        "mentions": 0.0,
+        "recency": 0.5232300315132317,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50658910",
+      "representativeId": "hackernews:50658910",
+      "items": [
+        {
+          "id": "hackernews:50658910",
+          "title": "Top-cited AI scientists at four US companies compared",
+          "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T19:44:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 43,
+            "comments": 24,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50658910"
+          }
+        }
+      ],
+      "score": 3.595006811976773,
+      "breakdown": {
+        "hnPoints": 1.217445523292164,
+        "hnComments": 0.606956582861508,
+        "mentions": 0.0,
+        "recency": 0.5706047058231011,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50655798",
+      "representativeId": "hackernews:50655798",
+      "items": [
+        {
+          "id": "hackernews:50655798",
+          "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+          "url": "https://testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T14:38:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 45,
+            "comments": 15,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50655798"
+          }
+        }
+      ],
+      "score": 3.4235412170579593,
+      "breakdown": {
+        "hnPoints": 1.231746497762165,
+        "hnComments": 0.5228039440135649,
+        "mentions": 0.0,
+        "recency": 0.46899077528222943,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "representativeId": "theverge-ai:https://theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+          "title": "Android’s DIY widgets are a bit of vibe-coding fun",
+          "url": "https://theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-27T14:00:00.000Z",
+          "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget. It needs to tell me real-time arrivals for the bus stop near my house. Tapping around on my phone screen to open the right app and […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.0526064273566664,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 1.1526064273566665,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/video-trainium3",
+      "representativeId": "huggingface:https://huggingface.co/blog/video-trainium3",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/video-trainium3",
+          "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+          "url": "https://huggingface.co/blog/video-trainium3",
+          "source": "huggingface",
+          "publishedAt": "2026-11-27T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 2.0222744343568158,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6722744343568157,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+          "title": "Quoting Jack Despain Zhou",
+          "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-26T15:09:31.000Z",
+          "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude . — Jack Despain Zhou , Spitting in the Face of Glaude Tags: ai-misuse , claude , generative-ai , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.528282171863891,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4782821718638912,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+          "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+          "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-26T16:00:00.000Z",
+          "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3940324622246396,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4940324622246398,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "representativeId": "theverge-ai:https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+          "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+          "url": "https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-26T09:54:40.000Z",
+          "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.290773933977522,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.39077393397752197,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "hackernews:50669561",
+    "hackernews:50664325",
+    "hackernews:50663595",
+    "hackernews:50665920"
+  ]
+}
