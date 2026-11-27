@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T03:11:24.360Z",
+  "idea": {
+    "productName": "MetaCleanse",
+    "tagline": "AI 생성 사진 메타데이터를 투명하게 관리합니다",
+    "oneLineSummary": "언론인과 콘텐츠 제작자가 AI가 생성한 사진의 메타데이터를 탐지하고 관리하여 진정성을 확보하는 도구입니다.",
+    "problem": "언론사와 콘텐츠 제작자는 어도비 포토샵 AI 기능으로 인해 사진에 원치 않는 AI 생성 메타데이터가 포함될까 우려합니다. 이는 저널리즘 진정성에 대한 신뢰를 훼손하고 출처 불분명 문제를 야기합니다.",
+    "productDescription": "MetaCleanse는 이미지 파일에 숨겨진 AI 생성 메타데이터를 식별하고 관리하는 데 도움을 줍니다. 사용자는 AI 기능 사용 여부를 투명하게 표시하거나, 특정 메타데이터를 제거하여 파일의 진정성을 유지할 수 있습니다. 이를 통해 언론 윤리 기준을 준수하고 저작권 문제 발생 위험을 줄입니다.",
+    "keyFeatures": [
+      "AI 메타데이터 실시간 감지",
+      "원치 않는 메타데이터 제거",
+      "AI 사용 여부 자동 표기",
+      "대량 이미지 일괄 검수",
+      "저작권 관련 정보 보호"
+    ],
+    "persona": "뉴욕타임스 같은 언론사의 프리랜서 사진기자 또는 뉴스 편집자. 사진의 진정성을 중요하게 여기며, AI 사용으로 인한 윤리적, 법적 문제를 피하고 싶어 합니다.",
+    "businessModel": "월간/연간 구독 모델입니다. 개인 플랜 (월 $9.99), 팀 플랜 (월 $49.99, 최대 5인), 엔터프라이즈 플랜 (맞춤 견적)으로 제공합니다.",
+    "marketStats": "어도비가 포토샵에 \"AI Assisted Editor\" 및 프롬프트 기반 편집 등 다양한 AI 기능을 추가하고 있습니다. 이는 AI 기능 도입이 업계 전반으로 확산되고 있음을 보여주며, 관련 윤리적 문제와 규제 요구가 증가할 시장입니다. 기사에 규모 근거 없음.",
+    "goToMarket": "뉴욕타임스, 더버지 등 AI 관련 윤리적 문제를 제기한 언론사 및 미디어 기업에 직접 연락하여 제품 시연을 제안합니다. 프리랜서 사진작가 커뮤니티, 특히 언론 관련 포럼에 솔루션을 소개하여 초기 고객 100명을 얻습니다.",
+    "unfairAdvantage": "초기 단계에서 NYT의 경고와 같은 구체적인 사례를 통해 시장의 명확한 니즈를 포착했습니다. AI 기술의 확산이 가져올 '부작용'에 집중하여 선제적으로 문제를 해결하는 것이 유리합니다.",
+    "competitors": [
+      "Adobe Photoshop 자체 기능 — 사용자에게 AI 사용 여부 불투명",
+      "Metadata cleaner 소프트웨어 — AI 메타데이터 식별 및 관리 기능 미약",
+      "수동 검수 프로세스 — 시간 소모 크고 오류 발생 가능성 높음"
+    ],
+    "risks": [
+      "Adobe 정책 변화 — AI 메타데이터 관리 방식 변경 또는 노출 의무화",
+      "사용자 인식 부족 — AI 메타데이터의 중요성 간과",
+      "기술적 한계 — 모든 AI 생성 메타데이터 탐지 어려움",
+      "경쟁사 진입 — 대기업이 유사 기능 내재화"
+    ],
+    "actionPlan": [
+      "NYT의 메타데이터 관련 경고 이메일 상세 분석",
+      "어도비 포토샵 AI 기능 사용 시 메타데이터 변화 테스트",
+      "프리랜서 사진작가 5명 인터뷰하여 불편 사항 확인",
+      "MVP 기능 정의 및 프로토타입 개발 시작",
+      "잠재 고객 대상 설문조사 진행"
+    ],
+    "recommendation": "이 아이디어는 어도비 포토샵의 AI 기능 도입이라는 변화의 부작용을 정확히 겨냥합니다. 시장의 니즈는 명확하나, 어도비 자체 기능과의 차별화 및 모든 AI 메타데이터를 정확히 탐지하는 기술적 난이도가 존재합니다. 초기 고객 확보를 위해 언론사와의 협력이 중요합니다.",
+    "searchQuery": "image ai metadata verification",
+    "novelty": {
+      "verdict": "SIMILAR",
+      "reason": "HN 에서 비슷한 글 1건 · 근거는 상위 1건 — 최고 1점으로 크게 화제가 되지는 않았다",
+      "evidence": [
+        {
+          "title": "Show HN: C2PA is broken. I fixed it with an adaptive registry and open protocol",
+          "url": "https://github.com/HumanLemming996/OPP",
+          "points": 1
+        }
+      ]
+    },
+    "sources": [
+      {
+        "clusterId": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+        "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+        "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      },
+      {
+        "clusterId": "hackernews:50647673",
+        "title": "The New York Times warns photographers not to update Photoshop over AI features",
+        "url": "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features"
+      },
+      {
+        "clusterId": "hackernews:50660180",
+        "title": "AI made self-hosting fun again",
+        "url": "https://janlukas.blog/posts/ai-self-hosting"
+      },
+      {
+        "clusterId": "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+        "title": "Where scientists draw the line on AI agents",
+        "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents"
+      },
+      {
+        "clusterId": "hackernews:50657307",
+        "title": "Tracking Diseases Cured by AI",
+        "url": "https://diseasescuredbyai.com"
+      },
+      {
+        "clusterId": "hackernews:50651117",
+        "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+        "url": "https://twitter.com/thsottiaux/status/2125784147889393806"
+      },
+      {
+        "clusterId": "hackernews:50653477",
+        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp"
+      },
+      {
+        "clusterId": "hackernews:50652527",
+        "title": "OpenAI may be in cost control mode",
+        "url": "https://micjm.com/blog/openai-is-in-cost-control-mode"
+      },
+      {
+        "clusterId": "hackernews:50648050",
+        "title": "Much shorter version of GRH Lean verification from Anthropic",
+        "url": "https://github.com/lsernau/grh-lean"
+      },
+      {
+        "clusterId": "hackernews:50657110",
+        "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+        "url": "https://twitter.com/ElliotC1/status/2125689373337489419"
+      },
+      {
+        "clusterId": "hackernews:50648365",
+        "title": "Bare Metal Qwen",
+        "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os"
+      },
+      {
+        "clusterId": "hackernews:50661218",
+        "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+        "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant"
+      },
+      {
+        "clusterId": "hackernews:50658093",
+        "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+        "url": "https://reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into"
+      },
+      {
+        "clusterId": "hackernews:50657452",
+        "title": "'AI' might be the end of our careers",
+        "url": "https://baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers"
+      },
+      {
+        "clusterId": "hackernews:50644980",
+        "title": "The polynomial Hirsch conjecture is false [pdf]",
+        "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf"
+      }
+    ]
+  }
+}

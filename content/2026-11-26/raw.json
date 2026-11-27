@@ -1,0 +1,950 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026-11-27T03:06:42.563Z",
+  "sources": [
+    {
+      "name": "openai",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "google-deepmind",
+      "ok": true,
+      "itemCount": 0
+    },
+    {
+      "name": "huggingface",
+      "ok": true,
+      "itemCount": 4
+    },
+    {
+      "name": "techcrunch-ai",
+      "ok": true,
+      "itemCount": 6,
+      "filtered": 3
+    },
+    {
+      "name": "arstechnica-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 1
+    },
+    {
+      "name": "theverge-ai",
+      "ok": true,
+      "itemCount": 3,
+      "filtered": 1
+    },
+    {
+      "name": "mit-tech-review-ai",
+      "ok": true,
+      "itemCount": 0,
+      "filtered": 0
+    },
+    {
+      "name": "simonwillison",
+      "ok": true,
+      "itemCount": 5
+    },
+    {
+      "name": "hackernews",
+      "ok": true,
+      "itemCount": 27,
+      "filtered": 21
+    }
+  ],
+  "clusters": [
+    {
+      "id": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "representativeId": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "source": "huggingface",
+          "publishedAt": "2026-11-26T11:37:17.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50657265",
+          "title": "AMD-specific fork of llama.cpp",
+          "url": "https://devnull.land/amd-specific-llama-cpp",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T17:11:29.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 295,
+            "comments": 73,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657265"
+          }
+        }
+      ],
+      "score": 5.849335815849049,
+      "breakdown": {
+        "hnPoints": 1.8306964802968717,
+        "hnComments": 0.8115816774297799,
+        "mentions": 0.8333333333333333,
+        "recency": 1.0237243247890642,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "hackernews:50647673",
+      "representativeId": "hackernews:50647673",
+      "items": [
+        {
+          "id": "hackernews:50647673",
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "url": "https://theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+          "source": "hackernews",
+          "publishedAt": "2026-11-25T21:18:02.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 656,
+            "comments": 522,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
+          }
+        },
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/26/hn-50651685",
+          "title": "The New York Times warns photographers not to update Photoshop over AI features",
+          "url": "https://simonwillison.net/2026/Nov/26/hn-50651685",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-26T05:08:46.000Z",
+          "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping and balancing applied but no edits beyond that. He did spend a bunch of time trying to find the best possible natural lighting for the shots he wanted. The photo at the top of https://www.nytimes.com/2026/02/02/technology/moltbook-ai-so... is my laptop, taken in my garden, after hunting around for the best spot that didn't have too much glare on the screen. You can see how dirty my screen is, too! Photography for a newspaper is photo journalism, and they take it seriously. (Thankfully I did not have a visible stain on my shirt.) Tags: photography , new-york-times , hacker-news , journalism",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 5.677115790908532,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.6437824575751991,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50660180",
+      "representativeId": "hackernews:50660180",
+      "items": [
+        {
+          "id": "hackernews:50660180",
+          "title": "AI made self-hosting fun again",
+          "url": "https://janlukas.blog/posts/ai-self-hosting",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T21:47:45.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 372,
+            "comments": 205,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50660180"
+          }
+        }
+      ],
+      "score": 5.327410535969054,
+      "breakdown": {
+        "hnPoints": 1.9050840035080996,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 1.222326532460954,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "representativeId": "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+          "title": "Where scientists draw the line on AI agents",
+          "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+          "source": "huggingface",
+          "publishedAt": "2026-11-25T18:52:55.000Z",
+          "trust": 0.9,
+          "signals": { }
+        },
+        {
+          "id": "hackernews:50658910",
+          "title": "Top-cited AI scientists at four US companies compared",
+          "url": "https://topcitedscientists.com/figures/ai-at-four-us-companies",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T19:44:31.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 22,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50658910"
+          }
+        }
+      ],
+      "score": 5.065643223738303,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.5912340079040808,
+        "mentions": 0.8333333333333333,
+        "recency": 1.1293751557927645,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "hackernews:50657307",
+      "representativeId": "hackernews:50657307",
+      "items": [
+        {
+          "id": "hackernews:50657307",
+          "title": "Tracking Diseases Cured by AI",
+          "url": "https://diseasescuredbyai.com",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T17:16:41.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 305,
+            "comments": 182,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657307"
+          }
+        }
+      ],
+      "score": 5.050841764786487,
+      "breakdown": {
+        "hnPoints": 1.841385800832243,
+        "hnComments": 0.9823093793692524,
+        "mentions": 0.0,
+        "recency": 1.0271465845849912,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50651117",
+      "representativeId": "hackernews:50651117",
+      "items": [
+        {
+          "id": "hackernews:50651117",
+          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+          "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T03:36:58.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 468,
+            "comments": 261,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50651117"
+          }
+        }
+      ],
+      "score": 4.785713622490623,
+      "breakdown": {
+        "hnPoints": 1.9787654769932852,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.6069481454973377,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50653477",
+      "representativeId": "hackernews:50653477",
+      "items": [
+        {
+          "id": "hackernews:50653477",
+          "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T09:44:23.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 260,
+            "comments": 220,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50653477"
+          }
+        }
+      ],
+      "score": 4.7585671293431515,
+      "breakdown": {
+        "hnPoints": 1.7902116739716307,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7683554553715208,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50652527",
+      "representativeId": "hackernews:50652527",
+      "items": [
+        {
+          "id": "hackernews:50652527",
+          "title": "OpenAI may be in cost control mode",
+          "url": "https://micjm.com/blog/openai-is-in-cost-control-mode",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T07:33:12.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 290,
+            "comments": 290,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50652527"
+          }
+        }
+      ],
+      "score": 4.731528705653071,
+      "breakdown": {
+        "hnPoints": 1.8252156160196276,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.7063130896334437,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50648050",
+      "representativeId": "hackernews:50648050",
+      "items": [
+        {
+          "id": "hackernews:50648050",
+          "title": "Much shorter version of GRH Lean verification from Anthropic",
+          "url": "https://github.com/lsernau/grh-lean",
+          "source": "hackernews",
+          "publishedAt": "2026-11-25T21:48:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 548,
+            "comments": 348,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50648050"
+          }
+        }
+      ],
+      "score": 4.685210342449372,
+      "breakdown": {
+        "hnPoints": 2.0,
+        "hnComments": 1.0,
+        "mentions": 0.0,
+        "recency": 0.48521034244937133,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50657110",
+      "representativeId": "hackernews:50657110",
+      "items": [
+        {
+          "id": "hackernews:50657110",
+          "title": "One guy is doing a hunger strike outside Anthropic, currently in his 3rd day",
+          "url": "https://twitter.com/ElliotC1/status/2125689373337489419",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T16:55:15.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 57,
+            "comments": 47,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657110"
+          }
+        }
+      ],
+      "score": 4.249395493897474,
+      "breakdown": {
+        "hnPoints": 1.3063214701146428,
+        "hnComments": 0.7299601056362207,
+        "mentions": 0.0,
+        "recency": 1.01311391814661,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50648365",
+      "representativeId": "hackernews:50648365",
+      "items": [
+        {
+          "id": "hackernews:50648365",
+          "title": "Bare Metal Qwen",
+          "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+          "source": "hackernews",
+          "publishedAt": "2026-11-25T22:15:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 228,
+            "comments": 57,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50648365"
+          }
+        }
+      ],
+      "score": 4.207593667854283,
+      "breakdown": {
+        "hnPoints": 1.7481313485845587,
+        "hnComments": 0.7656438920523007,
+        "mentions": 0.0,
+        "recency": 0.49381842721742375,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50661218",
+      "representativeId": "hackernews:50661218",
+      "items": [
+        {
+          "id": "hackernews:50661218",
+          "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+          "source": "hackernews",
+          "publishedAt": "2026-11-27T00:03:18.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 13,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50661218"
+          }
+        }
+      ],
+      "score": 4.192752910118012,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.4976250423777937,
+        "mentions": 0.0,
+        "recency": 1.333427141032093,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50658093",
+      "representativeId": "hackernews:50658093",
+      "items": [
+        {
+          "id": "hackernews:50658093",
+          "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+          "url": "https://reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T18:28:30.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 50,
+            "comments": 20,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50658093"
+          }
+        }
+      ],
+      "score": 4.1146210549430915,
+      "breakdown": {
+        "hnPoints": 1.2649428221093757,
+        "hnComments": 0.5740802179970582,
+        "mentions": 0.0,
+        "recency": 1.075598014836658,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50657452",
+      "representativeId": "hackernews:50657452",
+      "items": [
+        {
+          "id": "hackernews:50657452",
+          "title": "'AI' might be the end of our careers",
+          "url": "https://baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T17:29:28.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 34,
+            "comments": 39,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50657452"
+          }
+        }
+      ],
+      "score": 4.075012452670454,
+      "breakdown": {
+        "hnPoints": 1.1438228524303533,
+        "hnComments": 0.6955812494409277,
+        "mentions": 0.0,
+        "recency": 1.0356083507991731,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50644980",
+      "representativeId": "hackernews:50644980",
+      "items": [
+        {
+          "id": "hackernews:50644980",
+          "title": "The polynomial Hirsch conjecture is false [pdf]",
+          "url": "https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf",
+          "source": "hackernews",
+          "publishedAt": "2026-11-25T17:34:34.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 178,
+            "comments": 49,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50644980"
+          }
+        }
+      ],
+      "score": 4.018866766861402,
+      "breakdown": {
+        "hnPoints": 1.6688803252100854,
+        "hnComments": 0.7376575688648993,
+        "mentions": 0.0,
+        "recency": 0.41232887278641706,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50655798",
+      "representativeId": "hackernews:50655798",
+      "items": [
+        {
+          "id": "hackernews:50655798",
+          "title": "Testers think they're hitting Claude Opus 5.6 through an Opus 5.5 Extra route",
+          "url": "https://testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T14:38:57.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 36,
+            "comments": 9,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50655798"
+          }
+        }
+      ],
+      "score": 3.7241347565030836,
+      "breakdown": {
+        "hnPoints": 1.1617007267081247,
+        "hnComments": 0.4341792774341453,
+        "mentions": 0.0,
+        "recency": 0.9282547523608131,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50651552",
+      "representativeId": "hackernews:50651552",
+      "items": [
+        {
+          "id": "hackernews:50651552",
+          "title": "Claude tries to sabotage research work at every stage",
+          "url": "https://twitter.com/skirano/status/2125371115979641188",
+          "source": "hackernews",
+          "publishedAt": "2026-11-26T04:49:21.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 48,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50651552"
+          }
+        }
+      ],
+      "score": 3.598516431953658,
+      "breakdown": {
+        "hnPoints": 1.2520723477820035,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 0.6358096311182444,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50644909",
+      "representativeId": "hackernews:50644909",
+      "items": [
+        {
+          "id": "hackernews:50644909",
+          "title": "New York bans AI toys, including those using internet to talk to children",
+          "url": "https://theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+          "source": "hackernews",
+          "publishedAt": "2026-11-25T17:27:05.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 55,
+            "comments": 14,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50644909"
+          }
+        }
+      ],
+      "score": 3.4160196577658004,
+      "breakdown": {
+        "hnPoints": 1.295031927479749,
+        "hnComments": 0.5106344530534098,
+        "mentions": 0.0,
+        "recency": 0.41035327723264126,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "hackernews:50646357",
+      "representativeId": "hackernews:50646357",
+      "items": [
+        {
+          "id": "hackernews:50646357",
+          "title": "Migrating Our Messages API to Rust",
+          "url": "https://anthropic.com/research/migrating-api-to-rust",
+          "source": "hackernews",
+          "publishedAt": "2026-11-25T19:33:10.000Z",
+          "trust": 0.8,
+          "signals": {
+            "points": 31,
+            "comments": 10,
+            "discussionUrl": "https://news.ycombinator.com/item?id=50646357"
+          }
+        }
+      ],
+      "score": 3.212083892045911,
+      "breakdown": {
+        "hnPoints": 1.1149929226479118,
+        "hnComments": 0.4521511235672025,
+        "mentions": 0.0,
+        "recency": 0.4449398458307967,
+        "sourceTrust": 1.2000000000000002
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+          "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-25T17:35:58.000Z",
+          "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+          "trust": 0.6,
+          "signals": { }
+        },
+        {
+          "id": "theverge-ai:https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+          "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+          "url": "https://theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-26T09:54:40.000Z",
+          "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S. accounts - […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 2.506776608619669,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.8333333333333333,
+        "recency": 0.7734432752863358,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+          "title": "Quoting Jack Despain Zhou",
+          "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-26T15:09:31.000Z",
+          "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensibly serious credentials attached to ostensibly serious institutions who want to publish things attached to their reputations and mine, and I see Claude . — Jack Despain Zhou , Spitting in the Face of Glaude Tags: ai-misuse , claude , generative-ai , ai , llms",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.9966448433552602,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9466448433552603,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "representativeId": "huggingface:https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "source": "huggingface",
+          "publishedAt": "2026-11-26T05:05:36.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.9924753782523374,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6424753782523374,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "huggingface:https://huggingface.co/blog/training-swarms",
+      "representativeId": "huggingface:https://huggingface.co/blog/training-swarms",
+      "items": [
+        {
+          "id": "huggingface:https://huggingface.co/blog/training-swarms",
+          "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+          "url": "https://huggingface.co/blog/training-swarms",
+          "source": "huggingface",
+          "publishedAt": "2026-11-26T00:00:00.000Z",
+          "trust": 0.9,
+          "signals": { }
+        }
+      ],
+      "score": 1.8780513402325645,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5280513402325645,
+        "sourceTrust": 1.35
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+          "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+          "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-26T16:00:00.000Z",
+          "summary": "On the same day that Anthropic entered the public market, a painstakingly human video game became one of most successful entertainment launches of all time.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.8778187654214873,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.9778187654214874,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+          "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+          "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-26T06:08:25.000Z",
+          "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk you are plain out of luck. sqlite3_rsync can copy a snapshot of your database over an SSH connection to another machine, without first needing to create a full local copy! It's also good for synchronizing an existing copy of a database without re-transmitting the entire thing over the network. It works in a similar way to regular rsync: The core idea behind the protocol is that the replica sends cryptographic hashes for pages or groups of pages over to the origin side. The origin sends back page content that differs, or requests finer-grain hashes if a multi-page hash does not match. If the origin and replica start out being vastly different, the total network bandwidth can exceed the size of the entire database, due to the overhead of exchanging hashes, but the excess bandwidth is not great - a few percent at most. Update : Hah! Turns out I wrote about this application of sqlite_rsync back in October 2024 when the tool was first released. Tags: backups , sqlite",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.7189065845394516,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.6689065845394517,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/25/scott-aaronson",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/25/scott-aaronson",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/25/scott-aaronson",
+          "title": "Quoting Scott Aaronson",
+          "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-25T23:26:32.000Z",
+          "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved. — Scott Aaronson Tags: mathematics , llms , ai , generative-ai",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.5668302629240052,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.5168302629240054,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "simonwillison:https://simonwillison.net/2026/Nov/25/datasette-charts",
+      "representativeId": "simonwillison:https://simonwillison.net/2026/Nov/25/datasette-charts",
+      "items": [
+        {
+          "id": "simonwillison:https://simonwillison.net/2026/Nov/25/datasette-charts",
+          "title": "datasette-charts 0.3a0",
+          "url": "https://simonwillison.net/2026/Nov/25/datasette-charts",
+          "source": "simonwillison",
+          "publishedAt": "2026-11-25T18:16:50.000Z",
+          "summary": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build annotated charts for you. Here's what I got on the agent.datasette.io demo for this prompt: Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations Tags: datasette , visualization , datasette-charts",
+          "trust": 0.7,
+          "signals": { }
+        }
+      ],
+      "score": 1.473667155776155,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.423667155776155,
+        "sourceTrust": 1.0499999999999998
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "representativeId": "theverge-ai:https://theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+          "title": "Google’s patent for custom AI video feeds paints a bleak picture of entertainment’s future",
+          "url": "https://theverge.com/entertainment/1042221/google-my-channel-ai-video-patent",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-25T21:51:26.000Z",
+          "summary": "Last year, Google filed a patent for a system called My Channel that's designed to create feeds filled with personalized, AI-generated videos and advertisements based on information the company knows about its users. The patent has been rejected, but unfortunately, Google might appeal or resubmit an amended version, and we could see this monstrosity come […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.386228680371666,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.486228680371666,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+          "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-25T20:03:27.000Z",
+          "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3536722529953489,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4536722529953489,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+          "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-25T19:44:24.000Z",
+          "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3481592695104823,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4481592695104823,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+          "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-25T18:11:46.000Z",
+          "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.3222917117937807,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.4222917117937808,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "theverge-ai:https://theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "representativeId": "theverge-ai:https://theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "items": [
+        {
+          "id": "theverge-ai:https://theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+          "title": "Nothing offers a full look at its AI earbuds and charging case",
+          "url": "https://theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+          "source": "theverge-ai",
+          "publishedAt": "2026-11-25T16:00:59.000Z",
+          "summary": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone-equipped case comes with a \"Talk\" button that you […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.2882926107902541,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3882926107902541,
+        "sourceTrust": 0.8999999999999999
+      }
+    },
+    {
+      "id": "techcrunch-ai:https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+      "representativeId": "techcrunch-ai:https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+      "items": [
+        {
+          "id": "techcrunch-ai:https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+          "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+          "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it",
+          "source": "techcrunch-ai",
+          "publishedAt": "2026-11-25T15:41:43.000Z",
+          "summary": "⁠Nvidia has made clear⁠ it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck. ⁠Anita Verma-Lallian⁠ has been selling exactly that. […]",
+          "trust": 0.6,
+          "signals": { }
+        }
+      ],
+      "score": 1.2835207796290007,
+      "breakdown": {
+        "hnPoints": 0.0,
+        "hnComments": 0.0,
+        "mentions": 0.0,
+        "recency": 0.3835207796290007,
+        "sourceTrust": 0.8999999999999999
+      }
+    }
+  ],
+  "selectedIds": [
+    "huggingface:https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "hackernews:50647673",
+    "hackernews:50660180",
+    "huggingface:https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+    "hackernews:50657307"
+  ]
+}
